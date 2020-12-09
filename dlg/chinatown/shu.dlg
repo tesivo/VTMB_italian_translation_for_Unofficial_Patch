@@ -1,83 +1,83 @@
-{	1	}{	HEY! What the hell do you think you're doing? That's my locker, sucka!	}{	HEY! What the hell do you think you're doing? That's my locker, hooker!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Boo.	}{	Boo.	}{	71	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	Obviously, there's been a misunderstanding. Thought it was mine, apologies.	}{	Obviously, there's been a misunderstanding. Thought it was mine, apologies.	}{	11	}{	Persuasion 5 & (pc.humanity >= 5 and not IsClan(pc,"Nosferatu"))	}{	}{	}{	}{	}{	}{	}{	}{	It is mine, no... it is my mistake. Misunderstanding.	}
-{	4	}{	And I was looking through it.... You got a problem, do something about it.	}{	And I was looking through it.... You got a problem, do something about it.	}{	21	}{	Intimidate 5 & not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	It sure is. And I'm exploring it.	}
-{	5	}{	It's all a dream. Sleep....	}{	It's all a dream. Sleep....	}{	31	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	It's all a dream. Sleep....	}
-{	6	}{	Even the fattest frogs have to return to the water - ribbit, ribbit....	}{	Even the fattest frogs have to return to the water - ribbit, ribbit....	}{	41	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	Even the fattest frogs have to return to the water - ribbit, ribbit....	}
-{	7	}{	So?	}{	So?	}{	51	}{	Humanity 5 & not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Yes?	}
-{	8	}{	If you value your life, turn around and walk away.	}{	If you value your life, turn around and walk away.	}{	21	}{	Humanity -5 & not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Walk away, froggie, just walk away.	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	No misunderstanding! I saw you! What the hell did you put in my locker? You know who I am, huh? You want to die, sucka?	}{	No misunderstanding! I saw you! What the hell did you put in my locker? You know who I am, huh? You want to die, hooker?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Calm down. It's nothing, a simple mistake. I apologize, alright?	}{	Calm down. It's nothing, a simple mistake. I apologize, alright?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stop jumping around so much, frog.	}
-{	13	}{	Okay.... Don't you think you may be overreacting just a tad?	}{	Okay.... Don't you think you may be overreacting just a tad?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Okay.... Don't you think you may be overreacting just a tad?	}
-{	14	}{	No, you don't know who YOU are dealing with, asshole.	}{	No, you don't know who YOU are dealing with, asshole.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I already know death, are you interested in learning more?	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Ha! Oh yeah? I'm crazy, sucka! I'll kill you, I don't care!	}{	Ha! Oh yeah?! I'm crazy, hooker! I'll kill you - I don't care!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Me neither. Bring it on, fat boy.	}{	Me neither. Bring it on, fat boy.	}{	0	}{	Humanity 5	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Ah, here comes Darwinism at its finest.	}
-{	23	}{	Damn it! Now you've pissed me off.... Arrrgh!	}{	Damn it! Now you've pissed me off.... Arrrgh!	}{	0	}{	Humanity -5	}{	pc.FrenzyTrigger()	}{	}{	}{	}{	}{	}{	}{	My animal awakens, frog.... ARRGH!	}
-{	24	}{	I'm going, okay? Just let it go and you won't get hurt.	}{	I'm going, okay? Just let it go and you won't get hurt.	}{	61	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Hop away and live to hop another day.	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	I'm crazy, sucka! I'll... I'll gonna... close my eyes, sucka....	}{	I'm crazy, hooker! I'll... I'll gonna... close my eyes, hooker....	}{	#	}{	npc.SetDisposition("Neutral", 3)	}{	G.Shu_Sleep = 1; pc.SetQuest("Ox",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Sucka, I'll... I'll.... [Frog croaking]Ribbit, ribbit, ribbit!	}{	Hooker, I'll... I'll.... [Frog croaking]Ribbit, ribbit, ribbit!	}{	#	}{	npc.SetDisposition("Neutral", 3)	}{	G.Shu_Frog = 1; pc.SetQuest("Ox",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	So, sucka... you know who I am, huh? Oh man! Know what I do to people messing with my stuff, huh... sucka?!?	}{	So, hooker... you know who I am? Oh man! Know what I do to people messing with my stuff, huh... hooker?!?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	I said I was sorry, geez!	}{	I said I was sorry, geez!	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	You eat everything but apologies, I see.	}
-{	53	}{	I don't know... eat them?	}{	I don't know... eat them?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I don't know... eat them?	}
-{	54	}{	You REALLY want to watch your words around me.	}{	You REALLY want to watch your words around me.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can't win a pissing contest, but I can sure win a face-ripping-off contest.	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Time to teach you a lesson about respecting people's property! Oh, yeah, sucka, you in for it now!	}{	Time to teach you a lesson about respecting people's property! Oh, yeah, hooker, you in for it now!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	It's all a dream. Sleep....	}{	It's all a dream. Sleep....	}{	31	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	It's all a dream. Sleep....	}
-{	63	}{	Even the fattest frogs have to return to the water - ribbit, ribbit....	}{	Even the fattest frogs have to return to the water - ribbit, ribbit....	}{	41	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	Even the fattest frogs have to return to the water - ribbit, ribbit....	}
-{	64	}{	Now, wait a second...	}{	Now, wait a second...	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	In for what?	}
-{	65	}{	Fine, if that's how you want to play this, bring it on!	}{	Fine, if that's how you want to play this, bring it on!	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Ha, ha... finally.	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	...	}{	...	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	npc.SetRelationship("player D_FR 5"); pc.SetQuest("Ox",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	HEY! Cosa cazzo pensi di fare? Quello e' il mio armadietto, idiota!	}{	HEY! Cosa cazzo pensi di fare? Quello e' il mio armadietto, idiota!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Boo.	}{	Boo.	}{	71	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	3	}{	Ovviamente c'e' un malinteso. Pensavo fosse il mio, scusa.	}{	Ovviamente c'e' un malinteso. Pensavo fosse il mio, scusa.	}{	11	}{	Persuasion 5 & (pc.humanity >= 5 and not IsClan(pc,"Nosferatu"))	}{		}{		}{		}{		}{		}{		}{		}{	E' il mio, no... ho sbagliato. Mi sono confuso.	}
+{	4	}{	E ci stavo guardando dentro.... Se hai qualche problema, fai qualcosa.	}{	E ci stavo guardando dentro.... Se hai qualche problema, fai qualcosa.	}{	21	}{	Intimidate 5 & not IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{	Certo. E ci stavo ficcando il naso.	}
+{	5	}{	E' solo un sogno. Dormi....	}{	E' solo un sogno. Dormi....	}{	31	}{	Dominate 3	}{		}{		}{		}{		}{		}{		}{		}{	E' solo un sogno. Dormi....	}
+{	6	}{	Anche le rane piu' grasse devono tornare in acqua - cra, cra....	}{	Anche le rane piu' grasse devono tornare in acqua - cra, cra....	}{	41	}{	Dementation 3	}{		}{		}{		}{		}{		}{		}{		}{	Anche le rane piu' grasse devono tornare in acqua - cra, cra....	}
+{	7	}{	E quindi?	}{	E quindi?	}{	51	}{	Humanity 5 & not IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{	Si'?	}
+{	8	}{	Se ci tieni alla tua vita, gira i tacchi e sparisci.	}{	Se ci tieni alla tua vita, gira i tacchi e sparisci.	}{	21	}{	Humanity -5 & not IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{	Sparisci, ranocchia, sparisci.	}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Nessun malinteso! Ti ho visto! Cosa cazzo ci facevi con le mani nel mio armadietto? Sai chi sono, huh? Vuoi morire, idiota?	}{	Nessun malinteso! Ti ho visto! Cosa cazzo ci facevi con le mani nel mio armadietto? Sai chi sono, huh? Vuoi morire, idiota?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Calmati. Non e' niente, solo un semplice errore. Mi scuso, va bene?	}{	Calmati. Non e' niente, solo un semplice errore. Mi scuso, va bene?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Smettila di saltellare qua e la', rana.	}
+{	13	}{	Okay.... Non credi di esagerare giusto un po'?	}{	Okay.... Non credi di esagerare giusto un po'?	}{	61	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{	Okay.... Non credi di esagerare giusto un po'?	}
+{	14	}{	No, TU non sia con chi hai a che fare, coglione.	}{	No, TU non sia con chi hai a che fare, coglione.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Io gia' la conosco la morte, a te interessa forse saperne di piu'?	}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Ha! Oh, si'? Sono fuori, stronzo! Ti uccidero', non me ne frega!	}{	Ha! Oh, si'? Sono fuori, stronzo! Ti uccidero', non me ne frega!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Figurati a me. Fatti sotto, grassone.	}{	Figurati a me. Fatti sotto, grassone.	}{	0	}{	Humanity 5	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Ah, ecco il Darwinismo nel suo miglior esempio: lotta per la sopravvivenza...	}
+{	23	}{	Maledizione! Ora mi hai fatto incazzare.... Arrrgh!	}{	Maledizione! Ora mi hai fatto incazzare.... Arrrgh!	}{	0	}{	Humanity -5	}{	pc.FrenzyTrigger()	}{		}{		}{		}{		}{		}{		}{	L'animale che e' in me si sveglia, rana.... ARRGH!	}
+{	24	}{	Me ne vado, okay? Lasciami perdere e non ti farai male.	}{	Me ne vado, okay? Lasciami perdere e non ti farai male.	}{	61	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Salta lontano da qui, rana, e vivrai per saltellare ancora un altro giorno.	}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Sono pazzo, stronzo! Io... Io... chiudero' gli occhi, stronzo....	}{	Sono pazzo, puttana! Io... Io... chiudero' gli occhi, puttana....	}{	#	}{	npc.SetDisposition("Neutral", 3)	}{	G.Shu_Sleep = 1; pc.SetQuest("Ox",3)	}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Stronzo, Io... Io.... [gracidio di rana]CRA, CRA, CRA!	}{	Stronzo, Io... Io.... [gracidio di rana]CRA, CRA, CRA!	}{	#	}{	npc.SetDisposition("Neutral", 3)	}{	G.Shu_Frog = 1; pc.SetQuest("Ox",3)	}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	43	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	44	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Allora, stronzo... sai chi sono, huh? Oh amico! Sai cosa combino a chi s'intrufola fra le mie cose, huh... stronzo?!?	}{	Allora, troia... sai chi sono, huh? Oh tesoro! Sai cosa combino a chi s'intrufola fra le mie cose, huh... troia?!?	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Ho chiesto scusa, cretino!	}{	Ho chiesto scusa, cretino!	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vedo, che capisci tutto tranne le scuse.	}
+{	53	}{	Non so... te li mangi?	}{	Non so... te li mangi?	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non so... te li mangi?	}
+{	54	}{	Dovresti PROPRIO stare attento a come parli con me.	}{	Dovresti PROPRIO stare attento a come parli con me.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non vincero' mai una gara di pisciate, ma sicuramente posso vincere un torneo di scuoia-la-faccia.	}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	E' ora di darti una lezione circa il rispetto della proprieta' altrui! Oh, si', stronzo, ora vedrai!	}{	E' ora di darti una lezione circa il rispetto della proprieta' altrui! Oh, si', troia, ora vedrai!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	E' solo un sogno. Dormi....	}{	E' solo un sogno. Dormi....	}{	31	}{	Dominate 3	}{		}{		}{		}{		}{		}{		}{		}{	E' solo un sogno. Dormi....	}
+{	63	}{	Anche le rane piu' grasse devono tornare in acqua - cra, cra....	}{	Anche le rane piu' grasse devono tornare in acqua - cra, cra....	}{	41	}{	Dementation 3	}{		}{		}{		}{		}{		}{		}{		}{	Anche le rane piu' grasse devono tornare in acqua - cra, cra....	}
+{	64	}{	Ora, aspetta un secondo...	}{	Ora, aspetta un secondo...	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Vedro' cosa?	}
+{	65	}{	Bene, se e' cosi' che vuoi giocare, fatti sotto!	}{	Bene, se e' cosi' che vuoi giocare, fatti sotto!	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Ha, ha... finalmente.	}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	...	}{	...	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	npc.SetRelationship("player D_FR 5"); pc.SetQuest("Ox",3)	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	73	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}

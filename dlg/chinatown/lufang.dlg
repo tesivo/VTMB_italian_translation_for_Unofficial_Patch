@@ -1,585 +1,585 @@
-{	1	}{	[Singing drunkenly, happily]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Whey... hm.... Didn't I - ? Hey, whoa - what just happened to my shot? I ordered another shot. What - wh-what happen to it? You - you bring? Bah-tendah. B-b-bah-tendah! My shot!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	No more yanky my wanky - the Fanger need food!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	Bah-tendah: Lu Fang got American history test for you. Who was the president when I order my last drink, huh? Hah, you know?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Sorry, Lu Fang no speak English... when he drunk!	}{	Sorry, Lu Fang no speak English... when he drunk!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Maybe another time.	}{	Maybe another time.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	This seems not the time to share stories. Farewell.	}
-{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	[Drunken, Chinese accent]Let me tell you something - you come closer so can hear - let me tell you something. Kids. Kids don't know nothing.	}{	[Drunken, Chinese accent]Let me tell you something - you come closer so can hear - let me tell you something. Kids. Kids don't know nothing.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Why would you say that?	}{	Why would you say that?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Clarity is the gift of childhood.	}
-{	23	}{	You got that right, old-timer.	}{	You got that right, old-timer.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Young eyes are often blind.	}
-{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	Uh, yeah. Talk to you later, old man.	}{	Uh, yeah. Talk to you later, old man.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Neither do I. Farewell.	}
-{	31	}{	Because... because you see them... you see them running in the street. They do crime, but not... not... not crime not organized! Just thugs! Just... shoot - bang! - and steal. It's just a mess. Not so organized... hmmph.	}{	Because... because you see them... you see them running in the street. They do crime, but not... not... not crime not organized! Just thugs! Just... shoot - bang! - and steal. It's just a mess. Not so organized... hmmph.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	I can see your point.	}{	I can see your point.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Organize... metastasize!	}
-{	33	}{	Whatever you say, old-timer.	}{	Whatever you say, old-timer.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	The sauce has pickled your psyche.	}
-{	34	}{	Is there a point to this, you gin-soaked fossil?	}{	Is there a point to this, you gin-soaked fossil?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	To quote a pencil sharpener, get to the point!	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Yeah - see - you see? You... you see? They crime, they not organized. Messy, ugh. No one can do it no more! Just shoot bang bang whoever. Cop no good. All a mess. Not organized.	}{	Yeah - see - you see? You... you see? They crime, they not organized. Messy, ugh. No one can do it no more! Just shoot bang bang whoever. Cop no good. All a mess. Not organized.	}{	#	}{	}{	G.Lu_Next = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	No more? So you know how it should be done?	}{	No more? So you know how it should be done?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your past is colored in criminal crimson, old wolf.	}
-{	43	}{	And you have the answer?	}{	And you have the answer?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Messy are the corridors of my mind.	}
-{	44	}{	What the hell are you trying to get at?	}{	What the hell are you trying to get at?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Don't waste words, you can't have many of them left at your age.	}
-{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	I... see. You take care, old man.	}{	I... see. You take care, old man.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	51	}{	Pshhh! Lu Fang know! I Lu Fang. Lu Fang, he know.	}{	Pshhh! Lu Fang know! I Lu Fang. Lu Fang, he know.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	How would you know?	}{	How would you know?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	53	}{	What are you saying?	}{	What are you saying?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	54	}{	So you prefer your crime organized, huh?	}{	So you prefer your crime organized, huh?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	The night holds many answers.	}{	The night holds many answers.	}{	66	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	Your words are silly and soaked.	}{	Your words are silly and soaked.	}{	66	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	Crime is a curious conundrum, violent and childlike.	}{	Crime is a curious conundrum, violent and childlike.	}{	66	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	[Hushed]Was, uh - wait, come closer - no say too loud. Was hitman. I kill. Kill good. Lu Fang kill a lot of men.	}{	[Hushed]Was, uh - wait, come closer - no say too loud. Was hitman. I kill. Kill good. Lu Fang kill a lot of men.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	You're not a hitman anymore?	}{	You're not a hitman anymore?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	You no longer hit men?	}
-{	63	}{	Did you work for the Tong?	}{	Did you work for the Tong?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are you a lost child of the Tong?	}
-{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	Whu? Oh! You big philosopher, huh? You know the Confucius? Confucius say, philosopher like backed-up toilet... full of shit![laughs hard, coughs]	}{	Whu? Oh! You big philosopher, huh? You know the Confucius? Confucius say, philosopher like backed-up toilet... full of shit![laughs hard, coughs]	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	I sense on you the secret of many dead souls.	}{	I sense on you the secret of many dead souls.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	No Tong. Back then... back then was the Tong. Not like now, huh! [Rambles in Chinese] Now just kids. Baggy pants. Play video games, ugh. Punk snotnose gangsta want to be gangsta called Tong. Stupid kids. [More Chinese] Watch Scarhead too much.	}{	No Tong. Back then... back then was the Tong. Not like now, huh! [Rambles in Chinese] Now just kids. Baggy pants. Play video games, ugh. Punk snotnose gangsta want to be gangsta called Tong. Stupid kids. [More Chinese] Watch Scarhead too much.	}{	#	}{	}{	G.Lu_Next = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	You're not a hitman anymore?	}{	You're not a hitman anymore?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	You no longer hit men?	}
-{	73	}{	What do you do now?	}{	What do you do now?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	What paths do you walk now, old wolf?	}
-{	74	}{	Did the Tong set you up with a good retirement fund?	}{	Did the Tong set you up with a good retirement fund?	}{	91	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	I hear you. I've got to go now.	}{	I hear you. I've got to go now.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	My shadows darken other domains.	}
-{	81	}{	Retired. Happy retirement Lu Fang! No more work. No more money - shhh. No tell bah-tendah.	}{	Retired. Happy retirement Lu Fang! No more work. No more money - shhh. No tell bah-tendah.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	What do you do for money?	}{	What do you do for money?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Do you have gold, old wolf?	}
-{	83	}{	How do you pay for... your necessities?	}{	How do you pay for... your necessities?	}{	91	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	Got some money. But need more. Got some hidden, cannot get.	}{	Got some money. But need more. Got some hidden, cannot get.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Lu_Next = 3	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Hidden?	}{	Hidden?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ah! Another hidden treasure.	}
-{	93	}{	What do you mean?	}{	What do you mean?	}{	101	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	Interesting. Thanks. I must be going though.	}{	Interesting. Thanks. I must be going though.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	My mind has left. My body follows.	}
-{	101	}{	Lock away. Need two key to get. Lu Fang only have one key.	}{	Lock away. Need two key to get. Lu Fang only have one key.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Where is the other key?	}{	Where is the other key?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is the key to this trove?	}
-{	103	}{	Why is the money locked away?	}{	Why is the money locked away?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why bury your bundle, old wolf?	}
-{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	Lu Fang used to have, umm, pahtnah. Not pahtnah, friend. Lu Fang have friend. Ji Wen Ja. Ji Wen Ja, Lu Fang, friend. Both kill people for money for people. For Tong. Good Tong then, not bad Tong now.	}{	Lu Fang used to have, umm, pahtnah. Not pahtnah, friend. Lu Fang have friend. Ji Wen Ja. Ji Wen Ja, Lu Fang, friend. Both kill people for money for people. For Tong. Good Tong then, not bad Tong now.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	I see.	}{	I see.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ah! Two wolves in this precarious pack.	}
-{	113	}{	What happened?	}{	What happened?	}{	121	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	One time, man need killed. Man very hard to kill. Take both Lu Fang and Ji Wen Ja to kill man. Pay lot of money to kill man. Money go in safe. Lock with two key. One key, Lu Fang. One key... Ji Wen Ja.	}{	One time, man need killed. Man very hard to kill. Take both Lu Fang and Ji Wen Ja to kill man. Pay lot of money to kill man. Money go in safe. Lock with two key. One key, Lu Fang. One key... Ji Wen Ja.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	What happened then?	}{	What happened then?	}{	141	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	123	}{	Yeah, so what's the problem?	}{	Yeah, so what's the problem?	}{	141	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	How long ago was this?	}{	How long ago was this?	}{	131	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	125	}{	How many sands have fallen through the hourglass?	}{	How many sands have fallen through the hourglass?	}{	126	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	Huh? Ha ha, you been drinking, too? What hourglass have to do with my money, huh? Why, if you cannot handle liquor, then give it to me. I know how to handle liquor.	}{	Huh? Ha ha, you been drinking, too? What hourglass have to do with my money, huh? Why, if you cannot handle liquor, then give it to me. I know how to handle liquor.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	Count the years since this treasure tragedy.	}{	Count the years since this treasure tragedy.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Hmm, 'bout twenty-five years ago.	}{	Hmm, 'bout twenty-five years ago.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	What happened then?	}{	What happened then?	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	How, then, did the tapestry unravel?	}
-{	133	}{	Yeah, so what's the problem?	}{	Yeah, so what's the problem?	}{	141	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Yeah, so what's the problem?	}
-{	134	}{	You know, this isn't the story Ji Wen Ja tells.	}{	You know, this isn't the story Ji Wen Ja tells.	}{	231	}{	G.Ji_Lu > 0	}{	}{	}{	}{	}{	}{	}{	}{	Ji Wen Ja tells a different tale, old wolf.	}
-{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	Things get, uhh, how you say, weird. Yeah. Lu Fang no think he trust Ji Wen Ja. Ji Wen Ja act funny - strange! Lu Fang think Ji Wen Ja want to kill him. Ji Wen Ja get shifty eye, you know? Lu Fang notice. Lu Fang read people very well. Ji Wen Ja, he up to no good.	}{	Things get, uhh, how you say, weird. Yeah. Lu Fang no think he trust Ji Wen Ja. Ji Wen Ja act funny - strange! Lu Fang think Ji Wen Ja want to kill him. Ji Wen Ja get shifty eye, you know? Lu Fang notice. Lu Fang read people very well. Ji Wen Ja, he up to no good.	}{	#	}{	}{	G.Lu_Next = 4	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	You can't talk to him?	}{	You can't talk to him?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you trade words with Ji Wen Ja?	}
-{	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	144	}{	So you want Ji Wen Ja's key?	}{	So you want Ji Wen Ja's key?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	So you want your treasure key?	}
-{	145	}{	You know, this isn't the story Ji Wen Ja tells.	}{	You know, this isn't the story Ji Wen Ja tells.	}{	231	}{	G.Ji_Lu > 0	}{	}{	}{	}{	}{	}{	}{	}{	Ji Wen Ja tells a different tale, old wolf.	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	Great story. I've got to go now.	}{	Great story. I've got to go now.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	151	}{	No, we grow apart after that. No more friends, uyah. Just hitmen. Stay away from each other. No talk.	}{	No, we grow apart after that. No more friends, uyah. Just hitmen. Stay away from each other. No talk.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	So you want Ji Wen Ja's key?	}{	So you want Ji Wen Ja's key?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	So you want your treasure key?	}
-{	153	}{	Where is Ji Wen Ja now?	}{	Where is Ji Wen Ja now?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is the other wolf?	}
-{	154	}{	Is Ji Wen Ja still... working?	}{	Is Ji Wen Ja still... working?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Does Ji Wen Ja still hit men?	}
-{	155	}{	You know, this isn't the story Ji Wen Ja tells.	}{	You know, this isn't the story Ji Wen Ja tells.	}{	231	}{	G.Ji_Lu > 0	}{	}{	}{	}{	}{	}{	}{	}{	Ji Wen Ja tells a different tale, old wolf.	}
-{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	Niyehai! Of course want key! Lu Fang want money.	}{	Niyehai! Of course want key! Lu Fang want money.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	Well, it seems Ji Wen Ja wants your key as well.	}{	Well, it seems Ji Wen Ja wants your key as well.	}{	231	}{	G.Ji_Lu > 0	}{	}{	}{	}{	}{	}{	}{	}{	The other wolf seeks your key.	}
-{	163	}{	Where is Ji Wen Ja now?	}{	Where is Ji Wen Ja now?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is the other wolf?	}
-{	164	}{	Is Ji Wen Ja still... working?	}{	Is Ji Wen Ja still... working?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Does Ji Wen Ja still hit men?	}
-{	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	Ji Wen Ja make phony baloney fortune-tellah boof in marketplace. He no longer hitman, peh! Con man low life, Ji Wen Ja. He keep key on him. Always on lookout for Lu Fang.	}{	Ji Wen Ja make phony baloney fortune-tellah boof in marketplace. He no longer hitman, peh! Con man low life, Ji Wen Ja. He keep key on him. Always on lookout for Lu Fang.	}{	#	}{	}{	G.Lu_Next = 5	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	You got any plans to get the key from him?	}{	You got any plans to get the key from him?	}{	181	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	173	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	174	}{	How are you going to get the money?	}{	How are you going to get the money?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	How will you get this gob of gold?	}
-{	175	}{	I spoke with Ji Wen Ja. He didn't have kind words for you, Lu Fang.	}{	I spoke with Ji Wen Ja. He didn't have kind words for you, Lu Fang.	}{	231	}{	G.Ji_Lu > 0	}{	}{	}{	}{	}{	}{	}{	}{	Ji Wen Ja tells a different tale, old wolf.	}
-{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	That's too bad. I've got to go now.	}{	That's too bad. I've got to go now.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	181	}{	Maybe... maybe YOU can get key from Ji Wen Ja? You kill people. Lu Fang know. Lu Fang can read people very well. Let Lu Fang see you.... Yah, kill people. You kill Ji Wen Ja. No big deal, huh?	}{	Maybe... maybe YOU can get key from Ji Wen Ja? You kill people. Lu Fang know. Lu Fang can read people very well. Let Lu Fang see you.... Yah, kill people. You kill Ji Wen Ja. No big deal, huh?	}{	#	}{	}{	G.Lu_Offer = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	183	}{	I suppose I could.	}{	I suppose I could.	}{	201	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	184	}{	What's in it for me?	}{	What's in it for me?	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	What loot for this liquidation?	}
-{	185	}{	Sorry. I'm not interested in killing old people.	}{	Sorry. I'm not interested in killing old people.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Killing old wolves is not my goblet of Earl Grey.	}
-{	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	Hey! That okay. Eh, don't tell no one though, huh? Heh heh. Yeah, nobody. I was jus-just kidding actually. Heh heh heh. Lu Fang just kidding. Big kidder, ya. No kill no one. Just a stupid kid in a street. Not Lu Fang.	}{	Hey! That okay. Eh, don't tell no one though, huh? Heh heh. Yeah, nobody. I was jus-just kidding actually. Heh heh heh. Lu Fang just kidding. Big kidder, ya. No kill no one. Just a stupid kid in a street. Not Lu Fang.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	What's in it for me if I do this?	}{	What's in it for me if I do this?	}{	201	}{	G.Lu_Offer == 1	}{	}{	}{	}{	}{	}{	}{	}{	What loot for this liquidation?	}
-{	193	}{	Just kidding. I'll do it.	}{	Just kidding. I'll do it.	}{	211	}{	G.Lu_Offer == 1	}{	}{	}{	}{	}{	}{	}{	}{	I will do this dark deed.	}
-{	194	}{	Gotcha. See you around.	}{	Gotcha. See you around.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	I give you money, huh? When Lu Fang get key, pay you twenty percent of hidden money. Lot of money, huh! Just kill Ji Wen Ja and get key.	}{	I give you money, huh? When Lu Fang get key, pay you twenty percent of hidden money. Lot of money, huh! Just kill Ji Wen Ja and get key.	}{	#	}{	}{	pc.SetQuest("Hitman",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	Sure. I'll do it.	}{	Sure. I'll do it.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will do this dark deed.	}
-{	203	}{	Sorry. I'm not interested in killing old people.	}{	Sorry. I'm not interested in killing old people.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Killing old wolves is not my goblet of Earl Grey.	}
-{	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	Alright. Go to Ji Wen Ja in marketplace. Get key with extreme prejudice. I give you twenty percent, lah. And make this secret - good hitman never talk nothing.	}{	Alright. Go to Ji Wen Ja in marketplace. Get key with extreme prejudice. I give you twenty percent, lah. And make this secret - good hitman never talk nothing.	}{	#	}{	}{	G.Lu_Offer = 2; G.Lu_Ji = 1; pc.SetQuest("Hitman",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	Okay. I'll go see Ji Wen Ja.	}{	Okay. I'll go see Ji Wen Ja.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	I go to hunt this crusty old lupine. Farewell.	}
-{	213	}{	I think I already got your key.	}{	I think I already got your key.	}{	401	}{	pc.HasItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	}{	Methinks I found your treasure key already.	}
-{	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	Okay. Bye bye. Shhh. See you around, quiet man.	}{	Okay. Bye bye. Shhh. See you around, quiet lady.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	Bye.	}{	Bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shhh...	}
-{	223	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	Huh? Okay. Don't listen to more of Ji Wen Ja lie. Word like poison to brain.	}{	Huh? Okay. Don't listen to more of Ji Wen Ja lie. Word like poison to brain.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	232	}{	He offered me ten percent to... get your key from you.	}{	He offered me ten percent to... get your key from you.	}{	241	}{	G.Ji_Lu == 1 and G.Lu_Ji != 1	}{	}{	}{	}{	}{	}{	}{	}{	For your key, Ji Wen Ja offered ten percent of his treasure.	}
-{	233	}{	He offered me fifty percent.	}{	He offered me fifty percent.	}{	261	}{	G.Ji_Lu == 3 and G.Lu_Ji != 3	}{	}{	}{	}{	}{	}{	}{	}{	For your key, Ji Wen Ja offered fifty percent of his fortune.	}
-{	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	235	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	Ha ha ha hah! Oh ho ho, so... Ji Wen Ja want to kill Lu Fang, huh? Heh heh. Big surprise. Lazy con man Ji Wen Ja. You... take his word? He fake! He faker, big faker! He lie, he no pay you! Get his key for Lu Fang; Lu Fang pay you twenty percent, you see? Lu Fang, Lu Fang your friend. Twenty percent, ehh!	}{	Ha ha ha hah! Oh ho ho, so... Ji Wen Ja want to kill Lu Fang, huh? Heh heh. Big surprise. Lazy con man Ji Wen Ja. You... take his word? He fake! He faker, big faker! He lie, he no pay you! Get his key for Lu Fang; Lu Fang pay you twenty percent, you see? Lu Fang, Lu Fang your friend. Twenty percent, ehh!	}{	#	}{	}{	G.Lu_Offer = 1; pc.SetQuest("Hitman",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a rendezvous and a reconciliation?	}
-{	243	}{	You got a deal, Lu Fang.	}{	You got a deal, Lu Fang.	}{	211	}{	}{	G.Lu_Offer = 2; G.Lu_Ji = 1	}{	}{	}{	}{	}{	}{	}{	For twenty, I will do this dark deed. Farewell.	}
-{	244	}{	I don't think so, old-timer.	}{	I don't think so, old-timer.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your loot is too low, old wolf.	}
-{	245	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	Thirty percent. You think Ji Wen Ja can afford to pay thirty percent? He need money for child bait. Got to buy the comic book and the video game. Ask him about nephew in bathroom, huh! Do world favor. Kill Ji Wen Ja. I give you forty percent!	}{	Thirty percent. You think Ji Wen Ja can afford to pay thirty percent? He need money for child bait. Got to buy the comic book and the video game. Ask him about nephew in bathroom, huh! Do world favor. Kill Ji Wen Ja. I give you forty percent!	}{	#	}{	}{	pc.SetQuest("Hitman",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a rendezvous and a reconciliation?	}
-{	253	}{	Sounds good to me. I'll be back with the key.	}{	Sounds good to me. I'll be back with the key.	}{	0	}{	}{	G.Lu_Ji = 2	}{	}{	}{	}{	}{	}{	}{	For forty, I will do this dark deed. Farewell.	}
-{	254	}{	I don't think so, old-timer.	}{	I don't think so, old-timer.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your loot is too low, old wolf.	}
-{	255	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	Ji Wen Ja slimy like worm in spaghetti! He pay you in dagger, make direct deposit to you in the back! Lu Fang like you. You kill slimy Ji Wen Ja doggy kisser, seller of sister underwear. I give you sixty percent!	}{	Ji Wen Ja slimy like worm in spaghetti! He pay you in dagger, make direct deposit to you in the back! Lu Fang like you. You kill slimy Ji Wen Ja doggy kisser, seller of sister underwear. I give you sixty percent!	}{	#	}{	}{	pc.SetQuest("Hitman",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a rendezvous and a reconciliation?	}
-{	263	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	371	}{	Wits 4	}{	}{	}{	}{	}{	}{	}{	}{	Two witless old wolves, and I take the lion's share of the loot!	}
-{	264	}{	Deal. One key, comin' up.	}{	Deal. One key, comin' up.	}{	0	}{	}{	G.Lu_Ji = 3	}{	}{	}{	}{	}{	}{	}{	For sixty, I will do this dark deed. Farewell.	}
-{	265	}{	I don't think so, old-timer.	}{	I don't think so, old-timer.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your loot is too low, old wolf.	}
-{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	Ji Wen Ja full of hate and slime! And lies. And love. You know? Bad love. Love for children, love for the kids. Eighty percent Lu Fang offer you. Right thing to do, rid society of Ji Wen Ja menace.	}{	Ji Wen Ja full of hate and slime! And lies. And love. You know? Bad love. Love for children, love for the kids. Eighty percent Lu Fang offer you. Right thing to do, rid society of Ji Wen Ja menace.	}{	#	}{	}{	pc.SetQuest("Hitman",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a rendezvous and a reconciliation?	}
-{	273	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	371	}{	Wits 4	}{	}{	}{	}{	}{	}{	}{	}{	Two witless old wolves, and I take the lion's share of the loot!	}
-{	274	}{	Justice has a price. Eighty percent sounds right. I'll be back.	}{	Justice has a price. Eighty percent sounds right. I'll be back.	}{	0	}{	}{	G.Lu_Ji = 4	}{	}{	}{	}{	}{	}{	}{	For eighty, I will do this dark deed. Farewell.	}
-{	275	}{	I don't think so, old-timer.	}{	I don't think so, old-timer.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your loot is too low, old wolf.	}
-{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	Dat's it then. Why not, huh? Ji Wen Ja lazy opium smoker pervert. You can choose - work with pervert Ji Wen Ja or work with Lu Fang, who like you, he give you eighty percent first.	}{	Dat's it then. Why not, huh? Ji Wen Ja lazy opium smoker pervert. You can choose - work with pervert Ji Wen Ja or work with Lu Fang, who like you, he give you eighty percent first.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	282	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a rendezvous and a reconciliation?	}
-{	283	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	371	}{	Wits 4	}{	}{	}{	}{	}{	}{	}{	}{	Two witless old wolves, and I take the lion's share of the loot!	}
-{	284	}{	You're right, Lu Fang. I'll be right back with Ji's key.	}{	You're right, Lu Fang. I'll be right back with Ji's key.	}{	0	}{	}{	G.Lu_Ji = 4	}{	}{	}{	}{	}{	}{	}{	For eighty, I will do this dark deed. Farewell.	}
-{	285	}{	If you like me so much, give me a ninety percent cut.	}{	If you like me so much, give me a ninety percent cut.	}{	291	}{	Persuasion -7	}{	}{	}{	}{	}{	}{	}{	}{	Ninety would be nicer.	}
-{	286	}{	I don't think so, old-timer.	}{	I don't think so, old-timer.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your loot is too low, old wolf.	}
-{	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	289	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	290	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	291	}{	Pfeh! No can go higher. Lu Fang not crazy. I give you most of money!	}{	Pfeh! No can go higher. Lu Fang not crazy. I give you most of money!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	292	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	Can't you reconcile? You used to be friends and you have so much in common.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a rendezvous and a reconciliation?	}
-{	293	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	Fine by me. You two are just screwing yourselves. And I get the lion's share.	}{	371	}{	Wits 4	}{	}{	}{	}{	}{	}{	}{	}{	Two witless old wolves, and I take the lion's share of the loot!	}
-{	294	}{	You're right, Lu Fang. I'll be right back with Ji's key.	}{	You're right, Lu Fang. I'll be right back with Ji's key.	}{	0	}{	}{	G.Lu_Ji = 4	}{	}{	}{	}{	}{	}{	}{	I will do this dark deed.	}
-{	295	}{	You'll go higher if you know what's good for you.	}{	You'll go higher if you know what's good for you.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your loot is too low, old wolf.	}
-{	296	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	297	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	298	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	299	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	301	}{	Hey! Hello there again, mister. You find that key I was looking for?[makes "wink wink" sound from side of mouth]	}{	Hello there again, lady. You find key I was looking for, hmm?[makes "wink wink" sound from side of mouth]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	302	}{	Sorry, but Ji Wen Ja is offering me a thirty percent cut for your key.	}{	Sorry, but Ji Wen Ja is offering me a thirty percent cut for your key.	}{	251	}{	G.Ji_Lu == 2 and G.Ji_Killed != 1 and G.Lu_Ji != 2	}{	}{	}{	}{	}{	}{	}{	}{	For your key, Ji Wen Ja offered thirty percent of his trove.	}
-{	303	}{	I spoke with Ji Wen Ja....	}{	I spoke with Ji Wen Ja....	}{	231	}{	G.Ji_Lu == 3 and G.Ji_Killed != 1 and G.Lu_Ji != 3	}{	}{	}{	}{	}{	}{	}{	}{	I traded words with Ji Wen Ja....	}
-{	304	}{	The key seems to have appreciated in value. Ji offered me seventy percent.	}{	The key seems to have appreciated in value. Ji offered me seventy percent.	}{	271	}{	G.Ji_Lu == 4 and G.Ji_Killed != 1 and G.Lu_Ji != 4	}{	}{	}{	}{	}{	}{	}{	}{	For your key, Ji Wen Ja offered seventy percent of his stash.	}
-{	305	}{	Ji said he'll give me eighty percent for your key.	}{	Ji said he'll give me eighty percent for your key.	}{	281	}{	G.Ji_Lu == 5 and G.Ji_Killed != 1 and G.Lu_Ji != 5	}{	}{	}{	}{	}{	}{	}{	}{	For your key, Ji Wen Ja offered eighty percent of his nest egg.	}
-{	306	}{	I convinced Ji Wen Ja to make peace with you. You two used to be friends.	}{	I convinced Ji Wen Ja to make peace with you. You two used to be friends.	}{	321	}{	G.Ji_Lu == 6 and G.Ji_Killed != 1	}{	}{	}{	}{	}{	}{	}{	}{	I spoke with Ji Wen Ja to heal this wounded wolf pack.	}
-{	307	}{	Ji realized that you both could make more money by working together.	}{	Ji realized that you both could make more money by working together.	}{	371	}{	G.Ji_Lu == 7 and G.Ji_Killed != 1	}{	}{	}{	}{	}{	}{	}{	}{	Ji Wen Ja says two wolves are better than one.	}
-{	308	}{	Yes... yes I did.	}{	Yes... yes I did.	}{	401	}{	G.Ji_Killed == 1	}{	}{	}{	}{	}{	}{	}{	}{	I found your treasure key, old wolf.	}
-{	309	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	310	}{	No, not yet. See ya.	}{	No, not yet. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I've yet to turn up this trinket. Farewell.	}
-{	311	}{	Hello again. Lu Fang glad you back. Uhh... wanted to say that before, Lu Fang, what Lu Fang say - sometime - sometime Lu Fang drink too much, heh. Lu Fang say crazy things, huh?	}{	Hello again. Lu Fang glad you back. Uhh... wanted to say that before, Lu Fang, what Lu Fang say - sometime - sometime Lu Fang drink too much, heh. Lu Fang say crazy things, huh?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	312	}{	You were talking about the Tong before, right? You know about the Tong?	}{	You were talking about the Tong before, right? You know about the Tong?	}{	51	}{	G.Lu_Next == 1	}{	}{	}{	}{	}{	}{	}{	}{	For your key, Ji Wen Ja offered thirty percent of his trove.	}
-{	313	}{	I see.... So you're not a hitman anymore?	}{	I see.... So you're not a hitman anymore?	}{	81	}{	G.Lu_Next == 2	}{	}{	}{	}{	}{	}{	}{	}{	So you hit men no more?	}
-{	314	}{	So, did the Tong set you up with a good retirement fund?	}{	So, did the Tong set you up with a good retirement fund?	}{	91	}{	G.Lu_Next == 2 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	315	}{	You were saying that you had some money... hidden? How so?	}{	You were saying that you had some money... hidden? How so?	}{	101	}{	G.Lu_Next == 3	}{	}{	}{	}{	}{	}{	}{	}{	Where did you bury your bundle, old wolf?	}
-{	316	}{	Yeah, right. Can't you just talk to Ji Wen Ja?	}{	Yeah, right. Can't you just talk to Ji Wen Ja?	}{	151	}{	G.Lu_Next == 4	}{	}{	}{	}{	}{	}{	}{	}{	Can't you trade words with the other old wolf?	}
-{	317	}{	So you want Ji Wen Ja's key?	}{	So you want Ji Wen Ja's key?	}{	161	}{	G.Lu_Next == 4	}{	}{	}{	}{	}{	}{	}{	}{	So you want your treasure key?	}
-{	318	}{	About that money... you got any plans on getting it?	}{	About that money... you got any plans on getting it?	}{	181	}{	G.Lu_Next == 5 and G.Lu_Offer < 1	}{	}{	}{	}{	}{	}{	}{	}{	How will you get your gob of gold?	}
-{	319	}{	It's okay, Lu. If I get the key from Ji, what's in it for me?	}{	It's okay, Lu. If I get the key from Ji, what's in it for me?	}{	201	}{	G.Lu_Offer == 1	}{	}{	}{	}{	}{	}{	}{	}{	What loot if I grab your gold key?	}
-{	320	}{	Okay. I'll talk to you later.	}{	Okay. I'll talk to you later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	321	}{	None of that matter. Too many years between Lu Fang and Ji Wen Ja now.	}{	None of that matter. Too many years between Lu Fang and Ji Wen Ja now.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	322	}{	Surely there's something other than hate between the two of you.	}{	Surely there's something other than hate between the two of you.	}{	331	}{	Persuasion 7 & pc.humanity >= 5	}{	}{	}{	}{	}{	}{	}{	}{	Your bonds cannot be so easily broken.	}
-{	323	}{	There's got to be a solution that won't leave one or both of you dead.	}{	There's got to be a solution that won't leave one or both of you dead.	}{	331	}{	Intimidate 7 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Turn from this road or you both push up rhododendrons.	}
-{	324	}{	So you split the money fifty-fifty; it's still a lot of money, right?	}{	So you split the money fifty-fifty; it's still a lot of money, right?	}{	331	}{	Persuasion 7 & pc.humanity < 5	}{	}{	}{	}{	}{	}{	}{	}{	Bury the hatchet and split this treasure in two.	}
-{	325	}{	You're right. I'll do it for twenty percent. I'll be back with Ji Wen Ja's key.	}{	You're right. I'll do it for twenty percent. I'll be back with Ji Wen Ja's key.	}{	0	}{	G.Lu_Ji == 0 and G.Ji_Lu != 6	}{	G.Lu_Ji = 1	}{	}{	}{	}{	}{	}{	}{	I'll net twenty percent of your nest egg and come back with the key. Farewell.	}
-{	326	}{	You're right. I'll do it for forty percent. I'll be back with Ji Wen Ja's key.	}{	You're right. I'll do it for forty percent. I'll be back with Ji Wen Ja's key.	}{	0	}{	G.Lu_Ji == 1 and G.Ji_Lu != 6	}{	G.Lu_Ji = 2	}{	}{	}{	}{	}{	}{	}{	I'll net forty percent of your nest egg and come back with the key. Farewell.	}
-{	327	}{	You're right. I'll do it for sixty percent. I'll be back with Ji Wen Ja's key.	}{	You're right. I'll do it for sixty percent. I'll be back with Ji Wen Ja's key.	}{	0	}{	G.Lu_Ji == 2 and G.Ji_Lu != 6	}{	G.Lu_Ji = 3	}{	}{	}{	}{	}{	}{	}{	I'll net sixty percent of your nest egg and come back with the key. Farewell.	}
-{	328	}{	You're right. I'll do it for eighty percent. I'll be back with Ji Wen Ja's key.	}{	You're right. I'll do it for eighty percent. I'll be back with Ji Wen Ja's key.	}{	0	}{	G.Lu_Ji == 3 and G.Ji_Lu != 6	}{	G.Lu_Ji = 4	}{	}{	}{	}{	}{	}{	}{	I'll net eighty percent of your nest egg and come back with the key. Farewell.	}
-{	329	}{	Now that you both offer me the same percent, one of you has to die.	}{	Now that you both offer me the same percent, one of you has to die.	}{	391	}{	G.Lu_Ji > 3 and G.Ji_Lu != 6	}{	}{	}{	}{	}{	}{	}{	}{	I'll net the same from your nest egg now, so one of you has to go.	}
-{	330	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	331	}{	Maybe so. Lu Fang not know. How you can trust man? For so long he want to kill Lu Fang. Now different, huh? No! Lu Fang not think so.	}{	Maybe so. Lu Fang not know. How you can trust man? For so long he want to kill Lu Fang. Now different, huh? No! Lu Fang not think so.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	332	}{	You want him dead too. Fair is fair.	}{	You want him dead too. Fair is fair.	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your butchery blinded you both.	}
-{	333	}{	Killing isn't the solution.	}{	Killing isn't the solution.	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Turn from this road of retribution.	}
-{	334	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	335	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	336	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	337	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	338	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	339	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	340	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	341	}{	Maybe so. But you think Lu Fang want dead more people? I get away from, retire. No more.	}{	Maybe so. But you think Lu Fang want dead more people? I get away from, retire. No more.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	342	}{	So make peace.	}{	So make peace.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Offer the olive branch, old wolf.	}
-{	343	}{	I have faith you two can work this out.	}{	I have faith you two can work this out.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Together you will smoke this peace pipe.	}
-{	344	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	345	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	346	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	347	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	348	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	349	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	350	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	351	}{	Uh, you right, sir. Very honorable. Lu Fang want friend, not more blood. I make good all bad blood from all the years. Ji Wen Ja welcome to Lu Fang. I want friend.	}{	You right, lady. Very honorable. Lu Fang want friend and not more blood. I make good all bad blood from all the years. Ji Wen Ja welcome to Lu Fang. I want friend.	}{	#	}{	}{	G.Lu_Ji = 6	}{	}{	}{	}{	}{	}{	}{	}
-{	352	}{	Great.	}{	Great.	}{	361	}{	G.Ji_Lu >= 6	}{	pc.SetQuest("Hitman",8); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Friendship's flower blooms.	}
-{	353	}{	Great.	}{	Great.	}{	361	}{	G.Ji_Lu != 6	}{	pc.SetQuest("Hitman",10)	}{	}{	}{	}{	}{	}{	}{	Friendship's flower blooms.	}
-{	354	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	355	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	356	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	357	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	358	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	359	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	360	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	361	}{	Dojay, uh, thank you! I hope next time you see Lu Fang, Ji Wen Ja there with drink too!	}{	Dojay, uh, thank you! I hope next time you see Lu Fang, Ji Wen Ja there with drink too!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	362	}{	I hope that too.	}{	I hope that too.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cheers to you!	}
-{	363	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	364	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	365	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	366	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	367	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	368	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	369	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	370	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	371	}{	Wha- Wait... wait ummm... [quietly does math to himself, then it dawns on him] You right! Gah - Lu Fang make stupid deal. Stupid to deal with you!	}{	Wha- Wait... wait ummm... [quietly does math to himself, then it dawns on him] You right! Gah - Lu Fang make stupid deal. Stupid to deal with you!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	372	}{	Yeah, why not just work it out with Ji Wen Ja?	}{	Yeah, why not just work it out with Ji Wen Ja?	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a better deal with Ji Wen Ja...?	}
-{	373	}{	No, wait. I'll do it, I was just saying....	}{	No, wait. I'll do it, I was just saying....	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Wait! My tongue twisted too loosely!	}
-{	374	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	375	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	376	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	377	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	378	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	379	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	380	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	381	}{	Lu Fang talk to Ji Wen Ja. Make things right. Or die. Better odds though - better stakes to deal with Ji Wen Ja than you; cold-blooded mercenary math whiz! Sorry!	}{	Lu Fang talk to Ji Wen Ja. Make things right. Or die. Better odds though - better stakes to deal with Ji Wen Ja than you; cold-blooded mercenary math whiz! Sorry!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Lu_Ji = 7	}{	}{	}{	}{	}{	}{	}{	}
-{	382	}{	No problem.	}{	No problem.	}{	0	}{	G.Ji_Lu >= 6	}{	pc.SetQuest("Hitman",8); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	My pleasure!	}
-{	383	}{	No problem.	}{	No problem.	}{	0	}{	G.Ji_Lu < 6	}{	pc.SetQuest("Hitman",10)	}{	}{	}{	}{	}{	}{	}{	My pleasure!	}
-{	384	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	385	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	386	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	387	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	388	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	389	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	390	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	391	}{	Pfft. Lu Fang old, still kick your ass. Kopa gwailo! See you in street, pale face!	}{	Pfft. Lu Fang old, still kick your ass. Kopa gwailo! See you in street, pale face!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Lu_Kickass = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	392	}{	Whatever.	}{	Whatever.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	No ass kicking today.	}
-{	393	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	394	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	395	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	396	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	397	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	398	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	399	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	400	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	401	}{	You make right decision. For you, Lu Fang, all Chinatown. Kids can play in street again without fear! Ji Wen Ja sad tale come to fitting end. Now, you get key?	}{	You make right decision. For you, Lu Fang, all Chinatown. Kids can play in street again without fear! Ji Wen Ja sad tale come to fitting end. Now, you get key?	}{	#	}{	}{	G.Lu_Done = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	402	}{	Oops. I'll be right back.	}{	Oops. I'll be right back.	}{	0	}{	not pc.HasItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	}{	My pockets are pitifully empty. Farewell.	}
-{	403	}{	Here you go, Lu Fang.	}{	Here you go, Lu Fang.	}{	431	}{	pc.HasItem("item_k_hitman_ji_key")	}{	pc.RemoveItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	Here is your treasure key, old wolf.	}
-{	404	}{	Yes... but I want the money first.	}{	Yes... but I want the money first.	}{	411	}{	pc.HasItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	}{	First give me my gold, gramps.	}
-{	405	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	406	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	407	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	408	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	409	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	410	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	411	}{	Lu Fang man of word. Hitman follow code of honor. No contract, no phony-baloney lawyer and judge, just word, huh?. Lu Fang word. Lu Fang get money. Bring back here. You have Lu Fang word.	}{	Lu Fang man of word. Hitman follow code of honor. No contract, no phony-baloney lawyer and judge, just word, huh?. Lu Fang word. Lu Fang get money. Bring back here. You have Lu Fang word.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	412	}{	Okay. Here you go, Lu Fang.	}{	Okay. Here you go, Lu Fang.	}{	431	}{	}{	}{	}{	}{	}{	}{	}{	}{	Here is your treasure key, old wolf.	}
-{	413	}{	Sorry. I need the money upfront.	}{	Sorry. I need the money upfront.	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	First give me my gold, gramps.	}
-{	414	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	415	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	416	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	417	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	418	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	419	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	420	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	421	}{	Well, you come back when change mind. You see? Lu Fang not even get mad. I wait many years for this money. Can wait longer than you for sure!	}{	Well, you come back when change mind. You see? Lu Fang not even get mad. I wait many years for this money. Can wait longer than you for sure!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	422	}{	Okay, fine. Here's the key.	}{	Okay, fine. Here's the key.	}{	431	}{	}{	}{	}{	}{	}{	}{	}{	}{	Here is your treasure key, old wolf.	}
-{	423	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	424	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	425	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	426	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	427	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	428	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	429	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	430	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	431	}{	Haiyah! Two keys together, feel heavy, heavy with weight of many dollar! Lu Fang gonna get new liver - bulletproof liver, with Lu Fang initial in gold! Meet Lu Fang back here tomorrow, huh, for your cut.	}{	Haiyah! Two keys together, feel heavy, heavy with weight of many dollar! Lu Fang gonna get new liver - bulletproof liver, with Lu Fang initial in gold! Meet Lu Fang back here tomorrow, huh, for your cut.	}{	#	}{	}{	G.Lu_Done = 2; pc.SetQuest("Hitman",6); pc.RemoveItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	}
-{	432	}{	Great. See you then.	}{	Great. See you then.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tomorrow we ride this dragon. Farewell.	}
-{	433	}{	You better be here.	}{	You better be here.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	434	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	435	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	436	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	437	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	438	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	439	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	440	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	441	}{	Hey mister hitman, you look tired. Maybe from lugging heavy key around?	}{	Hey lady hitman, you look tired. Maybe from lugging heavy key around?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	442	}{	Oops. I'll be right back.	}{	Oops. I'll be right back.	}{	0	}{	not pc.HasItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	}{	My pockets are pitifully empty. Farewell.	}
-{	443	}{	Okay, fine. Here's the key.	}{	Okay, fine. Here's the key.	}{	431	}{	pc.HasItem("item_k_hitman_ji_key")	}{	pc.RemoveItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	Here is your treasure key, old wolf.	}
-{	444	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	445	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	446	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	447	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	448	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	449	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	450	}{	No. Not yet.	}{	No. Not yet.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	No loot key in these pockets. Farewell.	}
-{	451	}{	There he is! Hero to Chinatown! Here Lu Fang, happy like clam, drunk clam with fistful of blood money! Hah hah! Here, take money, hero! Lu Fang pleasure.	}{	There she is! Hero to Chinatown! Here Lu Fang, happy like clam, drunk clam with fistful of blood money! Ahahahaha! Here, here, take money. Take money, hero! Lu Fang pleasure.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Lu_Done = 3; pc.SetQuest("Hitman",7)	}{	}{	}{	}{	}{	}{	}{	}
-{	452	}{	Thanks, Lu Fang. Peace.	}{	Thanks, Lu Fang. Take care.	}{	0	}{	G.Lu_Ji == 1	}{	pc.MoneyAdd( 240 )	}{	}{	}{	}{	}{	}{	}{	Wallow in your blood bath, old wolf. Farewell.	}
-{	453	}{	Thanks, Lu Fang. Peace.	}{	Thanks, Lu Fang. Take care.	}{	0	}{	G.Lu_Ji == 2	}{	pc.MoneyAdd( 480 )	}{	}{	}{	}{	}{	}{	}{	Wallow in your blood bath, old wolf. Farewell.	}
-{	454	}{	Thanks, Lu Fang. Peace.	}{	Thanks, Lu Fang. Take care.	}{	0	}{	G.Lu_Ji == 3	}{	pc.MoneyAdd( 720 )	}{	}{	}{	}{	}{	}{	}{	Wallow in your blood bath, old wolf. Farewell.	}
-{	455	}{	Thanks, Lu Fang. Peace.	}{	Thanks, Lu Fang. Take care.	}{	0	}{	G.Lu_Ji == 4	}{	pc.MoneyAdd( 960 )	}{	}{	}{	}{	}{	}{	}{	Wallow in your blood bath, old wolf. Farewell.	}
-{	456	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	457	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	458	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	459	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	460	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	461	}{	A toast! Hero of Chinatown! Lu Fang try to get you key to city... but, you know... not really supposed to kill people. Hehehe... shhh!	}{	A toast! Hero of Chinatown! Lu Fang try to get you key to city... but, you know... not really supposed to kill people. Hehehe... shhh!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	462	}{	See ya.	}{	See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	My shadow darkens other domains. Farewell.	}
-{	463	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	464	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	465	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	466	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	467	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	468	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	469	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	470	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	471	}{	[Singing drunkenly]Ah.... Reunited, and good is how it feel! Reunited, and Lu Fang understand.	}{	[Singing drunkenly]Ah.... Reunited, and good is how it feel! Reunited, and Lu Fang understand.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	472	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	473	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	474	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	475	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	476	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	477	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	478	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	479	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	480	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	481	}{	Hello again. Hmm. Look, uh, Lu Fang sorry you lose deal to kill old man. Just business, you understand.	}{	Hello again. Hmm. Look, uh, Lu Fang sorry you lose deal to kill old man. Just business, you understand.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	482	}{	No problem.	}{	No problem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	We don't worry.	}
-{	483	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	484	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	485	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	486	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	487	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	488	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	489	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	490	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	491	}{	[Dumbfounded]Haiyah! Lu Fang not most drunk in bah tonight... but you, you got crazy look in eye! Lu Fang know crazy when he see it. Here's to you, crazy guy! Eh heh... yambooyah![takes a drink]	}{	[Dumbfounded]Haiyah! Lu Fang not most drunk in bah tonight... but you, you got crazy look in eye! Lu Fang know crazy when he see it. Here's to you, crazy girl! Eh heh... yambooyah![takes a drink]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	492	}{	The old wolf soaks his wounds in fire water.	}{	The old wolf soaks his wounds in fire water.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	493	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	494	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	495	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	496	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	497	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	498	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	499	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	500	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	501	}{	[Drunken, Chinese accent]Hey ugly! Ugh! Let me tell you something. You come closer so can hear - ay, phew![gags a little on the smell] Not so close! Eeh stinky, uh! You smell bad as you look, but let me tell you something. Kids. Kids don't know nothing.	}{	[Drunken, Chinese accent]Hey ugly! Ugh! Let me tell you something. You come closer so can hear - ay, phew![gags a little on the smell] Not so close! Eeh stinky, uh! You smell bad as you look, but let me tell you something. Kids. Kids don't know nothing.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	502	}{	Why would you say that?	}{	Why would you say that?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	503	}{	You got that right, old-timer.	}{	You got that right, old-timer.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	504	}{	You better watch what you're saying, old man....	}{	You better watch what you're saying, old man....	}{	511	}{	}{	}{	}{	}{	}{	}{	}{	}{	You better watch what you're saying, old man.	}
-{	505	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	506	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	507	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	508	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	509	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	510	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	511	}{	Huh? No, I no mean no offense. Wait! Maybe if I have more drink, you look better. [takes a big drink]No. Sorry! You still ugly! Ugly like mother-in-law! [laughs hysterically]Hahahaha!	}{	Huh? No, I no mean no offense. Wait! Maybe if I have more drink, you look better. [takes a big drink]No. Sorry! You still ugly! Ugly like mother-in-law! [laughs hysterically]Hahahaha!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	512	}{	Whatever. What were you babbling about before? Something about kids?	}{	Whatever. What were you babbling about before? Something about kids?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	513	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	514	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	515	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	516	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	517	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	518	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	519	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	520	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	521	}{	Something else? You no attention so good? Go do the thing, right?	}{	Something else? You no attention so good? Go do the thing, right?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	522	}{	I think I got your key.	}{	I think I got your key.	}{	401	}{	pc.HasItem("item_k_hitman_ji_key")	}{	}{	}{	}{	}{	}{	}{	}{	Methinks I found your treasure key.	}
-{	523	}{	Not interested.	}{	Not interested.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	This one doesn't care.	}
-{	524	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	525	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	526	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	527	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	528	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	529	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	530	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	531	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	532	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	533	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	534	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	535	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	536	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	537	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	538	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	539	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	540	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	541	}{	Ah! Hello, my friend!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	542	}{	Hello.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	543	}{	Huh? What you doing here?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	544	}{	Lu Fang no talk to you!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	545	}{	Yes.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	546	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	547	}{	Ah! Thank you, my friend.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	548	}{	Heh, what you say?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	549	}{	I don't know.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	550	}{	Lu Fang no help you with that.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	551	}{	Ah! Very good!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	552	}{	Uh, by the way...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	553	}{	This is for you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	554	}{	Lu Fang send you email.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	555	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	556	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	557	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	558	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	559	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	560	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	561	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	562	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	563	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	564	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	565	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	566	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	567	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	568	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	569	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	570	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	571	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	572	}{	(Starting Condition)	}{	}{	521	}{	G.Lu_Kickass == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	573	}{	(Starting Condition)	}{	}{	471	}{	G.Lu_Ji == 6	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	574	}{	(Starting Condition)	}{	}{	481	}{	G.Lu_Ji == 7	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	575	}{	(Starting Condition)	}{	}{	441	}{	G.Lu_Done == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	576	}{	(Starting Condition)	}{	}{	451	}{	G.Lu_Done == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	577	}{	(Starting Condition)	}{	}{	461	}{	G.Lu_Done == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	578	}{	(Starting Condition)	}{	}{	301	}{	G.Lu_Ji > 0 and G.Lu_Done == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	579	}{	(Starting Condition)	}{	}{	311	}{	G.Lu_Next > 0 and G.Lu_Offer < 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	580	}{	(Starting Condition)	}{	}{	501	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	581	}{	(Starting Condition)	}{	}{	491	}{	G.Kiki_Rescued == 1 and G.Lu_Next < 1 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	582	}{	(Starting Condition)	}{	}{	491	}{	G.Ji_Lu > 0 and G.Lu_Next < 1 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	583	}{	(Starting Condition)	}{	}{	21	}{	G.Kiki_Rescued == 1 and G.Lu_Next < 1 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	584	}{	(Starting Condition)	}{	}{	21	}{	G.Ji_Lu > 0 and G.Lu_Next < 1 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	585	}{	(Starting Condition)	}{	}{	11	}{	G.Wong_Zhao < 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	[Cantando con voce da ubriaco, allegramente]	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Whey... hm.... Non sono stato i - ? Hey, whoa - che fine ha fatto il mio drink? Ho ordinato un altro bicchierino. Cosa - c-che fine ha fatto? Me  - me l'hai portato? O-ste. O-o-o-OOSTE! Il mio bicchiere!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	3	}{	Smettila di rompere palle - Fang vuole cibo!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	4	}{	Os-te: Lu Fang ha test di storia Americana per te. Chi era presidente quando io ordinato mio ultimo bicchiere, huh? Hah, lo sai?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Mi dispiace, Lu Fang no parla Inglese... quando ha bevuto!	}{	Mi dispiace, Lu Fang no parla Inglese... quando ha bevuto!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Forse un'altra volta.	}{	Forse un'altra volta.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non mi pare il momento adatto per raccontarsi storielle. Addio.	}
+{	13	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	[Ubriaco con accento Chinese] Lascia me dire una cosa a te - viene vicino di piu' cosi' tu ascoltare - devo dire te una cosa. Ragazzini. Ragazzini non sanno niente.	}{	[Ubriaco con accento Chinese] Lascia me dire una cosa a te - viene vicino di piu' cosi' tu ascoltare - devo dire te una cosa. Ragazzi. Ragazzi non sanno niente.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Perche' dici questo?	}{	Perche' dici questo?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	La chiarezza e' il dono dell'infanzia.	}
+{	23	}{	L'hai detta giusta, vecchio.	}{	L'hai detta giusta, vecchio.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Gli occhi giovani spesso sono ciechi.	}
+{	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{	Uh, yeah. Parleremo piu' tardi vecchio.	}{	Uh, yeah. Parleremo piu' tardi vecchio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Neanch'io. Addio.	}
+{	31	}{	Perche'... perche' tu vede loro... tu vede loro correre in strada. Loro fanno brutte cose, criminali, ma non... non organizzati! Solo teppisti! Solo... sparare - bang! - e rubare. E' confusione. Non organizzati... hmmph.	}{	Perche'... perche' tu vede loro... tu vede loro correre in strada. Loro fanno brutte cose, criminali, ma non... non organizzati! Solo teppisti! Solo... sparare - bang! - e rubare. E' confusione. Non organizzati... hmmph.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Capisco il tuo punto di vista.	}{	Capisco il tuo punto di vista.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Organizzare... metastatizzare!	}
+{	33	}{	Non me ne frega, vecchio.	}{	Non me ne frega, vecchio.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	L'alcol ti ha affogato il cervello.	}
+{	34	}{	Quale sarebbe il punto, fossile inzuppato di gin?	}{	Quale sarebbe il punto, fossile inzuppato di gin?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ci giri intorno come un tempera matite, arriva al punto!	}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Yeah - capisce - tu capisce? Tu... tu capisce? Loro crimine, loro no organizzati. Confusi, ugh. Nessuno puo' fare niente, non piu'! Solo sparo e bang bang dappertutto. Polizia no bene. Niente ordine. No organizzato.	}{	Yeah - capisce - tu capisce? Tu... tu capisce? Loro crimine, loro no organizzati. Confusi, ugh. Nessuno puo' fare niente, non piu'! Solo sparo e bang bang dappertutto. Polizia no bene. Niente ordine. No organizzato.	}{	#	}{		}{	G.Lu_Next = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Non piu'? Dunque tu sapresti come andrebbe fatto?	}{	Non piu'? Dunque tu sapresti come andrebbe fatto?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tuo passato ha il colore rosso criminale, vecchio lupo.	}
+{	43	}{	E hai la risposta?	}{	E hai la risposta?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Confusi sono le strade della mia mente.	}
+{	44	}{	Dove diavolo vuoi arrivare?	}{	Dove diavolo vuoi arrivare?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sprecare le parole, alla tua eta' non te ne restano molte.	}
+{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{	Io...beh... capisco. Riguardati, vecchio.	}{	Io...beh... capisco. Riguardati, vecchio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non restero' qui ancora per molto.	}
+{	51	}{	Pssss! Lu Fang sa! Io Lu Fang. Lu Fang, sa.	}{	Pssss! Lu Fang sa! Io Lu Fang. Lu Fang, sa.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Dove dovresti saperlo?	}{	Dove dovresti saperlo?	}{	61	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	53	}{	Cosa stai dicendo?	}{	Cosa stai dicendo?	}{	61	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	54	}{	Dunque preferisci il tuo crimine organizzato, non e' vero?	}{	Dunque preferisci il tuo crimine organizzato, non e' vero?	}{	61	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	55	}{	La notte ha molte risposte.	}{	La notte ha molte risposte.	}{	66	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{	Le tue parole sono stupide e annacquate.	}{	Le tue parole sono stupide e annacquate.	}{	66	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{	Il crimine e' un enigma curioso, violento e infantile.	}{	Il crimine e' un enigma curioso, violento e infantile.	}{	66	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	[A bassa voce]Me era, uh - aspetta, viene piu' vicino - no troppo forte. Era killer. Io uccidere. Uccidere buono. Lu Fang uccidere molti uomini.	}{	[A bassa voce]Me era, uh - aspetta, viene piu' vicino - no troppo forte. Era killer. Io uccidere. Uccidere buono. Lu Fang uccidere molti uomini.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Non sei piu' un killer?	}{	Non sei piu' un killer?	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non uccidi piu'?	}
+{	63	}{	Lavoravi per i Tong?	}{	Lavoravi per i Tong?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sei uno sperduto dei Tong?	}
+{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{	Chii? Oh! Tu gran filosofo, huh? Sai Confucio? Confucio dice, filosofo come cesso bloccato... pieno di cacca![ride sonoramente, tossisce]	}{	Chii? Oh! Tu gran filosofo, huh? Sai Confucio? Confucio dice, filosofo come cesso bloccato... pieno di cacca![ride sonoramente, tossisce]	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{	Leggo su di te il segreto di molti spiriti deceduti.	}{	Leggo su di te il segreto di molti spiriti deceduti.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	No Tong. Quando... quando me era Tong. Non come ora, huh! Non solo ragazzini. Pantaloni larghi. Video games, ugh. Mocciosi punk volere essere gangster chiamati Tong. Ragazzi stupidi. Guardare troppo Scarhead.	}{	No Tong. Quando... quando me era Tong. Non come ora, huh! Non solo ragazzini. Pantaloni larghi. Video games, ugh. Mocciosi punk volere essere gangster chiamati Tong. Ragazzi stupidi. Guardare troppo Scarhead.	}{	#	}{		}{	G.Lu_Next = 2	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Non sei piu' un killer?	}{	Non sei piu' un killer?	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non fai fuori piu' nessuno?	}
+{	73	}{	Cosa fai ora?	}{	Cosa fai ora?	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quale strada percorri ora, lupo spelacchiato?	}
+{	74	}{	Dunque, i Tong ti hanno mandato in pensione con un bel sacco di soldi?	}{	Dunque, i Tong ti hanno mandato in pensione con un bel sacco di soldi?	}{	91	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{	Ti ho ascoltato, ma ora devo andare.	}{	Ti ho ascoltato, ma ora devo andare.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia ombra oscurera' altri domini.	}
+{	81	}{	Ritirato. Lu Fang ritirato felice! Niente lavoro piu'. Niente soldi piu' - shhh. Tu no dice oste.	}{	Ritirato. Lu Fang ritirato felice! Niente lavoro piu'. Niente soldi piu' - shhh. Tu no dice oste.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	Come fai per i soldi?	}{	Come fai per i soldi?	}{	91	}{		}{		}{		}{		}{		}{		}{		}{		}{	NOn hai denaro, vecchio lupo?	}
+{	83	}{	Come paghi le... tue necessita'?	}{	Come paghi le... tue necessita'?	}{	91	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	Me ha qualche soldo. Ma vuole di piu'. Ha qualche denaro nascosto, non puo' prendere.	}{	Me ha qualche soldo. Ma vuole di piu'. Ha qualche denaro nascosto, non puo' prendere.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Lu_Next = 3	}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Nascosto?	}{	Nascosto?	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ah! Un altro tesoro nascosto.	}
+{	93	}{	Cosa vuoi dire?	}{	Cosa vuoi dire?	}{	101	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{	Interessante. Grazie. Comunque devo andare.	}{	Interesante. Grazie. Comunque devo andare.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia mente mi ha abbandonato. Il mio corpo la segue.	}
+{	101	}{	Cassaforte. Serve due chiavi. Lu Fang ha solo una chiave.	}{	Cassaforte. Serve due chiavi. Lu Fang ha solo una chiave.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Dov'e' l'altra chiave?	}{	Dov'e' l'altra chiave?	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dov'e' la chiave per giungere a questo tesoro?	}
+{	103	}{	Perche' i soldi sono sotto chiave?	}{	Perche' i soldi sono sotto chiave?	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' hai seppelito il tuo tesoro, vecchio lupo?	}
+{	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	Lu Fang aveva, umm, collega. No collega, amico. Lu Fang aveva amico. Ji Wen Ja. Ji Wen Ja, Lu Fang, amici. Loro uccidere persone per soldi per altre persone. Per Tong. Allora Tong buoni, no Tong cattivi come ora.	}{	Lu Fang aveva, umm, collega. No collega, amico. Lu Fang aveva amico. Ji Wen Ja. Ji Wen Ja, Lu Fang, amici. Loro uccidere persone per soldi per altre persone. Per Tong. Allora Tong buoni, no Tong cattivi come ora.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	Capisco.	}{	Capisco.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ah! Due lupi in questo branco incerto.	}
+{	113	}{	Cosa successe?	}{	Cosa successe?	}{	121	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	114	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Una volta, doveva uccidere un uomo. Uomo molto difficile uccidere. Lu Fang e Ji Wen Ja insieme per uccidere uomo. Pagare molti soldi per uccidere uomo. Soldi al sicuro. Cassaforte con due chiavi. Ona chiave, Lu Fang. Una chiave... Ji Wen Ja.	}{	Una volta, doveva uccidere un uomo. Uomo molto difficile uccidere. Lu Fang e Ji Wen Ja insieme per uccidere uomo. Pagare molti soldi per uccidere uomo. Soldi al sicuro. Cassaforte con due chiavi. Ona chiave, Lu Fang. Una chiave... Ji Wen Ja.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Poi cosa accadde?	}{	Poi cosa accadde?	}{	141	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	123	}{	Okay allora, qual'e' il problema?	}{	Okay allora, qual'e' il problema?	}{	141	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	124	}{	Quanto tempo fa successe questo?	}{	Quanto tempo fa successe questo?	}{	131	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	125	}{	Quanta sabbia e' passata finora attraverso la clessidra?	}{	Quanta sabbia e' passata finora attraverso la clessidra?	}{	126	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	126	}{	Huh? Ha ha, anche tu avere bevuto? Cosa fa clessidra con soldi, huh? Se non reggere liquore, tu passa a me. Me sa come usare liquore.	}{	Huh? Ha ha, anche tu avere bevuto? Cosa fa clessidra con soldi, huh? Se non reggere liquore, tu passa a me. Me sa come usare liquore.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	127	}{	Conta gli anni da questa tragedia ad ora.	}{	Conta gli anni da questa tragedia ad ora.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Hmm, circa 35 anni fa.	}{	Hmm, circa 35 anni fa.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	132	}{	Poi cosa successe?	}{	Poi cosa successe?	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Poi, come fu risolto il problema?	}
+{	133	}{	Okay allora, qual'e' il problema?	}{	Okay allora, qual'e' il problema?	}{	141	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{	Okay allora, qual'e' il problema?	}
+{	134	}{	Sai, questa non e' la stessa storia che racconta Ji Wen Ja.	}{	Sai, questa non e' la stessa storia che racconta Ji Wen Ja.	}{	231	}{	G.Ji_Lu > 0	}{		}{		}{		}{		}{		}{		}{		}{	Ji Wen Ja ha riferito una storia differente, vecchio lupastro.	}
+{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{	Cose diventano, uhh, come tu dici, strane. Yeah. Lu Fang non fidare di Ji Wen Ja. Ji Wen Ja agire str - strano! Lu Fang crede Ji Wen Ja vuole uccidere lui. Ji Wen Ja ha sguardo sfuggente, lo sai? Lu Fang avverte. Lu Fang capisce molto bene persone. Ji Wen Ja, preso via non buona.	}{	Cose diventano, uhh, come tu dici, strane. Yeah. Lu Fang non fidare di Ji Wen Ja. Ji Wen Ja agire str - strano! Lu Fang crede Ji Wen Ja vuole uccidere lui. Ji Wen Ja ha sguardo sfuggente, lo sai? Lu Fang avverte. Lu Fang capisce molto bene persone. Ji Wen Ja, preso via non buona.	}{	#	}{		}{	G.Lu_Next = 4	}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{	Non puoi parlarci?	}{	Non puoi parlarci?	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non puoi scambiare qualche parole con Ji Wen Ja?	}
+{	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	144	}{	Dunque vuoi la chiave di Ji Wen Ja?	}{	Dunque vuoi la chiave di Ji Wen Ja?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dunque vuoi la chiave del tuo tesoro?	}
+{	145	}{	Sai, questa non e' la stessa storia che racconta Ji Wen Ja.	}{	Sai, questa non e' la stessa storia che racconta Ji Wen Ja.	}{	231	}{	G.Ji_Lu > 0	}{		}{		}{		}{		}{		}{		}{		}{	Ji Wen Ja ha riferito una storia differente, vecchio lupastro.	}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{	Magnifica storia. Ora devo andare.	}{	Magnifica storia. Ora devo andare.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non restero' qui ancora per molto.	}
+{	151	}{	No, dopo noi allontanati. Non piu' amici, uh si'. Solo killer. Stare lontano tutti e due. No parlare.	}{	No, dopo noi allontanati. Non piu' amici, uh si'. Solo killer. Stare lontano tutti e due. No parlare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	152	}{	Dunque vuoi la chiave di Ji Wen Ja?	}{	Dunque vuoi la chiave di Ji Wen Ja?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dunque vuoi la chiave del tuo tesoro?	}
+{	153	}{	Dov'e' ora Ji Wen Ja?	}{	Dov'e' ora Ji Wen Ja?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dov'e' l'altro lupo?	}
+{	154	}{	Ji Wen Ja sta ancora... lavorando?	}{	Ji Wen Ja sta ancora... lavorando?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ji Wen Ja uccide ancora?	}
+{	155	}{	Sai, questa non e' la stessa storia che racconta Ji Wen Ja.	}{	Sai, questa non e' la stessa storia che racconta Ji Wen Ja.	}{	231	}{	G.Ji_Lu > 0	}{		}{		}{		}{		}{		}{		}{		}{	Ji Wen Ja ha riferito una storia differente, vecchio lupastro.	}
+{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	161	}{	Niyehai! Certo, vuole chiave lui! Lu Fang vuole soldi.	}{	Niyehai! Certo, vuole chiave lui! Lu Fang vuole soldi.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	162	}{	Bene, sembra che Ji Wen Ja voglia la tua chiave.	}{	Bene, sembra che Ji Wen Ja voglia la tua chiave.	}{	231	}{	G.Ji_Lu > 0	}{		}{		}{		}{		}{		}{		}{		}{	L'altro lupo vuole la tua chiave.	}
+{	163	}{	Dov'e' ora Ji Wen Ja?	}{	Dov'e' ora Ji Wen Ja?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dov'e' l'altro lupo?	}
+{	164	}{	Ji Wen Ja sta ancora... lavorando?	}{	Ji Wen Ja sta ancora... lavorando?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ji Wen Ja uccide ancora?	}
+{	165	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	Ji Wen Ja racconta balle su futuro di persone, in piazza mercato. No piu' killer! Ji Wen Ja truffa uomo depresso. Ha con se' chiave. Si guarda sempre da Lu Fang.	}{	Ji Wen Ja racconta balle su futuro di persone, in piazza mercato. No piu' killer! Ji Wen Ja truffa uomo depresso. Ha con se' chiave. Si guarda sempre da Lu Fang.	}{	#	}{		}{	G.Lu_Next = 5	}{		}{		}{		}{		}{		}{		}{		}
+{	172	}{	Hai qualche piano per sottrargli la chiave?	}{	Hai qualche piano per sottrargli la chiave?	}{	181	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	173	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	174	}{	Come hai intenzione di arrivare al denaro?	}{	Come hai intenzione di arrivare al denaro?	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Come ti occuperai di questa faccenda dei soldi?	}
+{	175	}{	Ho parlato con Ji Wen Ja. Non ha avuto parole particolarmente gentili nei tuoi confronti, Lu Fang.	}{	Ho parlato con Ji Wen Ja. Non ha avuto parole particolarmente gentili nei tuoi confronti, Lu Fang.	}{	231	}{	G.Ji_Lu > 0	}{		}{		}{		}{		}{		}{		}{		}{	Ji Wen Ja ha riferito una storia differente, vecchio lupastro.	}
+{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{	Ma che peccato. Ora devo andare.	}{	Ma che peccato. Ora devo andare.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non restero' qui ancora per molto.	}
+{	181	}{	Forse... forse TU puo' prendere chiave da Ji Wen Ja? Tu uccide persone. Lu Fang sa. Lu Fang riesce a capire persone molto bene. Lascia Lu Fang vede te.... Sssii', tu uccide persone. Uccide Ji Wen Ja. Ottimo affare, non crede?	}{	Forse... forse TU puo' prendere chiave da Ji Wen Ja? Tu uccide persone. Lu Fang sa. Lu Fang riesce a capire persone molto bene. Lascia Lu Fang vede te.... Sssii', tu uccide persone. Uccide Ji Wen Ja. Ottimo affare, non crede?	}{	#	}{		}{	G.Lu_Offer = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	183	}{	Penso che potrei...	}{	Penso che potrei...	}{	201	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	184	}{	Cosa ci guadagno?	}{	Cosa ci guadagno?	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Cosa c'e' per me?	}
+{	185	}{	Mi dispiace. Non sono interessato ad uccidere vecchi.	}{	Mi dispiace. Non sono interessata ad uccidere vecchi.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Uccidere vecchi lupi non sta nel mio calice di Earl Grey.	}
+{	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	Hey! Okay. Eh, no dire a nessuno, va bene? Heh heh. Yeah, nessuno. In realta' me so-solo scherzare. Heh heh heh. Lu Fang solo scherzare. Burlone, si'. No uccide nessuno. Solo bambocci di strada. No Lu Fang.	}{	Hey! Okay. Eh, no dire a nessuno, va bene? Heh heh. Yeah, nessuno. In realta' me stava so-solo scherzando. Heh heh heh. Lu Fang solo scherzare. Burlone, si'. No uccide nessuno. Solo stupido ragazzino in strada. No Lu Fang.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{	Cosa ci guadagno se faccio questo?	}{	Cosa ci guadagno se faccio questo?	}{	201	}{	G.Lu_Offer == 1	}{		}{		}{		}{		}{		}{		}{		}{	Cosa c'e' per me?	}
+{	193	}{	Solo uno scherzo. Lo faro'.	}{	Solo uno scherzo. Lo faro'.	}{	211	}{	G.Lu_Offer == 1	}{		}{		}{		}{		}{		}{		}{		}{	Commettero' quest'atto malefico.	}
+{	194	}{	Afferrato. Ci vediamo in giro.	}{	Afferrato. Ci vediamo in giro.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non restero' qui ancora per molto.	}
+{	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	201	}{	Me dare soldi a te, va bene? Quando Lu Fang ha chiave, da' a te venti percento di soldi nascosti. Molti soldi, huh! Uccide solo Ji Wen Ja e prende chiave.	}{	Me dare soldi a te, va bene? Quando Lu Fang ha chiave, da' a te venti percento di soldi nascosti. Molti soldi, huh! Uccide solo Ji Wen Ja e prende chiave.	}{	#	}{		}{	pc.SetQuest("Hitman",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	Certo. Lo faro'.	}{	Certo. Lo faro'.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Commettero' quest'atto malefico.	}
+{	203	}{	Mi dispiace. Non sono interessato ad uccidere vecchi.	}{	Mi dispiace. Non sono interessata ad uccidere vecchi.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Uccidere vecchi lupi non sta nel mio calice di Earl Grey.	}
+{	204	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	211	}{	Bene. Tu va da Ji Wen Ja in piazza di mercato. Prende chiave con estrema attenzione. Me dare a te venti percento, lah. E tiene tutto segreto - bravi killer mai parlare.	}{	Bene. Tu va da Ji Wen Ja in piazza di mercato. Prende chiave con estrema attenzione. Me dare a te venti percento, lah. E tiene tutto segreto - bravi killer mai parlare.	}{	#	}{		}{	G.Lu_Offer = 2; G.Lu_Ji = 1; pc.SetQuest("Hitman",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	212	}{	Okay. Andro' da Ji Wen Ja.	}{	Okay. Andro' da Ji Wen Ja.	}{	221	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado a stanare questo vecchio cane rabbioso. Ci vediamo.	}
+{	213	}{	Penso di avere gia' la tua chiave.	}{	Penso di avere gia' la tua chiave.	}{	401	}{	pc.HasItem("item_k_hitman_ji_key")	}{		}{		}{		}{		}{		}{		}{		}{	Mmm credo di aver gia' trovato la tua chiave del tesoro.	}
+{	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	221	}{	Okay. A presto. Shhh. Ci vediamo, uomo silenzioso.	}{	Okay. A presto. Shhh. Ci vediamo, donna silenziosa.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	222	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	223	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	225	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	226	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	227	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	228	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	231	}{	Ah si'? Okay. No ascoltare piu' menzogne di Ji Wen Ja. Parole essere come veleno per la mente.	}{	Ah si'? Okay. No ascoltare piu' menzogne di Ji Wen Ja. Parole essere come veleno per la mente.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	232	}{	Mi ha offerto il dieci percento per... sottrarti la chiave.	}{	Mi ha offerto il dieci percento per... sottrarti la chiave.	}{	241	}{	G.Ji_Lu == 1 and G.Lu_Ji != 1	}{		}{		}{		}{		}{		}{		}{		}{	Per la tua chiave, Ji Wen Ja mi ha offerto il dieci percento del suo tesoro.	}
+{	233	}{	Mi ha offerto il cinquanta percento.	}{	Mi ha offerto il cinquanta percento.	}{	261	}{	G.Ji_Lu == 3 and G.Lu_Ji != 3	}{		}{		}{		}{		}{		}{		}{		}{	Per la tua chiave, Ji Wen Ja mi ha offerto il cinquanta percento della sua fortuna.	}
+{	234	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	235	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	241	}{	Ha ha ha hah! Oh ho ho, allora... Ji Wen Ja volere uccidere Lu Fang, non e' vero? Heh heh. Grande sorpresa. Ji Wen Ja uomo pigro e imbroglione. Tu... credere sue parole? Lui truffa! Truffatore, grande truffatore! Lui mentire, no paghera' te! Tu prende sua chiave per Lu Fang; Lu Fang paga te venti percento, capito? Lu Fang, Lu Fang amico tuo. Venti percento, ehh!	}{	Ha ha ha hah! Oh ho ho, allora... Ji Wen Ja volere uccidere Lu Fang, non e' vero? Heh heh. Grande sorpresa. Ji Wen Ja uomo pigro e imbroglione. Tu... credere sue parole? Lui truffa! Truffatore, grande truffatore! Lui mentire, no paghera' te! Tu prende sua chiave per Lu Fang; Lu Fang paga te venti percento, capito? Lu Fang, Lu Fang amico tuo. Venti percento, ehh!	}{	#	}{		}{	G.Lu_Offer = 1; pc.SetQuest("Hitman",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	242	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{		}{		}{		}{		}{		}{		}{		}{	Magari un incontro e una riconciliazione...? No?	}
+{	243	}{	Hai fatto un affare, Lu Fang.	}{	Hai fatto un affare, Lu Fang.	}{	211	}{		}{	G.Lu_Offer = 2; G.Lu_Ji = 1	}{		}{		}{		}{		}{		}{		}{	Per il venti percento, faro' quest'azione malefica. Ci vediamo.	}
+{	244	}{	Non credo, vecchio.	}{	Non credo, vecchio.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua offerta e' troppo bassa, vecchio lupo.	}
+{	245	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	247	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	Trenta percento. Crede Ji Wen Ja puo' permettersi di pagare te trenta percento? Lui serve soldi per adescare bambini. Serve per comprare fumetti e videogames. Chiedigli del nipote nel bagno! Tu fai favore al mondo. Uccidi Ji Wen Ja. Me dare te quaranta percento!	}{	Trenta percento. Crede Ji Wen Ja puo' permettersi di pagare te trenta percento? Lui serve soldi per adescare bambini. Serve per comprare fumetti e videogames. Chiedigli del nipote nel bagno! Tu fai favore al mondo. Uccidi Ji Wen Ja. Me dare te quaranta percento!	}{	#	}{		}{	pc.SetQuest("Hitman",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{		}{		}{		}{		}{		}{		}{		}{	Magari un incontro e una riconciliazione...? No?	}
+{	253	}{	M'intriga. Tornero' con la chiave.	}{	M'intriga. Tornero' con la chiave.	}{	0	}{		}{	G.Lu_Ji = 2	}{		}{		}{		}{		}{		}{		}{	Per il quaranta percento, faro' quest'azione malefica. Ci vediamo.	}
+{	254	}{	Non credo, vecchio.	}{	Non credo, vecchio.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua offerta e' troppo bassa, vecchio lupo.	}
+{	255	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	261	}{	Ji Wen Ja viscido come verme in spaghetti! Paghera' te con pugnalata, piantata direttamente in tua schiena! Lu Fang come te. Tu uccide viscido Ji Wen Ja, bacia cani, venditore di biancheria di sorella. Io dare te sessanta percento!	}{	Ji Wen Ja viscido come verme in spaghetti! Paghera' te con pugnalata, piantata direttamente in tua schiena! Lu Fang come te. Tu uccide viscido Ji Wen Ja, bacia cani, venditore di biancheria di sorella. Io dare te sessanta percento!	}{	#	}{		}{	pc.SetQuest("Hitman",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	262	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{		}{		}{		}{		}{		}{		}{		}{	Magari un incontro e una riconciliazione...? No?	}
+{	263	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	371	}{	Wits 4	}{		}{		}{		}{		}{		}{		}{		}{	Siete due stupidi vecchi lupi. Invece io mi prendero' la fetta piu' grande della torta!	}
+{	264	}{	D'accordo. Una chiave in arrivo...	}{	D'accordo. Una chiave in arrivo...	}{	0	}{		}{	G.Lu_Ji = 3	}{		}{		}{		}{		}{		}{		}{	Per il sessanta, faro' quest'azione malefica. Ci vediamo.	}
+{	265	}{	Non credo, vecchio.	}{	Non credo, vecchio.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua offerta e' troppo bassa, vecchio lupo.	}
+{	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	Ji Wen Ja pieno di odio e bava! E mente. E ama. Tu sapeva? Amore sporco. Amore per bambini, amore per ragazzini. Lu Fang offre te ottanta percento. Cosa giusta da fare, tu libera societa' da pericolo Ji Wen Ja.	}{	Ji Wen Ja pieno di odio e bava! E mente. E ama. Tu sapeva? Amore sporco. Amore per bambini, amore per ragazzini. Lu Fang offre te ottanta percento. Cosa giusta da fare, tu libera societa' da pericolo Ji Wen Ja.	}{	#	}{		}{	pc.SetQuest("Hitman",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	272	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{		}{		}{		}{		}{		}{		}{		}{	Magari un incontro e una riconciliazione...? No?	}
+{	273	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	371	}{	Wits 4	}{		}{		}{		}{		}{		}{		}{		}{	Siete due stupidi vecchi lupi. Invece io mi prendero' la fetta piu' grande della torta!	}
+{	274	}{	La giustizia ha un prezzo. Un ottanta percento mi sta bene. Tornero' piu' tardi.	}{	La giustizia ha un prezzo. Un ottanta percento mi sta bene. Tornero' piu' tardi.	}{	0	}{		}{	G.Lu_Ji = 4	}{		}{		}{		}{		}{		}{		}{	Per un ottanta percento, faro' quest'azione malefica. Ci vediamo.	}
+{	275	}{	Non credo, vecchio.	}{	Non credo, vecchio.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua offerta e' troppo bassa, vecchio lupo.	}
+{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{	Vede tu allora. Perche' no, huh? Ji Wen Ja pigro fumatore di oppio pervertito. Tu puo' scegliere - lavora con pervertito Ji Wen Ja o lavora con Lu Fang, tu piace a lui, lui da a te ottanta percento.	}{	Vede tu allora. Perche' no, huh? Ji Wen Ja pigro fumatore di oppio pervertito. Tu puo' scegliere - lavora con pervertito Ji Wen Ja o lavora con Lu Fang, tu piace a lui, lui da a te ottanta percento.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	282	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{		}{		}{		}{		}{		}{		}{		}{	Magari un incontro e una riconciliazione...? No?	}
+{	283	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	371	}{	Wits 4	}{		}{		}{		}{		}{		}{		}{		}{	Siete due stupidi vecchi lupi. Invece io mi prendero' la fetta piu' grande della torta!	}
+{	284	}{	Va bene, Lu Fang. Tornero' con la chiave di Ji.	}{	Va bene, Lu Fang. Tornero' con la chiave di Ji.	}{	0	}{		}{	G.Lu_Ji = 4	}{		}{		}{		}{		}{		}{		}{	Per un ottanta percento, faro' quest'azione malefica. Ci vediamo.	}
+{	285	}{	Se ti piaccio cosi' tanto, dammi il novanta percento.	}{	Se ti piaccio cosi' tanto, dammi il novanta percento.	}{	291	}{	Persuasion -7	}{		}{		}{		}{		}{		}{		}{		}{	Novanta sarebbe meglio.	}
+{	286	}{	Non credo, vecchio.	}{	Non credo, vecchio.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua offerta e' troppo bassa, vecchio lupo.	}
+{	287	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	288	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	290	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	291	}{	Pfeh! No esagera tu. Lu Fang no pazzo. Dare te molti soldi!	}{	Pfeh! No esagera tu. Lu Fang no pazzo. Dare te molti soldi!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	292	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	Non potete riconciliarvi? Eravate amici una volta e avete ancora tante cose in comune.	}{	321	}{	G.Ji_Killed != 1 and G.Lu_Ji > 0	}{		}{		}{		}{		}{		}{		}{		}{	Magari un incontro e una riconciliazione...? No?	}
+{	293	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	Per me va bene. Voi due state solo cercando di fottervi a vicenda. Invece io mi prendero' la fetta piu' grande della torta.	}{	371	}{	Wits 4	}{		}{		}{		}{		}{		}{		}{		}{	Siete due stupidi vecchi lupi. Invece io mi prendero' la fetta piu' grande della torta!	}
+{	294	}{	Va bene, Lu Fang. Tornero' con la chiave di Ji.	}{	Va bene, Lu Fang. Tornero' con la chiave di Ji.	}{	0	}{		}{	G.Lu_Ji = 4	}{		}{		}{		}{		}{		}{		}{	Faro' quest'azione malefica. Ci vediamo.	}
+{	295	}{	Se sapessi cosa e' meglio fare offriresti di piu'.	}{	Se sapessi cosa e' meglio fare offriresti di piu'.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua offerta e' troppo bassa, vecchio lupo.	}
+{	296	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	297	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	298	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	299	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	301	}{	Hey! Ciao ancora, mister. Tu trovato chiave che me cercava?[fa un suono ammiccante con la bocca]	}{	Hey! Ciao ancora, lady. Tu trovato chiave che me cercava?[fa un suono ammiccante con la bocca]	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	302	}{	Mi dispiace, ma Ji Wen Ja mi ha offerto il trenta percento del bottino per la tua chiave.	}{	Mi dispiace, ma Ji Wen Ja mi ha offerto il trenta percento del bottino per la tua chiave.	}{	251	}{	G.Ji_Lu == 2 and G.Ji_Killed != 1 and G.Lu_Ji != 2	}{		}{		}{		}{		}{		}{		}{		}{	Per la tua chiave, Ji Wen Ja mi ha offerto il trenta percento della sua fortuna.	}
+{	303	}{	Ho parlato con Ji Wen Ja....	}{	Ho parlato con Ji Wen Ja....	}{	231	}{	G.Ji_Lu == 3 and G.Ji_Killed != 1	}{		}{		}{		}{		}{		}{		}{		}{	Ho scambiato qualche parola con Ji Wen Ja....	}
+{	304	}{	La chiave sembra essere molto quotata. Ji mi ha offerto il settanta percento.	}{	La chiave sembra essere molto quotata. Ji mi ha offerto il settanta percento.	}{	271	}{	G.Ji_Lu == 4 and G.Ji_Killed != 1 and G.Lu_Ji != 4	}{		}{		}{		}{		}{		}{		}{		}{	Per la tua chiave, Ji Wen Ja mi ha offerto il settanta percento della sua fortuna.	}
+{	305	}{	Ji ha detto che mi dara' l'ottanta percento per la tua chiave.	}{	Ji ha detto che mi dara' l'ottanta percento per la tua chiave.	}{	281	}{	G.Ji_Lu == 5 and G.Ji_Killed != 1 and G.Lu_Ji != 5	}{		}{		}{		}{		}{		}{		}{		}{	Per la tua chiave, Ji Wen Ja mi ha offerto l'ottanta percento del suo cesto d'uova.	}
+{	306	}{	Ho convinto Ji Wen Ja a fare pace con te. Eravate a amici una volta.	}{	Ho convinto Ji Wen Ja a fare pace con te. Eravate a amici una volta.	}{	321	}{	G.Ji_Lu == 6 and G.Ji_Killed != 1	}{		}{		}{		}{		}{		}{		}{		}{	Ho parlato con Ji Wen Ja per riappacificare questo branco di lupi spauriti.	}
+{	307	}{	Ji ritiene che entrambi possiate fare molti piu' soldi lavorando insieme.	}{	Ji ritiene che entrambi possiate fare molti piu' soldi lavorando insieme.	}{	371	}{	G.Ji_Lu == 7 and G.Ji_Killed != 1	}{		}{		}{		}{		}{		}{		}{		}{	Ji Wen Ja dice che due lupi sono meglio di uno solo.	}
+{	308	}{	Si... si' l'ho fatto.	}{	Si... si' l'ho fatto.	}{	401	}{	G.Ji_Killed == 1	}{		}{		}{		}{		}{		}{		}{		}{	Ho trovato la tua chiave del tesoro.	}
+{	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	310	}{	No, non ancora. Ci vediamo.	}{	No, non ancora. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo ancora portare alla luce quel gingillo. Arrivederci.	}
+{	311	}{	Salve ancora. Lu Fang felice che tu torna. Uhh... voleva dire che prima, Lu Fang, cio' che Lu Fang dice - a volte - a volte Lu Fang beve troppo, heh. Lu Fang dice stupidaggini, non e' vero?	}{	Salve ancora. Lu Fang felice che tu torna. Uhh... voleva dire che prima, Lu Fang, cio' che Lu Fang dice - a volte - a volte Lu Fang beve troppo, heh. Lu Fang dice stupidaggini, non e' vero?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	312	}{	Stavi parlando dei Tong prima, giusto? Cosa sai dei Tong?	}{	Stavi parlando dei Tong prima, giusto? Cosa sai dei Tong?	}{	51	}{	G.Lu_Next == 1	}{		}{		}{		}{		}{		}{		}{		}{	Stavi parlando dei Tong prima, giusto? Cosa sai dei Tong?	}
+{	313	}{	Capisco...Dunque non sei piu' un killer?	}{	Capisco...Dunque non sei piu' un killer?	}{	81	}{	G.Lu_Next == 2	}{		}{		}{		}{		}{		}{		}{		}{	Dunque non uccidi piu' gli uomini?	}
+{	314	}{	Dunque, i Tong ti hanno mandato in pensione con un bel sacco di soldi?	}{	Dunque, i Tong ti hanno mandato in pensione con un bel sacco di soldi?	}{	91	}{	G.Lu_Next == 2 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	315	}{	Stavi dicendo che hai del denaro... nasacosto? Com'e' il fatto?	}{	Stavi dicendo che hai del denaro... nasacosto? Com'e' il fatto?	}{	101	}{	G.Lu_Next == 3	}{		}{		}{		}{		}{		}{		}{		}{	Dove hai sotterrato il tuo tesoro, vecchio lupo?	}
+{	316	}{	Yeah, bene. Non puoi semplicemente parlare con Ji Wen Ja?	}{	Yeah, bene. Non puoi semplicemente parlare con Ji Wen Ja?	}{	151	}{	G.Lu_Next == 4	}{		}{		}{		}{		}{		}{		}{		}{	Non potete scambiare qualche parola, tu e quell'altro vecchio lupo?	}
+{	317	}{	Dunque vuoi la chiave di Ji Wen Ja?	}{	Dunque vuoi la chiave di Ji Wen Ja?	}{	161	}{	G.Lu_Next == 4	}{		}{		}{		}{		}{		}{		}{		}{	Dunque vuoi la chiave del tesoro?	}
+{	318	}{	Riguardo il denaro... hai qualche piano per recuperarlo?	}{	Riguardo il denaro... hai qualche piano per recuperarlo?	}{	181	}{	G.Lu_Next == 5 and G.Lu_Offer < 1	}{		}{		}{		}{		}{		}{		}{		}{	Come pensi di riprenderti il tuo sacco d'oro?	}
+{	319	}{	Va bene, Lu. Se riesco a prendere la chiave di Ji, cosa ci guadagno?	}{	Va bene, Lu. Se riesco a prendere la chiave di Ji, cosa ci guadagno?	}{	201	}{	G.Lu_Offer == 1	}{		}{		}{		}{		}{		}{		}{		}{	Cosa c'e' per me se arraffo la chiave del tuo oro?	}
+{	320	}{	Okay. Tornero' piu' tardi a parlare con te.	}{	Okay. Tornero' piu' tardi a parlare con te.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non restero' qui ancora per molto.	}
+{	321	}{	Fuori questione. Troppi anni tra Lu Fang e Ji Wen Ja.	}{	Fuori questione. Troppi anni tra Lu Fang e Ji Wen Ja.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	322	}{	Sicuramente c'e' anche qualcos'altro fra voi oltre all'odio.	}{	Sicuramente c'e' anche qualcos'altro fra voi oltre all'odio.	}{	331	}{	Persuasion 7 & pc.humanity >= 5	}{		}{		}{		}{		}{		}{		}{		}{	I vostri legami non possono spezzarsi cosi' facilmente.	}
+{	323	}{	Dev'esserci una soluzione che non preveda la morte di uno dei due o addirittura di entrambi.	}{	Dev'esserci una soluzione che non preveda la morte di uno dei due o addirittura di entrambi.	}{	331	}{	Intimidate 7 & G.Patch_Plus == 1	}{		}{		}{		}{		}{		}{		}{		}{	Abbandona questa possibilita' o entrambi diventerete concime per i rododendri.	}
+{	324	}{	Allora dividetevi i soldi a meta'; sono ancora un bel po' di soldi, no?	}{	Allora dividetevi i soldi a meta'; sono ancora un bel po' di soldi, no?	}{	331	}{	Persuasion 7 & pc.humanity < 5	}{		}{		}{		}{		}{		}{		}{		}{	Seppellite l'ascia di guerra e dividetevi il tesoro in due.	}
+{	325	}{	D'accordo. Lo faro' per il quaranta per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	D'accordo. Lo faro' per il quaranta per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	0	}{	G.Lu_Ji == 1 and G.Ji_Lu != 6	}{	G.Lu_Ji = 2	}{		}{		}{		}{		}{		}{		}{	Mi prendero' il quaranta per cento della tua cesta d'uova e tornero' con la chiave. Ci vediamo.	}
+{	326	}{	D'accordo. Lo faro' per il sessanta per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	D'accordo. Lo faro' per il sessanta per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	0	}{	G.Lu_Ji == 2 and G.Ji_Lu != 6	}{	G.Lu_Ji = 3	}{		}{		}{		}{		}{		}{		}{	Mi prendero' il sessanta per cento della tua cesta d'uova e tornero' con la chiave. Ci vediamo.	}
+{	327	}{	D'accordo. Lo faro' per l'ottanta per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	D'accordo. Lo faro' per l'ottanta per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	0	}{	G.Lu_Ji == 3 and G.Ji_Lu != 6	}{	G.Lu_Ji = 4	}{		}{		}{		}{		}{		}{		}{	Mi prendero' l'ottanta per cento della tua cesta d'uova e tornero' con la chiave. Ci vediamo.	}
+{	328	}{	D'accordo. Lo faro' per il venti per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	D'accordo. Lo faro' per il venti per cento. Faro' ritorno con la chiave di Ji Wen Ja.	}{	0	}{	G.Lu_Ji == 0 and G.Ji_Lu != 6	}{	G.Lu_Ji = 1	}{		}{		}{		}{		}{		}{		}{	Mi prendero' il venti per cento della tua cesta d'uova e tornero' con la chiave. Ci vediamo.	}
+{	329	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	331	}{	Forse cosi'. Lu Fang nn sa. Come puo' me fidare di quell'uomo? Per molto tempo lui volere uccidere Lu Fang. E ora e' diverso? No! Lu Fang non crede.	}{	Forse cosi'. Lu Fang nn sa. Come puo' me fidare di quell'uomo? Per molto tempo lui volere uccidere Lu Fang. E ora e' diverso? No! Lu Fang non crede.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	332	}{	Anche tu lo vuoi morto. Quel che e' giusto e' giusto.	}{	Anche tu lo vuoi morto. Quel che e' giusto e' giusto.	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il vostro massacro acceca entrambi.	}
+{	333	}{	Uccidere non e' la soluzione giusta.	}{	Uccidere non e' la soluzione giusta.	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Abbandona questa ipotesi di punizione.	}
+{	334	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	335	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	336	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	337	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	341	}{	Forse cosi'. Tu crede Lu Fang voleva uccidere ancora persone? Me lasciato, ritirato. Basta.	}{	Forse cosi'. Tu crede Lu Fang voleva uccidere ancora persone? Me lasciato, ritirato. Basta.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	342	}{	Allora fate pace.	}{	Allora fate pace.	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Porgigli il ramo della pace, vecchio lupo.	}
+{	343	}{	Confido nel fatto che possiate risolvere la faccenda.	}{	Confido nel fatto che possiate risolvere la faccenda.	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Insieme potrete fumare il calumet della pace.	}
+{	344	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	345	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	346	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	347	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	348	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	349	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	350	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	351	}{	Uh, ha ragione, sir. Molto onorevole. Lu Fang vuole amico, non piu' sangue. Me fa buono tutto il cattivo sangue versato in tanti anni. Ji Wen Ja e' benvenuto da Lu Fang. Me vuole amico.	}{	Uh, ha ragione, sir. Molto onorevole. Lu Fang vuole amico, non piu' sangue. Me fa buono tutto il cattivo sangue versato in tanti anni. Ji Wen Ja e' benvenuto da Lu Fang. Me vuole amico.	}{	#	}{		}{	G.Lu_Ji = 6	}{		}{		}{		}{		}{		}{		}{		}
+{	352	}{	Grande.	}{	Grande.	}{	361	}{	G.Ji_Lu >= 6	}{	pc.SetQuest("Hitman",8); FindPlayer().HumanityAdd( 1 )	}{		}{		}{		}{		}{		}{		}{	L'amicizia e' un fiore che sboccia.	}
+{	353	}{	Grande.	}{	Grande.	}{	361	}{	G.Ji_Lu != 6	}{	pc.SetQuest("Hitman",10)	}{		}{		}{		}{		}{		}{		}{	L'amicizia e' un fiore che sboccia.	}
+{	354	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	355	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	356	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	357	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	358	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	359	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	360	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	361	}{	Dojay, uh, grazie! Me spera prossima volta tu vede Lu Fang e Ji Wen Ja qui bere insieme!	}{	Dojay, uh, grazie! Me spera prossima volta tu vede Lu Fang e Ji Wen Ja qui bere insieme!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	362	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	363	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	364	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	365	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	366	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	367	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	368	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	369	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	370	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	371	}{	As- Aspetta... aspetta ummm... [silenziosamente fa qualche conto tra se' e se', poi tutto gli diventa chiaro] Tu ragione! Gah - Lu Fang fare stupido accordo. Stupido accordo con te!	}{	As- Aspetta... aspetta ummm... [silenziosamente fa qualche conto tra se' e se', poi tutto gli diventa chiaro] Tu ragione! Gah - Lu Fang fare stupido accordo. Stupido accordo con te!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	372	}{	Yeah, non cerchi semplicemente di risolvere la faccenda con Ji Wen Ja?	}{	Yeah, non cerchi semplicemente di risolvere la faccenda con Ji Wen Ja?	}{	381	}{		}{		}{		}{		}{		}{		}{		}{		}{	Magari potresti concludere un affare migliore con Ji Wen Ja...?	}
+{	373	}{	No, aspetta. Faro' come d'accordo, stavo solo dicendo....	}{	No, aspetta. Faro' come d'accordo, stavo solo dicendo....	}{	381	}{		}{		}{		}{		}{		}{		}{		}{		}{	Aspetta! La mia lingua si muove di sua iniziativa!	}
+{	374	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	375	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	376	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	377	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	378	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	379	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	380	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	381	}{	Lu Fang parla con Ji Wen Ja. Risolve cose. O muore. Migliori affari con Ji Wen Ja, che con te; mercenario dal sangue freddo! Mi dispiace!	}{	Lu Fang parla con Ji Wen Ja. Risolve cose. O muore. Migliori affari con Ji Wen Ja, che con te; mercenario dal sangue freddo! Mi dispiace!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Lu_Ji = 7	}{		}{		}{		}{		}{		}{		}{		}
+{	382	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Ji_Lu >= 6	}{	pc.SetQuest("Hitman",8); FindPlayer().HumanityAdd( 1 )	}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	383	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Ji_Lu < 6	}{	pc.SetQuest("Hitman",10)	}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	384	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	385	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	386	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	387	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	388	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	389	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	390	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	391	}{	Pfui. Lu Fang vecchio, ma puo' ancora prendere a calci tuo culo. Kopa gwailo! Ci vediamo in strada, viso pallido!	}{	Pfui. Lu Fang vecchio, ma puo' ancora prendere a calci tuo culo. Kopa gwailo! Ci vediamo in strada, viso pallido!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Lu_Kickass = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	392	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	393	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	394	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	395	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	396	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	397	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	398	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	399	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	400	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	401	}{	Tu ha preso decisione giusta. Per te, per Lu Fang, ma anche per l'intera Chinatown. Bambini potere giocare di nuovo per strada senza alcun timore! Storia triste di Ji Wen Ja ha raggiunto fine decorosa. Ora, tu ha chiave?	}{	Tu ha preso decisione giusta. Per te, per Lu Fang, ma anche per l'intera Chinatown. Bambini potere giocare di nuovo per strada senza alcun timore! Storia triste di Ji Wen Ja ha raggiunto fine decorosa. Ora, tu ha chiave?	}{	#	}{		}{	G.Lu_Done = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	402	}{	Oops. Saro' presto di ritorno.	}{	Oops. Saro' presto di ritorno.	}{	0	}{	not pc.HasItem("item_k_hitman_ji_key")	}{		}{		}{		}{		}{		}{		}{		}{	Le mie tasche sono miserabilmente vuote. Arrivederci.	}
+{	403	}{	Ecco a te, Lu Fang.	}{	Ecco a te, Lu Fang.	}{	431	}{	pc.HasItem("item_k_hitman_ji_key")	}{	pc.RemoveItem("item_k_hitman_ji_key")	}{		}{		}{		}{		}{		}{		}{	Ecco la tua chiave del tesoro, vecchio lupo.	}
+{	404	}{	Si'... ma prima voglio il mio denaro.	}{	Si'... ma prima voglio il mio denaro.	}{	411	}{	pc.HasItem("item_k_hitman_ji_key")	}{		}{		}{		}{		}{		}{		}{		}{	Prima dammi i miei soldi, nonno.	}
+{	405	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	406	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	407	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	408	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	409	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	410	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	411	}{	Lu Fang uomo di parola.. Killer segue codice d'onore. No contratto, no impostori giudici e avvocati, solo parola, non e' cosi'? Parola di Lu Fang. Lu Fang prende soldi e poi torna qui. Tu ha parola di Lu Fang.	}{	Lu Fang uomo di parola.. Killer segue codice d'onore. No contratto, no impostori giudici e avvocati, solo parola, non e' cosi'? Parola di Lu Fang. Lu Fang prende soldi e poi torna qui. Tu ha parola di Lu Fang.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	412	}{	Okay. Ecco, Lu Fang.	}{	Okay. Ecco, Lu Fang.	}{	431	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ecco la tua chiave del tesoro, vecchio lupo.	}
+{	413	}{	Mi dispiace. Voglio i miei soldi in anticipo.	}{	Mi dispiace. Voglio i miei soldi in anticipo.	}{	421	}{		}{		}{		}{		}{		}{		}{		}{		}{	Prima dammi i miei soldi, nonno.	}
+{	414	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	415	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	416	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	417	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	418	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	419	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	420	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	421	}{	Bene, tu torna indietro quando cambia idea. Capisce? Lu Fang non ancora diventato matto. Aspettato tanti anni per questi soldi. Puo' aspettare piu' a lungo di te, questo e' certo!	}{	Bene, tu torna indietro quando cambia idea. Capisce? Lu Fang non ancora diventato matto. Aspettato tanti anni per questi soldi. Puo' aspettare piu' a lungo di te, questo e' certo!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	422	}{	Vaaa bene, va bene. Ecco la chiave.	}{	Vaaa bene, va bene. Ecco la chiave.	}{	431	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ecco la tua chiave del tesoro, vecchio lupo.	}
+{	423	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	424	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	425	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	426	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	427	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	428	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	429	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	430	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	431	}{	Haiyah! Due chiavi insieme, sente peso, peso di tanti soldi! Lu Fang puo' fare nuova vita - una vita a prova di bomba, con inziali Lu Fang in oro! Incontra Lu Fang qui domani, per tua parte di soldi.	}{	Haiyah! Due chiavi insieme, sente peso, peso di tanti soldi! Lu Fang puo' fare nuova vita - una vita a prova di bomba, con inziali Lu Fang in oro! Incontra Lu Fang qui domani, per tua parte di soldi.	}{	#	}{		}{	G.Lu_Done = 2; pc.SetQuest("Hitman",6); pc.RemoveItem("item_k_hitman_ji_key")	}{		}{		}{		}{		}{		}{		}{		}
+{	432	}{	Magnifico. Allora ci vediamo.	}{	Magnifico. Allora ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Domani cavalcheremo questo dragone. Ci vediamo.	}
+{	433	}{	Farai meglio ad esserci.	}{	Farai meglio ad esserci.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	434	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	435	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	436	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	437	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	438	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	439	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	440	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	441	}{	Hey mister killer, sembri stanco. Forse perche' tu porta con te chiavi pesanti?	}{	Hey signora killer, sembra stanca. Forse perche' tu porta con te chiavi pesanti?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	442	}{	Oops. Tornero' presto.	}{	Oops. Tornero' presto.	}{	0	}{	not pc.HasItem("item_k_hitman_ji_key")	}{		}{		}{		}{		}{		}{		}{		}{	Le mie tasche sono miserabilmente vuote. Arrivederci.	}
+{	443	}{	Okay, va bene. Ecco la chiave.	}{	Okay, va bene. Ecco la chiave.	}{	431	}{	pc.HasItem("item_k_hitman_ji_key")	}{	pc.RemoveItem("item_k_hitman_ji_key")	}{		}{		}{		}{		}{		}{		}{	Ecco la tua chiave del tesoro, vecchio lupo.	}
+{	444	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	445	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	446	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	447	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	448	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	449	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	450	}{	No. Non ancora.	}{	No. Non ancora.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Nessuna chiave rubata in questa tasche. Ci rivediamo.	}
+{	451	}{	Eccolo la'! Eroe di Chinatown! Lu Fang qui, contento come dollaro, dollaro immerso in manciata di soldi insanguinati! Hah hah! Ecco, prende soldi, eroe! E' un piacere per Lu Fang.	}{	Eccola li'! Eroe di Chinatown! Lu Fang qui, contento come dollaro, dollaro immerso in manciata di soldi insanguinati! Hah hah! Ecco, prende soldi, eroe! E' un piacere per Lu Fang.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Lu_Done = 3; pc.SetQuest("Hitman",7)	}{		}{		}{		}{		}{		}{		}{		}
+{	452	}{	Grazie, Lu Fang. Pace.	}{	Grazie, Lu Fang. Riguardati.	}{	0	}{	G.Lu_Ji == 1	}{	pc.MoneyAdd( 240 )	}{		}{		}{		}{		}{		}{		}{	Crogiolati nel tuo bagno di sangue, vecchio lupo. Addio.	}
+{	453	}{	Grazie, Lu Fang. Pace.	}{	Grazie, Lu Fang. Riguardati.	}{	0	}{	G.Lu_Ji == 2	}{	pc.MoneyAdd( 480 )	}{		}{		}{		}{		}{		}{		}{	Crogiolati nel tuo bagno di sangue, vecchio lupo. Addio.	}
+{	454	}{	Grazie, Lu Fang. Pace.	}{	Grazie, Lu Fang. Riguardati.	}{	0	}{	G.Lu_Ji == 3	}{	pc.MoneyAdd( 720 )	}{		}{		}{		}{		}{		}{		}{	Crogiolati nel tuo bagno di sangue, vecchio lupo. Addio.	}
+{	455	}{	Grazie, Lu Fang. Pace.	}{	Grazie, Lu Fang. Riguardati.	}{	0	}{	G.Lu_Ji == 4	}{	pc.MoneyAdd( 960 )	}{		}{		}{		}{		}{		}{		}{	Crogiolati nel tuo bagno di sangue, vecchio lupo. Addio.	}
+{	456	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	457	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	458	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	459	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	460	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	461	}{	Un brindisi! Eroe di Chinatown! Lu Fang provato a darti chiave per citta'... ma, tu sa... non si dovrebbe uccidere persone. Hehehe... shhh!	}{	Un brindisi! Eroe di Chinatown! Lu Fang provato a darti chiave per citta'... ma, tu sa... non si dovrebbe uccidere persone. Hehehe... shhh!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	462	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia ombra si allunghera' su altri domini. Addio.	}
+{	463	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	464	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	465	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	466	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	467	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	468	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	469	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	470	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	471	}{	[Canta con voce da ubriaco]Ah.... Riuniti, e' cosa buona! Riuniti, e Lu Fang capisce.	}{	[Canta con voce da ubriaco]Ah.... Riuniti, e' cosa buona! Riuniti, e Lu Fang capisce.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	472	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	473	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	474	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	475	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	476	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	477	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	478	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	479	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	480	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	481	}{	Di nuovo salve. Hmm. Senti, uh, Lu Fang dispiace che tu perso occasione di uccidere vecchio uomo. Solo affari, tu capisce.	}{	Di nuovo salve. Hmm. Senti, uh, Lu Fang dispiace che tu perso occasione di uccidere vecchio uomo. Solo affari, tu capisce.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	482	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	483	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	484	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	485	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	486	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	487	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	488	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	489	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	490	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	491	}{	[Sbalordito]Haiyah! Lu Fang non piu' ubriaco stanotte... mah ... ma tu, tu ha sguardo pazzo in occhio! Lu Fang riconosce pazzia quando la guarda. Ecco a te, giovane folle! Eh heh... yambooyah![prende un drink]	}{	[Sbalordito]Haiyah! Lu Fang non piu' ubriaco stanotte... mah ... ma tu, tu ha sguardo pazzo in occhio! Lu Fang riconosce pazzia quando la guarda. Ecco a te, giovane folle! Eh heh... yambooyah![prende un drink]	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	492	}{	Il vecchio lupo cura le sue ferite con i superalcolici.	}{	Il vecchio lupo cura le sue ferite con i superalcolici.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	493	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	494	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	495	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	496	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	497	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	498	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	499	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	500	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	501	}{	[Ubriaco con accento cinese]Hey mostro! Ugh! Lascia che me dice una cosa. Viene piu' vicino cosi' sentire - ay, phew![tossisce per il cattivo odore] Non cosi' vicino! Eeh puzzone, uh! Puzzi peggio di quanto sembri, ma lascia che io dice una cosa. Ragazzini. Ragazzini non sanno niente.	}{	[Ubriaco con accento cinese]Hey mostro! Ugh! Lascia che me dice una cosa. Viene piu' vicino cosi' sentire - ay, phew![tossisce per il cattivo odore] Non cosi' vicino! Eeh puzzona, uh! Puzzi peggio di quanto sembri, ma lascia che io dice una cosa. Ragazzini. Ragazzini non sanno niente.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	502	}{	Perche' dici cosi'?	}{	Perche' dici cosi'?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	503	}{	L'hai detta giusta, vecchio.	}{	L'hai detta giusta, vecchio.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	504	}{	Fai attenzione a cio' che dici, vecchio ubriaco....	}{	Fai attenzione a cio' che dici, vecchio ubriaco....	}{	511	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fai attenzione a cio' che dici, vecchio....	}
+{	505	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	506	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	507	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	508	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	509	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	510	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	511	}{	Huh? No, no volere offendere. Aspetta! Forse se me beve di piu', vede te piu' bello. [fa un gran sorso]No. Mi dispiace! Se ancora brutto! Brutto come mia suocera! [ride istericamente]Hahahaha!	}{	Huh? No, no volere offendere. Aspetta! Forse se me beve di piu', vede te piu' attraente. [fa un gran sorso]No. Mi dispiace! Se ancora brutta! Bruttacome mia suocera! [ride istericamente]Hahahaha!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	512	}{	Chissenefrega. Di cosa stavi blaterando poco fa? Qualcosa circa i ragazzini?	}{	Chissenefrega. Di cosa stavi blaterando poco fa? Qualcosa circa i ragazzini?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	513	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	514	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	515	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	517	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	518	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	519	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	520	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	521	}{	Qualcos'altro? Non fa tu molta attenzione? Tu fa la cosa, giusto?	}{	Qualcos'altro? Non fa tu molta attenzione? Fa tu la cosa, giusto?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	522	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	523	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	524	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	525	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	526	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	527	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	528	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	529	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	530	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	531	}{	Qualcos'altro? Non fa tu molta attenzione? Tu fa la cosa, giusto?	}{	Qualcos'altro? Non fa tu molta attenzione? Tu fa la cosa, giusto?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	532	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	533	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	534	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	535	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	536	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	537	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	538	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	539	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	540	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	541	}{	Ah! Ciao amico mio!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	542	}{	Ciao.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	543	}{	Che? Cosa stai facendo qui?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	544	}{	Lu Fang no parla con te!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	545	}{	Si'.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	546	}{	No.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	547	}{	Ah! Ti ringrazio, amico mio.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	548	}{	Heh, cosa si dice?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	549	}{	Non lo so.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	550	}{	Lu Fang no aiuta te con quello.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	551	}{	Ah! Molto buono!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	552	}{	Uh, a proposito...	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	553	}{	Questo e' per te.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	554	}{	Lu Fang manda te email.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	556	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	557	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	558	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	559	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	560	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	561	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	562	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	563	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	564	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	565	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	566	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	567	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	568	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	569	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	570	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	571	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	572	}{	(Starting Condition)	}{		}{	521	}{	G.Lu_Kickass == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	573	}{	(Starting Condition)	}{		}{	471	}{	G.Lu_Ji == 6	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	574	}{	(Starting Condition)	}{		}{	481	}{	G.Lu_Ji == 7	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	575	}{	(Starting Condition)	}{		}{	441	}{	G.Lu_Done == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	576	}{	(Starting Condition)	}{		}{	451	}{	G.Lu_Done == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	577	}{	(Starting Condition)	}{		}{	461	}{	G.Lu_Done == 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	578	}{	(Starting Condition)	}{		}{	301	}{	G.Lu_Ji > 0 and G.Lu_Done == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	579	}{	(Starting Condition)	}{		}{	311	}{	G.Lu_Next > 0 and G.Lu_Offer <= 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	580	}{	(Starting Condition)	}{		}{	501	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	581	}{	(Starting Condition)	}{		}{	491	}{	G.Kiki_Rescued == 1 and G.Lu_Next < 1 and IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	582	}{	(Starting Condition)	}{		}{	491	}{	G.Ji_Lu > 0 and G.Lu_Next < 1 and IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	583	}{	(Starting Condition)	}{		}{	21	}{	G.Kiki_Rescued == 1 and G.Lu_Next < 1 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	584	}{	(Starting Condition)	}{		}{	21	}{	G.Ji_Lu > 0 and G.Lu_Next < 1 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	585	}{	(Starting Condition)	}{		}{	11	}{	G.Wong_Zhao < 1	}{		}{		}{		}{		}{		}{		}{		}{		}

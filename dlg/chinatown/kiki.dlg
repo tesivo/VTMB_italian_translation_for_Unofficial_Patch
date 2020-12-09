@@ -1,92 +1,92 @@
-{	1	}{	[Furious]You son of a bitch! I can't... I ca- heeuuh.... I can't breathe in here!	}{	[Furious]You bitch! I can't.... I can't breathe in here!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Uh, yeah. That's why I'm letting you out.	}{	Uh, yeah. That's why I'm letting you out.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	I've come to free you from the lost children.	}
-{	3	}{	Then you should be glad I'm not keeping you in there.	}{	Then you should be glad I'm not keeping you in there.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	[Annoyed, noticing the player for the first time]What? Aren't you a little tall for a Tong?	}{	[Annoyed, noticing the player for the first time]What? Yeah. Who are you? You're not with the Tong.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	What?	}{	No, I'm not with the Tong.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no toothless Tong.	}
-{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Tall? You know, like, not short. Jesus! All you thugs are the same. Stupid, stupid, and stupid!	}{	Didn't I just say that? You may not be with the Tong, but you seem to be as smart as they are.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Thug? I'm not a thug. Are you Kiki?	}{	Are you Kiki?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	You are Wong Ho's little weasel?	}
-{	23	}{	Man, the mouth on you. Are you Wong Ho's kid?	}{	Man, the mouth on you. Are you Wong Ho's kid?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your tongue is in need of a tuning. Are you Wong's Ho?	}
-{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Yeah, I'm Kiki. Who the hell are you... the Tong welcoming committee?	}{	Yeah, I'm Kiki. Who the hell are you... the Tong welcoming committee?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	I'm here to rescue you. Your dad sent me in.	}{	I'm here to rescue you. Your dad sent me in.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	I bring you freedom's key.	}
-{	33	}{	Your old man sent me to bust your ass out of here.	}{	Your old man sent me to bust your ass out of here.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Oh, I'm sooo impressed. What? Like, you want me to like thank you or something? In your dreams, asshole.	}{	Oh, I'm sooo impressed. What? Like, you want me to like thank you or something? In your dreams, bitch.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Look. Let's just get the hell out of here.	}{	Look. Let's just get the hell out of here.	}{	51	}{	G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Let us exit this lair of the lost children.	}
-{	43	}{	Keep talking like that, and I'll keep your ass in that closet.	}{	Keep talking like that, and I'll keep your ass in that closet.	}{	61	}{	G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Close your food hole or you'll stay in your cage.	}
-{	44	}{	Don't you have something else to say? Just forget that I saved you.	}{	Don't you have something else to say? Just forget that I saved you.	}{	0	}{	G.Kiki_Rescued == 1	}{	}{	}{	}{	}{	}{	}{	}{	You sound like a broken record.	}
-{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	That's an original idea. Man, Dad must really be hurtin' for good help. Lead the way, hero.	}{	That's an original idea. Man, Dad must really be hurtin' for good help. Lead the way, hero.	}{	#	}{	}{	pc.SetQuest("Kiki",2); G.Kiki_Rescued = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	I don't have to take this. Follow me.	}{	I don't have to take this. Follow me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Rarely are heroes so defecated upon. Let us leave.	}
-{	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	[A little scared]Okay, okay. Man, you don't have to get all sensitive. I'm sorry, okay?	}{	[A little scared]Okay, okay. Man, you don't have to get all sensitive. I'm sorry, okay?	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	pc.SetQuest("Kiki",2); G.Kiki_Rescued = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	That's better. Let's go.	}{	That's better. Let's go.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Wise are your words, little weasel. Let us go.	}
-{	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	[Furious]You son of a bitch! I can't... uh, huh? Oh my god! What the hell is wrong with you? Get away from me![screams]	}{	[Furious]You bitch! I can't... uh, huh? Oh my god! What the hell is wrong with you? Get away from me![screams]	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Relax, kid. You're Kiki? Your dad sent me over here to rescue you.	}{	Relax, kid. You're Kiki? Your dad sent me over here to rescue you.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	H-he did? Uh... great. What, uh... what happened to you? I mean, you look really, really messed up.	}{	H-he did? Uh... great. What, uh... what happened to you? I mean, you look really, really messed up.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Keep your mouth shut. I'm busting you out of here.	}{	Keep your mouth shut. I'm busting you out of here.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	Could you be a little LESS appreciative? I just saved your life.	}{	Could you be a little LESS appreciative? I just saved your life.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	(Starting Condition)	}{	}{	41	}{	G.Kiki_Rescued == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	(Starting Condition)	}{	}{	71	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	[Furiosa]Tu! Figlio di puttana! Non riesco... non rie- heeuuh.... Non riesco a respirare qui dentro!	}{	[Furiosa]Tu! Puttana! Non riesco... non rie- heeuuh.... Non riesco a respirare qui dentro!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Kiki_Rescued = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Uh, certo. Per questo ti sto liberando.	}{	Uh, certo. Per questo ti sto liberando.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono venuto a liberarti dai figli immondi.	}
+{	3	}{	Allora dovresti ringraziarmi che non ti lascio li'.	}{	Allora dovresti ringraziarmi che non ti lascio li'.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	4	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	[Irritata, guardando il personaggio per la prima volta]Cosa? Non sei un po' troppo alto per essere un Tong?	}{	[Irritata, guardando il personaggio per la prima volta]Cosa? Non sei con i Tong...	}{	#	}{	npc.SetDisposition("Angry", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Cosa?	}{	No, non sto dalla parte dei Tong.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono un Tong sdentato.	}
+{	13	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Alto? Beh, insomma non basso. Gesu'! Voi Tong siete tutti uguali. Stupidi, stupidi e stupidi!	}{	Non l'ho appena detto? Forse non stai con i Tong, ma sembri scema come uno di loro.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Thug? Non sono un Tong. Sei Kiki?	}{	Sei Kiki?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sei la piccola farfalla di Wong Ho?	}
+{	23	}{	Frena la lingua, dolcezza. Sei la figlia di Wong Ho?	}{	Frena la lingua, dolcezza. Sei la figlia di Wong Ho?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua lingua ha bisogno di essere ri-sintonizzata. Sei la figlia di Wong Ho?	}
+{	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Si', sono Kiki. E tu chi diavolo sei... il comitato d'accoglienza dei Tong?	}{	Si', sono Kiki. E tu chi diavolo sei... il comitato d'accoglienza dei Tong?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Sono qui per salvarti. Tuo padre mi ha mandato qui.	}{	Sono qui per salvarti. Tuo padre mi ha mandata qui.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono la chiave della tua liberta'.	}
+{	33	}{	Il tuo vecchio mi ha mandato a salvarti le chiappe.	}{	Il tuo vecchio mi ha mandato a salvarti le chiappe.	}{	41	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Oh, che impressione.Cosa? Vuoi che ti dica Mi piaci, grazie, o che altro? Nei tuoi sogni, coglione.	}{	Oh, che impressione.Cosa? Vuoi che ti dica Mi piaci, grazie, o che altro? Nei tuoi sogni, troia.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Senti. Togliamoci di mezzo e basta.	}{	Senti. Togliamoci di mezzo e basta.	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Svignamocela dalla tana dei figli di puttana.	}
+{	43	}{	Continua a parlare in questo modo, e riportero' il tuo culo in quell'armadio.	}{	Continua a parlare in questo modo, e riportero' il tuo culo in quell'armadio.	}{	61	}{	G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Chiudete il vostro buco per il cibo o rimarrete in gabbia.	}
+{	44	}{	Non hai altro da dire? Dimentica che ti ho salvato.	}{	Non hai altro da dire? Dimentica che ti ho salvato.	}{	0	}{	G.Kiki_Rescued == 1	}{	}{	}{	}{	}{	}{	}{	}{	Sembri un disco rotto.	}
+{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	E' un'idea originale. Papa' sara' in pena per aver chiesto il tuo aiuto. Fa' strada, eroe.	}{	E' un'idea originale. Papa' sara' in pena per aver chiesto il tuo aiuto. Fa' strada, eroe.	}{	#	}{		}{	pc.SetQuest("Kiki",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Lui me l'ha chiesto. Seguimi.	}{	Lui me l'ha chiesto. Seguimi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Raramente gli eroi vengono smerdati in questa maniera. Andiamo.	}
+{	53	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	54	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	[Un po' impaurita]Okay, okay. Non prendertela troppo. Scusa, okay?	}{	[Un po' impaurita]Okay, okay. Non prendertela troppo. Scusa, okay?	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	pc.SetQuest("Kiki",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Cosi' va meglio. Andiamo.	}{	Cosi' va meglio. Andiamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le tue parole sono sagge, piccola farfalla. Andiamo.	}
+{	63	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	[Furiosa]Tu! Figlio di puttana! Non riesco a... uh, huh? O mio dio! Cosa cazzo hai? Sta' lontano da me![strilla]	}{	[Furiosa]Tu! Puttana! Non riesco a... uh, huh? O mio dio! Cosa cazzo hai? Sta' lontana da me![strilla]	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Kiki_Rescued = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Rilassati, bimba. Sei Kiki? Tuo padre mi ha mandato a salvarti.	}{	Rilassati, bimba. Sei Kiki? Tuo padre mi ha mandata a salvarti.	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	73	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	L-lui? E' stato lui? Uh... magnifico. Cosa, uh... cosa ti e' successo? Voglio dire, sembri proprio messo male.	}{	L-lui? E' stato lui? Uh... magnifico. Cosa, uh... cosa ti e' successo? Voglio dire, sembri proprio messa male.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	Tieni il becco chiuso. Ti porto fuori di qui.	}{	Tieni il becco chiuso. Ti porto fuori di qui.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{	Potresti essere un po' PIU' riconoscente? Ti ho appena salvato la vita.	}{	Potresti essere un po' PIU' riconoscente? Ti ho appena salvato la vita.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	(Starting Condition)	}{		}{	41	}{	G.Kiki_Rescued == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	(Starting Condition)	}{		}{	71	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
