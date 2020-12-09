@@ -1,73 +1,73 @@
-{	1	}{	Oh yeah! Who do we have here? Are you a believer, little morsel? Have you come for the kind of enlightenment only Jezebel can give?	}{	Oh yeah! Who do we have here? Are you a believer, little morsel? Have you come for the kind of enlightenment only Jezebel can give?	}{	#	}{	}{	G.Jezebel_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	I take it you're Jezebel Locke?	}{	I take it you're Jezebel Locke?	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	Are you the wicked queen?	}{	Are you the wicked queen?	}{	71	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Yes, I am Jezebel. And I have such things to show you, little morsel... such beautiful, dirty little things. Won't you come into my parlor?	}{	Yes, I am Jezebel. And I have such things to show you, little morsel... such beautiful, dirty little things. Won't you come into my parlor?	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	What the hell is going on around here?	}{	What the hell is going on around here?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	13	}{	You are strangely attractive....	}{	You are strangely attractive....	}{	21	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	Sure! I mean, uh, wait... have you been tested lately?	}{	Sure! I mean, uh, wait... have you been tested lately?	}{	21	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	Yeah, I'm coming in, and death's coming with me!	}{	Yeah, I'm coming in, and death's coming with me!	}{	31	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	You ARE hot, but I think I'd rather just kill you.	}{	You ARE hot, but I think I'd rather just kill you.	}{	31	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Oh, come on, now... don't deny yourself the pleasure of Jezebel's talents. Just a few more steps and we can be enveloped by the sweet darkness, become slaves to the desires of our wasted flesh.	}{	Oh, come on, now... don't deny yourself the pleasure of Jezebel's talents. Just a few more steps and we can be enveloped by the sweet darkness, become slaves to the desires of our wasted flesh.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Sorry. Forgot my jimmy-hat.	}{	I would, but I forgot my penicillin.	}{	31	}{	Humanity 6 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	23	}{	I forgot to bring Jim's little hat.	}{	I forgot my damned dam, dammit.	}{	31	}{	Humanity 6 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	24	}{	Tempting, I must admit.	}{	Tempting, I must admit.	}{	31	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	There is a strange seduction in your viral reproduction.	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Oh, you cannot escape me, little morsel. One way or another, you and I will intertwine our beings on the way into the Ninth Circle, and I will send you forth, full of the sweet sickness I carry.	}{	Oh, you cannot escape me, little morsel. One way or another, you and I will intertwine our beings on the way into the Ninth Circle, and I will send you forth, full of the sweet sickness I carry.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Let me guess... you're with the Brotherhood of the Ninth Circle?	}{	Let me guess... you're with the Brotherhood of the Ninth Circle?	}{	41	}{	Humanity 6 & G.Kanker_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Do you also wear the Nine Rings?	}
-{	33	}{	Great. Another cult kook with an attitude problem.	}{	Great. Another cult kook with an attitude problem.	}{	41	}{	Humanity 6 & G.Kanker_Know == 0	}{	}{	}{	}{	}{	}{	}{	}{	You seem to be a kook who sips poisoned Kool-Aid.	}
-{	34	}{	Sounds cool! Is this some kind of club? Where can I join?	}{	Sounds cool! Is this some kind of club? Where can I join?	}{	41	}{	Humanity -6 & G.Kanker_Know == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	Hey! You're with those cats from the Brotherhood, right? Very cool!	}{	Hey! You're with those cats from the Brotherhood, right? Very cool!	}{	41	}{	Humanity -6 & G.Kanker_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can I finally join your shadow-circle, my queen?	}
-{	36	}{	So I can end up dead like Hannah and her friends?	}{	So I can end up dead like Hannah and her friends?	}{	61	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	I wish not to wear the dark mantle you passed to the hired women.	}
-{	37	}{	Not that I'm complaining, but don't you usually stick to whores like Hannah?	}{	Not that I'm complaining, but don't you usually stick to whores like Hannah?	}{	61	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Don't you stick to the paid seductresses?	}
-{	38	}{	This has gone on long enough. No other solution but Final Death.	}{	This has gone on long enough. No other solution but Final Death.	}{	0	}{	Humanity 6	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	I shall rain death down upon you, Dark Queen!	}
-{	39	}{	Cool idea, but you're really starting to piss me off. DIE, BITCH!	}{	Cool idea, but you're really starting to piss me off. DIE, BITCH!	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Dark is my soul, but darker your dreams in hell! DIE!	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Yes, I follow the path of the Ninth Circle! Come and join the enlightened, indulging your animal instincts, until both kine and Kindred lie spent upon the altar. Desire will be our truth, desire and the death that follows.	}{	Yes, I follow the path of the Ninth Circle! Come and join the enlightened, indulging your animal instincts, until both kine and Kindred lie spent upon the altar. Desire will be our truth, desire and the death that follows.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	All of this has to stop, Jezebel! You're endangering the Masquerade!	}{	All of this has to stop, Jezebel! You're endangering the Masquerade!	}{	51	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	You pull the Veil back from us all, sickened siren!	}
-{	43	}{	What do you hope to accomplish with all of this?	}{	What do you hope to accomplish with all of this?	}{	51	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	This dread quest has no rhyme or reason!	}
-{	44	}{	Can I slip into something more comfortable?	}{	Can I slip into something more comfortable?	}{	51	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	I wish to delve those deathly truths with you, Dark Queen!	}
-{	45	}{	You're as twisted as Brother Kanker. And now you'll die like him.	}{	You're as twisted as Brother Kanker. And now you'll die like him.	}{	0	}{	Humanity 6 & G.Kanker_Know == 1	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	You will die like your Dark Brother before you!	}
-{	46	}{	You're the only sacrifice tonight, Jezebel.	}{	You're the only sacrifice tonight, Jezebel.	}{	0	}{	Humanity 6 & G.Kanker_Know == 0	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Only you shall be the sacrificial lamb!	}
-{	47	}{	Nah. I'd rather roll a cigarette with your ashes, bitch.	}{	Nah. I'd rather roll a cigarette with your ashes, bitch.	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	I will smoke a pipe packed with your ashes, she-dog.	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	I cannot control my hunger any longer! Come! The truth will be shown to you as I drink the blood from your twice-lifeless body. Oh, it will be ecstasy - oh ecstacy, little morsel! Sweet ecstasy!	}{	I cannot control my hunger any longer! Come! The truth will be shown to you as I drink the blood from your twice-lifeless body. Oh, it will be ecstasy - oh ecstacy, little morsel! Sweet ecstasy!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	Whisper("Threat")	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	You've tasted your last morsel, Jezebel.	}{	You've tasted your last morsel, Jezebel.	}{	0	}{	Humanity 6 & G.Kanker_Know == 0	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	I will feed your ashes to the fires of Hell!	}
-{	53	}{	Get ready to see Brother Kanker... in hell.	}{	Get ready to see Brother Kanker... in hell.	}{	0	}{	Humanity 6 & G.Kanker_Know == 1	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Your flesh will fan the flames of hell as your Dark Brother before you!	}
-{	54	}{	You're just a crazy vampire bitch in heat... which is usually pretty cool. Oh well.	}{	You're just a crazy vampire bitch in heat... which is usually pretty cool. Oh well.	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Let us dance till one sleeps with devils!	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Who better than prostitutes to carry the dark gift I bring? Ah, will they not share it with the rest of those who revel in the pleasures of the flesh?	}{	Who better than prostitutes to carry the dark gift I bring? Ah, will they not share it with the rest of those who revel in the pleasures of the flesh?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Are you with the Brotherhood of the Ninth Circle?	}{	Are you with the Brotherhood of the Ninth Circle?	}{	41	}{	Humanity 6 & G.Kanker_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Do you also wear the Nine Rings?	}
-{	63	}{	You're sick, pure and simple. Time to put you out of your misery.	}{	You're sick, pure and simple. Time to put you out of your misery.	}{	0	}{	Humanity 6 & G.Kanker_Know == 0	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	I must release the world from your infectious instigations!	}
-{	64	}{	I guess it sounds okay, but I think I'd rather just tear your head off.	}{	I guess it sounds okay, but I think I'd rather just tear your head off.	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Trust I will revel with your headless corpse, Dark Queen!	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	Queen? Ah, yes! I am Jezebel, Jezebel Locke. You are Malkavian, are you not? Speaking in twisted riddles, your eyes dancing with visions they don't understand? Won't you dance with Jezebel, little morsel?	}{	Queen? Ah, yes! I am Jezebel, Jezebel Locke. You are Malkavian, are you not? Speaking in twisted riddles, your eyes dancing with visions they don't understand? Won't you dance with Jezebel, little morsel?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	I'd rather pierce my tongue with barbed wire.	}{	I'd rather pierce my tongue with barbed wire.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	73	}{	You are a dangerous dark beauty without compare.	}{	You are a dangerous dark beauty without compare.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Ma si'! Chi abbiamo qui? Sei credente, bocconcino? Sei venuto qua per avere quel tipo di illuminazione che solo Jezebel puo' dare?	}{	Ma si'! Chi abbiamo qui? Sei credente, bocconcino? Sei venuta qua per avere quel tipo di illuminazione che solo Jezebel puo' dare?	}{	#	}{		}{	G.Jezebel_Know = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Sei Jezebel Locke, vero?	}{	Sei Jezebel Locke, vero?	}{	11	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	3	}{	Sei tu la regina malvagia?	}{	Sei tu la regina malvagia?	}{	71	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	4	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Si', sono Jezebel. E non hai idea di quali cose posso mostrarti, bocconcino... cose belle, e molto sporche. Non vuoi entrare nella mia stanza?	}{	Si', sono Jezebel. E non hai idea di quali cose posso mostrarti, bocconcino... cose belle, e molto sporche. Non vuoi entrare nella mia stanza?	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Che cavolo succede da queste parti?	}{	Che cavolo succede da queste parti?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	13	}{	Sei stranamente attraente....	}{	Sei stranamente attraente....	}{	21	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	14	}{	Certo! Voglio dire, uh, aspetta... hai fatto qualche controllo ultimamente?	}{	Certo! Voglio dire, uh, aspetta... hai fatto qualche controllo ultimamente?	}{	21	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{	Certo che vengo, e la morte viene con me!	}{	Certo che vengo, e la morte viene con me!	}{	31	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{	Tu sei ASSOLUTAMENTE eccitante, ma credo sia meglio ucciderti.	}{	Tu sei ASSOLUTAMENTE eccitante, ma credo sia meglio ucciderti.	}{	31	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Oh, andiamo, ora... non negare a te stesso il piacere che provi di fronte a Jezebel. Ancora un paio di passi e potremo unirci nella dolce oscurita', diventare schiavi dei desideri delle nostre vite corrotte.	}{	Oh, andiamo, ora... non negare a te stessa il piacere che provi di fronte a Jezebel. Ancora un paio di passi e potremo unirci nella dolce oscurita', diventare schiave dei desideri delle nostre vite corrotte.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Spiacente, ho dimenticato il guanto.	}{	Mi piacerebbe, ma ho dimenticato la penicillina.	}{	31	}{	Humanity 6 & not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	23	}{	Ho dimenticato il guanto per il mio amico qui sotto.	}{	Maledizione, ho dimenticato i miei ortaggi preferiti.	}{	31	}{	Humanity 6 & IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	24	}{	Devo ammettere che mi tenti.	}{	Devo ammettere che mi tenti.	}{	31	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	C'e' una strana seduzione nella tua malata riproduzione.	}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Oh, non puoi sfuggirmi, bocconcino. In un modo o nell'altro, tu ed io uniremo i nostri esseri sulla strada verso il Nono Girone, e tu mi precederai, pieno della dolce malattia che porto in me.	}{	Oh, non puoi sfuggirmi, bocconcino. In un modo o nell'altro, tu ed io uniremo i nostri esseri sulla strada verso il Nono Girone, e tu mi precederai, piena della dolce malattia che porto in me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Fammi indovinare... fai parte della Confraternita del Nono Girone?	}{	Fammi indovinare... fai parte della Confraternita del Nono Girone?	}{	41	}{	Humanity 6 & G.Kanker_Know == 1	}{		}{		}{		}{		}{		}{		}{		}{	Anche tu fai parte dei Nove Anelli?	}
+{	33	}{	Magnifico. Un'altro folle fanatico con disturbi comportamentali.	}{	Magnifico. Un'altro folle fanatico con disturbi comportamentali.	}{	41	}{	Humanity 6 & G.Kanker_Know == 0	}{		}{		}{		}{		}{		}{		}{		}{	Mi sembri una pazza che beve un frappe' avvelenato.	}
+{	34	}{	Sembra fico! E' una specie di club? Dove vado per iscrivermi?	}{	Sembra fico! E' una specie di club? Dove vado per iscrivermi?	}{	41	}{	Humanity -6 & G.Kanker_Know == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{	Ehi! Stai con quei dritti della Confraternita, vero? Roba tosta!	}{	Ehi! Stai con quei dritti della Confraternita, vero? Roba tosta!	}{	41	}{	Humanity -6 & G.Kanker_Know == 1	}{		}{		}{		}{		}{		}{		}{		}{	Posso finalmente unirmi al girone delle ombre, o mia regina?	}
+{	36	}{	Vuol dire che mi svegliero' morto come Hannah e i suoi amici?	}{	Vuol dire che mi svegliero' morta come Hannah e i suoi amici?	}{	61	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Non desidero indossare il mantello di morte che hai passato alla donna di facili costumi.	}
+{	37	}{	Non che voglia lamentarmi, ma di solito non te la fai con le puttane come Hannah?	}{	Non che voglia lamentarmi, ma di solito non te la fai con le puttane come Hannah?	}{	61	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Non desidero indossare il mantello di morte che hai passato alla donna di facili costumi.	}
+{	38	}{	Questa storia sta andando avanti troppo a lungo. Non c'e' altra soluzione se non la Morte Finale.	}{	Questa storia sta andando avanti troppo a lungo. Non c'e' altra soluzione se non la Morte Finale.	}{	0	}{	Humanity 6	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Dovro' riversare la morte su di te, Regina Oscura!	}
+{	39	}{	Ottima idea, ma cominci davvero a rompermi. MUORI, PUTTANA!	}{	Ottima idea, ma cominci davvero a rompermi. MUORI, PUTTANA!	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	La mia anima e' buia, ma anche i tuoi sogni all'inferno lo saranno! MUORI!	}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Si', ho seguito il sentiero che porta al Nono Girone! Vieni ad unirti all'illuminato, soddisfa i tuoi piu' bassi istinti, finche' i fratelli e le sorelle non giaceranno senza vita sull'altare. Il desiderio sara' la nostra verita', e a seguire la morte.	}{	Si', ho seguito il sentiero che porta al Nono Girone! Vieni ad unirti all'illuminato, soddisfa i tuoi piu' bassi istinti, finche' i fratelli e le sorelle non giaceranno senza vita sull'altare. Il desiderio sara' la nostra verita', e a seguire la morte.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Tutto cio' deve finire, Jezebel! Stai mettendo in pericolo la Masquerade!	}{	Tutto cio' deve finire, Jezebel! Stai mettendo in pericolo la Masquerade!	}{	51	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Tu strappi via da noi il Velo che ci protegge tutti, sirena deviata!	}
+{	43	}{	Cosa credi di concludere con tutto cio'?	}{	Cosa credi di concludere con tutto cio'?	}{	51	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Questa terribile missione non ha capo ne' ragione!	}
+{	44	}{	Posso infilarmi in qualcosa di meno complicato?	}{	Posso infilarmi in qualcosa di meno complicato?	}{	51	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Vorrei conoscere coloro che si sono fidati di te fino alla morte, Regina Oscura!	}
+{	45	}{	Tu sei fuori, come il Fratello Kanker. E ora morirai, proprio come lui.	}{	Tu sei fuori, come il Fratello Kanker. E ora morirai, proprio come lui.	}{	0	}{	Humanity 6 & G.Kanker_Know == 1	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Morirai come ha fatto il tuo Fratello Oscuro prima di te!	}
+{	46	}{	L'unico sacrificio di stanotte sei tu, Jezebel.	}{	L'unico sacrificio di stanotte sei tu, Jezebel.	}{	0	}{	Humanity 6 & G.Kanker_Know == 0	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Sarai solo tu l'agnello sacrificale!	}
+{	47	}{	Nah. Preferirei rullarmi una sigaretta con le tue ceneri, troia.	}{	Nah. Preferirei rullarmi una sigaretta con le tue ceneri, troia.	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Mi fumero' una pipa ripiena delle tue ceneri, meretrice.	}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Non riusciro' a controllare la mia sete ancora per molto! Avanti! La verita' ti verra' mostrata non appena berro' il sangue dal tuo corpo doppiamente senza vita. Oh, sara' eccitante - oh inebriante, bocconcino! Dolcemente inebriante!	}{	Non riusciro' a controllare la mia sete ancora per molto! Avanti! La verita' ti verra' mostrata non appena berro' il sangue dal tuo corpo doppiamente senza vita. Oh, sara' eccitante - oh inebriante, bocconcino! Dolcemente inebriante!	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	Whisper("Threat")	}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Non saro' il tuo ultimo bocconcino, Jezebel.	}{	Non saro' il tuo ultimo bocconcino, Jezebel.	}{	0	}{	Humanity 6 & G.Kanker_Know == 0	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Ti daro' in pasto alle fiamme dell'Inferno!	}
+{	53	}{	Preparati a vedere il Fratello Kanker... all'inferno.	}{	Preparati a vedere il Fratello Kanker... all'inferno.	}{	0	}{	Humanity 6 & G.Kanker_Know == 1	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	La tua carne alimentera' le fiamme dell'inferno come ha gia' fatto prima di te il tuo Fratello Oscuro!	}
+{	54	}{	Sei solo una pazza, una puttana in calore... il che di solito va bene. Oh se va bene.	}{	Sei solo una pazza, una puttana in calore... il che di solito va bene. Oh se va bene.	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Avanti, danziamo finche' uno di noi non andra' a letto col diavolo!	}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	Chi meglio delle prostitute puo' portare il mio dono oscuro? Ah, non lo condivideranno, forse, con il resto di coloro che annegano nei piaceri della carne?	}{	Chi meglio delle prostitute puo' portare il mio dono oscuro? Ah, non lo condivideranno, forse, con il resto di coloro che annegano nei piaceri della carne?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Fai parte della Confraternita del Nono Girone?	}{	Fai parte della Confraternita del Nono Girone?	}{	41	}{	Humanity 6 & G.Kanker_Know == 1	}{		}{		}{		}{		}{		}{		}{		}{	Anche tu fai parte dei Nove Anelli?	}
+{	63	}{	Tu sei semplicemente malata. E' giunto il momento di porre fine alla tua miseria.	}{	Tu sei semplicemente malata. E' giunto il momento di porre fine alla tua miseria.	}{	0	}{	Humanity 6 & G.Kanker_Know == 0	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	Devo liberare il mondo dalle tue istigazioni contagiose!	}
+{	64	}{	E' vero, hai ragione, ma credo sia meglio staccarti la testa.	}{	E' vero, hai ragione, ma credo sia meglio staccarti la testa.	}{	0	}{	Humanity -6	}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{	E' certo che mi divertiro' con il tuo corpo senza testa, Regina Oscura!	}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	Regina? Oh, si'! Sono Jezebel, Jezebel Locke. Sei un malkaviano, vero? Parli con assurdita' enigmatiche, e i tuoi occhi danzano con visioni che non comprendono? Non vuoi danzare con Jezebel, bocconcino?	}{	Regina? Oh, si'! Sono Jezebel, Jezebel Locke. Sei malkaviana, vero? Parli con assurdita' enigmatiche, e i tuoi occhi danzano con visioni che non comprendono? Non vuoi danzare con Jezebel, bocconcino?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Mi piacerebbe trafiggere la mia lingua con del filo spinato.	}{	Mi piacerebbe trafiggere la mia lingua con del filo spinato.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	73	}{	Sei pericolosa, la tua bellezza oscura non ha paragoni.	}{	Sei pericolosa, la tua bellezza oscura non ha paragoni.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
