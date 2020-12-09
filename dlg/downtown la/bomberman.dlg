@@ -1,23 +1,23 @@
-{	1	}{	[Prince's voice coming out of dominated subject]I anticipated you'd make it this far.... I had no doubts about your capability. But I am not so easily betrayed. Did you ever think about what it takes to live as long as I have? To come this far? Consider that lack of judgment in your last few seconds.	}{	[Prince's voice coming out of dominated subject]I anticipated you'd make it this far.... I had no doubts about your capability. But I am not so easily betrayed. Did you ever think about what it takes to live as long as I have? To come this far? Consider that lack of judgment in your last few seconds.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Wait... we can discuss this.	}{	Wait... we can discuss this.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	... Hilarious ...	}
-{	3	}{	I'm coming for you, LaCroix! You hear me? I'm coming for you!	}{	I'm coming for you, LaCroix! You hear me? I'm coming for you!	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	When I spring to the top, you're going to have a great fall.	}
-{	4	}{	Consider this... you're going to die tonight.	}{	Consider this... you're going to die tonight.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	I didn't know you had a sense of humor. I'll tear that out too.	}
-{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Tick, tick, tick... a bientot[a bee-en toe], Kindred.	}{	Tick, tick, tick... a bientot[a bee-en toe], Kindred.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	(Auto-Link)	}{	(Auto-Link)	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	[Human dominated by prince trying to resist]Help!	}{	[Human dominated by prince trying to resist]Help!	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Te l'avevo detto che alla fine l'avresti fatto.... Non avevo dubbi sulla tua abilita'. Ma non mi lascio ingannare cosi' facilmente. Hai mai pensato cosa comporta vivere cosi' a lungo come ho fatto io? Arrivare cosi' lontano? Considera questa mancanza di giudizio, nei tuoi ultimi secondi di vita.	}{	Te l'avevo detto che alla fine l'avresti fatto.... Non avevo dubbi sulla tua abilita'. Ma non mi lascio ingannare cosi' facilmente. Hai mai pensato cosa comporta vivere cosi' a lungo come ho fatto io? Arrivare cosi' lontano? Considera questa mancanza di giudizio, nei tuoi ultimi secondi di vita.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Aspetta... possiamo parlarne.	}{	Aspetta... possiamo parlarne.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	... Divertente ...	}
+{	3	}{	Sono qui per te, LaCroix! Mi senti? Sto venendo da te!	}{	Sono qui per te, LaCroix! Mi senti? Sto venendo da te!	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quando arrivero' in cima, ti aspettera' una bella caduta.	}
+{	4	}{	E tu considera questo... stanotte morirai.	}{	E tu considera questo... stanotte morirai.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sapevo che avessi il senso dell'humor. Anch'io ce l'ho.	}
+{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Tick, tick, tick... a bientot, Fratello.	}{	Tick, tick, tick... a bientot, Sorella.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	(Auto-Link)	}{	(Auto-Link)	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	13	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Aiuto!	}{	Aiuto!	}{	#	}{	npc.SetDisposition("Fear", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	23	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
