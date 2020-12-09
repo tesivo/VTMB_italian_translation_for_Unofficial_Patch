@@ -1,0 +1,59 @@
+actor "AndreiSabbat"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 17.9551247166
+      param "character/dlg/hollywood/Andrei/line247_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  
+channel "expression 3"
+{
+    event expression "Express1"
+    {
+        time 0.1 10.1
+        param "lacroix"
+        param2 "Mad"
+        event_ramp
+        {
+            0.2538 9.8861
+        }
+    }
+}
+
+channel "expression 3"
+{
+    event expression "Express1"
+    {
+        time 10.9 14.5
+        param "lacroix"
+        param2 "Mad"
+        event_ramp
+        {
+            0.2538 3.4861
+        }
+    }
+}
+
+channel "expression 3"
+{
+    event expression "Express1"
+    {
+        time 14.9 17.6
+        param "lacroix"
+        param2 "Enraged"
+        event_ramp
+        {
+            0.2538 2.2861
+        }
+    }
+}
+
+}
+
+fps 60
+snap off

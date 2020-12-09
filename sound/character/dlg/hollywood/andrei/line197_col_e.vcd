@@ -1,0 +1,17 @@
+actor "AndreiSabbat"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 25.4550113379
+      param "character/dlg/hollywood/Andrei/line197_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+
+}
+
+fps 60
+snap off

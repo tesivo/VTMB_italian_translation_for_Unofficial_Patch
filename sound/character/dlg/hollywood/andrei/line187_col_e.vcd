@@ -1,0 +1,26 @@
+actor "AndreiSabbat"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 30.7314058957
+      param "character/dlg/hollywood/Andrei/line187_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  
+  channel "Gestures"
+  {
+    event gesture "Beckett_line211_col_E"
+    {
+      time 0.000000 17.666666
+      param "Beckett_line211_col_E"
+    }
+  }
+
+}
+
+fps 60
+snap off

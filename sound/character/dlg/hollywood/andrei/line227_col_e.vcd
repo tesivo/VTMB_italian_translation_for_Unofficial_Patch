@@ -1,0 +1,31 @@
+actor "AndreiSabbat"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 26.8084353741
+      param "character/dlg/hollywood/Andrei/line227_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  
+channel "expression 3"
+{
+    event expression "Express1"
+    {
+        time 0.0 26.8
+        param "lacroix"
+        param2 "Miserable"
+        event_ramp
+        {
+            0.2538 26.4861
+        }
+    }
+}
+
+}
+
+fps 60
+snap off

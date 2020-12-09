@@ -1,0 +1,59 @@
+TerminalDefinition	// added by wesp
+{
+	"screen saver"		"Freedom for Vorlon ships!"		// Bounces around on the screen when the terminal is not being used, changed by wesp. 
+	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
+
+	LogonScreen	// displayed when the user first logs on
+	{
+		// Any number of lines are acceptable
+		"line0"		"LA public library"
+	}
+
+	// you can have up to 5 subdirs per terminal
+	// and up to 6 functions per sub dir
+	// there are 8 total outputs per terminal, (0...7)
+	// talk to Brock if you'd like this number increased. 
+
+	SubDir
+	{
+		"name"			"Journal"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"password"		"Ankara"				// password required to run commands in this menu (16 characters)
+		"description"		"Library activities" 	// This is printed each time the user enters this menu (128 characters)
+
+		Function
+		{
+			"name"		"First"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"First entry"		// this is a description of this function  (128 characters)
+			"runtext"	"Beckett asked me to do research about an ancient sarcophagus for him in the public library. Rather boring stuff, but then I noticed another Kindred sneaking around. Who seemed to step from shadow to shadow like through a door! Is it a Lasombra? But what is he doing here in LA? Is it about Beckett's sarcophagus? I'll better follow him around the next few nights, just to be on the safe side."
+		}
+		
+		Function
+		{
+			"name"		"Second"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Second entry"		// this is a description of this function  (128 characters)
+			"runtext"	"The Kindred from the library went into that abandoned house downtown tonight, the one with the sprayed red symbol nearby. I followed him and was met by a bouncer who asked if I'd been enlightened. I wasn't, so he didn't let me in. I had to comply. Later the new agent of the prince entered it, soon after the bouncer ran out in panic and into the sewers! I followed him all the way to Santa Monica where he then visited the smoke shop to relax."
+		}
+
+		Function
+		{
+			"name"		"Third"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Third entry"		// this is a description of this function  (128 characters)
+			"runtext"	"Tonight, I followed the Kindred himself to Santa Monica where he entered the junkyard, probably to meet with that weird guy working there. I was still watching the place when, again, the agent of the prince arrived. Suddenly the Kindred stepped out of a shadow nearby! I hope I wasn't spotted. He took a cab back to the library."
+		}
+
+		Function
+		{
+			"name"		"Fourth"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Fourth entry"		// this is a description of this function  (128 characters)
+			"runtext"	"I do not know what this Lasombra is up to. Possibly recruiting for the Sabbat? I'm pretty sure that he failed with the junkyard guy, but I really don't know about the bouncer. This doesn't affect the sarcophagus thing, but I still got a very bad feeling with him always returning to the library. I will contact Beckett and ask for help!"
+		}
+
+		Function
+		{
+			"name"		"Fifth"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Fifth entry"		// this is a description of this function  (128 characters)
+			"runtext"	"I arranged a meeting with Beckett in the Santa Monica smoke shop as that bouncer is a regular there. We should find out what he knows, Beckett can be very convincing. Afterwards I'll show Beckett the old emergency hatch in the sewers that I use to enter the library unseen. We will search for the Lasombra's lair there ourselves!"
+			"runscript"	"G.Library_Coffee = 2; librarySetQuest()"
+		}
+	}
+}
