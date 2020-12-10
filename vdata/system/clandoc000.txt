@@ -142,8 +142,8 @@ ClanDataTables
 		Text
 		{
 			"TemplateName"		"Human"
-			"Name"			"None"
-			"Description"		"A normal human being."
+			"Name"			"Nessuno"
+			"Description"		"Un normale umano."
 		}
 
 		General
@@ -240,10 +240,10 @@ ClanDataTables
 		{
 			"TemplateName"			"Player_Brujah"
 			"Name"				"Brujah"
-			"Description"			"Brujah are passionate idealists and rebels, more likely to fight for their rights than write protest songs. In life, most Brujah sought social change, and in undeath, most clan members commonly seek the creation of a vampiric Utopia. As militant radicals, they are renowned for their combat skills, but are also more likely to frenzy due to their hot-bloodedness, so to speak. They receive a +1 to their Unarmed feat but are penalized with a -2 to all frenzy checks, due to their zealous natures."
+			"Description"			"I Brujah sono idealisti e ribelli, impiegano il loro tempo a lottare per i loro diritti oltre che a scrivere canzoni di protesta. Nella vita, molti Brujah vanno alla ricerca di un cambiamento sociale e, nella loro non morte, molti membri del clan cercano tutti insieme la creazione di un'Utopia Vampirica. Come militaristi radicali, sono rinomati per le loro capacita' combattive, ma sono anche piu' pazzi a causa del loro sangue caldo. Ricevono +1 in rissa ma sono penalizzati di -2 quando impazziscono a causa della loro zelante natura."
 			"ShortDescription"		"
-Advantage: Gains +1 to Unarmed."	// changed by wesp
-			"ShortPenaltyDescription"	"Penalty: -2 on all frenzy checks."
+Vantaggi: +1 in Rissa"
+			"ShortPenaltyDescription"	"Svantaggi: -2 sul controllo delle pazzie"
 		}
 
 		General
@@ -360,10 +360,10 @@ Advantage: Gains +1 to Unarmed."	// changed by wesp
 		{
 			"TemplateName"			"Player_Gangrel"
 			"Name"				"Gangrel"
-			"Description"			"Gangrel are wild loners that are the most in tune with the Beast Within, allowing them to shapeshift into more beastly forms. Nomadic in nature, Gangrel care little about vampire politics and prefer to dwell and hunt in the outskirts of society. Because of their animalistic nature, they receive a +5 to Strength, Stamina, and Wits during frenzy. However, because of their inherent feral nature, Gangrel receive a -1 on all frenzy checks."
+			"Description"			"I Gangrel sono barbari solitari i quali sono per la maggior parte in comunicazione stretta con la loro Bestia Interna, permettendogli di mutare in diverse forme animalesche. Nomadi di natura, i Gangrel si curano poco della politica dei vampiri e preferiscono risiedere e cacciare nelle periferie della societa'. A causa della loro natura animale, ricevono +5 in Forza, Prontezza e Costituzione durante la pazzia ma, a causa della loro inerente natura selvaggia, i Gangrel ricevono -1 su tutti i controlli della Pazzia."
 			"ShortDescription"		"
-Advantage: +5 to Strength, Wits, and Stamina during frenzy."
-			"ShortPenaltyDescription"	"Penalty: -1 on all frenzy checks."
+Vantaggi: +5 in Forza, Prontezza e Costituzione durante la pazzia."
+			"ShortPenaltyDescription"	"Svantaggi: -1 sul controllo delle pazzie."
 		}
 
 		General
@@ -480,10 +480,10 @@ Advantage: +5 to Strength, Wits, and Stamina during frenzy."
 		{
 			"TemplateName"			"Player_Malkavian"
 			"Name"				"Malkavian"
-			"Description"			"Malkavians are known as Lunatics because of their ability to hear voices of \"insight\" and subject others to their insanity through their Discipline, Dementation. The world appears much different to the Malkavian than it does to the \"sane\" clans, though the extent of a Malkavian's madness depends on the individual. A blessing and a curse, a Malkavian's insanity will help or hinder them, depending on how much they struggle against their nature. Malkavians start with a +2 bonus to Inspection."
+			"Description"			"I Malkavian sono considerati lunatici per la loro abilita' di sentire le voci della \"coscienza\" e soggiogare gli altri alla loro pazzia attraverso la Disciplina che li caratterizza, la Demenza. Il mondo appare molto differente ai Malkavian da come appare ai clan \"sani\" sebbene l'estensione della pazzia dei Malkavian dipende dall'individuo. Una benedizione e una maledizione, l'insanita' di un Malkavian puo' aiutarlo o ingannarlo, dipende da quanto combattono contro la loro natura. I Malkavian partono con un bonus di +2 in Investigare."
 			"ShortDescription"		"
-Advantage: Insight, +2 to Inspection."
-			"ShortPenaltyDescription"	"Penalty: Madness."
+Vantaggi: Perspicacia, +2 in Investigare."
+			"ShortPenaltyDescription"	"Svantaggi: Pazzia."
 		}
 
 		General
@@ -599,10 +599,10 @@ Advantage: Insight, +2 to Inspection."
 		{
 			"TemplateName"			"Player_Nosferatu"
 			"Name"				"Nosferatu"
-			"Description"			"Hideous, skulking, and powerful. Even in a world of monsters the Nosferatu stand out. The Embrace twists and deforms their physical features, forcing them to seek sanctuary underground. Nosferatu are masters of the shadows. Due to their curse, Nosferatu have a Seduction of 0 and can never raise it higher, and they hide their existence from common humans. Having shared the darkness with vermin for so long, vampires of Clan Nosferatu are able to draw extra nourishment from rats."
+			"Description"			"Orribili, scheletrici e potenti. Anche in un mondo di mostri si mettono in risalto i Nosferatu. L'Abbraccio piega e deforma, forzandoli a cercare il santuario sotterraneo. I Nosferatu sono maestri dell'ombra. A causa della loro maledizione, i Nosferatu hanno una Seduzione pari a 0 e non possono incrementarla e nascondono la loro esistenza ai comuni umani. Avendo condiviso l'oscurita' con i parassiti per lungo tempo, i vampiri del Clan Nosferatu sono capaci di ricevere sangue extra dai topi."
 			"ShortDescription"		"
-Advantage: Rats do not flee from Nosferatu, and Nosferatu gain extra blood when feeding on rats."
-			"ShortPenaltyDescription"	"Penalty: Appearance maximum of 0. Monstrous visage can cause a Masquerade violation."
+Vantaggi: Sangue Extra quando ti nutri di ratti. I ratti non scappano."	// changed by wesp
+			"ShortPenaltyDescription"	"Svantaggi: Seduzione massima 0. Un viso mostruoso puo' causare una violazione della Masquerade."
 		}
 
 		General
@@ -716,10 +716,10 @@ Advantage: Rats do not flee from Nosferatu, and Nosferatu gain extra blood when 
 		{
 			"TemplateName"			"Player_Toreador"
 			"Name"				"Toreador"
-			"Description"			"Toreador picture themselves as artistes and visionaries, and they value the high society mentality that the Camarilla reinforces. Of all clans, the Toreador are the most connected to the mortal world through arts and entertainment. Toreador are beautiful creatures, svelte and seductive, and move almost effortlessly through the society of the living. The Toreador's empathy is both a gift and a burden. All Humanity shifts are doubled."
+			"Description"			"I Toreador si raffigurano come artisti e visionari, apprezzano sia la mentalita' dell'alta societa' che i rinforzi della Camarilla. Di tutti i clan, i Toreador sono i piu' vicini al mondo dei mortali attraverso l'arte e l'intrattenimento. I Toreador sono bellissime creature, snelle e seducenti, si muovono quasi senza sforzi attraverso la societa' dei viventi. L'immedesimazione e' sia un dono che un peso. Perdono e acquisiscono il doppio dei punti Umanita', ma i Toreador partono con un punto bonus in Aspetto."
 			"ShortDescription"		"
-Advantage: All Humanity gains are doubled. Cheaper experience cost to raise Humanity."
-			"ShortPenaltyDescription"	"Penalty: All Humanity losses are doubled."
+Vantaggi: I punti Umanita' sono raddoppiati. Meno punti d'esperienza per incrementare Umanita'. +1 Aspetto."
+			"ShortPenaltyDescription"	"Svantaggi: Tutte le diminuzioni dell'Umanita' sono raddoppiate."
 		}
 
 		General
@@ -835,10 +835,10 @@ Advantage: All Humanity gains are doubled. Cheaper experience cost to raise Huma
 		{
 			"TemplateName"			"Player_Tremere"
 			"Name"				"Tremere"
-			"Description"			"Blood sorcerers born from mystic rituals and diablerie, the Tremere are the least trusted of the Camarilla clans. The ritual the Tremere used to transform from living mages into undying monsters stripped them of their magic arts. To compensate, the vampires of Clan Tremere developed Thaumaturgy, the powerful Discipline of blood magic. The clan guards its secrets jealously and are the only Kindred to wield this powerful Discipline. The pursuit of arcane knowledge comes before all else, and the reliance upon it has weakened the bloodline. Tremere can raise no Physical Attribute above four points."	// changed by wesp
+			"Description"			"Stregoni del sangue nati dai rituali mistici e da diavolerie varie, i Tremere sono gli ultimi nella graduatoria dei clan fidati della Camarilla. I rituali trasformano i maghi viventi in mostri, ma in compenso, i vampiri del Clan Tremere hanno sviluppato la Taumaturgia, una potente Disciplina della magia del sangue. Il clan custodisce gelosamente i propri segreti e sono i soli Fratelli a saperla usare. I Tremere non possono incrementare gli Attributi Fisici oltre i 4 punti."
 			"ShortDescription"		"
-Advantage: Thaumaturgy."
-			"ShortPenaltyDescription"	"Penalty: Can raise no Physical Attribute above 4."
+Vantaggi: Taumaturgia. Limitano la Dominazione durante i dialoghi"
+			"ShortPenaltyDescription"	"Svantaggi: Non possono incrementare gli Attributi Fisici oltre i 4 punti."
 		}
 
 		General
@@ -954,10 +954,10 @@ Advantage: Thaumaturgy."
 		{
 			"TemplateName"			"Player_Ventrue"
 			"Name"				"Ventrue"
-			"Description"			"Truly the upper echelons of society, the Ventrue are seen as the honorable and virtuous leaders of the Camarilla. They wholeheartedly support the Masquerade, influencing the mortal and undead worlds to help them maintain the Masquerade as well as garner support for themselves. Clan Ventrue is an exclusive and powerful gathering of immortals, and even the lowliest initiate of Clan Ventrue can expect special treatment in Kindred society. This regal bloodline, however, gains no nourishment from the lowborn and thin-blooded. Ventrue gain no blood from feeding on animals. Feeding on lowlife humans - prostitutes and the homeless - can cause the Ventrue to vomit."
+			"Description"			"Giustamente nei piani alti della societa', i Ventrue sono visti come onorabili e virtuosi leader della Camarilla. Il loro sincero supporto alla Masquerade influenza il mondo dei mortali e dei non morti per aiutarli a mantenere segreta la Masquerade cosi' come il supporto per se' stessi. Il Clan Ventrue e' un esclusivo e potente raduno di immortali, anche gli umili iniziati del Clan Ventrue possono aspettarsi speciali trattamenti nella societa' dei Fratelli. Questo regale sangue ha un punto bonus iniziale in Carisma, comunque, non guadagna nutrimento dai barboni e da chi ha poco sangue. I Ventrue non guadagnano punti sangue dagli animali. Nutrirsi su umani spregevoli - prostitute e senza casa - puo' causare il rigurgito."
 			"ShortDescription"		"
-Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog."
-			"ShortPenaltyDescription"	"Penalty: Gain no blood from feeding on animals. Feeding on lowlife may cause vomiting."
+Una piu' facile accettazione nella societa' della Camarilla. Puo' essere usata la Dominazione nel dialogo."
+			"ShortPenaltyDescription"	"Non guadagna punti sangue dagli animali. Nutrirsi con persone spregevoli puo' causare vomito."
 		}
 
 		General
@@ -1070,7 +1070,7 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 // all clans added with stats and equipment for multiplayer by wesp
 
  
-	ClanData
+        ClanData
 	{
 		// "No" Clan Doc (i.e., Human/Kine Base)
 
@@ -1078,7 +1078,7 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 		{
 			"TemplateName"		"mp-condotierre"	// changed by wesp
 			"Name"			"Condotierre"
-			"Description"		"Founded in the 15th century, the Condotierri is a quasi-military order created for the sole purpose of safeguarding the Society of Leopold and its Inquisitors. Condotierri tend to be recruited straight from the military or law enforcement agencies, and are well-trained in current firearms techniques, security measures, and unarmed combat. Unfortunately, their secular backgrounds often prevent them from understanding and accepting true faith. As a result, their Numina tends to be significantly underdeveloped."	// changed by wesp
+			"Description"		"Fondato nel 15esimo secolo, i Condotierri sono un ordine quasi militare creato per il solo scopo di salvaguardare la Societa' di Leopold e i suoi Inquisitori. I Condotierri tendono ad essere reclutati direttamente dall'esercito o dalle agenzie dell'autorita' giudiziaria e sono ben addestrati nelle attuali tecniche di armi da fuoco, misure di sicurezza e combattimento disarmato. Sfortunatamente, i loro secolari sfondi spesso li ostacolano nel capire e accettare la vera fede. Come risultato, la loro Numina tende ad essere significativamente sottosviluppata."
 			"ShortDescription"		""
 			"ShortPenaltyDescription"	""
 		}
@@ -1148,7 +1148,7 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 			"Shield_of_Faith"		"1"	// changed by wesp
 			"Divine_Vision"		"1"
 			"Holy_Light"		"1"
-// changed by wesp		"Mind_Shield"		"1"
+// changed by wesp    	"Mind_Shield"		"1"
 		}
 
 		//	Reactions
@@ -1176,8 +1176,8 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 		Text
 		{
 			"TemplateName"		"mp-inquisitor"	// changed by wesp
-			"Name"			"Inquisitor"
-			"Description"		"More than mere hunters of vampires, the Inquisitors are holy crusaders dedicated to the eradication of supernaturals from the earth. Possessing both a fervent religious zeal as well as an unswerving loyalty to the Society of Leopold, Inquisitors are dangerous predators that are feared by the Damned more than any other group of mortals. Their faith affords them high levels of Numina, and they tend to be particularly adept at wielding melee weapons."	// changed by wesp
+			"Name"			"Inquisitore"
+			"Description"		"Piu' di semplici cacciatori di vampiri, gli Inquisitori sono devoti alla crociata per la sradicazione dei soprannaturali sulla terra. Posseggono lo zelo religioso cosi' come una salda fedelta' alla Societa' di Leopold, gli Inquisitori sono pericolosi predatori timorosi del Diavolo piu' che degli umani. La loro fede gli permette livelli alti di Numina e tendono ad essere particolarmente abili nel maneggiare armi da mischia."
 			"ShortDescription"		""
 			"ShortPenaltyDescription"	""
 		}
@@ -1275,8 +1275,8 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 		Text
 		{
 			"TemplateName"		"mp-mercenary"	// changed by wesp
-			"Name"			"Mercenary"	// changed by wesp
-			"Description"		"To pursuit the undead in areas where their brothers are not allowed to enter, the Society of Leopold employs female mercenaries. These tough women are normally of ex-military or law enforcement background and quite used to modern firearms, security technology, and unarmed fighting. Due to their greedy nature they are usually far from understanding the deep religious foundation of the Society, which as a consequence means that their Numina isn't up to the powers of the real believers."	// added by wesp
+			"Name"			"Mercenario"	// changed by wesp
+			"Description"		"Per inseguire i non morti in zone dove i loro fratelli non possono entrare, la Società di Leopoldo impiega donne mercenarie. Queste donne dure sono normalmente di formazione ex-militare o delle forze dell'ordine e sono abbastanza abituate alle moderne armi da fuoco, alla tecnologia di sicurezza e ai combattimenti corpo a corpo. A causa della loro natura avida, sono solitamente lontane dal comprendere il profondo fondamento religioso della Società, il che significa che la loro Numina non è all'altezza dei poteri dei veri credenti."	// added by wesp
 			"ShortDescription"		""
 			"ShortPenaltyDescription"	""
 		}
@@ -1374,10 +1374,10 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 		{
 			"TemplateName"			"mp-brujah"	// changed by wesp
 			"Name"				"Brujah"
-			"Description"			"Brujah are passionate idealists and rebels, more likely to fight for their rights than write protest songs. In life, most Brujah sought social change, and in undeath, most clan members commonly seek the creation of a vampiric Utopia. As militant radicals, they are renowned for their combat skills, but are also more likely to frenzy due to their hot-bloodedness, so to speak. They receive a +1 to their Unarmed feat but are penalized with a -2 to all frenzy checks, due to their zealous natures."
+			"Description"			"Bruja sono idealisti appassionati e ribelli, più propensi a combattere per i loro diritti che a scrivere canzoni di protesta. Nella vita, la maggior parte dei Bruja cercava il cambiamento sociale, e nei non-morti la maggior parte dei membri del clan cercava comunemente la creazione di un'utopia vampirica. Come radicali militanti, sono rinomati per le loro capacità di combattimento, ma sono anche più inclini alla frenesia a causa del loro sangue caldo, per così dire. Ricevono un +1 alla loro impresa disarmata, ma sono penalizzati con un -2 a tutti i controlli di frenesia, a causa della loro natura zelante."
 			"ShortDescription"		"
-Advantage: Gains +1 to Unarmed."	// changed by wesp
-			"ShortPenaltyDescription"	"Penalty: -2 on all frenzy checks."
+Vantaggio: Guadagna +1 a Disarmato."	// changed by wesp
+			"ShortPenaltyDescription"	"Svantaggi: -2 su tutti i controlli di frenesia."
 		}
 
 		General
@@ -1492,10 +1492,10 @@ Advantage: Gains +1 to Unarmed."	// changed by wesp
 		{
 			"TemplateName"			"mp-gangrel"	// changed by wesp
 			"Name"				"Gangrel"
-			"Description"			"Gangrel are wild loners that are the most in tune with the Beast Within, allowing them to shapeshift into more beastly forms. Nomadic in nature, Gangrel care little about vampire politics and prefer to dwell and hunt in the outskirts of society. Because of their animalistic nature, they receive a +5 to Strength, Stamina, and Wits during frenzy. However, because of their inherent feral nature, Gangrel receive a -1 on all frenzy checks."
+			"Description"			"I Gangrel sono dei solitari selvaggi che sono i più in sintonia con la Bestia Interiore, permettendo loro di trasformarsi in forme più bestiali. Di natura nomade, i Gangrel si preoccupano poco della politica vampiresca e preferiscono abitare e cacciare ai margini della società. A causa della loro natura animalesca, ricevono un +5 alla Forza, alla Resistenza e all'Intelligenza durante la frenesia. Tuttavia, a causa della loro natura selvaggia, i Gangrel ricevono un -1 su tutti i controlli della frenesia."
 			"ShortDescription"		"
-Advantage: +5 to Strength, Wits, and Stamina during frenzy."
-			"ShortPenaltyDescription"	"Penalty: -1 on all frenzy checks."
+Vantaggi: +5 alla forza, all'ingegno e alla resistenza durante la frenesia."
+			"ShortPenaltyDescription"	"Svantaggi: -1 su tutti i controlli di frenesia."
 		}
 
 		General
@@ -1612,10 +1612,10 @@ Advantage: +5 to Strength, Wits, and Stamina during frenzy."
 		{
 			"TemplateName"			"mp-malkavian"	// changed by wesp
 			"Name"				"Malkavian"
-			"Description"			"Malkavians are known as Lunatics because of their ability to hear voices of \"insight\" and subject others to their insanity through their Discipline, Dementation. The world appears much different to the Malkavian than it does to the \"sane\" clans, though the extent of a Malkavian's madness depends on the individual. A blessing and a curse, a Malkavian's insanity will help or hinder them, depending on how much they struggle against their nature. Malkavians start with a +2 bonus to Inspection."
+			"Description"			"I Malkaviani sono conosciuti come Lunatici per la loro capacità di sentire voci di \"intuizione\" e di sottoporre gli altri alla loro pazzia attraverso la loro Disciplina, la Dementazione. Il mondo appare molto diverso dai Malkavian rispetto ai clan \"sani\", anche se l'entità della follia di un Malkavian dipende dall'individuo. Una benedizione e una maledizione, la pazzia di un malkaviano li aiuterà o li ostacolerà, a seconda di quanto lottano contro la loro natura. I malkaviani iniziano con un bonus di +2 all'ispezione."
 			"ShortDescription"		"
-Advantage: Insight, +2 to Inspection."
-			"ShortPenaltyDescription"	"Penalty: Madness."
+Vantaggi: Approfondimento, +2 all'ispezione."
+			"ShortPenaltyDescription"	"Penalità: Follia."
 		}
 
 		General
@@ -1731,10 +1731,10 @@ Advantage: Insight, +2 to Inspection."
 		{
 			"TemplateName"			"mp-nosferatu"	// changed by wesp
 			"Name"				"Nosferatu"
-			"Description"			"Hideous, skulking, and powerful. Even in a world of monsters the Nosferatu stand out. The Embrace twists and deforms their physical features, forcing them to seek sanctuary underground. Nosferatu are masters of the shadows. Due to their curse, Nosferatu have a Seduction of 0 and can never raise it higher, and they hide their existence from common humans. Having shared the darkness with vermin for so long, vampires of Clan Nosferatu are able to draw extra nourishment from rats."
+			"Description"			"Orribile, furtivo e potente. Anche in un mondo di mostri i Nosferatu si distinguono. L'Abbraccio torce e deforma i loro tratti fisici, costringendoli a cercare rifugio nel sottosuolo. I Nosferatu sono padroni delle ombre. A causa della loro maledizione, i Nosferatu hanno una Seduzione di 0 e non possono mai elevarla più in alto, e nascondono la loro esistenza agli umani comuni. Avendo condiviso l'oscurità con i parassiti per così tanto tempo, i vampiri del Clan Nosferatu sono in grado di attingere nutrimento extra dai ratti."
 			"ShortDescription"		"
-Advantage: Rats do not flee from Nosferatu, and Nosferatu gain extra blood when feeding on rats."
-			"ShortPenaltyDescription"	"Penalty: Seduction maximum of 0. Monstrous visage can cause a Masquerade violation."
+Vantaggio: I ratti non fuggono da Nosferatu, e Nosferatu guadagna sangue extra quando si nutre di ratti."
+			"ShortPenaltyDescription"	"Penalità: Seduzione massima di 0. Il viso mostruoso può causare una violazione del Mascheramento."
 		}
 
 		General
@@ -2258,7 +2258,7 @@ Advantage: +5 to Strength, Wits, and Stamina during frenzy."
 			"Animalism"		"1"
 			"Fortitude"		"1"
 			"Protean"		"1"
-		}
+}
 
 		//	Numina
 
@@ -2522,10 +2522,10 @@ Advantage: Rats do not flee from Nosferatu, and Nosferatu gain extra blood when 
 		{
 			"TemplateName"			"mp-toreador"	// changed by wesp
 			"Name"				"Toreador"
-			"Description"			"Toreador picture themselves as artistes and visionaries, and they value the high society mentality that the Camarilla reinforces. Of all clans, the Toreador are the most connected to the mortal world through arts and entertainment. Toreador are beautiful creatures, svelte and seductive, and move almost effortlessly through the society of the living. The Toreador's empathy is both a gift and a burden. All Humanity shifts are doubled, but Toreador start with an Appearance bonus of one."	// changed by wesp
+			"Description"			"Toreador si immaginano come artisti e visionari, e apprezzano la mentalità di alta società che la Camarilla rafforza. Tra tutti i clan, i Toreador sono i più legati al mondo mortale attraverso l'arte e lo spettacolo. I Toreador sono creature bellissime, snelle e seducenti, e si muovono quasi senza sforzo nella società dei vivi. L'empatia dei Toreador è sia un dono che un peso. Tutti i turni dell'Umanità sono raddoppiati, ma il Toreador inizia con un bonus di Aspetto di uno."	// changed by wesp
 			"ShortDescription"		"
-Advantage: All Humanity gains are doubled. Cheaper experience cost to raise Humanity."
-			"ShortPenaltyDescription"	"Penalty: All Humanity losses are doubled."
+Vantaggio: Tutti i guadagni dell'Umanità sono raddoppiati. L'esperienza più economica costa di più per aumentare l'Umanità."
+			"ShortPenaltyDescription"	"Penalita': Tutte le perdite dell'umanità sono raddoppiate."
 		}
 
 		General
@@ -2641,10 +2641,10 @@ Advantage: All Humanity gains are doubled. Cheaper experience cost to raise Huma
 		{
 			"TemplateName"			"mp-tremere"	// changed by wesp
 			"Name"				"Tremere"
-			"Description"			"Blood sorcerers born from mystic rituals and diablerie, the Tremere are the least trusted of the Camarilla clans. The ritual the Tremere used to transform from living mages into undying monsters stripped them of their magic arts. To compensate, the vampires of Clan Tremere developed Thaumaturgy, the powerful Discipline of blood magic. The clan guards its secrets jealously and are the only Kindred to wield this powerful Discipline. The pursuit of arcane knowledge comes before all else, and the reliance upon it has weakened the bloodline. Tremere can raise no Physical Attribute above four points."	// changed by wesp
+			"Description"			"Stregoni del sangue nati da rituali mistici e diablerie, i Tremere sono i meno fidati dei clan Camarilla. Il rituale che i Tremere usavano per trasformarsi da maghi viventi in mostri immortali li spogliava delle loro arti magiche. Per compensare, i vampiri del Clan Tremere svilupparono la Taumaturgia, la potente Disciplina della magia del sangue. Il clan ne custodisce gelosamente i segreti e sono gli unici a esercitare questa potente Disciplina. La ricerca della conoscenza arcana viene prima di tutto, e la dipendenza da essa ha indebolito la linea di sangue. Il tremito non può innalzare l'Attributo Fisico oltre i quattro punti."	// changed by wesp
 			"ShortDescription"		"
-Advantage: Thaumaturgy."
-			"ShortPenaltyDescription"	"Penalty: Can raise no Physical Attribute above 4."
+Vantaggio: Taumaturgia."
+			"ShortPenaltyDescription"	"Penalita': Non può sollevare nessun Attributo Fisico al di sopra di 4."
 		}
 
 		General
@@ -2760,10 +2760,10 @@ Advantage: Thaumaturgy."
 		{
 			"TemplateName"			"mp-ventrue"	// changed by wesp
 			"Name"				"Ventrue"
-			"Description"			"Truly the upper echelons of society, the Ventrue are seen as the honorable and virtuous leaders of the Camarilla. They wholeheartedly support the Masquerade, influencing the mortal and undead worlds to help them maintain the Masquerade as well as garner support for themselves. Clan Ventrue is an exclusive and powerful gathering of immortals, and even the lowliest initiate of Clan Ventrue can expect special treatment in Kindred society. This regal bloodline starts with a Charisma bonus of one, however, gains no nourishment from the lowborn and thin-blooded. Ventrue gain no blood from feeding on animals. Feeding on lowlife humans - prostitutes and the homeless - can cause the Ventrue to vomit."	// changed by wesp
+			"Description"			"Vere e proprie alte sfere della società, i Ventrue sono visti come i leader onorevoli e virtuosi dei Camarilla. Essi sostengono con tutto il cuore la Mascherata, influenzando il mondo dei mortali e dei non morti per aiutarli a mantenere la Mascherata e a ottenere il loro sostegno. Il Clan Ventrue è un raduno esclusivo e potente di immortali, e anche il più basso iniziato del Clan Ventrue può aspettarsi un trattamento speciale nella società dei Kindred. Questa linea di sangue regale inizia con un bonus di Carisma di uno, tuttavia, non riceve alcun nutrimento da chi è di bassa statura e dal sangue magro. I Ventrue non guadagnano sangue nutrendosi degli animali. Nutrirsi di esseri umani di bassa statura - prostitute e senzatetto - può causare il vomito della Ventrue."	// changed by wesp
 			"ShortDescription"		"
-Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog."
-			"ShortPenaltyDescription"	"Penalty: Gain no blood from feeding on animals. Feeding on lowlife may cause vomiting."
+Vantaggio: Accettazione più facile nella società di Camarilla. Può usare Dominare nel dialogo."
+			"ShortPenaltyDescription"	"Penalità: Non guadagnare sangue nutrendosi di animali. L'alimentazione di animali di bassa statura può causare vomito."
 		}
 
 		General
@@ -2877,5 +2877,3 @@ Advantage: Easier acceptance into Camarilla society. Can use Dominate in dialog.
 }
 
 // WIP! JLR! Need the other templates (Sabbat, monsters, etc.)!!! (If for nothing other than their reaction tables & starting equipment, etc.)
-
-
