@@ -1,96 +1,96 @@
-{	1	}{	[EE-deek k-CHOR-too, SVOLE-ahtch!] Idi k chertu, svoloch' (Go to hell, bitch)!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	What?	}{	What?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	DAH (YES).	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	[EE-deek k-CHOR-too, SVOLE-ahtch!] Idi k chertu, svoloch' (Vai all'inferno, puttana)!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Cosa?	}{	Cosa?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	DAH (SI).	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	Baba Yaga (Old witch)!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	Baba Yaga(Vecchia strega)!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	6	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	Shto eto oni k chertovoyi materi oni delaut (What the hell are they doing)?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	What?	}{	What?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	We do what we must.	}
+{	7	}{	Shto eto oni k chertovoyi materi oni delaut (Che diavolo stanno facendo)?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	Cosa?	}{	Cosa?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Facciamo quello che dobbiamo fare.	}
 {	9	}{	[NEE-yet.] Net (No).	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	You better move.	}{	You better move.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Go away now.	}
-{	11	}{	U nih oruzie (They've got a weapon)!	}{	U nih oruzie (They've got a weapon)!	}{	#	}{	}{	G.Dema_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
-{	13	}{	[YUH puh-nee-MIE-yove.] Ya ponimau (I understand).	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	What?	}{	What?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Me too.	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	[translated, ah-STAHN-ah-veese] O-STAN-O-vis' (Stand there)! Who the hell are you?	}{	[translated, ah-STAHN-ah-veese] O-STAN-O-vis' (Stand there)! Who the hell are you?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Let me in.	}{	Let me in.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	23	}{	You are a key. Do what comes naturally.	}{	You are a key. Do what comes naturally.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	You are a key. Do what comes naturally.	}
-{	24	}{	Let me in.	}{	Let me in.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	My presence is required by your boss.	}{	My presence is required by your boss.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	I have a private message for Boris. From his... lady friend.	}{	I have a private message for Boris. From his... lady friend.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	I carry words from the goddess for the man behind the door.	}
-{	27	}{	I have to tell your boss something, comrade. Step aside.	}{	I have to tell your boss something, comrade. Step aside.	}{	9	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	I have words for the man behind the door that require you go elsewhere.	}
-{	28	}{	I'm here to speak to Boris.	}{	I'm here to speak to Boris.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	I must speak to the man behind the door.	}
-{	29	}{	I'm hotel security. Open the door.	}{	I'm hotel security. Open the door.	}{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hotel cop - room secret service. Get the door.	}
-{	30	}{	I'm the new lady friend of your boss.	}{	I'm the new lady friend of your boss.	}{	1	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	I'm the new goddess of the man behind the door.	}
-{	31	}{	You are not expected.	}{	You are not expected.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Let me in.	}{	Let me in.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	33	}{	You are a key. Do what comes naturally.	}{	You are a key. Do what comes naturally.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	You are a key. Do what comes naturally.	}
-{	34	}{	Let me in.	}{	Let me in.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	My presence is required by your boss.	}{	My presence is required by your boss.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	I have to speak with Boris. He'll want to hear what I have to say.	}{	I have to speak with Boris. He'll want to hear what I have to say.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	The man behind the door wants my words.	}
-{	37	}{	I have to tell your boss something, comrade. Step aside.	}{	I have to tell your boss something, comrade. Step aside.	}{	9	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Out. Of the way. Mortal.	}
-{	38	}{	That's odd. He didn't tell you I was coming?	}{	That's odd. He didn't tell you I was coming?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps you have forgotten the message of my arrival?	}
-{	39	}{	I'm with Maintenance; your pipes are leaking.	}{	I'm with Maintenance; your pipes are leaking.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Don't you hear the pipes rattling? They may be full of snakes.	}
-{	40	}{	I'm Room Service; I have the caviar he ordered.	}{	I'm Room Service; I have the caviar he ordered.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Within my pockets are fish eggs for the man behind the door.	}
-{	41	}{	[Threatening]You give me message. I take to him.	}{	[Threatening]You give me message. I take to him.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Let me in.	}{	Let me in.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	43	}{	You are a key. Do what comes naturally.	}{	You are a key. Do what comes naturally.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	You are a key. Do what comes naturally.	}
-{	44	}{	Let me in.	}{	Let me in.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	45	}{	My presence is required by your boss.	}{	My presence is required by your boss.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	I can't. But it's important. He'll be angry if he doesn't get it and will blame you.	}{	I can't. But it's important. He'll be angry if he doesn't get it and will blame you.	}{	13	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	It is a message for his ears only and no others. I gave my word.	}
-{	47	}{	It's personal. Now let me in.	}{	It's personal. Now let me in.	}{	9	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	My words are wasted on the deaf.	}
-{	48	}{	How do I know I can trust you?	}{	How do I know I can trust you?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	You do not seem a suitable vault for my valuable words.	}
-{	49	}{	It's pretty technical, I better tell him myself.	}{	It's pretty technical, I better tell him myself.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	My words are delicate and your ears seem clumsy.	}
-{	50	}{	Trust me, you don't want to be the bearer of this bad news.	}{	Trust me, you don't want to be the bearer of this bad news.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	If he kills the messenger, would you rather it was me?	}
-{	51	}{	I do not think so.	}{	I do not think so.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	Let me in.	}{	Let me in.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	53	}{	You are a key. Do what comes naturally.	}{	You are a key. Do what comes naturally.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	You are a key. Do what comes naturally.	}
-{	54	}{	Let me in.	}{	Let me in.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	My presence is required by your boss.	}{	My presence is required by your boss.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	I'm not going to tell you again.	}{	I'm not going to tell you again.	}{	61	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	The man behind the door wants my words.	}
-{	57	}{	It's important. He'll be angry if he doesn't hear it and will blame you.	}{	It's important. He'll be angry if he doesn't hear it and will blame you.	}{	61	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	It is a message for his ears only and no others. I gave my word.	}
-{	58	}{	Well I know so.	}{	Well I know so.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	You do not think.	}
-{	59	}{	Think again. Let me in. Now.	}{	Think again. Let me in. Now.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Yes... I think so.	}
-{	60	}{	I'm with Immigration Services, now let me in!	}{	I'm with Immigration Services, now let me in!	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	I left myself inside, please let me fetch me.	}
-{	61	}{	Very well. Follow me.	}{	Very well. Follow me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	You get ten seconds to leave, then I blow fucking head off.	}{	You get ten seconds to leave, then I blow fucking head off.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Dema_Go = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	[Shouting, terrified] Baba Yaga (Old witch)!	}{	[Shouting, terrified] Baba Yaga (Old witch)!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Dema_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	Faresti meglio a muoverti.	}{	Faresti meglio a muoverti.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vattene subito.	}
+{	11	}{	U nih oruzie (Hanno un'arma)!	}{	U nih oruzie (Hanno un'arma)!	}{	#	}{		}{	G.Dema_Hostile = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{		}
+{	13	}{	[YUH puh-nee-MIE-yove.] Ya ponimau (Capiscod).	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Cosa?	}{	Cosa?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Anche io.	}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	O-STAN-O-vis'(Stai lì in piedi)! Chi cazzo sei?	}{	O-STAN-O-vis'(Stai lì in piedi)! Chi cazzo sei?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Fammi entrare.	}{	Fammi entrare.	}{	0	}{	Dominate 1	}{	G.Dema_Go = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	23	}{	Tu sei una chiave. Fa' cio' che ti viene piu' naturale.	}{	Tu sei una chiave. Fa' cio' che ti viene piu' naturale.	}{	0	}{	Dementation 1	}{	G.Dema_Go = 1	}{		}{		}{		}{		}{		}{		}{	Tu sei una chiave. Fa' cio' che ti viene piu' naturale.	}
+{	24	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	Ho un messaggio personale per Boris. Dalla sua... socia.	}{	Ho un messaggio personale per Boris. Dalla sua... socia.	}{	41	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	Porto con me le parole della dea, in dono all'uomo dietro quella porta.	}
+{	27	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	9	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Ho delle parole per l'uomo dietro quella porta, e cio' richiede che tu vada da qualche altra parte.	}
+{	28	}{	Sono qui per parlare con Boris.	}{	Sono qui per parlare con Boris.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Devo parlare con l'uomo dietro la porta.	}
+{	29	}{	Sono della sicurezza dell'hotel. Apra la porta.	}{	Sono della sicurezza dell'hotel. Apra la porta.	}{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	Poliziotto dell'hotel - servizio segreto in camera. Apri la porta.	}
+{	30	}{	Sono la nuova socia del tuo capo.	}{	Sono la nuova socia del tuo capo.	}{	1	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Sono la nuova dea dell'uomo dietro la porta.	}
+{	31	}{	Non sei atteso.	}{	Non sei atteso.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	33	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}
+{	34	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	35	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	36	}{	Devo parlare con Boris. Vorrà sentire cosa ho da dirgli.	}{	Devo parlare con Boris. Vorrà sentire cosa ho da dirgli.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	L'uomo dietro la porta vuole le mie risposte.	}
+{	37	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	9	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Fuori. Di corsa. Mortale.	}
+{	38	}{	Questo è strano. Non ti ha detto che sarei venuto?	}{	Questo è strano. Non ti ha detto che sarei venuto?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse avete dimenticato il messaggio del mio arrivo?	}
+{	39	}{	Sono della Manutenzione; le tue tubature perdono.	}{	Sono della Manutenzione; le tue tubature perdono.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sentite il rumore dei tubi? Potrebbero essere pieni di serpenti.	}
+{	40	}{	Sono del servizio in camera; ho il caviale che ha ordinato.	}{	Sono del servizio in camera; ho il caviale che ha ordinato.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nelle mie tasche ci sono uova di pesce per l'uomo dietro la porta.	}
+{	41	}{	[Minaccioso]Dammi il messaggio. Riferiro'.	}{	[Minaccioso]Dammi il messaggio. Riferiro'.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}
+{	44	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{	Non posso. Ma e' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	Non posso. Ma e' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	13	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	E' un messaggio solo per le sue orecchie e nessun altro.	}
+{	47	}{	E' pesonale. Ora fammi entrare.	}{	E' pesonale. Ora fammi entrare.	}{	9	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Le mie parole sono sprecate per un sordo.	}
+{	48	}{	Come faccio a sapere che posso fidarmi di te?	}{	Come faccio a sapere che posso fidarmi di te?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non mi sembri un porta valori appropriato per le mie parole preziose.	}
+{	49	}{	E' roba piuttosto tecnica, preferisco parlarne con lui in persona.	}{	E' roba piuttosto tecnica, preferisco parlarne con lui in persona.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le mie parole sono delicate e le tue orecchie mi sembrano sgraziate.	}
+{	50	}{	Fidati di me, non vuoi essere il portatore di questa cattiva notizia.	}{	Fidati di me, non vuoi essere il portatore di questa cattiva notizia.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se uccide il messaggero, non sarebbe meglio che fossi io?	}
+{	51	}{	Non la penso cosi'.	}{	Non la penso cosi'.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}
+{	54	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	Non te lo dirò di nuovo.	}{	Non te lo dirò di nuovo.	}{	61	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	L'uomo dietro la porta vuole le mie parole.	}
+{	57	}{	E' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	E' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	61	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	E' un messaggio solo per le sue orecchie e nessun altro.	}
+{	58	}{	Beh, lo so.	}{	Beh, lo so.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tu non pensi.	}
+{	59	}{	Ripensaci. Fammi entrare. Ora.	}{	Ripensaci. Fammi entrare. Ora.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Io si'... La penso cosi'.	}
+{	60	}{	Servizio Immigrazione, ora fammi entrare!	}{	Servizio Immigrazione, ora fammi entrare!	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho lasciato me stesso li' dentro, per favore fammi andare a prendermi.	}
+{	61	}{	Molto bene. Seguimi.	}{	Molto bene. Seguimi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Dema_Go = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	63	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	Hai dieci secondi per andartene, dopo di che ti faccio saltare la testa.	}{	Molto bene. Seguimi.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Dema_Go = 2	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	73	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	[Gridando, terrorizzato] Baba Yaga (Vecchia strega)!	}{	[Gridando, terrorizzata] Baba Yaga (Vecchia strega)!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Dema_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	93	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	94	}{	(Starting Condition)	}{	}{	5	}{	IsClan(pc,"Nosferatu") and not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	95	}{	(Starting Condition)	}{	}{	81	}{	IsClan(pc,"Nosferatu") and IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	96	}{	(Starting Condition)	}{	}{	21	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{	(Starting Condition)	}{		}{	21	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
