@@ -15,7 +15,7 @@ StatData
 
 	Attributes
 	{
-		"Name"		"Attributes"
+		"Name"		"Attributi"
 		"InternalName"	"Attributes"
 
 		Costs
@@ -26,7 +26,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Attribute Order"
+			"Name"		"Ordine Attributo"
 			"InternalName"	"Attrib_Order"
 			"HelpText"		""
 
@@ -118,9 +118,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Strength"
+			"Name"		"Forza"
 			"InternalName"	"Strength"
-			"HelpText"		"Strength is a measure of your character's physical prowess. It is crucial for both the Unarmed and Melee Combat feats."
+			"HelpText"		"La Forza e' una misura dell'abilita' fisica del tuo personaggio. E' cruciale per le imprese di combattimento Disarmato e Lotta armata."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -135,9 +135,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Dexterity"
+			"Name"		"Destrezza"
 			"InternalName"	"Dexterity"
-			"HelpText"		"Determines the speed and agility of your character. Dexterity will increase your Lockpicking and Sneaking feats."
+			"HelpText"		"Determina la velocita' e l'agilita' del tuo personaggio. La Destrezza incrementera' le imprese Scassinamento e Furtivita'."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -152,9 +152,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Stamina"
+			"Name"		"Resistenza"
 			"InternalName"	"Stamina"
-			"HelpText"		"Your character's overall toughness. Prevents damage from bullets, police batons, and baseball bats. Increases soak Bashing."
+			"HelpText"		"Resistenza complessiva del tuo personaggio. Previene danni da proiettili, manganelli e mazze da baseball. Incrementa Assorbimento (Pestaggio)."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -169,9 +169,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Charisma"
+			"Name"		"Carisma"
 			"InternalName"	"Charisma"
-			"HelpText"		"Measures your character's ability to sway others through personality. Charisma is an important part of the Persuasion feat."
+			"HelpText"		"Misura l'abilita' del tuo personaggio di influenzare gli altri con la tua personalita'. Il carisma e' una parte importante dell'impresa Persuasione."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -188,9 +188,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Manipulation"
+			"Name"		"Persuasione"
 			"InternalName"	"Manipulation"
-			"HelpText"		"Measures your character's ability to exploit people and events. Manipulation is necessary for the Haggle feat."
+			"HelpText"		"Misura l'abilita' del tuo personaggio di sfruttare le persone e gli eventi. La persuasione e' necessaria per l'impresa Negoziazione."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -207,9 +207,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Appearance"
+			"Name"		"Aspetto"
 			"InternalName"	"Appearance"
-			"HelpText"		"Indicates the physical attractiveness of your character. Appearance is the foundation of the Seduction feat."
+			"HelpText"		"Indica la bellezza fisica del tuo personaggio. L'apparenza e' la base dell'impresa Seduzione."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -225,7 +225,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Appearance Reaction"
+				"Name"		"Reazione Aspetto"
 				"InternalName"	"Appearance_Reaction"
 
 				"Clamping"		"1"
@@ -241,9 +241,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Perception"
+			"Name"		"Percezione"
 			"InternalName"	"Perception"
-			"HelpText"		"Measures your character's awareness of their surroundings. Perception is necessary for the Ranged Combat and Inspection feats."
+			"HelpText"		"Misura la consapevolezza dell'ambiente circostante il tuo personaggio. La percezione e' necessaria per le imprese Combattimento A Distanza e Ispezione."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -258,9 +258,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Intelligence"
+			"Name"		"Intelligenza"
 			"InternalName"	"Intelligence"
-			"HelpText"		"Indicates your character's ability to learn, think, and remember. Intelligence is essential for the Research and Intimidate feats."
+			"HelpText"		"Indica la capacita' del tuo personaggio di imparare, pensare e ricordare. L'intelligenza e' essenziale per le imprese Ricerca e Ascendente."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -277,9 +277,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Wits"
+			"Name"		"Prontezza"
 			"InternalName"	"Wits"
-			"HelpText"		"Measures the sharpness of your character's mind, and ability to think on their feet. Wits improve the Defense and Hacking feats."
+			"HelpText"		"Misura la chiarezza della mente del tuo personaggio e la capacita' di pensare con i piedi per terra. L'arguzia migliora le imprese Difesa e Hacking."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -294,7 +294,7 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Character Template"
+//			"Name"		"Fattezze del Personaggio"
 //			"InternalName"	"CharTemplate"
 //			"HelpText"		""
 //
@@ -329,7 +329,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Gender"
+			"Name"		"Sesso"
 			"InternalName"	"Gender"
 			"HelpText"		""
 
@@ -346,7 +346,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"BloodPool"
+			"Name"		"Riserva di Sangue"
 			"InternalName"	"BloodPool"
 			"HelpText"		""
 
@@ -372,7 +372,7 @@ StatData
 		Stat
 		{
 			// This is the Maximum (generally meaning the "starting" bloodpool for a critter)
-			"Name"		"BloodPool Max"
+			"Name"		"Riserva max di Sangue"
 			"InternalName"	"BloodPool_Max"
 			"HelpText"		""
 
@@ -389,7 +389,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"FaithPoints"
+			"Name"		"PuntiFiducia"
 			"InternalName"	"FaithPoints"
 			"HelpText"		""
 
@@ -405,7 +405,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Health"
+			"Name"		"Salute"
 			"InternalName"	"Health"
 			"HelpText"		""
 
@@ -422,7 +422,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Health Aggravated Dmg"
+			"Name"		"Salute Danno Aggravato"
 			"InternalName"	"Health_Aggravated_Dmg"
 			"HelpText"		""
 
@@ -438,7 +438,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Max Health"
+			"Name"		"Max Salute"
 			"InternalName"	"Max_Health"
 			"HelpText"		""
 
@@ -454,7 +454,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Generation"
+			"Name"		"Generazione"
 			"InternalName"	"Generation"
 			"HelpText"		""
 
@@ -469,7 +469,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Max Trait Rating"
+				"Name"		"Rating Massimo Aspetto"
 				"InternalName"	"Generation_Max_Trait_Rating"
 
 				"Clamping"		"1"
@@ -492,7 +492,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Blood Pool Max"
+				"Name"		"Riserva max di Sangue"
 				"InternalName"	"Generation_Blood_Pool_Max"
 
 				"Clamping"		"1"
@@ -515,7 +515,7 @@ StatData
 
 			Table
 			{
-				"Name"		"Blood Points/Turn"
+				"Name"		"Punti Sangue/Turno"
 				"InternalName"	"Generation_Blood_Points_Turn"
 
 				"Clamping"		"1"
@@ -539,7 +539,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Armor Rating"
+			"Name"		"Rating Armatura"
 			"InternalName"	"Armor_Rating"
 			"HelpText"		""
 
@@ -557,7 +557,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Level"
+			"Name"		"Livello"
 			"InternalName"	"Level"
 			"HelpText"		""
 
@@ -576,7 +576,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Frenzy Check Modifier"
+			"Name"		"Modificatore di Controllo Pazzia"
 			"InternalName"	"Frenzy_Check_Mod"
 			"HelpText"		""
 
@@ -594,7 +594,7 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Frenzy Duration Modifier"
+//			"Name"		"Modificatore Durata Pazzia"
 //			"InternalName"	"Frenzy_Duration_Mod"
 //			"HelpText"		""
 //
@@ -612,7 +612,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Soak Pool"
+			"Name"		"Riserva Assorbita"
 			"InternalName"	"Soak_Pool"
 			"HelpText"		""
 
@@ -630,7 +630,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Automatic Soak Successes"
+			"Name"		"Assorbimento Automatico Riuscito"
 			"InternalName"	"Automatic_Soak_Successes"
 			"HelpText"		""
 
@@ -648,7 +648,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Automatic Str Successes"
+			"Name"		"Forza Automatica Riusciuta"
 			"InternalName"	"Automatic_Str_Successes"
 			"HelpText"		""
 
@@ -684,7 +684,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Encumbrance"
+			"Name"		"Ingombro"
 			"InternalName"	"Encumbrance"
 			"HelpText"		""
 
@@ -700,9 +700,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Humanity"
+			"Name"		"Umanita'"
 			"InternalName"	"Humanity"
-			"HelpText"	"Although monsters by nature, most vampires cling to Humanity to survive in the mortal world. Humanity is the ability to keep your predatory nature at bay, and your first line of defense against frenzy. If you cause the death of an innocent human you will lose Humanity. You will frenzy more often if your Humanity is low."
+			"HelpText"	"Sebbene siano mostri per natura, la maggior parte dei vampiri si aggrappa all'Umanita' per sopravvivere nel mondo mortale. L'Umanita' e' l'abilita' di mettere un freno alla tua natura predatoria, ed e' la tua prima linea di difesa contro la pazzia. Se causi la morte di uninnocente perderai punti Umanita'. Perderai la ragione molto spesso se la tua Umanita' e' bassa."
 
 			"ShownInFeedback"	"1"
 
@@ -721,7 +721,7 @@ StatData
 		{
 			"Name"		"Masquerade"
 			"InternalName"	"Masquerade"
-			"HelpText"		"The Masquerade is the code of secrecy that hides vampire existence from humankind. Violations of the Masquerade will lead to ambush attacks from human vampire hunters, and scorn, contempt or worse from your fellow Kindred. If you lose all Masquerade points, you will lose the game."
+			"HelpText"		"La Masquerade e' il codice della segretezza che nasconde l'esistenza dei vampiri agli umani. Le violazioni della Masquerade comporteranno attacchi da parte dei cacciatori di vampiri, il disprezzo, o peggio, il disonore da parte dei Fratelli. Se perdi tutti i punti Masquerade, perderai la partita."
 
 			"ShownInFeedback"	"1"
 
@@ -737,7 +737,7 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Willpower"
+//			"Name"		"Forza di Volonta'"
 //			"InternalName"	"Willpower"
 //			"HelpText"		""
 //
@@ -754,7 +754,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Experience Modifier"
+			"Name"		"Modificatore di Esperienza"
 			"InternalName"	"Experience_Modifier"
 			"HelpText"		""
 
@@ -772,7 +772,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Starting Equipment"
+			"Name"		"Equipaggiamento di Partenza"
 			"InternalName"	"Starting_Equipment"
 			"HelpText"		""
 
@@ -789,7 +789,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Excluded Equipment"
+			"Name"		"Equipaggiamento Escluso"
 			"InternalName"	"Excluded_Equipment"
 			"HelpText"		""
 
@@ -813,9 +813,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Healing Rate"
+			"Name"		"Livello di salute"
 			"InternalName"	"VampHeal_Type"
-			"HelpText"		"Template used for Auto-Leveling"
+			"HelpText"		"Template usato per Auto-Livello"
 
 			"Min"			"0"
 			"Max"			"2"
@@ -836,9 +836,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"AutoLevel Template"
+			"Name"		"Template AutoLivello"
 			"InternalName"	"AutoLevel_Template"
-			"HelpText"		"Template used for Auto-Leveling"
+			"HelpText"		"Template usato per Auto-Livello"
 
 			"Min"			"-1"
 			"Max"			"99999"
@@ -852,7 +852,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Experience"
+			"Name"		"Esperienza"
 			"InternalName"	"Experience"
 			"HelpText"		""
 
@@ -881,7 +881,7 @@ StatData
 
 	Abilities
 	{
-		"Name"		"Abilities"
+		"Name"		"Abilita'"
 		"InternalName"	"Abilities"
 
 		Costs
@@ -892,7 +892,7 @@ StatData
 
 		Stat
 		{
-			"Name"		"Ability Order"
+			"Name"		"Ordine Abilita'"
 			"InternalName"	"Ability_Order"
 			"HelpText"		""
 
@@ -982,10 +982,10 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Athletics"
+//			"Name"		"Atletica"
 //			"InternalName"	"Athletics"
-//			"HelpText"		"How well one has conditioned their body to run faster, jump higher, swim harder or throw farther."
-//			"HelpText2"		"Improves range and accuracy of jumping and throwing."
+//			"HelpText"		"La capacita' del corpo di correre piu' veloce, saltare piu' in alto, nuotare piu' a lungo o lanciare piu' lontano."
+//			"HelpText2"		"Aumenta il raggio e la precisione del salto o del lancio."
 //
 //			"Min"			"0"
 //			"Max"			"5"
@@ -995,9 +995,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Brawl"
+			"Name"		"Rissa"
 			"InternalName"	"Brawl"
-			"HelpText"		"The ability to fight bare-handed. Brawl is important for the Unarmed Combat feat, which also makes it easier to feed on the unwilling."
+			"HelpText"		"L'abilita' di combattere a mani nude. Rissa e' importante per l'impresa Combattimento Disarmato, il quale rende anche piu' facile nutrirsi da coloro che non vogliono."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1010,9 +1010,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Dodge"
+			"Name"		"Schivare"
 			"InternalName"	"Dodge"
-			"HelpText"		"Determines your character's ability to avoid taking damage in all forms of combat. Dodge increases the Defense feat."
+			"HelpText"		"Determina l'abilita' del personaggio di evitare di prendere danno in tutte le forme di combattimento. La schivata incrementa l'impresa Difesa."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1025,9 +1025,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Intimidation"
+			"Name"		"Intimidazione"
 			"InternalName"	"Intimidation"
-			"HelpText"		"Measures your character's ability to instill fear, and force cooperation in others. Intimidation, naturally, increases your Intimidate feat."
+			"HelpText"		"Misura l'abilita' del personaggio di indurre paura e costringere gli altri a collaborare. Intimidazione, naturalmente, incrementa l'impresa Minacciare."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1042,9 +1042,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Subterfuge"
+			"Name"		"Sotterfugio"
 			"InternalName"	"Subterfuge"
-			"HelpText"		"Measures your character's ability to conceal their motives, and deceive others. Subterfuge is needed for the feat of Seduction."
+			"HelpText"		"Misura l'abilita' del personaggio di nascondere i suoi scopi e raggirare gli altri. Il Sotterfugio e' necessario per l'impresa della Seduzione."
 			"HelpText2"		""
 			"Disabled"		"1"
 
@@ -1058,10 +1058,10 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Animal Ken"
+//			"Name"		"Addestrare Animali"
 //			"InternalName"	"Animal_Ken"
-//			"HelpText"		"Animals are instinctually repelled by the undead. This ability helps to soothe beasts, making them less apt to react negatively toward the vampire."
-//			"HelpText2"		"Animal Ken will make animals more tolerant of the vampire's presence."
+//			"HelpText"		"Gli animali rifiutano per istinto i non-morti. Questa abilita' aiuta a calmare le bestie, rendendole meno soggette alla reazione negativa contro i vampiri."
+//			"HelpText2"		"L'addestramento rendera' gli animali piu' tolleranti alla presenza dei vampiri."
 //			"Disabled"		"1"
 //
 //			"ShownInFeedback"	"1"
@@ -1074,9 +1074,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Firearms"
+			"Name"		"Armi da Fuoco"
 			"InternalName"	"Firearms"
-			"HelpText"		"Determines how well your character aims and causes damage with guns of all types. Firearms is an indispensable part of the Ranged Combat feat."
+			"HelpText"		"Determina la mira del tuo personaggio, e il danno che puo' infliggere con armi di tutti i tipi. Armi da Fuoco e' una parte indispensabile del'impresa Combattimento A Distanza."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1089,9 +1089,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Melee"
+			"Name"		"Mischia"
 			"InternalName"	"Melee"
-			"HelpText"		"Your character's ability to fight in close combat with hand-held weapons such as knives and swords. Melee increases your Melee feat."
+			"HelpText"		"L'abilita' del tuo personaggio di combattere a distanza ravvicinata con armi da taglio come coltelli e spade. Mischia incrementa l'impresa Lotta armata."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1104,9 +1104,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Security"
+			"Name"		"Sicurezza"
 			"InternalName"	"Security"
-			"HelpText"		"Displays your character's knowledge of how locks and security systems work. Security is needed for the Lockpicking feat."
+			"HelpText"		"E' la conoscenza relativa al funzionamento delle serrature e dei sistemi di sicurezza. Sicurezza e' necessario per l'impresa Scassinare."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1119,9 +1119,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Stealth"
+			"Name"		"Furtivita'"
 			"InternalName"	"Stealth"
-			"HelpText"		"Measures your character's ability to move silently and avoid being detected.  Stealth is a crucial component of the Sneaking feat."
+			"HelpText"		"Misura l'abilita' del personaggio di muoversi silenziosamente ed evitare di essere scoperto. Furtivita' e' una componente cruciale per l'impresa Furtivita'."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1134,9 +1134,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Computer"
+			"Name"		"Informatica"
 			"InternalName"	"Computer"
-			"HelpText"		"Indicates your character's ability to operate computers and other devices. Computer knowledge is needed for the Hacking feat."
+			"HelpText"		"Indica l'abilita' del tuo personaggio di usare computer e altri oggetti elettronici. La Conoscenza Informatica e' richiesta per l'impresa Hacking."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1149,9 +1149,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Finance"
+			"Name"		"Finanza"
 			"InternalName"	"Finance"
-			"HelpText"		"Your character's ability to evaluate the market value of items. Finance is needed for the Haggle feat."
+			"HelpText"		"L'abilita' del tuo personaggio di valutare il valore di mercato degli oggetti. La Finanza e' richiesta per l'impresa Negoziazione."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1166,9 +1166,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Investigation"
+			"Name"		"Investigare"
 			"InternalName"	"Investigation"
-			"HelpText"		"Measures your character's ability to notice minute or hidden details. Investigation will increase your Inspection feat."
+			"HelpText"		"Misura l'abilita' del tuo personaggio di notare dettagli minimi o completamente nascosti. Investigare incrementera' la tua impresa Indagare."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1181,9 +1181,9 @@ StatData
 
 		Stat
 		{
-			"Name"		"Scholarship"
+			"Name"		"Accademiche"
 			"InternalName"	"Academics"
-			"HelpText"		"Your character's ability to gather information, debate, and learn new skills. Scholarship will increase your Research and Persuasion feats."
+			"HelpText"		"L'abilita' del tuo personaggio di raccogliere informazioni, riflettere, e apprendere nuove abilita'. La conoscenza Accademica incrementera' le tue imprese Ricerca e Convincimento."
 			"HelpText2"		""
 
 			"ShownInFeedback"	"1"
@@ -1198,10 +1198,10 @@ StatData
 
 //		Stat
 //		{
-//			"Name"		"Occult"
+//			"Name"		"Occulto"
 //			"InternalName"	"Occult"
-//			"HelpText"		"Ability to recognize and research different magical items."
-//			"HelpText2"		"Occult knowledge is required to identify and activate rare artifacts."
+//			"HelpText"		"Abilita' di riconoscere e ricercare differenti oggetti magici."
+//			"HelpText2"		"La conoscenza Occulto e' richiesta per identificare e attivare rari artifatti."
 //			"Disabled"		"1"
 //
 //			"ShownInFeedback"	"1"
@@ -1216,7 +1216,7 @@ StatData
 //	StatData
 	Disciplines
 	{
-		"Name"		"Disciplines"
+		"Name"		"Discipline"
 		"InternalName"	"Disciplines"
 
 		Costs
@@ -1232,24 +1232,24 @@ StatData
 
 //		StatCategory
 //		{
-//			"Name"		"Disciplines"
+//			"Name"		"Discipline"
 //			"InternalName"	"Disciplines"
 
 			Stat
 			{
-				"Name"		"Animalism"
+				"Name"		"Animalita'"
 				"InternalName"	"Animalism"
-				"HelpText"	"Embracing the Beast Within, the vampire can call on animal spirits to carry out their will. The effects of Animalism are obviously supernatural and carry the risk of violating the Masquerade if they are used in a Safe Area."
-				"HelpTextH1"	"Level 1: Nightwisp Ravens"
-				"HelpTextH2"	"Level 2: Burrowing Beetle"
-				"HelpTextH3"	"Level 3: Spectral Wolf"
-				"HelpTextH4"	"Level 4: Bloodsucker Communion"	// changed by wesp
-				"HelpTextH5"	"Level 5: Pestilence"
-				"HelpTextL1"	"Activation Cost: 1 Blood. Ravens incapacitate the victim for a short time. Any action taken against the victim will disperse the flock and end the effect prematurely."
-				"HelpTextL2"	"Activation Cost: 1 Blood. A bone-crunching beetle flies to the victim, causing damage as it burrows deep into their body."
-				"HelpTextL3"	"Activation Cost: 2 Blood. A spectral wolf materializes, attacks the target, and then returns to the ether."
-				"HelpTextL4"	"Activation Cost: 3 Blood. Ghostly bats attack the target, draining its blood, then deliver the blood to their master."
-				"HelpTextL5"	"Activation Cost: 3 Blood. Insect swarms descend upon all victims in an area, devouring their flesh and possibly killing them."
+				"HelpText"	"Abbracciando la Bestia Interna, il vampiro puo' contare sugli spiriti animali per realizzare la propria volonta'. Gli effetti dell'Animalita' sono ovviamente soprannaturali e comportano il rischio della violazione della Masquerade se usate in un'Area Sicura."
+				"HelpTextH1"	"Livello 1: Corvi della notte"
+				"HelpTextH2"	"Livello 2: Scarabeo Scavatore"
+				"HelpTextH3"	"Livello 3: Lupo Spettrale"
+				"HelpTextH4"	"Livello 4: Riunione dei Succhiasangue"
+				"HelpTextH5"	"Livello 5: Pestilenza"
+				"HelpTextL1"	"Costo Attivazione: 1 Punto Sangue. I Corvi rendono la vittima incapace per un breve periodo. Qualunque azione intrapresa contro la vittima disperdera' prematuramente l'effetto."
+				"HelpTextL2"	"Costo Attivazione: 1 Punto Sangue. Uno scarabeo vola fino alla vittima, e si infila nel suo corpo, danneggiandolo."
+				"HelpTextL3"	"Costo Attivazione: 2 Punti Sangue. Un lupo spettrale si materializza, attacca il bersaglio, e ritorna nell'etere."
+				"HelpTextL4"	"Costo Attivazione: 3 Punti Sangue. Pipistrelli spettrali attaccano il bersaglio, prosciugano il suo sangue, quindi consegnano il sangue al loro maestro."
+				"HelpTextL5"	"Costo Attivazione: 3 Punti Sangue. Sciami di insetti discendono sulle vittime presenti nell'area, divorando la loro carne e forse uccidendole."
 
 				"ShownInFeedback"	"1"
 
@@ -1315,17 +1315,17 @@ StatData
 			{
 				"Name"		"Auspex"
 				"InternalName"	"Auspex"
-				"HelpText"	"Enhances your mental faculties and allows you to perceive the auras of those around you as well as see better in darkness. All levels of Auspex cost 1 blood per activation. Auspex carries no risk of violating the Masquerade."	// changed by wesp
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Adds 1 point to Wits. Reveals the auras of the living & undead within a short distance. Lasts 20 seconds per activation."
-				"HelpTextL2"	"Adds 1 point to Wits, and 1 point to Perception. Reveals the auras of all living & undead within a modest distance. Lasts 24 seconds per activation."
-				"HelpTextL3"	"Adds 2 points to Wits, and 1 point to Perception. Reveals the auras of all living & undead within a large distance. Lasts 28 seconds per activation."
-				"HelpTextL4"	"Adds 2 points to Wits, and 2 points to Perception. Reveals the auras of all living & undead within a great distance. Lasts 32 seconds per activation."
-				"HelpTextL5"	"Adds 3 points to Wits, and 3 points to Perception. Reveals the auras of all living & undead within a tremendous distance. Lasts 36 seconds per activation."
+				"HelpText"	"Aumenta le facolta' mentali e ti permette di vedere l'aura di chi e' intorno a te. Ogni livello di Auspex costa 1 punto sangue per attivazione."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto in Prontezza. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 20 secondi dall'attivazione."
+				"HelpTextL2"	"Aggiunge 1 punto in Prontezza, e 1 punto in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 24 secondi dall'attivazione."
+				"HelpTextL3"	"Aggiunge 2 punti in Prontezza, e 1 punto in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 28 secondi dall'attivazione."
+				"HelpTextL4"	"Aggiunge 2 punti in Prontezza, e 2 punti in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 32 secondi dall'attivazione."
+				"HelpTextL5"	"Aggiunge 3 punti in Prontezza, e 3 punti in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 36 secondi dall'attivazione."
 
 
 				"ShownInFeedback"	"1"
@@ -1365,19 +1365,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Bloodheal"	// changed by wesp
+				"Name"		"Guarigione del sangue"
 				"InternalName"	"Blood_Healing"
-				"HelpText"	"One of the vampire's greatest feats is the ability to reconstitute their broken body. By focusing the blood they can close buckshot wounds and regrow lost appendages."
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Level1"
-				"HelpTextL2"	"Level2"
-				"HelpTextL3"	"Level3"
-				"HelpTextL4"	"Level4"
-				"HelpTextL5"	"Level5"
+				"HelpText"	"Una delle piu' grandi imprese dei vampiri e' l'abilita' di ricostituire il proprio corpo. Concentrandosi sul loro sangue possono curare ferite di proiettili e far ricrescere accessori perduti."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Livello1"
+				"HelpTextL2"	"Livello2"
+				"HelpTextL3"	"Livello3"
+				"HelpTextL4"	"Livello4"
+				"HelpTextL5"	"Livello5"
 
 				"ShownInFeedback"	"1"
 
@@ -1402,14 +1402,14 @@ StatData
 
 //			Stat
 //			{
-//				"Name"		"Kindred Dexterity"
+//				"Name"		"Destrezza vampirica"
 //				"InternalName"	"Blood_Buff_Dexterity"
-//				"HelpText"		"The vampire may push its body to the peak of human prowess for a short time, for a price in blood. Kindred Dexterity represents the vampire's innate ability to enhance this physical attribute."
-//				"HelpTextL1"	"Level1"
-//				"HelpTextL2"	"Level2"
-//				"HelpTextL3"	"Level3"
-//				"HelpTextL4"	"Level4"
-//				"HelpTextL5"	"Level5"
+//				"HelpText"		"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. La Destrezza rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
+//				"HelpTextL1"	"Livello1"
+//				"HelpTextL2"	"Livello2"
+//				"HelpTextL3"	"Livello3"
+//				"HelpTextL4"	"Livello4"
+//				"HelpTextL5"	"Livello5"
 //
 //				"Min"			"-1"
 //				"Max"			"5"
@@ -1431,9 +1431,9 @@ StatData
 
 //			Stat
 //			{
-//				"Name"		"Kindred Stamina"
+//				"Name"		"Costituzione vampirica"
 //				"InternalName"	"Blood_Buff_Stamina"
-//				"HelpText"		"The vampire may push its body to the peak of human prowess for a short time, for a price in blood. Kindred Stamina represents the vampire's innate ability to enhance this physical attribute."
+//				"HelpText"		"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. La Costituzione rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
 //				"HelpTextL1"	"Level1"
 //				"HelpTextL2"	"Level2"
 //				"HelpTextL3"	"Level3"
@@ -1460,9 +1460,9 @@ StatData
 
 //			Stat
 //			{
-//				"Name"		"Kindred Strength"
+//				"Name"		"Forza vampirica"
 //				"InternalName"	"Blood_Buff_Strength"
-//				"HelpText"		"The vampire may push its body to the peak of human prowess for a short time, for a price in blood. Kindred Strength represents the vampire's innate ability to enhance this physical attribute."
+//				"HelpText"		"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. La Forza rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
 //				"HelpTextL1"	"Level1"
 //				"HelpTextL2"	"Level2"
 //				"HelpTextL3"	"Level3"
@@ -1489,19 +1489,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Celerity"
+				"Name"		"Velocita'"
 				"InternalName"	"Celerity"
-				"HelpText"	"Vampiric preternatural speed. The world will seem to slow while you remain unaffected. All but the first level of Celerity are obvious supernatural acts, and using them in Safe Areas is considered a violation of the Masquerade."
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Character moves with a level 1 speed enhancement. Costs 1 blood per activation. Lasts 14 seconds per activation."
-				"HelpTextL2"	"Character moves with a level 2 speed enhancement. Costs 1 blood per activation. Lasts 14 seconds per activation."
-				"HelpTextL3"	"Character moves with a level 3 speed enhancement. Costs 1 blood per activation. Lasts 14 seconds per activation."
-				"HelpTextL4"	"Character moves with a level 4 speed enhancement. Costs 1 blood per activation. Lasts 14 seconds per activation."
-				"HelpTextL5"	"Character moves with a level 5 speed enhancement. Costs 1 blood per activation. Lasts 14 seconds per activation."
+				"HelpText"	"Velocita' soprannaturale vampirica. Il mondo sembrera' lento mentre tu non subirai alcuna influenza. Tutti, tranne il primo livello di Velocita', sono ovviamente atti soprannaturali, e usarli in Aree Sicure e' considerata una violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Il personaggio si muove con un aumento di velocita' di livello 1. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL2"	"Il personaggio si muove con un aumento di velocita' di livello 2. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL3"	"Il personaggio si muove con un aumento di velocita' di livello 3. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL4"	"Il personaggio si muove con un aumento di velocita' di livello 4. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL5"	"Il personaggio si muove con un aumento di velocita' di livello 5. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
 
 				"ShownInFeedback"	"1"
 
@@ -1525,19 +1525,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Bloodbuff"	// changed by wesp
+				"Name"		"Blood Buff"
 				"InternalName"	"Corpus_Vampirus"
-				"HelpText"	"The vampire may push its body to the peak of human prowess for a short time, for a price in blood. Bloodbuff represents the vampire's innate ability to enhance the physical attributes."	// changed by wesp
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Level1"
-				"HelpTextL2"	"Level2"
-				"HelpTextL3"	"Level3"
-				"HelpTextL4"	"Level4"
-				"HelpTextL5"	"Level5"
+				"HelpText"	"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. Il Blood Buff rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Livello1"
+				"HelpTextL2"	"Livello2"
+				"HelpTextL3"	"Livello3"
+				"HelpTextL4"	"Livello4"
+				"HelpTextL5"	"Livello5"
 
 				"ShownInFeedback"	"1"
 
@@ -1565,19 +1565,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Dementation"
+				"Name"		"Demenza"
 				"InternalName"	"Dementation"
-				"HelpText"	"The unique legacy of the Malkavian clan, Dementation channels madness and pours it into the minds of those around you. Dementation effects are covert actions; they cannot be traced back to you and carry no risk of violating the Masquerade."
-				"HelpTextH1"	"Level 1: Hysteria"
-				"HelpTextH2"	"Level 2: Mass Hallucination"
-				"HelpTextH3"	"Level 3: Vision of Death"
-				"HelpTextH4"	"Level 4: Berserk"
-				"HelpTextH5"	"Level 5: Bedlam"
-				"HelpTextL1"	"Activation Cost: 1 blood. The victim becomes temporarily incapacitated with laughter. Taking any action against the victim will end the effect prematurely."
-				"HelpTextL2"	"Activation Cost: 2 blood. Anyone near you suffers mild hallucinations and a -2 penalty to Firearms, Melee, Brawl, Defense, and Defense against Feeding."
-				"HelpTextL3"	"Activation Cost: 2 blood. The victim dies instantly. May have a lesser effect on supernaturals."
-				"HelpTextL4"	"Activation Cost: 3 blood. The victim goes insane, attacks at random and then drops dead. May have a lesser effect on supernaturals."
-				"HelpTextL5"	"Activation Cost: 4 blood. The target and any others near him all randomly suffer one of the first four levels of Dementation."
+				"HelpText"	"L'unica eredita' del clan Malkavian, la Demenza trasmette la pazzia e la riversa nelle menti di coloro che ti circondano. Gli effetti della Demenza sono nascosti; non possono essere ricondotti a te e non comportano il rischio di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Isteria"
+				"HelpTextH2"	"Livello 2: Allucinazione di massa"
+				"HelpTextH3"	"Livello 3: Visione di Morte"
+				"HelpTextH4"	"Livello 4: Pazzo Furioso"
+				"HelpTextH5"	"Livello 5: Manicomio"
+				"HelpTextL1"	"Costo Attivazione: 1 punto sangue. La vittima diventa temporaneamente incapace tramite la risata. Fare qualunque azione contro la vittima fara' cessare prematuramente l'effetto."
+				"HelpTextL2"	"Costo Attivazione: 2 punti sangue. Chi si trova vicino a te soffre di allucinazioni mentali e una penalita' di -2 in Arma da Fuoco, Mischia, Rissa, Difesa e Difesa contro Nutrimento."
+				"HelpTextL3"	"Costo Attivazione: 2 punti sangue. La vittima muore istantaneamente. Potrebbe avere un effetto minore sugli esseri soprannaturali."
+				"HelpTextL4"	"Costo Attivazione: 3 punti sangue. La vittima diventa pazza, attacca a casaccio e quindi muore. Potrebbe avere un effetto minore sugli esseri soprannaturali."
+				"HelpTextL5"	"Costo Attivazione: 4 punti sangue. Il bersaglio e chiunque sia vicino a te soffrira' di uno dei primi quattro livelli di Demenza a caso."
 
 				"ShownInFeedback"	"1"
 
@@ -1641,19 +1641,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Dominate"
+				"Name"		"Dominazione"
 				"InternalName"	"Dominate"
-				"HelpText"	"The superior strength of the vampiric mind allows your character to control the minds of weaker kine and even some Kindred. Dominate effects are covert actions; they cannot be traced back to you and carry no risk of violating the Masquerade."
-				"HelpTextH1"	"Level 1: Trance"
-				"HelpTextH2"	"Level 2: Brainwipe"
-				"HelpTextH3"	"Level 3: Suicide"
-				"HelpTextH4"	"Level 4: Possession"
-				"HelpTextH5"	"Level 5: Mass Suicide"
-				"HelpTextL1"	"Activation Cost: 1 blood. The target momentarily sinks into a deep trance. Taking any action against the target will wake them prematurely."
-				"HelpTextL2"	"Activation Cost: 2 blood. All enemies within a small radius will think you've disappeared. This effect wears off after 5 seconds."
-				"HelpTextL3"	"Activation Cost: 2 blood. Forces the victim to suffer a fatal fit. May have a lesser effect on supernaturals."	// changed by wesp
-				"HelpTextL4"	"Activation Cost: 3 blood. The victim will desperately attack anyone who means you harm, until the victim eventually dies of cardiac arrest."
-				"HelpTextL5"	"Activation Cost: 4 blood. The target and any others nearby all suffer a fatal episode. May have a lesser effect on supernaturals."	// changed by wesp
+				"HelpText"	"Forza superiore della mente vampirica, permette al tuo personaggio di controllare le menti dell'umano piu' debole e anche di alcuni Fratelli. Gli effetti della Dominazione sono nascosti; non possono essere ricondotti a te e non comportano il rischio di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Trance"
+				"HelpTextH2"	"Livello 2: Vuoto Mentale"
+				"HelpTextH3"	"Livello 3: Suicidio"
+				"HelpTextH4"	"Livello 4: Possessione"
+				"HelpTextH5"	"Livello 5: Suicidio di Massa"
+				"HelpTextL1"	"Costo Attivazione: 1 punto sangue. Il bersaglio cadra' momentaneamente in trance profondo. Fare qualunque azione contro la vittima fara' cessare prematuramente l'effetto."
+				"HelpTextL2"	"Costo Attivazione: 2 punti sangue. Tutti i nemici in piccolo raggio penseranno che sei scomparso. Questo effetto finisce dopo 5 secondi."
+				"HelpTextL3"	"Costo Attivazione: 2 punti sangue. Forza la vittima a compiere un gesto estremo."
+				"HelpTextL4"	"Costo Attivazione: 3 punti sangue. La vittima attacchera' disperatamente chiunque vuol farti del male, finche' essa non muore di arresto cardiaco."
+				"HelpTextL5"	"Costo Attivazione: 4 punti sangue. Il bersaglio e chiunque nelle vicinanze compiranno un gesto estremo."
 
 				"ShownInFeedback"	"1"
 
@@ -1759,19 +1759,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Fortitude"
+				"Name"		"Robustezza"
 				"InternalName"	"Fortitude"
-				"HelpText"	"Fortitude allows for amazing displays of preternatural constitution. Guarantees a certain amount of damage from every incoming attack will be ignored, regardless of the source. The use of Fortitude is not considered a violation of the Masquerade."
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Adds 1 guaranteed point to all soak feats. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL2"	"Adds 2 guaranteed points to all soak feats. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL3"	"Adds 3 guaranteed points to all soak feats. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL4"	"Adds 4 guaranteed points to all soak feats. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL5"	"Adds 5 guaranteed points to all soak feats. Costs 1 blood per activation. Lasts 25 seconds per activation."
+				"HelpText"	"La Robustezza permettte l'esibizione di un'indole soprannaturale eccezionale. Subirai un danno ridotto da qualsiasi attacco che riceverai. L'uso della Robustezza non e' considerata una violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL2"	"Aggiunge 2 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL3"	"Aggiunge 3 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL4"	"Aggiunge 4 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL5"	"Aggiunge 5 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
 
 				"ShownInFeedback"	"1"
 
@@ -1798,19 +1798,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Obfuscate"
+				"Name"		"Oscurazione"
 				"InternalName"	"Obfuscate"
-				"HelpText"	"Vampiric invisibility. You may only enable Obfuscate if no one can see you. If you remain motionless, the timer will not run and Obfuscate can be maintained indefinitely. All levels of Obfuscate include the benefits of the lower levels and carry no risk of violating the Masquerade."	// changed by wesp
-				"HelpTextH1"	"Level 1: Hide"
-				"HelpTextH2"	"Level 2: Limited Invisibility"
-				"HelpTextH3"	"Level 3: Hidden Killer"
-				"HelpTextH4"	"Level 4: Advanced Invisibility"
-				"HelpTextH5"	"Level 5: Unseen Force"
-				"HelpTextL1"	"Invisibility as long as you remain motionless. If you move or take any action, you will become visible and the timer will run. Costs 1 blood per activation. Lasts 18 seconds per activation."
-				"HelpTextL2"	"You may move invisibly while crouched. You will be revealed if you touch anyone or containers, or if you interact with the environment or perform stealth kills. Costs 1 blood per activation. Lasts 20 seconds per activation."	// changed by wesp
-				"HelpTextL3"	"You may perform stealth kills while staying invisible using the attack key. Be careful not to touch your victim or containers, or you will be revealed. Additionally, any melee attack that breaks Obfuscate 3 will gain a 50% damage bonus. Costs 1 blood per activation. Lasts 22 seconds per activation."	// changed by wesp
-				"HelpTextL4"	"You may move freely while invisible. You will be revealed if you interact with the environment, or if you touch anyone or containers. Additionally, any melee attack that breaks Obfuscate 4 will deal double damage. Costs 1 blood per activation. Lasts 24 seconds per activation."	// changed by wesp
-				"HelpTextL5"	"You may move freely and interact with the environment. You will be revealed if you touch anyone or containers. Additionally, any melee attack that breaks Obfuscate 5 will deal triple damage. Costs 1 blood per activation. Lasts 26 seconds per activation."	// changed by wesp
+				"HelpText"	"Invisibilita' vampirica. Puoi abilitare l'Oscurazione se nessuno puo' vederti. Se rimani immobile, il timer non scorrera' e l'Oscurazione puo' essere mantenuta per tutto il tempo che vuoi. Tutti i livelli di Oscurazione includono i benefici dei livelli minori."
+				"HelpTextH1"	"Livello 1: Invisibilita' semplice "
+				"HelpTextH2"	"Livello 2: Invisibilita' Limitata"
+				"HelpTextH3"	"Livello 3: Assassino Nascosto"
+				"HelpTextH4"	"Livello 4: Invisibilita' Avanzata"
+				"HelpTextH5"	"Livello 5: Forza Invisibile"
+				"HelpTextL1"	"L'Invisibilita' dura finche' rimani immobile. Se ti muovi o fai qualunque azione, diventerai visibile e il timer riprendera' a scorrere. Costa 1 punto sangue per attivazione. Dura 18 secondi. Offuscamento non comporta rischi di violazione della Masquerade."
+				"HelpTextL2"	"Puoi muoverti mentre sei accucciato. Se tocchi qualcuno o se interagisci con l'ambiente, verrai scoperto. Costa 1 punto sangue per attivazione. Dura 20 secondi. Oscurazione non comporta rischi di violazione della Masquerade."
+				"HelpTextL3"	"Puoi uccidere silenziosamente mentre sei invisibile. Stai attento a non toccare la tua vittima in anticipo, o verrai scoperto. In aggiunta, ogni attacco di mischia con l'Offuscamento 3 guadagnera' un bonus in danno del 50%. Costa 1 punto sangue per attivazione. Dura 22 secondi. Oscurazione non comporta rischi di violazione della Masquerade."
+				"HelpTextL4"	"Puoi muoverti liberamente mentre sei invisibile. Se tocchi qualcuno o se interagisci con l'ambiente, verrai scoperto. In aggiunta, ogni attacco di mischia con l'Offuscamento 4 produrra' il doppio del danno. Costa 1 punto sangue per attivazione. Dura 24 secondi. Oscurazione non comporta rischi di violazione della Masquerade."
+				"HelpTextL5"	"Puoi liberamente muoverti e interagire con l'ambiente. Verrai scoperto se tocchi qualcuno. In aggiunta, ogni attacco di mischia con Offuscamento 5 triplichera' il danno. Costa 1 punto sangue per attivazione. Dura 26 secondi. Oscurazione non comporta rischi di violazione della Masquerade."
 
 				"Min"			"-1"
 				"Max"			"5"
@@ -1837,19 +1837,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Potence"
+				"Name"		"Potenza"
 				"InternalName"	"Potence"
-				"HelpText"	"Puts supernatural strength into Brawl and Melee attacks that simply cannot be defended against. All levels of Potence cost 1 blood per activation. Potence carries no risk of violating the Masquerade."
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Adds 1 point of supernatural strength to all melee and brawl attacks. Extra damage caused by this supernatural strength cannot be defended against. Lasts 25 seconds per activation."
-				"HelpTextL2"	"Adds 2 points of supernatural strength to all melee and brawl attacks. Extra damage caused by this supernatural strength cannot be defended against. Lasts 25 seconds per activation."
-				"HelpTextL3"	"Adds 3 points of supernatural strength to all melee and brawl attacks. Extra damage caused by this supernatural strength cannot be defended against. Lasts 25 seconds per activation."
-				"HelpTextL4"	"Adds 4 points of supernatural strength to all melee and brawl attacks. Extra damage caused by this supernatural strength cannot be defended against. Lasts 25 seconds per activation."
-				"HelpTextL5"	"Adds 5 points of supernatural strength to all melee and brawl attacks. Extra damage caused by this supernatural strength cannot be defended against. Lasts 25 seconds per activation."
+				"HelpText"	"I tuoi attacchi Rissa e Mischia saranno dotati di una forza soprannaturale da cui i tuoi nemici non potranno difendersi. Tutti i livelli di Potenza costano 1 punto sangue per attivazione. Potenza non comporta rischi di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL2"	"Aggiunge 2 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL3"	"Aggiunge 3 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL4"	"Aggiunge 4 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL5"	"Aggiunge 5 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
 
 				"ShownInFeedback"	"1"
 
@@ -1873,19 +1873,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Presence"
+				"Name"		"Ascendente"
 				"InternalName"	"Presence"
-				"HelpText"	"The dread Presence of the vampire can strike mortal fear into the hearts of their opponents. Reduces enemies' effectiveness in combat. All levels of Presence cost 1 blood per activation. Presence carries no risk of violating the Masquerade."
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Those very close to you suffer a -1 penalty to Strength, Wits & Perception, and a reduced rate of attack. Lasts 16 seconds per activation."
-				"HelpTextL2"	"Larger radius, victims suffer 10% chance to be Mesmerized, a -2 penalty to Strength, Wits & Perception, and a reduced rate of attack. Lasts 16 seconds per activation."
-				"HelpTextL3"	"Larger radius, victims suffer 15% chance to be Mesmerized, a -3 penalty to Strength, Wits & Perception, and a reduced rate of attack. Lasts 16 seconds per activation."	// changed by wesp
-				"HelpTextL4"	"Larger radius, victims suffer 20% chance to be Mesmerized, a -4 penalty to Strength, Wits & Perception, and a reduced rate of attack. Lasts 16 seconds per activation."
-				"HelpTextL5"	"Larger radius, victims suffer 25% chance to be Mesmerized, a -5 penalty to Strength, Wits & Perception, and a reduced rate of attack. Lasts 16 seconds per activation."
+				"HelpText"	"La capacita' di intimidazione dei vampiri puo' pietrificare dal terrore il cuore del nemico. Riduce l'efficacia del nemico in combattimento. Tutti i livelli di Ascendente costano 1 punto sangue per attivazione. L'Ascendente non comporta rischi di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Quelli molto vicini a te subiranno una penalita' di -1 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL2"	"Raggio piu' grande, le vittime subiranno il 10% di possibilita' di restare Ipnotizzate, una penalita' di -2 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL3"	"Raggio piu' grande, le vittime subiranno il 20% di possibilita' di diventare Ipnotizzate, una penalita' di -3 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL4"	"Raggio piu' grande, le vittime subiranno il 20% di possibilita' di diventare Ipnotizzate, una penalita' di -4 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL5"	"Raggio piu' grande, le vittime subiranno il 25% di possibilita' di diventare Ipnotizzate, una penalita' di -5 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
 
 				"ShownInFeedback"	"1"
 
@@ -1907,7 +1907,7 @@ StatData
 
 				Table
 				{
-					"Name"          "Effect Radius"
+					"Name"          "Raggio d'Effetto"
 					"InternalName"  "Presence_Effect_Radius"
 
 					"Clamping"      "1"
@@ -1922,7 +1922,7 @@ StatData
 
 				Table
 				{
-					"Name"          "Combat Ranges"
+					"Name"          "Raggi di Combattimento"
 					"InternalName"  "Presence_Combat_Ranges"
 
 					"Clamping"      "1"
@@ -1933,7 +1933,7 @@ StatData
 
 				Table
 				{
-					"Name"          "Combat Benefit"
+					"Name"          "Beneficio Combattimento"
 					"InternalName"  "Presence_Combat_Benefit"
 
 					"Clamping"      "1"
@@ -1958,7 +1958,7 @@ StatData
 				//		Once you have an acceptable value, you can tune the other two to get a good screen shake too.
 				Table
 				{
-					"Name"          "Jitter Hand"
+					"Name"          "Mano Nervosa"
 					"InternalName"  "Presence_Jitter_Hand"
 
 					"Clamping"      "1"
@@ -1969,7 +1969,7 @@ StatData
 
 				Table
 				{
-					"Name"          "Jitter Scalar"
+					"Name"          "Tensione"
 					"InternalName"  "Presence_Jitter_Scalar"
 
 					"Clamping"      "1"
@@ -1980,7 +1980,7 @@ StatData
 
 				Table
 				{
-					"Name"          "Jitter Speed"
+					"Name"          "Agitazione"
 					"InternalName"  "Presence_Jitter_Speed"
 
 					"Clamping"      "1"
@@ -1992,19 +1992,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Protean"
+				"Name"		"Proteide"
 				"InternalName"	"Protean"
-				"HelpText"	"By embracing the Beast within, the vampire gains bestial forms and abilities. These effects are readily apparent and supernatural in nature. Protean should therefore be used with discretion in Safe Areas, lest you risk violating the Masquerade."
-				"HelpTextH1"	"Level 1: Gleam of Red Eyes"
-				"HelpTextH2"	"Level 2: Feral Claws"
-				"HelpTextH3"	"Level 3: Will of the Wolf"
-				"HelpTextH4"	"Level 4: Hunter of Night"
-				"HelpTextH5"	"Level 5: War Form"
-				"HelpTextL1"	"You gain heat vision, with a +1 bonus to Wits. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL2"	"Your hands change to deadly claws that deal aggravated damage. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL3"	"You gain greater bestial prowess. +2 to Stamina. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL4"	"You gain deadlier claws and a +2 bonus to strength. Costs 1 blood per activation. Lasts 25 seconds per activation."
-				"HelpTextL5"	"You assume a war form, with increased claw damage. Costs 1 blood per activation. Lasts 25 seconds per activation."
+				"HelpText"	"Abbracciando la Bestia interiore, il vampiro guadagna forme e abilita' bestiali. Questi effetti sono soprannaturali e immediatamente visibili. Proteide dovrebbe tuttavia essere usato con discrezione in Aree Sicure, in modo da evitare la violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Occhi scintillanti"
+				"HelpTextH2"	"Livello 2: Artigli Selvaggi"
+				"HelpTextH3"	"Livello 3: Volonta' del Lupo"
+				"HelpTextH4"	"Livello 4: Cacciatore della Notte"
+				"HelpTextH5"	"Livello 5: Forma da Guerra"
+				"HelpTextL1"	"Ottieni una visione a raggi-x, con un bonus +1 in Prontezza. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL2"	"Le tue mani cambiano in artigli mortali che sferrano danni aggravati. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL3"	"Ottieni la piu' grande abilita' bestiale. +2 in Costituzione. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL4"	"Ottieni artigli letali e un bonus +2 in Forza. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL5"	"Assumi una forma di guerra, con danno artiglio incrementato. Costa 1 punto sangue per attivazione. Dura 25 secondi."
 
 				"ShownInFeedback"	"1"
 
@@ -2027,19 +2027,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Thaumaturgy"
+				"Name"		"Taumaturgia"
 				"InternalName"	"Thaumaturgy"
-				"HelpText"	"Blood magic. Vampire practictioners of Thaumaturgy can bend blood to powerful and terrible ends. The effects are spectacular and obviously supernatural, and should not be used in Safe Areas, lest you risk violating the Masquerade."
-				"HelpTextH1"	"Level 1: Blood Strike"
-				"HelpTextH2"	"Level 2: Blood Purge"	// changed by wesp
-				"HelpTextH3"	"Level 3: Blood Shield"
-				"HelpTextH4"	"Level 4: Blood Salvo"
-				"HelpTextH5"	"Level 5: Blood Boil"
-				"HelpTextL1"	"Activation Cost: 1 blood. A projectile will strike your victim. If you remain still and the victim lives, the blood shot will return with stolen blood from your victim."
-				"HelpTextL2"	"Activation Cost: 2 blood. Enemies near your character will become violently ill, vomiting blood. Damaging to both normal and supernatural foes."
-				"HelpTextL3"	"Activation Cost: 3 blood. A shield of blood envelopes the Tremere, absorbing a portion of all damage inflicted. Blood Shield will dissipate only after it has absorbed enough damage."
-				"HelpTextL4"	"Activation Cost: 3 blood. Blood projectiles will strike several enemies. If you remain still for the duration, the shots will return with stolen blood from your victims."
-				"HelpTextL5"	"Activation Cost: 4 blood. The target's blood is instantly heated to boiling, causing him to explode violently. Others nearby take blast damage from the explosion."
+				"HelpText"	"Sangue magico. I Vampiri professionisti della Taumaturgia possono legare il sangue a potenti e terribili scopi. Gli effetti sono spettacolari e ovviamente soprannaturali. La taumaturgia non dovrebbe essere usata in Aree Sicure, in modo da evitare la violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Palla di Sangue"
+				"HelpTextH2"	"Livello 2: Epurazione"
+				"HelpTextH3"	"Livello 3: Scudo di Sangue"
+				"HelpTextH4"	"Livello 4: Tempesta di Sangue"
+				"HelpTextH5"	"Livello 5: Bomba di Sangue"
+				"HelpTextL1"	"Costo Attivazione: 1 punto sangue. Un proiettile colpira' la tua vittima. Se rimani fermo e la vittima vive, la palla di sangue ritornera' con il sangue rubato dalla tua vittima."
+				"HelpTextL2"	"Costo Attivazione: 2 punti sangue. I nemici vicino ai tuoi personaggi si ammaleranno, vomitando sangue. Danneggia sia nemici normali che soprannaturali."
+				"HelpTextL3"	"Costo Attivazione: 3 punti sangue. Uno scudo di sangue avvolge il Tremere, assorbendo una porzione di tutti i danni ricevuti. Lo scudo di sangue si dissipera' solo dopo aver assorbito abbastanza danno."
+				"HelpTextL4"	"Costo Attivazione: 3 punti sangue. I proiettili di sangue colpiranno diversi nemici. Se rimani fermo per tutta la durata, i colpi ritorneranno indietro con il sangue rubato dalle tue vittime."
+				"HelpTextL5"	"Costo Attivazione: 4 punti sangue. Il bersaglio della bomba viene istantaneamente colpito, causando una violenta esplosione. Altri nelle vicinanze possono ricevere danno esplosivo."
 
 				"ShownInFeedback"	"1"
 
@@ -2103,19 +2103,19 @@ StatData
 			// These are the human ones
 			Stat
 			{
-				"Name"		"Faith Shield"	// changed by wesp
+				"Name"		"Scudo di Fede"
 				"InternalName"	"Shield_of_Faith"
-				"HelpText"	"The Faith Shield protects the hunter from any physical damage inflicted by the undead spawn of evil and it also raises the chance to withstand their disgusting mental attacks."	// added by wesp
+				"HelpText"	""
 				"HelpTextH1"	"Level 1:"
 				"HelpTextH2"	"Level 2:"
 				"HelpTextH3"	"Level 3:"
 				"HelpTextH4"	"Level 4:"
 				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Adds 1 guaranteed point to all soak feats and to Discipline resistance. Costs 1 faith per activation. Lasts 25 seconds per activation."	// added by wesp
-				"HelpTextL2"	"Adds 2 guaranteed points to all soak feats and to Discipline resistance. Costs 1 faith per activation. Lasts 25 seconds per activation."	// added by wesp
-				"HelpTextL3"	"Adds 3 guaranteed points to all soak feats and to Discipline resistance. Costs 1 faith per activation. Lasts 25 seconds per activation."	// added by wesp
-				"HelpTextL4"	"Adds 4 guaranteed points to all soak feats and to Discipline resistance. Costs 1 faith per activation. Lasts 25 seconds per activation."	// added by wesp
-				"HelpTextL5"	"Adds 5 guaranteed points to all soak feats and to Discipline resistance. Costs 1 faith per activation. Lasts 25 seconds per activation."	// added by wesp
+				"HelpTextL1"	"Level1"
+				"HelpTextL2"	"Level2"
+				"HelpTextL3"	"Level3"
+				"HelpTextL4"	"Level4"
+				"HelpTextL5"	"Level5"
 				"ShownInFeedback"	"1"
 
 				"Min"			"-1"
@@ -2140,19 +2140,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Divine Vision"
+				"Name"		"Visione Divina"
 				"InternalName"	"Divine_Vision"
-				"HelpText"	"Divine Vision enables the crusader to see better in darkness and to perceive the auras of living & undead. Living's auras will appear white, and undead's will be red. All levels of Divine Vision cost one faith per activation."	// changed by wesp
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Reveals the auras of the living & undead within a short distance. Lasts 20 seconds per activation."	// added by wesp
-				"HelpTextL2"	"Reveals the auras of all living & undead within a modest distance. Lasts 24 seconds per activation."	// added by wesp
-				"HelpTextL3"	"Reveals the auras of all living & undead within a large distance. Lasts 28 seconds per activation."	// added by wesp
-				"HelpTextL4"	"Reveals the auras of all living & undead within a great distance. Lasts 32 seconds per activation."	// added by wesp
-				"HelpTextL5"	"Reveals the auras of all living & undead within a tremendous distance. Lasts 36 seconds per activation."	// added by wesp
+				"HelpText"	"La Visione Divina permette al crociato di vedere meglio nelle tenebre e di percepire le auree dei vivi e dei non morti. Le aure dei vivi appariranno bianche, e quelle dei non morti saranno rosse. Tutti i livelli della Visione Divina costano una fede per ogni attivazione."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Rivela le aure dei vivi e dei non morti a breve distanza. Dura 20 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL2"	"Rivela le aure di tutti i viventi e non morti entro una modesta distanza. Dura 24 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL3"	"Rivela l'aura di tutti i viventi e non morti a grande distanza. Dura 28 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL4"	"Rivela le aure di tutti i viventi e non morti a grandissima distanza. Dura 32 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL5"	"Rivela l'aura di tutti i viventi e non morti in un'enorme distanza. Dura 36 secondi per ogni attivazione."	// added by wesp
 
 				"ShownInFeedback"	"1"
 
@@ -2176,19 +2176,19 @@ StatData
 
 			Stat
 			{
-				"Name"		"Holy Light"
+				"Name"		"Luce Santa"
 				"InternalName"	"Holy_Light"
-				"HelpText"	"Evoking Holy Light brings the glory of God down on the undead heathens, thereby blinding them temporarily for easy killing."	// changed by wesp
+				"HelpText"	"Evoca la Luce Santa per portare la gloria di Dio tra i pagani non morti, rendendoli temporaneamente ciechi e facili prede."
 				"HelpTextH1"	"Level 1:"
 				"HelpTextH2"	"Level 2:"
 				"HelpTextH3"	"Level 3:"
 				"HelpTextH4"	"Level 4:"
 				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Costs 1 faith per activation. Lasts 4 seconds per activation."	// added by wesp
-				"HelpTextL2"	"Costs 2 faith per activation. Lasts 6 seconds per activation."	// added by wesp
-				"HelpTextL3"	"Costs 3 faith per activation. Lasts 8 seconds per activation."	// added by wesp
-				"HelpTextL4"	"Costs 4 faith per activation. Lasts 10 seconds per activation."	// added by wesp
-				"HelpTextL5"	"Costs 5 faith per activation. Lasts 12 seconds per activation."	// added by wesp
+				"HelpTextL1"	"Costa 1 fede per ogni attivazione. Dura 4 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL2"	"Costa 2 fede per ogni attivazione. Dura 6 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL3"	"Costa 3 fede per ogni attivazione. Dura 8 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL4"	"Costa 4 fede per ogni attivazione. Dura 10 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL5"	"Costa 5 fede per ogni attivazione. Dura 12 secondi per ogni attivazione."	// added by wesp
 
 				"ShownInFeedback"	"1"
 
@@ -2212,7 +2212,7 @@ StatData
 
 			Stat	// not selectable
 			{
-				"Name"		"Mind Shield"
+				"Name"		"Scudo Mentale"
 				"InternalName"	"Mind_Shield"
 				"HelpText"	""
 				"HelpTextH1"	"Level 1:"
@@ -2250,19 +2250,19 @@ StatData
 //	StatData
 	ActiveDisciplines
 	{
-		"Name"		"Active Disciplines"
+		"Name"		"Discipline Attive"
 		"InternalName"	"Active_Disciplines"
 
 //		StatCategory
 //		{
-//			"Name"		"Active Disciplines"
+//			"Name"		"Discipline Attive"
 //			"InternalName"	"Active_Disciplines"
 
 			//  "Action" is the Trait Effect to automatically add when activating this level of the Discipline (automatically removed when the Discipline de-activates).
 
 			Stat
 			{
-				"Name"		"Active Animalism"
+				"Name"		"Animalismo Attivo"
 				"InternalName"	"Active_Animalism"
 				"Min"			"0"
 				"Max"			"Animalism"
@@ -2303,7 +2303,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Auspex"
+				"Name"		"Auspex Attivo"
 				"InternalName"	"Active_Auspex"
 				"Min"			"0"
 				"Max"			"Auspex"
@@ -2375,10 +2375,10 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Blood Healing"
+				"Name"		"Attiva Cura del Sangue"
 				"InternalName"	"Active_Blood_Healing"
 				"Min"			"0"
-				"Max"			"7"		// Currently allowing as much as you have health...
+				"Max"			"7"  // Currently allowing as much as you have health...
 				"Default"		"0"
 				"NameMapping"	"DisciplineLevel"
 
@@ -2436,7 +2436,7 @@ StatData
 
 //			Stat
 //			{
-//				"Name"		"Active Blood Buff Dexterity"
+//				"Name"		"Attiva Destrezza Blood Buff"
 //				"InternalName"	"Active_Blood_Buff_Dexterity"
 //				"Min"			"0"
 ///////				"Max"			"Blood_Buff_Dexterity"
@@ -2560,7 +2560,7 @@ StatData
 
 //		Stat
 //			{
-//				"Name"		"Active Blood Buff Stamina"
+//				"Name"		"Attiva Costituzione Blood Buff"
 //				"InternalName"	"Active_Blood_Buff_Stamina"
 //				"Min"			"0"
 //				"Max"			"Blood_Buff_Stamina"
@@ -2569,7 +2569,7 @@ StatData
 //				"NameMapping"	"DisciplineLevel"
 //
 //				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Base"
-//				"Gfx_Hud2"		"hud/Disciplines/BloodHeal_FullBright"
+//				"Gfx_Hud2"		"hud/Disciplines/BloodHeal_FullBrigh"
 //
 //				Durations
 //			{
@@ -2688,7 +2688,7 @@ StatData
 
 //			Stat
 //			{
-//				"Name"		"Active Blood Buff Strength"
+//				"Name"		"Attiva Forza Blood Buff"
 //				"InternalName"	"Active_Blood_Buff_Strength"
 //				"Min"			"0"
 ///////				"Max"			"Blood_Buff_Strength"
@@ -2816,7 +2816,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Celerity"
+				"Name"		"Attiva Velocita'"
 				"InternalName"	"Active_Celerity"
 				"Min"			"0"
 				"Max"			"Celerity"
@@ -2887,7 +2887,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Blood Buff"
+				"Name"		"Attiva Blood Buff"
 				"InternalName"	"Active_Corpus_Vampirus"
 				"Min"			"0"
 				"Max"			"5"
@@ -2987,7 +2987,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Dementation"
+				"Name"		"Attiva Demenza"
 				"InternalName"	"Active_Dementation"
 				"Min"			"0"
 				"Max"			"Dementation"
@@ -3035,7 +3035,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Dominate"
+				"Name"		"Attiva Dominazione"
 				"InternalName"	"Active_Dominate"
 				"Min"			"0"
 				"Max"			"Dominate"
@@ -3076,7 +3076,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Fortitude"
+				"Name"		"Attiva Robustezza"
 				"InternalName"	"Active_Fortitude"
 				"Min"			"0"
 				"Max"			"Fortitude"
@@ -3117,7 +3117,7 @@ StatData
 				Action
 				{
 					"Value"	">0"
-					"Effect"	"Discipline (Fortitude1)"
+					"Effect"	"Discipline (Fortitude)"
 				}
 
 //				Action
@@ -3176,7 +3176,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Obfuscate"
+				"Name"		"Attiva Oscurazione"
 				"InternalName"	"Active_Obfuscate"
 				"Min"			"0"
 				"Max"			"Obfuscate"
@@ -3251,7 +3251,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Potence"
+				"Name"		"Attiva Potenza"
 				"InternalName"	"Active_Potence"
 				"Min"			"0"
 				"Max"			"Potence"
@@ -3432,7 +3432,7 @@ StatData
 						AttachType	"Bone"
 					}
 				}
-
+		
 // changed by EntenSchreck
 //				Action
 //				{
@@ -3560,7 +3560,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Presence"
+				"Name"		"Attiva Ascendente"
 				"InternalName"	"Active_Presence"
 				"Min"			"0"
 				"Max"			"Presence"
@@ -3631,7 +3631,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Protean"
+				"Name"		"Attiva Proteide"
 				"InternalName"	"Active_Protean"
 				"Min"			"0"
 				"Max"			"Protean"
@@ -3838,7 +3838,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Active Thaumaturgy"
+				"Name"		"Attiva Taumaturgia"
 				"InternalName"	"Active_Thaumaturgy"
 				"Min"			"0"
 				"Max"			"Thaumaturgy"
@@ -3885,7 +3885,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Shield of Faith"	// changed by wesp
+				"Name"		"Attiva Scudo di Fede"
 				"InternalName"	"Active_Shield_of_Faith"
 				"Min"			"0"
 				"Max"			"Shield_of_Faith"
@@ -3956,7 +3956,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Divine Vision"
+				"Name"		"Attiva Visione Divina"
 				"InternalName"	"Active_Divine_Vision"
 				"Min"			"0"
 				"Max"			"Divine_Vision"
@@ -4027,7 +4027,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Holy Light"
+				"Name"		"Attiva Luce Santa"
 				"InternalName"	"Active_Holy_Light"
 				"Min"			"0"
 				"Max"			"Holy_Light"
@@ -4039,7 +4039,7 @@ StatData
 
 				Durations	// changed by wesp
 				{
-					"Initial_1"		"2"	
+					"Initial_1"		"2"
 					"Add_1"		"0"
 
 					"Initial_2"		"4"
@@ -4095,7 +4095,7 @@ StatData
 
 			Stat
 			{
-				"Name"		"Mind Shield"	// changed by wesp
+				"Name"		"Attiva Scudo Mentale"
 				"InternalName"	"Active_Mind_Shield"
 				"Min"			"0"
 				"Max"			"Mind_Shield"
