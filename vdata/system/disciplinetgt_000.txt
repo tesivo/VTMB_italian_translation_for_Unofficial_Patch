@@ -29,7 +29,7 @@ DisciplineTgtList
 // Animalism: Level 1
 DisciplineTgt
 {
-	"Name"		"Nightwisp Ravens"
+	"Name"		"Corvi della notte"
 	"InternalName"	"Animalism_Nightwisp_Ravens"
 
 	"Discipline"	"Animalism"
@@ -38,12 +38,12 @@ DisciplineTgt
 	"TgtHightlightParticle"	"D_Target_Aura_Emitter"
 
 	"BloodCost"		"1"
-	"Overt"			"0"
+	"Overt"		"0"
 	"TriggerAISound"	"0"	// changed by wesp
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"		"5.0"
+	"RecoveryTime"	"5.0"
 	"ShouldRemove_OnTakeDamage"	"1"
-	"ShouldRemove_OnWasBumped"		"1"
+	"ShouldRemove_OnWasBumped"	"1"
 
 	AoE
 	{
@@ -493,7 +493,7 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-            "Duration"			"3"	// In order to play particles/etc.
+		"Duration"			"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
@@ -576,7 +576,7 @@ DisciplineTgt
 // Animalism: Level 2
 DisciplineTgt
 {
-	"Name"		"Burrowing Beetle"
+	"Name"		"Scarabeo Scavatore"
 	"InternalName"	"Animalism_Burrowing_Beetle"
 
 	"Discipline"	"Animalism"
@@ -588,7 +588,7 @@ DisciplineTgt
 	"Overt"			"1"	// changed by wesp
 	"TriggerAISound"	"1"
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"		"0.3"
+	"RecoveryTime"	"0.3"
 
 	AoE
 	{
@@ -899,7 +899,7 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-            "Duration"			"3"	// In order to play particles/etc.
+		"Duration"			"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
@@ -1037,7 +1037,7 @@ DisciplineTgt
 // Animalism: Level 3 (Spectral Wolves)
 DisciplineTgt
 {
-	"Name"			"Spectral Wolf"
+	"Name"			"Lupo spettrale"
 	"InternalName"	"Animalism_Spectral_Wolves"
 
 	"Discipline"	"Animalism"
@@ -1049,7 +1049,7 @@ DisciplineTgt
 	"Overt"			"1"
 	"TriggerAISound"	"1"
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"		"4.5"
+	"RecoveryTime"	"4.5"
 
 	AoE
 	{
@@ -1611,7 +1611,7 @@ DisciplineTgt
 
 	Hit_Supernatural_Partial_No_Wolf // TJP- Lesser Solution
 	{
-            "Duration"			"3"	// In order to play particles/etc.
+		"Duration"			"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
@@ -1679,7 +1679,7 @@ DisciplineTgt
 	Hit_Strata_2 // TJP- NEED NON-HUMANOID REACTIONS
 	{
 		"InheritFrom"		"Hit_Supernatural_Partial"
-            "Dmg_Health"		"30%"
+		"Dmg_Health"		"30%"
 	}
 
 	Hit_Strata_2_No_Wolf // TJP- Lesser solution
@@ -1692,7 +1692,7 @@ DisciplineTgt
 	Hit_Strata_3  // TJP- NEED NON-HUMANOID REACTIONS
 	{
 		"InheritFrom"		"Hit_Supernatural_Partial"
-            "Dmg_Health"		"40%"
+		"Dmg_Health"		"40%"
 	}
 
 	Hit_Strata_4 // TJP- NEED NON-HUMANOID REACTIONS
@@ -1747,7 +1747,7 @@ DisciplineTgt
 // Animalism: Level 4
 DisciplineTgt
 {
-	"Name"		"Bloodsucker Communion"	// changed by wesp
+	"Name"		"Riunione dei Succhiasangue"
 	"InternalName"	"Animalism_Bloodsuckers_Communion"
 
 	"Discipline"	"Animalism"
@@ -1756,12 +1756,12 @@ DisciplineTgt
 	"TgtHightlightParticle"	"D_Target_Aura_Emitter"
 
 	"BloodCost"		"3"
-	"Overt"			"1"
+	"Overt"		"1"
 	"TriggerAISound"	"1"
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"		"9.0"
+	"RecoveryTime"	"9.0"
 	"ShouldRemove_OnTakeDamage"	"1"
-	"ShouldRemove_OnWasBumped"		"1"
+	"ShouldRemove_OnWasBumped"	"1"
 
 	AoE
 	{
@@ -2328,7 +2328,7 @@ DisciplineTgt
 	{
 		"InheritFrom"		"Hit_Strata_2"
 // Populism		"Duration"			"1"
-            OnInterrupt
+		OnInterrupt
 		{
 			"Dmg_Health"		"8-12%"
 		}
@@ -2372,7 +2372,7 @@ DisciplineTgt
 // Animalism: Level 5
 DisciplineTgt
 {
-	"Name"		"Pestilence"
+	"Name"		"Pestilenza"
 	"InternalName"	"Animalism_Pestilence"
 
 	"Discipline"	"Animalism"
@@ -2381,10 +2381,10 @@ DisciplineTgt
 //	"TgtHightlightParticle"	"D_Target_Aura_Emitter"
 
 	"BloodCost"		"3"
-	"Overt"			"1"
+	"Overt"		"1"
 	"TriggerAISound"	"1"
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"		"12.0"
+	"RecoveryTime"	"12.0"
 
 	AoE
 	{
@@ -3306,16 +3306,16 @@ DisciplineTgt
 // Animalism: Level 4 Return (Human)
 DisciplineTgt
 {
-	"Name"		"Bloodsuckers' Return"
+	"Name"		"Ritorno dei succhiasangue"
 	"InternalName"	"Animalism_Bloodsuckers_Return"
 
 	"Discipline"	"Animalism"
 	"Level"		"4"
 
 	"BloodCost"		"0"
-	"Overt"			"0"
+	"Overt"		"0"
 	"SupernaturalLvl"	"0"
-	"RecoveryTime"		"0"
+	"RecoveryTime"	"0"
 
 	AoE
 	{
@@ -3376,7 +3376,7 @@ DisciplineTgt
 // Animalism: Level 4 Return (Strata 1)
 DisciplineTgt
 {
-	"Name"				"Bloodsuckers' Return (Strata 1)"
+	"Name"				"Ritorno dei succhiasangue (Strata 1)"
 	"InternalName"		"Animalism_Bloodsuckers_Return_Strata_1"
 
 	"Discipline"		"Animalism"
@@ -3384,8 +3384,8 @@ DisciplineTgt
 
 	"BloodCost"			"0"
 	"Overt"				"0"
-	"SupernaturalLvl"		"0"
-	"RecoveryTime"			"0"
+	"SupernaturalLvl"	"0"
+	"RecoveryTime"		"0"
 
 	AoE
 	{

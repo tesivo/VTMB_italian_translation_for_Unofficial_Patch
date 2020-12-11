@@ -11,7 +11,7 @@ DisciplineTgtList
 // Dementation: Level 1
 DisciplineTgt
 {
-	"Name"		"Hysteria"
+	"Name"		"Isteria"
 	"InternalName"	"Dementation_Hysteria"
 
 	"Discipline"	"Dementation"
@@ -596,7 +596,7 @@ DisciplineTgt
 // Dementation: Level 2
 DisciplineTgt
 {
-	"Name"		"Mass Hallucination"
+	"Name"		"Allucinazione di massa"
 	"InternalName"	"Dementation_Mass_Hallucination"
 
 	"Discipline"	"Dementation"
@@ -1018,7 +1018,7 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism	
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
 
 		Effect_Tgt_Hit
 		{
@@ -1135,7 +1135,7 @@ DisciplineTgt
 // Dementation: Level 3
 DisciplineTgt
 {
-	"Name"		"Vision of Death"
+	"Name"		"Visione di Morte"
 	"InternalName"	"Dementation_Vision_of_Death"
 
 	"Discipline"	"Dementation"
@@ -1586,7 +1586,7 @@ DisciplineTgt
 	Hit_Supernatural_NoEffect
 	{
 		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
-	
+
 		Effect_Tgt_Hit
 		{
 			Particle_ThirdPerson
@@ -1669,7 +1669,7 @@ DisciplineTgt
 // Dementation: Level 4
 DisciplineTgt
 {
-	"Name"		"Berserk"
+	"Name"		"Pazzo Furioso"
 	"InternalName"	"Dementation_Berserk"
 
 	"Discipline"	"Dementation"
@@ -2164,7 +2164,7 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism	
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
 
 		"Duration"			"3"	// In order to play particles/etc.
 
@@ -2273,7 +2273,7 @@ DisciplineTgt
 // Dementation: Level 5
 DisciplineTgt
 {
-	"Name"		"Bedlam"
+	"Name"		"Manicomio"
 	"InternalName"	"Dementation_Bedlam"
 
 	"Discipline"	"Dementation"
@@ -2433,13 +2433,13 @@ DisciplineTgt
 			Mapping
 			{
 				"Chance"	"10%"
-				"HitTable"	"Hit_Strata_2_Hysteria_Primary" 
+				"HitTable"	"Hit_Strata_2_Hysteria_Primary"
 			}
 
-			Mapping 
+			Mapping
 			{
 				"Chance"	"20%"
-				"HitTable"	"Hit_Strata_2_Partial_Resist_Primary" 
+				"HitTable"	"Hit_Strata_2_Partial_Resist_Primary"
 			}
 
 		}
@@ -2469,10 +2469,10 @@ DisciplineTgt
 				"HitTable"	"Hit_Strata_2_Berserk"
 			}
 
-			Mapping 
+			Mapping
 			{
 				"Chance"	"50%"
-				"HitTable"	"Hit_Strata_2_Partial_Resist" 
+				"HitTable"	"Hit_Strata_2_Partial_Resist"
 			}
 		}
 
@@ -2505,13 +2505,13 @@ DisciplineTgt
 			Mapping
 			{
 				"Chance"	"20%"
-				"HitTable"	"Hit_Strata_2_Hysteria_Primary" 
+				"HitTable"	"Hit_Strata_2_Hysteria_Primary"
 			}
 
-			Mapping 
+			Mapping
 			{
 				"Chance"	"20%"
-				"HitTable"	"Hit_Strata_2_Partial_Resist_Primary" 
+				"HitTable"	"Hit_Strata_2_Partial_Resist_Primary"
 			}
 
 		}
@@ -2547,10 +2547,10 @@ DisciplineTgt
 				"HitTable"	"Hit_Strata_2_Hysteria"
 			}
 
-			Mapping 
+			Mapping
 			{
 				"Chance"	"20%"
-				"HitTable"	"Hit_Strata_2_Partial_Resist" 
+				"HitTable"	"Hit_Strata_2_Partial_Resist"
 			}
 		}
 

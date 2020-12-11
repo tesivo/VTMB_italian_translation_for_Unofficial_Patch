@@ -11,7 +11,7 @@ DisciplineTgtList
 // Presence: Level 1
 DisciplineTgt
 {
-	"Name"		"Presence-1"
+	"Name"		"Intimidazione-1"
 	"InternalName"	"Presence_Level1"
 
 	"Discipline"	"Presence"
@@ -439,7 +439,7 @@ DisciplineTgt
 // Presence: Level 2
 DisciplineTgt
 {
-	"Name"		"Presence-2"
+	"Name"		"Intimidazione-2"
 	"InternalName"	"Presence_Level2"
 
 	"Discipline"	"Presence"
@@ -923,7 +923,7 @@ DisciplineTgt
 // Presence: Level 3
 DisciplineTgt
 {
-	"Name"		"Presence-3"
+	"Name"		"Intimidazione-3"
 	"InternalName"	"Presence_Level3"
 
 	"Discipline"	"Presence"
@@ -1434,7 +1434,7 @@ DisciplineTgt
 // Presence: Level 4
 DisciplineTgt
 {
-	"Name"		"Presence-4"
+	"Name"		"Intimidazione-4"
 	"InternalName"	"Presence_Level4"
 
 	"Discipline"	"Presence"
@@ -2047,7 +2047,7 @@ DisciplineTgt
 // Presence: Level 5
 DisciplineTgt
 {
-	"Name"		"Presence-5"
+	"Name"		"Intimidazione-5"
 	"InternalName"	"Presence_Level5"
 
 	"Discipline"	"Presence"
