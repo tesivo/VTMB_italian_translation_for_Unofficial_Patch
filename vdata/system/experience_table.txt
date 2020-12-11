@@ -1,5 +1,6 @@
 > Comments must begin the line with ">"
 > Only localize the MIDDLE field, please.
+
 >
 > Junk for testing
 > Total Experience Value: This is the value without extra experience points
@@ -13,124 +14,121 @@ Title05  | Description05 | 501
 >
 > Tutorial
 > Total Experience Value: 2
-> 
-Tutor01  | Escaped Sabbat assault | 201
+>
+Tutor01  | Scappato dall'assalto Sabbat | 201
 
 >
 > Elizabeth Dane
 > Total Experience Value: 5
 >
-Dane01  | Obtained the manifest | 101
-Dane02  | Obtained the police report | 101
-Dane03  | Explored the crime scene | 101
-Dane04  | Elizabeth Dane investigation completed | 201
-Dane05  | Completed Dane without killing anyone | 201
+Dane01	 | Manifesto ottenuto | 101
+Dane02	 | Rapporto della polizia ottenuto| 101
+Dane03	 | Scena del crimine esplorata | 101
+Dane04	 | Investigazione su Elizabeth Dane completata | 201
+Dane05   | Completato il caso Dane senza uccidere nessuno | 201
 
 >
 > Wherefore Art Thou, Mercurio?
 > Total Experience Value: 1
 >
-Merc01  | Located Mercurio | 101
+Merc01   | Trovato Mercurio | 101
 
 >
 > Surf's Up
 > Total Experience Value: 5
 >
-Astro01 | Retrieved the Astrolite | 201
-Astro02 | Reported back to Mercurio | 101
-Astro03 | Gave Mercurio morphine | 101
-Astro04 | Returned Mercurio's money | 101
-Astro05 | Found Mercurio's journal | 101
+Astro01 | Astrolite ritrovato | 201
+Astro02 | Comunicato rapporto a Mercurio | 101
+Astro03 | Data morfina a Mercurio | 101
+Astro04 | Riportato i soldi di Mercurio | 101
+Astro05 | Trovato il diario di Mercurio | 101
 
 >
 > Explosive Beginnings
 > Total Experience Value: 8
-> Explosive06 added by wesp
-Explosive01 | Got the feud called off | 301
-Explosive02 | Found Bertram Tung | 101
-Explosive03 | Blew up warehouse | 401
-Explosive04 | Planted Astrolite without killing anyone | 201
-Explosive05 | Reported warehouse destroyed to LaCroix | 101
-Explosive06 | Planted Astrolite without being detected | 201
+>
+Explosive01 | Placata l'ostilita' | 301
+Explosive02 | Trovato Bertram Tung | 101
+Explosive03 | Fatto esplodere il magazzino | 401
+Explosive04 | Posizionato l'Astrolite senza uccidere nessuno | 201
+Explosive05 | Comunicato a LaCroix la distruzione del magazzino | 101
 
 >
 > Haunted Hotel
 > Total Experience Value: 3
 >
-Haunted01 | Retrieved the pendant from the Ocean House | 101
-Haunted02 | Delivered the pendant to Therese | 101
-Haunted03 | Delivered the pendant to Jeanette | 101
-Haunted04 | Refused to give pendant to Jeanette | 101
+Haunted01 | Ritrovato il pendente all'Ocean House | 101
+Haunted02 | Consegnato il pendente a Therese | 101
+Haunted03 | Consegnato il pendente a Jeanette | 101
+Haunted04 | Rifiutato di dare il pendente a Jeanette | 101
 
 >
 > Slashterpiece
 > Total Experience Value: 3
->
-Slash01 | Destroyed the paintings | 301
-Slash02 | Got inside gallery without killing anyone | 101
+> changed by wesp
+Slash01 | Distrutti i quadri | 301
+Slash02 | Entrato nella galleria con l'aiuto di Chuck | 101
 
 >
 > Bad Blood
 > Total Experience Value: 2
 >
-Bad01 | Arrived at the Diner | 201
+Bad01 | Arrivato al Diner | 201
 
 >
 > Sibling Rivalry
 > Total Experience Value: 1
 >
-Sibling01 | Convinced Jeanette to kill Therese | 101
-Sibling02 | Convinced Therese to kill Jeanette | 101
-Sibling03 | Convinced Therese and Jeanette to live in peace | 301
+Sibling01 | Convinto Jeanette ad uccidere Therese | 101
+Sibling02 | Convinto Therese ad uccidere Jeanette | 101
+Sibling03 | Convinto Therese e Jeanette a vivere in pace | 301
 
 >
 > Searching for Mr. Carson
 > Total Experience Value: 1
 >
-Carson01 | Found information about Carson's last case | 101
-Carson02 | Rescued Carson | 101
-Carson03 | Reported back to Kilpatrick about Carson | 101
+Carson01 | Trovate informazioni sull'ultimo caso di Carson | 101
+Carson02 | Salvato Carson | 101
+Carson03 | Comunicato a Kilpatrick di Carson | 101
 
 >
 > The Bail Jumper
 > Total Experience Value: 2
 >
-Bail01 | Heard "Muddy" is headed Downtown | 101
-Bail02 | Told Arthur where "Muddy" is | 101
+Bail01 | Venuto a conoscenza che "Muddy" e' arrivato a Downtown | 101
+Bail02 | Detto ad Arthur dove si trova "Muddy" | 101
 
 >
 > Thinned Blood
 > Total Experience Value: 4
-> Thinned05 changed by wesp from Told E about Lily, Thin Bloods
-Thinned01 | Retrieved Lily's belongings | 101
-Thinned02 | Found Lily's journal | 101
-Thinned03 | Freed Lily | 101
-Thinned04 | Told E about Lily and thin-bloods | 101
-Thinned05 | Found out the freezer code | 101
+>
+Thinned01 | Ritrovati gli effetti personali di Lily | 101
+Thinned02 | Trovato il diario di Lily | 101
+Thinned03 | Liberata Lily | 101
+Thinned04 | Detto ad E di Lily | 101
+Thinned05 | Convinto Phil a darti il codice | 101
 
 >
 > Asian Vampire
 > Total Experience Value: 3
 >
-Asian01 | Killed the Asian vampire | 101
-Asian02 | Told Knox you killed Asian vampire | 101
-Asian03 | Unraveled Knox and Bertram's plan to deceive you | 201
-Asian04 | Found clues relating to the Asian vampire | 101
+Asian01 | Ucciso il vampiro Asiatico | 101
+Asian02 | Detto a Knox che hai ucciso il vampiro Asiatico | 101
+Asian03 | Dipanato il piano di Knox e Bertram per ingannarti | 201
+Asian04 | Trovati gli indizi relativi al vampiro Asiatico | 101
 
 >
 > Werewolf Blood
 > Total Experience Value: 3
 >
-Wblood01 | Retrieved the werewolf blood from the clinic | 201
-Wblood02 | Successfully sent the blood back to LaCroix | 101
+Wblood01 | Ripreso il sangue del lupo mannaro dalla clinica | 201
+Wblood02 | Riportato con successo il sangue a LaCroix | 101
 
 >
 > Replacing Lily
 > Total Experience Value: 2
-> Danielle01 changed by wesp from Convinced Danielle to visit the Blood Bank
-> Danielle02 added by wesp
-Danielle01 | Delivered a replacement for Lily | 201
-Danielle02 | Dealt with Vandal after freeing Lily | 101
+>
+Danielle01 | Convinto Danielle a visitare la Banca del Sangue | 201
 
 >
 > Carnival of Death
@@ -138,443 +136,396 @@ Danielle02 | Dealt with Vandal after freeing Lily | 101
 >
 > TJP - Killer01 | Talked the Serial Killer down | 301
 >
-Killer01 | Talked the serial killer down | 201
-Killer02 | Convinced bum to stay quiet | 101
-Killer03 | Killed serial killer | 201
+Killer01 | Parlato al serial killer | 201
+Killer02 | Convinto Bum a stare calmo | 101
+Killer03 | Ucciso il serial killer | 201
 
 >
 > Contact Grout
 > Total Experience Value: 5
->
 > Updated 09-08-04 by TJP Total Experience Value: 6
->
-Grout01 | Saw the remains of Alistair Grout | 101
-Grout02 | Told prince Grout is dead | 301
-Grout03 | Solved Grout's riddle | 101
-Grout04 | Unlocked Grout's inner sanctum | 101
+Grout01 | Visto i resti di Alistair Grout | 101
+Grout02 | Detto al principe che Grout e' morto | 301
+Grout03 | Risolto l'enigma di Grout | 101
+Grout04 | Sbloccato il sancta sanctorum di Grout | 101
 
 >
 > Museum
 > Total Experience Value: 5
 >
-Museum01 | Found museum key | 101
-Museum02 | Located sarcophagus room | 301
-Museum03 | Told prince sarcophagus was stolen | 101
-Museum04 | Completed museum without killing anyone | 201
+Museum01 | Trovata la chiave del museo | 101
+Museum02 | Localizzata la stanza del sarcofago | 301
+Museum03 | Detto al principe che il sarcofago e' stato rubato | 101
+Museum04 | Completato il caso del museo senza uccidere nessuno | 201
 
 >
 > Find Sarcophagus
 > Total Experience Value: 6
-> 
-Sarc01 | Found Gary | 201
-Sarc02 | Discovered location of sarcophagus | 201
-Sarc03 | Returned sarcophagus to prince | 201
+> changed by wesp
+Sarc01 | Trovato Gary | 201
+Sarc02 | Scoperta la posizione del sarcofago | 201
+Sarc03 | Riportato il sarcofago al principe | 201
+Sarc04 | Ucciso Bruno Giovanni | 101
 
 >
 > Talk to Professor at Society
 > Total Experience Value: 6
 >
-> Society02 | Talked to Professor | 301
-> Society01 changed by wesp
-Society01 | Defeated Bach | 401
-Society02 | Talked to professor | 201
-Society03 | Rescued professor | 201
-Society04 | Found out secret info about sarcophagus from professor | 201
+> Society02 | Parlato al Professore | 301
+> changed by wesp
+Society01 | Ucciso Bach | 401
+Society02 | Parlato al professore | 201
+Society03 | Salvato il professore | 201
+Society04 | Scoperto il segreto riguardo il sarcofago dal professore | 201
+Society05 | Salvato Ash | 101
 
 >
 > Snuff Film
 > Total Experience Value: 6
 >
-Tape01 | Got info on snuff film | 201
-Tape02 | Found snuff film | 201
-Tape03 | Showed tape to Isaac | 201
+Tape01 | Trovate informazioni sul film sadista | 201
+Tape02 | Trovato il film sadista | 201
+Tape03 | Mostrata la cassetta ad Isaac | 201
 
 >
 > 609 King's Way
 > Total Experience Value: 7
 >
-> Kings01 | Confronted Andrei | 701
+> Kings01 | Affrontato Andrei | 701
 >
-Kings01 | Confronted the Tzimisce | 601
+Kings01 | Affrontato Andrei | 601
 
 >
 > Finding Barabus
 > Total Experience Value: 5
 >
-Barabus01 | Rescued Barabus from the Fu Syndicate | 301
-Barabus02 | Received Gary's phone call | 201
+Barabus01 | Salvato Barabus dal Fu Syndicate | 301
+Barabus02 | Ricevuta la chiamata da Gary | 201
 
 >
 > Giovanni Mansion
 > Total Experience Value: 7
 >
-Giovanni01 | Infiltrated the Giovanni mansion | 201
-Giovanni02 | Found the sarcophagus room | 201
-Giovanni03 | Killed Changs | 301
+Giovanni01 | Infiltrato nel palazzo di Giovanni | 201
+Giovanni02 | Trovata la stanza del sarcofago | 201
+Giovanni03 | Ucciso Changs | 301
 
 >
 > Storming the Hallowbrook
 > Total Experience Value: 8
 >
-> Shangrila01 | Located the lair of the Sabbat leader | 401
+> Shangrila01 | Localizzato il ritrovo del leader dei Sabbat | 401
 >
-Shangrila01 | Located the lair of the Sabbat leader | 301
-Shangrila02 | Killed the Tzimisce | 401
-Shangrila03 | Reported death of the Tzimisce to prince | 201
-Shangrila04 | Struck a deal with the Tzimisce | 601
+Shangrila01 | Localizzato il nascondiglio del leader dei Sabbat | 301
+Shangrila02 | Ucciso Andrei | 401
+Shangrila03 | Comunicata la morte di Andrei al principe | 201
 
 >
 > The Alliance
 > Total Experience Value: 8
 >
-Alliance01 | Found out where Nines is | 201
-Alliance02 | Contacted Nines | 201
-Alliance03 | Escaped from Griffith Park | 401
-Alliance04 | Killed the werewolf | 401
+Alliance01 | Scoperto dov'e' Nines | 201
+Alliance02 | Contattato Nines | 201
+Alliance03 | Scappato da Griffith Park | 401
+Alliance04 | Ucciso il lupo mannaro | 401
 
 >
 > Bloodhunt
 > Total Experience Value: 10
 >
-Bloodhunt01 | Survived the blood hunt | 801
+Bloodhunt01 | Sopravvissuto alla caccia del sangue | 801
 
 >
 > Kill Ming Xiao
 > Total Experience Value: 10
-> Ming02 changed by wesp from Got the Sarcophagus key
-Ming01 | Reached Ming-Xiao's lair | 501
-Ming02 | Found the sarcophagus key | 1001
+>
+Ming01 | Raggiunto il palazzo di Ming-Xiao | 501
+Ming02 | Presa la chiave del sarcofago | 1001
 
 >
 > Dead Ex
 > Total Experience Value: 4
 >
-Dead01 | Found location of meeting | 101
-Dead02 | Met with courier | 101
-Dead03 | Found tape | 101
-Dead04 | Showed tape to Isaac | 101
+Dead01 | Scoperto il luogo dell'incontro | 101
+Dead02 | Incontrato con il corriere | 101
+Dead03 | Trovata la cassetta | 101
+Dead04 | Mostrata la cassetta ad Isaac | 101
 
 >
 > Gargoyle Quest
 > Total Experience Value: 3
-> 
-> Gargoyle01 | Destroyed Gargoyle | 601
-> Gargoyle02 | Convinced Gargoyle to ally with Isaac | 901
-> Gargoyle03 | Told Isaac about Regent and Gargoyle | 301
-> Gargoyle04 added by wesp
-> Gargoyle05 added by wesp
-Gargoyle01 | Destroyed Gargoyle | 301
-Gargoyle02 | Convinced Gargoyle to ally with Isaac | 301
-Gargoyle03 | Told Isaac about regent and Gargoyle | 201
-Gargoyle04 | Informed Issac you've dealt with the Gargoyle | 101
-Gargoyle05 | Found out about regent and Gargoyle | 201
+> changed by wesp
+> Gargoyle01 | Distrutto il Gargoyle | 601
+> Gargoyle02 | Convinto il Gargoyle ad allearsi con Isaac | 901
+> Gargoyle03 | Detto ad Isaac di Regent e del Gargoyle | 301
+>
+Gargoyle01 | Distrutto il Gargoyle | 201
+Gargoyle02 | Convinto il Gargoyle ad allearsi con Isaac | 301
+Gargoyle03 | Detto ad Isaac di Regent e del Gargoyle | 201
+Gargoyle04 | Detto ad Isaac del Gargoyle | 101
 
 >
 > Plague Bearer
 > Total Experience Value: 5
-> Plague06 added by wesp
-Plague01 | Got info about Jezebel Locke | 101
-Plague02 | Got Jezebel's key | 101
-Plague03 | Killed Jezebel | 101
-Plague04 | Got info from Tin Can Bill | 101
-Plague05 | Killed Kanker | 101
-Plague06 | Killed another plaguebearer | 101
+> changed by wesp
+Plague01 | Ricevute informazioni su Jezebel Locke | 101
+Plague02 | Ricevuta la chiave di Jezebel | 101
+Plague03 | Ucciso Jezebel | 101
+Plague04 | Ricevute informazioni su Tin Can Bill | 101
+Plague05 | Ucciso Kanker | 101
+Plague06 | Ucciso un altro contaminatore | 101
 
 >
 > Kill All Plague Bearers
 > Total Experience Value: 5
 >
-AllPlague01 | Found plaguebearer clue | 101
-AllPlague02 | Gained entrance to crackhouse | 101
-AllPlague03 | Killed Bishop Vick | 201
-AllPlague04 | Told Damsel head plaguebearer is dead | 101
+AllPlague01 | Trovata la pista dei contaminatori | 101
+AllPlague02 | Accettato alla crackhouse | 101
+AllPlague03 | Ucciso Bishop Vick | 201
+AllPlague04 | Raccontato che Damsel, il capo dei contaminatori, e' morta | 101
 
 >
 > Traffik
 > Total Experience Value: 3
 >
-> Traffik01 | Got Larry's briefcase | 201
+> Traffik01 | Presa la borsa di Larry | 201
 >
-Traffik01 | Got Larry's briefcase | 101
-Traffik02 | Delivered the briefcase | 101
-Traffik03 | Got briefcase without being detected | 201
+Traffik01 | Presa la borsa di Larry | 101
+Traffik02 | Borsa consegnata | 101
+Traffik03 | Presa la borsa senza essere scoperto | 201
 
 >
 > Confession
 > Total Experience Value:
-> Confession01 changed by wesp from Gave Igor Venus' message
-Confession01 | Gave Russian Venus' message | 101
-Confession02 | Told Venus you solved her problem | 201
+>
+Confession01 | Consegnato il messaggio di Igor Venus | 101
+Confession02 | Comunicato a Venus che il problema e' stato risolto | 201
 
 >
 > And Venus Was Her Name
 > Total Experience Value: 3
 >
-Venus01 | Solved Venus' Boris "problem" | 201
-Venus02 | Told Venus her problem is solved | 101
+Venus01 | Risolto il "problema" Boris di Venus | 201
+Venus02 | Comunicato a Venus che il problema e' stato risolto | 101
 
 >
 > Kill Venus
 > Total Experience Value: 3
 >
-Kill01 | Killed Venus for Boris | 201
-Kill02 | Told Boris Venus is dead | 101
+Kill01 | Uccisa Venus per Boris | 201
+Kill02 | Hai detto a Boris che Venus e' morta | 101
 
 >
 > Junky
 > Total Experience Value: 2
 >
-Junky01 | Protected Masquerade by dealing with Patty | 101
-Junky02 | Convinced Patty to leave town | 101
-Junky03 | Told Skelter you've dealt with Patty | 101
+Junky01 | Protetta la Masquerade patteggiando con Patty | 101
+Junky02 | Hai convinto Patty a lasciare la citta' | 101
+Junky03 | Hai detto a Skelter che hai patteggiato con Patty | 101
 
 >
 > Necromantic
 > Total Experience Value: 3
 >
-Necro01 | Dealt with Milligan | 201
-Necro02 | Informed Pisha Milligan has been dealt with | 101
+Necro01 | Patteggiato con Milligan | 201
+Necro02 | Informato Pisha che hai patteggiato con Milligan | 101
 
 >
 > Occult Items
 > Total Experience Value: 3
-> Occult03 added by wesp
-Occult01 | Retrieved an occult item for Pisha | 101
-Occult02 | Exchanged occult items with Pisha | 101
-Occult03 | Retrieved both occult items for Pisha | 101
+>
+Occult01 | Ritrovato un misterioso oggetto per Pisha | 101
+Occult02 | Barattato il misterioso oggetto con Pisha | 101
 
 >
 > Strip to Hunt
 > Total Experience Value: 3
 >
-> Strip01 | Killed Chastity the hunter | 301
-> Strip02 | Told VV Chastity is dead | 201
-> Strip03 | Killed the hunter with no loss of innocent life | 101
+> Strip01 | Uccisa Chastity la cacciatrice | 301
+> Strip02 | Hai detto a VV che Chastity e' morta | 201
+> Strip03 | Uccisa la cacciatrice senza perdita di vite innocenti | 101
 >
-Strip01 | Killed Chastity the hunter | 201
-Strip02 | Told VV Chastity is dead | 101
-Strip03 | Killed the hunter with no loss of innocent life | 201
+Strip01 | Uccisa Chastity la cacciatrice | 201
+Strip02 | Hai detto a VV che Chastity e' morta | 101
+Strip03 | Uccisa la cacciatrice senza perdita di vite innocenti | 201
 
 >
 > B Rated Writer
 > Total Experience Value: 6
 >
-> Writer02 | Found out Hatter's collaborator's name | 201
-> Writer06 added by wesp
-Writer01 | Got Hatter's manuscript | 201
-Writer02 | Found out Hatter's collaborator's name | 101
-Writer03 | Killed Julius | 101
-Writer04 | Completed VV's quest | 101
-Writer05 | Delivered manuscript to VV | 101
-Writer06 | Made Julius leave town | 101
+> Writer02 | Scopri il nome del collaboratore di Hatter | 201
+>
+Writer01 | Preso il manoscritto di Hatter | 201
+Writer02 | Scopri il nome del collaboratore di Hatter | 101
+Writer03 | Hai ucciso Julius | 101
+Writer04 | Completata la quest di VV | 101
+Writer05 | Consegnato il manoscritto a VV | 101
 
 >
 > Hunters Hunting
 > Total Experience Value: 3
 >
-> Hunters01 | You helped Ash evade the hunters | 501
+> Hunters01 | Hai aiutato Ash a scappare dai cacciatori | 501
 >
-Hunters01 | Helped Ash evade the hunters | 301
+Hunters01 | Hai aiutato Ash a scappare dai cacciatori | 301
 
 >
 > You Only Die Once a Night
 > Total Experience Value: 3
 >
-> Romero01 | Kept the zombies out of Hollywood | 401
+> Romero01 | Hai tenuto gli zombie fuori da Hollywood | 401
 >
-Romero01 | Kept the zombies out of Hollywood | 301
+Romero01 | Hai tenuto gli zombie fuori da Hollywood | 301
 
 >
-> A Dish Best Served Cold
+> A DIsh Best Served Cold
 > Total Experience Value: 2
 >
-> Tommy01 | Convinced Flayton to give a bad review | 301
+> Tommy01 | Hai convinto Flayton a dare una brutta recensione | 301
 >
-Tommy01 | Convinced Flayton to give a bad review | 201
+Tommy01 | Hai convinto Flayton a dare una brutta recensione | 201
 
 >
 > Model Citizen
 > Total Experience Value: 2
 >
-> Imalia01 | Ruined Tawny Sessions life | 401
-> Imalia02 | Told Imalia Tawny is dead | 201
+> Imalia01 | Hai rovinato la vita di Tawny Sessions | 401
+> Imalia02 | Hai detto ad Imalia che Tawny e' morta | 201
 >
-Imalia01 | Ruined Tawni Sessions' life | 201
-Imalia02 | Told Imalia Tawni is dead | 101
+Imalia01 | Hai rovinato la vita di Tawny Sessions | 201
+Imalia02 | Hai detto ad Imalia che Tawny e' morta | 101
+
+>
+> Cover Girl
+> Total Experience Value: 1
+> changed by Wesp
+Cover01 | Trovata la rivista di Imalia | 101
 
 >
 > The Kidnapped
 > Total Experience Value: 6
 >
-> Kiki01 | Rescued Kiki | 601
+> Kiki01 | Salvato Kiki | 601
 >
-Kiki01 | Rescued Kiki | 401
-Kiki02 | Returned to Wong Ho | 201
+Kiki01 | Salvato Kiki | 401
+Kiki02 | Ritornato da Wong Ho | 201
 
 >
 > Original Gangster
 > Total Experience Value: 5
 >
-> Gangster02 | Survived the Tong ambush | 401
-> Gangster03 added by wesp
-Gangster01 | Met with Zhao | 301
-Gangster02 | Survived the Tong ambush | 201
-Gangster03 | Survived ambush and kept Zhao alive | 301
+> Gangster02 | Sopravvissuto all'imboscata di Tong | 401
+> changed by wesp
+Gangster01 | Incontrato con Zhao | 301
+Gangster02 | Sopravvissuto all'imboscata di Tong | 201
+Gangster03 | Sopravvissuto all'imboscata di Tong con Zhao vivo | 301
 
 >
 > The Dragon's Tail
 > Total Experience Value: 5
-> 
-> Johnny01 | Killed Johnny | 701
-> Johnny02 | Stealth Killed Johnny | 301
-> Johnny02 restored by wesp
-Johnny01 | Killed Johnny | 501
-Johnny02 | Stealth Killed Johnny | 201
+>
+> Johnny01 | Ucciso Johnny | 701
+> Johnny02 | Ucciso Johnny in modo silenzioso | 301
+>
+Johnny01 | Ucciso Johnny | 501
+Johnny02 | Ucciso Johnny in modo silenzioso | 201
 
 >
 > The Invitation
 > Total Experience Value: 6
 >
-Mandarin01 | Survived the Mandarin's experiments | 201
-Mandarin02 | Killed the Mandarin | 201
-Mandarin03 | Freed Barabus | 201
+Mandarin01 | Sopravvissuto agli esperimenti di Mandarin | 201
+Mandarin02 | Ucciso Mandarin | 201
+Mandarin03 | Liberato Barabus | 201
 
 >
 > Demon Hunter
 > Total Experience Value: 7
-> Yukie04 added by Wesp
-Yukie01 | Ming-Xiao told you hengeyôkai's name is Zygaena | 201
-Yukie02 | Set up meeting with Zygaena | 201
-Yukie03 | Killed hengeyôkai | 301
-Yukie04 | Killed hengeyôkai in human form | 201
+>
+Yukie01 | Ming-Xiao ti ha detto che il nome di hengeyokai e' Zygaena | 201
+Yukie02 | Stabilito l'incontro con Zygaena | 201
+Yukie03 | Ucciso Hengeyokai | 301
 
 >
 > Eye Gouge Hell
 > Total Experience Value: 4
 >
-> Eyes01 | Got eyes | 301
+> Eyes01 | Preso gli occhi | 301
 >
-Eyes01 | Got eyes | 201
-Eyes02 | Gave Ox eyes | 201
+Eyes01 | Preso gli occhi | 201
+Eyes02 | Dai ad Ox gli occhi | 201
 
 >
 > Bad Luck Farmer
 > Total Experience Value: 7
-> Ox02/03/04 changed by Wesp by removing Shu's name
-Ox01 | Placed talisman | 201
-Ox02 | Dealt with the patron | 301
-Ox03 | Told Ox about placement | 201
-Ox04 | Ox happy you killed the patron | 301
+> changed by Wesp
+> 
+Ox01 | Collocato il talismano | 201
+Ox02 | Patteggiato con Shu | 301
+Ox03 | Detto ad Ox della collocazione | 201
+Ox04 | Ox felice che hai ucciso Shu | 301
 
 >
 > Hit Man Impasse
 > Total Experience Value: 4
-> Hitman01/02 changed by Wesp from Killed Lu Fang/Killed Ji Wen Ja 
-Hitman01 | Gave Lu Fang's key to Ji Wen Ja | 401
-Hitman02 | Gave Ji Wen Ja's key to Lu Fang | 401
-Hitman03 | Convinced Ji Wen Ja and Lu Fang to become friends | 601
+> changed by Wesp
+Hitman01 | Dato la chiave di Lu Fang a Ji Wen Ja | 401
+Hitman02 | Dato la chiave a Lu Fang Ji Wen Ja| 401
+Hitman03 | Convinto Ji Wen Ja e Lu Fang a diventare amici | 601
 
 >
 > A Tangled Web
 > Total Experience Value: 8
-> Web05 added by Wesp
-Web01  | Activated Santa Monica hub | 201
-Web02  | Activated Downtown hub | 201
-Web03  | Activated Hollywood hub | 201
-Web04  | Activated Chinatown hub | 201
-Web05  | Stole something from safe | 101
+>
+Web01    | Attivato l'hub di Santa Monica | 201
+Web02 	 | Attivato l'hub di Downtown | 201
+Web03 	 | Attivato l'hub di Hollywood | 201
+Web04 	 | Attivato l'hub di Chinatown | 201
 
 >
 > Muddy Hunt
 > Total Experience Value: 2
 >
-Muddy01  | Found "Muddy" Mike | 201
+Muddy01	 | Trovato "Muddy" Mike | 201
 
 >
 > Pimpin for Romero
 > Total Experience Value: 3
 >
-> Pimp01  | Romero got some lovin' | 301
+> Pimp01	 | Romero ha trovato un po' d'amore | 301
 >
-Pimp01  | Romero got some lovin' | 201
+Pimp01	 | Romero ha trovato un po' d'amore | 201
 
 >
 > Spiritual Release
 > Total Experience Value: 2
 >
-Spirit01   | Released the Ocean House spirits | 201
+Spirit01    | Rilasciati gli spiriti dell'Ocean House | 201
 
->
 > The Regent's Riddle
 > Total Experience Value: 1
 >
-Strauss01  | Found Maximillian Strauss | 101
+Strauss01    | Trovato Maximillian Strauss | 101
 
->
 > Underworld Blues
 > Total Experience Value: 2
 >
-BertramCD01  | Found Bertram's data CD | 101
-BertramCD02  | Returned Bertram's data CD | 101
+BertramCD01    | Trovato il CD dati di Bertram | 101
+BertramCD02    | Dato a Bertram il CD dati | 101
 
->
 > Beckett's Name
 > Total Experience Value: 1
 >
-Beckett01  | Found out more info about Beckett | 101
+Beckett01    | Scoperte nuove informazioni su Beckett | 101
 
->
 > Beckett's Quest
 > Total Experience Value: 1
 >
-Beckett02  | Found out more info about Beckett | 101
+Beckett02    | Scoperte nuove informazioni su Beckett | 101
 
->
 > Giovanni Mansion
 > Total Experience Value: 3
 >
-Gio01  | Helped one of the Giovanni get dirt on the others | 101
-Gio02  | Helped one of the Giovanni get dirt on the others | 101
-Gio03  | Helped one of the Giovanni get dirt on the others | 101
-
-> Cover Girl
-> Total Experience Value: 2
-> added by Wesp
-Cover01 | Found Imalia's magazine | 201
-
-> Ash
-> Total Experience Value: 2
-> added by wesp
-Ash01 | Rescued Ash | 201
-
-> Heather
-> Total Experience Value: 1
-> added by wesp
-Heather01 | Saved the girl | 101
-
-> Poster
-> Total Experience Value: 1
-> added by wesp
-Poster01 | Obtained all posters | 101
-
-> Copper
-> Total Experience Value: 1
-> added by wesp
-Copper01 | Exploited the thin-blood | 101
-
-> Gift
-> Total Experience Value: 1
-> added by wesp
-Gift01 | Found library card for Mitnick | 101
-
-> Trip
-> Total Experience Value: 1
-> added by wesp
-Trip01 | Got a drug box for Trip | 101
-
-> Library
-> Total Experience Value: 3
-> added by wesp
-Library01 | Stopped the Sabbat ritual | 201
-Library02 | Killed no guards at the library | 101
-
+Gio01    | Aiutato uno dei Giovanni a cacciare nei guai gli altri | 101
+Gio02    | Aiutato uno dei Giovanni a cacciare nei guai gli altri | 101
+Gio03    | Aiutato uno dei Giovanni a cacciare nei guai gli altri | 101

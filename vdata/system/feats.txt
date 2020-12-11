@@ -7,16 +7,16 @@ FeatData
 
 	Feats
 	{
-		"Name"		"Feats"
+		"Name"		"Imprese"
 		"InternalName"	"Feats"
 
 		//  "Base#" are the Traits that the Feat is based upon
 		//  "Weighting" is the dice-roll table to use when rolling this feat
 		Feat
 		{
-			"Name"		"Lockpicking"
+			"Name"		"Scassinamento"
 			"InternalName"	"Intrusion"
-			"HelpText"		"Measures your character's skill at breaking into places you're not supposed to be. The Dexterity attribute and the Security ability both contribute to the Lockpicking feat."
+			"HelpText"		"Misura l'abilita' del personaggio nell'irrompere in posti non autorizzati. L'attributo Destrezza e l'abilita' Sicurezza contribuiscono entrambi all'impresa Scassinamento."
 
 			"MaxValue"		"10"
 			"Base0"		"Dexterity"
@@ -27,9 +27,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Sneaking"
+			"Name"		"Spia"
 			"InternalName"	"Sneaking"
-			"HelpText"		"Measures your character's ability to avoid detection. The Dexterity attribute and the Stealth ability both contribute to the Sneaking feat."
+			"HelpText"		"Misura l'abilita' del personaggio nell'evitare di essere scoperto. L'attributo Destrezza e l'abilita' Furtivita' contribuiscono entrambi all'impresa Spia."
 
 			"MaxValue"		"10"
 			"Base0"		"Dexterity"
@@ -43,7 +43,7 @@ FeatData
 		{
 			"Name"		"Hacking"
 			"InternalName"	"Hacking"
-			"HelpText"		"Measures your character's ability to crack into computers and other electronic devices. The Wits attribute and the Computer ability both contribute to the Hacking feat."
+			"HelpText"		"Misura l'abilita' del personaggio di entrare nei computer e altri strumenti elettronici. L'attributo Prontezza e l'abilita' Informatica contribuiscono entrambi all'impresa Hacking."
 
 			"MaxValue"		"20"
 			"Base0"		"Wits"
@@ -55,9 +55,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Inspection"
+			"Name"		"Ispezione"
 			"InternalName"	"Inspection"
-			"HelpText"		"Measures your character's ability to notice hidden details. The Perception attribute and the Investigation ability both contribute to the Inspection feat."
+			"HelpText"		"Misura l'abilita' del personaggio nel notare dettagli nascosti. L'abilita' Percezione e l'abilita' Investigare contribuiscono entrambi all'impresa Ispezione."
 
 			"MaxValue"		"20"
 			"Base0"		"Perception"
@@ -117,9 +117,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Research"
+			"Name"		"Ricerca"
 			"InternalName"	"Research"
-			"HelpText"		"Measures your character's ability to read books, and learn new abilities. The Intelligence attribute and the Scholarship ability both contribute to the Research feat."
+			"HelpText"		"Misura l'abilita' del personaggio nel leggere libri e imparare nuove abilita'. L'attributo Intelligenza e l'abilita' Accademica contribuiscono entrambi all'Impresa Ricerca."
 			"Disabled"		"1"
 
 			"MaxValue"		"10"
@@ -131,9 +131,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Haggle"
+			"Name"		"Negoziazione"
 			"InternalName"	"Haggle"
-			"HelpText"		"Measures your character's ability to estimate the value of goods, and haggle for better prices. The Manipulation attribute and the Finance ability both contribute to the Haggle feat."
+			"HelpText"		"Misura l'abilita' del tuo personaggio di stimare il valore dei beni e negoziare per prezzi migliori. L'attributo Persuasione e l'abilita' Finanza contribuiscono entrambe all'Impresa Negoziazione."
 			"Disabled"		"1"
 
 			"MaxValue"		"10"
@@ -145,9 +145,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Intimidate"
+			"Name"		"Minacciare"
 			"InternalName"	"Intimidate"
-			"HelpText"		"Measures your character's ability to instill fear in others and force their cooperation. The Intelligence attribute and the Intimidation ability both contribute to the Intimidate feat."
+			"HelpText"		"Misura l'abilita' del personaggio a suscitare paura in altri e forzarli a cooperare. L'attributo Intelligenza e l'abilita' Intimidire contribuiscono entrambe all'Impresa Minacciare."
 			"Disabled"		"1"
 
 			"MaxValue"		"10"
@@ -159,9 +159,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Persuasion"
+			"Name"		"Convincimento"
 			"InternalName"	"Persuasion"
-			"HelpText"		"Measures your character's ability to convince people that they want what you want. The Charisma attribute and the Scholarship ability both contribute to the Persuasion feat."
+			"HelpText"		"Misura l'abilita' del personaggio nel convincere le persone a fare cio' che desideri. L'attributo Carisma e l'abilita' Accademica contribuiscono entrambe all'Impresa Convincimento."
 			"Disabled"		"1"
 
 			"MaxValue"		"10"
@@ -173,9 +173,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Seduction"
+			"Name"		"Seduzione"
 			"InternalName"	"Seduction"
-			"HelpText"		"Measures your character's ability to titillate others into helping you. The Appearance attribute and the Subterfuge ability both contribute to the Seduction feat."
+			"HelpText"		"Misura l'abilita' del personaggio nel sedurre gli altri per aiutarti. L'attributo Aspetto e l'abilita' Sotterfugio contribuiscono entrambe all'Impresa Seduzione."
 			"Disabled"		"1"
 
 			"MaxValue"		"10"
@@ -187,9 +187,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Unarmed"
+			"Name"		"Disarmato"
 			"InternalName"	"Close_Combat_Brawl"
-			"HelpText"		"Measures your character's ability to do damage in unarmed combat, and Feed on the unwilling. The Strength attribute and the Brawl ability both contribute to the Unarmed Combat feat."
+			"HelpText"		"Misura l'abilita' del personaggio nel fare danni durante combattimenti disarmati e Nutrirsi di chi si oppone. L'attributo Forza e l'abilita' Rissa contribuiscono entrambe all'Impresa Combattimento Disarmato."
 
 			"MaxValue"		"20"
 			"Base0"		"Brawl"
@@ -202,9 +202,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Melee"
+			"Name"		"Lotta armata"
 			"InternalName"	"Close_Combat_Melee"
-			"HelpText"		"Measures your character's ability to damage with melee weapons such as knives and clubs. The Strength attribute and the Melee ability both contribute to the Melee Combat feat."
+			"HelpText"		"Misura l'abilita' del personaggio nel fare danni con armi da mischia come mazze e coltelli. L'attributo Forza e l'abilita' Mischia contribuiscono entrambe all'Impresa Combattimento"
 
 			"MaxValue"		"20"
 			"Base0"		"Melee"
@@ -217,9 +217,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Ranged"
+			"Name"		"A Distanza"
 			"InternalName"	"Ranged_Combat"
-			"HelpText"		"Measures your accuracy and damage with firearms of all kinds. The Perception attribute and the Firearms ability both contribute to the Ranged Combat feat."
+			"HelpText"		"Misura la tua precisione e il danno che arrechi con armi da fuoco di ogni tipo. L'attributo Percezione e l'abilita' Armi da Fuoco contribuiscono entrambe all'Impresa Combattimento Con Armi Da Fuoco."
 
 			"MaxValue"		"20"
 			"Base0"		"Firearms"
@@ -230,9 +230,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Defense"
+			"Name"		"Difesa"
 			"InternalName"	"Defensive_Maneuvers"
-			"HelpText"		"Measures your character's ability to avoid taking damage of all types in combat. The Wits attribute and the Dodge ability both contribute to the Defense feat."
+			"HelpText"		"Misura l'abilita' del personaggio nell'evitare danni in qualsiasi tipo di combattimento. L'attributo Prontezza e l'abilita' Schivare contribuiscono entrambe all'Impresa Difesa."
 
 			"MaxValue"		"20"
 			"Base0"		"Dodge"
@@ -244,9 +244,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Bashing"
+			"Name"		"Pestaggio"
 			"InternalName"	"Soak_vs_Bashing"
-			"HelpText"		"How much bashing damage a mortal character can absorb."
+			"HelpText"		"Il danno che un personaggio mortale puo' assorbire."
 
 			"MaxValue"		"20"
 			"Base0"		"Armor_Rating"
@@ -259,9 +259,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Lethal"
+			"Name"		"Letale"
 			"InternalName"	"Soak_vs_Lethal"
-			"HelpText"		"How much lethal damage a mortal character can absorb."
+			"HelpText"		"Il danno letale che un personaggio mortale puo' assorbire."
 
 			"MaxValue"		"20"
 			"Base0"		"Armor_Rating"
@@ -273,9 +273,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Lethal Falling"
+			"Name"		"Danno Critico"
 			"InternalName"	"Soak_vs_Lethal_Falling"
-			"HelpText"		"How much falling damage a mortal character can absorb."
+			"HelpText"		"Il danno critico che un personaggio mortale puo' assorbire."
 
 			"MaxValue"		"20"
 			"Base0"		"Armor_Rating / 2"
@@ -287,9 +287,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Aggravated"
+			"Name"		"Aggravato"
 			"InternalName"	"Soak_vs_Aggravated"
-			"HelpText"		"How much aggravated damage a mortal character can absorb."
+			"HelpText"		"Il danno che aggravato un personaggio mortale puo' assorbire."
 
 			"MaxValue"		"20"
 			"Base0"		"Soak_Pool"
@@ -301,9 +301,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Bashing"	//"Soak vs. Bashing (Kindred)"
+			"Name"		"Pestaggio"	//"Soak vs. Bashing (Kindred)"
 			"InternalName"	"Soak_vs_Bashing_Kindred"
-			"HelpText"	"Your ability to shrug off damage from bullets and blunt melee weapons. Stamina, as well as clothing and body armor contribute to Bashing soak."
+			"HelpText"	"La tua abilita' nel ridurre i danni subiti da proiettile e armi da mischia appuntite. La Costituzione, cosi' come i vestiti e armature contribuiscono all'Assorbimento dei Danni Mortali."
 
 			"MaxValue"		"20"
 			"Base0"		"Armor_Rating"
@@ -316,9 +316,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Lethal"	//"Soak vs. Lethal (Kindred)"
+			"Name"		"Letale"	//"Soak vs. Lethal (Kindred)"
 			"InternalName"	"Soak_vs_Lethal_Kindred"
-			"HelpText"	"Your ability to shrug off damage from bladed melee weapons. While vampires may defend against lethal damage with their Defense feat, they are nearly helpless once the blow is landed. Clothing and body armor add to your Lethal soak feat."
+			"HelpText"	"La tua abilita' nel ridurre i danni subiti da armi da mischia provviste di lama. Mentre i vampiri si possono difendere contro i danni letali tramite l'Impresa Difesa, ma non hanno nessun aiuto una volta che il colpo e' arrivato. I vestiti e le armature aggiungono l'Impresa dell'Assorbimento dei Danni Letali."
 
 			"MaxValue"		"20"
 			"Base0"		"Armor_Rating"
@@ -331,9 +331,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Lethal Falling"
+			"Name"		"Danno Critico"
 			"InternalName"	"Soak_vs_Lethal_Falling_Kindred"
-			"HelpText"		"How much falling damage a kindred character can absorb."
+			"HelpText"		"Il danno critico che un personaggio dei Fratelli puo' assorbire."
 
 			"MaxValue"		"20"
 			"Base0"		"Armor_Rating / 2"
@@ -346,9 +346,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Aggravated"	//"Soak vs. Aggravated (Kindred)"
+			"Name"		"Aggravato"	//"Soak vs. Aggravated (Kindred)"
 			"InternalName"	"Soak_vs_Aggravated_Kindred"
-			"HelpText"	"Your ability to shrug off damage from claws, fangs, fire, and electricity. Aggravated damage is deathly serious. Vampires can defend against claws and fangs with their Defense feat, but are helpless against fire and electricity. Aggravated damage can be soaked through supernatural means only."
+			"HelpText"	"La tua abilita' nel ridurre i danni subiti da artigli, zanne, fuoco ed elettricita'. I danni aggravati sono mortalmente pericolosi. I Vampiri possono difendersi contro artigli e zanne tramite l'Impresa Difesa, ma non hanno nessun aiuto contro fuoco ed elettricita'. I danni aggravati possono solo essere assorbiti attraverso mezzi soprannaturali."
 			"MaxValue"		"20"
 			"Base0"		"Soak_Pool"
 //			"Base1"		"Armor_Rating"
@@ -359,9 +359,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Damage"
+			"Name"		"Danno"
 			"InternalName"	"Damage"
-			"HelpText"		"How much damage a character can do."
+			"HelpText"		"Il danno che un personaggio puo' fare."
 
 			"MaxValue"		"9999"
 			// Not based off of stats, the value is instead dependent on the weapon in question...
@@ -371,9 +371,9 @@ FeatData
 
 		Feat
 		{
-			"Name"		"Frenzy Feat"
+			"Name"		"Impresa Pazzia"
 			"InternalName"	"Frenzy_Feat"
-			"HelpText"		"A Frenzy test."
+			"HelpText"		"Un test Pazzo."
 
 			"MaxValue"		"10"
 			// Not based off of stats
