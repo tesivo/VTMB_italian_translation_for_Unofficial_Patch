@@ -90,7 +90,7 @@ VendorData
 			"AmmoOnly"			"0"
 			"MinStage"			"65"
 		}
-		
+
 		// Ammo ----------
 		VendorItem
 		{
@@ -195,7 +195,7 @@ VendorData
 			"AmmoOnly"			"1"
 			"MinStage"			"100"
 		}
-			
+
 		// Armor ---------
 		VendorItem
 		{
@@ -204,7 +204,7 @@ VendorData
 			"AmmoOnly"			"0"
 			"MinStage"			"0"
 		}
-		
+
 		// Misc ---------
 		VendorItem
 		{
@@ -445,7 +445,7 @@ VendorData
 			"AmmoOnly"			"0"
 			"MinStage"			"150"	// basic
 		}
-	
+
 	}
 
 	Vendor
@@ -463,7 +463,7 @@ VendorData
 			"AmmoOnly"			"0"
 			"MinStage"			"0"
 		}
-		
+
 		VendorItem
 		{
 			"Name"			"item_w_glock_17c"
@@ -836,7 +836,7 @@ VendorData
 			"AmmoOnly"			"1"
 			"MinStage"			"100"
 		}
-				
+
 		// Armor ---------
 		VendorItem
 		{
@@ -845,7 +845,7 @@ VendorData
 			"AmmoOnly"			"0"
 			"MinStage"			"0"
 		}
-		
+
 		// Misc ---------
 //		VendorItem
 //		{
@@ -1053,11 +1053,11 @@ VendorData
 
 		VendorItem
 		{
-			"Name"			"item_p_occult_strength" 
+			"Name"			"item_p_occult_strength"
 			"InternalName"		"item_p_occult_strength"
 			"AmmoOnly"			"0"
 			"MinStage"			"0"	// basic
-		}		
+		}
 
 		// Blood ---------
 		VendorItem
@@ -1083,7 +1083,7 @@ VendorData
 			"AmmoOnly"			"0"
 			"MinStage"			"0"	// basic
 		}
-				
+
 		// Armor ---------
 		VendorItem
 		{

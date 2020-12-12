@@ -65,7 +65,7 @@ TraitEffectsData
 //			{
 // basic			"Trait"	"VampHeal_Type"
 //				"Modifier"	"Duration 200%"
-//			}  
+//			}
 
 			TraitEffect
 			{
@@ -94,7 +94,7 @@ TraitEffectsData
 //			{
 // basic			"Trait"	"VampHeal_Type"
 //				"Modifier"	"Duration 200%"
-//			}  
+//			}
 
 			TraitEffect
 			{
@@ -209,7 +209,7 @@ TraitEffectsData
 //			{
 // basic			"Trait"	"VampHeal_Type"
 //				"Modifier"	"Duration 200%"
-//			}  
+//			}
 
 			TraitEffect
 			{
@@ -244,7 +244,7 @@ TraitEffectsData
 //			{
 // basic			"Trait"	"VampHeal_Type"
 //				"Modifier"	"Duration 200%"
-//			}  
+//			}
 
 			TraitEffect
 			{
@@ -267,7 +267,7 @@ TraitEffectsData
 //			{
 // basic			"Trait"	"VampHeal_Type"
 //				"Modifier"	"Duration 200%"
-//			}  
+//			}
 
 			TraitEffect
 			{
@@ -293,7 +293,7 @@ TraitEffectsData
 //			{
 // basic			"Trait"	"VampHeal_Type"
 //				"Modifier"	"Duration 200%"
-//			}  
+//			}
 
 			TraitEffect
 			{
@@ -320,7 +320,7 @@ TraitEffectsData
 //			{
 // basic			"Trait"	"VampHeal_Type"
 //				"Modifier"	"Duration 200%"
-//			}  
+//			}
 
 			TraitEffect
 			{
@@ -778,7 +778,7 @@ TraitEffectsData
 				Costs
 				{
 					"Raise"	"Current_Rating * 4" // is this a penalty? Dunno how much Humanity costs to raise.
-				}	
+				}
 			}
 			TraitEffect	// added by wesp
 			{
@@ -1001,7 +1001,7 @@ TraitEffectsData
 				Costs
 				{
 					"Raise"	"Current_Rating * 2" // is this a penalty? Dunno how much Humanity costs to raise.
-				}	
+				}
 			}
 			TraitEffect
 			{
@@ -1473,7 +1473,7 @@ TraitEffectsData
 				Costs
 				{
 					"Raise"	"Current_Rating * 2" // is this a penalty? Dunno how much Humanity costs to raise.
-				}	
+				}
 			}
 			TraitEffect
 			{
@@ -1732,7 +1732,7 @@ TraitEffectsData
 				Costs
 				{
 					"Raise"	"Table: 2, 4, 8, 12, 16"
-				}	
+				}
 			}
 
 			TraitEffect
@@ -1767,7 +1767,7 @@ TraitEffectsData
 				Costs
 				{
 					"Raise"	"Table: 6, 8, 12, 18, 24"
-				}	
+				}
 			}
 
 		}
@@ -2108,10 +2108,10 @@ TraitEffectsData
 //		TraitEffectGroup	// added by wesp
 //		{
 //			"InternalName"	"Discipline (Blood_Heal)"
-//			TraitEffect  
+//			TraitEffect
 // basic		{
 //				"Trait"	"VampHeal_Type"
-//				"Modifier"	"Duration 8%"	
+//				"Modifier"	"Duration 8%"
 //			}
 //		}
 

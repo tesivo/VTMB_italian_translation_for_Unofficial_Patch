@@ -7,7 +7,7 @@ ItemTypeData
 	// Inventory Sections (partly UI-based, but integral to critter data layout too)
 	InventorySections
 	{
-		"Name"		"Inventory Sections"
+		"Name"		"Sezioni Inventario"
 		"InternalName"	"Inventory_Sections"
 
 		// Note that currently, if inventory sections are added or deleted, 2 minor code changes must occur (shareddefs.h and c_baseplayer.h)
@@ -18,7 +18,7 @@ ItemTypeData
 		// Note: The "None" section *must* exist, and must be the first one...
 		InventorySection
 		{
-			"Name"		"None"
+			"Name"		"Niente"
 			"InternalName"	"None"
 
 			"IsDisplayed"	"0"
@@ -26,7 +26,7 @@ ItemTypeData
 
 //		InventorySection
 //		{
-//			"Name"		"Disciplines"
+//			"Name"		"Discipline"
 //			"InternalName"	"Disciplines"
 //
 //			"IsDisplayed"	"1"
@@ -34,7 +34,7 @@ ItemTypeData
 
 // NCT		InventorySection
 //		{
-//			"Name"		"Weapon"
+//			"Name"		"Armi"
 //			"InternalName"	"Weapon"
 //
 //			"IsDisplayed"	"1"
@@ -42,7 +42,7 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"Weapon (Melee)"
+			"Name"		"Armi (Mischia)"
 			"InternalName"	"Weapon_Melee"
 
 			"IsDisplayed"	"1"
@@ -50,7 +50,7 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"Weapon (Ranged)"
+			"Name"		"Armi (A Distanza)"
 			"InternalName"	"Weapon_Ranged"
 
 			"IsDisplayed"	"1"
@@ -58,7 +58,7 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"Weapon (Thrown)"
+			"Name"		"Armi (Da Lancio)"
 			"InternalName"	"Weapon_Thrown"
 
 			"IsDisplayed"	"1"
@@ -66,7 +66,7 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"Armor"
+			"Name"		"Armatura"
 			"InternalName"	"Armor"
 
 			"IsDisplayed"	"1"
@@ -74,7 +74,7 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"General"
+			"Name"		"Generico"
 			"InternalName"	"Generic"
 
 			"IsDisplayed"	"1"
@@ -82,7 +82,7 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"Powerups"
+			"Name"		"Powerup"
 			"InternalName"	"Powerups"
 
 			"IsDisplayed"	"1"
@@ -90,7 +90,7 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"Hidden"
+			"Name"		"Nascosto"
 			"InternalName"	"Hidden"
 
 			"IsDisplayed"	"0"
@@ -98,7 +98,7 @@ ItemTypeData
 
 //		InventorySection
 //		{
-//			"Name"		"Maintenance"
+//			"Name"		"Difesa"
 //			"InternalName"	"Maintenance"
 //
 //			"IsDisplayed"	"1"
@@ -110,7 +110,7 @@ ItemTypeData
 	// edit the enum table in vamp_data.h!
 	ItemTypes
 	{
-		"Name"		"Item Types"
+		"Name"		"Tipi D'Oggetti"
 		"InternalName"	"Item_Types"
 
 		ItemType
@@ -151,7 +151,7 @@ ItemTypeData
 
 		ItemType
 		{
-			"Name"			"Ammo"
+			"Name"			"Munizioni"
 			"InternalName"		"Ammo"
 
 			"IsWielded"			"0"
@@ -162,7 +162,7 @@ ItemTypeData
 
 		ItemType
 		{
-			"Name"			"Armor"
+			"Name"			"Armatura"
 			"InternalName"		"Armor"
 
 			"IsWielded"			"0"
@@ -173,7 +173,7 @@ ItemTypeData
 
 		ItemType
 		{
-			"Name"			"Money"
+			"Name"			"Denaro"
 			"InternalName"		"Money"
 
 			"IsWielded"			"0"
@@ -184,7 +184,7 @@ ItemTypeData
 
 		ItemType
 		{
-			"Name"			"Jewelry"
+			"Name"			"Gioielli"
 			"InternalName"		"Jewelry"
 
 			"IsWielded"			"0"
@@ -195,7 +195,7 @@ ItemTypeData
 
 		ItemType
 		{
-			"Name"			"Generic"
+			"Name"			"Generico"
 			"InternalName"		"Generic"
 
 			"IsWielded"			"0"
@@ -217,7 +217,7 @@ ItemTypeData
 
 		ItemType
 		{
-			"Name"			"Bloodpack"
+			"Name"			"Sacca di Sangue"
 			"InternalName"		"Bloodpack"
 
 			"IsWielded"			"0"
@@ -228,7 +228,7 @@ ItemTypeData
 
 		ItemType
 		{
-			"Name"			"Hidden"
+			"Name"			"Nascosto"
 			"InternalName"		"Hidden"
 
 			"IsWielded"			"1"
@@ -247,7 +247,7 @@ ItemTypeData
 
 		BotchType
 		{
-			"Name"		"None"
+			"Name"		"Niente"
 			"InternalName"	"None"
 
 			"OwnerDamage"	""
@@ -395,7 +395,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Melee Weapons"
+			"Name"		"Armi da Mischia"
 			"InternalName"	"Melee_Weapons"
 
 			"Botch1"		"None"
@@ -405,7 +405,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Revolvers"
+			"Name"		"Revolver"
 			"InternalName"	"Revolvers"
 
 			"Botch1"		"None"
@@ -415,7 +415,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Pistols"
+			"Name"		"Pistole"
 			"InternalName"	"Pistols"
 
 			"Botch1"		"None"
@@ -425,7 +425,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Bolt Rifles"
+			"Name"		"Fucili Bolt"
 			"InternalName"	"Bolt_Rifles"
 
 			"Botch1"		"None"
@@ -435,7 +435,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Auto/Semi Rifles"
+			"Name"		"Fucili Auto/Semi"
 			"InternalName"	"Auto_Semi_Rifles"
 
 			"Botch1"		"None"
@@ -445,7 +445,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Shotguns"
+			"Name"		"Fucili a Pompa"
 			"InternalName"	"Shotguns"
 
 			"Botch1"		"None"
@@ -455,7 +455,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Crossbow"
+			"Name"		"Balestra"
 			"InternalName"	"Crossbow"
 
 			"Botch1"		"None"
@@ -465,7 +465,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Lockpicks"
+			"Name"		"Grimaldelli"
 			"InternalName"	"Lockpicks"
 
 			"Botch1"		"None"
@@ -475,7 +475,7 @@ ItemTypeData
 
 		BotchTable
 		{
-			"Name"		"Brawl"
+			"Name"		"Rissa"
 			"InternalName"	"Brawl"
 
 			"Botch1"		"Brawl_Self_Injury"
@@ -487,25 +487,25 @@ ItemTypeData
 	// These tables list activation (attack/etc.) options
 	ActivationTypes
 	{
-		"Name"		"Activation Types"
+		"Name"		"Tipi di Attivazione"
 		"InternalName"	"Activation_Types"
 
 		// Note that changing these requires associated code changes...
 		ActivationType
 		{
-			"Name"		"None"
+			"Name"		"Niente"
 			"InternalName"	"None"
 		}
 
 		ActivationType
 		{
-			"Name"		"Attack"
+			"Name"		"Attacco"
 			"InternalName"	"Attack"
 		}
 
 		ActivationType
 		{
-			"Name"		"Secondary Attack"
+			"Name"		"Attacco Secondario"
 			"InternalName"	"Secondary_Attack"
 		}
 
@@ -517,19 +517,19 @@ ItemTypeData
 
 		ActivationType
 		{
-			"Name"		"Toggle Primary Mode"
+			"Name"		"Modalita' Primaria"
 			"InternalName"	"Toggle_Primary_Mode"
 		}
 
 		ActivationType
 		{
-			"Name"		"Use"
+			"Name"		"Usa"
 			"InternalName"	"Use"
 		}
 
 		ActivationType
 		{
-			"Name"		"Throw"
+			"Name"		"Lancia"
 			"InternalName"	"Throw"
 		}
 	}
@@ -555,7 +555,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"		"Player Kindred"
+			"Name"		"Giocatore fratello"
 			"InternalName"	"Player_Kindred"
 
 			"Money"		"0"
@@ -572,7 +572,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"		"Player Kindred Ventrue"
+			"Name"		"Giocatore Fratello Ventrue"
 			"InternalName"	"Player_Kindred_Ventrue"
 
 			"Money"		"0"
@@ -589,7 +589,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"		"Player Chica"
+			"Name"		"Giocatore Chica"
 			"InternalName"	"Player_Chica"
 
 			"Money"		"0"
@@ -607,7 +607,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"		"Player Drifter"	// changed by wesp
+			"Name"		"Giocatore Chica"
 			"InternalName"	"Player_Drifter"
 
 			"Money"		"0"
@@ -625,7 +625,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"		"Player Starving Artist"
+			"Name"		"Giocatore Artista Morto di Fame"
 			"InternalName"	"Player_Starving_Artist"
 
 			"Money"		"5"
@@ -642,7 +642,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"		"Player Black-Hearted"
+			"Name"		"Giocatore Malvagio"
 			"InternalName"	"Player_Black_Hearted"
 
 			"Money"		"0"
@@ -660,7 +660,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"			"Player Leopold"
+			"Name"			"Giocatore Leopold"
 			"InternalName"	"Player_Leopold"
 
 			"Money"			"500"
@@ -970,7 +970,7 @@ ItemTypeData
 
 		StartingEquip
 		{
-			"Name"		"Civilian"
+			"Name"		"Civile"
 			"InternalName"	"Civilian"
 
 			"Money"		"0"
