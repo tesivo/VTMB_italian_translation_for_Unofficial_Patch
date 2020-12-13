@@ -1,45 +1,45 @@
-{	1	}{	Where to?	}{	Where to?	}{	#	}{	}{	G.Cabbie_Line = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Just drive.	}{	Just drive.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Not here.	}
-{	3	}{	Away from here.	}{	Away from here.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Change my scene.	}
-{	4	}{	Drive. I'll tell you when the mood hits me.	}{	Drive. I'll tell you when the mood hits me.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Get this big yellow beetle scuttling towards my destiny.	}
-{	5	}{	Nowhere. Something I've got to take care of first.	}{	Nowhere. Something I've got to take care of first.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why am I talking to you? I'm not going anywhere.	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Need a ride?	}{	Need a ride?	}{	#	}{	}{	G.Cabbie_Line = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Yeah, just drive.	}{	Yeah, just drive.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Yes, you may take me for a ride.	}
-{	13	}{	Okay, get me outta here.	}{	Okay, get me outta here.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Like father and child, I will ride while you drive.	}
-{	14	}{	Sure, let's go for a ride. I'll tell you when to stop.	}{	Sure, let's go for a ride. I'll tell you when to stop.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	I ride this yellow horse towards my destiny.	}
-{	15	}{	No. I've got something to take care of first.	}{	No. I've got something to take care of first.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ride off into the sunset without me. I must stay here.	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Hop in.	}{	Hop in.	}{	#	}{	}{	G.Cabbie_Line = 3	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Sure, why not?	}{	Sure, why not?	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Ribbit. Let's go!	}
-{	23	}{	Okay, let's go.	}{	Okay, let's go.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	I see no Humulus lupulus here, let us drive instead.	}
-{	24	}{	I'm in, now step on it.	}{	I'm in, now step on it.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Get this big yellow bunny scuttling towards my destiny.	}
-{	25	}{	No. There's something I've got to take care of first.	}{	No. There's something I've got to take care of first.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Alas, I am an ass, and cannot hop.	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Going somewhere?	}{	Going somewhere?	}{	#	}{	}{	G.Cabbie_Line = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	For now, just drive.	}{	For now, just drive.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Bodily functions are denied for me for now, just drive.	}
-{	33	}{	Away from here.	}{	Away from here.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	Somewhere, elsewhere, anywhere, let's go.	}
-{	34	}{	Drive. I'll tell you when we're there.	}{	Drive. I'll tell you when we're there.	}{	0	}{	}{	npc.WorldMap( G.WorldMap_State )	}{	}{	}{	}{	}{	}{	}{	You are the seed that takes this lemon to its destiny. Hurry!	}
-{	35	}{	Nowhere. Something I've got to take care of first.	}{	Nowhere. Something I've got to take care of first.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am already somewhere; I have no need of going.	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	(Starting Condition)	}{	}{	11	}{	G.Cabbie_Line == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	43	}{	(Starting Condition)	}{	}{	21	}{	G.Cabbie_Line == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	44	}{	(Starting Condition)	}{	}{	31	}{	G.Cabbie_Line == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	45	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1 or G.Cabbie_Line == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Dove?	}{	Dove?	}{	#	}{		}{	G.Cabbie_Line=1	}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Guida e basta.	}{	Guida e basta.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Non qui.	}
+{	3	}{	Via da qui.	}{	Via da qui.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Cambia il mio scenario.	}
+{	4	}{	Guida. Te lo diro' quando ne avro' voglia.	}{	Guida. Te lo diro' quando ne avro' voglia.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Che il grosso coleottero giallo svolazzi verso il mio destino.	}
+{	5	}{	Da nessuna parte. Devo prima occuparmi di alcune cose.	}{	Da nessuna parte. Devo prima occuparmi di alcune cose.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ma perche' stiamo parlando? Non devo andare da nessuna parte.	}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Vuoi uno strappo?	}{	Serve un passaggio?	}{	#	}{		}{	G.Cabbie_Line=2	}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Si', guida e basta.	}{	Si', guida e basta.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Si', accetto il passaggio.	}
+{	13	}{	Okay, portami lontano da qui.	}{	Okay, portami lontano da qui.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Come padre e figlio, tu guidi e io mi faccio scarrozzare.	}
+{	14	}{	Sicuro, andiamo. Ti diro' quando fermarti.	}{	Sicuro, andiamo. Ti diro' quando fermarti.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Che questo destriero giallo mi porti verso il mio destino.	}
+{	15	}{	No. Prima devo occuparmi di alcune cose.	}{	No. Prima devo occuparmi di alcune cose.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Va' incontro al calar del solo senza di me. Io devo restare qui.	}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Salta su.	}{	Salta su.	}{	#	}{		}{	G.Cabbie_Line=3	}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Certo, perche' no.	}{	Certo, perche' no.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Cra-cra. Andiamo!	}
+{	23	}{	Okay, andiamo.	}{	Okay, andiamo.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Non vedo Humulus lupulus qui, piuttosto muoviamoci.	}
+{	24	}{	Ci sono, ora muoviti.	}{	Ci sono, ora muoviti.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Che il grosso coleottero giallo svolazzi verso il mio destino.	}
+{	25	}{	No. Prima devo occuparmi di alcune cose.	}{	No. Prima devo occuparmi di alcune cose.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ahime', sono un ciuco, non posso saltare.	}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Andiamo da qualche parte?	}{	Andiamo da qualche parte?	}{	#	}{		}{	G.Cabbie_Line=0	}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Per ora guida e basta.	}{	Per ora guida e basta.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Le funzioni corporee mi sono negate per ora, basta guidare.	}
+{	33	}{	Via da qui.	}{	Via da qui.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Dovunque, ovunque, altrove, andiamo.	}
+{	34	}{	Guida. Ti diro' quando saremo li'.	}{	Guida. Ti diro' quando saremo li'.	}{	0	}{		}{	npc.WorldMap( G.WorldMap_State )	}{		}{		}{		}{		}{		}{		}{	Tu sei l'agricoltore che portera' questo limone al suo destino. Veloce!	}
+{	35	}{	Da nessuna parte. Devo prima occuparmi di alcune cose.	}{	Da nessuna parte. Devo prima occuparmi di alcune cose.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non ho bisogno di andare, sono gia' altrove.	}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	(Starting Condition)	}{		}{	11	}{	G.Cabbie_Line == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	43	}{	(Starting Condition)	}{		}{	21	}{	G.Cabbie_Line == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	44	}{	(Starting Condition)	}{		}{	31	}{	G.Cabbie_Line == 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	45	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1 or G.Cabbie_Line == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
