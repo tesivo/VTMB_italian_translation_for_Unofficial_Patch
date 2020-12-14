@@ -10,12 +10,12 @@ WeaponData
 	"anim_prefix"	" "
 
 	"printname"	"Vampyr Apocrypha"
-	"description"	"This book is titled \"Vampyr Apocrypha\":
-			Unidentified Sarcophagus
-			Discovered by Julius of Gaul, 1068 AD
-			Near Ankara, Ottoman Empire
+	"description"	"Questo libro e' intitolato \"Vampiri Apocrifi\":
+			Il Sarcofago Non Identificato
+			Scoperto da Julius di Gaul, 1068 AD
+			Vicino Ankara, Impero Ottomano
 
-			The origin of this dark and mysterious talisman is largely unknown, and is mostly considered a myth. If not for the etchings of Julius of Gaul, who first discovered and then subsequently re-entombed the artifact, there would be almost no historical record of the artifact, save for various unfounded legends of its evilness scattered throughout the writings of the brotherhood. Historians and theologians alike have been unable to ascertain its exact age or place of origin, although the symbols and inscriptions seem to hint that the artifact is from the area of ancient Sumer or Mesopotamia. It has never been opened, and therefore any myths pertaining to who or what might be encased in it are total speculation. Vampiric origins have not been ruled out, although many scholars within the Church seem to think that it may hold the remains of an ancient king, whose name so far has been lost to the ages. Let it be said, though, that the writings of Julius Gaul describe the artifact as being \"a nefarious and dread thing, full of some ancient and undeniable evil\". He attributes the death of his scribe to the artifact, who, upon setting his eyes on it for the first time, began convulsing uncontrollably and promptly died."
+			L'origine di questo oscuro e misterioso talismano e' in gran parte sconosciuta ed e' considerata da molti un mito. Se non fosse per l'incisione all'acquaforte di Julius di Gaul, che fu' il primo a scoprirne l'esistenza e quindi successivamente a riseppellire l'artefatto, non ci sarebbe alcuna testimonianza storica, salvo alcune leggende infondate sulla sua malvagita' diffuse dagli scrittori della fratellanza. Storici e teologi non sono stati capaci di verificarne l'epoca o la provenienza, sebbene i simboli e le iscrizioni sembrino suggerire che l'artefatto derivi dall'area Sumera o dall'antica Mesopotamia. Non e' mai stata aperto, percio' ogni mito riguardante chi o cosa ci sia dentro e' pura speculazione. Non sono state escluse origini vampiriche, nonostante molti studiosi all'interno della Chiesa pensino che possa contenere i resti di un antico re, il cui nome e' andato perduto nel tempo. Va detto, pero', che gli scritti di Julius Gaul descrivono l'artefatto come  \"malvagio e pieno di terrore, traboccante di una forza maligna antica e innegabile\". La morte del suo scriba viene attribuita all'artefatto: subito dopo aver guardato il sarcofago per la prima volta, venne preso da convulsioni incontrollabili e improvvisamente mori'."
 
 
 	"bucket"		"1"

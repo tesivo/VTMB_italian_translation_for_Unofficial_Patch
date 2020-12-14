@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Padlock Key"
-	"description"	"Key to unlock Kiki's Room."
+	"printname"	"Chiave del Lucchetto"
+	"description"	"Chiave per aprire la cella di Kiki."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

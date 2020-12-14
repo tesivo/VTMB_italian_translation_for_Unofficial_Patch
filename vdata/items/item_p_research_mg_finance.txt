@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"ABC - Always Be Closing"	// changed by wesp
-	"description"		"Mitch & Murray's Leads to the California Real Estate Market. This book raises your Finance knowledge."	// changed by wesp
+	"printname"			"Manuale della Finanza"
+	"description"		"ABC - Always Be Closing: Mitch & Murray, la guida perfetta all'attuale condizione del mercato californiano. Questo libro incrementa la conoscenza della Finanza."
 
 	"weight"			"3"
 	"item_flags"		"1"

@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"Art of the Quick-Draw by Ned Nederlander"
-	"description"		"Don't think, just shoot! It's that simple. This book raises your Firearms skill."
+	"printname"			"L'Arte di Sparare Veloce di Ned Nederlander"
+	"description"		"Non pensare, spara e basta! E' cosi' semplice. Questo libro incrementa la tua abilita' Armi da Fuoco."
 
 	"weight"			"3"
 	"item_flags"		"1"

@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"	" "
 
 	"printname"	"CD-ROM"
-	"description"	"There's an illegible handwritten label. Looks like a data CD."
+	"description"	"C'e' un'etichetta illeggibile scritta a mano. Sembra un CD Dati."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

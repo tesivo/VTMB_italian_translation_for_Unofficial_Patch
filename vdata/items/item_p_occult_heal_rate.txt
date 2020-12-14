@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"Mummywrap Fetish"
-	"description"		"Gazing upon this mummified fetish, you feel a rush of vitality to your undead flesh. Increases passive healing rate by twenty percent."	// changed by wesp
+	"printname"			"Ossa mummificate"
+	"description"		"Fissando queste ossa mummificate, senti un'ondata di vitalita' nella tua carne non morta. Incrementa i punti di salute passiva." // changed by wesp
 
 	"weight"			"3"
 	"item_flags"		"1"

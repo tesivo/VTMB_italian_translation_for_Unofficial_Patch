@@ -9,33 +9,33 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Diary"
-	"description"	"This seems to be a woman's diary:
-			4/30/03 - I met a guy today at The Asylum. He's SO beautiful, oh my god. His name is Rolf and he is from Germany. European men are just so classy compared to boring California boys. He asked to see me tomorrow night. I wonder if he's rich. He looks rich. I'm going to go shopping tomorrow and pick up something that won't make me look like a big, fat pig. Can't wait to see him.
+	"printname"	"Diario"
+	"description"	"E' il diario di una donna:
+			4/30/03 - Ho incontrato un ragazzo oggi all'Asylum. Mio dio, E' COSI' BELLO. Il suo nome e' Rolf e viene dalla Germania. Gli uomini Europei sono cosi' raffinati in confronto ai noiosi ragazzi della California. Ha chiesto di vedermi stanotte. Mi domando se sia ricco... lo sembra. Sto andando a fare shopping e a prendere qualcosa che non mi faccia sembrare grassa. Non posso piu' aspettare.
 
-			5/21/03 - I think it's getting serious with Rolf. He told me he wanted to give me something very special next week and if it's what I think it is, it's about damn time. I thought Europeans were supposed to be less uptight about this sort of thing.
+			5/21/03 - Penso che la cosa con Rold stia diventando seria. Mi ha detto che voleva darmi qualcosa di molto speciale la settimana prossima e se e' cio' che penso, sarebbe ora. Pensavo che gli Europei fossero meno rigidi su queste cose.
 			
-			6/06/03 - I woke up at 9 PM today. That would be strange in itself, except I don't remember going to sleep last night. In fact, I don't remember anything since last Saturday night when Rolf was over....
+			6/06/03 - Mi sono svegliata alle 9 PM oggi. E' strano, non ricordo di aver dormito la scorsa notte. Veramente non ricordo nulla sin dallo scorso sabato notte, quando e' passato Rolf....
 			
-			6/10/03 - I woke up late again. I haven't eaten anything in four days. I don't know what's wrong with me....
+			6/10/03 - Mi sono svegliata di nuovo tardi. Non ho mangiato nulla in questi quattro giorni. C'e' qualcosa che non va in me....
 			
-			6/11/03 - Rolf came over last night. He said the reason I hadn't eaten anything was because I needed blood. He said it was all I could eat now, that I wouldn't feel hungry any more if I drank some. He had a bag of it from the local blood bank. I tried to refuse but I couldn't. What's happening to me?
+			6/11/03 - Rolf e' passato la scorsa notte. Mi ha detto che il motivo per cui non ho mangiato nulla in questi giorni era perche' ho bisogno di sangue. Ha detto che e' tutto cio' che posso mangiare ora, quindi se bevo un po' non sento sete. Aveva una sacca di sangue della banca del sangue. Ho provato a rifiutare ma non ho potuto. Cosa mi e' successo?
 			
-			7/26/03 - Rolf said he's going to have to leave soon. He said people are trying to force him out of the country. He didn't say anything about taking me with him.
+			7/26/03 - Rolf ha detto che sarebbe partito presto. Dice che delle persone stanno cercando di cacciarlo dallo Stato. Non mi ha detto se mi avrebbe portata con lui.
 			
-			8/22/03 - I had to bail Rolf out of jail today. He was arrested because his visa expired. He looked frightened. I'm afraid he's going to leave.
+			8/22/03 - Oggi ho pagato la cauzione di Rolf. Era stato arrestato perche' la sua visa e' scaduta. Sembrava spaventato. Temo che partira' presto.
 			
-			12/07/03 - I haven't seen or heard from Rolf since the night I bailed him out. I don't know what to do. I thought he cared about me. Why did he do this to me...?
+			12/07/03 - Non ho sentito ne' visto Rolf dall'ultima volta, quando ho pagato la cauzione. Non so cosa fare. Pensavo si sarebbe preso cura di me. Perche' mi ha fatto questo...?
 			
-			4/15/04 - I talked with this guy I met in the Surfside until five this morning. When I told him I had to go, I felt like Cinderella. He seemed like a prince.
+			4/15/04 - Ho parlato con questo ragazzo che ho incontrato al Surfside fino alle cinque di questa mattina. Quando gli ho detto che dovevo andare, sembravo Cenerentola. E lui... un principe.
 			
-			4/16/04 - I met that guy from the Surfside again. He has no idea what I am....
+			4/16/04 - Ho incontrato di nuovo quel tipo al Surfside. Non ha idea di cio' che sono....
 			
-			4/24/04 - I brought E, the guy from the Surfside, back to my apartment last night. He said he's going back to Australia in a few days, now that the tournament's coming to an end. I don't want him to leave. I've never felt this way about someone before, not even Rolf.
+			4/24/04 - Ho portato E, il ragazzo del Surfside, nel mio appartamento la scorsa notte. Ha detto che sarebbe tornato in Australia fra pochi giorni, ora che il torneo sta finendo. Non voglio che parta. Non mi sono mai sentita cosi' prima, neanche con Rolf.
 			
-			4/25/04 - E kissed me last night and I couldn't stop myself from biting into his neck. But I drank too much and... I gave him my blood to save him. When I explained it all to him, he said he never wanted to see me again. What have I done?
+			4/25/04 - E. mi ha baciata la scorsa notte e non sono riuscita a trattenermi dal morderlo sul collo. Ma ho bevuto troppo e... gli ho dato il mio sangue per salvarlo. Quando gli ho spiegato tutto, non ha voluto piu' vedermi. Cosa ho fatto?
 			
-			5/08/04 - I haven't been able to feed since that night with E. I'm afraid of what will happen. I remember Rolf brought blood from the blood bank. Maybe if I can sneak in, I can grab a few bags and get out before anyone catches me."
+			5/08/04 - Da quella sera con E. non sono riuscita a cibarmi. Sono spaventata di cio' che accadra'. Ricordo che Rolf che mi aveva dato una sacca di sangue dalla banca del sangue. Forse potrei infilarmi li' dentro di nascosto, rubare un paio di sacche e uscire prima che si accorgano di me."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

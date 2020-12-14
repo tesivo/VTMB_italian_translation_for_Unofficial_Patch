@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"		"Bad Monkey No Banana"	// changed by wesp
-	"description"		"A handbook from Les Assasins de Roullents, a Québecois terrorist organization hidden under an innocent cover. This manual holds the secrets to dodging bullets, trains, and other projectiles. Raises your Dodge talent."	// changed by wesp
+	"printname"		"Dodge II"
+	"description"		"Un manuale di Les Assasins de Roullents, un'organizzazione terroristica del Quebec. Questo manuale ha i segreti per schivare pallottole, raffiche ed altri proiettili. Incrementa la tua attitudine a Schivare."
 
 	"weight"			"3"
 	"item_flags"		"1"

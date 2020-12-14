@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Metalhead Access Card"
-	"description"	"Key to the door of Metalhead Industries."
+	"printname"	"Tessera d'Accesso Metalhead"
+	"description"	"Chiave delle industrie Metalhead."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

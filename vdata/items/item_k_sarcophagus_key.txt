@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Sarcophagus Key"
-	"description"	"A brilliant example of ancient engineering and a significant archaeological find. But as with any key, this one is most coveted for what it grants access to."
+	"printname"	"Chiave del Sarcofago"
+	"description"	"Un brillante esempio di un'antico meccanismo e una significante scoperta archeologica. Ma come con qualunque chiave, questa e' desiderata soprattutto per cio' che puo' aprire."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

@@ -16,8 +16,8 @@ WeaponData
 
 	"anim_prefix"		"lockpick"
 
-	"printname"		"Lockpick"
-	"description"		"Tool of the trade for locksmiths and burglars. A lockpick is used to push the pins inside a lock into their correct position until the lock is \"open\". It takes a lot of experience to use these well."
+	"printname"		"Grimaldello"
+	"description"		"Utensile necessario a fabbri e scassinatori. Un grimaldello e' usato per spingere i pioli dentro una serratura nella loro corretta posizione affinche' la serratura si \"apra\". Serve molta esperienza per usarlo bene."
 
 	"bucket"		"0"
 	"bucket_position"	"2"

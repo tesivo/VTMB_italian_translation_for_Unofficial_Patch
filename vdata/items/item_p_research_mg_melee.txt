@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"		"Kendo for Advanced Students"
-	"description"		"If you have gained the insight, willpower, and form from your first two years of Kendo, you are now ready for the secrets of the Kendo masters. Here is the one ancient rule every warrior must remember - only one can land the killing strike. Hit the kill zone or hit nothing. If you cannot control your attack, you are dead. This book raises your Melee skill."
+	"printname"		"Kendo per Studenti Avanzati"
+	"description"		"Se hai raggiunto introspezione, forza di volonta' e forma nei tuoi primi due anni di Kendo, allora sei pronto per i segreti del maestro di Kendo. Ecco la prima regola che ogni guerriero deve ricordare - solo uno puo' sferrare il colpo mortale. Colpisci la zona mortale o non colpisci nulla. Se non puoi controllare il tuo attacco, sei morto. Questo libro incrementa l'abilita' Mischia."
 
 	"weight"			"3"
 	"item_flags"		"1"

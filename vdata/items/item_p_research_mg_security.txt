@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"Sobchak's Guide to Personal and Home Security"	// changed by wesp
-	"description"		"A manual on how to handle locks and doors of all kinds. This book raises your Security skill."	// changed by wesp
+	"printname"			"Manuale di Sicurezza"
+	"description"		"La Guida di Sobchak per la Sicurezza Personale e Domestica. Questo libro incrementa l'abilita' Sicurezza."
 
 	"weight"			"3"
 	"item_flags"		"1"

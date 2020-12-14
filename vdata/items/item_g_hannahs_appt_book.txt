@@ -9,20 +9,20 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Appointment Book"
-	"description"	"This looks like a standard appointment book:
+	"printname"	"Agenda degli Appuntamenti"
+	"description"	"Una normale agenda di apputamenti:
 
-			9/05/04 - Arthur Kilpatrick - meet Arthur at his place in Santa Monica. Remember to bring the handcuffs and the orange jumpsuit, as he likes to play \"Lock Down at the Women's Prison\". This guy is sick.
+			9/05/04 - Arthur Kilpatrick - incontra Arthur a casa sua a Santa Monica. Ricorda di portare le manette e la tuta da donna arancione per giocare a \"Bloccato in un penitenziario femminile\", come piace a lui. Questo ragazzo e' malato.
 
-			9/07/04 - Vandal C. - 7:30 at the Blood Bank. Bring pliers and the blowtorch.
+			9/07/04 - Vandal C. - 7:30 alla Banca del Sangue. Porta pinze e fiamma ossidrica.
 
-			9/12/04 - David Hatter - Room 413 at the Luckee Star in Hollywood. He likes that weird umbrella and water balloon thing.
+			9/12/04 - David Hatter - Stanza 413 al Luckee Star ad Hollywood. Gli piace quello strano ombrello e le cose che hanno a che fare con palloni d'acqua.
 
-			9/15/04 - Simon Milligan - Downstairs in his room. God I hate that guy.
+			9/15/04 - Simon Milligan - Al piano inferiore nella sua stanza. Dio quanto odio quel ragazzo.
 
-			9/17/04 - Jezebel Locke? - New client, responded to my ad in the paper. She has a suite at the Empire Hotel. I don't know what to think of this one, but there's something about her... her voice... I don't know. She's offering big bucks so I guess I can't pass it up.
+			9/17/04 - Jezebel Locke? - Una nuova cliente, ha risposto al mio annuncio. Ha una camera all'Empire Hotel. Non so cosa pensare di lei, ma c'e' qualcosa di strano... la sua voce... non so. Offre un mucchio di soldi quindi non posso rifiutare.
 
-			9/20/04 - Paul Anderson - An honest to god date! I can't believe he asked me out! I'm so excited!"	// changed by wesp
+			9/20/04 - Paul Anderson - Finalmente un appuntamento decente! Non posso crederci che mi abbia chiesto di uscire! Sono cosi' eccitata!"
 
 
 	"bucket"		"1"

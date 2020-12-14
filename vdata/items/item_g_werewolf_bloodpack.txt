@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"			"Werewolf Blood"
-	"description"			"Blood allegedly taken from a werewolf."
+	"printname"			"Sangue di Licantropo"
+	"description"			"Sangue presumibilmente preso da un licantropo."
 	"item_worth"			"0"
 
 	

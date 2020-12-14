@@ -9,22 +9,22 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Diary"
-	"description"	"This is the charred remains of what looks like a diary:
+	"printname"	"Diario"
+	"description"	"I resti bruciati di un diario:
 
-			05/30/1958 - Just arrived here, at the Ocean House. We have a week-long holiday here in Santa Monica, and Ed has booked us a room for the hotel's grand opening. It's a wonderful place, almost magical. The children have been swimming all afternoon.
+			05/30/1958 - Siamo appena arrivati qui, all'Ocean House. Faremo una vacanza di una settimana qui a Santa Monica, e Ed ha prenotato una stanza per la grande apertura dell'hotel. E' un posto meraviglioso, quasi magico. I bambini hanno nuotato per tutto il pomeriggio.
 
-			05/31/1958 - The first two days have been almost perfect, except that Ed can't seem to stop asking about the locket I received from my mother. He seems to think it was sent to me by some other admirer. Ed can be sweet, but sometimes his jealousy can get the better of him. Hopefully he'll feel better tomorrow.
+			05/31/1958 - I primi due giorni sono stati quasi perfetti, eccetto per Ed che non smette di chiedermi del medaglione di mia madre. Pensa che sia stato inviato da qualche altro ammiratore. Ed e' cosi' dolce, ma quando e' geloso da' il peggio di se'. Spero che si senta meglio domani.
 
-			06/01/1958 - Sun is out today, not a cloud in the sky. Ed seems a little on edge, keeps guessing as to who my \"new boyfriend\" is. Silly Ed.
+			06/01/1958 - C'e' il sole oggi, nemmeno una nuvola nel cielo. Ed sembra un po' nervoso, continua a chiedermi chi sia il mio \"nuovo ragazzo\". Stupido Ed...
 
-			06/03/1958 - There was a picnic for the hotel guests this morning... quite a grand affair. Ed is in a dark mood. I don't know what I can do to reassure him that he is my one and only love. The only time he seemed to brighten up was when he was speaking to the groundskeeper. Boys and their tools....
+			06/03/1958 - C'e' stato un rinfresco per gli ospiti dell'hotel questa mattina... una gran bella cosa. Ed e' di cattivo umore. Non so cosa fare per rassicurarlo che lui e' il mio unico amore. L'unico momento in cui l'ho visto riprendersi e' stato quando parlava col giardiniere. I ragazzi e i loro arnesi....
 
-			06/04/1958 - We only have two days left, and thank God we're finally going home. Ed won't speak to me or the children, and I've found him more than once in the bathroom holding the locket and staring at it. I'm afraid he's suffered some sort of breakdown. I've told him we can go home, but he just shakes his head. He won't look at me. I just want to go home.
+			06/04/1958 - Mancano solo due giorni, e grazie a Dio ritorneremo a casa. Ed non vuole parlare con me o con i bambini e l'ho scoperto piu' di una volta nel bagno che teneva il medaglione e lo fissava. Temo che sia vittima di una specie di esaurimento. Gli ho detto che potevamo tornare a casa, ma ha risposto di no con la testa. Non mi guarda nemmeno. Voglio tornare a casa.
 
-			06/05/1958 - Ed left early this morning, and I haven't seem him since. If I haven't seen him in another hour, I'm going to call the hotel manager. Against my better wishes, Ed Jr. went to look for him downstairs in the basement. I'm going to send Tiffany down to fetch him, if... wait... someone is knocking at the door....
+			06/05/1958 - Ed si e' alzato presto questa mattina e da allora non l'ho piu' visto. Se non si fa vivo nelle prossime ore, chiamero' il direttore. Il piccolo Ed e' andato a cercarlo giu' senza il mio permesso. Mandero' Tiffany a prenderlo, se... aspetta... qualcuno sta bussando alla porta....
 
-			Oh my God, Ed covered in blood... coming to kill me... locked myself in the bathroom... he's gone crazy... he keeps shouting we'll be together forever and he'll never let me go... someone please hel... (The writing trails off the end of the page.)"
+			Oh mio Dio, Ed e' coperto di sangue... vuole uccidermi... sono chiusa nel bagno... e' diventato pazzo... continua ad urlare che staremo per sempre insieme e non mi lascera' andare... qualcuno venga a... (La scrittura si affievolisce alla fine della pagina.)"
 
 
 

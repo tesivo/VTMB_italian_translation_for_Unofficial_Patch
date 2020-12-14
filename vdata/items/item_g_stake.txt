@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Wooden Stake"
-	"description"	"A wooden stake."
+	"printname"	"Paletto di Legno"
+	"description"	"Un paletto di legno."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

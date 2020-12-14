@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Ji Wen Ja's Key"
-	"description"	"Key to Ji Wen Ja's secret stash."
+	"printname"	"Chiave di Ji Wen Ja"
+	"description"	"Chiave del nascondiglio segreto di Ji Wen Ja."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

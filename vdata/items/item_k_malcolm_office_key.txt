@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Malcolm's Office Key"
-	"description"	"It's just a key, there's not much to say about it."
+	"printname"	"Chiave dell'Ufficio di Malcolm"
+	"description"	"E' soltanto una chiave, non c'e' molto da dire."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Zharalketh"
-	"description"		"Sliding on this ring you feel the same stomach-dropping sensation you had when you first invoked Obfuscate. As long as you wear Zharalketh you will be able to maintain Obfuscate forty percent longer."	// changed by wesp
+	"description"		"Indossando questo anello avvertirai la stessa sensazione dello stomaco sottosopra che hai avuto quando hai invocato per la prima volta l'Oscurazione. Per tutto il tempo che lo indossi Zharalketh sara' in grado di mantenere l'Oscurazione piu' a lungo."
 
 	"weight"			"3"
 	"item_flags"		"1"

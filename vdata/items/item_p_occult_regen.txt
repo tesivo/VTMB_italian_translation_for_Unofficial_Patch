@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"The Odious Chalice"
-	"description"		"The perverse creation of a Tzimisce fleshcrafter, this abomination is forced to live a tortured eternity in servitude to the Damned. As you kill enemies, the Chalice will fill with blood. Use the Chalice to feed from it and gain its stored vitae."
+	"printname"			"L'Odioso Calice"
+	"description"		"La perversa creazione di un macellaio Tzimisce, questo orrore e' costretto a vivere un'eternita' torturata asservito ai Dannati. Quando uccidi i nemici, il Calice si riempira'. Usa il Calice per nutrirti e riguadagnare salute."
 
 	"weight"			"3"
 	"item_flags"		"1"

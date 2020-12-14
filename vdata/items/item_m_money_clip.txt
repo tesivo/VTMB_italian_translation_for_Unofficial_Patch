@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Money Clip"
-	"description"	"A wad of money left lying around. Funny, that."	//This was changed because we now display the actual amount.  "A money clip with an indeterminate amount of cash."
+	"printname"	"Soldi"
+	"description"	"Un gruzzolo di soldi lasciato cosi' in giro. Bella, questa."	//This was changed because we now display the actual amount.  "A money clip with an indeterminate amount of cash."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

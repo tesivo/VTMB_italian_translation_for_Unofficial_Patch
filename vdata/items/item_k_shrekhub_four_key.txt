@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Kamikazi Zen Access Card"
-	"description"	"Key to the door of Kamikazi Zen."
+	"printname"	"Tessera d'Accesso del Kamikazi Zen"
+	"description"	"Chiave della porta del Kamikazi Zen."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

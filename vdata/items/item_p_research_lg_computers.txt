@@ -8,8 +8,8 @@ WeaponData
 	"playermodel"		"models/items/beckett_book/ground/item_g_beckett_book.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"Computers for Grandma"
-	"description"		"\"To begin, put the 'foot pedal' on the desk and push the power button on the metal box. This is the 'house' for your friend computer 'Chip', the enchanted, electronic pixie that can do 4.8 billion calculations per second (WOW, that's fast, Chip!). Do you see an image on the 'magical computer window'...?\" Reading this will boost your Computer knowledge."
+	"printname"			"Computer per le Nonne"
+	"description"		"\"Per iniziare, mettete il 'piede' sulla scrivania e premete il pulsante d'accensione sulla scatola metallica. Questa e' la 'casa' di 'Chip', il tuo amico computer, l'incantevole fatina elettronica che puo' fare 4.8 miliardi di calcoli al secondo (WOW, e' veloce!). Vedi un'immagine sulla 'Magica finestra del computer'...?\" Leggendo questo libro ti verra' incrementata la Conoscenza Informatica."
 
 	"camera_class"		"noswitch"
 	"is_wieldable"		"0"

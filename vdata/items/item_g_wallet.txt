@@ -12,8 +12,8 @@ WeaponData
 
 	"anim_prefix"			"none"
 
-	"printname"				"Wallet"
-	"description"			"Your wallet."
+	"printname"				"Portafogli"
+	"description"			"Il tuo portafogli"
 
 	"bucket"				"0"
 	"bucket_position"		"2"

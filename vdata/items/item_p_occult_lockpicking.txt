@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Antique Locket"
-	"description"	"This locket is old and slightly tarnished. It might be your imagination, but it seems to radiate an unnatural warmth, that quickens your fingers. Wearing it increases your Security skill by one."	// changed by wesp
+	"printname"	"Antico Medaglione"
+	"description"	"Questo medaglione e' vecchio e leggermente annerito. Potrebbe essere la tua immaginazione, ma sembra emanare un innaturale calore, che stimola le tue dita. Indossandolo incrementa l'abilita' Sicurezza."	// changed by wesp
 
 //	"camera_class"		"noswitch"
 	"weight"		"3"

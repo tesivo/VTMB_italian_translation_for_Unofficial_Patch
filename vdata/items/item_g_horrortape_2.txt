@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Complete Horror Tape"	// changed by wesp
-	"description"	"A battered video cassette. The labeling is cheap and worn; you can barely make out \"Devilspawn Fleshfeast 2\". You hope it's one of the muppet movies."	// changed by wesp
+	"printname"	"Video Tape Horror Parte 2"
+	"description"	"Una videocassetta rovinata. L'etichetta e' economica e usurata. Speri che sia uno di quei film dei muppet."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

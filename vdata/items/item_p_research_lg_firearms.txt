@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"		"So You Wanna Shoot Things?"
-	"description"		"Using a gun is simple, easy, and fun for the whole family. First, get a gun - preferably something for home defense, like an automatic rifle. Second, check to see if the gun is loaded; if not, do so. Third, find a target - we recommend inanimate objects if no muggers are around. Fourth, shoot - feel the power.... This book raises your Firearms skill."
+	"printname"		"Quindi Vuoi Sparare Alle gambe?"
+	"description"		"Usare un'arma e' semplice, facile e divertente per l'intera famiglia. Per iniziare, prendi un'arma - preferibilmente qualcosa per la difesa personale, come un fucile automatico. Secondo, controlla se l'arma e' carica, se non lo e', fallo. Terzo, trova un bersaglio - raccomandiamo oggetti inanimati se non ci sono rapinatori in giro. Quarto, spara - senti la potenza.... Questo libro aumenta l'abilita' Armi da Fuoco."
 
 	"weight"			"3"
 	"item_flags"		"1"

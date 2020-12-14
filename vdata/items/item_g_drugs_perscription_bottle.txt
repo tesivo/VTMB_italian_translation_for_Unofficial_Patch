@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Prescription Bottle"
-	"description"	"Ortho Tri-Cyclen. Failure to take as prescribed could result in eighteen years of responsibility."
+	"printname"	"Prescrizioni del Farmaco"
+	"description"	"Ortho Tri-Cyclen. Prendere solo se maggiorenni."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

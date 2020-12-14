@@ -10,7 +10,7 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Video Tape"	// changed by wesp
+	"printname"	"Videoregistratore"	// changed by wesp
 	"description"	"Tap Hotel. Shuffle Step."	// changed by wesp
 
 

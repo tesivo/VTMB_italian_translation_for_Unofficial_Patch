@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Horror Tape"	// changed by wesp
-	"description"	"A battered video cassette. The labeling is cheap and worn; you can barely make out \"Devilspawn Fleshfeast 1\" and the logo, which looks somewhat like \"DMP\". It appears this tape has changed hands more than a few times."	// changed by wesp
+	"printname"	"Video Tape Horror Parte 1"
+	"description"	"Una video cassetta rovinata. L'etichetta e' economica e usurata, si riesce a malapena a distinguere il logo, sembra che ci sia scritto \"DMP\". Questa cassetta dev'essere passata per molte mani..."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

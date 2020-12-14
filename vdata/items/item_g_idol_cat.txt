@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Jade Cat"
-	"description"	"This is a beautifully-crafted jade statue."
+	"printname"	"Gatto di Giada"
+	"description"	"Una bellissima statua di giada."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

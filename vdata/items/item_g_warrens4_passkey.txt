@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Pass Key"
-	"description"	"This looks to be a magnetic swipe key."
+	"printname"	"Chiave Magnetica"
+	"description"	"E' una chiave magnetica."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

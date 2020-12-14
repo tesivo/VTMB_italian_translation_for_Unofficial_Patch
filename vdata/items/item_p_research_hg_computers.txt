@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"The Cowboy's Guide to Cyberspace by Case"
-	"description"		"Cowboys and Cyberspace don't mix. Now that we've got that outta the way.... Raises your Computer knowledge."
+	"printname"			"La Guida del Cowboy al Cyberspace by Case"
+	"description"		"I Cowboy e i Cyberspace non si trovano insieme. Ora che li hai incontrati lungo la strada... Aumenta la tua Conoscenza Informatica."
 
 	"weight"			"3"
 	"item_flags"		"1"

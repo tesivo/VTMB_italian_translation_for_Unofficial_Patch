@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Fu Syndicate Office Key"
-	"description"	"An office key card."
+	"printname"	"Chiave dell'Ufficio del Fu Syndicate"
+	"description"	"Una chiave magnetica dell'ufficio."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

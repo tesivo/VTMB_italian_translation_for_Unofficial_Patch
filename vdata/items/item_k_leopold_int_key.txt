@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Society of Leopold Interior Key"
-	"description"	"Key to the wine cellar."
+	"printname"	"Chiave Interna della Societa' di Leopold"
+	"description"	"Chiave della cantina."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

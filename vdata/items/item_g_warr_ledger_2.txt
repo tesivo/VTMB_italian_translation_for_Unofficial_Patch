@@ -9,20 +9,20 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Ledger"
-	"description"	"This looks to be the weekly log of Douglas Streets, foreman of the Los Angeles Department of Water and Power, 1957:
+	"printname"	"Libro Mastro"
+	"description"	"Diario settimanale di Douglas Streets, caporeparto del Dipartimento dell'Acqua e dell'Energia elettrica di Los Angeles, 1932:
 
-			07/09/57 - The disappearance of sewermen Whitman, Price and Haddad has launched an attack in the papers on the Department. It has fallen to me to try and ascertain their fate. I will do so to the best of my ability.
+			07/09/57 - La scomparsa di Whitman, Price e Haddad ha lanciato un attacco al Dipartimento sui giornali. Sono venuti da me per accertarsi del loro destino, quindi faro' del mio meglio per scoprirlo.
 
-			07/10/57 - Forays into the uncharted regions of the sewers have been fruitless as of yet. City Hall has been unable to produce blueprints of these sections, and so we continue forth blindly.
+			07/10/57 - Le incursioni in regioni non specificate del sistema fognario sono state vane. Il municipio e' stato incapace di produrre piante di queste sezioni e quindi dobbiamo continuare andando alla cieca.
 			
-			07/11/57 - I have been witness to many strange and inexplicable sounds and events in what can only be the very oldest sections of the Los Angeles sewers. I found a rusted plaque that read \"LADWP, 1902\". The events I can only describe as otherwordly, both in sound and texture, as well as in the feeling it gave upon my skin. A coldness. Shadows and whispers. I have no explanation for these, except, perhaps, the creations of my own overtaxed mind. We will continue tomorrow.
+			07/11/57 - Sono stato testimone di strani ed inspiegabili suoni ed eventi nella sezione piu' vecchia delle fognature di Los Angeles. Ho trovato una placca arrugginita che diceva \"LADWP, 1878\". Non c'e' niente di normale... i suoni e gli avvistamenti... e la sensazione che sento sulla pelle... Freddo. Ombre e sussurri. Non ho alcuna spiegazione per questi eventi, eccetto, forse, le suggestioni della mia mente. Continueremo domani.
 			
-			07/12/57 - Still no sign of the missing men, but the fear grows in my mind that something truly evil resides in the lowest sections of those sewers. Though I wish not to tell some Lovecraftian tale, I can only say what lies in my heart. I wish no longer to travel down those dark corridors, and my opinion is that those poor men fell victim to some old and ancient evil that resides there. I will tell the mayor what I have seen, and pray that he does not take me for a madman.
+			07/12/57 - Ancora nessuna traccia degli uomini dispersi, solo la paura che cresce nella mia mente che qualcosa di veramente diabolico abiti nelle sezioni piu' profonde di quelle fogne. Comunque non vorrei scrivere una sorta di racconto sul tipo di Lovecraft, posso solo dire cio' che giace nel mio cuore. Non voglio piu' viaggiare in quei corridoi bui e la mia opinione e' che questi poveri uomini sono caduti vittime di qualche antico demonio che risiede li' sotto. Diro' al sindaco cio' che ho visto e prego che non mi prenda per pazzo.
 			
-			07/15/57 - The mayor has listened to my report with the utmost earnestness, and has decided, most wisely, to brick up those lowest sections of the sewers in which I witnessed those frightening, phantasmal events. The public will be told that Whitman, Price and Haddad were lost to these sections because they were old and unsafe, and therefore he will justify his closing of them through the unfortunate vehicle of their unexplained deaths. So be it. I pray their souls find safe haven in some lighter refuge of the afterlife. I, myself, have resigned from the Department. I no longer have the wish to delve into the dark places of the earth. I leave this ledger here, unseen and bricked away from human eyes, so that perhaps the memory of these things will disappear as well.
+			07/15/57 - Il sindaco ha ascoltato il mio rapporto con estrema serieta' e ha deciso, molto saggiamente, di murare le sezioni piu' profonde delle fogne nelle quali sono stato testimone di quegli spaventosi e spettrali eventi. Alla gente verra' detto che Whitman, Price e Haddad sono stati persi in queste sezioni perche' erano vecchie e insicure, quindi giustifichera' la chiusura di queste sezioni alla luce delle morti inspiegate. Prego per le loro anime di trovare un posto sicuro in qualche rifugio alla luce. Io mi sono dimesso dal Dipartimento. Non voglio piu' andare in quei posti scuri nelle viscere della terra. Lascero' questo libro qui, invisibile agli occhi umani e murato, cosi' che forse la memoria di queste cose scomparira' per sempre.
 				
-				   Sincerely, Douglas Streets, Foreman, LADWP"
+				   Sinceramente, Douglas Streets, Caporeparto, LADWP"
 			
 			
 	"bucket"		"1"

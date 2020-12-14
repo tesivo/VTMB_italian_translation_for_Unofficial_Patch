@@ -1,4 +1,5 @@
 
+
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
@@ -8,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Police Report"
-	"description"	"A copy of the Initial Police Report for the Elizabeth Dane, signed by members of the USCG, NCIS, and LAHP agencies. Despite strong evidence of amazing physical violence, not a single body has been found, no survivors have been located, and there are no signs of large-scale theft."
+	"printname"	"Rapporto della Polizia"
+	"description"	"Una copia del Rapporto Preliminare della Polizia per il caso della Elizabeth Dane, firmato da USCG, NCIS ed LAHP. Nonostante le evidenti prove di una violenta e sanguinosa colluttazione, non e' stato trovato neanche un corpo, nessun sopravvissuto e non ci sono tracce di furti."
 
 
 	"bucket"		"1"

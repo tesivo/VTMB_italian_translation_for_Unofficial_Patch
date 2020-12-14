@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
  
-	"printname"	"Purse"
-	"description"	"A purse left behind in the diner."
+	"printname"	"Borsa"
+	"description"	"Una borsa dimenticata nel retro della tavola calda."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

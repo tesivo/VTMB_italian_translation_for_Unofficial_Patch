@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Upstairs Key"
-	"description"	"A room key."
+	"printname"	"Chiave dei Piani Superiori"
+	"description"	"Chiave di una stanza."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

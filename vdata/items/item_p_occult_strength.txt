@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"Heart of Eliza"
-	"description"		"This glassy stone appears to have a liquid core. The stone itself is milky translucent, rock solid, and unlike anything you've seen. Possession of the Heart of Eliza conveys a Melee bonus of one."
+	"printname"			"Cuore di Eliza"
+	"description"		"Questa pietra cristallina sembra avere un nucleo liquido. E' una pietra solida, traslucida, color bianco latte, non hai mai visto una cosa del genere. Possedere il Cuore di Eliza ti da' un bonus Rissa di uno."
 
 	"weight"			"3"
 	"item_flags"		"1"

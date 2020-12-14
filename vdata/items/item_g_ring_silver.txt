@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Silver Ring"
-	"description"	"Looks like an engagement ring for a girl who's a single day's ATM limit special."
+	"printname"	"Anello d'Argento"
+	"description"	"Un anello di fidanzamento per una ragazza."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

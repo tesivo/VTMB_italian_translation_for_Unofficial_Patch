@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"		"models/w_null.mdl"
 	"anim_prefix"		" "
 
-	"printname"			"Key of Alamut"
-	"description"		"These wands have been carried by the feared assassins of Clan Assamite for millenia. One of only a handful still in existence, this Key of Alamut gives its owner extraordinary resilience to damage. Increases all Soak ratings by one."
+	"printname"			"Chiave di Alamut"
+	"description"		"Questi bastoncini sono stati portati da un pauroso assassino del Clan Assamite per milleni. Una di esse e' ancora esistente: questa Chiave di Alamut da' al proprietario una straordinaria resilienza al danno. Incrementa tutti i punteggi d'assorbimento di 1."
 
 	"weight"			"3"
 	"item_flags"		"1"

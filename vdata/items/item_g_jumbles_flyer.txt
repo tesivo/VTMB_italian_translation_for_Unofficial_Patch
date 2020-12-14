@@ -2,13 +2,13 @@
 
 WeaponData
 {
-	"printname"	"Fleshy Ball"	// added by wesp
-	"description"	"A weird and disgusting fleshy ball."	// added by wesp
-
+	"printname"	"Palla di carne"	// added by wesp
+	"description"	"Una strana e disgustosa palla di carne."	// added by wesp
+	
 	// added by wesp
 	"playermodel"	"models/scenery/misc/changball/changball.mdl"
 	"infomodel"		"models/scenery/misc/changball/changball.mdl"
-
+	
 	"anim_prefix"	" "
 
 	"bucket"		"1"

@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Lu Fang's Key"
-	"description"	"Key to Lu Fang's secret stash."
+	"printname"	"Chiave di Lu Fang"
+	"description"	"Chiave del nascondiglio segreto di Lu Fang."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

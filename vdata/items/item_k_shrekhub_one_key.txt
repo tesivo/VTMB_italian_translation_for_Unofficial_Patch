@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Megahurtz Access Card"
-	"description"	"Key to Megahurtz Computing."
+	"printname"	"Tessera d'Accesso del Megahurtz"
+	"description"	"Chiave del Megahurtz Computing."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

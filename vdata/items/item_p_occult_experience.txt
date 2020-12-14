@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Saulocept"
-	"description"		"A tidal chorus of whispers washes across your thoughts. They seem to be offering guidance, but their message eludes your conscious mind. Their motivations are unknown, but you find yourself increasingly willing to submit to their guidance. As long as you possess Saulocept you will gain an extra point of experience every time you are awarded three or more experience. Saulocept may or may not have other effects."
+	"description"		"Un coro di sussurri che si trascina attraverso i tuoi pensieri. Sembra stia offrendo assistenza, ma il loro messaggio elude la tua mente cosciente. Le loro motivazioni sono sconosciute, ma trovi te stesso sempre piu' disposto a sottometterti alla loro guida. Per tutto il tempo in cui possiedi il Saulocept guadagnerai un punto extra di esperienza ogni volta che ti saranno assegnati 3 o piu' punti esperienza. Il Saulocept potrebbe avere altri effetti, oppure no."
 
 	"weight"			"3"
 	"item_flags"		"1"

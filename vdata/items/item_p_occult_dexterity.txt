@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Fae Charm"
-	"description"		"This grim totem makes you feel light as a bird. Plus one to Dexterity."
+	"description"		"Questo torvo totem ti fa sentire leggero come un uccello. Migliora di uno la Destrezza."
 
 	"weight"			"3"
 	"item_flags"		"1"

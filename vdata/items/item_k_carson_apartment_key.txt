@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Carson's Apartment Key"
-	"description"	"You're not sure what this key is for."
+	"printname"	"Chiave dell'Appartamento di Knox"
+	"description"	"Una strana chiave. Che roba."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

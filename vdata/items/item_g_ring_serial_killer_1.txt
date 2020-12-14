@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"	"Pearl of Dubai"
-	"description"	"This jewel is the famous Pearl of Dubai. It's very precious and full of a magical vibrancy that gives you a boost to your Charisma."
+	"printname"	"La perla di Dubai"
+	"description"	"Questo gioiello è la famosa Perla di Dubai. È molto preziosa e piena di una magica vitalità che dà una spinta al vostro Carisma."
 
 	// added by wesp
 	"infomodel"	"models/items/pearl_of_dubai/Info/pearl_of_dubai.mdl"
@@ -14,7 +14,7 @@ WeaponData
 //	"playermodel"          "models/weapons/w_null.mdl"
 //	"wieldmodel_f"         "models/weapons/w_null.mdl"
 //	"wieldmodel_m"         "models/weapons/w_null.mdl"
-	"anim_prefix"          ""
+	"anim_prefix"	" "
 
 	"impact_snd_group"	"fist"
 

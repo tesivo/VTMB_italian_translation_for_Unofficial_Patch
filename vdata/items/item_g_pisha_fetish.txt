@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Fetish Statue"
-	"description"	"A fetish statue. You can tell just from holding it that there is something definitely odd and supernatural within it."
+	"printname"	"Feticcio"
+	"description"	"Un feticcio. Tenendolo in mano senti che c'e' qualcosa di strano e soprannaturale al suo interno."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

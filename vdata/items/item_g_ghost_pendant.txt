@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Pendant"
-	"description"	"This exquisite pendant looks polished, though it was found in the charred ruins of the Ocean House. When you hold it in your palm for a few seconds, you're overwhelmed with a sense of profound sadness."
+	"printname"	"Ciondolo del Fantasma"
+	"description"	"Questo ciondolo di rara bellezza sembra levigato, nonostante sia stato trovato tra le rovine carbonizzate dell'Ocean House. Se tieni in mano per un paio di secondi, avverti una sensazione di profonda tristezza."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

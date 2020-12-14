@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"				"Elder Vitae"
-	"description"			"This bag contains extremely potent blood. The hows and wheres of its origin are probably best left unexplored."
+	"description"			"Questa sacca contiene sangue estremamente potente. I come e i dove delle sue origini sono probabilmente sconosciuti."
 	"viewmodel"			"models/w_null.mdl"
 	"playermodel"			"models/items/bloodpack/ground/bloodpack.mdl"
 	"wieldmodel_f"			"models/w_null.mdl"
@@ -33,7 +33,7 @@ WeaponData
 	Magazine
 	{
 		"ammoprintname"		"Elder Vitae Pack"
-		"ammodescription"	"This bag contains some seriously potent vitae. The hows and wheres of its origin are probably best left unexplored."
+		"ammodescription"	"Questa sacca contiene sangue estremamente potente. I come e i dove delle sue origini sono probabilmente sconosciuti."
 		"ammo_worth"		"185"
 
 		"Type"				"VitaeRound"

@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Ship Manifest"
-	"description"	"Ankaran Site transport to Los Angeles: Ankaran Sarcophagus, 3 crates - pottery/tablets, 1 box - unidentified."
+	"printname"	"Manifesto della nave"
+	"description"	"Sito di Ankaran trasporto fino a Los Angeles: Ankaran Sarcofago, 3 casse - ceramica/tavole, 1 scatola - non identificata."
 
 
 	"bucket"		"1"

@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Web Camera"
-	"description"	"This is a remote web camera."
+	"printname"	"Web Cam"
+	"description"	"Web Cam senza fili."
 
 
 	"bucket"		"1"

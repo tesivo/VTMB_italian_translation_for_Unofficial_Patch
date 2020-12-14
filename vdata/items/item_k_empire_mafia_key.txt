@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Empire Mafia Key"
-	"description"	"You're not sure what this key is for."
+	"printname"	"Chiave Empire Mafia"
+	"description"	"Non sai a cosa possa servire questa chiave."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

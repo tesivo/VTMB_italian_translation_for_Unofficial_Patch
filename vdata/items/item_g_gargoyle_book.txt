@@ -9,12 +9,12 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Thaumaturgical Creatures"
+	"printname"	"Creature Taumaturgiche"
 	"description"	"E. Bankins, Regent, Chicago
 	
-			Gargoyles: During the medieval conflict with the Tzimisce, Clan Tremere delved further into secret blood magicks and created a race of protectors known as Gargoyles. Since their inception, Gargoyles have been used as scouts, warriors, and sentries. Gargoyles are monsters, vampires by virtue of the blood and flesh through which they are created. They are no more than the detritus of other clans, given a second chance to serve their Tremere creators. Unfortunately, many have wrongly come to view their service as slavery, and have fled their masters in search of some delusional Utopia. Most escaped Gargoyles live in isolation, preferring solitude to even the company of their own kind.
+			Gargoyle: Durante il conflitto medievale con gli Tzimisce, il Clan Tremere fece ulteriori ricerche sulle magie del sangue segreto e creo' una razza di protettori conosciuti come Gargoyle. Sin dal principio, i Gargoyle sono stati usati come esploratori, guerrieri e sentinelle. I Gargoyle sono mostri, vampiri dalla virtu' del sangue e della carne dalla quale sono stati creati. Non sono altro che frammenti di altri clan, a cui e' stata data una seconda opportunita' di servire i loro creatori Tremere. Sfortunatamente, molti hanno interpretato erroneamente il loro servizio come una schiavitu' e hanno abbandonato i loro padroni alla ricerca di utopie illusorie. Molti Gargoyle scappati vivono in isolamento, preferiscono la solitudine anche dai compagni della stessa razza.
 
-			Homonculi: For the most menial and mindless tasks, many Tremere create what is called a Homonculus. These are mindless creatures which take many forms, winged, many-legged, or otherwise. Homonculi are unfailingly loyal, but their appearance makes them a serious threat to breaking the Masquerade."
+			Homonculi: Per i compiti piu' umili e stupidi, molti Tremere creano cio' che e' chiamato un Homoculus. Queste sono creature stupide dalle tante forme, alate, con tanti piedi, o altro. Gli homonculi sono fedelissimi, ma il loro aspetto li rende una serie minaccia per la Masquerade."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

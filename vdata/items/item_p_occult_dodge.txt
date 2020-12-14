@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Weekapaug Thistle"
-	"description"		"This petrified reed was not meant to fall into the hands of the Damned, but vampires can benefit from its shamanistic magick all the same. Increases Defense by one point."
+	"description"		"Questa freccia in pietra non e' stata concepita per cadere nelle mani dei Dannati, ma i vampiri possono beneficiare di tutte le sue magie sciamaniche. Incrementa la Difesa di 1."
 
 	"weight"			"3"
 	"item_flags"		"1"

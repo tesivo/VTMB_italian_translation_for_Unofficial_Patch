@@ -9,16 +9,16 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Mercurio's Journal"
-	"description"	"Prince wants me to help some fresh punk blow up that Sabbat warehouse. 
+	"printname"	"Diario di Mercurio"
+	"description"	"Il Principe mi vuole per aiutare un punk a far esplodere il Magazzino dei Sabbat. 
 
-Don't forget to pick up the Astrolite from Dennis. 
+Non dimenticare di prendere l'Astrolite da Dennis. 
 
-Note: Find out how to get to the warehouse from Bertram Tung.
+Nota: Scopri come raggiungere il Magazzino da Bertram Tung.
 
-Damn vampire political bullshit. Tung is hiding out because of a feud with Therese. 
+Maledette stronzate politiche tra vampiri. Tung si sta nascondendo a causa di una faida con Therese. 
 
-Remember to go talk to Therese at The Asylum before the new blood gets here."
+Ricorda di andare a parlare con Therese all'Asylum prima che il nuovo sangue ci preceda."
 
 
 

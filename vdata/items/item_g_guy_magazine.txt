@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Guy Magazine, Spring Edition"
-	"description"	"This looks to be a copy of the Spring Edition of Guy Magazine. On the cover is a beautiful girl, scantily clad. The copy reads, \"IMALIA. Ruff, Tuff and in the Buff!\""	// changed by wesp
+	"printname"	"Guy Magazine, Edizione Primavera"
+	"description"	"Una copia dell'Edizione Primavera di Guy Magazine. Sulla copertina c'e' una bella ragazza poco vestita. La copia dice \"IMALIA. Selvaggia, Violenta e senza Veli!\""
 
 	"bucket"		"1"
 	"bucket_position"	"2"

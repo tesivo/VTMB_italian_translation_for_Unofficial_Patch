@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
  
-	"printname"	"Money Envelope"
-	"description"	"An envelope containing a bit of cash."
+	"printname"	"Busta di Soldi"
+	"description"	"Una busta contenente del denaro."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

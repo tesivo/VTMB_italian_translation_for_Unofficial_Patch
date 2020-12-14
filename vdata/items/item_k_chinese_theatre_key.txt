@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Asian Theatre Key"
-	"description"	"Key to unlock front door of Asian Theatre."
+	"printname"	"Chiave dell'Asian Theatre"
+	"description"	"Chiave per sbloccare la porta principale dell'Asian Theatre."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

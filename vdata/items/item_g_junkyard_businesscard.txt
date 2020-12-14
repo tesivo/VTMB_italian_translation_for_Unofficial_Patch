@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Brothers Salvage"
-	"description"	"The card reads \"Brothers Salvage, Santa Monica\"."
+	"printname"	"Fratelli della Salvezza"
+	"description"	"Il bigliettino dice \"Fratelli della Salvezza, Santa Monica\"."
 
 
 	"bucket"		"1"

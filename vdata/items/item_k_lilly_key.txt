@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Lily's Key"	// changed by wesp
-	"description"	"This key looks like a car key."	// changed by wesp
+	"printname"	"Chiave di Lilly - sembra una chiave della macchina"
+	"description"	"E' soltanto una chiave, non c'e' molto da dire."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

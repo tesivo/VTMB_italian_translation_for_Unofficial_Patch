@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Galdjum"
-	"description"		"Holding this rough-hewn amber stone gives you a sense of peace, and even a glimmer of hope for salvation. You are able to hold the effect of most passive Disciplines longer as long as you possess Galdjum. Their durations are increased by twenty-five percent."	// changed by wesp
+	"description"		"Trattenendo questa pietra d'ambra ruvida avverti un senso di pace e anche una speranza di salvezza. Sei capace di mantenere l'effetto delle Discipline passive piu' a lungo per tutto il tempo che possiedi il Galdjum. La loro durata si incrementa del 25 percento."
 
 	"weight"			"3"
 	"item_flags"		"1"

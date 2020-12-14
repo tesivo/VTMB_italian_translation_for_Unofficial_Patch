@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Jezebel Locke's Key"
-	"description"	"You're not sure what this key is for."
+	"printname"	"Chiave di Jezebel Locke"
+	"description"	"Non sai cosa apre."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Daimonori"
-	"description"		"This pendant is hot to the touch, a heat that seeps into your core and fills you with a new confidence. You're unsure if this power is entirely your own, but its intoxicating lure is seemingly beyond your power to resist. Increases the damage of all Thaumaturgy effects by forty percent."	// changed by wesp
+	"description"		"Questo medaglione e' caldo al tocco, un calore che filtra nel tuo nucleo e ti riempie di sicurezza. Non sai se questa potenza e' interamente tua, ma la sua ebbrezza va oltre la tua capacita' di resisterle. Incrementa il danno di tutti gli effetti Taumaturgia."
 
 	"weight"			"3"
 	"item_flags"		"1"

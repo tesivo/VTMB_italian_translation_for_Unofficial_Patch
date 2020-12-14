@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Bloodstar"
-	"description"		"All Kindred have the innate power to push their undead bodies to the height of mortal capacity, but only for a moment and at a dire cost of blood. This eldritch talisman was crafted to boost this ability. Bloodbuff has twice the duration."	// changed by wesp
+	"description"		"Tutti i Fratelli hanno l'innato potere di spingere i corpi dei non-morti al livello di un mortale, ma solo per un momento e ad un pesante costo di sangue. Questo talismano soprannaturale  e' stato creato per migliorare tale abilita'. Blood Buff ha durata doppia."
 	"weight"			"3"
 	"item_flags"		"1"
 	"item_type"			"powerup"

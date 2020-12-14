@@ -9,8 +9,8 @@ WeaponData
 
 	"anim_prefix"	" "
 
-	"printname"	"Morphine Bottle"
-	"description"	"Used to ease the suffering of sufficiently painful wounds."
+	"printname"	"Bottiglietta di Morfina"
+	"description"	"Usata per calmare la sofferenza delle ferite dolorose."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

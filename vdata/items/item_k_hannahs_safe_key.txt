@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Safe Key"
-	"description"	"This is the key to Hannah's safe."
+	"printname"	"Chiave della Cassaforte"
+	"description"	"Questa e' la chiave della cassaforte di Hannah."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

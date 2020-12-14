@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Luckee Star Room Key"
-	"description"	"Property of Luckee Star, Hollywood."
+	"printname"	"Chiave della Stanza del Luckee Star"
+	"description"	"Proprieta' della Luckee Star, Hollywood."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Museum Storage Key"
-	"description"	"Key to the museum's storage area."
+	"printname"	"Chiave del Deposito del Museo"
+	"description"	"Chiave del deposito del museo."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

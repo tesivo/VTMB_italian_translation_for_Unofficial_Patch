@@ -9,8 +9,8 @@ WeaponData
 
 	"anim_prefix"	" "
 
-	"printname"	"Pill Bottle"
-	"description"	"Estrogen. Caution: Do not take if male."
+	"printname"	"Bottiglietta delle Pillole"
+	"description"	"Estrogeni. Attenzione: Non prendere se di sesso maschile."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

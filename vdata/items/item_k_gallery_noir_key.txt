@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Gallery Noir's Key"
-	"description"	"It's just a key, there's not much to say about it."
+	"printname"	"Chiave della Gallery Noir"
+	"description"	"E' soltanto una chiave, non c'e' molto da dire."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

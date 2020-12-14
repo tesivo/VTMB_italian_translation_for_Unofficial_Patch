@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Normal Watch"
-	"description"	"This is a replica of a much nicer watch."
+	"printname"	"Orologio Normale"
+	"description"	"L'imitazione di un orologio piu' bello."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"		" "
 
 	"printname"			"Tarulfang"
-	"description"		"This heavy fang could only have belonged to a ferocious predatory beast. You feel at ease knowing there's one less of those in the world. Decreases your chance to frenzy."
+	"description"		"Questo pesante dente poteva appartenere solo ad una bestia feroce. Ti senti tranquillo sapendo che ce n'e' una in meno nel mondo. Diminuisce le tue possibilita' di impazzire."
 
 	"weight"			"3"
 	"item_flags"		"1"

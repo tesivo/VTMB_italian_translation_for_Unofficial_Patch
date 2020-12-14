@@ -9,8 +9,8 @@ WeaponData
 	"wieldmodel_m"	"models/weapons/w_null.mdl"
 	"anim_prefix"	"pistol"
 
-	"printname"		"Written"
-	"description"	"Written"
+	"printname"		"Scritto"
+	"description"	"Scritto"
 
 	"bucket"		"1"
 	"bucket_position"	"2"

@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Giovanni Book"
-	"description"	"Voce del Morte by Vincetti Marcus Giovanni, Consigliere."	// changed by wesp
+	"printname"	"Libro dei Giovanni"
+	"description"	"Voce della Morte di Vincetti Marcus Giovanni, Consigliere."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

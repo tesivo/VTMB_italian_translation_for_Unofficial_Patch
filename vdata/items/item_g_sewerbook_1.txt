@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Sewer Works Manual"
-	"description"	"A guide to sewer mains in the greater Los Angeles area. With references such as these, Nosferatu turn sluiceways and sludgepools into highways and havens. For global travel, enter the sewers and use one of the maps found on the wall."
+	"printname"	"Mappa del Sistema Fognario"
+	"description"	"Una guida alle principali aree fognarie di Los Angeles. Con roba del genere, per i Nosferatu gironzolare qua sotto e' una passeggiata. Per una guida globale, entra nelle fogne e usa una di queste mappe che trovi sul muro."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

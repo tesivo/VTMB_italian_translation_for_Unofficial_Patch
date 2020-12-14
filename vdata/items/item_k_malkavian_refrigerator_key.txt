@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Laboratory Refrigerator Key"
-	"description"	"It's just a key, there's not much to say about it."
+	"printname"	"Chiave della cella frigorifera del Laboratorio"
+	"description"	"E' soltanto una chiave, non c'e' molto da dire."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

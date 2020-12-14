@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Spare Key"
-	"description"	"This looks like someone's spare key."
+	"printname"	"Chiave di Riserva"
+	"description"	"La chiave di riserva di qualcuno."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

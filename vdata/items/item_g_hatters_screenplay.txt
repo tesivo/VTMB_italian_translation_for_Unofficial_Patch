@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Screenplay"
-	"description"	"David Hatter's screenplay. It is tentatively titled \"Humanity vs. The Vampire Lords\"."
+	"printname"	"Sceneggiatura"
+	"description"	"Sceneggiatura di David Hatter. Il titolo di prova e' \"Genere Umano vs. Le Tenebre\"."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

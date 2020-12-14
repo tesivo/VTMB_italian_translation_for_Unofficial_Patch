@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Girl's Photo"
-	"description"	"A photo of a young woman. The message on the back of the photo reads \"August 03, Santa Monica, Lily\"."
+	"printname"	"Foto di una Ragazza"
+	"description"	"Una foto di una giovane ragazza. Il messaggio sul retro dice \"3 Agosto, Santa Monica, Lily\"."
 
 	"bucket"		"1"
 	"bucket_position"	"2"
