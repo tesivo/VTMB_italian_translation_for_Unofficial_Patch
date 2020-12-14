@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"We're watching you!"	// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Ti stiamo osservando!"	// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""		// these surround the command prompt (2 characters), changed by wesp
 	"email_username"	"tom"		// printed at the top of the email window, not used for log in. 
 	"email_password"	"peep"	// printed at the top of the email window, not used for log in. 
@@ -9,8 +9,8 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Skyeline Apartments"
-		"line1"		"     Security"	// changed by wesp
+		"line0"		"Appartamenti Skyline"
+		"line1"		"Sicurezza"
 
 	}
 
@@ -23,15 +23,15 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Apartment Notes"
-		"description"		"Resident Notes"	
+		"name"			"Note Appartamenti"
+		"description"		"Note Residenti"	
 
 		Function
 		{
 			"name"		"Apt 1"
 			"description"	""	
 			"runtext"	"Apt 1.
-Simon Milligan. He's on TV, so odds are footage of his place will be worth something eventually. I gotta keep an eye on him."	// changed by wesp
+Simon Milligan. E' uno della TV, gira reportage molto quotati, sarebbe da tenere d'occhio."
 
 		}
 
@@ -40,7 +40,7 @@ Simon Milligan. He's on TV, so odds are footage of his place will be worth somet
 			"name"		"Apt 2"
 			"description"	""	
 			"runtext"	"Apt 2.
-Sean Milton. He's a slob, and he never really has chicks over. Some guy has been staying with him lately, so I haven't wanted to watch much."	// changed by wesp
+Sean Milton. E' uno zoticone, non se lo fila nessuna. Ultimamente ha frequentato alcuni ragazzi, non mi andava di guardare piu' di tanto."
 
 		}
 
@@ -49,7 +49,7 @@ Sean Milton. He's a slob, and he never really has chicks over. Some guy has been
 			"name"		"Apt 3"
 			"description"	""	
 			"runtext"	"Apt 3.
-Georgia Welch. This rich broad is pretty hot. Oh, the password on her door is 9648, so maybe I'll sneak in there and steal some panties to auction off online."	// changed by wesp
+Georgia Welch. Questa riccona e' una figa da sballo. E la password della sua porta e' 9648, quindi forse potrei rubare qualche mutandina mentre e' fuori casa."
 
 		}
 
@@ -58,7 +58,7 @@ Georgia Welch. This rich broad is pretty hot. Oh, the password on her door is 96
 			"name"		"Apt 4"
 			"description"	""	
 			"runtext"	"Apt 4.
-Vacant. No reason to keep an eye on this one."	// changed by wesp
+Vuoto. Non c'e' ragione di guardare qui dentro."
 
 		}
 
@@ -67,7 +67,7 @@ Vacant. No reason to keep an eye on this one."	// changed by wesp
 			"name"		"Apt 5"
 			"description"	""	
 			"runtext"	"Apt 5.
-Paul Anderson. I thought there was no reason to watch him, but then I caught him upstairs. I'll keep the tape rolling."	// changed by wesp
+Paul Anderson. Pensavo non ci fosse ragione per osservarlo, ma l'ho visto andare ai piani superiori. Lo osservero' meglio."
 		}
 
 		Function
@@ -75,7 +75,7 @@ Paul Anderson. I thought there was no reason to watch him, but then I caught him
 			"name"		"Apt 6"
 			"description"	""	
 			"runtext"	"Apt 6.
-Hannah Glazer. The gold mine! Something hot is always going down in here, and that something is usually Hannah herself."	// changed by wesp
+Hannah Glazer. E' una miniera d'oro! Laggiu' succede sempre qualcosa di piccante, e quel qualcosa spesso e' Hannah in persona."
 
 		}
 
@@ -83,8 +83,8 @@ Hannah Glazer. The gold mine! Something hot is always going down in here, and th
 
 	Email
 	{
-		"subject"	"hidden cameras online"				
+		"subject"	"telecamere nascoste online"				
 		"sender"	"Butch Rider"
-		"body"		"Hey Tom, it sounds like we have a deal. You keep sending in that security footage, and I'll pay you for the good stuff."
+		"body"		"Ehi Tom, abbiamo un accordo. Continua ad inviarmi quei video, e ti paghero' la buona roba."
 	}
 }

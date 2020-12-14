@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"I'll save your screen, NERD!"	// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Salvero' il tuo monitor, NERD!"	// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""		// these surround the command prompt (2 characters), changed by wesp
 	"email_username"	"gwelch"		// printed at the top of the email window, not used for log in. 
 	"email_password"	"riches"	// printed at the top of the email window, not used for log in. 
@@ -24,16 +24,16 @@ TerminalDefinition
 	
 	SubDir
 	{
-		"name"			"Safe"
-		"description"		"Safe"
+		"name"			"Cassaforte"
+		"description"		"Cassaforte"
 		"password"		"jewels"
 		"difficulty"		"6"
 
 		Function
 		{
-			"name"		"Unlock"
+			"name"		"Sblocca"
 			"description"	""
-			"runtext"	"Safe Unlocked."
+			"runtext"	"Sblocca Cassaforte."
 			"trigger"	"3"
 			"dependency"	"G.Patch_Plus == 1"
 		}
@@ -41,15 +41,15 @@ TerminalDefinition
 		{
 			"name"		"Unlock"
 			"description"	""
-			"runtext"	"Safe Unlocked."
+			"runtext"	"Sblocca Cassaforte."
 			"trigger"	"4"
 			"dependency"	"G.Patch_Plus == 0"
 		}
 		Function
 		{
-			"name"		"Lock"
+			"name"		"Bloccata"
 			"description"	""
-			"runtext"	"Safe Locked."
+			"runtext"	"Cassaforte Bloccata."
 			"trigger"	"5"
 		}
 	}

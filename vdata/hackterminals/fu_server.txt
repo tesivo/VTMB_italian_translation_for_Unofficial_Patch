@@ -10,7 +10,7 @@ TerminalDefinition
 	{
 		// Any number of lines are acceptable
 		"line0"		"Fu Syndicate"
-		"line1"		"  Security"	// changed by wesp
+		"line1"		"Sicurezza"
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -22,16 +22,16 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Door Control"	// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"name"			"Comando Porta"	// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"Freedom"	// password required to run commands in this menu (16 characters)
-		"description"		"Server Room Access"	// This is printed each time the user enters this menu (128 characters)
+		"description"		"Accesso alla Stanza Server"	// This is printed each time the user enters this menu (128 characters)
 		"difficulty"		"6"
 
 		Function
 		{
-			"name"		"Open"			// this is what the player must type in to trigger this function. (16 characters)
-			"description"	"Open the doors"		// this is a description of this function  (128 characters)
-			"runtext"	"Opened."	// this text is printed when the player triggers this function.  (128 characters)
+			"name"		"Apri"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Apri le porte"		// this is a description of this function  (128 characters)
+			"runtext"	"Aperte."	// this text is printed when the player triggers this function.  (128 characters)
 			"trigger"	"0"				// fires entity output 0 when this command is run
 		}
 	}

@@ -19,56 +19,56 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Surf Report"			// password required to run commands in this menu (16 characters)
-		"description"		"Surf Report, Southern CA"	 	// This is printed each time the user enters this menu (128 characters)
+		"name"			"Rapporto Surf"			// password required to run commands in this menu (16 characters)
+		"description"		"Rapporto Surf, Southern CA"	 	// This is printed each time the user enters this menu (128 characters)
 
 		Function
 		{
 			"name"		"Malibu"			// this is what the player must type in to trigger this function. (16 characters)
-			"description"	"Malibu Surf Report"		// this is a description of this function  (128 characters)
+			"description"	"Rapporto Surf Malibu"		// this is a description of this function  (128 characters)
 			"runtext"	"Malibu
-2-3 feet, occasional larger sets, water temperature 62."
-									// this text is printed when the player triggers this function, changed by wesp.  (128 characters)
+2-3 piedi, onde occasionali, temperatura dell'acqua 62."
+									// this text is printed when the player triggers this function.  (128 characters)
 		}
 
 		Function
 		{
-			"name"		"Santa Monica"	// changed by wesp
-			"description"	"Santa Monica Surf Report"		
+			"name"		"Santa Monica"
+			"description"	"Rapporto Surf Santa Monica"		
 			"runtext"	"Santa Monica
-3-4 feet, good, water temperature 63."	// changed by wesp
+3-4 piedi, calmo, temperatura dell'acqua 63."
 		}
 
 		Function
 		{
 			"name"		"Dockweiler"
-			"description"	"Dockweiler Surf Report"		
+			"description"	"Rapporto Surf Dockweiler"		
 			"runtext"	"Dockweiler
-2-3 feet, riptide, water temperature 64."	// changed by wesp
+2-3 piedi, alta marea, temperatura dell'acqua 64."
 		}
 
 		Function
 		{
 			"name"		"El Porto"
-			"description"	"El Porto Surf Report"		
+			"description"	"Rapporto Surf El Porto"		
 			"runtext"	"El Porto
-3-4 feet, riptide, water temperature 64."	// changed by wesp
+3-4 piedi, alta marea, temperatura dell'acqua 64."
 		}
 
 		Function
 		{
 			"name"		"Hermosa"
-			"description"	"Hermosa Surf Report"		
+			"description"	"Rapporto Surf Hermosa"		
 			"runtext"	"Hermosa
-5-6 feet, great conditions, water temperature 64."	// changed by wesp
+5-6 piedi, splendide condizioni, temperatura dell'acqua 64."
 		}
 
 		Function
 		{
 			"name"		"Redondo"
-			"description"	"Redondo Surf Report"		
+			"description"	"Rapporto Surf Redondo"		
 			"runtext"	"Redondo
-5-6 feet, great conditions, water temperature 65."	// changed by wesp
+5-6 piedi, splendide condizioni, temperatura dell'acqua 65."
 		}
 
 
@@ -76,9 +76,9 @@ TerminalDefinition
 
 	Email
 	{
-		"subject"	"Keep your board riding smooth"
+		"subject"	"Continua a cavalcare"
 		"sender"	"Shark Lube"	
-		"body"		"Shark Lube keeps your board riding smooth when things get wet!"
+		"body"		"Shark Lube continua a cavalcare la tavola quando si alzano le onde!!"
 	}
-	
+
 }

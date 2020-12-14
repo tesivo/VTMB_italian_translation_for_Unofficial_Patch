@@ -10,7 +10,7 @@ TerminalDefinition
 	{
 		// Any number of lines are acceptable
 		"line0"		"        The Asylum"	// changed by wesp
-		"line1"		"Good Evening, Miss Voerman"
+		"line1"		"Buona sera, Miss Voerman"
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -20,16 +20,16 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Contacts"			// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"name"			"Contatti"			// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"business"			// password required to run commands in this menu (16 characters)
-		"description"		"Business Associates"	 	// This is printed each time the user enters this menu (128 characters)
+		"description"		"Affaristi Associati"	 	// This is printed each time the user enters this menu (128 characters)
 
 		Function
 		{
 			"name"		"LaCroix"	// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Sebastian LaCroix"		// this is a description of this function  (128 characters)
 			"runtext"	"Sebastian LaCroix
-(213) 555-4508, Ext 702, Camarilla Prince of LA"	// changed by wesp
+(213) 555-4508, Ext 702, Camarilla Principe di LA"
 		}
 
 		Function
@@ -37,7 +37,7 @@ TerminalDefinition
 			"name"		"Tung"	// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Bertram Tung"		// this is a description of this function  (128 characters)
 			"runtext"	"Bertram Tung
-bertram@schrecknet.vtm, local Nosferatu"	// changed by wesp
+btung@schreck.vtm, Nosferatu locale"
 		}
 
 		Function
@@ -45,7 +45,7 @@ bertram@schrecknet.vtm, local Nosferatu"	// changed by wesp
 			"name"		"Johnson"	// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Julian Johnson"	// this is a description of this function  (128 characters)
 			"runtext"	"Julian Johnson
-(310) 555-3657, jj@cconstruction.vtm, Community Construction"	// changed by wesp
+(310) 555-3657, jj@cconstruction.vtm, Comunita' di Costruzioni"
 		}
 
 		Function
@@ -53,7 +53,7 @@ bertram@schrecknet.vtm, local Nosferatu"	// changed by wesp
 			"name"		"Miller"			// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Jeff \"The Flow\" Miller"		// this is a description of this function  (128 characters)
 			"runtext"	"Jeff \"The Flow\" Miller
-(213) 555-2617, theflow@undergroundsound.vtm, Disk Jockey"	// changed by wesp
+(213) 555-2617, theflow@undergroundsound.vtm, Disk Jockey"
 		}
 
 		Function
@@ -61,7 +61,7 @@ bertram@schrecknet.vtm, local Nosferatu"	// changed by wesp
 			"name"		"Vandal"	// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Vandal"		// this is a description of this function  (128 characters)
 			"runtext"	"Vandal Cleaver
-(310) 555-7280, Blood Bank Manager"	// changed by wesp
+(310) 555-7280, Manager della Banca del Sangue"
 		}
 
 		Function
@@ -69,15 +69,15 @@ bertram@schrecknet.vtm, local Nosferatu"	// changed by wesp
 			"name"		"LaBeau"		// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Pierre LaBeau"		// this is a description of this function  (128 characters)
 			"runtext"	"Pierre LaBeau
-(818) 555-9072, Art Coordinator"	// changed by wesp
+(818) 555-9072, Coordinatore Artistico"
 		}		
 	}
 
 	Email
 	{
-		"subject"	"Nectar of the Gods"
+		"subject"	"Nettare degli Dei"
 		"sender"	"Vandal Cleaver"	
-		"body"		"Miss Voerman, your humble servant has done his all to provide you with yet another batch of the finest sanguine spirits. And I apologize for not pouring it when you asked, last time. Forgive me - unlike you, I'm an imperfect being."	// changed by wesp
+		"body"		"Miss Voerman, il tuo umile servo ha fatto il possibile per trovare un altro gruppo dei migliori spiriti sanguigni. Mi scuso per non averlo versato quando me l'hai chiesto, l'ultima volta. Perdonami - diversamente da te, sono un essere imperfetto."
 
 	}
 
@@ -85,31 +85,31 @@ bertram@schrecknet.vtm, local Nosferatu"	// changed by wesp
 	{
 		"subject"	"Halting Construction"
 		"sender"	"Julian Johnson"	
-		"body"		"Look, Miss Voerman. I'm really sorry to do this, but the men won't work there any more. They say it's haunted."	// changed by wesp
+		"body"		"Non so come dirglielo, Miss Voerman. Mi dispiace, ma i ragazzi non intendono piu' lavorare li'. Dicono che e' infestato."
 
 	}
 
 	Email
 	{
-		"subject"	"re: Santa Monica is MY city!!"
+		"subject"	"re: Santa Monica e' la MIA citta'!!"
 		"sender"	"Jeanette"	
-		"body"		"Why are you always so mean? Bertie's not so bad once you get to know him. You're the disgusting one!"
+		"body"		"Perche' devi essere sempre cosi' rude? Bertie non e' cosi' male una volta che lo conosci. Tu sei disgustosa invece!"
 		"dependency"	"G.Therese_Quest >= 1"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"re: Santa Monica is MY city!!"
+		"subject"	"re: Santa Monica e' la MIA citta'!!"
 		"sender"	"Jeanette"
-		"body"		"No, your bitchy attitude is tearing us apart. You need to cool off, why don't you go swim in the Pacific and look for your pendant?"
+		"body"		"No, il tuo comportamento da puttana ci sta dividendo. Hai bisogno di tranquillizzarti, perche' non cerchi il tuo ciondolo sul fondo del Pacifico?"
 		"dependency"	"G.Therese_Quest > 2 and G.Jeanette_Scorn == 0"	// changed by wesp
 	}
 
 	Email		// added by wesp
 	{
-		"subject"	"re: Santa Monica is MY city!!"
+		"subject"	"re: Santa Monica è la MIA città!!"
 		"sender"	"Jeanette"
-		"body"		"No, your bitchy attitude is tearing us apart. You need to cool off, why don't you go swim in the Pacific?"
+		"body"		"No, il tuo atteggiamento da stronza ci sta facendo a pezzi. Hai bisogno di rinfrescarti, perché non vai a nuotare nel Pacifico?"
 		"dependency"	"G.Therese_Quest > 2 and G.Jeanette_Scorn == 1"	// changed by wesp
 	}
 

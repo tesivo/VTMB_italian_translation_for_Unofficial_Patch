@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Surgical forceps are not a toy!"	// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Le pinze chirurgiche non sono un giocattolo!"	// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
 	"email_username"	"dboyle"		// printed at the top of the email window, not used for log in. 
 	"email_password"	"lakers"		// printed at the top of the email window, not used for log in. 
@@ -9,9 +9,9 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"  S.M.M.C. Secure Console"	// changed by wesp
-		"line1"		"  Administration Offices"	// changed by wesp
-		"line2"		"Danny Boyle, Administrator"
+		"line0"		"Console di Sicurezza C.M.S.M."
+		"line1"		"Uffici Amministrativi"
+		"line2"		"Danny Boyle, Amministratore"
 
 	}
 
@@ -24,100 +24,100 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Personnel"
-		"description"		"Confidential Information"	
+		"name"			"Personale"
+		"description"		"Informazioni Riservate"	
 
 		Function
 		{
 			"name"		"Flabottomus, P"
-			"description"	"Employment History"	
+			"description"	"Eventi"	
 			"runtext"	"Flabottomus, P
-Phil Flabottomus is a loyal employee, and a hard worker, but seems to have various digestive tract abnormalities which, unfortunately, result in an increased rate of flatulence. The smell of these phenomena is nothing short of horrendous. It seems we may have to do something about him."	// changed by wesp
+Phil Flabottomus e' un dipendente leale e un lavoratore diligente, ma sembra avere varie anomalie digestive le quali, sfortunatamente, danno luogo ad un alto tasso di flatulenza. La puzza di questo fenomeno e' orribile. Dobbiamo fare qualcosa per lui."
 		}
 
 		Function
 		{
 			"name"		"Bill, E"
-			"description"	"Employment History"	
+			"description"	"Eventi"	
 			"runtext"	"Bill, E
-Dr. Bill has worked as this clinic's internal wrangler since 1999."	// changed by wesp
+Il Dr. Bill svolge tirocinio presso questa clinica dal 1999."
 		}
 		
 		Function
 		{
 			"name"		"St. Martin, M"
-			"description"	"Employment History"	
+			"description"	"Eventi"	
 			"runtext"	"St. Martin, M
-Malcolm St. Martin is our night shift senior physician."	// changed by wesp
+Malcolm St. Martin e' la guardia medica notturna."
 		}
 
 		Function
 		{
 			"name"		"Roberts, D"
-			"description"	"Employment History"	
+			"description"	"Eventi"	
 			"runtext"	"Roberts, D
-Has never lost a patient. No one can succeed like Dr. Roberts."	// changed by wesp
+Non ha mai perso un paziente. Nessuno e' bravo come il Dr. Roberts."
 		}
 
 		Function
 		{
 			"name"		"Thornton, K"
-			"description"	"Employment History"	
+			"description"	"Eventi"	
 			"runtext"	"Thornton, K
-Several malpractice suits filed against him for unnecessary gynecology. Suggest termination."	// changed by wesp
+Diverse critiche contro di lui per pratiche ginecologiche non necessarie. Suggerisco il licenziamento."
 		}
 	}
 
 	Email
 	{
-		"subject"	"A little help"
+		"subject"	"Un piccolo aiuto"
 		"sender"	"Fred Dingo"
-		"body"		"Hey, Danny. I could use a little help down here. Can you go up to Controlled Substances for some morphine? I'm pretty busy right now. Thanks. F-Dog."
+		"body"		"Ehi, Danny. Ho bisogno del tuo aiuto, potresti andare su alle Sostanze Controllate per un po' di morfina? Sono piuttosto impegnato ora. Grazie mille. F-Dog."
 		"dependency"	"G.Werewolf_Quest == 0 or G.PP == 1"	// changed by wesp
 	}
 		
 	Email
 	{
-		"subject"	"Re: yo mama"
+		"subject"	"Re: Tua madre"
 		"sender"	"Fred Dingo"
-		"body"		"No, it's not for my personal use, you bastard.... :) I didn't know they were out upstairs. Maybe you can get some in Malcolm's office. BTW, your mother wears combat boots. F-dog."
+		"body"		"No, non e' per uso personale, bastardo.... :) Non sapevo che vigilassero i piani superiori. Forse puoi trovarne un po' nell'ufficio di Malcolm. CMQ, tua madre indossa stivali da combattimento. F-dog."
 		"dependency"	"G.Werewolf_Quest == 0 or G.PP == 1"	// changed by wesp
 	}
 	Email
 	{
-		"subject"	"Re: amnesia"
+		"subject"	"Re: Amnesia"
 		"sender"	"Fred Dingo"
-		"body"		"Oh, shit! That's cold. But I'll make sure to knock before I go in. I'd hate to catch him in the middle of a \"pelvic examination\". And by the way... tell your mom to stop calling me. F-dog."
+		"body"		"Oh, merda! Ma faro' in modo di bussare prima di entrare. Non vorrei trovarlo nel mezzo di un \"esame pelvica\". E comunque... di' a tua madre di smettere di chiamarmi. F-dog."
 		"dependency"	"G.Werewolf_Quest == 0 or G.PP == 1"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"Strange blood sample"
+		"subject"	"Strano campione di sangue"
 		"sender"	"Fred Dingo"
-		"body"		"Hey, Danny. We received an interesting blood sample from someone over at the Sun. I guess some freak told them it was \"werewolf\" blood. Can you believe that shit? Anyway, they're paying us to run the numbers, so could you do it on your next shift? Many thanks. F-Dog."
+		"body"		"Ehi, Danny. Abbiamo ricevuto un interessante campione di sangue. Vogliono sapere se si tratta di sangue di  \"lupomannaro\". Tu crederesti a queste stronzate?! Comunque ci pagano per fare il nostro lavoro, ti va di farlo il prossimo turno? Molte grazie. F-Dog."
 		"dependency"	"G.Werewolf_Quest ==  1"
 	}
 		
 	Email
 	{
-		"subject"	"Re: blood test"
+		"subject"	"Re: Test del sangue"
 		"sender"	"Fred Dingo"		
-		"body"		"How the hell am I supposed to know what you're testing for? Get creative.... :) It's really not a big deal, but just see if there's anything strange about it. F-dog."
+		"body"		"Come diavolo dovrei sapere cosa stai testando? Usa l'immaginazione.... :) Non c'e' molto da fare, ma almeno vedi se c'e' qualcosa di strano. F-dog."
 		"dependency"	"G.Werewolf_Quest ==  1"
 	}
 	Email
 	{
-		"subject"	"Re: where is it?"
+		"subject"	"Re: Dov'e'?"
 		"sender"	"Fred Dingo"		
-		"body"		"Oh yeah, sorry. The sample is in the electronic cabinet in Controlled Substances. BTW, you down for some hoops this weekend? F-dog."
+		"body"		"Ah gia' scusa. Il campione e' nell'armadietto elettronico delle Sostanze Controllate. CMQ, sei libero per un paio di tiri a canestro questo fine settimana? F-dog."
 		"dependency"	"G.Werewolf_Quest ==  1"
 	}
 	Email
 	{
-		"subject"	"Re: you're on thin ice"
+		"subject"	"Re: Sull'orlo del precipizio"
 		"sender"	"Fred Dingo"
-		"body"		"Jesus! Do you know anything? I had Phil change the password a few hours ago. The new password is the name of Malcolm's dirty little secret. Ooops!!! Did I say that? You better delete this thing when you're done reading it! See you at the park on Saturday morning. F-dog."
+		"body"		"Gesu'! Non sai nulla? Phil ha cambiato la password un paio di ore fa. La nuova password e' il nome del piccolo segreto di Malcolm. Ooops!!! L'ho detto? E' meglio se cancelli questa cosa dopo averla letta! Ci vediamo al parco Sabato mattina. F-dog."
 		"dependency"	"G.Werewolf_Quest ==  1"
 	}
 }

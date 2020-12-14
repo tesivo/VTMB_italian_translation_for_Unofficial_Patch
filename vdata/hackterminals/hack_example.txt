@@ -1,6 +1,6 @@
 TerminalDefinition	// char limits fixed by psycho-a
 {
-	"screen saver"		"Abrams Jewelry, Inc."	// bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Abrams Jewelry, Inc."	// bounces around on the screen when the terminal is not being used.
 	"brackets"		""			// these surround the command prompt and subdirectory names (2 characters), changed by wesp
 
 	"email_password"	"letmein"		// the user must type this to access email from this terminal
@@ -16,28 +16,28 @@ TerminalDefinition	// char limits fixed by psycho-a
 	// you can have up to 5 subdirs per terminal
 	// and up to 6 functions per sub dir
 	// there are 8 total outputs per terminal, (0...7)
-	// talk to Brock if you'd like this number increased.
+	// talk to Brock if you'd like this number increased. 
 
 	SubDir
 	{
-		"name"			"Safe"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (15 characters)
-		"password"		"griff"				// password required to run commands in this menu (15 characters)
-		"description"		"Safe Security Controls"	// This is printed each time the user enters this menu (30 characters)
+		"name"			"Cassaforte"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"password"		"griff"				// password required to run commands in this menu (16 characters)
+		"description"		"Comandi di Sicurezza Cassaforte"	// This is printed each time the user enters this menu (30 characters)
 
 		Function
 		{
-			"name"		"Unlock"			// this is what the player must type in to trigger this function (15 characters)
-			"description"	"Unlock Safe"			// this is a description of this function (30 characters)
-			"runtext"	"Safe doors unlocked."		// this text is printed when the player triggers this function (512 characters)
+			"name"		"Sblocca"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Sblocca Cassaforte"			// this is a description of this function  (128 characters)
+			"runtext"	"Cassaforte sbloccata."		// this text is printed when the player triggers this function.  (128 characters)
 			"trigger"	"0"				// fires entity output 0 when this command is run
 			"runscript"	"G.Safe_Locked = 0"
 		}
 
 		Function
 		{
-			"name"		"Lock"
-			"description"	"Lock Safe"		
-			"runtext"	"Safe doors locked."
+			"name"		"Blocca"
+			"description"	"Blocca cassaforte"		
+			"runtext"	"Cassaforte bloccata."
 			"trigger"	"1"		
 			"runscript"	"G.Safe_Locked = 1"
 		}
@@ -45,45 +45,45 @@ TerminalDefinition	// char limits fixed by psycho-a
 
 	SubDir
 	{
-		"name"			"Printer"	// (15 characters)
-		"description"		"Printer Control"
+		"name"			"Stampante"	//(15 characters)
+		"description"		"Comandi Stampante"	
 
 		Function
 		{
-			"name"		"invoices"
-			"description"	"print a list of recent transactions"	
-			"runtext"	"Sending invoice list to printer, please wait..."
+			"name"		"Fatture"
+			"description"	"stampa una lista di transazioni recenti"	
+			"runtext"	"Invio lista fattura alla stampante, attendere...."
 		}
 	}
 
 	Email
 	{
-		"subject"	"A reminder"
+		"subject"	"Un promemoria"
 		"sender"	"LaCroix"
-		"body"		"Mercurio will contact you when you arrive in Santa Monica. Waste no time in meeting with him. -SL"
+		"body"		"Mercurio ti contattera' non appena arriverai a Santa Monica. Non perdere tempo ed incontralo. -SL"
 	}
 
 	Email
 	{
-		"subject"	"DANG! It's big you know!!!111"
-		"sender"	"Hung Low"
-		"body"		"PENIS ENLARGEMENT! Watch the girls come running! Call today! 1-800-BIG-STICK!"
+		"subject"	"Le misure CONTANO, lo sai. E non solo loro!"
+		"sender"	"Hung Low"		
+		"body"		"ALLUGA IL TUO PENE! Le ragazze ti correranno dietro! 1-800-BIG-STICK!"
 		"autodelete"	"1"
 	}
 
 	Email
 	{
-		"subject"	"The first move"
-		"sender"	"a friend"
-		"body"		"The king sends out his pawn."
+		"subject"	"La prima mossa"
+		"sender"	"un amico"		
+		"body"		"Il re invia la sua pedina."
 		"dependency"	"G.Story_State < 10"
 	}
 
 	Email
 	{
-		"subject"	"I want to see you soon"
-		"sender"	"Jeanette  Voerman"
-		"body"		"I'm bored. Can't you come entertain me? I'm at the club.... XOXOXO"
+		"subject"	"Voglio vederti presto"
+		"sender"	"Jeanette  Voerman"		
+		"body"		"Sono annoiata. Non puoi intrattenermi? Sono al club.... Baci"
 		"dependency"	"G.Jeanette_Know > 0"
 		"runscript"	"G.Jeanette_Invite = 1"
 	}

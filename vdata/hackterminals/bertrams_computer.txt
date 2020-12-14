@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Go away!"		// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Vai via!"		// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
 	
 	"email_password"	"tung"		// the user must type this to access email from this terminal
@@ -9,7 +9,7 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"          Vindows XP"	// changed by wesp 
+		"line0"		"          Vindows XP"	// changed by wesp
 		"line1"		"I've come to vipe your vindows"
 	}
 
@@ -22,37 +22,37 @@ TerminalDefinition
 	{
 		"name"			"Notes"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"obfuscate"			// password required to run commands in this menu (16 characters)
-		"description"		"Notes on Santa Monica" 	// This is printed each time the user enters this menu (128 characters)
+		"description"		"Note su Santa Monica" 	// This is printed each time the user enters this menu (128 characters)
 
 		Function
 		{
 			"name"		"Asylum"			// this is what the player must type in to trigger this function. (16 characters)
-			"description"	"Info on the Asylum"		// this is a description of this function  (128 characters)
-			"runtext"	"Run by vampiric sisters. I like Jeanette better than Therese."
+			"description"	"Informazioni sull'Asylum"		// this is a description of this function  (128 characters)
+			"runtext"	"Gestito da sorelle vampire. Mi piace piu' Jeanette di Therese."
 									// this text is printed when the player triggers this function.  (128 characters)
 		}
 
 		Function
 		{
 			"name"		"Gallery Noir"
-			"description"	"How to get in"		
-			"runtext"	"There is a back entrance in the alley. Weak pipes between parking structure and alley could be broken off."			
+			"description"	"Come Entrare"		
+			"runtext"	"C'e' un'entrata nel vicolo sul retro. Le sbarre tra il parcheggio ed il vicolo sono deboli, alcune potrebbero essere rotte."			
 		}
 	}
 
 	Email	// added by wesp
 	{
-		"subject"	"I want to see you soon"
+		"subject"	"Voglio vederti presto"
 		"sender"	"Jeanette"		
-		"body"		"I'm bored. Can't you come entertain me? I'm at the club.... XOXOXO"
-		"dependency"	"G.Patch_Plus == 1"
+		"body"		"Sono annoiata. Che ne dici di farmi divertire?Sono al club.... Baci"
+	    "dependency"	"G.Patch_Plus == 1"
 	}
 
 	Email
 	{
-		"subject"	"Run away!"
+		"subject"	"Scappa!"
 		"sender"	"Jeanette"	
-		"body"		"Bertie, the stick-in-the-mud is mad. You better lie low for a while...."
+		"body"		"Bertie, la conservatrice e' pazza. E' meglio se ti nascondi per un po'...."
 	}
 
 	

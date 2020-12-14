@@ -1,236 +1,237 @@
 TerminalDefinition
 {
-	"screen saver"		"EEP Shipping"	// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Spedizioni EEP"	// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
 
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"  EEP Shipping"	// changed by wesp
+		"line0"		"Spedizioni EEP"
 		"line1"		"NZ Elizabeth Dane"
 	}
 
 	SubDir
 	{
-		"name"			"Reports"
-		"description"		"Ship Reports"
+		"name"			"Rapporti"
+		"description"		"Rapporti nave"
 
 		Function
 		{
-			"name"		"Weather"
-			"description"	"SHIP STATUS" // RM: Old coordinates had it smack dab in the middle of Long Beach Airport
-			"runtext"	"Location   33.98N,118.60W
-Seas       CALM
-Air Temp   65F
-Sea Temp   43F"	// changed by wesp
+			"name"		"Condizioni"
+			"description"	"STATO NAVE" // RM: Le vecchie coordinate erano proprio nel mezzo dell'Aeroporto di Long Beach
+			"runtext"	"STATO NAVE
+Posizione   33.98N,118.60W
+Mare       CALMO
+Temp Aria   65F
+Temp Mare   43F"
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    OFF
-Deck Cams  OFF
-Locks      LOCKED"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    OFF
+Telecamere Ponte  OFF
+Serrature    BLOCCATE"
 			"dependency"	"G.Dane_Cams == 0 and G.Dane_Locks == 0 and G.Dane_Engines == 0"	// changed by wesp
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    OFF
-Deck Cams  ON
-Locks      LOCKED"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    OFF
+Telecamere Ponte  ON
+Serrature    BLOCCATE"
 			"dependency"	"G.Dane_Cams == 1 and G.Dane_Locks == 0 and G.Dane_Engines == 0"	// changed by wesp
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    OFF
-Deck Cams  OFF
-Locks      OPEN"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    OFF
+Telecamere Ponte  OFF
+Serrature    SBLOCCATE"
 			"dependency"	"G.Dane_Cams == 0 and G.Dane_Locks == 1 and G.Dane_Engines == 0"	// changed by wesp
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    ON
-Deck Cams  OFF
-Locks      LOCKED"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    ON
+Telecamere Ponte  OFF
+Serrature    BLOCCATE"
 			"dependency"	"G.Dane_Cams == 0 and G.Dane_Locks == 0 and G.Dane_Engines == 1"	// changed by wesp
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    OFF
-Deck Cams  ON
-Locks      OPEN"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    OFF
+Telecamere Ponte  ON
+Serrature    SBLOCCATE"
 			"dependency"	"G.Dane_Cams == 1 and G.Dane_Locks == 1 and G.Dane_Engines == 0"	// changed by wesp
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    ON
-Deck Cams  ON
-Locks      LOCKED"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    ON
+Telecamere Ponte  ON
+Serrature    BLOCCATE"
 			"dependency"	"G.Dane_Cams == 1 and G.Dane_Locks == 0 and G.Dane_Engines == 1"	// changed by wesp
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    ON
-Deck Cams  OFF
-Locks      OPEN"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    ON
+Telecamere Ponte  OFF
+Serrature    SBLOCCATE"
 			"dependency"	"G.Dane_Cams == 0 and G.Dane_Locks == 1 and G.Dane_Engines == 1"	// changed by wesp
 		}
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SHIP STATUS"
-			"runtext"	"SHIP STATUS
-Engines    ON
-Deck Cams  ON
-Locks      OPEN"
+			"name"		"Stato"
+			"description"	"STATO NAVE"
+			"runtext"	"STATO NAVE
+Motori    ON
+Telecamere Ponte  ON
+Serrature    SBLOCCATE"
 			"dependency"	"G.Dane_Cams == 1 and G.Dane_Locks == 1 and G.Dane_Engines == 1"	// changed by wesp
 		}
 	}
 
 	SubDir
 	{
-		"name"			"Log"
+		"name"			"Diario"
 		"password"		"AntonioBay"
 		"difficulty"		"6"	// changed by wesp from 9
-		"description"		"Captain's Log"
+		"description"		"Diario di Bordo"
 
 		Function
 		{
 			"name"		"10.10.04"
-			"description"	"Captain's Log: October 10th, 2004"
-			"runtext"	"Waters calm as we head out of Istanbul. Professor Johansen seemed very worried about the safety of the sarcophagus and various other artifacts from his dig, but I assured him that all was well."
+			"description"	"Diario di Bordo: 10 Ottobre, 2004"
+			"runtext"	"Acque calme alla partenza da Istanbul. Il Professor Johansen sembrava molto preoccupato della sicurezza del sarcofago e altri vari artefatti al suo interno, ma gli ho assicurato che era tutto ok."
 		}
 
 		Function
 		{
-			"name"		"10.14.04"
-			"description"	"Captain's Log: October 14th, 2004"
-			"runtext"	"Rough waters last evening. Operations normal, but the crew seems restless. One of the Turks has been telling them ghost stories. I had Lt. Stygian take him aside and speak with him."
+			"name"		"14.10.04"
+			"description"	"Diario di Bordo: 14 Ottobre, 2004"
+			"runtext"	"Acque tempestose la scorsa notte. Operazioni normali, ma l'equipaggio sembra sfinito. Uno dei Turchi ha raccontato loro storie sui fantasmi. Ho detto al Tenente Stygian di prenderlo da parte e parlargli."
 		}
 
 		Function
 		{
-			"name"		"10.15.04"
-			"description"	"Captain's Log: October 15th, 2004"
-			"runtext"	"Nothing to report. Situation normal."
+			"name"		"15.10.04"
+			"description"	"Diario di Bordo: 14 Ottobre, 2004"
+			"runtext"	"Nulla da dire. Situazione normale."
 		}
 
 		Function
 		{
-			"name"		"10.17.04"
-			"description"	"Captain's Log: October 17th, 2004"
-			"runtext"	"Two of the crew have gone missing, and I fear they may have fallen overboard sometime during the night. No trace of either. Lt. Stygian has tried to contact their families, but something seems to have gone wrong with the radio.
-We may have a saboteur on board... the crate holding the sarcophagus seems to have been opened."
+			"name"		"17.10.04"
+			"description"	"Diario di Bordo: 17 Ottobre, 2004"
+			"runtext"	"Due uomini dell'equipaggio sono spariti e ho paura che siano caduti in mare durante la notte. Non ci sono tracce di loro. Il Tenente Stygian ha provato a contattare le famiglie, ma sembra che la radio non funzioni.
+Potremmo avere un sabotatore a bordo... la cassa che contiene il sarcofago sembra essere stata aperta."
 		}
 
 		Function
 		{
-			"name"		"10.19.04"
-			"description"	"Captain's Log: October 17th, 2004"
-			"runtext"	"We have found blood on the upper and lower decks, and it seems that at least three more of the crew are missing. The men are hysterical. I found the Turk in his cabin, curled up into a ball, muttering something indecipherable to himself. Lt. Stygian is one of the missing crew, as well as the radio technician.
-One of the men had a short wave radio, but all calls for help have gone unanswered."
+			"name"		"19.10.04"
+			"description"	"Diario di Bordo: 19 Ottobre, 2004"
+			"runtext"	"Abbiamo trovato sangue sul ponte superiore e quello inferiore, e sembra che almeno altri tre uomini siano spariti. Gli uomini sono isterici. Ho trovato il Turco nella sua cabina, raggomitolato come una palla, che mormorava qualcosa di indecifrabile a se stesso. Il Tenente Stygian e' uno degli uomini spariti, cosi' come il tecnico di radio.
+Uno degli uomini aveva una radio a onde corte, ma tutte le richieste di aiuto sono rimaste senza risposta."
 		}
 
 		Function
 		{
-			"name"		"10.20.04"
-			"description"	"Captain's Log: October 20th, 2004"
-			"runtext"	"I leave this to whoever may find it. THIS SHIP IS CURSED. May it sink to the crushing depths of Davy Jones' Locker before therhbnkhjljsdlkajkl"
+			"name"		"20.10.04"
+			"description"	"Diario di Bordo: 20 Ottobre, 2004"
+			"runtext"	"Lascio questo messaggio a chiunque lo trovi. QUESTA NAVE E' MALEDETTA. Affondatela prima che larhbnkhjljsdlkajkl"
 		}
 	}
 
 	Subdir
 	{
-		"name"			"Control"
+		"name"			"Comandi"
 		"password"		"lighthouse"
 		"difficulty"		"4"	// changed by wesp from 7
-		"description"		"Ship Functions"
+		"description"		"Funzioni della Nave"
 
 		Function
 		{
-			"name"		"Start Engines"
-			"description"	"Starting Engines"
-			"runtext"	"Engines primed and engaged. Control routed to Helm."
+			"name"		"Avvia Motori"
+			"description"	"Avviamento dei motori"
+			"runtext"	"Motori avviati e pronti. Controllo al Timone."
 			"dependency"	"G.Dane_Engines == 0"
 			"runscript"	"daneSetEngines()"
 		}
 
 		Function
 		{
-			"name"		"Stop Engines"
-			"description"	"Shutting Down Engines"
-			"runtext"	"Engines disengaged. Helm control deactivated."
+			"name"		"Spegni Motori"
+			"description"	"Motori in spegnimento"
+			"runtext"	"Motori spenti Controllo al Timone disattivato."
 			"dependency"	"G.Dane_Engines == 1"
 			"runscript"	"daneSetEngines()"
 		}
 
 		Function
 		{
-			"name"		"Sound Horn"
-			"description"	"Sound Horn"
-			"runtext"	"Sounding horn."
+			"name"		"Suona Tromba"
+			"description"	"Suona Tromba"
+			"runtext"	"Suono della tromba."
 			"runscript"	"daneSoundHorn()"
 		}
 
 		Function
 		{
-			"name"		"Deck Cams ON"
-			"description"	"Deck Security Cameras"
-			"runtext"	"Deck security enabled."
+			"name"		"Telecamere Ponte ON"
+			"description"	"Telecamere di Sicurezza del Ponte"
+			"runtext"	"Telecamere di Sicurezza del Ponte attivate."
 			"dependency"	"G.Dane_Cams == 0"
 			"runscript"	"daneSetCams()"
 		}
 
 		Function
 		{
-			"name"		"Deck Cams OFF"
-			"description"	"Deck Security Cameras"
-			"runtext"	"Deck security disabled."
+			"name"		"Telecamere Ponte OFF"
+			"description"	"Telecamere di Sicurezza del Ponte"
+			"runtext"	"Telecamere di Sicurezza del Ponte disattivate."
 			"dependency"	"G.Dane_Cams == 1"
 			"runscript"	"daneSetCams()"
 		}
 
 		Function
 		{
-			"name"		"Unlock Records"	// changed by wesp
-			"description"	"Bulkhead Locks"
-			"runtext"	"Records Room unlocked."	// changed by wesp
+			"name"		"Sblocca Porte"
+			"description"	"Serrature della Paratia"
+			"runtext"	"Tutte le paratie aperte."
 			"dependency"	"G.Dane_Locks == 0"
 			"runscript"	"daneSetLocks()"
 		}
 
 		Function
 		{
-			"name"		"Lock Records"	// changed by wesp
-			"description"	"Bulkhead Locks"
-			"runtext"	"Records Room locked."	// changed by wesp
+			"name"		"Blocca Porte"
+			"description"	"Serrature della Paratia"
+			"runtext"	"Tutte le paratie chiuse."
 			"dependency"	"G.Dane_Locks == 1"
 			"runscript"	"daneSetLocks()"
 		}

@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Confession"		// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Confessione"		// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
 
 
@@ -13,45 +13,45 @@ TerminalDefinition
 		"line0"		"Venus Dare"
 	}
 
-// 	SubDir
+//	SubDir
 //	{
-//		"name"			"Important"	//(128 characters)
+//		"name"			"Importante"	//(128 characters)
 //		"password"		"master"
 //		"description"		"Sabbat2"
 //
 //		Function
 //		{
 //			"name"		"Sabbat2"
-//			"description"	"Gargoyle Weakness"
-//			"runtext"	"The Gargoyle seems to be nearly impervious to firearms. Perhaps a blunt instrument would be more effective."
+//			"description"	"Punto debole del Gargoyle"
+//			"runtext"	"Il Gargoyle sembra fregarsene delle armi da fuoco. Forse un'arma contundente sarebbe piu' efficace."
 //		}
 //	disabled by wesp
 //		Function
 //		{
 //			"name"		"Sabbat1"
 //			"description"	"Sabbat Gargoyle"
-//			"runtext"	"The Sabbat have taken over the old Asian Theater, and placed a Gargoyle to guard it."
+//			"runtext"	"Il Sabbat ha preso la gestione del vecchio Asian Theater, e ha collocato un Gargoyle di guardia."
 //		}
 //	}
 //	Email
 //	{
-//		"subject"	"Re: The Sabbat are here."
+//		"subject"	"Re: I Sabbat sono qui."
 //		"sender"	"IAabrams@SMMCmail.vtm"
-//		"body"		"It is confirmed. They are located in the subway tunnel off the sewers."
+//		"body"		"E' confermato. Sono nel tunnel della metropolitana fuori dalle fogne."
 //	}
 //	disabled by wesp
 //	Email
 //	{
-//		"subject"	"The Sabbat are here."
+//		"subject"	"I Sabbat sono qui."
 //		"sender"	"IAabrams@SMMCmail.vtm"
-//		"body"		"Rumor has it that the Sabbat are infiltrating Los Angeles. I'll get you more information when I can."
+//		"body"		"Alcune voci dicono che i Sabbat si stanno infiltrando a Los Angeles. Ti daro' piu' informazioni appena posso."
 //	}
 
 	Email
 	{
-		"subject"	"Tonight?"
+		"subject"	"Stanotte?"
 		"sender"	"Larry"	// changed by wesp
-		"body"		"I thought we might get together tonight if it pleases you, mistress."
+		"body"		"Pensavo che potremmo vederci stanotte se ti va, maestra."
 	}
 
 }

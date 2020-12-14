@@ -1,34 +1,34 @@
 TerminalDefinition
 {
-	"screen saver"		"Society of Leopold"	// Bounces around on the screen when the terminal is not being used, changed by wesp
+	"screen saver"		"Banca del Sangue Santa Monica"	// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""				// these surround the command prompt (2 characters), changed by wesp
 	"difficulty"		"5"
 
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Society of Leopold"
+		"line0"		"Societa' di Leopold"
 	}
 
 	SubDir
 	{
-		"name"			"power"
+		"name"			"corrente"
 		"password"		"soc"
-		"description"		"Enable or disable charges"
+		"description"		"Abilita o disabilita la corrente"
 		
 		Function
 		{
 			"name"		"on"
-			"description"	"Turns charges on"
-			"runtext"	"Charges enabled."
+			"description"	"Corrente on"
+			"runtext"	"Corrente attivata."
 			"trigger"	"0"				// fires entity output 0 when this command is run
 		}
 
 		Function
 		{
 			"name"		"off"
-			"description"	"Turns charges off"
-			"runtext"	"Charges disabled."
+			"description"	"Corrente off"
+			"runtext"	"Corrente disattivata."
 			"trigger"	"1"				// fires entity output 0 when this command is run
 		}
 	}
@@ -37,21 +37,21 @@ TerminalDefinition
 	{
 		"name"			"heat sig"
 		"password"		"soc"
-		"description"		"Change heat signature settings"
+		"description"		"Cambia il settaggio del calore"
 		
 		Function
 		{
-			"name"		"human"
-			"description"	"Sets charge on human heat signatures"
-			"runtext"	"Charges set to human."
+			"name"		"umano"
+			"description"	"Setta il calore in quello umano"
+			"runtext"	"Cambia il settaggio ad umano."
 			"trigger"	"2"				// fires entity output 2 when this command is run
 		}
 
 		Function
 		{
 			"name"		"vampire"
-			"description"	"Sets charge on vampire heat signatures"
-			"runtext"	"Charges set to vampire."
+			"description"	"Setta il calore in quello vampirico"
+			"runtext"	"Cambia il settaggio in vampiro."
 			"trigger"	"3"				// fires entity output 2 when this command is run
 		}
 	}

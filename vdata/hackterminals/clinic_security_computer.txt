@@ -1,14 +1,14 @@
 TerminalDefinition
 {
-	"screen saver"		"Santa Monica Medical Clinic"		// Bounces around on the screen when the terminal is not being used. 
-	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
+	"screen saver"		"Clinica Medica di Santa Monica"		// Bounces around on the screen when the terminal is not being used. 
+	"brackets"		""			// these surround the command prompt (2 characters)
 
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"S.M.M.C. Secure Console"  
-		"line1"		"   Health and Safety"	// changed by wesp
-		"line2"		"       Security"	// changed by wesp
+		"line0"		"C.M.S.M. Console di Sicurezza"
+		"line1"		"Salute e Sicurezza"
+		"line2"		"Sicurezza"
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -18,15 +18,15 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Camera"
+		"name"			"Telecamera"
 		"password"		"optometry"
-		"description"		"Camera Controls"
+		"description"		"Comandi Telecamera"
 
 		Function
 		{
 			"name"		"Camera 1"
-			"description"	"Controlled Substances Camera"
-			"runtext"	"Controlled Substances camera disabled. For security purposes, all other cameras have automatically been enabled."
+			"description"	"Telecamera stanza Sostanze Controllate"
+			"runtext"	"La telecamera nella stanza delle Sostanze Controllate e' stata disattivata. Per ragioni di sicurezza sono state automaticamente attivate tutte le altre telecamere."
 			"trigger"	"1"
 		}
 
@@ -34,7 +34,7 @@ TerminalDefinition
 		{
 			"name"		"Camera 2"
 			"description"	"Prescription Camera"
-			"runtext"	"Prescription Storage camera disabled. For security purposes, all other cameras have automatically been enabled."
+			"runtext"	"La telecamera nel Deposito Prescrizioni e' stata disattivata. Per ragioni di sicurezza sono state automaticamente attivate tutte le altre telecamere."
 			"trigger"	"0"
 		}
 	}
