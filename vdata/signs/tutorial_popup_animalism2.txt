@@ -10,11 +10,12 @@ SignData
 		"Tall"		"1024"
 	}
 
+
 	TextBlock
 	{
-		"Text"		"There is a guard up ahead. Use Animalism to incapacitate him and pass by.
-You have level one Animalism, known as Nightwisp Ravens. Scroll the mouse wheel to select Nightwisp Ravens, place your cursor over the guard, and use the Power key (default right-click) to activate the Discipline.
-The guard will be distracted by a flock of mystical ravens. You can then walk past him into the next room."	// changed by wesp
+		"Text"		"C'e' una guardia nella prossima stanza. Usa Animalita' per incapacitarlo e passargli affianco.
+Hai il livello uno di Animalita', Nightwisp Ravens, conosciuto anche come Corvi della Notte. Scorri la rotella del mouse per usare il Nightwisp Ravens, posiziona il cursore sulla guardia, e usa il tasto Potenza (click-destro di default) per attivare la Disciplina.
+La guardia sara' distratta da uno stormo di mistici corvi. Quindi puoi camminare dietro di lui e passare alla prossima stanza."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +27,7 @@ The guard will be distracted by a flock of mystical ravens. You can then walk pa
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

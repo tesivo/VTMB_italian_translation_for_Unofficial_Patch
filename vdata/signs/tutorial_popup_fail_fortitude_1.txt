@@ -12,8 +12,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"You did not use Fortitude to defeat your enemy.
-Try again. Remember to scroll your mouse wheel until Fortitude appears in the lower-right corner of the screen and then use the Power key (default right-click) to activate it."
+		"Text"		"Non hai usato Robustezza per sconfiggere il tuo nemico.
+Riprova. Ricorda di scorrere la rotellina del mouse finche' non appare Robustezza nell'angolo in basso a destra del tuo schermo, poi usa il tasto Potenza (default click-destro) per attivarla."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -25,7 +25,7 @@ Try again. Remember to scroll your mouse wheel until Fortitude appears in the lo
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

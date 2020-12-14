@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"When you can use a computer, you will see this Use icon.
-Computers are often helpful in solving quests. They can hold information, like emails and files, as well as control various electronic devices.
-Each computer will have a list of the menus and commands you can use."
+		"Text"		"Quando puoi usare un computer, vedrai questa icona Usa.
+I computer sono spesso utili nel risolvere delle quest. Possono contenere informazioni, come email e documenti, oppure i controlli di varie periferiche elettroniche.
+Ogni computer avra' una lista di menu e comandi che puoi usare."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Each computer will have a list of the menus and commands you can use."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

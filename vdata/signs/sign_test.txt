@@ -18,7 +18,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"This is a sample sign entity. The text in this section should wrap to the box."
+		"Text"		"Questo e' una semplice prova. Il testo in questa sezione dovrebbe essere dentro il rettangolo."
 		"Font"		"ParagraphText"
 		"XPos"		"50"
 		"YPos"		"150"
@@ -30,7 +30,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"This is a another block of text on the sample sign entity."
+		"Text"		"Questo e' un altro blocco di testo."
 		"XPos"		"150"
 		"YPos"		"300"
 		"Wide"		"300"
@@ -48,7 +48,7 @@ SignData
 
 	Label
 	{
-		"Text"		"This is a sample label"
+		"Text"		"Questa e' un'etichetta campione"
 		"Alignment"	"southeast"
 		"Font"		"Tahoma"
 		"XPos"		"250"

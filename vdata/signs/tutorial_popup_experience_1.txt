@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"You have received two experience points.
-By pressing the Character Editor key (default C), you can access you character sheet and spend your experience points where you see fit.
-Unspent experience points will stay in your available experience pool."
+		"Text"		"Hai ricevuto due punti esperienza.
+Premendo il tasto dell'Editor del Personaggio (default C), puoi accedere alla scheda del personaggio e spendere i punti esperienza dove vuoi.
+I punti non spesi rimarranno nell'esperienza."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Unspent experience points will stay in your available experience pool."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

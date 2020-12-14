@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"MURDERS UNSOLVED!"
+		"Text"				"OMICIDI IRRISOLTI!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"MOTHER OR FATHER COULD HAVE BEEN OCEAN HOUSE KILLER"
+		"Text"				"GENITORI POSSIBILI KILLER DELL'OCEAN HOUSE"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

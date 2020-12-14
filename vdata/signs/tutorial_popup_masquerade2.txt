@@ -12,8 +12,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"In Masquerade areas, breaking the Masquerade can carry dire consequences, such as the unwanted attention of vampire hunters. After five Masquerade violations, your game is over.
-Your current number of violations is displayed in the upper-right corner of your character sheet."
+		"Text"		"Nelle aree Masquerade, violare la Masquerade puo' comportare dure conseguenze, come l'attenzione indesiderata dei cacciatori di vampiri. Dopo cinque violazioni della Masquerade, la tua partita finisce.
+Il tuo attuale numero di violazioni viene mostrato nell'angolo in alto a destra della scheda del personaggio."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -25,7 +25,7 @@ Your current number of violations is displayed in the upper-right corner of your
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a Sabbat guard up ahead. Use Celerity to kill him.
-Scroll the mouse wheel to select Celerity, and use the Power key (default right-click) to activate it.
-Celerity is very effective when used with a weapon - for example, a tire iron."	// changed by wesp
+		"Text"		"C'e' una guardia Sabbat nella prossima stanza. Usa la Velocita' per ucciderlo.
+Ruota la rotellina del mouse per selezionare Velocita', e usa il tasto Potenza (click-destro di default) per attivarla.
+La Velocita' rende piu' efficace l'utilizzo di alcune armi - per esempio, una mazza di ferro."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Celerity is very effective when used with a weapon - for example, a tire iron."	
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

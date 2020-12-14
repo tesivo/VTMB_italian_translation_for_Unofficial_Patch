@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"SEWER MANHUNT!"
+		"Text"				"CACCIA NELLE FOGNE!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"SEARCH CONTINUES FOR WHITMAN, PRICE & HADDAD!"
+		"Text"				"CONTINUANO LE RICERCHE PER WHITMAN, PRICE & HADDAD!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

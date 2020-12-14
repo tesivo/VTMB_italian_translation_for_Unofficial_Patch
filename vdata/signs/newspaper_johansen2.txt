@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"PILFERED PROF!"
+		"Text"				"RAPITO IL PROF!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"ANKARAN SARCOPHAGUS' DISCOVERER KIDNAPPED FROM HOTEL!"
+		"Text"				"SEQUESTRATO IL PROFESSORE DEL SARCOFAGO DI ANKARA"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

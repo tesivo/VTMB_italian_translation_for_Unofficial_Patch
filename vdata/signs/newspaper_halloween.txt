@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"HALLOW'S EVE!"		// changed by wesp
+		"Text"				"VIGILIA DI HALLOWEEN!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"VAMPIRES, GHOULS, GHOSTS PREPARE FOR SPOOKY CELEBRATION!"
+		"Text"				"VAMPIRI, GHOUL, FANTASMI: UNA FESTA DA PAURA!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

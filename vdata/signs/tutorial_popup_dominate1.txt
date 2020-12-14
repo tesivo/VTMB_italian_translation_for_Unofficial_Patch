@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Dominate is the vampiric power to bend others to your will.
-Dominate is a targeted Discipline. The effect and its length varies with each level.
-Use of Dominate is not a Masquerade violation."
+		"Text"		"La Dominazione e' il potere di sottomettere gli altri al tuo potere.
+La Dominazione e' una Disciplina attiva. L'effetto e' la sua lunghezza variano ad ogni livello.
+L'uso della Dominazione non e' una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Dominate is not a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

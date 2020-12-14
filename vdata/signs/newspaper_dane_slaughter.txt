@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"BLOOD BOAT!"		// changed by wesp
+		"Text"				"NAVE DI SANGUE!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"SARCOPHAGUS, CURSED GHOST SHIP CLAIMS MORE LIVES!"
+		"Text"				"IL FANTASMA DEL SARCOFAGO RECLAMA PIU' VITE!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

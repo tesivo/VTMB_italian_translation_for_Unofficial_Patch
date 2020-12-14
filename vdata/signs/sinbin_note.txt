@@ -18,11 +18,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Dancers  -  Log  all  Champagne  Room  transactions  CR.
-INCLUDE  TIPS.
-
-Report  peepshow  revenue  under  PS.
-PW:  sinner"
+		"Text"		"Ballerine - Collega tutte le Champaign Room transazioni CR.
+ CONSIGLIO.
+Riporta le entrate dei peepshow sotto PS.
+PW: sinner"
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"
@@ -33,4 +32,5 @@ PW:  sinner"
 	}
 
 }
+
 

@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"C-TOWN SHOOTOUT!"
+		"Text"				"SPARATORIA A C-TOWN!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"BODY COUNT RISES AS VIGILANTE CLEANS HOUSE AT \"GLAZE\"!"
+		"Text"				"IL MASSACRO: VIGILANTE RIPULISCE IL \"GLAZE\"!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

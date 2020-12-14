@@ -18,7 +18,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Perception  at  once  shapes  the  Mind  and  rules  over  Time.  Time,  however,  erodes  human  Perception  and  then  in  turn  warps  the  Mind.  The  Mind  is  capricious,  having  various  effects  on  Perception,  Time,  and  the  Mind  itself...  with  harmony,  progress  is  made."
+		"Text"		"La Percezione foggia immediatamente la Mente e domina sul Tempo. Il Tempo, comunque, erode la Percezione umana e quindi successivamente deforma la Mente. La Mente e' instabile, avendo vari effetti sulla Percezione, sul Tempo, e sulla Mente stessa... con armonia, e' fatto il progresso."
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"

@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"BEACHSIDE BOOM!"		// changed by wesp
+		"Text"				" BOOM IN SPIAGGIA!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"MYSTERIOUS EXPLOSION DESTROYS SANTA MONICA WAREHOUSE!"
+		"Text"				"MISTERIOSA ESPLOSIONE DISTRUGGE DEPOSITO DI SANTA MONICA!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

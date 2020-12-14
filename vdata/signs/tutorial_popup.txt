@@ -10,12 +10,13 @@ SignData
 		"Tall"		"1024"
 	}
 
+
 	TextBlock
 	{
-		"Text"		"                       Warning!
-It seems as if an important Python script has not been compiled correctly on your system!
-You are probably playing inside a Linux Wine environment without the loader-linux script.
-Please exit the game and find it in the main game directory. Modify it to fit your setup!"
+		"Text"		"                       Attenzione!
+Sembra che un importante script Python non sia stato compilato correttamente sul vostro sistema!
+Probabilmente state giocando all'interno di un ambiente Linux Wine senza lo script loader-linux.
+Si prega di uscire dal gioco e trovarlo nella directory principale del gioco. Modificatelo per adattarlo alla vostra configurazione!"
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -27,7 +28,7 @@ Please exit the game and find it in the main game directory. Modify it to fit yo
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"
@@ -35,5 +36,5 @@ Please exit the game and find it in the main game directory. Modify it to fit yo
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
 		"Font"		"Trebuchet"
-	}
+}
 }

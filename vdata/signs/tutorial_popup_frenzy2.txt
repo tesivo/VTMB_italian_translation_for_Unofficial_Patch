@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"As a Ventrue, you have a more refined taste in blood.
-If you feed on bums or prostitutes, you stand the chance of vomiting up all of the blood that you drained from them.
-Ventrue gain no blood from feeding on rats."
+		"Text"		"Come Ventrue, hai un gusto del sangue piu' raffinato.
+Se ti nutri di barboni o prostitute, ci sara' la possibilita' che lo rigetterai.
+I Ventrue non guadagnano sangue dai ratti."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Ventrue gain no blood from feeding on rats."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

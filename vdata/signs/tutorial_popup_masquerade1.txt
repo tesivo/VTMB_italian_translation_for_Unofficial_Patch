@@ -55,10 +55,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Area Indicator: The icon to the left indicates that you are in a Combat area.
-Combat: Anything goes.
-Masquerade: Respect the Masquerade.
-Elysium: Vampire neutral ground. No combat or Disciplines are allowed, except Bloodbuff while lockpicking."	// changed by wesp
+		"Text"		"Indicatore d'Area: L'icona alla sinistra indica che sei in un'area di Combattimento.
+Combattimento: Tutto okay.
+Masquerade: Rispetta la Masquerade.
+Elysium: Terreno neutrale di un Vampiro. Non sono permessi i combattimenti o le Discipline, eccetto il Blood Buff mentre scassini."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -70,7 +70,7 @@ Elysium: Vampire neutral ground. No combat or Disciplines are allowed, except Bl
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

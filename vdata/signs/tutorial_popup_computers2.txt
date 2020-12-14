@@ -12,10 +12,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Many menus and commands will be password protected.
-Hacking, a combination of Wits and Computer, is a feat that allows you to hack into password-protected items. You will be prompted to press Ctrl-C to attempt your Hacking feat.
-If the value of your Hacking feat is equal to or greater than the difficulty of the encryption, you will be successful.
-To stop using a computer type \"quit\" or use the ESC key."	// changed by wesp
+		"Text"		"Molti menu e comandi saranno protetti con password.
+Hackerare, una combinazione di Prontezza e Informatica, e' un'impresa che ti permette di hackerare oggetti protetti da password. Dovrai premere Ctrl-C per richiamare la tua impresa Hacking.
+Se il valore della tua impresa Hacking e' uguale o maggiore della difficolta' di criptazione, riuscirai nel tentativo.
+Per interrompere l'utilizzo di un computer, digitare \"quit\" o utilizzare il tasto ESC."
 
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
@@ -28,7 +28,7 @@ To stop using a computer type \"quit\" or use the ESC key."	// changed by wesp
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

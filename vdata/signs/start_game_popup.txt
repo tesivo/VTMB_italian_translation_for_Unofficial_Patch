@@ -11,8 +11,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Your Haven:
-		Prince LaCroix has arranged for you to use a Camarilla safehouse in Santa Monica as your haven. Here you will find some essentials, such as your computer for email. This will serve as your base of operations."	// changed by wesp
+		"Text"		"Il tuo Rifugio:
+		Il Principe LaCroix ha stabilito per te una casa della Camarilla in Santa Monica come rifugio. Qui troverai alcune cose essenziali, come il tuo computer e la posta. Ti servira' come base."
 		"Font"		"ParagraphText"
 		"XPos"		"287"
 		"YPos"		"109"

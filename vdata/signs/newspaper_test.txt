@@ -10,7 +10,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Head line 1
 	{
-		"Text"				"   FAMOUS DOCTOR"
+		"Text"				"   DOTTORE FAMOSO"
 		"Font"				"Headline"
 		"XPos"				"233"
 		"YPos"				"155"	// 160
@@ -23,7 +23,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Head line 2
 	{
-		"Text"				"   DIES IN ACCIDENT"
+		"Text"				"   MUORE IN UN INCIDENTE"
 		"Font"				"Headline"
 		"XPos"				"233"
 		"YPos"				"205"	// 210
@@ -36,7 +36,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Text line 1
 	{
-		"Text"				"         28  FEB  1925  THE  UNRECOGNIZABLE  CORPSE  OF  RENOWNED"
+		"Text"				"         28 FEB 1925 IL CADAVERE IRRICONOSCIBILE DI RINOMATO"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"260"	// 290
@@ -49,7 +49,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Text line 2
 	{
-		"Text"				"         SHRINK  DR.  ALISTAIR  GROUT  WAS  FOUND  IN  HIS  BURNING"
+		"Text"				"         SHRINK DR.  ALISTAIR GROUT SI È TROVATO NELLE FIAMME"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"280"	// 310
@@ -62,7 +62,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Text line 3
 	{
-		"Text"				"         CAR  AS  IT  CRASHED  IN  THE  HOLLYWOOD  HILLS  TODAY!!!"
+		"Text"				"         AUTO COME SI È SCHIANTATA OGGI SULLE COLLINE DI HOLLYWOOD!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"300"	// 330
@@ -75,7 +75,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Undersign line
 	{
-		"Text"				"    ========================================== SPECIAL EDITION"
+		"Text"				"    ========================================== EDIZIONE SPECIALE"
 		"Font"				"Newsprint"  // Headline
 		"XPos"				"233"
 		"YPos"				"440"	// 370
@@ -85,4 +85,5 @@ NewspaperData	// changed by wesp & psycho-a
 		"BackgroundRGBA"		"[8,8,8,1]"
 		"Columns"			"1"
 	}
+
 }

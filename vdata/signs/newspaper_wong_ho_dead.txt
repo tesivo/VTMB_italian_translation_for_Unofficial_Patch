@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"SLAUGHTERDAY!"
+		"Text"				"MASSACRO!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"PROMINENT CHINESE LEADER KILLED!"
+		"Text"				"ILLUSTRE LEADER CINESE, FIGLIA UCCISA!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

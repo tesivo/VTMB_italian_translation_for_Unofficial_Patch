@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a guard up ahead. Use Dominate to incapacitate him and pass by.
-You have level one Dominate, known as Trance. Scroll the mouse wheel to select Trance, place your cursor over the guard, and use the Power key (default right-click) to activate the discipline.
-The guard will go into a trance. You can then walk past him."	// changed by wesp
+		"Text"		"C'e' una guardia nella prossima stanza. Usa Dominazione per incapacitarlo e passare.
+Hai il livello uno di Dominazione, conosciuto come Trance. Muovi la rotellina del mouse per selezionare Trance, posiziona il cursore sulla guardia e usa il tasto Potenza (click-destro di default) per attivare la Disciplina.
+La guardia andra' in trance. Quindi puoi passare dietro di lui."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ The guard will go into a trance. You can then walk past him."	// changed by wesp
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

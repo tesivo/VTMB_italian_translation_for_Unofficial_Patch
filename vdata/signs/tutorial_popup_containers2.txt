@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"In the box in front of you, there is some ammo for your revolver.
-Open the container and double-click the revolver ammo on the right-hand side of your screen.
-You should now have plenty of ammunition for your battle with the gang members."
+		"Text"		"Nel box di fronte a te, ci sono un po' di munizioni per il tuo revolver.
+Apri il container e fai doppio click sulle munizioni del revolver sul lato destro del tuo schermo.
+Ora dovresti avere abbastanza munizioni per la tua battaglia contro i membri della gang."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ You should now have plenty of ammunition for your battle with the gang members."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

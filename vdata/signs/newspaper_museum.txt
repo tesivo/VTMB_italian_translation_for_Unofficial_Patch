@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"STOLEN ARTIFACT!"
+		"Text"				"ARTEFATTO RUBATO!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"ANKARAN SARCOPHAGUS STOLEN FROM MUSEUM!"
+		"Text"				"SARCOFAGO DI ANKARA RUBATO DAL MUSEO!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

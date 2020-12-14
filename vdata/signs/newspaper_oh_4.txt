@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"ANOTHER BODY!"
+		"Text"				"UN ALTRO CORPO!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"POLICE SAY SECOND CHILD WAS \"CHOPPED UP LIKE FIREWOOD\""
+		"Text"				"LA POLIZIA: E' STATO \"FATTO A PEZZI\""
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

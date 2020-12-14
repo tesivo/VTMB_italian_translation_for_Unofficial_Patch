@@ -26,8 +26,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Bloodbuff is another ability common to all vampires. Scroll the mouse wheel to select Bloodbuff, and use the Power key (default right-click) to activate it. 
-Bloodbuff gives you a temporary bonus to all of your physical attributes. It is useful in a variety of situations, like picking a lock that would otherwise be too difficult. Note: in Elysium areas, you can use Bloodbuff while picking a lock only."	// changed by wesp
+		"Text"		"Il Blood Buff e' una Disciplina molto comune tra i vampiri.
+Ti da' un bonus temporaneo su tutti gli attributi fisici. E' utile in varie situazioni, come scassinare un lucchetto che in situazioni normali non riusciresti ad aprire.Nota: nelle aree Elysium, puoi usare il Blood Buff mentre scassini una serratura, ma non prima o dopo."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"435"	//307, ws-fix
@@ -39,7 +39,7 @@ Bloodbuff gives you a temporary bonus to all of your physical attributes. It is 
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

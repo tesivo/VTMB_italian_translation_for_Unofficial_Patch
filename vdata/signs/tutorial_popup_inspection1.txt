@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Your feats are the combinations of your various Abilities and Attributes. The higher your feats' scores, the better you are at the activities they influence.
-Inspection is a feat. It is the combination of Perception and Investigation. It allows you to see hidden and secret things - for example, the lockpick on the crate in front of you.
-You can find your feats listed on the right-hand side of your character sheet."	// changed by wesp
+		"Text"		"Le tue Imprese sono combinazioni di varie Abilita' e Attributi. Piu' alto e' il tuo punteggio nelle Imprese, piu' grande saranno le attivita' che influenzano.
+L'Ispezione e' una impresa. E' la combinazione di Percezione e Investigare. Ti permette di vedere cose nascoste e segrete - per esempio, il grimaldello sulla scatola davanti a te.
+Puoi trovare le tue Imprese nel lato destro della scheda del personaggio."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ You can find your feats listed on the right-hand side of your character sheet."	
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

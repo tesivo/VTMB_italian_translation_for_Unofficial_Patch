@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"When you can read a note, you will see this Use icon.
-Readable notes can be various items like clipboards, newspapers and letters.
-To read the note, press the Use key (default E). To return to the game after reading the note, press it again."
+		"Text"		"Quando puoi leggere una nota, vedrai questa icona Usa.
+Le note leggibili possono essere vari oggetti come agende, giornali e lettere.
+Per leggere le note, premi il tasto Usa (default E). Per ritornare al gioco dopo aver letto la nota, ripremilo."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ To read the note, press the Use key (default E). To return to the game after rea
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

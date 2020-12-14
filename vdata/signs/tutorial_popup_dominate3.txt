@@ -12,10 +12,10 @@ SignData
 
 	TextBlock
 	{
-		// RM: This popup is no longer used.
-		"Text"		"There are two guards up ahead. Use Dominate to incapacitate them and then kill them.
-You have level two Dominate, known as Brainwipe. Scroll the mouse wheel to select Brainwipe, move nearer to the guards, and use the Power key (default right-click) to activate the discipline.
-Brainwipe is an area-of-effect discipline. Both guards, being fairly close together, will become mesmerized. Equip your tire iron and kill them."	// changed by wesp
+// RM: This popup is no longer used.
+		"Text"		"Ci sono due guardie nelle stanza successiva. Usa Dominazione per inabilitarle e superarle.
+		Hai il livello due di Dominazione, chiamato Vuoto Mentale. Scorri la rotella del mouse per selezionare Vuoto Mentale, posiziona il cursore su una delle guardie, e premi il tasto Potere (click-destro di default) per attivare la disciplina.
+		Vuoto mentale e' una disciplina di area ad effetto. Entrambe le guardie, se abbastanza vicine tra loro, verranno ipnotizzate. Cosi' potrai superarle tranquillamente."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -27,7 +27,7 @@ Brainwipe is an area-of-effect discipline. Both guards, being fairly close toget
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

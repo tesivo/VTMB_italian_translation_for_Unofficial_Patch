@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"VANISHED!"		// changed by wesp
+		"Text"				"SCOMPARSI!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"\"ELIZABETH DANE\" CREW MISSING! CURSE OF THE SARCOPHAGUS?"		// changed by wesp
+		"Text"				"\"ELIZABETH DANE\" EQUIPAGGIO SPARITO! LA MALEDIZIONE DEL SARCOFAGO?"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

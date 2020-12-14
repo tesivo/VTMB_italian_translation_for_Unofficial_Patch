@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"FU FIGHTER!"		// changed by wesp
+		"Text"				"FU FIGHTER!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"SHADOWY CORPORATION ASSAULTED BY CHINATOWN VIGILANTE!"
+		"Text"				"CORPORAZIONE NON IDENTIFICATA ASSALTATA DA VIGILANTE DI CHINATOWN!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

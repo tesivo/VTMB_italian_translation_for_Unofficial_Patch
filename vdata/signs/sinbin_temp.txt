@@ -18,7 +18,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"These triggers are temporary. The blue trigger disables the change machine. The red trigger disabled peep window 3."
+		"Text"		"Questi segnali sono temporanei. Il segnale blu disabilita il cambio di macchina. Il segnale rosso disabilita la finestra 3."
 		"Font"		"ParagraphText"
 		"XPos"		"50"
 		"YPos"		"150"

@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"HOTEL HELL!"
+		"Text"				"HOTEL INFERNO!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"CHILD'S SEVERED HEAD FOUND IN HOTEL LAUNDRY ROOM!"
+		"Text"				"TESTA DI BAMBINO NELLA LAVANDERIA DELL'HOTEL!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a Sabbat guard up ahead. Use Fortitude to armor yourself and kill him.
-Scroll the mouse wheel to select Fortitude, and use the Power key (default right-click) to activate it.
-Fortitude is most effective when used with another weapon. After activating the Discipline, equip your tire iron and attack him."	// changed by wesp
+		"Text"		"C'e' una guardia Sabbat nella prossima stanza. Usa Robustezza per ucciderla.
+Scorri con la rotellina del mouse per selezionare Robustezza e usa il tasto Potenza (click-destro default) per attivarla.
+La RObustezza e' molto efficace se usata con un'altra arma. Dopo aver attivato la Disciplina, equipaggiati con la mazza di ferro e attacca."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Fortitude is most effective when used with another weapon. After activating the 
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"TERROR TOWER!"		// changed by wesp
+		"Text"				"   TORRE NEL PANICO!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"EXPLOSIONS ROCK VENTURE TOWER IN POSSIBLE TERROR ATTACK!"
+		"Text"				"ESPLOSIONI ROCK VENTURE: POSSIBILE ATTACCO TERRORISTICO!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

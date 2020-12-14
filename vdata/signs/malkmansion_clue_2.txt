@@ -18,7 +18,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"... Chaos,  like  the  Mind,  can  be  understood  only  through  the  scientific  process.  Order,  however,  is  only  as  good  as  the  Perception  thereof.  Time  is  the  Key  that  links  the  two  and  bears  witness  their  ebb  and  flow...."
+		"Text"		"... Caos, come la Mente, puo' essere solo compreso attraverso il processo scientifico. L'Ordine, comunque, e' buono solo se c'e' la Percezione. Il Tempo e' la chiave che collega i due e testimonia il loro flusso e riflusso...."
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"

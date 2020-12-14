@@ -26,8 +26,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Fortitude is a passive Discipline. It is also time-based. Once activated, pay attention to the Discipline timer on the bottom-right of your screen.
-Use of Fortitude is not a Masquerade violation."
+		"Text"		"Robustezza e' una Disciplina Passiva, ed e' anche a tempo. Una volta attivata, fai attenzione al timer in basso a destra del tuo schermo.
+L'uso della Robustezza non comporta una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -39,7 +39,7 @@ Use of Fortitude is not a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

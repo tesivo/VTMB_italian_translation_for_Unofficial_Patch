@@ -54,10 +54,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Brujah have three unique disciplines.
-Potence: Colossal vampiric strength.
-Celerity: Supernatural speed.
-Presence: The mystical projection of personality, inspiring fear and awe."
+		"Text"		"I Brujah hanno tre discipline singolari.
+Potenza: Colossale forza vampirica.
+Velocita': Soprannaturale velocita'.
+Ascendente: Mistica proiezione della personalita', inspira paura e timore."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -69,7 +69,7 @@ Presence: The mystical projection of personality, inspiring fear and awe."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

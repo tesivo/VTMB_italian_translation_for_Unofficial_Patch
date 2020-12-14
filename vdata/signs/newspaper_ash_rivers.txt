@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"NINE LIVES?"		// changed by wesp
+		"Text"				"NOVE VITE?"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"CELEBRITY ASH RIVERS WALKS AWAY FROM DEADLY CRASH!"		// changed by wesp
+		"Text"				"LA STAR ASH RIVERS SOPRAVVIVE AD UN INCIDENTE MORTALE!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

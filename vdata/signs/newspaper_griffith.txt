@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"GRIFFITH SPARK!"		// changed by wesp
+		"Text"				"  SCINTILLE AL GRIFFITH!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"HISTORIC CITY PARK BURNS LIKE LAST YEAR'S XMAS TREE!"
+		"Text"				"LO STORICO PARCO IN FIAMME!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Dementation is the vampiric power causing visions and madness in others.
-Dementation is a targeted Discipline. The effect and its length varies with each level.
-Use of Dementation is not a Masquerade violation."
+		"Text"		"Le Demenza e' un potere vampirico che causa visioni e pazzia negli altri.
+La Demenza e' una Disciplina a bersaglio. Gli effetti e la sua durata variano ad ogni livello.
+L'uso della Demenza non e' una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Dementation is not a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

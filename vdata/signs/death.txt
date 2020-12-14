@@ -17,7 +17,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"You've suffered Final Death."	// changed by wesp
+		"Text"		"Hai subito una Morte Definitiva."
 		"Font"		"ParagraphText"
 		"XPos"		"134"
 		"YPos"		"50"

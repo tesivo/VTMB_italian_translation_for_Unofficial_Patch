@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a guard up ahead. Use Dementation to incapacitate him and pass by.
-You have level one Dementation, known as Hysteria. Scroll the mouse wheel to select Hysteria, place your cursor over the guard, and use the Power key (default right-click) to activate the Disipline.
-The Dementation effect will play on the guard, and he will go into a fit of uncontrollable laughter. You can then walk past him."	// changed by wesp
+		"Text"		"C'e' una guardia nella prossima stanza. Usa la Demenza per incapacitarlo e passare.
+Hai il livello uno di Demenza, conosciuto come Isteria. Scorri la rotellina del mouse per selezionare Isteria, posiziona il cursore sulla guardia e usa il tasto Potenza (click-destro di default) per attivare la Disciplina.
+L'effetto della Demenza sortira' sulla guardia un incontrollato bisogno di ridere. Poi, potrai scivolare alle sue spalle."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ The Dementation effect will play on the guard, and he will go into a fit of unco
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

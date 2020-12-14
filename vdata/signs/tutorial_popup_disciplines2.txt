@@ -12,8 +12,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Passive Disciplines, like Bloodbuff, last for a certain amount of time. When you activate them, you will see a time bar just to the left of the Discipline icon.
-This bar tells you how long the Discipline will last. Different Disciplines last for different amounts of time."	// changed by wesp
+		"Text"		"Le Discipline Passive, come Blood Buff, durano per un certo periodo di tempo. Quando le attivi, vedrai una barra del tempo sul lato destro dell'icona della Disciplina.
+Questa barra ti indica per quanto tempo durera'. Diverse Discipline durano per differenti periodi di tempo."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -25,7 +25,7 @@ This bar tells you how long the Discipline will last. Different Disciplines last
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

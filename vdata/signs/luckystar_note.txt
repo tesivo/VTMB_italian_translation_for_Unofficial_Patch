@@ -18,7 +18,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Santa  Monica.  Brothers  Salvage.  11  PM.  Go  alone."
+		"Text"		"Santa Monica. Salvataggio Fratelli. 11 PM. Vai via."
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"

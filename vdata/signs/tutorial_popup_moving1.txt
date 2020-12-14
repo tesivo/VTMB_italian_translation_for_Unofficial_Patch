@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Use the mouse to look around.
-Use the W, A, S and D keys (by default) to move.
-Use the Toggle View key (default Z) to switch between first- and third-person views."
+		"Text"		"Usa il mouse per guardarti intorno.
+Usa i tasti W, A, S e D (di default) per muoverti.
+Usa il tasto per cambiare la telecamera dalla 1ma alla 3za persona (default Z)."
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
 		"Wide"		"375"
@@ -28,7 +28,7 @@ Use the Toggle View key (default Z) to switch between first- and third-person vi
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

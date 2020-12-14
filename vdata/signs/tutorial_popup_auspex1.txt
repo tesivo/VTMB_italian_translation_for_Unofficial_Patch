@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Auspex gives you the ability to see people's auras. The aura color indicates an individual's disposition.
-Auspex also increases your Perception, important to both the Ranged Combat and Inspection feats.
-Use of Auspex is not a Masquerade violation."
+		"Text"		"L'Auspex ti da' l'abilita' di vedere l'aura delle persone. Il colore dell'aura indica una disposizione individuale.
+Ti permette anche di incrementare la tua Percezione, importante per le imprese Combattimento a Distanza e Ispezione.
+L'uso dell'Auspex non e' una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Auspex is not a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

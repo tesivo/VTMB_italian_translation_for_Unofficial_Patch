@@ -11,9 +11,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"INTRO CINEMATIC PLACEHOLDER
-A hotel room, the sounds of a couple enjoying each other's company.  Then, a scream.  The player wakes up a vampire and looks at his sire in horror -- door bursts open -- Camarilla vampires rush in and seize the player and his Sire.
-The player and his sire are handed their fates in front of the Kindred community.  Prince LaCroix speaks to the audience.  The player's sire is executed by the Sheriff.  Anarch leader Nines Rodriguez protests, walks out with his lieutenants.  The Prince spares the player's life."
+		"Text"		"FILMATO INTRO
+Una stanza d'hotel, una coppia che ci sta dando dentro.  Poi, un urlo.  Il giocatore si sveglia vampiro e guarda con orrore il suo signore -- la porta si apre improvvisamente -- i vampiri della Camarilla entrano e bloccano il giocatore e il Suo signore.
+Quindi vengono portati di fronte alla comunita' dei Fratelli per discutere del loro destino. Il principe LaCroix parla all'udienza.  Il signore del giocatore viene ucciso dallo Sceriffo.  Il leader dei ribelli Nines Rodriguez protesta, va via con i suoi.  Il Principe risparmia la vita del giocatore."
 		"Font"		"ParagraphText"
 		"XPos"		"287"
 		"YPos"		"109"

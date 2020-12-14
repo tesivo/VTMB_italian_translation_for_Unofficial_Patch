@@ -18,7 +18,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Marshall  changed  the  code  again.  He  is  on  such  a  power  trip.  I  think  you're  right  -  he  managed  to  send  it  to  everyone  but  you.  Again.  Not  that  you  ever  check  your  mail  anyway.  The  code's  2358.  You  owe  me  lunch."
+		"Text"		"Marshall ha cambiato di nuovo il codice. Penso che tu abbia ragione - l'ha inviata a tutti tranne che a te. Di nuovo. Non che tu controlli sempre le email pero'. Il codice e' 2358. Mi devi un pranzo."
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"

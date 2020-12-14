@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Remember, you want to avoid draining your victims.
-Draining innocent humans will give you a penalty to your Humanity. The lower your Humanity, the closer you get to the Beast.
-If your Humanity gets too low, you will begin to lose control of your character. This is known as frenzying and may result in a Masquerade violation if you are around humans."
+		"Text"		"Ricorda, devi evitare di prosciugare le tue vittime.
+Prosciugare umani innocenti ti dara' una penalita' nella tua Umanita'. Piu' bassa e' la tua Umanita', piu' vicino sarai alla Bestia.
+Se la tua Umanita' diventa troppo bassa, incomincerai a perdere il controllo del tuo personaggio. Questa eventualita' e' conosciuta come pazzia e puo' risultare in una violazione della Masquerade se intorno a te ci sono degli umani."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ If your Humanity gets too low, you will begin to lose control of your character.
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Celerity is vampiric supernatural speed.
-Celerity is a passive, or time-based, Discipline. Once you activate it, pay attention to the Discipline timer on the bottom-right of your screen.
-Use of Celerity levels 2-5 is a Masquerade violation. Do not use it in Masquerade areas."
+		"Text"		"La Velocita' soprannaturale dei vampiri e' una Disciplina passiva, o a tempo. Una volta attivata, fai attenzione al timer della Disciplina in fondo a destra del tuo schermo.
+Usare i livelli 2-5 di Velocita' comporta una violazione della Masquerade.
+Non usarla in aree Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Celerity levels 2-5 is a Masquerade violation. Do not use it in Masquerad
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

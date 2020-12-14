@@ -24,11 +24,12 @@ SignData
 		"Image"				"hud\Disciplines\animalism_base"
 	}
 
+
 	TextBlock
 	{
-		"Text"		"Animalism is the mystical vampiric power that controls nature.
-Animalism is a targeted Discipline. The effect and its length varies with each level.
-Use of Animalism is a Masquerade violation if you are seen activating it."
+		"Text"		"L'Animalita' e' un potere mistico vampirico che controlla la natura.
+L'Animalita' e' una disciplina a bersaglio. Gli effetti e la sua durata variano ad ogni livello.
+L'uso dell'Animalita' e' una violazione della Masquerade se vista in azione."
 		"Font"		"ParagraphText"
 		"Font_640"	"Trebuchet"
 		"XPos"		"836"	//324, ws-fix
@@ -41,7 +42,7 @@ Use of Animalism is a Masquerade violation if you are seen activating it."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -10,7 +10,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"TAWDRY SESSION!"		// changed by wesp
+		"Text"				"CADUTA DI STILE!"
 		"Font"				"Headline"
 		"XPos"				"230"
 		"YPos"				"145"
@@ -23,7 +23,7 @@ NewspaperData
 
 	TextBlock
 	{
-		"Text"				"SUPERMODEL CAUGHT IN THREESOME WITH BOYFRIEND, LLAMA!"
+		"Text"				"SUPERMODELLA IN MENAGE A TROIS BESTIALI!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"200"

@@ -18,7 +18,7 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Dork.  Jan  found  them  buried  in  the  sofa  downstairs,  and  turned  them  in  to  the  lost  and  found.  Stop  leaving  your  damned  keys  all  over  the  place  or  else  next  time,  I'm  demanding  a  finder's  fee.
+		"Text"		"Stupido. Jan le ha trovate sotto il divano al piano di sotto, e le ha portate all'ufficio degli oggetti smarriti. Smettila di lasciare le tue dannate chiavi in tutti i posti, o la prossima volta chiedero' un riscatto.
 - JJ"
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"

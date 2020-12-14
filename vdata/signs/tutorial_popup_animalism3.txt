@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a Sabbat vampire up ahead. Use Animalism to kill him.
-You have level two Animalism, known as Burrowing Beetle. Scroll the mouse wheel to select Burrowing Beetle, place your cursor over the vampire, and use the Power key (default right-click) to activate the Discipline.
-Burrowing Beetle sends out a mystical, flesh-eating beetle that damages your opponents. A few attacks should be enough to kill the vampire."	// changed by wesp
+		"Text"		"C'e' un vampiro Sabbat nella prossima stanza. Usa Animalita' per ucciderlo.
+Hai il livello due di Animalita', Burrowing Beetle, conosciuto anche come Scarabeo Scavatore. Scorri la rotellina del mouse per selezionare Burrowing Beetle, posiziona il cursore sul vampiro, e usa il tasto Potenza (click-destro di default) per attivare la Disciplina.
+Lo Scarabeo Scavatore invia un mistico scarabeo che mangia la carne dei tuoi nemici. Un paio di attacchi dovrebbero bastare per uccidere i vampiri."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Burrowing Beetle sends out a mystical, flesh-eating beetle that damages your opp
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

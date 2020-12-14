@@ -18,11 +18,11 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"At  your  convenience,  please  come  and  visit  me  in  my  home  downtown.  I  leave  you  this  to  guide  you:
-Dark  blood,  our  curse,  a  light  this  verse
-Such  power  I  sense  in  one  so  young
-Come  find  me  where  burns  the  mystical  sun.
-M.  Strauss,  Tremere  Regent"
+		"Text"		"A tuo vantaggio, vienimi a trovare nella mia casa a downtown. Ti lascio questa nota come guida:
+Sangue scuro, la nostra maledizione, una luce come vocazione.
+Germoglio d'acciaio e' la visione di potenza si' tale.
+Vieni trovami dove brucia il mistico sole.
+M. Strauss, Reggente dei Tremere"
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"33"
 		"YPos"		"36"

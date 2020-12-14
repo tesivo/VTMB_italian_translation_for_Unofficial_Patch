@@ -18,8 +18,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Yo,  Flabottomus!
-The  passcode  is  \"1969\".  Don't  forget  it  this  time!"
+		"Text"		"Ciao, Merdina!
+		La password e' \"1969\". Non dimenticarla questa volta!"
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"
