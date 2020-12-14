@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"		"Lassiter Killmatic"
-	"description"		"The Lassiter Killmatic was developed to be a reliable and compact gun, robust enough to take a lot of punishment, and accurate enough to dish it out in a hurry. The ergonomic design of the Killmatic was one of the first to incorporate wrap-around bolt and blowback action and to contain the magazine housing inside the pistol grip for quick and easy reloads. Limited recoil and climb make one-handed firing feasible."
+	"description"		"La Lassiter Killmatic e' stata progettata come un'arma affidabile e compatta, abbastanza potente ed accurata per liberarsi subito dei nemici. Il design ergonomico del Lassiter Killmatic e' stato uno dei primi ad incorporare un design ad otturatore telescopico, con il caricatore alloggiato nell'impugnatura per ricariche piu' semplici e veloci. Il basso rinculo rende il Lassiter Killmatic un'arma da fuoco pratica."	// changed by wesp
 	"viewmodel"		"models/weapons/submachine_uzi/view/v_submachine_uzi.mdl"
 	"playermodel"		"models/weapons/submachine_uzi/ground/g_uzi.mdl"
 	"wieldmodel_f"		"models/weapons/submachine_uzi/wield/w_f_submachine_uzi.mdl"
@@ -48,8 +48,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"9 mm Round"
-		"ammodescription"	"A Lassiter Killmatic 9 mm magazine."
+		"ammoprintname"		"Colpi 9 mm"
+		"ammodescription"	"Un caricatore Lassiter Killmatic 9 mm."	// changed by wesp
 		"ammo_worth"		"15"
 		"ammoinfomodel"		"models/weapons/ammo/uzi/i_uzi_ammo.mdl"
 

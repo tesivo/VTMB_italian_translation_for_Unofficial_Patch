@@ -15,8 +15,8 @@ WeaponData
 
 	"impact_snd_group"	"fist"
 
-	"printname"		"Fists"	// changed by wesp
-	"description"	"No weapon readied."
+	"printname"		"Disarmato"
+	"description"	"Nessun'arma."
 	"activation0"	"Attack"
 	"activation1"	""
 

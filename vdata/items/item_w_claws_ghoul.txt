@@ -3,8 +3,8 @@
 WeaponData
 {
 
-	"printname"	"Driver's License"	// added by wesp
-	"description"	"A California driver's license. The name on the license is Simon Milligan."	// added by wesp
+	"printname"	"Patente di guida"	// added by wesp
+	"description"	"Una patente di guida della California. Il nome sulla patente è Simon Milligan."	// added by wesp
 
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"infomodel"	"models/items/License/Info/Info_Lisense.mdl"	// added by wesp

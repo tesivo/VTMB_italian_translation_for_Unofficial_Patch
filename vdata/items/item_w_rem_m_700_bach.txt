@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"			"Remington M24 SWS" // changed by Wesp
-	"description"			"This is a standard tactical rifle most commonly employed by SWAT teams. It features a 20X scope to pick beads of sweat off the target's forehead."
+	"printname"			"Remington M700 SWAT" // changed by Wesp
+	"description"			"Fucile standard piu' comunemente usato dalle squadre SWAT. E' caratterizzato da un mirino fino a 20X."
 	"viewmodel"			"models/weapons/rifle_rem700/view/v_Rem700_bach.mdl"
 	"playermodel"			"models/weapons/rifle_rem700/ground/g_rifle_rem700_bach.mdl"
 	"wieldmodel_f"			"models/weapons/rifle_rem700/wield/w_f_rifle_rem700_bach.mdl"
@@ -52,8 +52,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"			"Ultra High Velocity Round"	// changed by Wesp
-		"ammodescription"		"These are special .308 rifle rounds, manufactured for precise sniping."	// changed by Wesp
+		"ammoprintname"			"Colpi Ad Alta Velocita'"
+		"ammodescription"		"Questi sono colpi da .308, piu' comunemente usati dai cecchini."
 		"ammo_worth"			"4"	// changed by Wesp
 		"ammoinfomodel"			"models/weapons/ammo/rem_700/i_rem_700_amma.mdl"	// changed by Wesp
 
@@ -352,5 +352,5 @@ WeaponData
 		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
 		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
 		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
-	}
+		}
 }

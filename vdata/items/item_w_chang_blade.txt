@@ -3,9 +3,9 @@
 WeaponData
 {
 	"printname"		"Shin Gunto"	// changed by wesp
-	"description"	"This is a mass-produced version of the traditional Japanese katana. Not as effective as a real one, but quite dangerous nevertheless."	// changed by wesp
+	"description"	"Si tratta di una riproduzione in serie della tradizionale katana giapponese. Non è efficace come una vera e propria katana, ma è comunque molto pericolosa."	// changed by wesp
 
-	"viewmodel"	"models/weapons/w_null.mdl"
+	"viewmodel"		"models/weapons/w_null.mdl"
 	"playermodel"	"models/weapons/ShinGunto/world/g_ShinGunto.mdl"	// changed by wesp
 	"wieldmodel_f"	"models/weapons/ShinGunto/wield/w_f_ShinGunto.mdl"	// changed by wesp
 	"wieldmodel_m"	"models/weapons/ShinGunto/wield/w_m_ShinGunto.mdl"	// changed by wesp
@@ -71,7 +71,7 @@ WeaponData
 
 		"SkillRequirement"	"5"		// min. skill requirement used in dmg calculations
 		"BaseLethality"		"11"		// base lethality used in dmg calculations
-		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"		
+		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"
 
 		// Sounds..., changed by wesp
 		SoundData
@@ -119,7 +119,7 @@ WeaponData
 
 		"SkillRequirement"	"5"		// min. skill requirement used in dmg calculations, changed by wesp
 		"BaseLethality"		"11"		// base lethality used in dmg calculations, changed by wesp
-		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"	// changed by wesp		
+		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"	// changed by wesp
 
 		// Sounds..., changed by wesp
 		SoundData

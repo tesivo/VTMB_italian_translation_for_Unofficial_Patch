@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"	"Ming Far Melee"	// added by wesp
-	"description"	"Far tentacle attack by Ming."	// added by wesp
+	"description"	"Lontano attacco tentacolare di Ming."	// added by wesp
 
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"viewmodel"            "models/weapons/w_null.mdl"

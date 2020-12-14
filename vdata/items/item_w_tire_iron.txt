@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Tire Iron"
-	"description"		"Heavy, metal, blunt. Could be used for fixing a flat, sure."
+	"printname"		"Sbarra di ferro"
+	"description"		"Pesante, di metallo e smussato. Potrebbe essere usato per riparare qualche porta, sicuro."
 //	"viewmodel"		"models/weapons/tireiron/view/v_tireiron.mdl"
 //"viewmodel"	""
 "viewmodel"	"models/weapons/w_null.mdl"

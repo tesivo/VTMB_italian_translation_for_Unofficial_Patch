@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Thirty-eight"
-	"description"		"This is a cheap, small-caliber handgun used by start-up hoods in alleys across the country. Also known as a purse gun."
+	"printname"		".38"
+	"description"		"Questa e' un'arma economica di piccolo calibro usata dai tossici nei vicoli. Conosciuta anche come arma per le rapine."
 
 	"viewmodel"		"models/weapons/ThirtyEight/view/v_ThirtyEight.mdl"
 	"playermodel"		"models/weapons/ThirtyEight/ground/g_ThirtyEight.mdl"

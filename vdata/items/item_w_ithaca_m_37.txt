@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Utica M37"
-	"description"		"The 12 gauge M37 is designed for close quarters use as a home defense weapon. Tried and true service for military and law enforcement, the M37 features all metal parts and a bottom feed and ejector for both rights and lefties. It has moderate recoil and is fairly light for ease of use."
+	"printname"		"Ithaca M37"	// changed by wesp
+	"description"		"L'M37 e' adatto agli ambienti ristretti, come arma di difesa personale. Usato dal servizio militare e dalle forze di polizia, l'M37 e' caratterizzato da tutte le parti in metallo, ha un moderato rinculo ed e' abbastanza leggera per il suo scopo."
 
 	"viewmodel"		"models/weapons/m37/view/v_m37.mdl"
 	"playermodel"		"models/weapons/m37/world/w_m37.mdl"
@@ -57,7 +57,7 @@ WeaponData
 	Magazine
 	{
 		"ammoprintname"		"12 Gauge Tubefeed"
-		"ammodescription"	"A box containing shotgun shells for the Utica M37."
+		"ammodescription"	"Una scatola che contiene pallettoni per l'Ithaca M37."	// changed by wesp
 		"ammo_worth"		"12" //"18"
 		"ammoinfomodel"		"models/weapons/ammo/shotgun/shotgun_shells.mdl"
 

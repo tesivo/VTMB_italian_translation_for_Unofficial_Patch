@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Jaegerspas XV"
-	"description"		"The Jaegerspas automatic shotgun looks and fires more like an assault rifle than a traditional shotgun. It delivers bursts of deadly shot at a devastating pace. The Jaegerspas has both semi-automatic and pump action functionality."
+	"printname"		"Franchi SPAS-15"	// changed by wesp
+	"description"		"Il fucile a pompa automatico SPAS-15 sembra e spara piu' come un fucile d'assalto normale che come un tradizionale fucile a pompa. Spara devastanti raffiche di colpi mortali. Lo SPAS-15 ha una funzione sia semi-automatica sia fucile a pompa."	// changed by wesp
 	"viewmodel"		"models/weapons/supershotgun/view/v_supershotgun.mdl"
 	"playermodel"		"models/weapons/supershotgun/ground/g_supershotgun.mdl"
 	"wieldmodel_f"		"models/weapons/supershotgun/wield/w_f_supershotgun.mdl"
@@ -53,7 +53,7 @@ WeaponData
 	Magazine
 	{
 		"ammoprintname"		"12 Gauge Shell"
-		"ammodescription"	"This magazine holds 12 gauge shells for the Jaegerspas XV."
+		"ammodescription"	"Questo caricatore contiene 12 pallettoni per lo SPAS-15."	// changed by wesp
 		"ammo_worth"		"12"//"18"
 		"ammoinfomodel"		"models/weapons/ammo/supershotgun/i_supershotgun_ammo.mdl"
 

@@ -13,7 +13,7 @@ WeaponData
 	"impact_snd_group"	"fist"
 
 	"printname"		"Claws"	// added by wesp
-	"description"	"Deadly vampiric claws."	// added by wesp
+	"description"	"Letali artigli vampirici."	// added by wesp
 
 	"bucket"		"0"
 	"bucket_position"	"1"

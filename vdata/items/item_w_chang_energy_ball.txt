@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Chang Energy Ball"	// changed by wesp
-	"description"		"Energy Ball thrown by Chang Brother."	// changed by wesp
+	"printname"		"Granata a Frammentazione"
+	"description"		"Se vuoi divertirti e ottenere risultati evidenti, togli la sicura..."
 	"item_worth"		"200"
 
 	"viewmodel"		"models/scenery/misc/changball/changball.mdl"
@@ -47,8 +47,8 @@ WeaponData
 	Magazine
 	{
 		//printname description and ammo_worth should be the same as in WeaponData
-		"printname"		"Fragmentation Grenade"
-		"description"		"Pull pin for fun and profit."
+		"printname"		"Granata a Frammentazione"
+		"description"		"Se vuoi divertirti e ottenere risultati evidenti, togli la sicura..."
 		"ammo_worth"		"200"
 
 		"Size"			"-1"
@@ -305,8 +305,8 @@ WeaponData
 ////	Magazine
 //	{
 //		//printname description and ammo_worth should be the same as in WeaponData
-//		"printname"			"Chang Bros' Energy Ball"
-//		"description"		"For use by Chang Bros' boss only"
+//		"printname"			"Palla Energetica dei Chang Bros'"
+//		"description"		"Per uso esclusivo del Boss dei Chang Bros'"
 //		"ammo_worth"		"200"
 //
 //		"Size"			"-1"

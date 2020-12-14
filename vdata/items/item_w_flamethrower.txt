@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Flamethrower"
-	"description"		"Flamethrowers, in one form or another, have been used since ancient times. This one propels burning fuel in a several-foot arc, scorching everything in its path."
+	"printname"		"Lanciafiamme"
+	"description"		"Il Lanciafiamme, in una forma o nell'altra, e' sempre stato usato in tempi antichi. Questo qui sputa fuori carburante incendiario ad una certa distanza, incenerendo tutto cio' che trova sulla sua strada."
 	"viewmodel"		"models/weapons/flamethrower/view/v_flamethrower.mdl"
 	"playermodel"		"models/weapons/flamethrower/ground/g_flamethrower_r.mdl"
 	"wieldmodel_f"		"models/weapons/flamethrower/wield/w_f_flamethrower.mdl"
@@ -42,8 +42,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"Gas Cannister"
-		"ammodescription"	"A cannister of Burninator-brand flamethrower fuel."
+		"ammoprintname"		"Contenitore di Gas"
+		"ammodescription"	"Un contenitore di carburante."
 		"ammo_worth"		"75"
 		"ammoinfomodel"		"models/weapons/ammo/flamethrower/i_flamethrower_ammo.mdl"
 
@@ -88,7 +88,7 @@ WeaponData
 		"KickTime"		"0.02"
 		"SpreadAngle"		"3.0"
 		"allow_autofire"	"1"
-		"CriminalLevel"	"5"
+		"CriminalLevel"		"5"
 		"Accuracy"		"6"
 
 		// SKS_RANGED

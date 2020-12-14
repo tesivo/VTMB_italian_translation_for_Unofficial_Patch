@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"'Jaime Sue'"
-	"description"		"This is a standard rifle for sport hunting. It features a zoom mode for killing made easy."
+	"printname"		"Remington M700" // changed by Wesp
+	"description"		"E' un fucile standard usato per la caccia. Non deve essere ricaricato dopo ogni sparo." // changed by wesp
 	"viewmodel"		"models/weapons/rifle_rem700/view/v_rifle_rem700.mdl"
 	"playermodel"		"models/weapons/rifle_rem700/ground/g_rifle_rem700.mdl"
 	"wieldmodel_f"		"models/weapons/rifle_rem700/wield/w_f_rifle_rem700.mdl"
@@ -52,8 +52,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"High Velocity Round"
-		"ammodescription"	"These are .308 rifle rounds, most commonly used for sniping."
+		"ammoprintname"		"Colpi Ad Alta Velocita'"
+		"ammodescription"	"Questi sono colpi da .308, piu' comunemente usati dai cecchini."
 		"ammo_worth"		"12"
 		"ammoinfomodel"		"models/weapons/ammo/rem_700/i_rem_700_ammo.mdl"
 

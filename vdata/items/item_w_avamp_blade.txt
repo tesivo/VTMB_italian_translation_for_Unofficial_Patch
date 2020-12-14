@@ -2,11 +2,11 @@
 
 WeaponData
 {
-	"printname"		"Knife"
-	"description"		"Some knives, throughout their entire existence, are never used for any malicious purpose. This ain't one of them."
-//	"viewmodel"		"models/weapons/knife/view/v_knife.mdl"
+	"printname"		"Coltello"
+	"description"		"Alcuni coltelli, durante tutta la loro esistenza, non sono mai usati per scopi malevoli. Questo non è uno di quelli."
+//	"viewmodel"	"models/weapons/knife/view/v_knife.mdl"
 //"viewmodel"	""
-"viewmodel"	"models/weapons/w_null.mdl"
+    "viewmodel"		    "models/weapons/w_null.mdl"
 	"playermodel"		"models/weapons/knife/world/g_knife.mdl"
 	"wieldmodel_f"		"models/weapons/knife/wield/w_f_knife.mdl"
 	"wieldmodel_m"		"models/weapons/knife/wield/w_m_knife.mdl"
@@ -19,7 +19,7 @@ WeaponData
 	"bucket"		"0"
 	"bucket_position"	"5"
 	"weight"		"2"
-	"item_flags"		"0"
+	"item_flags"	"0"
 	"item_type"		"weapon_melee"
 
 	"item_worth"		"50"
@@ -57,11 +57,11 @@ WeaponData
 		"Type"		"Attack"
 		"Ammo_Type"		"None"
 		"Ammo_Cost"		"0"
-	
+
 		"SkillRequirement"	"4"		// min. skill requirement used in dmg calculations
 		"BaseLethality"		"9"		// base lethality used in dmg calculations
-		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"		
-		
+		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"
+
 		"Botch_Table"	"Melee_Weapons"
 		"Attack_Rate"	"1.0"
 		"Range"		"0"
@@ -109,7 +109,7 @@ WeaponData
 
 		"SkillRequirement"	"4"		// min. skill requirement used in dmg calculations
 		"BaseLethality"		"9"		// base lethality used in dmg calculations
-		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"			
+		"Dmg"			"2 Lethal Close_Combat_Melee DMG_SLASH"
 
 		"Botch_Table"	"Melee_Weapons"
 		"Attack_Rate"	"1.0"

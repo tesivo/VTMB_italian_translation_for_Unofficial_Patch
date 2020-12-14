@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Torch"
-	"description"		"For when you want to get medieval on someone's ass."
+	"printname"		"Torcia"
+	"description"		"Per quando ti vengono desideri medievali sul culo di qualcuno."
 	"item_worth"		"30"
 
 	"viewmodel"		"models/weapons/w_null.mdl"

@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Sledgehammer"
-	"description"		"A heavy hammer ostensibly used for construction. Great for getting that song out of someone's head, as well as anything else inside. "
+	"printname"		"Martello da Fabbro"
+	"description"		"Un pesante martello usato per la costruzione. Un grande aiuto per suonarle a qualcuno."
 	"viewmodel"	"models/weapons/w_null.mdl"	// changed by wesp
 	"playermodel"		"models/weapons/sledgehammer/ground/g_sledgehammer.mdl"
 	"wieldmodel_f"		"models/weapons/sledgehammer/wield/w_f_sledgehammer.mdl"

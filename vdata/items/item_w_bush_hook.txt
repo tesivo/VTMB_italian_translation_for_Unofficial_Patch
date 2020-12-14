@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Bush Hook"
-	"description"		"Primarily used by gardeners, when used for intents other than its original purpose, the results are frequently gory."
+	"printname"		"Falcetto da Giardino"
+	"description"		"Principalmente usato dai giardinieri, quando usato per scopi impropri, puo' essere molto cruento."
 //	"viewmodel"		"models/weapons/bushhook/view/v_bushhook.mdl"
 //"viewmodel"	""
 "viewmodel"	"models/weapons/w_null.mdl"

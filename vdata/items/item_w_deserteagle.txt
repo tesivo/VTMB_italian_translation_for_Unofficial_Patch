@@ -8,9 +8,9 @@
 
 WeaponData
 {
-	"printname"		"McLusky .50 Caliber"
-	"description"		"This heavy gun was originally designed as a sport pistol for target shooting competitions. Due to the intimidating look of this massive .50 cal, it has been adopted as a favourite in movies and on tv shows as the all purpose Big Gun. The McLusky is one of the few gas-operated handguns ever produced, and one of the most powerful and heavy pistols available on the market."
-	"viewmodel"			"models/weapons/desert_eagle/view/v_desert_eagle.mdl"
+	"printname"		"Desert Eagle"	// changed by wesp
+	"description"		"Quest'arma pesante e' stata originariamente progettata come pistola per le competizioni. Il look intimidatorio di questa arma calibro 50, ha fatto si' che venisse adottata nei film e negli show televisivi. La Desert Eagle e' un'arma azionata a gas, e una delle piu' potenti e pesanti pistole disponibili sul mercato."	// changed by wesp
+	"viewmodel"		"models/weapons/desert_eagle/view/v_desert_eagle.mdl"
 	"playermodel"		"models/weapons/desert_eagle/ground/g_desert_eagle.mdl"
 // WIP! We don't have a female model currently!!!
 "wieldmodel_f"		"models/weapons/desert_eagle/wield/w_f_deserteagle.mdl"	// changed by wesp
@@ -51,8 +51,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		".50 cal Magazine"
-		"ammodescription"	"A magazine of .50 caliber rounds for the McLusky."
+		"ammoprintname"		"Caricatore .50 cal"
+		"ammodescription"	"Un caricatore dei tamburi calibro .50 per la Desert Eagle." // changed by wesp
 		"ammoinfomodel"		"models/weapons/ammo/glock/i_glock_ammo.mdl"
 
 		"Size"			"12"
@@ -145,7 +145,7 @@ WeaponData
 
 			"attack_npc"
 			{
-				"sound1"	"Weapons/Ranged/Desert_Eagle/Attack_1.wav"	
+				"sound1"	"Weapons/Ranged/Desert_Eagle/Attack_1.wav"
 
 			}
 

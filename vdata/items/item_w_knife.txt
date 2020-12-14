@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Knife"
-	"description"		"Some knives, throughout their entire existence, are never used for any malicious purpose. This ain't one of them."
+	"printname"		"Coltello"
+	"description"		"Alcuni coltelli, nel corso della loro esistenza, non vengono mai  usati per scopi malvagi. Questo non e' uno di quelli."
 //	"viewmodel"		"models/weapons/knife/view/v_knife.mdl"
 //"viewmodel"	""
 "viewmodel"	"models/weapons/w_null.mdl"

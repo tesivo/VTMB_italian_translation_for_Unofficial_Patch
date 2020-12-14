@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"	"Sheriff Sword"
-	"description"	"You shouldn't have this!"
+	"printname"	"Spada dello Sceriffo"
+	"description"	"Non dovresti averla!"
 	"item_worth"	"100"
 
 //	"viewmodel"		"models/weapons/katana/view/v_katana.mdl"

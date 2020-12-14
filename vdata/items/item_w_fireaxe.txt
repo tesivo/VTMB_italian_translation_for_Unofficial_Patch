@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Fire Axe"
-	"description"		"Truly, a tool for madmen. Who else would attack fire with a blade?"
+	"printname"		"Ascia da Fuoco"
+	"description"		"Davvero, un'arnese per folli. Chi altri attaccherebbe il fuoco con un'ascia?"
 	"item_worth"		"180"
 
 	"viewmodel"		"models/weapons/w_null.mdl"

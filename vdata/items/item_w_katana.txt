@@ -3,15 +3,15 @@
 WeaponData
 {
 	"printname"	"Katana"
-	"description"	"A light, slightly curved traditional Japanese sword designed for quick slashing attacks. To Kindred, a competent swordsman is far more dangerous than a sharpshooter."
+	"description"	"Una tradizionale spada leggera Giapponese progettata per attacchi veloci. Per i Fratelli, uno spadaccino competente e' molto piu' pericoloso di un tiratore scelto."
 
-//	"viewmodel"	"models/weapons/katana/view/v_katana.mdl"
-//	"viewmodel"	""
-	"viewmodel"	"models/weapons/w_null.mdl"
+//	"viewmodel"		"models/weapons/katana/view/v_katana.mdl"
+//"viewmodel"	""
+"viewmodel"	"models/weapons/w_null.mdl"
 	"playermodel"	"models/weapons/katana/world/g_katana.mdl"
 	"wieldmodel_f"	"models/weapons/katana/wield/w_f_katana.mdl"
 	"wieldmodel_m"	"models/weapons/katana/wield/w_m_katana.mdl"
-	"infomodel"	"models/weapons/katana/info/i_katana.mdl"
+	"infomodel"		"models/weapons/katana/info/i_katana.mdl"
 
 	"anim_prefix"	"katana"
 	"impact_snd_group"	"blade"

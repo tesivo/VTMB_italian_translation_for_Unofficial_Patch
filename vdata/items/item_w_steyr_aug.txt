@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"		"Steyr Aug"
-	"description"		"Even if the Steyr Aug was lackluster as a weapon, it would still have a lot going for it aesthetically, but this lightweight Austrian sub-machine gun has proved reliable and effective, making it a popular weapon in militaries around the world. A 4X scope is attached for improved accuracy."
+	"description"		"Anche se lo Steyr Aug era debole come arma, va ancora di moda per l'estetica, ma questo fucile leggero Austriaco si e' rilevato affidabile ed efficiente, rendendolo popolare nei corpi militari di tutto il mondo. E' dotato di un mirino fino a 4X per migliorare la precisione." // changed by Wesp
 	"viewmodel"		"models/weapons/rifle_steyraug/view/v_rifle_steyraug.mdl"
 	"playermodel"		"models/weapons/rifle_steyraug/ground/g_rifle_steyraug_r.mdl"
 	"wieldmodel_f"		"models/weapons/rifle_steyraug/wield/w_f_rifle_steyraug.mdl"
@@ -45,8 +45,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"NATO Round"
-		"ammodescription"	"A .223 round magazine for the Steyr Aug."
+		"ammoprintname"		"Colpi NATO"
+		"ammodescription"	"Un caricatore da .223 per lo Steyr Aug."
 		"ammo_worth"		"15"
 		"ammoinfomodel"		"models/weapons/ammo/steyr_aug/i_steyr_aug_ammo.mdl"
 

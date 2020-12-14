@@ -1,9 +1,9 @@
-// Ming Xiao's Spit
+//Ming Xiao's Spit
 
 WeaponData
 {
 	"printname"              "Ming Xiao Spit"	// changed by wesp
-	"description"            "Toxic Spit attack by Ming."	// changed by wesp
+	"description"            "Attacco dello sputo tossico di Ming."	// changed by wesp
 
 	"viewmodel"              "models/weapons/w_null.mdl"
 	"playermodel"            "models/weapons/w_null.mdl"
@@ -50,8 +50,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"          "Ming Xiao's Spit"
-		"ammodescription"        "A goober"
+		"ammoprintname"          "Spit di Ming Xiao"
+		"ammodescription"        "Una favola"
 
 		"Size"                   "1"
 		"Type"                   "None"
@@ -95,6 +95,7 @@ WeaponData
 		"SkillRequirement"	"8"				// min. skill requirement used in dmg calculations
 		"BaseLethality"		"28"				// base lethality used in dmg calculations
 		"Dmg"			"1 Lethal Ranged_Combat DMG_BULLET"
+
 
 		SoundData
 		{

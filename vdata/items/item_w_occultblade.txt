@@ -12,8 +12,8 @@ WeaponData
 	"anim_prefix"	"katana"
 	"impact_snd_group"	"blade"
 
-	"printname"	"Tal'mahe'Ra Blade"
-	"description"	"This sword was forged by the Tal'mahe'Ra, a vanished sect of Kindred that purportedly ventured into the lands of the dead. It seems unaturally light and causes aggravated damage."	// changed by wesp
+	"printname"	"Spada Tal'mahe'Ra"
+	"description"	"Questa spada e' stata forgiata da Tal'mahe'Ra, una setta scomparsa dei Fratelli che presumibilmente si sono avventurati nelle terre dei morti. Sembra innaturalmente leggera e causa danni aggravati."	//changed by wesp
 	"activation0"	"Attack"
 	"activation1"	""
 

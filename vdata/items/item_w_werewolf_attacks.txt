@@ -10,10 +10,10 @@ WeaponData
 	"wieldmodel_m"         "models/weapons/w_null.mdl"
 	"anim_prefix"          ""
 
-	"printname"		"Unknown"	// added by wesp
-	"description"	"You haven't seen one of these before, but Bun Bun left it here, so it can't be good news.
+	"printname"		"Sconosciuto"	// added by wesp
+	"description"	"Non ne avete mai visto uno prima d'ora, ma Bun Bun l'ha lasciato qui, quindi non può essere una buona notizia.
 
-You need a Research skill of at least 6 to use this item."	// added by wesp
+Per usare questo articolo è necessaria una capacità di ricerca di almeno 6."	// added by wesp
 
 	"impact_snd_group"	"fist"
 

@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Braddock 9mm"
-	"description"		"A small, light machine pistol that fires a 9mm pistol round, not made for accuracy as much as to deliver the largest amount of ordinance in the shortest period of time.  Bursts are more accurate but due to the high cyclic rate and low weight of the weapon, it is still seen as mainly a 'spray and pray' gun."
+	"printname"		"Ingram MAC-10"	// changed by wesp
+	"description"		"Una pistola piccola e leggera, che spara colpi da 9mm, la precisione non e' il suo forte, ma ha la capacita' di sparare una grande quantita' di colpi in poco tempo. Le raffiche sono molto piu' accurate ma a causa dell'alto rateo di ciclo e il leggero peso dell'arma, e' ancora vista come un'arma \"Spara e prega\"."
 	"viewmodel"		"models/weapons/submachine_mac10/view/v_submachine_mac10.mdl"
 	"playermodel"		"models/weapons/submachine_mac10/ground/g_submachine_mac10.mdl"
 	"wieldmodel_f"		"models/weapons/submachine_mac10/wield/w_f_submachine_mac10.mdl"

@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Thaumaturgy"
-	"description"	"Thaumaturgy casting"		// changed by wesp
+	"printname"		"Taumaturgia"
+	"description"	"Concentrazione taumaturgica"		// changed by wesp
 
 	"viewmodel"            "models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"	// changed by Entenschreck
 	"playermodel"          "models/weapons/w_null.mdl"
@@ -53,8 +53,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"Crossbow Bolt"
-		"ammodescription"	"A quiver of crossbow bolts."
+		"ammoprintname"		"Dardi della Balestra"
+		"ammodescription"	"Dardi della balestra."
 
 		"Size"			"1"
 		"Type"			"CrossbowBolt"
@@ -170,8 +170,8 @@ WeaponData
 			"640"
 			{
 				"file"		"hud/disipline_targeting_cursor"
-				"x"			"0"
-				"y"			"0"
+				"x"		"0"
+				"y"		"0"
 				"width"		"135"
 				"height"	"64"
 			}
@@ -181,12 +181,13 @@ WeaponData
 			"640"
 			{
 				"file"		"hud/disipline_targeting_cursor"
-				"x"			"0"
-				"y"			"0"
+				"x"		"0"
+				"y"		"0"
 				"width"		"135"
 				"height"	"64"
 			}
 		}
+
 
 // Disabled because it uses Accuracy Crosshairs
 //		"crosshair"
@@ -199,6 +200,8 @@ WeaponData
 //				"width"		"24"
 //				"height"	"24"
 //			}
+
+
 
 		// Accuracy Crosshairs
 		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
@@ -213,5 +216,4 @@ WeaponData
 		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
 		"Interactive_Crosshair"	"hud/Crosshairs/Crosshair_Interactive"
 	}
-
 }

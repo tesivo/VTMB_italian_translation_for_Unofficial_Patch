@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Colt Anaconda"
-	"description"		"A .44 magnum revolver. Feelin' lucky, punk? A large caliber monster with the power to stop almost anyone dead in his tracks. Alternate Fire Mode: Fan."
+	"printname"		"Colt Anaconda"	//changed by wesp
+	"description"		"Una .44 magnum revolver. Ti senti fortunato, punk? Un mostro di arma con una potenza tale da stendere chiunque si trovi sulla sua traiettoria. Alternata Modalita' di Sparo: Ventola."
 	"viewmodel"		"models/weapons/anaconda/view/v_anaconda.mdl"
 	"playermodel"		"models/weapons/anaconda/ground/g_anaconda.mdl"
 	"wieldmodel_f"		"models/weapons/anaconda/wield/w_f_anaconda.mdl"

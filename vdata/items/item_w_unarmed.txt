@@ -11,8 +11,8 @@ WeaponData
 	"wieldmodel_m"	"models/weapons/w_null.mdl"
 	"anim_prefix"	""
 
-	"printname"		"Unarmed"
-	"description"	"No weapon readied."
+	"printname"		"Disarmato"
+	"description"	"Nessun'arma."
 	"activation0"	"Attack"
 	"activation1"	""
 

@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"			"Fragmentation Grenade"
-	"description"			"Pull pin for fun and profit."
+	"printname"		"Granata a Frammentazione"
+	"description"		"Se vuoi divertirti e ottenere risultati evidenti, togli la sicura."
 	"item_worth"			"0"		// changed by wesp
 
 	"viewmodel"		"models/weapons/grenade/pineapple/view/v_pineapple.mdl"
@@ -16,23 +16,23 @@ WeaponData
 	"origin_x"				"3"	// changed by Lenuska
 	"origin_y"				"0"	// changed by Lenuska
 	"origin_z"				"62"	// changed by Lenuska
-	"anim_prefix"				"grenade"
+	"anim_prefix"		"grenade"
 	"impact_snd_group"			"bullet"	// changed by Lenuska
 
 	"activation0"				"Single"	// changed by Lenuska
 	"activation1"				"Error"
 	"jammed0"				"Jammed"	// changed by Lenuska
 	"jammed1"				"Jammed"	// changed by Lenuska
-	"bucket"				"1"
+	"bucket"		"1"
 	"bucket_position"			"4"		// changed by Lenuska
 	"camera_class"				"ranged"	// changed by Lenuska
-	"weight"				"3"
-	"item_flags"				"0"
+	"weight"		"3"
+	"item_flags"		"0"
 	"item_type"				"weapon_thrown"	// changed by wesp
 	"impact_force"				"10000"	// changed by wesp
-// Lenuska	"throwing_weapon"			"1"	
-	"sound_group"				"Grenade_Pineapple"
-	"uses_accuracycursors"			"1"
+// Lenuska	"throwing_weapon"			"1"
+	"sound_group"	"Grenade_Pineapple"
+	"uses_accuracycursors"	"1"
 
 
 	"knockback_chance"			"1.0"
@@ -55,15 +55,15 @@ WeaponData
 	Magazine
 	{
 		//printname description and ammo_worth should be the same as in WeaponData
-		"ammoprintname"			"Fragmentation Grenade"
-		"ammodescription"		"Pull pin for fun and profit."
+		"printname"		"Granata a Frammentazione"
+		"description"		"Togli la sicura per divertimento e profitto."
 		"ammo_worth"			"0"	// changed by wesp
 		"ammoinfomodel"			"models/weapons/grenade/pineapple/info/i_pineapple.mdl"	// changed by Lenuska
 
 		"Size"				"1"
 		"Default_Size"			"1"
-		"Type"				"FragGrenade"
-		"ReloadTime"			"3.5"
+		"Type"			"FragGrenade"
+		"ReloadTime"		"3.5"
 
 
 		SoundData
@@ -74,7 +74,7 @@ WeaponData
 			}
 
 			"reload_npc"
-			{
+			{		
 				"sound1"	"Weapons\Ranged\Grenade\Pull_Pin.wav"
 			}
 		}
@@ -83,19 +83,19 @@ WeaponData
 //Primary Attack
 	Activation
 	{
-		"Tag"				"Primary"
-		"Type"				"Attack"
-		"Ammo_Type"			"FragGrenade"
-		"Ammo_Cost"			"1"
-		"Botch_Table"			"Pistols"
-		"Attack_Rate"			"3.5"
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"FragGrenade"
+		"Ammo_Cost"		"1"
+		"Botch_Table"		"Pistols"
+		"Attack_Rate"		"3.5"
 		"Range"				"60"	// changed by Lenuska
 		"CriminalLevel"	"5"
 // Lenuska		"allow_autofire" 		"1"
 
-		"Accuracy"			"6"
+		"Accuracy"		"6"
 
-		"SkillRequirement"		"1"			// min. skill requirement used in dmg calculations, added by Lenuska		
+		"SkillRequirement"		"1"			// min. skill requirement used in dmg calculations, added by Lenuska
 		"BaseLethality"		"100"			// base lethality used in dmg calculationn, changed by wesp
 		"Dmg"			"100 Aggravated Throwing DMG_BLAST"	// changed by wesp
 
@@ -136,7 +136,7 @@ WeaponData
 
 			"attack_npc"
 			{
-				"sound1"	"Weapons\Ranged\Grenade\Projectile.wav"	
+				"sound1"	"Weapons\Ranged\Grenade\Projectile.wav"
 			}
 
 			"botch"
@@ -152,8 +152,8 @@ WeaponData
 			"put_away"
 			{
 				"sound1"	"Weapons/Ranged/Put_Away.wav"
-			}			
-			
+			}
+
 			"fidget"
 			{
 				"sound1"	"Weapons/Ranged/Fidget.wav"
@@ -179,7 +179,7 @@ WeaponData
 				"7"             "175"     //-2 (penalty)
 				"8"             "150"     //-3 (penalty)
 				"9"             "1"     //-4 (penalty)
-			}
+	}
 			Table
 			{
 				"Name"          "GrossPointBlank"
@@ -201,7 +201,7 @@ WeaponData
 				"8"             "90"
 				"9"             "100"
 			}
-			
+
 		}
 	}
 
@@ -284,7 +284,7 @@ WeaponData
 				"file"	"hud/Inventory_Images/weapons_ranged/grenade_frag_sel"	// changed by wesp
 				"x"		"0"
 				"y"		"0"
-				"width"		"100"
+				"width"	"100"
 				"height"	"64"
 			}
 		}
@@ -306,7 +306,7 @@ WeaponData
 				"file"	"hud/Inventory_Images/weapons_ranged/grenade_frag"	// changed by wesp
 				"x"		"0"
 				"y"		"0"
-				"width"		"100"
+				"width"	"100"
 				"height"	"64"
 			}
 		}
@@ -340,8 +340,8 @@ WeaponData
 //			"640"
 //			{
 //				"file"		"crosshairs"
-//				"x"		"0"
-//				"y"		"48"
+//				"x"			"0"
+//				"y"			"48"
 //				"width"		"24"
 //				"height"	"24"
 //			}
@@ -359,6 +359,6 @@ WeaponData
 		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
 		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
 		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
-		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
-		}
+		"Interactive_Crosshair"	"hud/Crosshairs/Crosshair_Interactive"
+	}
 }

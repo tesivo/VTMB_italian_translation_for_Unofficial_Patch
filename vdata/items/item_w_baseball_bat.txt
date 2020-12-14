@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Baseball Bat"
-	"description"		"Once, the signature crack of this equipment conjured images of America's pastime. Now, it has evolved into the brutal chorus of a thugsong."	// changed by wesp 
+	"printname"		"Mazza da Baseball"
+	"description"		"Una volta, il segno di una frattura inflitta da questo oggetto significava l'immagine dei tempi andati dell'America. Ora, si e' evoluto in un brutale arnese per teppistelli."	// changed by wesp 
 //	"viewmodel"		"models/weapons/baseball_bat/view/v_baseball_bat.mdl"
 //"viewmodel"	""
 "viewmodel"	"models/weapons/w_null.mdl"
@@ -69,7 +69,7 @@ WeaponData
 		"Botch_Table"		"Melee_Weapons"
 		"Attack_Rate"		"1.0"
 		"Range"			"0"
-		"CriminalLevel"	"2"
+		"CriminalLevel"		"2"
 
 
 		// Sounds...

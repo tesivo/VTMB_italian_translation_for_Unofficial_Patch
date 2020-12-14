@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Pyro crossbow" // changed by Wesp
-	"description"		"An advanced version of the ancient Chinese weapon. It silently fires one wooden bolt at a time and ignites the tip to create extra damage." // changed by Wesp
+	"printname"		"Balestra Kuei-jin"
+	"description"		"Questa balestra e' un'opera d'arte dei Kuei-jin. Spara silenziosamente un dardo alla volta, ma lo arroventa magicamente per creare danno extra." // changed by Wesp
 
 	"viewmodel"			"models/weapons/crossbow/view/v_crossbow.mdl"
 	"playermodel"		"models/weapons/crossbow/ground/g_crossbow.mdl"
@@ -61,8 +61,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"Crossbow Bolt"
-		"ammodescription"	"These are modern crossbow bolts."	// changed by Wesp
+		"ammoprintname"		"Dardo"
+		"ammodescription"	"	"Questi sono moderni dardi d'acciaio."	// changed by Wesp
 
 		"Size"			"1"	// changed by Wesp
 		"Default_Size"		"1"

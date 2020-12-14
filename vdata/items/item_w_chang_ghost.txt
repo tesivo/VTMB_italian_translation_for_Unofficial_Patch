@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Chang Explosion"	// changed by wesp
-	"description"		"Explosion that is created by floating Chang Brothers."	// changed by wesp
+	"printname"		"Fantasma di Chang"
+	"description"		"Fantasma di Chang"
 	"item_worth"		"200"
 
 	"viewmodel"		"models/scenery/misc/gio_spirit/gio_spirit.mdl"
@@ -47,8 +47,8 @@ WeaponData
 	Magazine
 	{
 		//printname description and ammo_worth should be the same as in WeaponData
-		"printname"		"Fragmentation Grenade"
-		"description"		"Pull pin for fun and profit."
+		"printname"		"Granata a Frammentazione"
+		"description"		"Se vuoi divertirti e ottenere risultati evidenti, togli la sicura."
 		"ammo_worth"		"200"
 
 		"Size"			"-1"

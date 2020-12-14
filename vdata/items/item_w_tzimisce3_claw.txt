@@ -10,10 +10,10 @@ WeaponData
 	"wieldmodel_m"         "models/weapons/w_null.mdl"
 	"anim_prefix"          ""
 
-	"printname"			"Unknown"	// added by wesp
-	"description"		"Maybe if you were a bit more goth you would have a clue what this thingie is.
+	"printname"			"Sconosciuto"	// added by wesp
+	"description"		"Forse se foste un po' più goth avreste un'idea di cosa sia questo coso.
 
-You need a Research skill of at least 4 to use this item."	// added by wesp
+Hai bisogno di una capacità di ricerca di almeno 4 per usare questo oggetto."	// added by wesp
 
 	"impact_snd_group"	"fist"
 

@@ -11,10 +11,10 @@ WeaponData
 	"wieldmodel_m"	"models/weapons/w_null.mdl"
 	"anim_prefix"	"fist"
 
-	"printname"		"Unknown"	// changed by wesp
-	"description"	"It isn't a WWJD bracelet, so you have no idea what it could be.
+	"printname"		"Sconosciuto"	// changed by wesp
+	"description"	"Non è un braccialetto della WWJD, quindi non hai idea di cosa possa essere.
 
-You need a Research skill of at least 8 to use this item."	// added by wesp
+Per utilizzare questo oggetto è necessaria una competenza di ricerca di almeno 8."	// added by wesp
 
 	"impact_snd_group"	"fist"
 
@@ -32,7 +32,7 @@ You need a Research skill of at least 8 to use this item."	// added by wesp
 
 	"is_visible_in_hud"	"1"	// changed by wesp
 	"permanent_inventory"	"1"	// added by wesp
-	"is_droppable"		"0"
+	"is_droppable"	"0"
 	"is_wieldable"		"0"	// added by wesp
 
 	"knockback_chance" 	"0.3"
@@ -127,6 +127,7 @@ You need a Research skill of at least 8 to use this item."	// added by wesp
 				"y"		"0"
 				"width"	"100"
 				"height"	"64"
+
 			}
 		}
 	}

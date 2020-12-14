@@ -14,10 +14,10 @@ WeaponData
 
 	"impact_snd_group"	"fist"
 
-	"printname"		"Unknown"	// changed by wesp
-	"description"	"Hmm, when you gaze upon this object, the skies darken and lightning flashes. Those aren't good clues to what this is though.
+	"printname"		"Sconosciuto"	// changed by wesp
+	"description"	"Hmm, quando si guarda questo oggetto, i cieli si oscurano e i lampi lampeggiano. Questi non sono però buoni indizi di cosa sia questo.
 
-You need a Research skill of at least 4 to use this item."	// added by wesp
+Per usare questo oggetto è necessaria una competenza di ricerca di almeno 4."	// added by wesp
 
 	"activation0"	"Attack"
 	"activation1"	""
@@ -32,7 +32,6 @@ You need a Research skill of at least 4 to use this item."	// added by wesp
 	"item_worth"		"50"	// changed by wesp
 
 	"is_visible_in_hud"	"1"
-	"permanent_inventory"	"1"	// added by wesp
 	"is_droppable"		"0"	// changed by wesp
 	"is_wieldable"		"0"	// added by wesp
 
@@ -134,6 +133,7 @@ You need a Research skill of at least 4 to use this item."	// added by wesp
 				"y"		"0"
 				"width"	"100"
 				"height"	"64"
+
 			}
 		}
 //		"crosshair"

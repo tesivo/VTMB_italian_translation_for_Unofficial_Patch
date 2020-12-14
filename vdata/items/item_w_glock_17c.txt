@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"		"Brokk 17c"
-	"description"		"A 9 mm standard pistol with a polymer grip and guide rod (instead of metal) that makes it lighter than other pistols. It can be found in use by most law enforcement agencies. The light composite frame makes the middling amount of recoil a problem so it is vented on the top of the slide to provide compensation for muzzle lift."
+	"printname"		"Glock 17c"	// changed by wesp
+	"description"		"Una pistola stardard 9mm con un'impugnatura in polimero e la canna (in metallo) che la rende piu' leggera delle altre pistole. E' usata dalle agenzie di law enforcement. Il rinculo potrebbe essere un problema, cosi' e' stata forata in cima per compensare la forza di ritorno."
 
 	"viewmodel"		"models/weapons/pistol_glock/view/v_pistol_glock.mdl"
 	"playermodel"		"models/weapons/pistol_glock/ground/g_pistol_glock.mdl"
@@ -45,8 +45,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"9 mm Magazine"
-		"ammodescription"	"A magazine of 9 mm rounds for the Brokk 17c."
+		"ammoprintname"		"Caricatore 9 mm"
+		"ammodescription"	"Un caricatore di 9 mm per la Glock 17c."	// changed by wesp
 		"ammoinfomodel"		"models/weapons/ammo/glock/i_glock_ammo.mdl"
 
 		"Size"			"18"
