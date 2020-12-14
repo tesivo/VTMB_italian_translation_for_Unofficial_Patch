@@ -10,8 +10,8 @@ WeaponData
 	"infomodel"		"models/scenery/misc/armor/LeatherHeavy/LeatherHeavy.mdl"
 	"anim_prefix"	"hvy_leather"
 
-	"printname"		"Heavy Leather"
-	"description"	"This is a set of heavy leather clothing. Heavy leather clothing has an armor rating of 3, but hinders movement, resulting in a -1 penalty to Dexterity. Some examples of heavy leather clothing are studded or reinforced leather jackets, girded leather pants, and hard leather gloves and boots." // changed by wesp
+	"printname"		"Cuoio Pesante"
+	"description"	"Un set di armatura pesante in cuoio. L'armatura pesante in cuoio ha un punteggio di armatura pari a 3, ma limita i movimenti, penalizzando di -1 la Destrezza. Alcuni esemplari possono essere equipaggiati con borchie o rinforzati con rivestimenti, pantaloni di cuoio, guanti e stivali di cuoio." //changed by wesp
 
 	"bucket"		"0"
 	"bucket_position"	"2"

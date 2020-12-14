@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Brotherhood Flyer"
-	"description"	"The writing on this flyer reads \"I am Enlightened\"."
+	"printname"	"Volantino della Fratellanza"
+	"description"	"Su questo volantino c'e' scritto \"Sono Illuminato\"."
 
 
 	"bucket"		"1"

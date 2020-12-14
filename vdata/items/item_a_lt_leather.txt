@@ -10,8 +10,8 @@ WeaponData
 	"infomodel"		"models\scenery\misc\armor\LeatherLight\LeatherLight.mdl"
 	"anim_prefix"	"lt_leather"
 
-	"printname"		"Light Leather"
-	"description"	"This is a set of light leather clothing. Light leather clothing has an armor rating of 2, but hinders movement slightly, resulting in a -1 to Dexterity. Some examples of light leather clothing are leather jackets, leather skirts, and leather gloves and boots."	// changed by wesp
+	"printname"		"Cuoio Leggero"
+	"description"	"Un set di armatura leggera in cuoio. L'armatura leggera in cuoio ha un punteggio d'armatura pari a 2, ma limita leggermente i movimenti, provocando -1 in Destrezza. Alcuni esemplari possono essere, giacche di cuoio, magliette di cuoio, gonne di cuoio, guanti e stivali di cuoio."	//changed by wesp
 
 	"bucket"		"1"
 	"bucket_position"	"2"

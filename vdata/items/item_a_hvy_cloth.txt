@@ -10,8 +10,8 @@ WeaponData
 	"infomodel"		"models\scenery\misc\armor\ClothesHeavy\ClothesHeavy.mdl"
 	"anim_prefix"	"hvy_cloth"
 
-	"printname"		"Heavy Clothing"
-	"description"	"This is a set of heavy clothing, which acts as armor. Heavy clothing has an armor rating of 1, there are no stat penalites for equipping it. Examples would be jackets, coats, thick sweaters and sturdy trousers."	// changed by wesp
+	"printname"		"Abbigliamento Pesante"
+	"description"	"E' un abito pesante, che agisce come un'armatura. Non ci sono statistiche di penalita' nell'equipaggiarla. Ha un punteggio di armatura pari a 1."	//changed by wesp
 
 	"bucket"		"1"
 	"bucket_position"	"2"

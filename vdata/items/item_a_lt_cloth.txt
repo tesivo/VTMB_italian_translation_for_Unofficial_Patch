@@ -10,8 +10,8 @@ WeaponData
 	"infomodel"		"models\scenery\misc\armor\ClothesLight\ClothesLight.mdl"
 	"anim_prefix"	"lt_cloth"
 
-	"printname"		"Light Clothing"
-	"description"	"This is the most basic and unrestrictive clothing. Examples would be t-shirts, khakis, sun dresses, and pleated skirts."	// changed by wesp
+	"printname"		"Abbigliamento Leggero"
+	"description"	"E' l'armatura piu' semplice e meno restrittiva. Esemplari di questa armatura possono essere le magliette, pantaloni, abiti prendisole e gonne a pieghe."	//changed by wesp
 
 	"bucket"		"1"
 	"bucket_position"	"2"

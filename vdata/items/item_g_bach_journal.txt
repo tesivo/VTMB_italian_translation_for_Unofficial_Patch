@@ -9,28 +9,28 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Journal"
-	"description"	"This journal is inscribed with the initials \"G.B.\"
+	"printname"	"Diario"
+	"description"	"Questo diario e' firmato con le iniziali \"G.B.\"
 
-			We have tracked LaCroix to Los Angeles. He has made his lair in the penthouse of the Venture Tower, hiding behind some legitimate business front while commanding his legion of demons by cover of night. I pray to the Lord for strength in the coming days, but there is a shadow that hangs over my heart like the dark wings of Lucifer himself. It is not LaCroix I fear, nor his underlings, but there is fear in my heart nonetheless. An ancient evil is stirring. May God grant me the strength to overcome it.
+			Abbiamo rintracciato LaCroix a Los Angeles. Si e' fatto una tana nell'attico della Venture Tower, nascondendosi dietro alcuni affari legali mentre comanda la sua legione di demoni come copertura della notte. Prego il Signore di donarmi forza nei prossimi giorni, ma c'e' un'ombra che pesa sul mio cuore come le stesse ali di Lucifero. Non ho paura di LaCroix, ne' dei suoi scagnozzi, ma il mio cuore e' ugualmente angosciato. Un demone antico si sta risvegliando. Possa Dio darmi la forza per superare questo.
 
-			Woke up this morning, and the sun on my face was little comfort. We lost three of the Brethren last night in a fierce battle with some hellspawn... minions of the vampire we know as Alistair Grout. We have been unable to find his lair, but it is only a matter of time. May God have mercy on the souls of our Brethren.
+			Mi sono svegliato questa mattina e il sole sulla mia faccia era confortante. Abbiamo perso tre Fratelli la scorsa notte in una feroce battaglia con alcuni hellspawn... schiavi del vampiro che conosciamo come Alistair Grout. Non siamo stati capaci di trovare la sua tana, ma e' solo questione di tempo. Possa Dio avere compassione delle anime dei nostri Fratelli.
 
-			The mystery surrounding the Ankaran Sarcophagus and the massacre on the Elizabeth Dane has my superiors troubled. I have been told to expect a package in the mail that may be helpful in shedding some light on this artifact. Its arrival seems... convenient... in light of LaCroix's recent arrival. Something is amiss, yet I cannot see what machinations are at play. I will wait and have faith that the Lord will see us through.
+			Il mistero che circonda il Sarcofago di Ankaran e il massacro sulla Elizabeth Dane ha preoccupato i miei superiori. Mi e' stato detto di aspettarmi un pacchetto nella cassetta della posta che possa essere utile a gettare alcune luci su questo artefatto. Il suo arrivo sembra... conveniente... alla luce del recente arrivo di LaCroix. Qualcosa e' fuori posto, non riesco ancora a vedere quali macchinazioni sono in corso. Aspettero' e ho fede che il Signore ci difendera'.
 
-			We finally found the lair of Alistair Grout, but it seems we were too late... the demon had already been sent to hell before I was able to dispatch him. I ran across a younger vampire who seemed unaware of Grout's demise. No doubt one of his sucklings come to visit its master. I took care of that demon and destroyed the house. I thank God for his eternal watchfulness over me and the Brotherhood.
+			Abbiamo finalmente trovato la tana di Alistair Grout, ma sembra che siamo arrivati troppo tardi... il demone e' stato inviato all'inferno gia' prima del mio arrivo. Ho incrociato un giovane vampiro che sembrava ignaro della morte di Grout. Nessun dubbio che uno dei suoi novellini venga a visitare il suo maestro. Mi sono preso cura di quel demone e ho distrutto la casa. Ringrazio Dio per la sua eterna vigilanza su di me e sulla Fratellanza.
 
-			There seems a great unrest among the vampire brood here in the city. Perhaps the arrival of LaCroix was unwelcome to the rest of the Damned? I know not, nor do I care. They will all burn, whether by my hand or the Father's.
+			Sembra esserci alta tensione tra i vampiri in citta'. Forse l'arrivo di LaCroix e' sgradito per il resto dei Dannati? Non lo so e nemmeno mi interessa. Bruceranno tutti, sia per mano mia sia per quella dei miei Fratelli.
 
-			The Ankaran Sarcophagus was stolen today from the Museum of Natural History. The police report we obtained leads me to believe that the demon spawn were behind it, and the book I received yesterday from the Vatican only reinforces that theory. I know now that these may very well be the end times, and the time of the final struggle may well be upon us.
+			Il Sarcofago di Ankaran e' stato rubato oggi dal Museo di Storia Naturale. Il rapporto di polizia che abbiamo rimediato mi fa credere che dietro tutto questo ci sia il demone, ed il libro che ho ricevuto ieri dal Vaticano rinforza questa teoria. Ora so' che questi potrebbero essere i nostri ultimi giorni e il tempo del conflitto finale potrebbe essere imminente.
 
-			I dreamed of LaCroix last night, of his hideous visage burned to ash in a great inferno. May it be that this is a vision given to me by God, and that I will be the vessel of his holy vengeance. The years have been long. Too long. Perhaps the soul of my father may finally rest in peace.
+			Ho sognato LaCroix la scorsa notte, il suo volto malvagio bruciato, ridotto in cenere in un grande inferno. Possa questa essere una visione mandata da Dio e che io saro' lo strumento della sua sacra vendetta. Sono passati troppi anni. Troppi. Puo' darsi che l'anima di mio padre potra' finalmente riposare in pace.
 
-			Brother Kriegler reported a disturbance at the vampire coven we have been observing at the mansion in Hollywood. It seems there was a party, and that something interrupted their fleshly rituals. He could say no more of the matter, but I smell LaCroix's meddling hand in this. All the better. May the demons feed on themselves until the world is rid of their evil.
+			Il Fratello Kriegler ha fatto notare disordini nella tana del vampiro che abbiamo osservato nel palazzo ad Hollywood. Sembra ci sia stata una festa e che qualcosa abbia interrotto i loro rituali sanguinari. Non mi ha potuto dire nulla di rilevante, ma sento puzza della mano di LaCroix in tutto questo. Meglio. Possano i demoni cibarsi di loro stessi affinche' il mondo si liberi dal male.
 
-			I had dreams of fires in Griffith Park last evening. I know not their origin, but I fear the worst. I received a letter from His Holiness, warning me that he is fearful that the Apocalypse is upon us, and that my mission has become more important than ever. I hold his words close to my heart, and will fight for righteousness until I am no longer able.
+			Spari in Griffith Park la scorsa notte. Non conosco la loro origine, ma temo il peggio. Ho ricevuto una lettera da Sua Santita', mi avverte di essere preoccupato che l'Apocalisse sia su di noi e che la mia missione e' diventata ancora piu' importante. Trattengo le sue parole vicine al mio cuore e combattero' per la rettitudine finche' saro' capace di farlo.
 
-			I took Johansen from his hotel room last evening and brought him back here to the monastery. I am convinced that LaCroix will try to find him, as he is the only one with the knowledge about how the artifact can be opened. The Brethren have been warned to expect an assault on the monastery, and they are ready to die for His Glory, as am I. May the Holy Father bless us in these last dark days, and may the children of Satan burn forever in the hellfires of damnation. Amen."	// changed by wesp
+			Ho preso Johansen dalla sua stanza d'hotel la scorsa notte e l'ho portato al monastero. Sono convinto che LaCroix provera' a trovarlo, perche' lui e' l'unico che sa come aprire l'artefatto. I Fratelli sono stati avvertiti di aspettarsi un assalto al monastero e sono pronti per morire per Dio, come me. Possa il Santo Padre benedirci in questi ultimi giorni di oscurita' e possano i figli di Satana bruciare per sempre nel fuoco della dannazione. Amen."
 
 
 	"bucket"		"1"

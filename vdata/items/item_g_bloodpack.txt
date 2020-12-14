@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"			"Blood Pack"
-	"description"			"A bag of blood routinely used in hospitals for transfusions. Using it restores blood points."
+	"printname"			"Sacca di Sangue"
+	"description"			"Una sacca di sangue solitamente utilizzata negli ospedali per le trasfusioni. Usandola ripristinera' punti sangue."
 	"item_worth"			"55"
 
 	
@@ -31,8 +31,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"Blood Pack"
-		"ammodescription"	"A bag of blood routinely used in hospitals for transfusions. Using it restores blood points."
+		"ammoprintname"		"Sacca di Sangue"
+		"ammodescription"	"Una sacca del sangue solitamente usato negli ospedali per le trasfusioni. Usandola ti ripristinera' punti sangue."
 		"ammo_worth"		"55"
 
 		"Type"				"BloodRound"

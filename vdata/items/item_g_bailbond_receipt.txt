@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Bail Bond"
-	"description"	"This is the receipt for a bail bond. The bail bond was for one Rolf Toten."
+	"printname"	"Cauzione"
+	"description"	"E' la ricevuta di pagamento di una cauzione. La cauzione era per un tizio di nome Rolf Toten."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

@@ -11,7 +11,7 @@ WeaponData
 	"anim_prefix"	" "
 
 	"printname"	"CD-ROM"
-	"description"	"A label on the CD says \"B. Tung\"."
+	"description"	"L'etichetta sul CD dice \"B. Tung\"."
 
 
 	"bucket"		"1"

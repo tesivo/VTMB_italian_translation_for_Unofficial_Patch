@@ -10,8 +10,8 @@ WeaponData
 	"infomodel"		"models\scenery\misc\armor\RiotGear\RiotGear.mdl"
 	"anim_prefix"	"riot_gear"
 
-	"printname"		"Body Armor"
-	"description"	"Most of these protective compounds are worn under clothing, for that extra ounce of \"not gonna die tonight\". Their armor rating is 4 with -2 to Dexterity."	// changed by wesp
+	"printname"		"Armatura Corpo"
+	"description"	"Questa armatura, per la serie \"non morirai stanotte\", si indossa sotto gli abiti tradizionali. Il punteggio della tua armatura e' di 4 con -2 di Destrezza."	//changed by wesp
 
 	"bucket"		"1"
 	"bucket_position"	"2"

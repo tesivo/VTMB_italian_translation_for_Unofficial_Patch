@@ -9,8 +9,8 @@ WeaponData
 
 	"anim_prefix"	" "
 
-	"printname"	"Drug Box"
-	"description"	"Vivitrazac. Take one before \"relations\". Allow six to eight hours for swelling to subside."
+	"printname"	"Cassetta delle Medicine"
+	"description"	"Vivitrazac. Prendine una prima delle \"relazioni0\". Permette una durata dalle sei alle otto ore."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

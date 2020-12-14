@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Bad Luck Talisman"
-	"description"	"A talisman that Mr. Ox asked you to put in a marked locker at the Lotus Blossom."	// changed by wesp
+	"printname"	"Talismano della Sfortuna"
+	"description"	"Un talismano che Mr. Ox ti ha chiesto di mettere nell'armadietto di Shu al Lotus Blossom."
 
 	"bucket"		"1"
 	"bucket_position"	"2"
@@ -51,7 +51,7 @@ WeaponData
 		{
 			"640"
 			{
-				"file"	"hud/Inventory_Images/General_Items/Talisman"
+				"file"	"hud/Inventory_Images/General_Items/Talisman" 
 				"x"		"0"
 				"y"		"0"
 				"width"	"100"

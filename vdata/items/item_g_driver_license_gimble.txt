@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Driver's License"
-	"description"	"A California driver's license. The name on the license is Virgil Crumb."
+	"printname"	"Patente di Guida"
+	"description"	"Una patente di guida Californiana. Il nome scritto sulla patente e' Virgil Crumb."
 
 	"bucket"		"1"
 	"bucket_position"	"2"

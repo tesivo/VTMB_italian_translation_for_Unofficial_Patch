@@ -2,8 +2,8 @@
 
 WeaponData
 {
-	"printname"				"Blue Blood Pack"
-	"description"			"A bag of blood from only the finest human specimens. Drinking it restores blood points."
+	"printname"				"Sacca di Sangue Blu"
+	"description"			"Una sacca di sangue proveniente dagli umani piu' facoltosi. Bevendola ripristina punti sangue."
 	"item_worth"			"110"
 
 	"viewmodel"				""		// changed by wesp
@@ -33,8 +33,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"Blue Blood Pack"
-		"ammodescription"	"A bag of blood from only the finest human specimens. Drinking it restores blood points."
+		"ammoprintname"		"Sacca di Sangue Blu"
+		"ammodescription"	"Una sacca di sangue proveniente dagli umani piu' facoltosi. Bevendola ripristina punti sangue."
 		"ammo_worth"		"110"
 
 		"Type"				"BlueBloodRound"

@@ -9,8 +9,8 @@ WeaponData
 	
 	"anim_prefix"	" "
 
-	"printname"	"Car Stereo"
-	"description"	"A popular model car stereo that might be worth something to someone who asks few questions about its origin."
+	"printname"	"Stereo"
+	"description"	"Un comune stereo per auto."
 
 	"bucket"		"1"
 	"bucket_position"	"2"
