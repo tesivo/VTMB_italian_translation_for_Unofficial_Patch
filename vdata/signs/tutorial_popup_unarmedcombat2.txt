@@ -12,10 +12,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Your Unarmed Combat feat is a combination of Strength and Brawl. It directly affects your success in unarmed combat.
-There are different attacks depending on what direction you are moving when you initiate your attack. Try different combinations of moving and attacking in the upcoming battle.
-You can also block your enemy's attacks by pressing and holding the Attack Mode key (default TAB).
-To put your fists away, press the Holster Weapon key (default H)."
+		"Text"		"La tua impresa Combattimento Disarmato e' una combinazione di Forza e Rissa. Influisce direttamente sul tuo successo nel combattimento disarmato.
+Ci sono differenti attacchi che dipendono dalla direzione in cui ti stai muovendo quando inizi l'attacco. Prova diverse combinazioni di mosse e di attacco nella prossima lotta.
+Puoi anche bloccare gli attacchi del tuo nemico tenendo premuto il tasto Modalita' Attacco (default TAB).
+Per togliere i pugni, premi il tasto Fondina (default H)."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"308"	//180, ws-fix
@@ -27,7 +27,7 @@ To put your fists away, press the Holster Weapon key (default H)."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

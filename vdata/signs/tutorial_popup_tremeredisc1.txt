@@ -54,10 +54,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Tremere have three unique disciplines.
-Thaumaturgy: Vampiric blood magic.
-Auspex: Second sight that allows you to see the auras of others.
-Dominate: The ability to bend people to your will."
+		"Text"		"I Tremere hanno tre discipline uniche.
+Taumaturgia: Sangue magico vampirico.
+Auspex: Seconda vista che ti permette di vedere l'aura degli altri.
+Dominazione: L'abilita' di sottomettere le persone alla tua volonta'"
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -69,7 +69,7 @@ Dominate: The ability to bend people to your will."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

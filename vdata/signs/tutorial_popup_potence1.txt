@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Potence is vampiric supernatural strength.
-Potence is a passive, or time-based, Discipline. Once you activate it, pay attention to the Discipline timer on the bottom-right of your screen.
-Use of Potence is not a Masquerade violation."
+		"Text"		"La Potenza e' la forza soprannaturale vampirica.
+La Potenza e' una Disciplina passiva, o a tempo. Una volta attivata, fai attenzione alla barra del tempo in basso a destra del tuo schermo.
+L'uso della Potenza non e' una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Potence is not a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

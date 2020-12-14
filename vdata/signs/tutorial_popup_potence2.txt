@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a Sabbat guard up ahead. Use Potence to kill him.
-Scroll the mouse wheel to select Potence, and use the Power key (default right-click) to activate it.
-Potence is very effective when used with a melee weapon. After activating the Discipline, equip your tire iron and attack him with it."	// changed by wesp
+		"Text"		"C'e' un Sabbat di guardia nella prossima stanza. Usa la Potenza per oltrepassarla.
+Scorri con la rotellina del mouse per selezionare Potenza e usa il tasto Potenza (default click-destro) per attivarla.
+La Potenza e' molto efficace quando usata con un'arma da mischia. Dopo averla attivata, equipaggiati con la tua mazza di ferro e attaccalo."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Potence is very effective when used with a melee weapon. After activating the Di
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

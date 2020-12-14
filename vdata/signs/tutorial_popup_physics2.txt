@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a Sabbat vampire up ahead, guarding the exit.
-Crouch, find an object that you can pick up, and throw it away from the guard to distract him.
-Once he is away from the exit, sneak through the room and leave."	// changed by wesp
+		"Text"		"C'e' un vampiro Sabbat in questa stanza che sorveglia l'uscita.
+Accucciati, trova un oggetto che puoi prendere e lancialo lontano dalla guardia per distrarlo.
+Una volta che e' lontano dall'uscita, attraversa la stanza ed esci."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Once he is away from the exit, sneak through the room and leave."	// changed by 
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a guard up ahead. Use Thaumaturgy to attack the guard.
-You have level one Thaumaturgy, known as Blood Strike. Scroll the mouse wheel to select Blood Strike, place your cursor over the guard, and use the Power key (default right-click) to activate the discipline.
-A projectile will strike the guard. If you remain still and the guard lives, the blood shot will return with stolen blood from your victim."	// changed by wesp
+		"Text"		"C'e' una guarda nella prossima stanza. Usa la Taumaturgia per attaccare la guardia.
+Hai il livello uno di Taumaturgia, conosciuto come Palla di Sangue. Scorri con la rotella del mouse per selezionare Palla di Sangue, posiziona il cursore sulla guardia e usa il tasto Potenza (default click-destro) per attivare la disciplina.
+Un proiettile colpira' la guardia. Se rimani li' e la guardia e' viva, il colpo di sangue ritornera' indietro con il sangue rubato dalla tua vittima."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ A projectile will strike the guard. If you remain still and the guard lives, the
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

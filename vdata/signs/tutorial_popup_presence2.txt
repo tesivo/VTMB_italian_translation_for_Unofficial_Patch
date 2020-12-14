@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a Sabbat guard up ahead. Use Presence to frighten and then kill him.
-Scroll the mouse wheel to select Presence, and use the Power key (default right-click) to activate it. When close to you, the guard should lose his combat effectiveness.
-Presence is most effective when used with a weapon. After activating the Discipline, equip your tire iron and attack him."	// changed by wesp
+		"Text"		"C'e' un Sabbat di guardia nella prossima stanza. Usa Ascendente per spaventarla e ucciderla.
+Scorri con la rotellina del mouse per selezionare Ascendente e usa il tasto Potenza (default click-destro) per attivarla. Quando ti e' vicina, la guardia dovrebbe perdere l'efficacia in combattimento.
+Ascendente e' molto efficace quando usato con un'arma. Dopo averla attivata, equipaggiati con la tua mazza di ferro e attacca."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Presence is most effective when used with a weapon. After activating the Discipl
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

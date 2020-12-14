@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"When you can pick up an object and throw it, you will see this Use icon.
-To pick up an object, press the Use key (default E). To throw it, press the Attack key (default left-click).
-Thrown objects make noise and can be used to distract your enemies."	// changed by wesp
+		"Text"		"Quando puoi prendere un oggetto e lanciarlo, vedrai questa icona Usa.
+Per prendere un oggetto, premi il tasto Usa (default E). Per lanciarlo, premi il tasto sinistro del mouse.
+Lanciare oggetti provoca rumore e puo' essere usato per distrarre i nemici."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Thrown objects make noise and can be used to distract your enemies."	// changed 
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

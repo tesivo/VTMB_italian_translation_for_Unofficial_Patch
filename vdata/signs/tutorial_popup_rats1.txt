@@ -12,10 +12,10 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Rats can be fed upon to gain a single blood point.
-You will find some rats at the other end of the alley, near the yellow windows.
-Killing rats has no impact on your Humanity score.
-Humans do not react well when they see live rats being sucked on."
+		"Text"		"I ratti possono fornire un singolo punto di sangue.
+Troverai alcuni ratti dall'altra parte del vicolo, vicino alle finestre gialle.
+Uccidere ratti non ha impatto sull'Umanita'.
+Gli umani non reagiscono bene quando ti vedono succhiare sangue dai ratti vivi."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -27,7 +27,7 @@ Humans do not react well when they see live rats being sucked on."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"To engage in unarmed combat, you need to equip your fists and then attack.
-To equip your fists, press the Melee Weapons key (default F1) until your fists icon is highlighted in your melee weapon inventory list, and then click the left mouse button. 
-Pressing the Attack key (default left-click) initiates your attack."	// changed by wesp
+		"Text"		"Per ingaggiare un combattimento disarmato, devi equipaggiarti con i pugni e quindi attaccare.
+Per equipaggiarti con i pugni, premi il tasto Armi da Mischia (default F1) finche' non e' illuminata l'icona dei pugni, quindi click-sinistro.
+Cliccando il tasto sinistro del mouse di nuovo inizierai l'attacco."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"450"	//322, ws-fix
@@ -40,7 +40,7 @@ Pressing the Attack key (default left-click) initiates your attack."	// changed 
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

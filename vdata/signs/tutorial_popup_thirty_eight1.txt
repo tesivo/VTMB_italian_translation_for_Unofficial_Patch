@@ -27,8 +27,8 @@ SignData
 	TextBlock
 	{
 		"Alignment"			"center"
-		"Text"		"You have just been given a .38 revolver.
-To equip the .38 press the Ranged Weapons key (default F2) until the revolver icon is highlighted in your ranged weapon inventory list, and then left-click. To fire, press the Attack key (default left-click). Some weapons (but not the .38) have an alternate firing mode, such as automatic fire. Press the Attack Mode key (default TAB) to toggle it."	// changed by wesp
+		"Text"		"Ti e' appena stata data una rivoltella .38.
+Per equipaggiare la calibro 38 premi il tasto Armi a Distanza (default F2) finche' non trovi l'icona del revolver e quindi click-sinistro. Per sparare, di nuovo click-sinistro. Alcune armi (ma non la .38) hanno una modalita' di fuoco alternato, come un fucile automatico. Premi il tasto Modalita' Attacco (default TAB) per cambiare modalita'."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -41,7 +41,7 @@ To equip the .38 press the Ranged Weapons key (default F2) until the revolver ic
 	TextBlock
 	{
 		"Alignment"			"center"
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

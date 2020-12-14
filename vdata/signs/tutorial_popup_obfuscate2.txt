@@ -12,8 +12,8 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a guard up ahead. Use Obfuscate to sneak past him.
-Scroll the mouse wheel to select Obfuscate, and use the Power key (default right-click) to activate it. Although Obfuscate is a passive Discipline, your first level is unique. As long as you stand still, the effect lasts indefinitely."	// changed by wesp
+		"Text"		"C'e' una guardia nella prossima stanza. Usa Oscurazione per oltrepassarla.
+Scorri con la rotellina del mouse per selezionare Oscurazione e usa il tasto Potenza (default click-destro) per attivarla. Sebbene Oscurazione sia una Disciplina passiva, il tuo primo livello e' unico. L'effetto dura per tutto il tempo che rimani fermo."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -25,7 +25,7 @@ Scroll the mouse wheel to select Obfuscate, and use the Power key (default right
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

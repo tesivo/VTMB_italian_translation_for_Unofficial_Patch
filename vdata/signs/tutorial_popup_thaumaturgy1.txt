@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Thaumaturgy is sorcery that can bend blood to powerful and terrible ends.
-Thaumaturgy is a targeted discipline. The effect and its length varies with each level.
-Use of Thaumaturgy is a Masquerade violation."
+		"Text"		"La Taumaturgia e' una magia che puo' sottomettere il sangue per terribili e potenti fini.
+La Taumaturgia e' una disciplina attiva. L'effetto e la sua durata variano ad ogni livello.
+L'uso della Taumaturgia e' una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Thaumaturgy is a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

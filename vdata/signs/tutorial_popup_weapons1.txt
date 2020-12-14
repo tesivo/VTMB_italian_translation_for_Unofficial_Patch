@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"This icon indicates the weapon that you currently have equipped.
-For ranged weapons, there are numbers indicating your current reserve of ammunition.
-Later on in the game you will find armor to protect yourself. Equip it in the same way as the weapons by pressing the Armor key (default F3) until the armor is highlighted, and then clicking the left mouse button."	// changed be wesp
+		"Text"		"Questa icona indica l'arma che hai attualmente in mano.
+Per le armi a distanza, i numeri indicano l'attuale riserva di munizioni.
+Più avanti nel gioco troverai un'armatura per proteggerti. Equipaggiatela allo stesso modo delle armi premendo il tasto Armatura (default F3) fino a quando l'armatura non viene evidenziata, e poi cliccando il tasto sinistro del mouse."
 		"Font"		"ParagraphText"
 		"XPos"		"324"
 		"YPos"		"182"
@@ -26,7 +26,7 @@ Later on in the game you will find armor to protect yourself. Equip it in the sa
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"410"
 		"YPos"		"578"	//572
 		"Wide"		"215"

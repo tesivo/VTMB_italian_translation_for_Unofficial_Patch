@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Obfuscate is the power of vampiric invisibility.
-You must be out of sight when you activate the Discipline. With level one Obfuscate, you will have to be crouched and motionless to stay invisible.
-Use of Obfuscate is not a Masquerade violation."
+		"Text"		"Oscurazione e' il potere dell'invisibilita' vampirica.
+Devi essere lontano da occhi indiscreti quando attivi la Disciplina. Con il livello uno di Oscurazione, dovrai stare accucciato e immobile per restare invisibile.
+L'Uso dell'Oscurazione non e' una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Obfuscate is not a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Protean is the vampiric power of manifestating different beastial abilities and forms.
-Protean is a passive Discipline. Once you activate it, pay attention to the Discipline timer on the bottom-right of your screen.
-Use of Protean is a Masquerade violation if you are seen using it in a non-combat area."
+		"Text"		"Proteide e' il potere vampirico di manifestare diverse abilita' e forme bestiali.
+Proteide e' una Disciplina passiva. Una volta attivata, fai attenzione al timer in basso a destra del tuo schermo.
+L'uso di Proteide e' una violazione della Masquerade se utilizzata al di fuori delle aree di combattimento, alla vista di qualcuno."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Protean is a Masquerade violation if you are seen using it in a non-comba
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

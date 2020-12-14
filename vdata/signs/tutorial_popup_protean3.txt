@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a guard up ahead. Use Protean to kill him.
-You have level two Protean, known as Feral Claws. Scroll the mouse wheel to select Feral Claws, and use the Power key (default right-click) to activate the Discipline.
-You will immediately gain deadly claws that deal aggravated damage. Equip your fists and kill the guard."	// changed by wesp
+		"Text"		"C'e' una guardia nella prossima stanza. Usa Proteide per ucciderla.
+Hai il livello due di Proteide, noto come Artigli Selvaggi. Scorri con la rotellina del mouse per selezionare Artigli Selvaggi e usa il tasto Potenza (default click-destro) per attivarla.
+Guadagnerai immediatamente artigli mortali che procurano danni aggravati. Equipaggiati con i pugni e uccidi la guardia."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ You will immediately gain deadly claws that deal aggravated damage. Equip your f
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

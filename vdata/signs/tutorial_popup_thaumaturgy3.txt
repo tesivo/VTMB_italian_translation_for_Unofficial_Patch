@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There are two guards up ahead. Use Thaumaturgy to incapacitate and then kill them.
-You have level two Thaumaturgy, known as Blood Purge. Scroll the mouse wheel to select Blood Purge, move nearer to the guards, and use the Power key (default right-click) to activate the discipline.
-Blood Purge is an area-of-effect Discipline. Both guards, being fairly close together, will become violently ill. Equip your tire iron and kill them."	// changed by wesp
+		"Text"		"Ci sono due guardie nella prossima stanza. Usa la Taumaturgia per incapacitarle e ucciderle.
+Hai il livello due di Taumaturgia, conosciuto come Epurazione del Sangue. Scorri la rotellina del mouse per selezionare Epurazione del Sangue, posiziona il cursore su una delle due guardie e usa il tasto Potenza (default click-destro) per attivare la disciplina.
+La Palla di Sangue e' una disciplina area-ad-effetto. Entrambe le guardie, essendo abbastanza vicine tra di loro, verranno colpite violentemente da una malattia. Equipaggiati con la mazza di ferro e uccidile."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ Blood Purge is an area-of-effect Discipline. Both guards, being fairly close tog
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

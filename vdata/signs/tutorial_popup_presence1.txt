@@ -26,9 +26,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Presence is the power to mystically project your personality.
-Presence is a passive Discipline. Once you activate it, pay attention to the Discipline timer on the bottom-right of your screen.
-Use of Presence is not a Masquerade violation."
+		"Text"		"L'Ascendente e' il potere mistico di proiettare la tua personalita'.
+Ascendente e' una Disciplina passiva. Una volta attivata, fai attenzione al timer in basso a destra del tuo schermo.
+L'uso dell'Ascendente non e' una violazione della Masquerade."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
@@ -40,7 +40,7 @@ Use of Presence is not a Masquerade violation."
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

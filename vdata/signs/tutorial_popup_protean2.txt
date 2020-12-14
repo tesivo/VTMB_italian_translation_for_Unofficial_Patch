@@ -12,9 +12,9 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"There is a guard up ahead. Use Protean to kill him.
-You have level one Protean, known as Gleam of Red Eyes. Scroll the mouse wheel to select it, and use the Power key (default right-click) to activate the Discipline.
-You will immediately gain heat vision and a bonus to Wits. Equip your fists and kill the guard."	// changed by wesp
+		"Text"		"C'e' una guardia nella prossima stanza. Usa Proteide per ucciderlo.
+Hai il livello uno di Proteide, conosciuto come Occhi Scintillanti. Scorri con la rotellina del mouse per selezionarlo e usa il tasto Potenza (default click-destro) per attivarla.
+Guadagnerai immediatamente una visione migliorata e un bonus di Prontezza. Equipaggiati con i pugni e uccidi la guardia."
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
@@ -26,7 +26,7 @@ You will immediately gain heat vision and a bonus to Wits. Equip your fists and 
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
+		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"
