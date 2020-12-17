@@ -7,23 +7,23 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Kamikazi Zen: Network Operations"
+		"line0"		"Kamikazi Zen: Operazioni Network"
 
 	}
 	
 	SubDir
 	{
 		"name"			"Net Security"	//(128 characters)
-		"description"		"NETWORK CONTROL HUB"	// changed by wesp
+		"description"		"HUB DI CONTROLLO NETWORK"
 		"password"		"nirvana"
 		"difficulty"		"8"	
 
 		Function
 		{
 			"name"		"schrecknet"
-			"description"	"Available Connections"	
-			"runtext"	"schrecknet hub activated:
-You'd best do your job and get the fuck out of there, newbie. Tick-tock.... Need help? If so, find the office of a guy named Rob Nesler... I'm logged in there and will see what I can do for you. Otherwise, you're on your own.
+			"description"	"Connessioni Disponibili"	
+			"runtext"	"schrecknet hub attivato:
+Fai del tuo meglio ed esci da li', pivello. Tick-tock.... Hai bisogno d'aiuto? Se si', trova l'ufficio di un ragazzo chiamato Rob Nesler... Sono loggato li' e vedro' cosa che posso fare per te. Comunque, sei da solo. Grazie ragazzo, abbi cura di te la' fuori.
 
 >m1tn1ck<" // changed by wesp
 			"runscript"	"mitSetQuestNine()"
@@ -33,24 +33,24 @@ You'd best do your job and get the fuck out of there, newbie. Tick-tock.... Need
 
 	SubDir
 	{
-		"name"			"Vault"	//(128 characters)
+		"name"			"Cassaforte"	//(128 characters)
 		"password"		"nippelhcs"
-		"description"		"Available Connections"
+		"description"		"Connessioni Disponibili"
 
 		Function
 		{
-			"name"		"unlock"	// changed by wesp
-			"description"	"unlock"	// changed by wesp
-			"runtext"	"Vault is unlocked."	// changed by wesp
+			"name"		"apri"
+			"description"	"apri"
+			"runtext"	"La cassaforte e' aperta."
 			"trigger"	"0"
 
 		}
 
 		Function
 		{
-			"name"		"lock"	// changed by wesp
-			"description"	"lock"	// changed by wesp	
-			"runtext"	"Vault is locked."	// changed by wesp
+			"name"		"chiudi"
+			"description"	"chiusa"	
+			"runtext"	"La cassaforte e' chiusa."
 			"trigger"	"1"
 		}
 	}

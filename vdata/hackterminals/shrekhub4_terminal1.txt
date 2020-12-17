@@ -15,14 +15,14 @@ TerminalDefinition
 	{
 		"name"			"Power"	//(128 characters)
 		"password"		"gwailo"
-		"description"		"Access to Power Grid"
+		"description"		"Accesso al Generatore Principale"
 
 		Function
 		{
 			"name"		"hooligan"
 			"description"	"virus"
-			"runtext"	"Virus enabled: system shutting down."
-// wesp			"dependency"	"G.Shubs_Botch == 0"
+			"runtext"	"Virus attivato: il sistema e' in spegnimento."
+// wesp				"dependency"	"G.Shubs_Botch == 0"
 			"runscript"	"G.Shubfour_Virus = 1"
 			"trigger"	"0"
 
@@ -31,17 +31,17 @@ TerminalDefinition
 		Function
 		{
 			"name"		"systemxxx"
-			"description"	"WARNING!"
-			"runtext"	"WARNING! POWER OFFLINE!"	// changed by wesp
+			"description"	"ATTENZIONE!"
+			"runtext"	"CORRENTE DISATTIVATA!"
 			"dependency"	"G.Shubfour_Virus == 1"
 
 		}
 
 		Function	// added by wesp
 		{
-			"name"		"goodies"
-			"description"	"reward"
-			"runtext"	"Find a powerful item nearby as reward for all your help.
+			"name"		"Merci"
+			"description"	"ricompensa"
+			"runtext"	"Trova un oggetto potente nelle vicinanze come ricompensa per tutto il tuo aiuto.
 
 >m1tn1ck<"
 			"dependency"	"G.Shubfour_Virus == 1 and G.Patch_Plus == 1"
@@ -51,23 +51,23 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Status"	//(128 characters)
-		"description"		"Current System Status"
+		"name"			"Stato"	//(128 characters)
+		"description"		"Attuale Stato del Sistema"
 
 		Function
 		{
-			"name"		"sysstat"	// changed by wesp
-			"description"	"status1"	// changed by wesp
-			"runtext"	"System Normal."
+			"name"		"sysstat"
+			"description"	"stato1"
+			"runtext"	"Sistema normale."
 			"dependency"	"G.Shubfour_Virus == 0"
 
 		}
 
 		Function
 		{
-			"name"		"sysstat"	// changed by wesp
-			"description"	"status2"	// changed by wesp
-			"runtext"	"Virus Detected!!! Shutting Down System!!!"
+			"name"		"sysstat"
+			"description"	"stato2"
+			"runtext"	"Virus Individuato!!! Il Sistema e' in Spegnimento!!!"
 			"dependency"	"G.Shubfour_Virus == 1"
 		}
 	}

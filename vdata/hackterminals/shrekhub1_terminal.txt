@@ -1,7 +1,7 @@
 TerminalDefinition
 {
 	"screen saver"		"Megahurtz Computing:
-				  Think Occasionally"		// Bounces around on the screen when the terminal is not being used, changed by wesp
+	                Pensa Occasionalmente"		// Bounces around on the screen when the terminal is not being used.
 	"brackets"		""						// these surround the command prompt (2 characters), changed by wesp
 
 
@@ -15,13 +15,13 @@ TerminalDefinition
 	{
 		"name"			"Net Security"	//(128 characters)
 		"password"		"Gil Bates"
-		"description"		"Available Connections"
+		"description"		"Connessioni Disponibili"
 
 		Function
 		{
 			"name"		"schrecknet"
-			"description"	"hub activation"
-			"runtext"	"schrecknet hub enabled:
+			"description"	"Attivazione hub"
+			"runtext"	"schrecknet hub attivato:
 
 Nice going, kid. I'll email you with instructions for the next hub.
 

@@ -6,8 +6,8 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		" The Sin Bin"	// changed by wesp
-		"line1"		"Mopped Weekly!"
+		"line0"		"The Sin Bin"
+		"line1"		"Pulito Settimanalmente!"
 
 	}
 
@@ -19,20 +19,20 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Inventory"
-		"description"		"New Titles, by Distributor"
+		"name"			"Inventario"
+		"description"		"Nuovi Titoli, da Distributore"
 
 		Function	// changed by wesp
 		{
 			"name"		"PlayfulRabbit"
-			"runtext"	"Playful Rabbit: Video-Erotica for Couples
+			"runtext"	"Playful Rabbit Video-Erotico per Coppie
 					-Hazy Lens Simulated Copulation 7 -Lukewarm Passion Theatre: The Minister's Wife               -Petticoat Dreams                 -The Dowager's Driver          -Playful Rabbit's Hottest Penisless Sex Scenes Revealed         -How Scandalously Ribald!         -A Collection of Girls Staring Longingly Into Each Others' Eyes, Set To Saxophone"
 		}
 
 		Function	// changed by wesp
 		{
 			"name"		"Beastmastur"
-			"runtext"	"Beastmastur Productions: The Finest in Fresh-Faced Feathered and Furry Frolicking
+            "runtext"	"Beastmastur Productions: The Finest in Fresh-Faced Feathered and Furry Frolicking
 					-National Anthropomorphic Explorer: In search of the Wild Madagascar Tree Choad         -Lady Chatterly's Woofer                     -Big Game Humper 4: Furbound         -Global Goose Chase 19: The Wet Hot Waterfowl of the Nile                     -Rooby-Roo in: Rhymes with Ruttspucked                        -Yetifelcher"
 		}
 
@@ -57,25 +57,25 @@ TerminalDefinition
 	{
 		"name"			"Peepshow"	// changed by wesp
 		"password"		"sinner"	// added by wesp
-		"description"		"Peepshow Window Override"
+		"description"		"Peepshow Override della finestra"
 		"dependency"		"G.Velvet_Quest != 1"
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SYSTEM READOUT"
-			"runtext"	"Software Status: Installed.
-					Hardware Status: Malfunctioning.
-					Notes: Handyman coming soon. - FB"	// changed by wesp
+			"name"		"Stato"
+			"description"	"LETTURA DATI DI SISTEMA"
+			"runtext"	"Stato Software: Installato.
+					 Stato Hardware: Malfunzionante.
+					 Nota: Arrivera' presto un tecnico. - FB"
 		}
 
 		Function
 		{
 			"name"		"Lockdown"
-			"description"	"Overriding Window Controls"
-			"runtext"	"Window 1 Unavailable.
-					Window 2 Unavailable.
-					Window 3 Unavailable."
+			"description"	"Principale Finestra dei Comandi"
+			"runtext"	"Finestra 1 Non Disponibile.
+					Finestra 2 Non Disponibile.
+					Finestra 3 Non Disponibile."
 
 		}
 
@@ -85,26 +85,26 @@ TerminalDefinition
 	{
 		"name"			"Peepshow"
 		"password"		"sinner"
-		"description"		"Peepshow Window Override"
+		"description"		"Peepshow Override della finestra"
 		"dependency"		"G.Velvet_Quest == 1"
 
 		Function
 		{
-			"name"		"Status"
-			"description"	"SYSTEM READOUT"
-			"runtext"	"Window 1: MALFUNCTION.
-					Window 2: Operational.
-					Window 3: Operational.
-					Notes: Parts on order. - FB"	// changed by wesp
+			"name"		"Stato"
+			"description"	"LETTURA DATI DI SISTEMA"
+			"runtext"	"Finestra 1: MALFUNZIONANTE.
+					Finestra 2: Funzionante.
+					Finestra 3: Funzionante.
+					Note: Parti in ordine. -FB"
 		}
 
 		Function
 		{
 			"name"		"Lockdown"
-			"description"	"Overriding Window Controls"
-			"runtext"	"Window 1 Unavailable.
-					Window 2 LOCKED DOWN.
-					Window 3 LOCKED DOWN."
+			"description"	"Finestra Comandi"
+			"runtext"	"Finestra 1 Non Disponibile.
+					Finestra 2 BLOCCATA.
+					Finestra 3 BLOCCATA."
 			"runscript"	"G.Sinbin_Hackwindow = 1"
 			"trigger"	"0"
 	 		"dependency"	"G.Sinbin_Hackwindow == 0"
@@ -112,9 +112,9 @@ TerminalDefinition
 	
 		Function
 		{
-			"name"		"Unlock"
-			"description"	"Re-enable Coin Feed Window Controls"
-			"runtext"	"Must be reset manually. Call Globomechawindow for assistance."
+			"name"		"Sblocca"
+			"description"	"Riattiva Finestra Comandi dei Gettoni"
+			"runtext"	"Deve essere resettato manualmente. Chiama Globomechawindow per assistenza."
 	 		"dependency"	"G.Sinbin_Hackwindow == 1"
 
 		}
@@ -124,13 +124,13 @@ TerminalDefinition
 	{
 		"name"			"Logfile"
 		"password"		"peeper"	// changed by wesp
-		"description"		"Yesterday's Totals"
+		"description"		"Somma di Ieri"
 		"dependency"		"G.Velvet_Quest < 2"	// changed by wesp
 
 		Function
 		{
 			"name"		"Chastity"
-			"runtext"	"Chastity's totals
+			"runtext"	"Somma di Chastity
 					-PS  $120
 					"
 		}
@@ -138,13 +138,13 @@ TerminalDefinition
 		Function
 		{
 			"name"		"Jennifer"
-			"runtext"	"Jen's totals ;-)
+			"runtext"	"Somma di Jenny ;-)
 					-CR  $100
 					-CR  $250
 					-CR  $250
 					-CR  $150
 					-CR  $250
-					-CR  $550 (2 customers)
+					-CR  $550 (2 clienti)
 					-CR  $150
 					"
 		}
@@ -152,10 +152,10 @@ TerminalDefinition
 		Function
 		{
 			"name"		"Kerri"	// changed by wesp
-			"runtext"	"Kerri's totals
+			"runtext"	"Totale di Kerri
 					-PS  $240
 					-CR  $350
-					-CR  $750 (donkey show)
+					-CR  $750 (show del mulo)
 					-CR  $250
 					-CR  $250
 					-CR  $350
@@ -169,13 +169,13 @@ TerminalDefinition
 	{
 		"name"			"Logfile"	// changed by wesp
 		"password"		"peeper"	// changed by wesp
-		"description"		"Yesterday's Totals"
-		"dependency"		"G.Velvet_Quest > 1"	// changed by wesp
+		"description"		"Somma di Ieri"
+		"dependency"		"G.Velvet_Quest > 1" // changed by wesp
 
 		Function
 		{
 			"name"		"Chastity"
-			"runtext"	"Chastity's totals
+			"runtext"	"Somma di Chastity
 					-PS  $80
 					"
 		}
@@ -183,13 +183,13 @@ TerminalDefinition
 		Function
 		{
 			"name"		"Jennifer"
-			"runtext"	"Jen's totals ;-)
+			"runtext"	"Somma di Jen ;-)
 					-CR  $100
 					-CR  $250
 					-CR  $250
 					-CR  $150
 					-CR  $250
-					-CR  $2500 (bachelor party)
+					-CR  $2500 (addio al celibato)
 					-CR  $150
 					"
 		}
@@ -197,7 +197,7 @@ TerminalDefinition
 		Function
 		{
 			"name"		"Kerri"
-			"runtext"	"Kerri's totals
+			"runtext"	"Somma di Kerri
 					-PS  $240
 					-CR  $350
 					-CR  $250
@@ -210,29 +210,29 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"PRIVATE"
-		"description"		"Flynn's Personal Info: GET OUT!"
+		"name"			"PRIVATO"
+		"description"		"Info Personali di Flynn: VAI VIA!"
 		"password"		"dirtydog"
 		"difficulty"		"4"
 
 		Function
 		{
 			"name"		"DMP"
-			"description"	"DMP Contact Info"
-			"runtext"	"I guess you just pick up the phone down the street and say \"Who walks the night with demons of dread.\" to contact them.
-Man, that shit is creepy. This is a reminder to myself never to do it. Unless there's some cash in it.
-Well, cash or whores. But that's a given."	// changed by wesp
+			"description"	"Info Contatto DMP"
+			"runtext"	"Devi semplicemente prendere la cornetta del telefono pubblico in strada e dire \"Colui che cammina la notte con i demoni del terrore.\"
+Amico, questa merda fa schifo. Questo e' un promemoria che non faro' mai. A meno che non ci siano in ballo dei soldi.
+Bhe, soldi o puttane. Ma questo e' un debito."
 			"runscript"	"gotSecretMessage()"
 			"dependency"	"FindPlayer().GetQuestState(\"Tape\") > 0"
 		}
 
 		Function
 		{
-			"name"		"Big John Farmer"	// changed by wesp
-			"description"	"Big John's Contact Info"
-			"runtext"	"John's finally left the acting side and has begun to produce films. As expected, he's stickin' to the farm stuff. He said to contact him at 1(888)555-0101.
+			"name"		"\"Big John\" Farmer"
+			"description"	"Info Contatto Big John"
+			"runtext"	"John ha finalmente lasciato perdere a fare l'attore e ha incominciato a produrre film. Come mi aspettavo, si e' fissato con le fattorie e gli animali. Dice di contattarlo al 1(888)555-0101.
 
-That guy needs help."
+Quel ragazzo ha bisogno di aiuto."
 		}
 	}
 }

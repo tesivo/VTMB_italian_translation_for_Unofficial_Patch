@@ -4,7 +4,7 @@ keypad_strings
 	keypad
 	{
 		// the TextID is what you assign the entity in Worldcraft so that it uses this text block.
-		"TextID"		"keypad example"
+		"TextID"		"esempio keypad"
 
 		// TitleText is what it will display at the top of the keypad, max 32 characters
 		"TitleText"		"##ERROR##"	// changed by wesp
@@ -35,7 +35,7 @@ keypad_strings
 	keypad
 	{
 		"TextID"		"museum_restricted"
-		"TitleText"		"Museum of Natural History: Area B2"
+		"TitleText"		"Natural Museum of History: Area B2"
 	}
 
 	//to the glaze in chinatown

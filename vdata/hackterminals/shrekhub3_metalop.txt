@@ -7,16 +7,16 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		" Metalhead operations,"	// changed by wesp
-		"line1"		"For those about to rock,"
-		"line2"		"    We salute you!"	// changed by wesp
+		"line0"		"Metalhead operations,"
+		"line1"		"Per quelli che spaccano,"
+		"line2"		"Ti salutiamo!"
 	}
 
 	SubDir
 	{
 		"name"			"Net Security"
 		"password"		"Bang Your Head"
-		"description"		"Available Connections"
+		"description"		"Connessioni Disponibili"
 		"difficulty"		"6"
 
 		Function
@@ -24,9 +24,9 @@ TerminalDefinition
 			"name"		"schrecknet"
 			"description"	"socket 1"
 			"dependency"	"G.Shubs_Botch == 0 and G.Shubs_Act == 2"	// changed by wesp
-			"runtext"	"schrecknet hub activated:
+			"runtext"	"schrecknet hub attivato:
 
-I'm impressed. Now get out quietly. I'll send you an email soon.
+Sono impressionato. Ora esci senza farti scoprire. Ti inviero' una mail al piu' presto.
 
 >m1tn1ck<"
 
@@ -38,9 +38,9 @@ I'm impressed. Now get out quietly. I'll send you an email soon.
 			"name"		"schrecknet"
 			"description"	"socket 1"
 			"dependency"	"G.Shubs_Botch == 1"
-			"runtext"	"schrecknet hub disconnecting:
+			"runtext"	"schrecknet hub in disconnessione:
 
-SUXORS. YOU BLEW IT, YOU FREAKIN' NOOB. YOU WON'T HEAR FROM ME AGAIN.
+STRONZO. HAI ROVINATO TUTTO, FOTTUTO NOOB. NON FARTI PIU' SENTIRE.
 
 >m1tn1ck<"
 		}
@@ -48,24 +48,24 @@ SUXORS. YOU BLEW IT, YOU FREAKIN' NOOB. YOU WON'T HEAR FROM ME AGAIN.
 
 	SubDir
 	{
-		"name"			"Safe"
+		"name"			"Cassaforte"
 		"password"		"Turbo Lover"
-		"description"		"What do you want to do?"
+		"description"		"Cosa vuoi fare?"
 		"difficulty"		"8"
 
 		Function
 		{
-			"name"		"Unlock"
-			"description"	"Unlock door"
-			"runtext"	"Safe Door Unlocked."
+			"name"		"Sblocca"
+			"description"	"Sblocca la porta"
+			"runtext"	"Cassaforte Sbloccata."
 			"trigger"	"0"
 		}
 
 		Function
 		{
-			"name"		"Lock"
-			"description"	"Lock door."
-			"runtext"	"Safe Door Locked."
+			"name"		"Blocca"
+			"description"	"Blocca Cassaforte."
+			"runtext"	"Cassaforte Bloccata."
 			"trigger"	"1"
 		}
 	}

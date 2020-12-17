@@ -7,7 +7,7 @@ TerminalDefinition
 	{
 		// Any number of lines are acceptable
 		"line0"		"Kilpatrick's Krimeputer"
-		"line1"		"   Begin Your Search"	// changed by wesp
+		"line1"		"Inizia la tua ricerca"
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -19,15 +19,15 @@ TerminalDefinition
 	{
 		"name"			"A-F"
 		"password"		""
-		"description"		"Perpetrators of Criminality"
+		"description"		"Gli autori del crimine"
 
 		Function
 		{
 			"name"		"Baum, C"
 			"description"	"Cienna Baum"
 			"runtext"	"Cienna Baum
-Bond written 10/9/99 -- Prostitution. Case #245682. Second Offense. Bond Amount: $1500. Type of Bond: Cash - paid in full.
-Notes: Local girl. Friend of bondsman who did not know that she was a \"working girl\" when he picked her up has identified that she carries a contagious case of the chooch devils."	// changed by wesp
+Cauzione scritta il 09/10/99 -- Prostituzione. Caso#245682. Secondo Reato. Cauzione: $1500. Tipo di Cauzione: Denaro - pagato in contanti.
+Note: Ragazza del luogo. Amica di un garante che non sapeva che lei era una \"ragazza di strada\", quando lui l'ha caricata ha riconosciuto in lei un contagioso caso di stupidita' acuta."
 		}
 
 		Function
@@ -35,8 +35,8 @@ Notes: Local girl. Friend of bondsman who did not know that she was a \"working 
 			"name"		"Bremerkamp, M"
 			"description"	"Mark Bremerkamp"
 			"runtext"	"Mark Bremerkamp
-Bond written 11/12/03 -- Public Disturbance - Drunk, Indecent Exposure, Vandalism. Case #664487. Bond Amount: $2200. Type of Bond: Cash - paid by credit card.
-Notes: Public urinator."	// changed by wesp
+Cauzione scritta il 12/11/03 -- Disturbo Quiete Pubblica - Ubriachezza, Esposizione Indecente, Vandalismo. Caso#664487. Cauzione: $2200. Tipo di Cauzione: Denaro - pagato con carta di credito.
+Note: Urinatore pubblico."
 		}
 
 		Function
@@ -44,8 +44,8 @@ Notes: Public urinator."	// changed by wesp
 			"name"		"Cleaver, V"
 			"description"	"Vandal Cleaver"
 			"runtext"	"Vandal Cleaver
-Bond written 01/01/02 -- Two Counts Concealment of a deadly weapon, Threats. Case #341800. Bond Amount: $20,000. Type of Bond: Cash - paid in full.
-Notes: Picked up after local woman reported being stalked by subject. Found with a knife and a stun gun. Good lawyer got this guy's sentence talked down from intent to do bodily harm to restraining order in a matter of hours."	// changed by wesp
+Cauzione scritta il 01/01/02 -- Occultamento di armi mortali, Minacce. Caso#341800. Cauzione: $20,000. Tipo di Cauzione: Denaro - pagato in contanti.
+Note: Una donna racconta di averlo visto seguire un uomo. Trovato con un coltello e una granata. Un buon avvocato ha preso parte alla sentenza di quest'uomo, facendo passare un caso di lesioni fisiche come una questione risolvibile con un ordine restrittivo di poche ore."
 		}
 
 		Function
@@ -53,8 +53,8 @@ Notes: Picked up after local woman reported being stalked by subject. Found with
 			"name"		"Cougat, F"
 			"description"	"Fernando Cougat"
 			"runtext"	"Fernando Cougat
-Bond written 06/09/00 -- Statutory Rape, Purchasing Alcohol for a Minor. Case #449073. Bond Amount: $10,000. Type of Bond: Collateral - Car, Red 02 Powell Persephone (CA Plate #STP4LDz).
-Notes: Picked up outside The Asylum for trying to move a drunk sixteen year old to his car. This ain't Canada, buddy."	// changed by wesp
+Cauzione scritta il 09/06/00 -- Stupro Statutorio, Acquisto di Alcohol per un Minore. Caso#449073. Cauzione: $10,000. Tipo di Cauzione: Collaterale - Macchina, Red 02 Powell Persephone (CA Targa#STP4LDz).
+Note: Preso fuori l'Asylum mentre cercava di portare una minorenne ubriaca nella sua macchina. Questo non e' il Canada, amico."
 		}
 
 		Function
@@ -62,8 +62,8 @@ Notes: Picked up outside The Asylum for trying to move a drunk sixteen year old 
 			"name"		"Crumb, V"
 			"description"	"Virgil Crumb"
 			"runtext"	"Virgil Crumb
-Bond written 03/25/02 -- Two Counts Public Disturbance - Drunk and Nudity. Case #766141. Bond Amount: $5,000. Type of Bond: Cash - paid in full.
-Notes: Local. VOID: Subject's corpse identified. Being held at Medical Clinic Morgue. Authorities notifying next of kin."	// changed by wesp
+Cauzione scritta il 25/03/02 -- Due denunce per Disturbo della Quiete Pubblica - Ubriachezza e Nudita'. Caso#766141. Cauzione: $5,000. Tipo di Cauzione: Denaro - pagato in contanti.
+Note: Locale. VOID: Corpo del soggetto identificato. Corpo tenuto all'Obitorio della Clinica Medica. Autorizzazione al riconoscimento."
 			"runscript"	"virgilViewed()"
 		}
 
@@ -72,8 +72,8 @@ Notes: Local. VOID: Subject's corpse identified. Being held at Medical Clinic Mo
 			"name"		"Durbin, M"
 			"description"	"Michael \"Muddy\" Durbin"
 			"runtext"	"Michael \"Muddy\" Durbin
-Bond written 03/05/04 -- Assault. Prior Conviction for Grand Theft Auto. Prior Conviction for Robbery. Case #777121. Bond Amount: $10,000. Type of Bond: Collateral - 01 Corvega, color: Gray.
-Notes: Threepeat Offender, really wouldn't be surprised if this guy tries to run."	// changed by wesp
+Cauzione scritta il 05/03/04 -- Assalto. Condanna precedente per Furto d'auto. Condanna precedente per Rapina. Caso#777121. Cauzione: $10,000. Tipo di Cauzione: Collaterale - 01 Corvega, colore: Grigio.
+Note: Trasgressore recidivo, non sarebbe una sorpresa se questo tizio tentasse una fuga."	// changed by wesp
 		"dependency"		"G.Muddy_Dead == 0 or G.PP == 0"	// added by wesp
 		}
 
@@ -82,9 +82,9 @@ Notes: Threepeat Offender, really wouldn't be surprised if this guy tries to run
 			"name"		"Durbin, M"
 			"description"	"Michael \"Muddy\" Durbin"
 			"runtext"	"Michael \"Muddy\" Durbin
-Bond written 03/05/04 -- Assault. Prior Conviction for Grand Theft Auto. Prior Conviction for Robbery. Case #777121. Bond Amount: $10,000. Type of Bond: Collateral - 01 Corvega, color: Gray.
-Notes: Threepeat Offender, really wouldn't be surprised if this guy tries to run.
-Update 10/25/04 -- Deceased. Murdered by the serial killer."	// changed by wesp
+Cauzione scritta il 05/03/04 -- Assalto. Condanna precedente per Furto d'auto. Condanna precedente per Rapina. Caso#777121. Cauzione: $10,000. Tipo di Cauzione: Collaterale - 01 Corvega, colore: Grigio.
+Note: Trasgressore recidivo, non sarebbe una sorpresa se questo tizio tentasse una fuga."
+Aggiornamento 25/10/04 -- Deceduto. Assassinato dal serial killer."	// changed by wesp
 		"dependency"		"G.Muddy_Dead == 1 and G.PP == 1"	// added by wesp
 		}
 	}
@@ -93,15 +93,15 @@ Update 10/25/04 -- Deceased. Murdered by the serial killer."	// changed by wesp
 	{
 		"name"			"G-M"
 		"password"		""
-		"description"		"Perpetrators of Criminality"
+		"description"		"Gli autori del crimine"
 
 		Function
 		{
 			"name"		"Grady, C"
 			"description"	"Carl Grady"
 			"runtext"	"Carl Grady
-Bond written 04/02/01 -- Possession with Intent to Distribute. Case #320091. Bond Amount: $25,000. Type of Bond: Property - House, 222 Ocean's Way, Santa Monica, CA.
-Notes: Local surfer."	// changed by wesp
+Cauzione scritta il 02/04/01 -- Possesso con Finalita' di Spaccio. Caso#320091. Cauzione: $25,000. Tipo di Cauzione: Proprieta' - Casa, 222 Ocean's Way, Santa Monica, CA.
+Note: Surfista Locale."
 		}
 
 		Function
@@ -109,9 +109,9 @@ Notes: Local surfer."	// changed by wesp
 			"name"		"Iberson, M"
 			"description"	"Mitch \"The Tabby\" Iberson"
 			"runtext"	"Mitch \"The Tabby\" Iberson
-Bond written 02/10/02 -- Concealment - Firearm. Case #445090. Bond Amount: $10,000. Type of Bond: Cash - paid in full. 
-Notes: Guy's got a big, purple blotch on his face that'll make you sick.
-Update 03/22/02 -- Deceased. Chunk of him washed ashore last week."	// changed by wesp
+Cauzione scritta il 10/02/02 -- Occultamento - Arma da Fuoco. Caso#445090. Cauzione: $10,000. Tipo di Cauzione: Denaro - pagato in contanti.
+Note: Il ragazzo ha una grande macchia color porpora nauseabonda sulla sua faccia.
+Aggiornamento 22/03/02 -- Deceduto. Trovato un pezzo del ragazzo in spiaggia la scorsa settimana."
 		}
 
 		Function
@@ -119,8 +119,8 @@ Update 03/22/02 -- Deceased. Chunk of him washed ashore last week."	// changed b
 			"name"		"Kramer, A"
 			"description"	"Ansel \"Gretel\" Kramer"
 			"runtext"	"Ansel \"Gretel\" Kramer
-Bond written 11/14/03 -- Prostitution. Case #332121. Bond Amount: $3,000. Type of Bond: Cash - paid in full.
-Notes: This is what we used to call a Jack-in-the-box - Wind her up and a something's going to pop out."	// changed by wesp
+Cauzione scritta il 14/11/03 -- Prostituzione. Caso#332121. Cauzione: $3,000. Tipo di Cauzione: Denaro - pagato in contanti.
+Note: Questo e' cio' che noi chiamiamo una scatola a sorpresa."
 		}
 
 		Function
@@ -128,8 +128,8 @@ Notes: This is what we used to call a Jack-in-the-box - Wind her up and a someth
 			"name"		"Mateo, M"
 			"description"	"Mike Mateo"
 			"runtext"	"Mike Mateo
-Bond written 03/13/02 -- Battery. Prior Conviction for Possession. Case #110089. Bond Amount: $5,000. Type of Bond: Cash - paid in full.
-Notes: Another local. Santa Monica used to be a swell place to live."	// changed by wesp
+Cauzione scritta il 13/03/02 -- Percosse. Precedente condanna per Stalking. Caso#110089. Cauzione: $5,000. Tipo di Cauzione: Denaro - pagato in contanti.
+Note: Un altro locale. Santa Monica era un bel posto dove vivere."
 		}
 
 		Function
@@ -137,8 +137,8 @@ Notes: Another local. Santa Monica used to be a swell place to live."	// changed
 			"name"		"Moore, C"
 			"description"	"Chad Moore"
 			"runtext"	"Chad Moore
-Bond written 10/12/03 -- Public Disturbance - Noise. Case #232300. Bond Amount: $2,000. Type of Bond: Collateral - 50 copies of Console Game (\"Red Asphalt\"), 40 copies of PC game (\"Arcanum\").
-Notes: Brought him in for excessive talking smack at the local arcade."	// changed by wesp
+Cauzione scritta il 12/10/03 -- Disturbo della Quiete Pubblica - Fastidio. Caso#232300. Cauzione: $2,000. Tipo di Cauzione: Collaterale - 50 copie di un Gioco per Console (\"Red Asphalt\"), 40 copie del Gioco per PC (\"Arcanum\").
+Note: E' stato portato dentro per eccessive imprecazioni ai flipper."
 		}
 	}
 
@@ -146,15 +146,15 @@ Notes: Brought him in for excessive talking smack at the local arcade."	// chang
 	{
 		"name"			"N-R"
 		"password"		""
-		"description"		"Perpetrators of Criminality"
+		"description"		"Gli autori del crimine"
 
 		Function
 		{
 			"name"		"Nilson, B"
 			"description"	"Brian Nilson"
 			"runtext"	"Brian Nilson
-Bond written 12/01/01 -- Battery. Case #245990. Bond Amount: $10,000. Type of Bond: Cash.
-Notes: Local thug threw some guy who was allegedly trying to buy drugs from him down the beach access stairs."	// changed by wesp
+Cauzione scritta il 01/12/01 -- Percosse. Caso#245990. Cauzione: $10,000. Tipo di Cauzione: Denaro.
+Note: Delinquente locale ha picchiato alcuni ragazzi che stavano cercando di comprare droga da lui in spiaggia davanti alle scale."
 		"dependency"		"not IsDead(\"Brian\") or G.PP == 0"	// added by wesp
 		}
 
@@ -163,9 +163,9 @@ Notes: Local thug threw some guy who was allegedly trying to buy drugs from him 
 			"name"		"Nilson, B"
 			"description"	"Brian Nilson"
 			"runtext"	"Brian Nilson
-Bond written 12/01/01 -- Battery. Case #245990. Bond Amount: $10,000. Type of Bond: Cash.
-Notes: Local thug threw some guy who was allegedly trying to buy drugs from him down the beach access stairs.
-Update 10/24/04 -- Deceased.      Killed in a local fight."	// changed by wesp
+Cauzione scritta il 01/12/01 -- Percosse. Caso#245990. Cauzione: $10,000. Tipo di Cauzione: Denaro.
+Note: Delinquente locale ha picchiato alcuni ragazzi che stavano cercando di comprare droga da lui in spiaggia davanti alle scale."
+Aggiornamento 24/10/04 -- Deceduto.      Ucciso in una rissa locale."	// changed by wesp
 		"dependency"		"IsDead(\"Brian\") and G.PP == 1"	// added by wesp
 		}
 
@@ -174,8 +174,8 @@ Update 10/24/04 -- Deceased.      Killed in a local fight."	// changed by wesp
 			"name"		"Olsen, O"
 			"description"	"Orion Olsen"
 			"runtext"	"Orion Olsen
-Bond written 02/29/02 -- DUI. Case #770405. Bond Amount: $15,000. Type of Bond: Collateral - Car, Black '99 Ponce Gorgemando (CA Plate #LV2 Drnk).
-Notes: Guy drove his SUV through a bookstore, but since there wasn't a coffee shop inside, there were no casualties."	// changed by wesp
+Cauzione scritta il 29/02/02 -- DUI. Caso#770405. Cauzione: $15,000. Tipo di Cauzione: Collaterale - Macchina, Black '99 Ponce Gorgemando (CA Targa#LV2 Drnk).
+Note: Il ragazzo ha fatto schiantare il suo SUV dentro un negozio di libri, ma siccome non c'era un bar al suo interno, non ci sono stati feriti."
 		}
 
 		Function
@@ -183,8 +183,8 @@ Notes: Guy drove his SUV through a bookstore, but since there wasn't a coffee sh
 			"name"		"Pedroso, B"
 			"description"	"Bobby Pedroso"
 			"runtext"	"Bobby Pedroso
-Bond written 08/11/00 -- Robbery. Case #932433. Bond Amount: $20,000. Type of Bond: Collateral - Car, Green '77 Race Guzzlestein (CA Plate #STL 555).
-Notes: Robbed a convenience store in Hollywood."	// changed by wesp
+Cauzione scritta il 11/08/00 -- Furto. Caso#932433. Cauzione: $20,000. Tipo di Cauzione: Collaterale - Macchina, Green '77 Race Guzzlestein (CA Targa#STL 555).
+Note: Ha rubato in un negozio ad Hollywood."
 		}
 
 		Function
@@ -192,8 +192,8 @@ Notes: Robbed a convenience store in Hollywood."	// changed by wesp
 			"name"		"Perillo, T"
 			"description"	"Thundarr Perillo Jr."
 			"runtext"	"Thundarr Perillo Jr.
-Bond written 05/15/04 -- Identity Theft. Case #439882. Bond Amount: $10,000. Type of Bond: Collateral - One Russian Woman.
-Notes: Charged with impersonating a coder."	// changed by wesp
+Cauzione scritta il 15/05/04 -- Ladro. Caso#439882. Cauzione: $10,000. Tipo di Cauzione: Collaterale - Una Donna Russa.
+Note: Accusato di spacciarsi per un informatico."
 		}
 
 		Function
@@ -201,8 +201,8 @@ Notes: Charged with impersonating a coder."	// changed by wesp
 			"name"		"Rhoades, S"
 			"description"	"Steve Rhoades"
 			"runtext"	"Steve Rhoades
-Bond written 02/20/04 -- Just Because. Case #855221. Bond Amount: $5,000. Type of Bond: Collateral - Steve's stuff.
-Notes: He just looks suspicious. They should just keep him in jail so he doesn't have the chance to pull off the crime everyone suspects he's bound to."	// changed by wesp
+Cauzione scritta il 20/02/04 -- Perche' si'. Caso#855221. Cauzione: $5,000. Tipo di Cauzione: Collaterale - Roba diSteve.
+Note: Sembra sospetto. Dovrebbero tenerlo in galera cosi' che non possa fare nulla di criminale."
 		}
 	}
 
@@ -210,15 +210,15 @@ Notes: He just looks suspicious. They should just keep him in jail so he doesn't
 	{
 		"name"			"S-Z"
 		"password"		""
-		"description"		"Perpetrators of Criminality"
+		"description"		"Gli autori del crimine"
 
 		Function
 		{
 			"name"		"Schmidt, A"
 			"description"	"Al Schmidt"
 			"runtext"	"Al Schmidt
-Bond written 06/20/01 -- Grand Theft Auto. Case #900221. Bond Amount: $10,000. Type of Bond: Collateral - Car, White '88 Fensler Generic GT (CA Plate #0ME 0MY).
-Notes: I don't think the car he put up for collateral is his."	// changed by wesp
+Cauzione scritta il 20/06/01 -- Furto d'Auto. Caso#900221. Cauzione: $10,000. Tipo di Cauzione: Collaterale - Macchina, White '88 Fensler Generic GT (CA Targa#0ME 0MY).
+Note: Non penso che la macchina che ha usato per la cauzione sia sua."
 		}
 
 		Function
@@ -226,8 +226,8 @@ Notes: I don't think the car he put up for collateral is his."	// changed by wes
 			"name"		"Silvers, R"
 			"description"	"Roddy Silvers"
 			"runtext"	"Roddy Silvers
-Bond written 05/30/01 -- Animal Cruelty. Case #832221. Bond Amount: $17,000. Type of Bond: Collateral - Hunting Rifle.
-Notes: Just because an animal's rare, doesn't mean you should sneak into the zoo and eat it before it goes extinct."	// changed by wesp
+Cauzione scritta il 30/05/01 -- Crudelta' su Animali. Caso#832221. Cauzione: $17,000. Tipo di Cauzione: Collaterale - Fucile da Caccia.
+Note: Solo perche' e' un animale raro, non significa che tu debba intrufolarti nello zoo e mangiarlo prima che si estingua."
 		}
 
 		Function
@@ -235,8 +235,8 @@ Notes: Just because an animal's rare, doesn't mean you should sneak into the zoo
 			"name"		"Toten, R"
 			"description"	"Rolf Toten"
 			"runtext"	"Rolf Toten
-Bond written 08/22/03 -- Immigration. Case#663321. Bond Amount: $15,000. Type of Bond: Collateral - Car, Red Lightningbird '77 (CA Plate #GUYCONI).
-Notes: Go back to Germania, pal. We don't take the Euro in these parts."	// changed by wesp
+Cauzione scritta il 22/08/03 -- Immigrazione. Caso#663321. Cauzione: $15,000. Tipo di Cauzione: Collaterale - Macchina, Red Lightningbird '77 (CA Targa#GUYCONI).
+Note: Torna in Germania, amico. Non accettiamo gli Euro da queste parti."
 			"runscript"	"rolfViewed()"
 		}
 
@@ -245,8 +245,8 @@ Notes: Go back to Germania, pal. We don't take the Euro in these parts."	// chan
 			"name"		"Valentine, I"
 			"description"	"Isabel Valentine"
 			"runtext"	"Isabel Valentine
-Bond written 10/13/03 -- Battery. Case #222999. Bond Amount: $5,000. Type of Bond: Cash - paid in full.
-Notes: She's got a rep for beating the snot out of the locals."	// changed by wesp
+Cauzione scritta il 13/10/03 -- Percosse. Caso#222999. Cauzione: $5,000. Tipo di Cauzione: Denaro - pagato in contanti.
+Note: Ha guadagnato reputazione per aver picchiato gente del posto."
 		}
 	}
 }

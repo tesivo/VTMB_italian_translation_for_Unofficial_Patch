@@ -7,7 +7,7 @@ TerminalDefinition
 	{
 		// Any number of lines are acceptable
 		"line0"		"Black Rose Distribution"
-		"line1"		"      Since 1998"	// changed by wesp
+		"line1"		"       Dal 1998"
 
 	}
 
@@ -20,28 +20,28 @@ TerminalDefinition
 	SubDir	// changed by wesp
 	{
 		"name"			"Easter Eggs"
-		"description"		"The Dancing Werewolves"
+		"description"		"I lupi mannari danzanti"
 		"password"			"lycans"
 
 		Function
-		{
-			"name"		"Hint"
-			"runtext"		"Open doors here often, to the werewolf in the sky.
-In the end the ending, you'll manage to pass by..."
+	{
+			"name"		"Suggerimento"
+			"runtext"		"Qui si aprono spesso le porte al lupo mannaro nel cielo.
+Alla fine il finale, riuscirete a passare..."
 		}
 
 	}
 
 	SubDir	// changed by wesp
 	{
-		"name"			"Printer"
-		"description"		"Printer Control"	
+		"name"			"Stampante"
+		"description"		"Controllo della stampante"
 
 		Function
 		{
-			"name"		"invoices"
-			"description"	"print a list of recent transactions"	
-			"runtext"		"Sending invoice list to printer, please wait...."
+			"name"		"fatture"
+			"description"	"stampa l'elenco delle transazioni recenti"
+			"runtext"		"Invio della lista delle fatture alla stampante, attendere...."
 		}
 	}
 }

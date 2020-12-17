@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Kitties vs. Ducklings for my heart"		// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Gattini vs. Anatroccoli per il mio cuore"		// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
 
 	"email_password"	"wishes"		// the user must type this to access email from this terminal
@@ -9,8 +9,8 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"   The Asylum"	// changed by wesp
-		"line1"		"Hello Sweetheart"	// changed by wesp
+		"line0"		"L'Asylum"
+		"line1"		"Ciao dolcezza"
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -20,9 +20,9 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Contacts"
+		"name"			"Contatti"
 		"password"		"callme"
-		"description"		"Little Black Book"
+		"description"		"Piccolo Libro Nero"
 
 		Function
 		{
@@ -70,13 +70,13 @@ bertram@schrecknet.vtm - **"	// changed by wesp
 			"description"	"Jack"
 			"runtext"	"Jack
 (310) 555-8181 - *****"	// changed by wesp
-		}
+		}		
 
 		Function	// added by wesp
 		{
-			"name"		"Duckling"
-			"description"	"Duckling"
-			"runtext"	"My new kitten! - ***"
+			"name"		"Anatroccolo"
+			"description"	"Anatroccolo"
+			"runtext"	"Il mio gattino! - ***"
 			"dependency"	"G.Jeanette_Boink > 0 and G.Patch_Plus == 1"
 		}		
 
@@ -84,47 +84,47 @@ bertram@schrecknet.vtm - **"	// changed by wesp
 
 	Email
 	{
-		"subject"	"Freedom"
+		"subject"	"Liberta'"
 		"sender"	"Jack"
-		"body"		"The lady by the sea is far too beautiful to be chained to the Camarilla."
+		"body"		"La ragazza del mare e' troppo bella per essere legata alla Camarilla."
 		"dependency"	"G.Therese_Dead == 1"
 	}
 
 	Email
 	{
-		"subject"	"Taking it underground"
+		"subject"	"Resto nei bassifondi"
 		"sender"	"Bertram"
-		"body"		"I'll be hiding out until your sister calms down. Let her know I pose no threat, and have her contact me when all is well."
+		"body"		"Mi nascondero' finche' tua sorella non si calma. Falle sapere che non scendero' a compromessi e falle anche sapere che puo' contattarmi quando e' tutto ok."
 		"dependency"	"G.Therese_Quest == 1"
 	}
 
 	Email
 	{
-		"subject"	"Friday Night"
+		"subject"	"Sabato Notte"
 		"sender"	"Mikey"
-		"body"		"Hey, what are you doing Friday night? I was thinking about stopping by the club, maybe we can do some... heh... dancing?"
+		"body"		"Ehi, cosa fai sabato notte? Stavo pensando di fermarmi al club, forse potremmo... heh... ballare un po'?"
 	}
 
 	Email
 	{
-		"subject"	"Santa Monica is MY city!!"
+		"subject"	"Santa Monica e' la MIA citta'!!"
 		"sender"	"Therese Voerman"	
-		"body"		"You dirty little slut! How DARE you meddle in the affairs of my city, and with that disgusting Nosferatu no less?"
+		"body"		"Tu piccola sgualdrina! Come OSI intrometterti negli affari della mia citta', e niente di meno con un disgustoso Nosferatu?"
 	}
 
 	Email
 	{
-		"subject"	"re: Santa Monica is MY city!!"
+		"subject"	"Re: Santa Monica e' la MIA citta'!!"
 		"sender"	"Therese Voerman"
-		"body"		"I'm disgusting? I'm not the one that let that Nosferatu touch me! Can't you see that he is trying to tear us apart to take over the city?"
+		"body"		"Io sono disgustosa? Sei tu quella che si lascia toccare da un Nosferatu! Non vedi che sta cercando di dividerci per impadronirsi della citta'?"
 		"dependency"	"G.Therese_Quest >= 2"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"re: Santa Monica is MY city!!"
+		"subject"	"Re: Santa Monica e' la MIA citta'!!"
 		"sender"	"Therese Voerman"
-		"body"		"How could you? And now my gallery too? I'm going to show you a little something, Jeanette... the sun!"
+		"body"		"Come hai potuto? E ora anche la mia galleria? Ho intenzione di mostrarti qualcosa, Jeanette... il sole!"
 		"dependency"	"G.Jeanette_Quest > 0 or G.Jeanette_Refuse > 0"	// changed by wesp
 	}
 }

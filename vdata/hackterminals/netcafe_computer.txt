@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Ground 0 Internet Cafe"// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Piano 0 Internet Cafe"// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt and subdirector names(2 characters), changed by wesp
 
 	"email_password"	"Kafka"		// the user must type this to access email from this terminal
@@ -10,23 +10,23 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Ground 0 Login: Josef K"	//(any number of characters, but must fit in the screen
+		"line0"		"Piano 0 Login: Josef K"	//(any number of characters, but must fit in the screen
 	}
 
 	Email
 	{
-		"subject"	"(no subject)"
+		"subject"	"(nessun oggetto)"
 		"sender"	"vnk@bobcom.vtm"
-		"body"		"Meet me in the alley behind the Fast Buck."
+		"body"		"Incontriamoci nel vicolo dietro il Fast Buck."
 		"dependency"	"G.Isaac_Tribute == 1"
 		"runscript"	"OnCourierEmail()"
 	}
 
 	Email
 	{
-		"subject"	"VIRUS ALERT: read me!"
+		"subject"	"VIRUS ALERT: Leggimi!"
 		"sender"	"snifq@mail.vtm"
-		"body"		"MAV has detected a virus in the attachment of this message. The virus has been quarantined and a notice sent to snifq@mail.vtm."
+		"body"		"MAV ha scoperto un virus nell'allegato di questo messaggio. Il virus e' stato messo in quarantena ed e' stato inviato un avviso all'indirizzo snifq@mail.vtm."
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -36,14 +36,14 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Apps"	//(128 characters)
-		"description"		"Apps"
+		"name"			"Applicazioni"	//(128 characters)
+		"description"		"Applicazioni"
 
 		Function
 		{
 			"name"		"dir"
-			"description"	"directory listing"	
-			"runtext"	"Access denied. Your account balance is $0.56. To recharge your account, please speak to a Ground Zero employee."
+			"description"	"lista cartelle"	
+			"runtext"	"Accesso negato. Il saldo del tuo acconto e' di $0.56. Per ricaricare il tuo account, parla con l'impiegato del Piano Zero."
 		}
 	}
 

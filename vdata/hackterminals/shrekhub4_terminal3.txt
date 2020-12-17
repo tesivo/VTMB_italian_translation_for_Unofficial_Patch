@@ -15,18 +15,18 @@ TerminalDefinition
 	
 	Email
 	{
-		"subject"	"Re: DAMMIT!"
+		"subject"	"Re: DANNAZIONE!"
 		"sender"	"shinto-X@Kamikazi.vtm"
-		"body"		"Yeah. You stupid? How many time I have to send you? Code is 4567. Add up numbers and get you IQ. The only way you kill me is camp you fucking Uber-Cannon.
+		"body"		"Si'. Sei stupido? Quante volte te l'ho inviata? Il codice e' 4567. Addiziona i numeri e ottieni il tuo QI. L'unico modo in cui puoi uccidermi e' accampandoti con il tuo fottuto Uber-Cannon.
 
 --shinto-X"
 	}
 
 	Email
 	{
-		"subject"	"Re: DAMMIT!"
+		"subject"	"Re: DANNAZIONE!"
 		"sender"	"shinto-X@Kamikazi.vtm"
-		"body"		"Me and NuM-Nutz gonna smoke you ass. Take you REZ-ticulator and shove in place where no sun shine. You lick Nummy-Nutz muffin! YOU GOT IT!
+		"body"		"Io e NuM-Nutz ti uccideremo. Prendi il tuo REZ-ticulator e mettitelo dove non batte il sole. Tu lecchi i Nummy-Nutz muffin! HAI CAPITO?!
 
 --shinto-X"
 	}

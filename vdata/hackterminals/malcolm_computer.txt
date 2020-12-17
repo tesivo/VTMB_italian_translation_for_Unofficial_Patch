@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Santa Monica Medical Clinic"		// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Clinica Medica Santa Monica"		// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
 
 
@@ -15,15 +15,15 @@ TerminalDefinition
 	
 	SubDir
 	{
-		"name"			"Patients"	//(128 characters)
+		"name"			"Pazienti"	//(128 characters)
 		"password"		"hippocrates"
-		"description"		"Patient List"	
+		"description"		"Lista Pazienti"	
 
 		Function
 		{
 			"name"		"H. Poe"
-			"description"	"Patient's information"	
-			"runtext"	"Diagnosis: Ruptured organs. Lacerations. Internal bleeding. Condition: Critical"
+			"description"	"Informazioni Paziente"	
+			"runtext"	"Diagnosi: Organi lacerati. Contusioni. Emorragia interna. Condizioni: Critiche"
 			"dependency"	"G.Story_State < 10"
 
 		}
@@ -31,55 +31,55 @@ TerminalDefinition
 		Function
 		{
 			"name"		"A. Kilpatrick"
-			"description"	"Patient's information"	
-			"runtext"	"Diagnosis: Severe tinea infection compounded by untreated herpes simplex 2."
+			"description"	"Informazioni Paziente"	
+			"runtext"	"Diagnosi: Severa infezione alla tigna combinata con herpes simplex 2 non curato."
 
 		}
 
 		Function
 		{
 			"name"		"D. Marsh"
-			"description"	"Patient's information"	
-			"runtext"	"Diagnosis: Frequent bouts of sexlexia."
+			"description"	"Informazioni Paziente"	
+			"runtext"	"Diagnosi: Frequenti eccessi di sexlexia."
 		}
 
 		Function
 		{
 			"name"		"M. Barber"
-			"description"	"Patient's information"	
-			"runtext"	"Diagnosis: Chronic marbopperitis. Uncurable."
+			"description"	"Informazioni Paziente"	
+			"runtext"	"Diagnosi: Marbopperitis cronica. Incurabile."
 		}
 	}
 
 	Email
 	{
-		"subject"	"Tonight?"
+		"subject"	"Stanotte?"
 		"sender"	"PBenice@SMMCmail.vtm"
-		"body"		"Malcolm, are you free tonight? I thought you could swing by my apartment after your shift. You do still make house calls, don't you, doctor? I have something that needs to be checked out. - Paige"
+		"body"		"Malcolm, sei libero stanotte? Pensavo che potresti passare da casa mia dopo il tuo turno. Fai ancora le visite a casa, vero, dottore? Ho qualcosa che ha bisogno di essere controllata. - Paige"
 		"runscript"	"G.Malcolm_Affair = G.Malcolm_Affair +1"
 	}
 
 	Email
 	{
-		"subject"	"Re: Think she's suspicious"
+		"subject"	"Re: Penso che sia sospetta"
 		"sender"	"PBenice@SMMCmail.vtm"
-		"body"		"Do I really have to ask twice? We don't have to do anything if you don't want. But I really do need some help studying for my anatomy test. Please? - Paige"
+		"body"		"Devo veramente chiederlo due volte? Non dobbiamo fare nulla se non vuoi. Ma ho veramente bisogno di un po' di aiuto per il mio test di anatomia. Ti prego - Paige"
 		"runscript"	"G.Malcolm_Affair = G.Malcolm_Affair +1"
 	}
 
 	Email
 	{
-		"subject"	"Re: Think she's suspicious"
+		"subject"	"Re: Penso che sia sospetta"
 		"sender"	"PBenice@SMMCmail.vtm"
-		"body"		"Guess I'll see you around five. I'm really glad you finally decided to come over. And if you should want me to show my appreciation... you just have to ask. - Paige"
+		"body"		"Suppongo che ci vedremo per le cinque. Sono felice che tu abbia deciso di passare. E se vuoi che mostri il mio apprezzamento... devi soltanto chiedere. - Paige"
 		"runscript"	"G.Malcolm_Affair = G.Malcolm_Affair +1"
 	}
 
 	Email
 	{
-		"subject"	"On your way home"
+		"subject"	"Sto ritornando a casa"
 		"sender"	"Trina@SOL.vtm"
-		"body"		"Malcolm, do you think you'll be able to get a day off next week? My mother's coming into town on Thursday. I bought a new mattress and some new curtains for the guest room. And do you think you can pick up some doughnuts and orange juice on the way home for breakfast?"
+		"body"		"Malcolm, pensi di poterti liberare un giorno la settimana prossima? Mia madre viene in citta' giovedi'. Ho comprato un nuovo materasso e alcune nuove tende per la stanza degli ospiti. Pensi di poter portare alcune ciambelle e un po' di succo di frutta?"
 		"runscript"	"G.Malcolm_Wife = 1"
 	}
 }

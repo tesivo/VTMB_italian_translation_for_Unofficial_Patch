@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Ground 0 Internet Cafe"// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Piano 0 Internet Cafe"// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt and subdirector names(2 characters), changed by wesp
 
 	"email_password"	"Subarashi"		// the user must type this to access email from this terminal
@@ -10,40 +10,40 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Ground 0 Login: UcutieU"	//(any number of characters, but must fit in the screen
+		"line0"		"Piano 0 Login: UcutieU"	//(any number of characters, but must fit in the screen
 	}
 
 	Email
 	{
-		"subject"	"Hitomi Hello"
+		"subject"	"Hitomi Ciao"
 		"sender"	"Ayako33@Jfone.ne.jp"
-		"body"		"Hi. I am Ayako. Let's English practice. Your homestay how it is? America must be so COOLEST. You are in Hollywood? Are you in a movie? 
-Love,
+		"body"		"Ciao. Sono Ayako. Facciamo pratica di Italiano. Come la tua permanenza? L'America deve essere cosi' MARAVIGLIOSA. Sei ad Hollywood? Sei in un film? 
+Con affetto,
 Ayako"
 	}
 
 	Email
 	{
-		"subject"	"Re: Hitomi Hello"
+		"subject"	"Re: Hitomi Ciao"
 		"sender"	"Ayako33@Jfone.ne.jp"
-		"body"		"Present Kenta and I ate okonomiyaki of Yokohama. That extremeness was tasty. What is eaten in America? Does they eat the Japanese food? I must investigate.
-Bye bye,
+		"body"		"Regalo Kenta e io mangiavo okonomiyaki di Yokohama. Era estremamente saporito. Cos'e' mangiato in America? Mangiano cibo Giapponese? Devo investigare.
+Ciao ciao,
 Ayako"
 	}
 
 	Email
 	{
-		"subject"	"Re: Hitomi Hello"
+		"subject"	"Re: Hitomi Ciao"
 		"sender"	"Ayako33@Jfone.ne.jp"
-		"body"		"Are Americans have long legs? Are you date American boy? Is the image sent? It is happy.
+		"body"		"Gli Americani hanno gambe lunghe? Hai appuntamento con un ragazzo Americano? Ti e' arrivata l'immagine? E' felice.
 Ayako"
 	}
 	
 	Email
 	{
-		"subject"	"Re: Hitomi Hello"
+		"subject"	"Re: Hitomi Ciao"
 		"sender"	"Ayako33@Jfone.ne.jp"
-		"body"		"This weekend I go to the hot spring where my family has been attached. I am excited very. When we are the child, is Yukie which is the friend to us remembered? She is also inquire about thing in America. Is the pleasant time passed? Send many images due to me!
+		"body"		"Questo fine settimana vado al hot spring dove la mia famiglia e' stata attaccata. Sono eccitata molto. Quando siamo bambini, e' Yukie l'amico che ci ricordiamo? Lei chiede anche cose sull'America. E' stato bello il tempo trascorso? Invia molte immagini per me!
 Ayako"
 	}
 }

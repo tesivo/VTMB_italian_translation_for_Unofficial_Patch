@@ -4,44 +4,44 @@ TerminalDefinition
 	"brackets"		""						// these surround the command prompt (2 characters), changed by wesp
 
 	"email_password"	"nose"		// the user must type this to access email from this terminal
-	"email_username"	"Cyrano"		// printed at the top of the email window, not used for log in. 
+	"email_username"	"Cyrano"		// printed at the top of the email window, not used for log in.
 	"difficulty"		"3"
 
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"  Nocturne Theater"	// changed by wesp
-		"line1"		"We Want to Know Drama"
+		"line0"		"Nocturne Theater"
+		"line1"		"Vogliamo Conoscere il Teatro"
 
 	}
 
 	Email		// added by wesp
 	{
-		"subject"	"Spotlight!"
+		"subject"	"Riflettore!"
 		"sender"	"sksp@company.vtm"
-		"body"		"Did you leave the broken spotlight up on the railing? Someone will trip over it and break their neck! Put in into the workshop as soon as possible, I will not stow that away for you.
+		"body"		"Hai lasciato il riflettore rotto sulla ringhiera? Qualcuno ci inciamperà sopra e si romperà il collo! Mettetelo nel laboratorio il prima possibile, non lo metterò via per voi.
 SkSp"
 	}
-
+	
 	SubDir
 	{
 		"name"			"Camera"	//(128 characters)
-		"description"		"Network Cameras"
+		"description"		"Telecamere Network"
 		"dependency"		"G.Shubs_Email == 2"
 
 		Function
 		{
-			"name"		"net cam"	// changed by wesp
-			"description"	"camera activation"
-			"runtext"	"No cameras detected."
+			"name"		"no cam"
+			"description"	"attivazione telecamera"
+			"runtext"	"Nessuna telecamera trovata."
 			"dependency"	"G.Shubtwo_Camera == 0"
 		}
 
 		Function
 		{
 			"name"		"net cam"
-			"description"	"camera activation"
-			"runtext"	"Camera detected: enabled."
+			"description"	"attivazione telecamera"
+			"runtext"	"Telecamera trovata: attivata."
 			"dependency"	"G.Shubtwo_Camera == 1"
 			"runscript"	"G.Shubtwo_Camera = 2"
 		}
@@ -51,27 +51,27 @@ SkSp"
 	{
 		"name"			"Net Security"	//(128 characters)
 		"password"		"Break a Leg"
-		"description"		"Available Connections"
+		"description"		"Connessioni Disponibili"
 		"dependency"		"G.Shubs_Email == 2"
 
 		Function
 		{
 			"name"		"conn 1"
 			"description"	"debug"
-			"runtext"	"No connections available."
+			"runtext"	"Nessuna connessione disponibile."
 			"dependency"	"G.Shubtwo_Camera <= 1"
 		}
 
 		Function
 		{
 			"name"		"schrecknet"
-			"description"	"hub activation"
+			"description"	"attivazione hub"
 			//changed by dan_upright 29/11/04
 			"dependency"	"G.Shubs_Botch == 0 and G.Shubtwo_Camera == 2"
 			//changes end
-			"runtext"	"schrecknet hub enabled:
+			"runtext"	"schrecknet hub attivato:
 
-You're a regular James Bond. Check your email soon... I'll be in touch.
+Sei un perfetto James Bond. Controlla la tua email al piu' presto... Restero' in contatto.
 
 >m1tn1ck<"
 			"runscript"	"G.Shubs_Act = 2; G.Shubtwo_Camera == 3; mitSetQuestFive()"	// changed by wesp
@@ -84,9 +84,9 @@ You're a regular James Bond. Check your email soon... I'll be in touch.
 			//changed by dan_upright 29/11/04
 			"dependency"	"G.Shubs_Botch == 1 and G.Shubtwo_Camera == 2"
 			//changes end
-			"runtext"	"schrecknet hub disconnecting:
+			"runtext"	"schrecknet hub in disconnessione:
 
-SUXORS. YOU BLEW IT, YOU FREAKIN' NOOB. YOU WON'T HEAR FROM ME AGAIN.
+STRONZO. HAI ROVINATO TUTTO, FOTTUTO NOOB. NON FARTI PIU' SENTIRE.
 
 >m1tn1ck<"
 		}

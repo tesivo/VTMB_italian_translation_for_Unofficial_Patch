@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Museum of Natural History"	// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Museo di Storia Naturale"// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt and subdirector names(2 characters), changed by wesp
 
 	"email_password"	"ihatemyjob"		// the user must type this to access email from this terminal
@@ -10,14 +10,14 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Museum of Natural History"	// any number of characters, but must fit in the screen
+		"line0"		"Museo di Storia Naturale"	//(any number of characters, but must fit in the screen
 	}
 
 	Email
 	{
 		"subject"	"Re: Johansen"
 		"sender"	"C. Marshall"
-		"body"		"FYI, I'll be showing Dr. Johansen around personally. I think he'd prefer not to be pestered by the junior staff. Of course, if you have a question, I'll try to ask him it for you.
+		"body"		"FYI, Mi mostrero' personalmente al Dr. Johansen. Penso che preferisca non essere infastidito dallo staff giovane. Naturalmente, se hai una domanda, provero' a rivolgergliela per te.
  -CM"
 	}
 
@@ -25,14 +25,14 @@ TerminalDefinition
 	{
 		"subject"	"RE: Fetish"
 		"sender"	"jcorning@nmh.vtm"
-		"body"		"Relax, Pam. I had him move the statue into another office. Oh, and it told me to say \"hi\"."
+		"body"		"Rilassati, Pam. Gli ho detto di spostare la statua in un altro ufficio. Oh, e mi ha detto di dirti \"ciao\"."
 	}
 
 	Email
 	{
-		"subject"	"code change"
+		"subject"	"cambio codice"
 		"sender"	"C. Marshall"
-		"body"		"In keeping with good security practices, we have changed the code for area B2 to 2358, effective immediately. I encourage all of you to change your email passwords as well, if you haven't done so in the last three months."
+		"body"		"In accordo con le buone pratiche di sicurezza, abbiamo cambiato il codice per l'area B2 a 2358. Incoraggio tutti voi a cambiare le vostre password, se non lo avete gia' fatto in questi ultimi tre mesi."
 		"runscript"	"doorCode()"
 	}
 
@@ -44,23 +44,23 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Results"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"name"			"Risultati"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"letmein"				// password required to run commands in this menu (16 characters), changed by wesp
-		"description"		"Lab Results"	// This is printed each time the user enters this menu (128 characters)
+		"description"		"Risultati Lab"	// This is printed each time the user enters this menu (128 characters)
 		"difficulty"		"5"
 
 		Function
 		{
-			"name"		"View"			// this is what the player must type in to trigger this function. (16 characters)
-			"description"	"View Lab Results"		// this is a description of this function  (128 characters)
-			"runtext"	"Analysis incomplete. Estimated time of completion: 5 hours."		// this text is printed when the player triggers this function.  (128 characters)
+			"name"		"Mostra"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Mostra Risultati Lab"		// this is a description of this function  (128 characters)
+			"runtext"	"Analisi incompleta. Tempo stimato per il completamento: 5 ore."		// this text is printed when the player triggers this function.  (128 characters)
 		}
 //	removed by wesp
 //		Function
 //		{
-//			"name"		"Print"			// this is what the player must type in to trigger this function. (16 characters)
-//			"description"	"Print Lab Results"		// this is a description of this function  (128 characters)
-//			"runtext"	"Printing...."		// this text is printed when the player triggers this function.  (128 characters)
+//			"name"		"Stampa"			// this is what the player must type in to trigger this function. (16 characters)
+//			"description"	"Stampa Risultati Lab"		// this is a description of this function  (128 characters)
+//			"runtext"	"In Stampa...."		// this text is printed when the player triggers this function.  (128 characters)
 //		}
 	}
 }

@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Museum of Natural History"	// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Museo di Storia Naturale"// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt and subdirector names(2 characters), changed by wesp
 
 	"email_password"	"iluvgabe"		// the user must type this to access email from this terminal
@@ -10,14 +10,14 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Museum of Natural History"	// any number of characters, but must fit in the screen
+		"line0"		"Museo di Storia Naturale"	//(any number of characters, but must fit in the screen
 	}
 
 	Email
 	{
-		"subject"	"Reminder"
+		"subject"	"Un Promemoria"
 		"sender"	"C. Marshall"
-		"body"		"Just a reminder, Dr. Anders Johansen - AKA the sarcophagus guy - will be working at the museum for the next few days. Show him the professional courtesy we show all our guests.
+		"body"		"Giusto un promemoria, Dr. Anders Johansen - a.k.a. il ragazzo del sarcofago - lavorera' al museo per i prossimi giorni. Mostragli la professionale cortesia che offriamo a tutti i nostri ospiti.
 -CM"
 	}
 
@@ -25,22 +25,22 @@ TerminalDefinition
 	{
 		"subject"	"Fetish"
 		"sender"	"pking@nmh.vtm"
-		"body"		"That statue on Daryl's workstation is creeping me out. I was working late the other night and I swear I thought I saw it move. This isn't another gag is it? If it is, I don't think it's funny.
+		"body"		"Quella statua sul tavolo da lavoro di Daryl mi sta facendo uscire fuori di testa. Stavo lavorando fino a tardi l'altra notte e giuro, l'ho vista muoversi. Questo e' un altro dei vostri scherzi? Se lo e', non penso che sia divertente.
 -Pam"
 	}
 
 	Email
 	{
-		"subject"	"VIRUS ALERT: read me!"
+		"subject"	"VIRUS ALERT: Leggimi!"
 		"sender"	"adcxu@mail.vtm"
-		"body"		"MAV has detected a virus in the attachment of this message. The virus has been quarantined and a notice sent to adcxu@mail.net."
+		"body"		"MAV ha scoperto un virus nell'allegato di questo messaggio. Il virus e' stato messo in quarantena ed e' stato inviato un avviso all'indirizzo adcxu@mail.net."
 	}
 
 	Email
 	{
-		"subject"	"thanks"
+		"subject"	"Grazie"
 		"sender"	"JJ Elmster"
-		"body"		"Those keys you found? They're Larry's. I'll tell him you left them in the lost and found."
+		"body"		"Quelle chiavi che hai trovato? Sono di Larry. Gli diro' che le hai lasciate nell'ufficio degli oggetti smarriti."
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -50,24 +50,24 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Sales"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"name"			"Vendita"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"griff"				// password required to run commands in this menu (16 characters), changed by wesp
-		"description"		"Sales Figures"	// This is printed each time the user enters this menu (128 characters)
+		"description"		"Fatture Vendite"	// This is printed each time the user enters this menu (128 characters)
 		"difficulty"		"6"
 	//	"runtext"	"Sales figures are unavailable at this time."		// this text is printed when the player triggers this function.  (128 characters)
 
 		Function	// fixed by psycho-a
 		{
-			"name"		"View"
-			"description"	"View Sales Figures"
-			"runtext"	"Sales figures are unavailable at this time."
+			"name"		"Visualizza"			// this is what the player must type in to trigger this function. (16 characters)
+			"description"	"Visualizza Fatture Vendite"		// this is a description of this function  (128 characters)
+			"runtext"	"Le Fatture Vendite non sono al momento disponibili."		// this text is printed when the player triggers this function.  (128 characters)
 		}
 //	removed by wesp
 //		Function
 //		{
-//			"name"		"Print"			// this is what the player must type in to trigger this function. (16 characters)
-//			"description"	"Print Sales Figures"		// this is a description of this function  (128 characters)
-//			"runtext"	"Printing...."		// this text is printed when the player triggers this function.  (128 characters)
+//			"name"		"Stampa"			// this is what the player must type in to trigger this function. (16 characters)
+//			"description"	"Stampa Fatture Vendite"		// this is a description of this function  (128 characters)
+//			"runtext"	"In Stampa...."		// this text is printed when the player triggers this function.  (128 characters)
 //		}
 	}
 }

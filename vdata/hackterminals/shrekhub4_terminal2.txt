@@ -14,18 +14,18 @@ TerminalDefinition
 	
 	Email
 	{
-		"subject"	"DAMMIT!"
+		"subject"	"DANNAZIONE!"
 		"sender"	"SCUDmuffin@Kamikazi.vtm"
-		"body"		"YO! I lost the damned access code to get back into the server room. Can you send it to me again? Oh, and I'm going to kill you tonight in Slaughter Grudge.
+		"body"		"TU! Ho perso quel dannato codice d'accesso per ritornare nella stanza del server. Puoi rimandarmelo? Oh, ti uccidero' stanotte in Slaughter Grudge.
 
 --SCUDmuffin"
 	}
 
 	Email
 	{
-		"subject"	"Re: Re: DAMMIT!"
+		"subject"	"Re: Re: DANNAZIONE!"
 		"sender"	"SCUDmuffin@Kamikazi.vtm"
-		"body"		"That is SO much bullshit. Like I EVER camp the Uber-Cannon. Talk to your boy NuM-Nutz about that. After I REZ-sticulate his ass.
+		"body"		"Questa e' PROPRIO una stronzata. Come ACCAMPARSI con l'Uber-Cannon. Parla con il tuo ragazzo NuM-Nutz di questa storia. Dopo che gli REZ-ticulero' le chiappe.
 
 --SCUDmuffin"
 	}

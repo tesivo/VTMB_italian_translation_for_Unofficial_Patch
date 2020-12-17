@@ -1,6 +1,6 @@
 TerminalDefinition
 {
-	"screen saver"		"Ground 0 Internet Cafe"// Bounces around on the screen when the terminal is not being used. 
+	"screen saver"		"Piano 0 Internet Cafe"// Bounces around on the screen when the terminal is not being used. 
 	"brackets"		""			// these surround the command prompt and subdirector names(2 characters), changed by wesp
 
 	"email_password"	"shizzle"		// the user must type this to access email from this terminal
@@ -10,48 +10,48 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Ground 0 Login: 2Pacula"	//(any number of characters, but must fit in the screen
+		"line0"		"Piano 0 Login: 2Pacula"	//(any number of characters, but must fit in the screen
 	}
 
 	Email
 	{
 		"subject"	"2mack3d D0wn"
 		"sender"	"Sethiroph@SOL.vtm"
-		"body"		"Dud3, my Prussians totally rushed your Francs last night in Eurocraft. Playing tonight? Also, that girl that sits next to me in science talked to me today! She totally wants me to do her."
+		"body"		"Bell0, i miei Prussiani hanno completamente distrutto i tuoi Francesi la scorsa notte all'Eurocraft. Giochiamo stasera? Ah, quella ragazza che e' seduta affianco a me in scienze mi ha parlato! vuole sicuramente scopare."
 	}
 
 	Email
 	{
-		"subject"	"RE: Your Mom"
+		"subject"	"RE: Tua Madre"
 		"sender"	"Sethiroph@SOL.vtm"
-		"body"		"No, dud3, your mom!"
+		"body"		"No, bell0, tua madre!"
 	}
 
 	Email
 	{
-		"subject"	"RE: Your Mom"
+		"subject"	"RE: Tua Madre"
 		"sender"	"Sethiroph@SOL.vtm"
-		"body"		"YOUR MOM!"
+		"body"		"TUA MADRE!"
 	}
 
 	Email
 	{
 		"subject"	"Hot Pron"
 		"sender"	"Sethiroph@SOL.vtm"
-		"body"		"PSYCHE! Your mom."
+		"body"		"PSICOPATICO! Tua madre."
 	}
 
 	Email
 	{
 		"subject"	"WTF?"
 		"sender"	"Thrillho@SOL.vtm"
-		"body"		"What are you doing to me, 2Pacula? I said cover me, not die like a little bitch. One more fubar and you're out of the clan!"
+		"body"		"Cosa mi stai facendo, 2Pacula? Ho detto coprimi, non morire come un coglione. Ancora una stronzata e sei fuori dal clan!"
 	}
 
 	Email
 	{
-		"subject"	"GOODS"
+		"subject"	"MERCE"
 		"sender"	"Sethiroph@SOL.vtm"
-		"body"		"I just straight snatched the new Troika game. If you haxxor the code you can unlock clan Chocula!"
+		"body"		"Ho appena rubato il nuovo gioco della Troika. Se scopri il codice puoi sbloccare il clan Chocula!"
 	}
 }

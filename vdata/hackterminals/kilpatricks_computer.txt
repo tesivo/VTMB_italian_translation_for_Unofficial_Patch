@@ -10,7 +10,7 @@ TerminalDefinition
 	{
 		// Any number of lines are acceptable
 		"line0"		"Kilpatrick's Bail Bonds"  
-		"line1"		" The price of freedom"	// changed by wesp
+		"line1"		"Il prezzo della liberta'"
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -20,15 +20,15 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Bonds"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
+		"name"			"Cauzioni"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		"money"				// password required to run commands in this menu (16 characters)
-		"description"		"Currently outstanding bonds" 	// This is printed each time the user enters this menu (128 characters)
+		"description"		"Attuali cauzioni in corso" 	// This is printed each time the user enters this menu (128 characters)
 
 		Function
 		{
 			"name"		"Muddy"			// this is what the player must type in to trigger this function. (16 characters)
-			"description"	"Info on Muddy"		// this is a description of this function  (128 characters)
-			"runtext"	"I don't want to know why he's called Muddy."
+			"description"	"Informazioni su Muddy"		// this is a description of this function  (128 characters)
+			"runtext"	"Non voglio sapere perche' lo chiamano Muddy."
 									// this text is printed when the player triggers this function.  (128 characters)
 		"dependency"		"G.Muddy_Dead == 0"	// added by wesp
 		}
@@ -36,9 +36,9 @@ TerminalDefinition
 		Function	// added by wesp
 		{
 			"name"		"Muddy"			// this is what the player must type in to trigger this function. (16 characters)
-			"description"	"Info on Muddy"		// this is a description of this function  (128 characters)
-			"runtext"	"I don't want to know why he's called Muddy...
-... and I'll never know, because now he's dead!"
+			"description"	"Informazioni su Muddy"		// this is a description of this function  (128 characters)
+			"runtext"	"Non voglio sapere perche' lo chiamano Muddy....
+... e non lo saprò mai, perché ora è morto!"
 									// this text is printed when the player triggers this function.  (128 characters)
 		"dependency"		"G.Muddy_Dead == 1"
 		}
@@ -47,10 +47,10 @@ TerminalDefinition
 
 	Email
 	{
-		"subject"	"Your Father"
-		"sender"	"Mom"	
-		"body"		"Arthur, your father wanted me to write you to tell you that he has a boil that is three inches across! You really need to come visit and see this thing. 
-Love, mom"
+		"subject"	"Tuo Padre"
+		"sender"	"Mamma"	
+		"body"		"Arthur, tuo padre mi ha detto di scriverti perche' ha una bolla di sette centimetri! Devi veramente venire a vedere questa cosa.
+Con affetto e amore, Mamma"
 	}
 
 }

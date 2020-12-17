@@ -15,24 +15,24 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"PERSONAL"	//(128 characters)
-		"description"		"Personal Files"
+		"name"			"PERSONALE"	//(128 characters)
+		"description"		"File Personali"
 		"password"		"elba"
 		"difficulty"		"5"
 
 		Function
 		{
 			"name"		"MANIFESTO 1"
-			"description"	"A spiritual exploration"
-			"runtext"	"Oh how I have suffered. The insensitive and illiterate buffoons that surround me are a constant reminder of the sad state of this country. I have solutions. As extreme as they may seem now, history will remember me as a visionary. Such is my fate."
+			"description"	"Un'esplorazione spirituale"
+			"runtext"	"Oh come ho sofferto. Gli insensibili e ignoranti buffoni che mi circondano stanno costantemente a ricordarci il triste stato della nostra nazione. Ho le soluzioni. Per quanto estreme possano sembrare, la storia mi ricordera' come un visionario. Questo e' il destino."
 
 		}
 
 		Function
 		{
 			"name"		"MANIFESTO 2"
-			"description"	"A spiritual exploration"
-			"runtext"	"Is intelligence such a scarce commodity? Today I spoke with Shinto, and somehow he babbled for an entire minute without using one pronoun. Oh god, how I languish. If his eyes weren't so close together, I might have plucked them out."
+			"description"	"Un'esplorazione spirituale"
+			"runtext"	"E' intelligente una simile scarsa comodita'? Oggi ho parlato con Shinto, e in qualche modo ha parlato a vanvera per un intero minuto senza usare un pronome. Oh dio, come patisco. Se i suoi occhi non fossero stati cosi' vicini, aglieli avrei cavati."
 
 
 		}
@@ -41,8 +41,8 @@ TerminalDefinition
 		Function
 		{
 			"name"		"MANIFESTO 3"
-			"description"	"A spiritual exploration"
-			"runtext"	"How Larry came to be my supervisor is beyond comprehension. His use of the language notwithstanding, which barely surpasses that of our dear friend Shinto, I can no longer abide his shoddy programming nor his horrendous security protocols. He spells his last name backwards and uses it for the access code to the bank vault. My kingdom for a baseball bat. I am spent."
+			"description"	"Un'esplorazione spirituale"
+			"runtext"	"Non capisco come Larry sia potuto diventare mio supervisore. Nondimeno, la sua proprieta' di linguaggio supera a malapena quella del nostro caro amico Shinto, al quale e' inferiore persino nella programmazione e per quegli orrendi protocolli di sicurezza. Fa' lo spelling del suo cognome al contrario e lo usa come codice d'accesso per la cassaforte sotterranea. Il mio regno per una mazza da baseball. Sono esaurito."
 
 
 		}
@@ -50,18 +50,18 @@ TerminalDefinition
 
 	Email
 	{
-		"subject"	"FUCK-BINSTER!"
+		"subject"	"ROTTO IN CULO!"
 		"sender"	"shinto-X@Kamikazi.vtm"
-		"body"		"FUCK_BINSTER! You SO ugly! Even fat secretary spit you on head! HA! And I kill you squishy in SLAUGHTER-GRUDGE tonight! YOU HEAR ME! FUCK_BINSTER!!!
+		"body"		"ROTTO IN CULO! Sei COSI' brutto! Anche le segretarie chiatte ti sputano in faccia! HA! E ti uccido in SLAUGHTER-GRUDGE stanotte! MI HAI SENTITO! ROTTO IN CULO!!!
 
 --shinto-X"
 	}
 
 	Email
 	{
-		"subject"	"you freakin' noob!"
+		"subject"	"fottuto noob!"
 		"sender"	"SCUDmuffin@Kamikazi.vtm"
-		"body"		"Give up the game, Bucky-bitch! Your vocabulation ain't gonna help with a WAR-BRINGER lodged in your skull! NEVER FUCK WITH CLAN DEATHGURGLE!!! BUCKY-BITCH!
+		"body"		"Arrenditi al gioco, fottuto stronzo! Il tuo bel parlare non ti aiutera' con un WAR-BRINGER ficcato nel tuo teschio! NON FOTTERAI MAI IL CLAN DEATHGURGLE!!! FOTTUTO STRONZO!
 
 --SCUDmuffin"
 	}

@@ -23,39 +23,39 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Upcoming Shows"
-		"description"		"Locations and Plans"	
+		"name"			"Prossimi Spettacoli"
+		"description"		"Luoghi e Programmi"	
 
 		Function
 		{
-			"name"		"Show17"
+			"name"		"Spettacolo 17"
 			"description"	"Hospital Horror"	
-			"runtext"	"Show 17: Hospital Horror. 
-A dilapidated hospital in the downtown area, this place is very spooky. Minimal work required, the place is scary as hell. We'll say it's the ghost of a nurse who feels as if she still has patients to serve."
+			"runtext"	"Spettacolo 17: Hospital Horror.
+Un ospedale in rovina nell'area di Downtown, questo posto e' molto strano. E' richiesto poco lavoro, il posto e' spaventoso come l'inferno. Diremo che e' il fantasma dell'infermiera che crede di avere ancora pazienti da curare."
 		}
 
 		Function
 		{
-			"name"		"Show18"
+			"name"		"Spettacolo 18"
 			"description"	"Eternal Unrest"	
-			"runtext"	"Show 18: Eternal Unrest. 
-There's a cemetery in Hollywood. It's full of actors with more than just dead careers. Again, it shouldn't take much effort on our part."
+			"runtext"	"Spettacolo 18: Eternal Unrest.
+C'e' un cimitero a Hollywood. E' pieno di attori senza ormai piu' carriera. Di nuovo, non dovrebbe esserci molto da fare."
 		}
 	}
 
 	Email
 	{
-		"subject"	"I <3 Haunted LA"
+		"subject"	"Io <3 Haunted LA"
 		"sender"	"Fanboy McGee"
 		//poor spelling intentional to fit the character of the letter
-		"body"		"Haunted LA is like the greated show evar! I totally am gonna visit all the places you talk about!!1 Hey! You should go 2 this one hoetl I stayed at one time in palm springs i swear it was haunted.  The ghost kept turning on the sink faucet! Maybe he had OCD about washing his hands LOL!!!"
+		"body"		"Haunted LA e' lo spettacolo piu' grande di tutti! Verro' a visitare tutti i posti di cui parlate!!1 Hey! Dovreste andare in quell'hotel dove sono stato una volta. Il fantasma continua a gironzolare intorno al rubinetto rotto! Forse sta cercando di lavarsi le mani LOL!!!"
 	}
 
 	Email
 	{
-		"subject"	"Holy shit, YOU SUCK!!!"
-		"sender"	"Angry Guy with Strong Opinions"
-		"body"		"Haunted LA my ass! Even if there were such a thing as ghosts and shit, which there ain't, there's no fucking way a god damned werewolf could be hanging out in Griffith Park. Just who in the hell do you think you're fooling? It's not even as if we have real fucking wolves around here for it to hide out with. I hope you get eaten by some flesh-eating monster, you stupid bastard!"
+		"subject"	"Merda, FATE SCHIFO!!!"
+		"sender"	"Ragazzo arrabbiato con forti opinioni"
+		"body"		"Haunted LA il mio culo! Se anche ci fossero fantasmi e merda del genere (e non ce ne sono) non esiste nessun dannato lupo mannaro a Griffith Park. Chi credete di prendere per il culo? Come se avessimo persino lupi qui in giro. Spero che tu venga divorato da qualche mostro, stupido bastardo!"
 	}
 
 }

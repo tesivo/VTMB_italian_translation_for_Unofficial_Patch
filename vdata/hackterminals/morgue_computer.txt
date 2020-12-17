@@ -1,7 +1,7 @@
 TerminalDefinition
 {
-	"screen saver"		"If you're reading this,
-				    you are NOT dead."		// Bounces around on the screen when the terminal is not being used, changed by wesp
+	"screen saver"		"Se stai leggendo questo,
+	                allora NON sei morto."		// Bounces around on the screen when the terminal is not being used.
 	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
 
 	LogonScreen	// displayed when the user first logs on
@@ -17,57 +17,57 @@ TerminalDefinition
 
 	SubDir
 	{
-		"name"			"Cadavers"
+		"name"			"Cadaveri"
 		"password"		"Cowbell"
-		"description"		"Cadavers in cold storage."
+		"description"		"Cadaveri nel freezer."
 
 		Function
 		{
 			"name"		"Abobo, G"
-			"description"	"Locker 1A -- 10/18/04"
-			"runtext"	"Locker 1A -- 10/18/04
-Wounds suggest subject was beaten to death with a baseball bat."	//changed by wesp
+			"description"	"Armadietto 1A -- 18/10/04"
+			"runtext"	"Armadietto 1A -- 18/10/04
+Le ferite fanno pensare che questo individuo sia stato picchiato con una mazza da baseball."
 		}
 
 		Function
 		{
-			"name"		"Crumb, V"	// changed by wesp
-			"description"	"Locker 3A -- 10/19/04"
-			"runtext"	"Locker 3A -- 10/19/04
-Subject died from heart failure. Personal items in storage B."
+			"name"		"Crumb, V"
+			"description"	"Armadietto 3A -- 19/10/04"
+			"runtext"	"Armadietto 3A -- 19/10/04
+Il soggetto e' morto a causa di un infarto. Gli oggetti personali sono nel magazzino B."
 			"dependency"	"G.Knox_Quest == 5"	//changed by wesp
 		}
 
 		Function
 		{
 			"name"		"Jane Doe"
-			"description"	"Locker 2B -- 10/17/04"
-			"runtext"	"Locker 2B -- 10/17/04
-Subject apparently died of indeterminate causes. Note: Subject's body contained only one pint of blood. Foul play suspected."	//changed by wesp
+			"description"	"Armadietto 2B -- 17/10/04"
+			"runtext"	"Armadietto 2B -- 17/10/04
+Il soggetto e' morto per cause indeterminate. Note: Il corpo conteneva solo una pinta di sangue."
 		}
 
 		Function
 		{
 			"name"		"Falz, D"
-			"description"	"Locker 5B -- 10/18/04"
-			"runtext"	"Locker 5B -- 10/18/04
-Severely beaten to death. Something about the way this one looked made me want to lock it in the freezer."	//changed by wesp
+			"description"	"Armadietto 5B -- 18/10/04"
+			"runtext"	"Armadietto 5B -- 18/10/04
+Forti colpi alla testa. Talmente raccapricciante da costringermi a chiuderlo a chiave nel freezer."
 		}
 
-		Function
+				Function
 		{
 			"name"		"Perry, D"
-			"description"	"Locker 4A -- 10/17/04"
-			"runtext"	"Locker 4A -- 10/17/04
-Subject apparently choked to death on ham and/or cheese."	//changed by wesp
+			"description"	"Armadietto 4A -- 17/10/04"
+			"runtext"	"Armadietto 4A -- 17/10/04
+Il soggetto e' apparentemente morto per strozzamento causato da prosciutto e/o formaggio."
 		}
 
 		Function	// added by wesp
 		{
 			"name"		"Poe, H"
-			"description"	"Locker 3B -- 10/24/04"
-			"runtext"	"Locker 3B -- 10/24/04
-Subject died from internal bleedings. Sweet red-haired girl, it's a real shame."
+			"description"	"Armadietto 3B -- 24/10/04"
+			"runtext"	"Armadietto 3B -- 24/10/04
+Il soggetto è morto per emorragie interne. Dolce ragazza dai capelli rossi, è un vero peccato."
 			"dependency"	"G.Heather_Drank == 0 and G.Story_State > 9"
 			"runscript"	"heatherQuest3()"
 		}
