@@ -1,7 +1,7 @@
 TerminalDefinition
 {
-	"screen saver"		"Have a nice day!"	// Bounces around on the screen when the terminal is not being used. 
-	"brackets"		"[]"			// these surround the command prompt (2 characters)
+	"screen saver"		"Buona Giornata!"	// Bounces around on the screen when the terminal is not being used. 
+	"brackets"		"[]"              // these surround the command prompt (2 characters)
 	"email_username"	"suckhead"		// printed at the top of the email window, not used for log in. 
 	"email_password"	"sunrise"		// printed at the top of the email window, not used for log in. 
 
@@ -9,22 +9,22 @@ TerminalDefinition
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"LaCroix Foundation"
-		"line1"		" Secure Intranet"	// changed by wesp
+		"line0"		"Fondazione LaCroix"
+		"line1"		"Intranet Sicuro"
 	}
 
 	Email
 	{
-		"subject"	"A reminder"
+		"subject"	"Un promemoria"
 		"sender"	"LaCroix"
-		"body"		"Mercurio will contact you when you arrive in Santa Monica. Waste no time in meeting with him. - SL"
+		"body"		"Mercurio ti contattera' non appena arrivi a Santa Monica. Non perdere tempo ed incontralo. - SL"
 	}
-
+		
 	Email
 	{
-		"subject"	"DANG! It's big you know!!!111"
-		"sender"	"HungLow@trojanbotnet.vtm"		
-		"body"		"PENIS ENLARGEMENT! Watch the girls come running! Call today! 1-800-555-STICK!"
+		"subject"	"PERICOLO! È grande, sapete!!! 111"
+		"sender"	"HungLow@trojanbotnet.vtm"
+		"body"		"ALLUGA IL TUO PENE! Le ragazze ti correranno dietro! 1-800-555-STICK!"
 		"autodelete"	"1"
 	}
 
@@ -32,136 +32,136 @@ TerminalDefinition
 	{
 		"subject"	"Kilpatrick's Krime-Puter!"
 		"sender"	"arthur@dirtcheapinternet.vtm"
-		"body"		"Looking for that lazy ass ex-husband who's late on his alimony payments? How about that jerk who knocked you up? Look no further! With Arthur Kilpatrick's Amazing Krime-Puter, you can find almost anyone with a record, and these days that's just about everyone! So come on down to Arthur Kilpatrick's Bail Bonds! If you've got the dead beat, we've got the technology to find him!"
+		"body"		"Cerchi il tuo ex-marito che e' in ritardo per il pagamento degli alimenti? E quel babbeo che ti ha messa incinta? Non cercarlo piu'! Con Kilpatrick's Amazing Krime-Puter, puoi trovare chiunque con un gesto! Quindi vieni all'Arthur Kilpatrick's Bail Bonds! Se sei stanca di dargli la caccia, la nostra tecnologia riuscira' a stanarlo!"
 	}
 
 	Email
 	{		
-		"subject"	"Welcome"
+		"subject"	"Benvenuto"
 		"sender"	"Mercurio"
-		"body"		"Hey. Welcome to town. Come on over to my place once you get situated, and we'll talk about what you'll need to get the job done. I'm going to pick up explosives right now, some Astrolite... I should be back by the time you come over. I'm at 24 Main Street, in number 4. Walk to the end of the alley and my building is the next one on the right. - M"
+		"body"		"Ehi, benvenuto in citta'. Vieni non appena ti sarai sistemato e parleremo di cosa avrai bisogno per completare il lavoro. Proprio ora sto andando a prendere gli esplosivi, Astrolite... Dovrei esserci quando passerai. Sono sulla 24 Main Street, al numero 4. Vai alla fine del vicolo e poi gira a destra, il mio appartamento e' il primo a destra. - M"
 		"runscript"	"G.Read_Email = 1"
 	}
 
 	Email
 	{
-		"subject"	"A favor"
+		"subject"	"Un favore"
 		"sender"	"LaCroix"
-		"body"		"It has come to our attention that a sample of werewolf blood has made it into the hands of the local tabloid, and that they have sent it on to the clinic in Santa Monica for testing. The responsible party has been dealt with (most painfully, I can assure you), but for obvious reasons we can't have anyone testing the blood. Please retrieve the blood sample from the clinic and leave it in your mailbox. You will be compensated accordingly. - SL"	// changed by wesp
+		"body"		"Sappiamo che una fiala di sangue di lupo mannaro e' finita nelle mani di un tabloid locale, e l'hanno inviata alla clinica di Santa Monica per un test. Ci siamo gia' occupati del responsabile (nel modo piu' doloroso, te lo assicuro), ma per ovvie ragioni non possiamo rischiare che quel sangue venga testato. Trova il campione di sangue nella clinica e lascialo nella tua cassetta della posta. Sarai ricompensato alla fine del lavoro. - SL"
 		"dependency"	"G.Mercurio_Quest == 2"
 		"runscript"	"werewolfBloodQuestAssigned()"
 	}
 
 	Email
 	{
-		"subject"	"Nicely done"
+		"subject"	"Ben fatto"
 		"sender"	"LaCroix"
-		"body"		"Your assistance was much appreciated in regards to the werewolf blood. Please find your payment in the mailbox, if you haven't already done so. - SL"
+		"body"		"Abbiamo apprezzato il tuo aiuto per la faccenda del sangue di lupo mannaro. Troverai il tuo compenso nella cassetta della posta. - SL"
 		"dependency"	"G.Werewolf_Quest == 4"
 		"runscript"	"werewolfBloodQuestDone()"
 	}
 
 	Email
 	{
-		"subject"	"The opening"
-		"sender"	"a friend"
-		"body"		"The game begins. A pawn is moved."
+		"subject"	"L'inizio"
+		"sender"	"un amico"
+		"body"		"Il gioco inizia. Un pedone e' stato spostato."
 		"dependency"	"G.Story_State < 2 and G.Patch_Plus == 0"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"The opening"
-		"sender"	"a friend"
-		"body"		"The game begins. A pawn is moved."
+		"subject"	"L'inizio"
+		"sender"	"un amico"
+		"body"		"Il gioco inizia. Un pedone e' stato spostato."
 		"dependency"	"G.Story_State < 5 and G.Patch_Plus == 1"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"The first move"
-		"sender"	"a friend"
-		"body"		"The white king moves to protect his pawn."
+		"subject"	"La prima mossa"
+		"sender"	"un amico"
+		"body"		"Il re bianco si muove per proteggere il suo pedone."
 		"dependency"	"G.Story_State == 5 and G.Patch_Plus == 0"	// changed by wesp
 	}
 
-	Email
+		Email
 	{
-		"subject"	"The first move"
-		"sender"	"a friend"
-		"body"		"The white king moves to protect his pawn."
+		"subject"	"La prima mossa"
+		"sender"	"un amico"
+		"body"		"Il re bianco si muove per proteggere il suo pedone."
 		"dependency"	"G.Story_State >= 5 and G.Story_State < 20 and G.Patch_Plus == 1"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"Repaid favors"
+		"subject"	"Scambio di favori"
 		"sender"	"Mercurio"
-		"body"		"Stop by my apartment when you get a chance, I'll set you up. - M"
+		"body"		"Fermati al mio appartamento appena puoi, ti ricambiero' per i tuoi favori. - M"
 		"dependency"	"G.Story_State >= 15 and G.Mercurio_Dead == 0"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"DON'T TOUCH THE BUTTER!"
+		"subject"	"NON TOCCATE IL BURRO!"
 		"sender"	"Brock-Fu@SillyLittlePuppy.vtm"
-		"body"		"DON'T TOUCH THE BUTTER! The new extreme sport that's sweeping the nation is now on a limited edition DVD. Watch superstars Iron Will McMan, Brock \"Dry Hands\" Heinz, and Margarine Mike Davenport as they use every bit of restraint in their body to NOT TOUCH THE BUTTER! One bowl of butter, two contestants, three judges, and a hell of a lot of willpower! To order, log onto www.donttouchthebutter.vtm."
+		"body"		"NON TOCCATE IL BURRO! Il nuovo sport estremo che sta facendo impazzire la nazione e' ora in edizione limitata su DVD. Guarda le superstar Iron Will McMan, Brock \"Dry Hands\" Heinz, e Margarine Mike Davenport resistere alla tentazione di TOCCARE IL BURRO! Una ciotola di burro, due contendenti, tre guidici, e tanta buona dannata volonta'! Collegati al sito www.donttouchthebutter.vtm."
 		"dependency"	"G.Story_State >= 15"
 		"autodelete"	"1"
 	}
 
-	Email
+		Email
 	{
-		"subject"	"A sacrifice"
-		"sender"	"a friend"
-		"body"		"A bishop is sacrificed for the king."
+		"subject"	"Un sacrificio"
+		"sender"	"un amico"
+		"body"		"Un alfiere viene sacrificato per il re."
 		"dependency"	"G.Story_State >= 20 and G.Story_State < 30"
 	}
 
-	Email
+		Email
 	{
-		"subject"	"A gambit"
-		"sender"	"a friend"
-		"body"		"A gambit has been played. The king leaves himself open."
+		"subject"	"Un gambetto"
+		"sender"	"un amico"
+		"body"		"E' stato giocato un gambetto. Il re si lascia scoperto."
 		"dependency"	"G.Story_State >= 30 and G.Story_State < 40"
 	}
 
-	Email
+		Email
 	{
-		"subject"	"Open Immediately, Kitten!"
+		"subject"	"Aprila Immediatamente, Gattino!"
 		"sender"	"jeanette@theasylum.vtm"
-		"body"		"Dear, dear Duckling,
-HI! Guess who! No, guess! Because it's more fun that way, that's why! Oh, kitten, have you already forgotten? It's me, Jeanette! I was just sitting here in my big, boring bedroom, all by my lonely self, when I noticed I was missing something - you. Amuse me. Please?
-Wading for you, Duckling,
-Jeanette"
-		"dependency"	"G.Story_State >= 30 and G.Therese_Dead == 1"
+		"body"		"Caro, caro Anatroccolo,
+Ciao! Indovina chi e'! No, indovina! Perche' e' piu' divertente cosi', ecco il perche'! Oh, gattino, ti sei gia' dimenticato di me? Sono io, Jeanette! Ero sdraiata nel mio grande e noioso letto, tutta da sola, quando ho notato che mi mancava qualcosa - tu. Divertimi. Ok?
+Ti aspetto, Anatroccolo,
+Jeanette "
+				"dependency"	"G.Story_State >= 30 and G.Therese_Dead == 1"
 	}
 
 	Email
 	{
-		"subject"	"Business in Hollywood"
+		"subject"	"Affari ad Hollywood"
 		"sender"	"LaCroix"
-		"body"		"I have a certain financial interest in a restaurant in Hollywood called the Cavoletti Cafe. I have made an offer on the establishment that is more than generous, but it seems that the owners are remiss to accept. It is my understanding that a renowned food critic named Tommy Flayton will be writing an article about the restaurant very soon. Please intercept him there and make sure the review is unfavorable. - SL"	// changed by wesp
+		"body"		"Ho un certo interesse finanziario in un ristorante ad Hollywood chiamato Cavoletti Cafe. Ho fatto un'offerta piu' che generosa per l'intero stabilimento, ma sembra che il proprietario non voglia accettare. So che un rinomato critico culinario chiamato Tommy Flayton scrivera' presto un articolo sul ristorante. Intercettalo e fai si' che la recensione sia sfavorevole. - SL"
 		"dependency"	"G.Story_State > 30"
 		"runscript"	"tomSetQuest()"
 	}
 
 	Email
 	{
-		"subject"	"Tommy Flayton's Review"
+		"subject"	"Recensione di Tommy Flayton"
 		"sender"	"LaCroix"
-		"body"		"I recently read Mr. Flayton's scathing review of the Cavoletti Cafe in the Sun, and I must tell you that I am extremely happy with his conclusions. You have done well. Please accept the payment I've left you in your mailbox. We will no doubt be seeing each other soon. - SL"
+		"body"		"Ho di recente letto che Mr. Flayton ha scritto una feroce recensione del Cavoletti Cafe sul Sun, e devo dirti che sono estremamente contento delle sue conclusioni. Hai fatto un bel lavoro. Ti prego accetta il compenso che ti ho lasciato nella tua cassetta della posta. Senza dubbio ci rivedremo presto. - SL"
 		"dependency"	"G.Tommy_Disgusted == 1 or G.Tommy_Review == 1"
-		// changed by dan_upright 29/11/04
+		//changed by dan_upright 29/11/04
 		"runscript"	"tomSetQuestFour()"
-		// changes end
+		//changes end
 	}
 
 	Email
 	{
-		"subject"	"Tommy Flayton's Review"
+		"subject"	"Recensione di Tommy Flayton"
 		"sender"	"LaCroix"
-		"body"		"I recently read Mr. Flayton's glowing review of the Cavoletti Cafe in the Sun, and I must tell you that I am extremely unhappy with his conclusions. You disappoint me, neonate. Obviously, you can't be trusted with even the most menial of tasks. - SL"
+		"body"		"Ho di recente letto la brillante recensione di Mr. Flayton del Cavoletti Cafe sul Sun, e devo dirti che sono estramemente scontento delle sue conclusioni. Mi hai deluso, neonato. Evidentemente, non ci si puo' fidare di te neanche per gli incarichi meno impegnativi. - SL"
 		"dependency"	"G.Tommy_Hostile == 1 or G.Tommy_Fail == 1"	// changed by wesp
 	}
 
@@ -169,123 +169,123 @@ Jeanette"
 	{
 	"subject"	"Tommy Flayton"
 	"sender"	"LaCroix"
-	"body"	"I recently read Mr. Flayton's obituary in the Sun, and I must tell you that I am extremely unhappy with his untimely demise. I distinctly remember asking you for a deadly review, not a dead reviewer. You disappoint me, neonate. Obviously, you can't be trusted with even the most menial of tasks. - SL"
+	"body"	"Ho letto di recente il necrologio di Mr. Flayton sul Sun, e devo dirvi che sono estremamente triste per la sua prematura scomparsa. Ricordo chiaramente di averle chiesto una recensione mortale, non un recensore morto. Mi deludi, neonato. Ovviamente, non ci si può fidare di te nemmeno per i compiti più umili. - SL"
 	"dependency"	"G.Tommy_Review == 2 and G.Patch_Plus == 1"
 	"runscript"	"G.Prince_Reaction = G.Prince_Reaction -1"
 	}
 
-	Email
+		Email
 	{
-		"subject"	"The cost"
-		"sender"	"a friend"
-		"body"		"The cost of an attack is often paid later."
+		"subject"	"Il prezzo"
+		"sender"	"un amico"
+		"body"		"Il prezzo di un attacco e' spesso pagato in seguito."
 		"dependency"	"G.Story_State >= 40 and G.Story_State < 50"
 	}
 
 	Email
 	{
-		"subject"	"First Network Hub"
+		"subject"	"Primo Network Hub"
 		"sender"	"m1tn1ck@yo-mama.vtm"
-		"body"		"Mitnick here. I've got the information on the first of the network hubs. The terminal is in Santa Monica, in an old place called Megahurtz Computing (I'll send another email with recon). Power up the terminal, find the \"Net Security\" folder and run the \"schrecknet\" command. The password on the folder is \"Gil Bates\". Don't ask. I'll message you when I see the hub activated."
+		"body"		"Sono Mitnick. Ho informazioni sul primo dei network hubs. Il terminale e' a Santa Monica, in un vecchio posto chiamato Megahurtz Computing (ti inviero' un'altra e-mail con le informazioni del posto). Penetra nel terminale, trova la cartella \"Net Security\" ed esegui il comando \"schrecknet\". La password della cartella e' \"Gil Bates\". Niente domande. Ti contattero' io non appena vedro' l'hub attivato."
 		"dependency"	"G.Mitnick_Quest == 2 and G.Shubs_Act == 0"
 		"runscript"	"G.Shubs_Email = 1; mitSetQuestTwo(); putStuffInMailBox()"
 	}
 
 	Email
 	{
-		"subject"	"Megahurtz Computing Recon"
+		"subject"	"Informazioni Megahurtz Computing"
 		"sender"	"m1tn1ck@big-tool.vtm"
-		"body"		"Megahurtz Computing is at the end of 2nd Street in Santa Monica, next to The Asylum. The only entrance is through the back door, so you'll have to find an alley to get back there. I'm leaving you a key for the door in your mailbox. Good luck, kid. This one should be easy."
+		"body"		"Megahurtz Computing e' alla fine della 2nd Street a Santa Monica, vicino all'Asylum. L'unica entrata e' la porta sul retro, quindi dovrai trovare un modo per entrare. Ti lascio una chiave per la porta, la trovi nella cassetta della posta. Buona fortuna, ragazzo. Questo lavoro dovrebbe essere facile."
 		"dependency"	"G.Mitnick_Quest == 2 and G.Shubs_Act == 0"
 		"runscript"	"G.Shubs_Email = 1; mitSetQuestTwo(); putStuffInMailBox()"
 	}
 
 	Email
 	{
-		"subject"	"Second Network Hub"
+		"subject"	"Secondo Network Hub"
 		"sender"	"m1tn1ck@DOD.vtm"
-		"body"		"The next terminal is in the basement of the Nocturne Theatre in downtown (recon to follow). NO ONE CAN KNOW YOU WERE THERE. Stay out of sight. And no killing. I need you to set up a wireless cam (I'll send you instructions on how to activate it). Once it's in place and activated, login to the \"Net Security\" folder (password \"Break a Leg\") and run \"schrecknet\"."
+		"body"		"Il prossimo terminale e' nella cantina del Nocture Theatre a Downtown (seguiranno informazioni). NESSUNO DEVE SAPERE CHE SEI STATO LI'. Non farti vedere. E non uccidere nessuno. Devi installare una telecamera (ti inviero' le istruzioni su come attivarla). Una volta montata e attivata, collegati alla cartella \"Net Security\" (password \"Break a Leg\") ed esegui \"schrecknet\"."
 		"dependency"	"G.Shubs_Act == 1"
 		"runscript"	"G.Shubs_Email = 2; mitSetQuestFour(); putStuffInMailBox()"
 	}
 
 	Email
 	{
-		"subject"	"Nocturne Theatre Recon"
+		"subject"	"Informazioni Nocturne Theatre"
 		"sender"	"m1tn1ck@arcanum1.vtm"
-		"body"		"The Nocturne Theatre is downtown, just across from the Empire Arms hotel. I couldn't get a key to the front door, so you'll have to enter through the sewers. Sorry... that's the best I could do."
+		"body"		"Il Nocturne Theatre e' a Downtown, proprio dall'altra parte dell'hotel Empire Arms. Non sono riuscito a procurarmi una chiave della porta principale, quindi dovrai entrare attraverso le fogne. Perdonami... e' il meglio che ho potuto fare."
 		"dependency"	"G.Shubs_Act == 1"
 		"runscript"	"G.Shubs_Email = 2; mitSetQuestFour(); putStuffInMailBox()"
 	}
 
 	Email
 	{
-		"subject"	"Wireless Camera"
+		"subject"	"Telecamera Wireless"
 		"sender"	"m1tn1ck@junktown.vtm"
-		"body"		"I put the camera down in your mailbox. I had an operative scope out the joint beforehand, and he marked the best place for the camera with a red X. Find it (it's probably someplace high) and mount the camera. Once you've put it in place, login to the terminal downstairs, find the \"Camera\" folder and activate \"net cam\". You won't be able to activate the hub until the camera is in place."
+		"body"		"Ho messo la telecamera nella tua cassetta della posta. Ho fatto un sopralluogo nei dintorni prima, e ho segnato il posto migliore per la telecamera con una X rossa. Trovalo (e' da qualche parte in alto) e monta la telecamera. Una volta che l'hai posizionata, collegati al terminale nel piano sottostante, trova la cartella \"Camera\" e attiva \"net cam\". Non potrai attivare l'hub fino a che la telecamera non e' montata."
 		"dependency"	"G.Shubs_Act == 1"
 		"runscript"	"G.Shubs_Email = 2; mitSetQuestFour(); putStuffInMailBox()"
 	}
 
 	Email
 	{
-		"subject"	"Third Network Hub (recon)"
+		"subject"	"Terzo Network Hub (informazioni)"
 		"sender"	"m1tn1ck@3-eyed-snake.vtm"
-		"body"		"Not a lot of time right now. Gotta make this quick. Metalhead Industries. Hollywood. Warehouse operation. Key is in your mailbox. Set up the hub. The terminal is in \"Operations\", back of the warehouse, top of some stairs. Probably locked electronically. Work the problem. They're gonna have tight security but you gotta keep it dark. They can't know you were there. Same drill. See ya."
+		"body"		"Non e' passato molto tempo. Bisogna concludere la faccenda. Metalhead Industries. Hollywood. Operazione Magazzino. La chiave e' nella tua cassetta della posta. Imposta l'hub. Il terminale e' in \"Operations\", nel retro del magazzino, in cima alle scale. Probabilmente bloccato elettronicamente. Aggira il problema. Ci sara' un po' di sicurezza ma devi mantenerti nell'oscurita'. Non devono sapere che eri li'. Stesso lavoro. Ci vediamo."
 		"dependency"	"G.Shubs_Act == 2"
 		"runscript"	"G.Shubs_Email = 3; mitSetQuestSix(); putStuffInMailBox()"
 	}
 
 	Email
 	{
-		"subject"	"Final Network Hub"
+		"subject"	"Ultimo Network Hub"
 		"sender"	"m1tn1ck@ImpeachBush.vtm"
-		"body"		"Okay. This is the big one. Kuei-jin front in Chinatown called \"Kamikazi Zen\". Yeah, I know it's Japanese. Don't ask. They've got a heavy-duty security system. Recon's coming. Once you're in, find the server room and activate the hub. ONE MORE THING. They have a vault where they keep software, etc. You better break into it and take something. Put 'em off the scent. This one can be messy. It's your ass."	// changed by wesp
+		"body"		"Okay, questo e' l'ultimo. Kuei-jin a Chinatown chiamato \"Kamikazi Zen\". Si' lo so, e' Giapponese. Niente domande. Hanno lavorato molto sul sistema di sicurezza. Le informazioni arriveranno. Una volta dentro, trova la stanza del server e attiva l'hub. UN'ULTIMA COSA, hanno una cantina dove tengono i software, ecc. Faresti meglio ad entrarci e prendere qualcosa. Non farti scoprire. E' in gioco il tuo culo."
 		"dependency"	"G.Shubs_Act == 3"
 		"runscript"	"G.Shubs_Email = 4; mitSetQuestEight(); putStuffInMailBox()"
 	}
 
 	Email
 	{
-		"subject"	"Kamikazi Zen Recon"
+		"subject"	"Informazioni Kamikazi Zen"
 		"sender"	"m1tn1ck@TheFlow.vtm"
-		"body"		"The key to the front door is in your mailbox. Our inside man put a file called \"hooligan\" on one of the office terminals. It's a virus. Find it and execute it. This will shut down the power, and allow you to get past the first REAL security door. I never got any blueprints to the inner sanctum, so once you're past the first door, you're on your own to find the server room and the vault. Good luck."
+		"body"		"La chiave della porta principale e' nella tua cassetta della posta. Il nostro informatore ha messo un file chiamato \"hooligan\" in uno dei terminali dell'ufficio. E' un virus. Trovalo ed eseguilo. Questo spegnera' la corrente generale, e ti permettera' di passare attraverso la prima VERA porta di sicurezza. Non ho preso planimetrie dell'interno del sanctum, quindi una volta che sei passato attraverso la prima porta, devi fare da te, e trovare la porta del server e la cantina. Buona fortuna."
 		"dependency"	"G.Shubs_Act == 3"
 		"runscript"	"G.Shubs_Email = 4; mitSetQuestEight(); putStuffInMailBox()"
 	}
 
 	Email	// added by wesp
 	{
-		"subject"	"Library"
+		"subject"	"Biblioteca"
 		"sender"	"beckett@legend.vtm"
-		"body"	"Hello young one, LaCroix praised you as resourceful, so maybe you could assist me with an important matter. A fellow Gangrel, Scott, who was doing research for me at the public library, claims to have seen a Sabbat Kindred there. As I find myself preoccupied right now, please meet him in my stead at the old smoke shop in Santa Monica. He'll have details. Scott was very insistent that something is afoot. And we wouldn't want anything bad to happen to all those precious books there would we? - Beckett"
+		"body"	"Ciao giovane, LaCroix ti ha elogiato per la tua intraprendenza, quindi forse potresti aiutarmi con una questione importante. Un collega Gangrel, Scott, che stava facendo delle ricerche per me alla biblioteca pubblica, afferma di aver visto un Sabbat Kindred lì. Dato che in questo momento sono preoccupato, per favore incontratelo al mio posto al vecchio negozio di fumo di Santa Monica. Avrà i dettagli. Scott ha insistito molto sul fatto che c'è qualcosa in ballo. E non vorremmo che succedesse qualcosa di brutto a tutti quei preziosi libri, vero? - Beckett"
 		"dependency"	"G.Library_Ready == 1 and G.Patch_Plus == 1"
 		"runscript"	"librarySetQuest()"
 	}
 
-	Email	// added by wesp
+Email	// added by wesp
 	{
-		"subject"	"Excellent"
+		"subject"	"Eccellente"
 		"sender"	"beckett@legend.vtm"
-		"body"	"Hello again, Scott told me that you interrupted a Sabbat trial at the library which almost got him killed. We are both very grateful for this, and he will make sure the access to the ritual chamber will be cut off in time. Needless to say that it might not be very smart to tell anyone about this, not even Sebastian. - Beckett"
+		"body"	"Ciao di nuovo, Scott mi ha detto che hai interrotto un processo del Sabbat in biblioteca che l'ha quasi ucciso. Siamo entrambi molto grati per questo, e lui farà in modo che l'accesso alla camera rituale venga interrotto in tempo. Inutile dire che potrebbe non essere molto intelligente dirlo a qualcuno, nemmeno a Sebastian. - Beckett"
 		"dependency"	"G.Jumbles_Removed == 2 and G.Patch_Plus == 1"
 		"runscript"	"G.Library_Open = 2; librarySetQuest()"
 	}
 
 	Email
 	{
-		"subject"	"You still around?"
+		"subject"	"Sei ancora qui?"
 		"sender"	"bertram@schrecknet.vtm"
-		"body"		"If you're reading this, I guess you're still among the undead. Got a proposition for you, if you're not too busy. You know where to find me. Won't be too difficult this time.
+		"body"		"Se stai leggendo questo, suppongo che tu sia ancora tra i non morti. Ho una proposta per te, se non sei troppo impegnato. Sai dove trovarmi. Non sara' troppo difficile questa volta.
 Bertram"
 		"dependency"	"G.CD == 1 and __main__.FindPlayer().clan == 5 and G.PP == 0"	// changed by wesp
 	}
 
-	Email
+		Email
 	{
-		"subject"	"You still around?"
+		"subject"	"Sei ancora qui?"
 		"sender"	"bertram@schrecknet.vtm"
-		"body"		"If you're reading this, I guess you're still among the undead. Got a proposition for you, if you're not too busy. You know where to find me. Won't be too difficult this time.
+		"body"		"Se stai leggendo questo, suppongo che tu sia ancora tra i non morti. Ho una proposta per te, se non sei troppo impegnato. Sai dove trovarmi. Non sara' troppo difficile questa volta.
 Bertram"
 		"dependency"	"G.CD == 1 and G.Patch_Plus == 1"	// changed by wesp
 		"runscript"	"bertramSetQuest()"	// added by wesp
@@ -293,205 +293,205 @@ Bertram"
 
 	Email
 	{
-		"subject"	"Thank You"
+		"subject"	"Grazie"
 		"sender"	"VV@Vesuvius.vtm"
-		"body"		"Sweet Kindred,
-Thank you again for all you did for me. I want you to know that I meant it when I said I adored you. You made me feel that the world was not nearly so dark and desperate. I hope to see you again in my club... and in my dreams.
-All my love,
+		"body"		"Caro Fratello,
+Grazie ancora per tutto quello che hai fatto per me. Voglio renderti noto che quando ho detto ti adoro lo intendevo veramente. Mi hai fatta sentire come se il mondo non fosse fatto di buio e disperazione. Spero di vederti di nuovo al club... e nei miei sogni.
+Tutto il mio amore,
 VV"
 		"dependency"	"G.Velvet_Email == 1 and G.Story_State >= 45"
 	}
 
 	Email
 	{
-		"subject"	"Prince is promoting you!"
+		"subject"	"Il Principe ti sta promuovendo!"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Hey boss, did some spring-cleaning today - came across something that might tickle you. A kid used to live here had an unhealthy crush on everyone's favorite psycho pin-up, Jeanette Voerman. I got a touch of nostalgia, so, you find a copy of Tap Hotel, starring me, I'll trade you a poster of that luscious lunatic for it. Put the video tape in your mailbox and I'll deliver it to your haven."
+		"body"		"Hey capo, facevo un po' di pulizie oggi e ho trovato qualcosa che potrebbe stuzzicarti. Un ragazzo che viveva qui aveva una cotta per quella troia psicopatica, Jeanette Voerman. Mi e' venuta nostalgia, quindi, trova la copia del nastro di Tap Hotel, quella in cui ci sono io. In cambio ti inviero' un poster di quella sexy svitata. Metti il video tape nella tua cassetta della posta e lo consegnero' al tuo rifugio."
 		"dependency"	"G.CD > 0 and G.Gary_Voerman == 0 and G.PP == 0"	// changed by wesp
 	}
 
-	Email
+		Email
 	{
-		"subject"	"Prince is promoting you!"
+		"subject"	"Il Principe ti sta promuovendo!"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Hey boss, did some spring-cleaning today - came across something that might tickle you. A kid used to live here had an unhealthy crush on everyone's favorite psycho pin-up, Jeanette Voerman. I got a touch of nostalgia, so, you find a copy of Tap Hotel, starring me, I'll trade you a poster of that luscious lunatic for it. Put the video tape in your mailbox and I'll deliver it to your haven."
+		"body"		"Hey capo, facevo un po' di pulizie oggi e ho trovato qualcosa che potrebbe stuzzicarti. Un ragazzo che viveva qui aveva una cotta per quella troia psicopatica, Jeanette Voerman. Mi e' venuta nostalgia, quindi, trova la copia del nastro di Tap Hotel, quella in cui ci sono io. In cambio ti inviero' un poster di quella sexy svitata. Metti il video tape nella tua cassetta della posta e lo consegnero' al tuo rifugio."
 		"dependency"	"G.CD > 0 and G.Gary_Voerman == 0 and G.PP == 1"	// changed by wesp
 		"runscript"	"garySetQuestOne()"	// added by wesp
 	}
 
 	Email
 	{
-		"subject"	"Cheat Codes"
+		"subject"	"Codici"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Enjoying the film, boss, but I think I've really let myself go over the years. Alright, this seems to be your bag, so, here's the deal. Know that Toreador in Vesuvius, \"Miss Velour\"? Back when she was breathing, it was more like \"Miss Anything For Three Hundred\". And I got a poster. Will trade for a revealing photo I saw on Haunted LA."
+		"body"		"Goditi il film, capo, ma penso di essermi veramente lasciato andare negli anni. Tutto bene, questo sembra essere il tuo campo, quindi, ecco l'affare. Conosci quella Toreador al Vesuvius, \"Miss Velour\"? Prima quando respirava, era tipo \"Miss Tutto Per Trecento\", cosi' ho fatto un poster. Scambiero' la rivelante foto che ho visto su Haunted LA."
 		"dependency"	"G.Gary_Voerman == 1 and G.Velvet_Poster == 0 and G.PP == 0"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"Cheat Codes"
+		"subject"	"Codici"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Enjoying the film, boss, but I think I've really let myself go over the years. Alright, this seems to be your bag, so, here's the deal. Know that Toreador in Vesuvius, \"Miss Velour\"? Back when she was breathing, it was more like \"Miss Anything For Three Hundred\". And I got a poster. Will trade for a revealing photo I saw on Haunted LA."
+		"body"		"Goditi il film, capo, ma penso di essermi veramente lasciato andare negli anni. Tutto bene, questo sembra essere il tuo campo, quindi, ecco l'affare. Conosci quella Toreador al Vesuvius, \"Miss Velour\"? Prima quando respirava, era tipo \"Miss Tutto Per Trecento\", cosi' ho fatto un poster. Scambiero' la rivelante foto che ho visto su Haunted LA."
 		"dependency"	"G.Gary_Voerman == 1 and G.Velvet_Poster == 0 and G.PP == 1"	// changed by wesp
 		"runscript"	"garySetQuestTwo()"	// added by wesp
 	}
 
-	Email
+		Email
 	{
-		"subject"	"Want to Learn Vicissitude?"
+		"subject"	"Vuoi conoscere Vicissitudine?"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"How ya been, boss? Same drill as before. Got a surveillance shot of a certain Kuei-jin. It would be degrading to photochop it into a tacky poster, so that's what I did. Yours for a song - actually a tape - something Imalia did before I put the bite on her. I like to keep the kids in check. Last year's Jock Shot magazine's swimsuit shoot. Two hard, pointy reasons they pulled it off retail shelves."
+		"body"		"Come va, capo? Stessa cosa come prima. Ho una fotografia di sorveglianza di un certo Kuei-jin. Viene male se faccio la fotocopia da un poster, quindi ecco cio' che ho fatto. Tuo per una canzone - precisamente un nastro - qualcosa che Imalia fece prima che la mordessi. Mi piace controllare i ragazzi."
 		"dependency"	"G.Velvet_Poster == 1 and G.Gary_Photochop == 0 and G.PP == 0"	// changed by wesp
 	}
 
 	Email
 	{
-		"subject"	"Want to Learn Vicissitude?"
+		"subject"	"Vuoi conoscere Vicissitudine?"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"How ya been, boss? Same drill as before. Got a surveillance shot of a certain Kuei-jin. It would be degrading to photochop it into a tacky poster, so that's what I did. Yours for a song - actually a tape - something Imalia did before I put the bite on her. I like to keep the kids in check. Last year's Jock Shot magazine's swimsuit shoot. Two hard, pointy reasons they pulled it off retail shelves."
+		"body"		"Come va, capo? Stessa cosa come prima. Ho una fotografia di sorveglianza di un certo Kuei-jin. Viene male se faccio la fotocopia da un poster, quindi ecco cio' che ho fatto. Tuo per una canzone - precisamente un nastro - qualcosa che Imalia fece prima che la mordessi. Mi piace controllare i ragazzi."
 		"dependency"	"G.Velvet_Poster == 1 and G.Gary_Photochop == 0 and G.PP == 1"	// changed by wesp
 		"runscript"	"garySetQuestThree()"	// added by wesp
 	}
 
 	Email
 	{
-		"subject"	"Rocket Launcher for Sale"
+		"subject"	"Lanciarazzi in vendita"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Boss, got another poster just collecting dust, if you want to trade. Looks like one of the Anarchs did some \"art\" photos before she got Embraced. It's all yours for the low, low price of one data CD. Might be in Metalhead Industries. You've talked to Mitnick, right? In the mailbox, like before."	// changed by wesp
+		"body"		"Capo, ho un altro poster che sta raccogliendo polvere, se vuoi fare uno scambio. Sembra che una delle Anarchie abbia fatto delle foto "artistiche" prima di essere abbracciata. E' tutto tuo per il basso, basso prezzo di un CD di dati. Potrebbe essere della Metalhead Industries. Hai parlato con Mitnick, vero? Nella cassetta delle lettere, come prima."	// changed by wesp
 		"dependency"	"G.Gary_Photochop == 1 and G.Gary_Damsel == 0 and G.PP == 0"	// changed by wesp
 	}
 
-	Email
+		Email
 	{
-		"subject"	"Rocket Launcher for Sale"
+		"subject"	"Lanciamissili in Vendita"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Boss, got another poster just collecting dust, if you want to trade. Looks like one of the Anarchs did some \"art\" photos before she got Embraced. It's all yours for the low, low price of the wooden pull toy prop from The Glittering. Might be in Metalhead Industries. You've talked to Mitnick, right? In the mailbox, like before."	// changed by wesp
+		"body"		"Capo, ho preso un altro poster, se vuoi negoziare. Sembra che uno degli anarchici abbia fatto alcune foto \"artistiche\" prima dell'Abbraccio. Sar� tutto tuo ad un prezzo molto basso, quello di un CD che dovrebbe trovarsi nelle Metal Head industries.Hai parlato con Mitnick, giusto? Nella cassetta della posta, come sempre."
 		"dependency"	"G.Gary_Photochop == 1 and G.Gary_Damsel == 0 and G.PP == 1"	// changed by wesp
 		"runscript"	"garySetQuestFour()"	// added by wesp
 	}
 
 	Email	// added by wesp
 	{
-		"subject"	"Confidential Nigerian Proposal"
+		"subject"	"Proposta confidenziale dalla Nigeria"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Are you tech savy, boss? Because Mitnick wants a special name plate with an integrated transponder chip. Don't know what he needs it for, but will swap for a poster of Imalia in her full beauty, before I gave her my special treatment."
+		"body"		"Ricordi Pirate Town, capo? Il giocattolino che diedi a Shirley Temple in quel film e' stato avvistato in un negozio ad Hollywood. Pare che qualcuno lo abbia preso in prestito dagli archivi per venderlo su eBay. Saro' pure un rifiuto, ma ci ero affezionato, non posso lasciare che accada. In cambio cedo un'immagine di Tawni Session su cui Imalia non ha ancora messo le grinfie."
 		"dependency"	"G.Gary_Damsel == 1 and G.Gary_Imalia == 0 and G.PP == 1"
 		"runscript"	"garySetQuestFive()"
 	}
 
 	Email	// added by wesp
 	{
-		"subject"	"World of Darkness Gold fast!"
+		"subject"	"Mondo delle Tenebre Oro veloce!"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Been busy, boss? Because I heard another famous movie prop has gone missing. The throwing star of the Whirlwind from \"A Touch of Xen\". I'll swap it for a poster of Tawni Sessions that Imalia hasn't got her angry claws on yet."
+		"body"		"Sei stato occupato? Perche' ho sentito che e' stato trafugato un oggetto di un altro famoso film. Lo shuriken de \"Il Tocco dello Zen\". Lo scambio per l'immagine di una dolce ragazza che sicuramente non ammirerai per gli occhi!"
 		"dependency"	"G.Gary_Imalia == 1 and G.Gary_Tawni == 0 and G.PP == 1"
 		"runscript"	"garySetQuestSix()"
 	}
 
 	Email	// added by wesp
 	{
-		"subject"	"Looking for dates?"
+		"subject"	"Stai cercando un appuntamento?"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Are you lonely, boss? Then maybe sending a squashed Odious Chalice will stop you from wallowing in self pity. Barabus spotted one at the Fu Syndicate. I will put up a poster in your haven as reward, of Claira Killenbach and her favorite drink."
+		"body"		"Ti senti solo, capo? Allora forse l'invio di un Calice Odioso schiacciato ti impedirà di sguazzare nell'autocommiserazione. Barabus ne ha avvistato uno al Sindacato Fu. Come ricompensa affiggerò un poster nel vostro rifugio, di Claira Killenbach e della sua bevanda preferita."
 		"dependency"	"G.Gary_Tawni == 1 and G.Gary_Cross == 0 and G.PP == 1"
 		"runscript"	"garySetQuestSeven()"
 	}
 
-	Email	// added by wesp
+		Email	// added by wesp
 	{
-		"subject"	"Replica Stakes"
+		"subject"	"Puntate di replica"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Hey boss, got one last job for you. I'm looking for a weird fleshy Tzimisce ball, I bet you got one when you flushed these creatures out of Hollywood. I'll give you a poster of a girl whom you won't look too deep in the eyes."
+		"body"		"Ehi capo, ho un altro lavoro per te. Uno dei nostri esperti dell'occulto vorrebbe appropriarsi di un artefatto chiamato Odious Chalice, che si trova a Chinatown. Offrirebbe un'immagine di Imalia in tutta la sua bellezza, prima che la sottoponessi al mio trattamento! Stessa procedura."
 		"dependency"	"G.Gary_Cross == 1 and G.Gary_Blind == 0 and G.PP == 1"
 		"runscript"	"garySetQuestEight()"
 	}
 
 	Email
 	{
-		"subject"	"The queen"
-		"sender"	"a friend"
-		"body"		"Beware the black queen."
+		"subject"	"La regina"
+		"sender"	"un amico"
+		"body"		"Attenzione alla regina nera."
 		"dependency"	"G.Story_State >= 50 and G.Story_State < 65"
 	}
 
-	Email	// added by wesp
+		Email	// added by wesp
 	{
-		"subject"	"CHEAP ROLEX..."
+		"subject"	"ROLEX FINTI..."
 		"sender"	"larry@neighborhood.vtm"
-		"body"		"... ain't the only stuff that we got, man! We got much hotter, much deadlier stuff, you know? And like all other quality LA proprietors we get new stock in all the time, so check it out!!!"
+		"body"		"...e non solo, amico! Abbiamo anche roba piu' interessante e molto piu' letale. E come ogni fornitore di LA che si rispetti riceviamo spesso nuova merce, quindi vieni a dare un'occhiata!!!"
 		"dependency"	"G.Story_State >= 45 and G.Patch_Plus == 1"
 		"autodelete"	"1"
 	}
 
 	Email
 	{
-		"subject"	"The Muse's Muse"
+		"subject"	"La Musa del Muse"
 		"sender"	"VV@Vesuvius.vtm"
-		"body"		"Oh, I do hope the nights have been kind. You were on my mind, tonight, and, I must admit, it was inspiring. I wrote this for you:
-Death cannot smother love         Dead hearts are not always broken   Plant a kiss on my corpse         Love blossoms
-Did you love it?
+		"body"		"Oh, spero che la notte sia gentile. Eri nella mia mente, stanotte, e, devo ammetterlo, e' stato esaltante. Ho scritto questo per te:
+La morte non sempre soffoca l'amore         I cuori morti non sempre sono spezzati   Bacia il mio cadavere         L'amore sboccera'
+Ti piace?
 VV"
-		"dependency"	"G.Velvet_Email == 1 and G.Story_State >= 60"
+				"dependency"	"G.Velvet_Email == 1 and G.Story_State >= 60"
 	}
 
 	Email
 	{
-		"subject"	"The campaign"
-		"sender"	"a friend"
-		"body"		"The success of a campaign is weighed by the commitment of your opponent."
+		"subject"	"La campagna"
+		"sender"	"un amico"
+		"body"		"Il successo di una campagna viene valutato dall'impegno del tuo avversario."
 		"dependency"	"G.Story_State >= 65 and G.Story_State < 70"
 	}
 
 	Email
 	{
-		"subject"	"The white bishop"
-		"sender"	"a friend"
-		"body"		"The white bishop falls."
+		"subject"	"L'alfiere bianco"
+		"sender"	"un amico"
+		"body"		"L'alfiere bianco cade."
 		"dependency"	"G.Story_State >= 70 and G.Story_State < 80"
 	}
 
 	Email
 	{
-		"subject"	"Your Bloody Valentine"
+		"subject"	"La Tua Sanguinosa Valentina"
 		"sender"	"VV@Vesuvius.vtm"
-		"body"		"It felt so liberating to open up to you in that last email so... I dipped my pen in my soul again to write another for you.
-Father, I never knew you           Mother, I ran away from you        Sire, you forgot me                But lover...                     you are forever in my heart.
-Think my looks will stop me from being taken seriously as a poet?
+		"body"		"E' stato cosi' liberante aprirmi a te nell'ultima email cosi'... Ho tinto la mia penna con la mia anima per scriverti di nuovo.
+Padre, non ti ho mai conosciuto          Madre, sono scappata da te        Sire, ti sei dimenticata di me                Ma amore...          sei per sempre nel mio cuore.
+Pensi che il mio aspetto mi impedira' di avere successo come poetessa?
 VV"
-		"dependency"	"G.Velvet_Email == 1 and G.Story_State >= 70"
+				"dependency"	"G.Velvet_Email == 1 and G.Story_State >= 70"
 	}
 
 	Email
 	{
-		"subject"	"About The Other Night"
+		"subject"	"Riguardo all'altra notte"
 		"sender"	"Romero@DeadHead.vtm"
-		"body"		"Hey, I just wanted to let you know that what happened between us, that was really special. You're a super girl - I mean it - but you and I, we're from different worlds, and, I'm not saying I wouldn't be down for whatever if the mood hits, but I think we should keep our relationship professional. I think, deep down, you'll see it's for the best.
-Stay beautiful,
+		"body"		"Hey, volevo solo dirti che quello che e' accaduto tra noi due e' stato molto speciale. Sei una ragazza magnifica - davvero - ma tu ed io, proveniamo da mondi differenti, e, non sto dicendo di chiuderla qui, ma penso che dovremmo mantenere la nostra relazione professionale. Penso che, nel profondo, capirai che e' la scelta migliore.
+Rimani meravigliosa,
 Romero"
 		"dependency"	"G.Romero_Boink >= 1 and G.Story_State >=70"
 	}
 
-	Email
+		Email
 	{
-		"subject"	"The endgame"
-		"sender"	"a friend"
-		"body"		"The position of your pieces is the key to the endgame."
+		"subject"	"La fine del gioco"
+		"sender"	"un amico"
+		"body"		"La posizione delle tue pedine e' la chiave per la fine del gioco."
 		"dependency"	"G.Story_State >= 80 and G.Story_State < 90"
 	}
 
-	Email
+		Email
 	{
-		"subject"	"The master"
-		"sender"	"a friend"
-		"body"		"A true master has played the entire game before the first move."
+		"subject"	"Il maestro"
+		"sender"	"un amico"
+		"body"		"Un vero maestro ha gia' finito l'intero gioco prima della prima mossa."
 		"dependency"	"G.Story_State >= 90 and G.Story_State < 100"
 	}
 
-	Email
+		Email
 	{
-		"subject"	"Some advice"
-		"sender"	"a friend"
-		"body"		"Don't open it."
+		"subject"	"Un consiglio"
+		"sender"	"un amico"
+		"body"		"Non aprirlo."
 		"dependency"	"G.Story_State >= 100"
 	}
 }

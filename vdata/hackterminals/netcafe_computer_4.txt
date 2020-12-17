@@ -7,7 +7,7 @@ TerminalDefinition
 	{
 		// Any number of lines are acceptable
 		"line0"		"Hollywood Celebrity Database"  
-		"line1"		"     Begin Your Search"	// changed by wesp
+		"line1"		"Inizia la Ricerca"
 	}
 
 	// you can have up to 5 subdirs per terminal
@@ -19,14 +19,14 @@ TerminalDefinition
 	{
 		"name"			"A-F"
 		"password"		""
-		"description"		"Fame at your fingertips!"
+		"description"		"Celebrita' a portata di mano!"
 
 		Function
 		{
 			"name"		"Alonzo, Alfredo"
 			"description"	"Alfredo Alonzo"
 			"runtext"	"Alfredo Alonzo
-Hunky action star of syndicated TV detective show \"Beef Bartlow\". Now serves up sandwiches named after his character at Jeremy's Famous Deli in nearby Beverly Hills."	// changed by wesp
+Eccellente star di un telefilm d'azione \"Beef Bartlow\". Ora serve sandwich dopo il suo ultimo ruolo al Jeremy's Famous Deli vicino Beverly Hills."
 		}
 
 		Function
@@ -34,7 +34,7 @@ Hunky action star of syndicated TV detective show \"Beef Bartlow\". Now serves u
 			"name"		"Amore, Sapphy"
 			"description"	"Sapphy Amore"
 			"runtext"	"Sapphy Amore
-A former dancer at the local Vesuvius club, Sapphy is one of the few active adult film stars who also occasionally appears in mainstream media. Known to drop in from time to time at the club where she made her name."	// changed by wesp
+Un tempo ballerina del club Vesuvius, Sapphy e' una delle poche star di film per adulti occasionalmente apparsa in tv. Di tanto in tanto ritorna al club dove si e' fatta il nome."
 		}
 
 		Function
@@ -42,15 +42,15 @@ A former dancer at the local Vesuvius club, Sapphy is one of the few active adul
 			"name"		"Blingo"
 			"description"	"Blingo"
 			"runtext"	"Blingo
-Rap superstar and entrepreneur best known for his platinum albums, \"I69 - Blingo!\" and \"Weed Metaphor\", Blingo owns several sweat shops in the area that turn out urban wear for his clothing line \"All Up On Ya\"."	// changed by wesp
+Superstar Rap e imprenditore meglio conosciuto per i suoi album di platino, \"I69 - Blingo!\" e \"Weed Metaphor\", Blingo e' proprietario di diversi negozi d'abbigliamento nella zona che vendonola sua linea di capi \"All Up On Ya\"."
 		}
 
 		Function
 		{
-			"name"		"Captain Bananas"
-			"description"	"Captain Bananas"
-			"runtext"	"Captain Bananas
-Known as the Olivier of chimp actors, Captain Bananas began his career as Trent Taylor's sidekick in the \"C.I.Ape\" film series. Now stars in the popular TV drama \"Ape Detective\". Part-owner in Hollywood hotspot \"Fling\"."	// changed by wesp
+			"name"		"Capitan Banana"
+			"description"	"Capitan Banana"
+			"runtext"	"Capitan Banana
+Conosciuto come l'Olivier degli attori scimpanze', Capitan Banana ha cominciato la sua carriera come amico intimo di Trent Taylor nella serie televisiva \"C.I.Ape\". E nel popolare programma drammatico \"Ape Detective\". Comproprietario del nightclub ad Hollywood \"Fling\"."
 		}
 	}
 
@@ -58,14 +58,14 @@ Known as the Olivier of chimp actors, Captain Bananas began his career as Trent 
 	{
 		"name"			"G-M"				// This is what is displayed as the name of this menu, and what the player must type to enter the menu (128 characters)
 		"password"		""				// password required to run commands in this menu (16 characters)
-		"description"		"Fame at your fingertips!" 	// This is printed each time the user enters this menu (128 characters)
+		"description"		"Celebrita' a portata di mano!" 	// This is printed each time the user enters this menu (128 characters)
 
 		Function
 		{
 			"name"		"Golden, Gary"
 			"description"	"Gary Golden"
 			"runtext"	"Gary Golden
-\"Gorgeous\" Gary Golden was the star of such 30's classics as \"Tap Hotel\" and \"Singing Honeymooners\". He later became a popular dramatic character actor in films such as \"Skies of Nevada\". Shortly after his last film in 1960, Golden disappeared and was legally declared dead in 1965."	// changed by wesp
+\"Gorgeous\" Gary Golden era la star dei classici anni '30 come \"Tap Hotel\" e \"Singing Honeymooners\". Piu' tardi divenne un popolare personaggio di film drammatici in pellicole come \"Skies of Nevada\". Poco dopo il suo ultimo film, nel 1960, Golden scomparve e fu' dichiarato legalmente morto nel 1965."
 		}
 
 		Function
@@ -73,7 +73,7 @@ Known as the Olivier of chimp actors, Captain Bananas began his career as Trent 
 			"name"		"Imalia"
 			"description"	"Imalia"
 			"runtext"	"Imalia
-Model famous for her racy covers and high lifestyle, Imalia claimed residence in Hollywood for several years. Tragically, her career was cut short in its prime. Her car was found wrecked at the base of the Hollywood Hills, her remains burned beyond recognition."	// changed by wesp
+Modella famosa per le copertine di gossip e lo stile di vita elevato, Imalia ha vissuto nello sfarzo di Hollywood per diversi anni. La sua carriera fini' tragicamente durante i primi anni. La sua macchina si schianto' ai piedi delle colline, lei rimase sfigurata dalle ustioni.
 		}
 
 		Function
@@ -81,7 +81,7 @@ Model famous for her racy covers and high lifestyle, Imalia claimed residence in
 			"name"		"Jerkass, Johnny"
 			"description"	"Johnny Jerkass"
 			"runtext"	"Johnny Jerkass
-Johnny Jerkass, host of popular prank show \"Psyche!\" films most of his show on the streets of Hollywood. Famous pranks filmed on this very street were the \"wife hit by bus\", the \"stripper is really a dude\", and \"that's not really beer\"."	// changed by wesp
+Johnny Jerkass, ospite del popolare show \"Psyche!\" filma la maggior parte dei suoi show per le strade di Hollywood. I suoi show piu' famosi girati su queste strade furono \"wife hit by bus\", \"stripper is really a dude\", e \"that's not really beer\"."
 		}
 
 		Function
@@ -89,7 +89,7 @@ Johnny Jerkass, host of popular prank show \"Psyche!\" films most of his show on
 			"name"		"Kross, Natalia"
 			"description"	"Natalia Kross"
 			"runtext"	"Natalia Kross
-Superstar of the late 50s to late 60s, known for her class and natural beauty. In 1968, Kross was brutally murdered at her house in the Hollywood Hills. She is buried in the Hollywood Forever Cemetery."	// changed by wesp
+Superstar tra gli '50 e fine anni 60', e' conosciuta per la sua classe e la naturale bellezza. Nel 1968, Kross fu brutalmente uccisa in casa sua sulle colline. E' attualmente sepolta all'Hollywood Forever Cemetery."
 		}
 
 		Function
@@ -97,7 +97,7 @@ Superstar of the late 50s to late 60s, known for her class and natural beauty. I
 			"name"		"Lungfish, Zed"
 			"description"	"Zed Lungfish"
 			"runtext"	"Zed Lungfish
-The Lungfish, infamous for his onstage debauchery during his concerts, owns and operates the Crematorium here in Hollywood."	// changed by wesp
+Il Lungfish, tristemente noto per le sue depravazioni sul palco durante i concerti, e' proprietario del Crematorium qui ad Hollywood."
 		}
 	}
 
@@ -105,14 +105,14 @@ The Lungfish, infamous for his onstage debauchery during his concerts, owns and 
 	{
 		"name"			"N-R"
 		"password"		""
-		"description"		"Fame at your fingertips!" 
+		"description"		"Celebrita' a portata di mano!" 
 
 		Function
 		{
 			"name"		"Nivbed"
 			"description"	"Nivbed"
 			"runtext"	"Nivbed
-If you want to spot this artist, try West Hollywood, but approach with caution - he's easily provoked to dangerous levels of sass."	// changed by wesp
+Se vuoi incontrare questo artista, prova al West Hollywood, ma avvicinati con attenzione - viene facilmente preso da attacchi di presunzione."
 		}
 
 		Function
@@ -120,7 +120,7 @@ If you want to spot this artist, try West Hollywood, but approach with caution -
 			"name"		"Openheimer, Jan"	// changed by wesp
 			"description"	"Jan Openheimer"
 			"runtext"	"Jan Openheimer
-Producer of such films as \"Guy Fawkes Day\", \"Explosion Every Sixty Seconds\", and \"Boston Harbor\". Gets his hair done at local salon \"Jump Cuts\" and has been spotted buying music at local record store \"Sappy Ballads\"."	// changed by wesp
+Produttore di film come \"Guy Fawkes Day\", \"Explosion Every Sixty Seconds\", e \"Boston Harbor\". Frequenta il salone di bellezza \"Jump Cuts\" ed e' stato visto comprare CD al negozio di musica \"Sappy Ballads\"."
 		}
 
 		Function
@@ -128,7 +128,7 @@ Producer of such films as \"Guy Fawkes Day\", \"Explosion Every Sixty Seconds\",
 			"name"		"Revolta, Jim"
 			"description"	"Jim Revolta"
 			"runtext"	"Jim Revolta
-Removed from database at request of Church of Solicitology."	// changed by wesp
+Rimosso dal database su richiesta della Chiesa della Sollecitologia."   // changed by wesp
 		}
 
 		Function
@@ -136,25 +136,25 @@ Removed from database at request of Church of Solicitology."	// changed by wesp
 			"name"		"Rivers, Ash"
 			"description"	"Ash Rivers"
 			"runtext"	"Ash Rivers
-After his breakout performance in the film \"Negative Zero\", Rivers garnered huge critical and commercial success in three more films before a shocking early retirement. Rivers spends most of his time these days managing his club, the Asp Hole, found right here in the heart of Hollywood."	// changed by wesp
+Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers trascorre molto tempo ad amministrare il suo club, l'Asp Hole, che si trova qui nel cuore di Hollywood."
 		"dependency"	"G.Story_State < 65"	// added by wesp
 		}
 
-		Function
+				Function
 		{
 			"name"		"Rivers, Ash"
 			"description"	"Ash Rivers"
 			"runtext"	"Ash Rivers
-After his breakout performance in the film \"Negative Zero\", Rivers garnered huge critical and commercial success in three more films before a shocking early retirement. Rivers spent most of his time managing his club, the Asp Hole, until he was staked to death right there by a mad man."	// changed by wesp
+Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers ha passato la maggior parte del suo tempo a gestire il suo club, l'Asp Hole, fino a quando non è stato pugnalato a morte proprio lì da un pazzo."	// changed by wesp
 		"dependency"	"G.Ash_Leave == 0 and G.Story_State >= 65"	// added by wesp
 		}
 
-		Function
+				Function
 		{
 			"name"		"Rivers, Ash"
 			"description"	"Ash Rivers"
 			"runtext"	"Ash Rivers
-After his breakout performance in the film \"Negative Zero\", Rivers garnered huge critical and commercial success in three more films before a shocking early retirement. Rivers spent most of his time managing his club, the Asp Hole, until he was staked to death right there by a mad man."	// changed by wesp
+Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers ha passato la maggior parte del suo tempo a gestire il suo club, l'Asp Hole, fino a quando non è stato pugnalato a morte proprio lì da un pazzo."	// changed by wesp
 		"dependency"	"G.Ash_Switch == 2 and G.Story_State >= 65"	// added by wesp
 		}
 
@@ -163,7 +163,7 @@ After his breakout performance in the film \"Negative Zero\", Rivers garnered hu
 			"name"		"Rivers, Ash"
 			"description"	"Ash Rivers"
 			"runtext"	"Ash Rivers
-After his breakout performance in the film \"Negative Zero\", Rivers garnered huge critical and commercial success in three more films before a shocking early retirement. Rivers spent most of his time managing his club, the Asp Hole, until he mysteriously disappeared a short time ago."	// changed by wesp
+Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers ha passato la maggior parte del suo tempo a gestire il suo club, l'Asp Hole, fino a quando è misteriosamente scomparso poco tempo fa."	// changed by wesp
 		"dependency"	"G.Ash_Leave == 1 and G.Story_State >= 65"	// added by wesp
 		}
 
@@ -173,14 +173,14 @@ After his breakout performance in the film \"Negative Zero\", Rivers garnered hu
 	{
 		"name"			"S-Z"
 		"password"		""
-		"description"		"Fame at your fingertips!" 
+		"description"		"Celebrita' a portata di mano!" 
 
 		Function
 		{
 			"name"		"Sammy, Frankie"
 			"description"	"Frankie Sammy"
 			"runtext"	"Frankie Sammy
-Wisecracking star of 70s TV show \"What's the Word?\", Sammy was found bludgeoned to death at the local Luckee Star two years after his popular show was cancelled."	// changed by wesp
+Esilarante star di uno show anni 70' \"What's the Word?\", Sammy fu' trovato massacrato nel locale Luckee Star due anni dopo che il suo popolare show fu' cancellato."	// changed by wesp
 		}
 
 		Function
@@ -188,8 +188,8 @@ Wisecracking star of 70s TV show \"What's the Word?\", Sammy was found bludgeone
 			"name"		"Sessions, Tawni"
 			"description"	"Tawni Sessions"
 			"runtext"	"Tawni Sessions
-Ubermodel Tawni Sessions has an apartment right here in Hollywood, and can often be found window-shopping in Beverly Hills."	// changed by wesp
-		"dependency"	"G.Imalia_Quest < 4"	// added by wesp	
+Ubermodel Tawni Sessions ha un appartamento proprio qui a Hollywood, e spesso può essere trovato a fare compere a Beverly Hills."	// changed by wesp
+		"dependency"	"G.Imalia_Quest < 4"	// added by wesp
 		}
 
 		Function
@@ -197,7 +197,7 @@ Ubermodel Tawni Sessions has an apartment right here in Hollywood, and can often
 			"name"		"Sessions, Tawni"
 			"description"	"Tawni Sessions"
 			"runtext"	"Tawni Sessions
-Ubermodel Tawni Sessions had an apartment right here in Hollywood, and could often be found window-shopping in Beverly Hills until she killed herself."	// changed by wesp
+Ubermodel Tawni Sessions ha un appartamento proprio qui a Hollywood, e spesso può essere trovato a fare compere a Beverly Hills  finché non si è ucciso."	// changed by wesp
 		"dependency"	"G.Imalia_Quest == 4"	// added by wesp
 		}
 
@@ -206,7 +206,7 @@ Ubermodel Tawni Sessions had an apartment right here in Hollywood, and could oft
 			"name"		"Sessions, Tawni"
 			"description"	"Tawni Sessions"
 			"runtext"	"Tawni Sessions
-Ubermodel Tawni Sessions had an apartment right here in Hollywood, and could often be found window-shopping in Beverly Hills until she was killed by a maniac."	// changed by wesp
+Ubermodel Tawni Sessions ha un appartamento proprio qui a Hollywood, e spesso può essere trovato a fare compere a Beverly Hills  finche' non e' stato ucciso da un maniaco."	// changed by wesp
 		"dependency"	"G.Imalia_Quest == 5"	// added by wesp
 		}
 
@@ -215,7 +215,7 @@ Ubermodel Tawni Sessions had an apartment right here in Hollywood, and could oft
 			"name"		"Swan, Ginger"
 			"description"	"Ginger Swan"
 			"runtext"	"Ginger Swan
-Swan, a name synonymous with beauty and glamour to this day, was a great celebrity of the late forties and early fifties. Her credits included such movies as \"Gilded Hummingbirds\" and \"When No Means Yes\". After her passing in 1964, she was interred in the Hollywood Forever Cemetery mausoleum."	// changed by wesp
+Swan, oggi un nome sinonimo di bellezza e fascino, era una grande celebrita' degli anni '40 e '50. La troviamo in film come \"Gilded Hummingbirds\" e \"When No Means Yes\". Dopo la sua morte nel 1964, fu' sotterrata nell'Hollywood Forever Cemetery mausoleum."
 			"runscript"	"OnGingerSwanEntry()"
 		}
 
@@ -224,7 +224,7 @@ Swan, a name synonymous with beauty and glamour to this day, was a great celebri
 			"name"		"Tang, Margaret"
 			"description"	"Margaret Tang"
 			"runtext"	"Margaret Tang
-The most in-demand voice director in town. Margaret is known for coaxing brilliant performances (and sometimes tears) out of her actors. She is currently working in Hollywood on several A-list titles, including \"The Animated Adventures of Fowl Mouth the Friggin' Chicken\" and \"Frankenstein: Breadlust\"."	// changed by wesp
+La direttrice vocale piu' richiesta in citta'. Margaret e' conosciuta anche per le brillanti performance (e a volte litigi) con alcuni dei suoi attori. Attualmente lavora ad Hollywood in diversi film di serie-A, incluso \"The Animated Adventures of Fowl Mouth the Friggin' Chicken\" e \"Frankenstein: Breadlust\"."
 		}
 	}
 }
