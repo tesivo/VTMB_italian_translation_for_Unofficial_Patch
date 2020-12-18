@@ -1,24 +1,24 @@
-{	1	}{	Yes? May I help you?	}{	Yes? May I help you?	}{	#	}{	}{	G.No_Idle = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	I'm on a blood drive.	}{	I'm on a blood drive.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Only if you have a straitjacket.	}
-{	3	}{	I could use some sunblock.	}{	I could use some sunblock.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Which of my personalities are you asking?	}
-{	4	}{	Uh... I don't think so.	}{	Uh... I don't think so.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Fate often answers with silence.	}
-{	5	}{	Hello... I spoke with you on the phone a little while ago.	}{	Hello... I spoke with you on the phone a little while ago.	}{	21	}{	G.Gimble_Phone == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ah! The limb lord!	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	[Click]...	}{	[Click]...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Si'? Posso aiutarti?	}{	Si'? Posso aiutarti?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Sono a caccia di sangue.	}{	Sono a caccia di sangue.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sol se hai una camicia di forza.	}
+{	3	}{	Potrei usare della crema solare.	}{	Potrei usare della crema solare.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	A quale delle mie personalita' stai chiedendo?	}
+{	4	}{	Uh... non credo.	}{	Uh... non credo.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	La morte spesso risponde col silenzio.	}
+{	5	}{	Ciao... ho parlato con te al telefono un minuto fa.	}{	Ciao... ho parlato con te al telefono un minuto fa.	}{	21	}{	G.Gimble_Phone == 1	}{		}{		}{		}{		}{		}{		}{		}{	Ah! Il braccio del signore!	}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	[Click]...	}{	[Click]...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Gimble_Vandal == 0 and G.Gimble_Leave == 0	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	13	}{	Nobody home?	}{	Nobody home?	}{	0	}{	G.Gimble_Vandal == 1 or G.Gimble_Leave == 1	}{	G.Gimble_Open = 1; G.Phone_Call = 1; G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Alone at home...	}
-{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Oh, right, right. I'll buzz you in.	}{	Oh, right, right. I'll buzz you in.	}{	#	}{	}{	G.Gimble_Open = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	No two buzzes are the same.	}
-{	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Non c'è nessuno in casa?	}{	Non c'è nessuno in casa?	}{	0	}{	G.Gimble_Vandal == 1 or G.Gimble_Leave == 1	}{	G.Gimble_Open = 1; G.Phone_Call = 1; G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Alone at home...	}
+{	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Oh, si', si'. Ti faccio entrare.	}{	Oh, si', si'. Ti faccio entrare.	}{	#	}{		}{	G.Gimble_Open = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Grazie.	}{	Grazie.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Grazie, ma faccio da me.	}
+{	23	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{	(Starting Condition)	}{	}{	11	}{	G.Gimble_Vandal == 1 or G.Gimble_Leave == 1	}{	G.No_Idle = 1	}{	}{	}{	}{	}{	}{	}{	}
