@@ -1,357 +1,357 @@
-{	1	}{	Do I know you?	}{	Do I know you?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	We can work on that.	}{	We can work on that.	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{	}{	}{	}{	}{	}{	}{	}{	You do now.	}
-{	3	}{	We can work on that.	}{	We can work on that.	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{	}{	}{	}{	}{	}{	}{	}{	You do now.	}
-{	4	}{	We can work on that.	}{	We can work on that.	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{	}{	}{	}{	}{	}{	}{	}{	You do now.	}
-{	5	}{	We can work on that.	}{	We can work on that.	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{	}{	}{	}{	}{	}{	}{	}{	You do now.	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	I don't know. Maybe if I saw the top of your head.	}{	I don't know. Maybe if I saw the top of your head.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know. Maybe if I saw inside your head.	}
-{	10	}{	I don't know. Maybe if I saw the top of your head.	}{	I don't know. Maybe if I saw the top of your head.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know. Maybe if I saw inside your head.	}
-{	11	}{	I don't know. Maybe if I saw the top of your head.	}{	I don't know. Maybe if I saw the top of your head.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know. Maybe if I saw inside your head.	}
-{	12	}{	I don't know. Maybe if I saw the top of your head.	}{	I don't know. Maybe if I saw the top of your head.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know. Maybe if I saw inside your head.	}
-{	13	}{	I don't know. Maybe if I saw the top of your head.	}{	I don't know. Maybe if I saw the top of your head.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know. Maybe if I saw inside your head.	}
-{	14	}{	I don't know. Maybe if I saw the top of your head.	}{	I don't know. Maybe if I saw the top of your head.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know. Maybe if I saw inside your head.	}
-{	15	}{	I don't know. Maybe if I saw the top of your head.	}{	I don't know. Maybe if I saw the top of your head.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know. Maybe if I saw inside your head.	}
-{	16	}{	Why? What do you want?	}{	Why? What do you want?	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	Why? What do you want?	}{	Why? What do you want?	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	Why? What do you want?	}{	Why? What do you want?	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	Why? What do you want?	}{	Why? What do you want?	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	Why? What do you want?	}{	Why? What do you want?	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Why? What do you want?	}{	Why? What do you want?	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Why? What do you want?	}{	Why? What do you want?	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	23	}{	Who can know themselves ever really? Such is the conundrum of life.	}{	Who can know themselves even really? Such is the conundrum of life.	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself. How can you know me?	}
-{	24	}{	Who can know themselves ever really? Such is the conundrum of life.	}{	Who can know themselves even really? Such is the conundrum of life.	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself. How can you know me?	}
-{	25	}{	Who can know themselves ever really? Such is the conundrum of life.	}{	Who can know themselves even really? Such is the conundrum of life.	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself. How can you know me?	}
-{	26	}{	Who can know themselves ever really? Such is the conundrum of life.	}{	Who can know themselves even really? Such is the conundrum of life.	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself. How can you know me?	}
-{	27	}{	Who can know themselves ever really? Such is the conundrum of life.	}{	Who can know themselves even really? Such is the conundrum of life.	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself. How can you know me?	}
-{	28	}{	Who can know themselves ever really? Such is the conundrum of life.	}{	Who can know themselves even really? Such is the conundrum of life.	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself. How can you know me?	}
-{	29	}{	Who can know themselves ever really? Such is the conundrum of life.	}{	Who can know themselves even really? Such is the conundrum of life.	}{	344	}{	Seduction -6 & OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself. How can you know me?	}
-{	30	}{	Hold that thought.	}{	Hold that thought.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Put your thought on hold.	}
-{	31	}{	Yes?	}{	Yes?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Are you psychic? I was just about to ask if I could join you.	}{	Are you psychic? I was just about to ask if I could join you.	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{	}{	}{	}{	}{	}{	}{	}{	Are you blessed with insight too? I wish to ask if I can join you.	}
-{	33	}{	Are you psychic? I was just about to ask if I could join you.	}{	Are you psychic? I was just about to ask if I could join you.	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{	}{	}{	}{	}{	}{	}{	}{	Are you blessed with insight too? I wish to ask if I can join you.	}
-{	34	}{	Are you psychic? I was just about to ask if I could join you.	}{	Are you psychic? I was just about to ask if I could join you.	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{	}{	}{	}{	}{	}{	}{	}{	Are you blessed with insight too? I wish to ask if I can join you.	}
-{	35	}{	Are you psychic? I was just about to ask if I could join you.	}{	Are you psychic? I was just about to ask if I could join you.	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{	}{	}{	}{	}{	}{	}{	}{	Are you blessed with insight too? I wish to ask if I can join you.	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	Girl, you rock my world. Yeah, you think about that.	}{	Girl, you rock my world. Yeah, you think about that.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	You put rocks into my world. Think on it.	}
-{	40	}{	Girl, you rock my world. Yeah, you think about that.	}{	Girl, you rock my world. Yeah, you think about that.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	You put rocks into my world. Think on it.	}
-{	41	}{	Girl, you rock my world. Yeah, you think about that.	}{	Girl, you rock my world. Yeah, you think about that.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	You put rocks into my world. Think on it.	}
-{	42	}{	Girl, you rock my world. Yeah, you think about that.	}{	Girl, you rock my world. Yeah, you think about that.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	You put rocks into my world. Think on it.	}
-{	43	}{	Girl, you rock my world. Yeah, you think about that.	}{	Girl, you rock my world. Yeah, you think about that.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	You put rocks into my world. Think on it.	}
-{	44	}{	Girl, you rock my world. Yeah, you think about that.	}{	Girl, you rock my world. Yeah, you think about that.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	You put rocks into my world. Think on it.	}
-{	45	}{	Girl, you rock my world. Yeah, you think about that.	}{	Girl, you rock my world. Yeah, you think about that.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	You put rocks into my world. Think on it.	}
-{	46	}{	I find the most erotic part of a woman's body is the boobies.	}{	I'm on you like a fly on a pile of very seductive manure.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	I find the most erotic part of a woman's body is the boobies.	}{	I'm on you like a fly on a pile of very seductive manure.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	I find the most erotic part of a woman's body is the boobies.	}{	I'm on you like a fly on a pile of very seductive manure.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	I find the most erotic part of a woman's body is the boobies.	}{	I'm on you like a fly on a pile of very seductive manure.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	I find the most erotic part of a woman's body is the boobies.	}{	I'm on you like a fly on a pile of very seductive manure.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	I find the most erotic part of a woman's body is the boobies.	}{	I'm on you like a fly on a pile of very seductive manure.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	I find the most erotic part of a woman's body is the boobies.	}{	I'm on you like a fly on a pile of very seductive manure.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	53	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Look into my eyes.... Ahhh! Get out, get out, get out!	}
-{	54	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Look into my eyes.... Ahhh! Get out, get out, get out!	}
-{	55	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Look into my eyes.... Ahhh! Get out, get out, get out!	}
-{	56	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Look into my eyes.... Ahhh! Get out, get out, get out!	}
-{	57	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Look into my eyes.... Ahhh! Get out, get out, get out!	}
-{	58	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Look into my eyes.... Ahhh! Get out, get out, get out!	}
-{	59	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	Look into my eyes.... You're hypnotized, aren't you?	}{	341	}{	Seduction -6 & OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Look into my eyes.... Ahhh! Get out, get out, get out!	}
-{	60	}{	Sorry to bother you.	}{	Sorry to bother you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I must bother you later; now is not a good time.	}
-{	61	}{	Buy me a drink?	}{	Buy me a drink?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Why stop there?	}{	Why stop there?	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{	}{	}{	}{	}{	}{	}{	}{	Yes, mistress.	}
-{	63	}{	Why stop there?	}{	Why stop there?	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{	}{	}{	}{	}{	}{	}{	}{	Yes, mistress.	}
-{	64	}{	Why stop there?	}{	Why stop there?	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{	}{	}{	}{	}{	}{	}{	}{	Yes, mistress.	}
-{	65	}{	Why stop there?	}{	Why stop there?	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{	}{	}{	}{	}{	}{	}{	}{	Yes, mistress.	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	I don't know, what's in it for me?	}{	I don't know, what's in it for me?	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Okay... you first!	}
-{	70	}{	I don't know, what's in it for me?	}{	I don't know, what's in it for me?	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Okay... you first!	}
-{	71	}{	I don't know, what's in it for me?	}{	I don't know, what's in it for me?	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Okay... you first!	}
-{	72	}{	I don't know, what's in it for me?	}{	I don't know, what's in it for me?	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Okay... you first!	}
-{	73	}{	I don't know, what's in it for me?	}{	I don't know, what's in it for me?	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Okay... you first!	}
-{	74	}{	I don't know, what's in it for me?	}{	I don't know, what's in it for me?	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Okay... you first!	}
-{	75	}{	I don't know, what's in it for me?	}{	I don't know, what's in it for me?	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Okay... you first!	}
-{	76	}{	That depends - how many drinks before you pass out and forget what happened?	}{	That depends - how many drinks before you pass out and forget what happened?	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Can you turn around while I spike it, please?	}
-{	77	}{	That depends - how many drinks before you pass out and forget what happened?	}{	That depends - how many drinks before you pass out and forget what happened?	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Can you turn around while I spike it, please?	}
-{	78	}{	That depends - how many drinks before you pass out and forget what happened?	}{	That depends - how many drinks before you pass out and forget what happened?	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Can you turn around while I spike it, please?	}
-{	79	}{	That depends - how many drinks before you pass out and forget what happened?	}{	That depends - how many drinks before you pass out and forget what happened?	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Can you turn around while I spike it, please?	}
-{	80	}{	That depends - how many drinks before you pass out and forget what happened?	}{	That depends - how many drinks before you pass out and forget what happened?	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Can you turn around while I spike it, please?	}
-{	81	}{	That depends - how many drinks before you pass out and forget what happened?	}{	That depends - how many drinks before you pass out and forget what happened?	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Can you turn around while I spike it, please?	}
-{	82	}{	That depends - how many drinks before you pass out and forget what happened?	}{	That depends - how many drinks before you pass out and forget what happened?	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Can you turn around while I spike it, please?	}
-{	83	}{	Whatever it takes to get MY hands on YOUR ass.	}{	Whatever it takes to get MY hands on YOUR ass.	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Drinks put my hands on your ass, so sure!	}
-{	84	}{	Whatever it takes to get MY hands on YOUR ass.	}{	Whatever it takes to get MY hands on YOUR ass.	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Drinks put my hands on your ass, so sure!	}
-{	85	}{	Whatever it takes to get MY hands on YOUR ass.	}{	Whatever it takes to get MY hands on YOUR ass.	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Drinks put my hands on your ass, so sure!	}
-{	86	}{	Whatever it takes to get MY hands on YOUR ass.	}{	Whatever it takes to get MY hands on YOUR ass.	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Drinks put my hands on your ass, so sure!	}
-{	87	}{	Whatever it takes to get MY hands on YOUR ass.	}{	Whatever it takes to get MY hands on YOUR ass.	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Drinks put my hands on your ass, so sure!	}
-{	88	}{	Whatever it takes to get MY hands on YOUR ass.	}{	Whatever it takes to get MY hands on YOUR ass.	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Drinks put my hands on your ass, so sure!	}
-{	89	}{	Whatever it takes to get MY hands on YOUR ass.	}{	Whatever it takes to get MY hands on YOUR ass.	}{	344	}{	Seduction -6 & OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Drinks put my hands on your ass, so sure!	}
-{	90	}{	Maybe later, excuse me.	}{	Maybe later, excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	That service is currently unavailable. Please try again later.	}
-{	91	}{	Finally. You shouldn't make a girl wait like that!	}{	Finally. You shouldn't make a girl wait like that!	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	I thought about doing this every moment we were apart.	}{	I thought about doing this every moment we were apart.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	I thought about doing this every moment we were apart... except when I didn't.	}
-{	93	}{	That's why I came back... for a little more.	}{	That's why I came back... for a little more.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	I will work on reducing wait times. I need a transfusion.	}
-{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	Just a little longer, baby.	}{	Just a little longer, baby.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sorry, you must wait some more. I shall return.	}
-{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	[Frightened/disgusted]What the hell happened to your...? You! [Revulsion]Ugh!	}{	[Frightened/disgusted]What the hell happened to your...? You! [Revulsion]Ugh!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Once you go gross, nothing else comes close.	}{	Once you go gross, nothing else comes close.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
-{	123	}{	It's what's inside that counts. I'm full of a yellowish-brown liquid.	}{	It's what's inside that counts. I'm full of a yellowish-brown liquid.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	Same thing I'm going to do to you, girly-girl!	}{	Same thing I'm going to do to you, girly-girl!	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
-{	125	}{	Scary, maybe. But when you close your eyes, you'll remember this face.	}{	Scary, maybe. But when you close your eyes, you'll remember this face.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	Oh! I think I like you already.	}{	Oh! I think I like you already.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	153	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	If I were you, I'd like me too. Can I pull off your outfit?	}
-{	154	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	If I were you, I'd like me too. Can I pull off your outfit?	}
-{	155	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	If I were you, I'd like me too. Can I pull off your outfit?	}
-{	156	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	If I were you, I'd like me too. Can I pull off your outfit?	}
-{	157	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	If I were you, I'd like me too. Can I pull off your outfit?	}
-{	158	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	If I were you, I'd like me too. Can I pull off your outfit?	}
-{	159	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	If I were you, I'd like me too. Don't think I'd try to pull off that outfit though.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	If I were you, I'd like me too. Can I pull off your outfit?	}
-{	160	}{	Oh! I know I like you.	}{	Oh! I know I like you.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oh goodie! Me too!	}
-{	161	}{	You and a whole lot of other lucky ladies.	}{	You and a whole lot of other lucky ladies.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	I KNOW you like me already.	}
-{	162	}{	You and a whole lot of other lucky ladies.	}{	You and a whole lot of other lucky ladies.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	I KNOW you like me already.	}
-{	163	}{	You and a whole lot of other lucky ladies.	}{	You and a whole lot of other lucky ladies.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	I KNOW you like me already.	}
-{	164	}{	You and a whole lot of other lucky ladies.	}{	You and a whole lot of other lucky ladies.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	I KNOW you like me already.	}
-{	165	}{	You and a whole lot of other lucky ladies.	}{	You and a whole lot of other lucky ladies.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	I KNOW you like me already.	}
-{	166	}{	You and a whole lot of other lucky ladies.	}{	You and a whole lot of other lucky ladies.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	I KNOW you like me already.	}
-{	167	}{	You and a whole lot of other lucky ladies.	}{	You and a whole lot of other lucky ladies.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	I KNOW you like me already.	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	I'm sure you say that to everybody.	}{	I'm sure you say that to everybody.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Awww... I'll bet you say that to ALL the crazies.	}
-{	170	}{	I'm sure you say that to everybody.	}{	I'm sure you say that to everybody.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Awww... I'll bet you say that to ALL the crazies.	}
-{	171	}{	I'm sure you say that to everybody.	}{	I'm sure you say that to everybody.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Awww... I'll bet you say that to ALL the crazies.	}
-{	172	}{	I'm sure you say that to everybody.	}{	I'm sure you say that to everybody.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Awww... I'll bet you say that to ALL the crazies.	}
-{	173	}{	I'm sure you say that to everybody.	}{	I'm sure you say that to everybody.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Awww... I'll bet you say that to ALL the crazies.	}
-{	174	}{	I'm sure you say that to everybody.	}{	I'm sure you say that to everybody.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Awww... I'll bet you say that to ALL the crazies.	}
-{	175	}{	I'm sure you say that to everybody.	}{	I'm sure you say that to everybody.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Awww... I'll bet you say that to ALL the crazies.	}
-{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	Keep going....	}{	Keep going....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Baby. I want to love you up something fierce. Wash, rinse, repeat.	}
-{	183	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Baby. I want to love you up something fierce. Wash, rinse, repeat.	}
-{	184	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Baby. I want to love you up something fierce. Wash, rinse, repeat.	}
-{	185	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Baby. I want to love you up something fierce. Wash, rinse, repeat.	}
-{	186	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Baby. I want to love you up something fierce. Wash, rinse, repeat.	}
-{	187	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Baby. I want to love you up something fierce. Wash, rinse, repeat.	}
-{	188	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	Baby. I want to love you up something fierce. Then hit the replay button.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Baby. I want to love you up something fierce. Wash, rinse, repeat.	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	I'm all on you like a tick on a dog.	}{	I'm all on you like a tick on a dog.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	I'm all on you like a tick on a dog.	}{	I'm all on you like a tick on a dog.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	193	}{	I'm all on you like a tick on a dog.	}{	I'm all on you like a tick on a dog.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	194	}{	I'm all on you like a tick on a dog.	}{	I'm all on you like a tick on a dog.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	195	}{	I'm all on you like a tick on a dog.	}{	I'm all on you like a tick on a dog.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	196	}{	I'm all on you like a tick on a dog.	}{	I'm all on you like a tick on a dog.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	I'm all on you like a tick on a dog.	}{	I'm all on you like a tick on a dog.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	198	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	203	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	204	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	I think my feelings for you are best expressed by a rhyme... gimme a beat.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	206	}{	I want to, but looking at you, I'm speechless.	}{	I want to, but looking at you, I'm speechless.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	I would if I could, but your beauty steals my words.	}
-{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	You're not just feeding me a line, are you?	}{	You're not just feeding me a line, are you?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	I'm not that type, but you're definitely mine.	}{	I'm not that type, but you're definitely mine.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	No, no lines here. You're too pretty for me to do lines.	}
-{	213	}{	Only stupid girls fall for those.	}{	Only stupid girls fall for those.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	You wouldn't look good in lines. Your current outfit is much better.	}
-{	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	You loved it.	}{	You loved it.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Only one of many. Now what will you feed me?	}
-{	222	}{	You loved it.	}{	You loved it.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Only one of many. Now what will you feed me?	}
-{	223	}{	You loved it.	}{	You loved it.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Only one of many. Now what will you feed me?	}
-{	224	}{	You loved it.	}{	You loved it.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Only one of many. Now what will you feed me?	}
-{	225	}{	You loved it.	}{	You loved it.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Only one of many. Now what will you feed me?	}
-{	226	}{	You loved it.	}{	You loved it.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Only one of many. Now what will you feed me?	}
-{	227	}{	You loved it.	}{	You loved it.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Only one of many. Now what will you feed me?	}
-{	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	If sexy was a sport, you'd win the gold medal.	}{	If sexy was a sport, you'd win the gold medal.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Woohoo! It actually worked! Errr....	}
-{	230	}{	If sexy was a sport, you'd win the gold medal.	}{	If sexy was a sport, you'd win the gold medal.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Woohoo! It actually worked! Errr....	}
-{	231	}{	If sexy was a sport, you'd win the gold medal.	}{	If sexy was a sport, you'd win the gold medal.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Woohoo! It actually worked! Errr....	}
-{	232	}{	If sexy was a sport, you'd win the gold medal.	}{	If sexy was a sport, you'd win the gold medal.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Woohoo! It actually worked! Errr....	}
-{	233	}{	If sexy was a sport, you'd win the gold medal.	}{	If sexy was a sport, you'd win the gold medal.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Woohoo! It actually worked! Errr....	}
-{	234	}{	If sexy was a sport, you'd win the gold medal.	}{	If sexy was a sport, you'd win the gold medal.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Woohoo! It actually worked! Errr....	}
-{	235	}{	If sexy was a sport, you'd win the gold medal.	}{	If sexy was a sport, you'd win the gold medal.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Woohoo! It actually worked! Errr....	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	So... you come here often?	}{	So... you come here often?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	Wherever there's desperate women, I'll be there.	}{	Wherever there's desperate women, I'll be there.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	No, only in private. And not even then, now.	}
-{	243	}{	Wherever there's desperate women, I'll be there.	}{	Wherever there's desperate women, I'll be there.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	No, only in private. And not even then, now.	}
-{	244	}{	Wherever there's desperate women, I'll be there.	}{	Wherever there's desperate women, I'll be there.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	No, only in private. And not even then, now.	}
-{	245	}{	Wherever there's desperate women, I'll be there.	}{	Wherever there's desperate women, I'll be there.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	No, only in private. And not even then, now.	}
-{	246	}{	Wherever there's desperate women, I'll be there.	}{	Wherever there's desperate women, I'll be there.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	No, only in private. And not even then, now.	}
-{	247	}{	Wherever there's desperate women, I'll be there.	}{	Wherever there's desperate women, I'll be there.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	No, only in private. And not even then, now.	}
-{	248	}{	Wherever there's desperate women, I'll be there.	}{	Wherever there's desperate women, I'll be there.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	No, only in private. And not even then, now.	}
-{	249	}{	What are you, a detective? Cuz I need to be taken in.	}{	What are you, a detective? Cuz I need to be taken in.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	Why? Who wants to know? Are you spying on me?	}
-{	250	}{	What are you, a detective? Cuz I need to be taken in.	}{	What are you, a detective? Cuz I need to be taken in.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	Why? Who wants to know? Are you spying on me?	}
-{	251	}{	What are you, a detective? Cuz I need to be taken in.	}{	What are you, a detective? Cuz I need to be taken in.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	Why? Who wants to know? Are you spying on me?	}
-{	252	}{	What are you, a detective? Cuz I need to be taken in.	}{	What are you, a detective? Cuz I need to be taken in.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	Why? Who wants to know? Are you spying on me?	}
-{	253	}{	What are you, a detective? Cuz I need to be taken in.	}{	What are you, a detective? Cuz I need to be taken in.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	Why? Who wants to know? Are you spying on me?	}
-{	254	}{	What are you, a detective? Cuz I need to be taken in.	}{	What are you, a detective? Cuz I need to be taken in.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	Why? Who wants to know? Are you spying on me?	}
-{	255	}{	What are you, a detective? Cuz I need to be taken in.	}{	What are you, a detective? Cuz I need to be taken in.	}{	341	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	Why? Who wants to know? Are you spying on me?	}
-{	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	258	}{	No, but I'm hoping to make it our place.	}{	No, but I'm hoping to make it our place.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Now that you're here, my answer is "Yes!"	}
-{	259	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	281	}{	OneOfSet(1,7)	}{	}{	}{	}{	}{	}{	}{	}{	My mind wanders.... Okay, it's back now.	}
-{	260	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	291	}{	OneOfSet(2,7)	}{	}{	}{	}{	}{	}{	}{	}{	My mind wanders.... Okay, it's back now.	}
-{	261	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	301	}{	OneOfSet(3,7)	}{	}{	}{	}{	}{	}{	}{	}{	My mind wanders.... Okay, it's back now.	}
-{	262	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	311	}{	OneOfSet(4,7)	}{	}{	}{	}{	}{	}{	}{	}{	My mind wanders.... Okay, it's back now.	}
-{	263	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	321	}{	OneOfSet(5,7)	}{	}{	}{	}{	}{	}{	}{	}{	My mind wanders.... Okay, it's back now.	}
-{	264	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	331	}{	OneOfSet(6,7)	}{	}{	}{	}{	}{	}{	}{	}{	My mind wanders.... Okay, it's back now.	}
-{	265	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	Beautiful people don't answer questions, they just get your undivided attention.	}{	344	}{	OneOfSet(7,7)	}{	}{	}{	}{	}{	}{	}{	}{	My mind wanders.... Okay, it's back now.	}
-{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	You're not like other guys, are you?	}{	You're not like other girls, are you?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll3_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	You don't know how right you are. Let me show you why.	}{	You don't know how right you are. Let me show you why.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	In so many ways. Let me show you one.	}
-{	273	}{	Ever had anyone do this to you before?	}{	Ever had anyone do this to you before?	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Yes. No. I don't know. Here, let's do something less confusing.	}
-{	274	}{	I want to show you ecstasy unlike anything else in this world.	}{	I want to show you ecstasy unlike anything else in this world.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	I am like ecstasy, only better. Let me show you.	}
-{	275	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	Aren't you cute - except replace "cute" with "absolutely repulsive".	}{	Aren't you cute - except replace "cute" with "absolutely repulsive".	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	282	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	283	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	284	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	285	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	286	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	289	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	290	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	291	}{	[Fake orgasm]That sound familiar? I didn't think so.	}{	[Fake orgasm]That sound familiar? I didn't think so.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	293	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	294	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	295	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	296	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	297	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	298	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	299	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	301	}{	Oh my gosh, my loser-sense is tingling!	}{	Oh my gosh, my skank-sense is tingling!	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	302	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	303	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	304	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	305	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	307	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	308	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	309	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	310	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	311	}{	I'm not gay, but I'm willing to learn.	}{	I'm not straight, but I'm willing to learn.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	312	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	313	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	314	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	315	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	316	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	317	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	318	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	319	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	320	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	321	}{	Yeah, I think we should see other people. Immediately. And never look back. Or look or speak to each other ever, ever again.	}{	Yeah, I think we should see other people. Immediately. And never look back. Or look or speak to each other ever, ever again.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	322	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	323	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	324	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	325	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	326	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	327	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	328	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	329	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	330	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	331	}{	I'd tell you when "hell freezes over", but there's always that chance that it might - so... let me just go with a definite "no way in hell".	}{	I'd tell you when "hell freezes over", but there's always that chance that it might - so... let me just go with a definite "no way in hell".	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	332	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	333	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	334	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	335	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	336	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	337	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	338	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	339	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	340	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	341	}{	Ooh, you're the type of man every woman wants... to get hit by a train!	}{	Ooh, you're the type of woman every woman wants... to get hit by a train!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	342	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	343	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	344	}{	Let me give you my phone number. Ready? Here's the first digit.[Gives player the finger]	}{	Let me give you my phone number. Ready? Here's the first digit.[Gives player the finger]	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	345	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	346	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	347	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	348	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	349	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	350	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	352	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	353	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	354	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	355	}{	(Starting Condition)	}{	}{	121	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	356	}{	(Starting Condition)	}{	}{	91	}{	G.Doll3_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	357	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Ti conosco?	}{	Ti conosco?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Possiamo lavorarci.	}{	Possiamo lavorarci.	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Ora lo sai.	}
+{	3	}{	Possiamo lavorarci.	}{	Possiamo lavorarci.	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Ora lo sai.	}
+{	4	}{	Possiamo lavorarci.	}{	Possiamo lavorarci.	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	Ora lo sai.	}
+{	5	}{	Possiamo lavorarci.	}{	Possiamo lavorarci.	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	Ora lo sai.	}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{	Non so, forse se segassi la sommita' della tua testa.	}{	Non so, forse se segassi la sommita' della tua testa.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non lo so. Forse se vedessi dentro la tua testa.	}
+{	10	}{	Non so, forse se segassi la sommita' della tua testa.	}{	Non so, forse se segassi la sommita' della tua testa.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non lo so. Forse se vedessi dentro la tua testa.	}
+{	11	}{	Non so, forse se segassi la sommita' della tua testa.	}{	Non so, forse se segassi la sommita' della tua testa.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non lo so. Forse se vedessi dentro la tua testa.	}
+{	12	}{	Non so, forse se segassi la sommita' della tua testa.	}{	Non so, forse se segassi la sommita' della tua testa.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non lo so. Forse se vedessi dentro la tua testa.	}
+{	13	}{	Non so, forse se segassi la sommita' della tua testa.	}{	Non so, forse se segassi la sommita' della tua testa.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non lo so. Forse se vedessi dentro la tua testa.	}
+{	14	}{	Non so, forse se segassi la sommita' della tua testa.	}{	Non so, forse se segassi la sommita' della tua testa.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non lo so. Forse se vedessi dentro la tua testa.	}
+{	15	}{	Non so, forse se segassi la sommita' della tua testa.	}{	Non so, forse se segassi la sommita' della tua testa.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non lo so. Forse se vedessi dentro la tua testa.	}
+{	16	}{	Perche'? Cosa vuoi?	}{	Perche'? Cosa vuoi?	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{	Perche'? Cosa vuoi?	}{	Perche'? Cosa vuoi?	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{	Perche'? Cosa vuoi?	}{	Perche'? Cosa vuoi?	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{	Perche'? Cosa vuoi?	}{	Perche'? Cosa vuoi?	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{	Perche'? Cosa vuoi?	}{	Perche'? Cosa vuoi?	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Perche'? Cosa vuoi?	}{	Perche'? Cosa vuoi?	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Perche'? Cosa vuoi?	}{	Perche'? Cosa vuoi?	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	23	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Io non mi conosco. Come puoi conoscermi?	}
+{	24	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Io non mi conosco. Come puoi conoscermi?	}
+{	25	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Io non mi conosco. Come puoi conoscermi?	}
+{	26	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Io non mi conosco. Come puoi conoscermi?	}
+{	27	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Io non mi conosco. Come puoi conoscermi?	}
+{	28	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Io non mi conosco. Come puoi conoscermi?	}
+{	29	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	Chi e' in grado di conoscere davvero se' stesso? Tale e' l'enigma della vita.	}{	344	}{	Seduction -6 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Io non mi conosco. Come puoi conoscermi?	}
+{	30	}{	Tieniti il dubbio.	}{	Tieniti il dubbio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tieni il tuo pensiero in disparte.	}
+{	31	}{	Si'?	}{	Si'?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Sei psicopatico? Stavo soltanto chiedendo se potevo unirmi a te.	}{	Sei psicopatica? Stavo soltanto chiedendo se potevo unirmi a te.	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Anche lei ha la fortuna di avere intuito? Vorrei chiedervi se posso unirmi a voi.	}
+{	33	}{	Sei psicopatico? Stavo soltanto chiedendo se potevo unirmi a te.	}{	Sei psicopatica? Stavo soltanto chiedendo se potevo unirmi a te.	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Anche lei ha la fortuna di avere intuito? Vorrei chiedervi se posso unirmi a voi.	}
+{	34	}{	Sei psicopatico? Stavo soltanto chiedendo se potevo unirmi a te.	}{	Sei psicopatica? Stavo soltanto chiedendo se potevo unirmi a te.	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	Anche lei ha la fortuna di avere intuito? Vorrei chiedervi se posso unirmi a voi.	}
+{	35	}{	Sei psicopatico? Stavo soltanto chiedendo se potevo unirmi a te.	}{	Sei psicopatica? Stavo soltanto chiedendo se potevo unirmi a te.	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	Anche lei ha la fortuna di avere intuito? Vorrei chiedervi se posso unirmi a voi.	}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai messo delle pietre nel mio mondo. Pensaci.	}
+{	40	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai messo delle pietre nel mio mondo. Pensaci.	}
+{	41	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai messo delle pietre nel mio mondo. Pensaci.	}
+{	42	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai messo delle pietre nel mio mondo. Pensaci.	}
+{	43	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai messo delle pietre nel mio mondo. Pensaci.	}
+{	44	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai messo delle pietre nel mio mondo. Pensaci.	}
+{	45	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	Tesoro, tu mi sconvolgi. Certo, pensaci.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai messo delle pietre nel mio mondo. Pensaci.	}
+{	46	}{	Ho scoperto che la parte piu' erotica del corpo femminile sono le bocce.	}{	Sono su di te come una mosca su un cumulo di seducente letame.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{	Ho scoperto che la parte piu' erotica del corpo femminile sono le bocce.	}{	Sono su di te come una mosca su un cumulo di seducente letame.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{	Ho scoperto che la parte piu' erotica del corpo femminile sono le bocce.	}{	Sono su di te come una mosca su un cumulo di seducente letame.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{	Ho scoperto che la parte piu' erotica del corpo femminile sono le bocce.	}{	Sono su di te come una mosca su un cumulo di seducente letame.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{	Ho scoperto che la parte piu' erotica del corpo femminile sono le bocce.	}{	Sono su di te come una mosca su un cumulo di seducente letame.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Ho scoperto che la parte piu' erotica del corpo femminile sono le bocce.	}{	Sono su di te come una mosca su un cumulo di seducente letame.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Ho scoperto che la parte piu' erotica del corpo femminile sono le bocce.	}{	Sono su di te come una mosca su un cumulo di seducente letame.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	53	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
+{	54	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
+{	55	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
+{	56	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
+{	57	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
+{	58	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
+{	59	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	341	}{	Seduction -6 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
+{	60	}{	Scusa se ti do fastidio.	}{	Scusa se ti do fastidio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo disturbarvi più tardi; ora non è un buon momento.	}
+{	61	}{	Mi paghi da bere?	}{	Mi paghi da bere?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Perche' fermarci a questo?	}{	Perche' fermarci a questo?	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Si', padrona.	}
+{	63	}{	Perche' fermarci a questo?	}{	Perche' fermarci a questo?	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Si', padrona.	}
+{	64	}{	Perche' fermarci a questo?	}{	Perche' fermarci a questo?	}{	211	}{	Seduction 6 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	Si', padrona.	}
+{	65	}{	Perche' fermarci a questo?	}{	Perche' fermarci a questo?	}{	241	}{	Seduction 6 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	Si', padrona.	}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{	Non so, che ci guadagno?	}{	Non so, che ci guadagno?	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ok... prima tu!	}
+{	70	}{	Non so, che ci guadagno?	}{	Non so, che ci guadagno?	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ok... prima tu!	}
+{	71	}{	Non so, che ci guadagno?	}{	Non so, che ci guadagno?	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ok... prima tu!	}
+{	72	}{	Non so, che ci guadagno?	}{	Non so, che ci guadagno?	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ok... prima tu!	}
+{	73	}{	Non so, che ci guadagno?	}{	Non so, che ci guadagno?	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ok... prima tu!	}
+{	74	}{	Non so, che ci guadagno?	}{	Non so, che ci guadagno?	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ok... prima tu!	}
+{	75	}{	Non so, che ci guadagno?	}{	Non so, che ci guadagno?	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ok... prima tu!	}
+{	76	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Puoi girarti mentre lo spillo, per favore?	}
+{	77	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Puoi girarti mentre lo spillo, per favore?	}
+{	78	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Puoi girarti mentre lo spillo, per favore?	}
+{	79	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Puoi girarti mentre lo spillo, per favore?	}
+{	80	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Puoi girarti mentre lo spillo, per favore?	}
+{	81	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Puoi girarti mentre lo spillo, per favore?	}
+{	82	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	Dipende - quanti drink ci vogliono prima che tu svenga e dimentichi cosa e' successo?	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Puoi girarti mentre lo spillo, per favore?	}
+{	83	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	281	}{	Seduction -6 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
+{	84	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	291	}{	Seduction -6 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
+{	85	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	301	}{	Seduction -6 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
+{	86	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	311	}{	Seduction -6 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
+{	87	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
+{	88	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
+{	89	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	344	}{	Seduction -6 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
+{	90	}{	Forse piu' tardi, scusami.	}{	Forse piu' tardi, scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tale servizio non è attualmente disponibile. Si prega di riprovare più tardi.	}
+{	91	}{	Finalmente. Non dovresti far aspettare cosi' una ragazza!	}{	Finalmente. Non dovresti far aspettare cosi' una ragazza!	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Per tutto il tempo che non ti ho vista non ho fatto altro che pensare a questo.	}{	Per tutto il tempo che non ti ho vista non ho fatto altro che pensare a questo.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Ho pensato di farlo ogni volta che eravamo separati... tranne quando non l'ho fatto.	}
+{	93	}{	E' per questo che sono tornato... ma per poco.	}{	E' per questo che sono tornata... ma per poco.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Lavorerò per ridurre i tempi di attesa. Ho bisogno di una trasfusione.	}
+{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	95	}{	Solo un po' piu' a lungo, baby.	}{	Solo un po' piu' a lungo, baby.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Scusate, dovete aspettare ancora un po'. Tornerò.	}
+{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	103	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	113	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	114	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	[Spaventato/disgustato]Cosa diavolo e' successo al tuo...? Tu! [Disgustoso]Ugh!	}{	[Spaventata/disgustata]Cosa diavolo e' successo al tuo...? Tu! [Disgustoso]Ugh!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Quando diventi volgare non mi piaci piu'.	}{	Quando diventi volgare non mi piaci piu'.	}{	0	}{		}{	npc.SetRelationship("player D_FR 5")	}{		}{		}{		}{		}{		}{		}{		}
+{	123	}{	E' cio' che c'e' dentro che conta . Sono ripieno di un liquido giallastro-marrone.	}{	E' cio' che c'e' dentro che conta . Sono ripiena di un liquido giallastro-marrone.	}{	0	}{		}{	npc.SetRelationship("player D_FR 5")	}{		}{		}{		}{		}{		}{		}{		}
+{	124	}{	La stessa cosa che stavo per dire a te, donnetta!	}{	La stessa cosa che stavo per dire a te, donnetta!	}{	0	}{		}{	npc.SetRelationship("player D_FR 5")	}{		}{		}{		}{		}{		}{		}{		}
+{	125	}{	Spaventoso, forse. Ma quando chiuderai gli occhi, ricorderai questa faccia.	}{	Spaventosa, forse. Ma quando chiuderai gli occhi, ricorderai questa faccia.	}{	0	}{		}{	npc.SetRelationship("player D_FR 5")	}{		}{		}{		}{		}{		}{		}{		}
+{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	132	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	133	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	134	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	144	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	145	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	151	}{	Oh! Gia' mi piaci, credo .	}{	Oh! Gia' mi piaci, credo .	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	152	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	153	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
+{	154	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
+{	155	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
+{	156	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
+{	157	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
+{	158	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
+{	159	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
+{	160	}{	Oh! So di piacerti.	}{	Oh! So di piacerti.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Oh, che bello! Anch'io!	}
+{	161	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	162	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	163	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	164	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	165	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	166	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	167	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
+{	170	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
+{	171	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
+{	172	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
+{	173	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
+{	174	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
+{	175	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
+{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	181	}{	Continua....	}{	Continua....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Tesoro. Voglio amarti in modo feroce. Lavare, risciacquare, ripetere.	}
+{	183	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Tesoro. Voglio amarti in modo feroce. Lavare, risciacquare, ripetere.	}
+{	184	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Tesoro. Voglio amarti in modo feroce. Lavare, risciacquare, ripetere.	}
+{	185	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Tesoro. Voglio amarti in modo feroce. Lavare, risciacquare, ripetere.	}
+{	186	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Tesoro. Voglio amarti in modo feroce. Lavare, risciacquare, ripetere.	}
+{	187	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Tesoro. Voglio amarti in modo feroce. Lavare, risciacquare, ripetere.	}
+{	188	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	Baby. Voglio amarti in maniera selvaggia, e poi premere il tasto replay.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Tesoro. Voglio amarti in modo feroce. Lavare, risciacquare, ripetere.	}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	Ti salterei addosso come una pulce su di un cane.	}{	Ti salterei addosso come una pulce su di un cane.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{	Ti salterei addosso come una pulce su di un cane.	}{	Ti salterei addosso come una pulce su di un cane.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	193	}{	Ti salterei addosso come una pulce su di un cane.	}{	Ti salterei addosso come una pulce su di un cane.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	194	}{	Ti salterei addosso come una pulce su di un cane.	}{	Ti salterei addosso come una pulce su di un cane.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	195	}{	Ti salterei addosso come una pulce su di un cane.	}{	Ti salterei addosso come una pulce su di un cane.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	196	}{	Ti salterei addosso come una pulce su di un cane.	}{	Ti salterei addosso come una pulce su di un cane.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{	Ti salterei addosso come una pulce su di un cane.	}{	Ti salterei addosso come una pulce su di un cane.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	198	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	200	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	201	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	203	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	204	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	Credo che i miei sentimenti per te sarebbero espressi meglio da una strofa... dammi il tempo.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	206	}{	Mi piacerebbe, ma guardandoti, sono rimasto senza parole.	}{	Mi piacerebbe, ma guardandoti, sono rimasta senza parole.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Lo farei se potessi, ma la tua bellezza mi ruba le parole.	}
+{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	211	}{	Non stai cercando di conquistarmi con una canzoncina, vero?	}{	Non stai cercando di conquistarmi con una canzoncina, vero?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	212	}{	Non sono quel tipo, ma tu senza dubbio sei il mio.	}{	Non sono quel tipo, ma tu senza dubbio sei il mio.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	No, qui non ci sono battute. Sei troppo carina per me per fare le battute.	}
+{	213	}{	Solo le ragazze stupide ci cascano.	}{	Solo le ragazze stupide ci cascano.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non staresti bene in una battuta. Il tuo attuale abbigliamento è molto meglio.	}
+{	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	221	}{	Ti e' piaciuto.	}{	Ti e' piaciuto.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Solo uno dei tanti. Ora cosa mi darai da mangiare?	}
+{	222	}{	Ti e' piaciuto.	}{	Ti e' piaciuto.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Solo uno dei tanti. Ora cosa mi darai da mangiare?	}
+{	223	}{	Ti e' piaciuto.	}{	Ti e' piaciuto.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Solo uno dei tanti. Ora cosa mi darai da mangiare?	}
+{	224	}{	Ti e' piaciuto.	}{	Ti e' piaciuto.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Solo uno dei tanti. Ora cosa mi darai da mangiare?	}
+{	225	}{	Ti e' piaciuto.	}{	Ti e' piaciuto.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Solo uno dei tanti. Ora cosa mi darai da mangiare?	}
+{	226	}{	Ti e' piaciuto.	}{	Ti e' piaciuto.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Solo uno dei tanti. Ora cosa mi darai da mangiare?	}
+{	227	}{	Ti e' piaciuto.	}{	Ti e' piaciuto.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Solo uno dei tanti. Ora cosa mi darai da mangiare?	}
+{	228	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	229	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Woohoo! Ha funzionato davvero! Errr....	}
+{	230	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Woohoo! Ha funzionato davvero! Errr....	}
+{	231	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Woohoo! Ha funzionato davvero! Errr....	}
+{	232	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Woohoo! Ha funzionato davvero! Errr....	}
+{	233	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Woohoo! Ha funzionato davvero! Errr....	}
+{	234	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Woohoo! Ha funzionato davvero! Errr....	}
+{	235	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	Se essere sexy fosse uno sport, vinceresti la medaglia d'oro.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Woohoo! Ha funzionato davvero! Errr....	}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	241	}{	Allora... vieni qui spesso?	}{	Allora... vieni qui spesso?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	242	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
+{	243	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
+{	244	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
+{	245	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
+{	246	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
+{	247	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
+{	248	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
+{	249	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	250	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	251	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	252	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	253	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	254	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	255	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	258	}{	No, ma spero che diventi il nostro posto speciale.	}{	No, ma spero che diventi il nostro posto speciale.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora che sei qui, la mia risposta è "Sì!	}
+{	259	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	260	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	261	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	262	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	263	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	264	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	265	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	Non sei come tutti gli altri ragazzi, vero?	}{	Non sei come tutte le altre ragazze, vero?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll3_Seduce = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	272	}{	Hai maledettamente ragione. Lascia che ti mostri il perche'.	}{	You don't know how right you are. Let me show you why.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	In tanti modi. Permettimi di mostrartene uno.	}
+{	273	}{	Nessun'altro ti ha mai fatto questo prima?	}{	Nessun'altro ti ha mai fatto questo prima?	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Sì. No, non lo so. Ecco, facciamo qualcosa di meno confuso.	}
+{	274	}{	Voglio mostrarti un'estasi che non troverai da nessun'altra parte in questo mondo.	}{	Voglio mostrarti un'estasi che non troverai da nessun'altra parte in questo mondo.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Sono come l'estasi, solo meglio. Lasciate che ve lo mostri.	}
+{	275	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{	Non sei sveglio - a meno che tu non sostituisca "sveglio" con "assolutamente ripugnante".	}{	Non sei sveglia - a meno che tu non sostituisca "sveglia" con "assolutamente ripugnante".	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	282	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	283	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	284	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	285	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	286	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	287	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	288	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	290	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	291	}{	Ti suona famigliare? Non credo.	}{	Ti suona famigliare? Non credo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	293	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	294	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	295	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	296	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	297	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	298	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	299	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	301	}{	Oh mio dio, il mio rilevatore di perdenti sta suonando!	}{	Oh mio dio, il mio rielvatore di troiette sta suonando!	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	302	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	303	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	304	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	305	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	306	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	307	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	308	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	310	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	311	}{	Non sono gay, ma sono disposta a provare.	}{	Non sono molto aperta, ma sono disposta a provare.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	312	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	313	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	314	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	315	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	316	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	317	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	318	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	319	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	320	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	321	}{	Certo, credo che dovremmo vedere altra gente. Immediatamente. E non guardare mai indietro. Mai piu' vederci, mai piu' parlare. Mai piu'.	}{	Certo, credo che dovremmo vedere altra gente. Immediatamente. E non guardare mai indietro. Mai piu' vederci, mai piu' parlare. Mai piu'.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	322	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	323	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	324	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	325	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	326	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	327	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	328	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	329	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	331	}{	Ti direi quando "l'inferno si coprira' di ghiaccio", ma c'e' sempre l'eventualita' che potrebbe accadere - quindi... lascia che ti dica un "assolutamente no". Definitivo.	}{	Ti direi quando "l'inferno si coprira' di ghiaccio", ma c'e' sempre l'eventualita' che potrebbe accadere - quindi... lascia che ti dica un "assolutamente no". Definitivo.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	332	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	333	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	334	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	335	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	336	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	337	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	341	}{	Ooh, sei il tipo di uomo che ogni donna vorrebbe... che fosse preso in pieno da un treno!	}{	Ooh, sei il tipo di uomo che ogni donna vorrebbe... che fosse preso in pieno da un treno!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	342	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	343	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	344	}{	Lascia che ti dia il mio numero di telefono. Ci sei? Ecco la prima cifra.	}{	Lascia che ti dia il mio numero di telefono. Ci sei? Ecco la prima cifra.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	345	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	346	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	347	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	348	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	349	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	350	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	352	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	353	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	354	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	355	}{	(Starting Condition)	}{		}{	121	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	356	}{	(Starting Condition)	}{		}{	91	}{	G.Doll3_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	357	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
