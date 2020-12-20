@@ -1,134 +1,134 @@
-{	1	}{	Sheesh, is this place always so dead?	}{	Sheesh, is this place always so dead?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Danielle_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Death is only a sweet beginning, my lovely.	}{	Death is only a sweet beginning, my lovely.	}{	81	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	I'm here now, so the party has officially started.	}{	I'm here now, so the party has officially started.	}{	11	}{	Seduction 3 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	More so than you think.	}{	More so than you think.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	I wouldn't know.	}{	I wouldn't know.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	Yeah, this place sucks, I'm out of here.	}{	Yeah, this place sucks, I'm out of here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Only when you haunt it. Farewell.	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Really? And what are you bringin' to the party, huh? Got anything I can't get out in Arizona? Everyone at this place is so straight edge.	}{	Really? And what are you bringin' to the party, huh? Got anything I can't get out in Arizona? Everyone at this place is so straight edge.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	You must not have heard what's going down over at the "blood bank".	}{	You must not have heard what's going down over at the "blood bank".	}{	121	}{	Persuasion 3 & G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	13	}{	Drugs? I don't need drugs. But I can share my ecstasy with you.	}{	Drugs? I don't need drugs. But I can share my ecstasy with you.	}{	21	}{	Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	Then maybe you and I should go somewhere and get a little crooked.	}{	Then maybe you and I should go somewhere and get a little crooked.	}{	51	}{	Seduction -3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	You, uh, ever try letting someone drink your blood? It's intoxicating.	}{	You, uh, ever try letting someone drink your blood? It's intoxicating.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	0	}{	G.Vandal_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Hmm, now you've got me curious.	}{	Hmm, now you've got me curious.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Come here, and I'll show you why it killed the cat.	}{	Come here, and I'll show you why it killed the cat.	}{	77	}{	}{	G.Danielle_Seduced = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	23	}{	Really? Then there's something you MUST see over at the "blood bank".	}{	Really? Then there's something you MUST see over at the "blood bank".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	24	}{	Too bad I'm not. See ya.	}{	Too bad I'm not. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	[Disgusted]Ugh. Fuh-reak!	}{	[Disgusted]Ugh. Fuh-reak!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Danielle_Offend = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Ugh, I thought coming to LA was gonna be more exciting than Arizona.... I didn't come all this way just for watered down booze.	}{	Ugh, I thought coming to LA was gonna be more exciting than Arizona.... I didn't come all this way just for watered down booze.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Dude at the "blood bank" 'll fix you up. Just tell him you're there to "donate".	}{	Dude at the "blood bank" 'll fix you up. Just tell him you're there to "donate".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	The blood bank holds a different delusion, my lovely.	}
-{	43	}{	I'm here now, so the party has officially started.	}{	I'm here now, so the party has officially started.	}{	11	}{	Seduction 3 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	44	}{	Your eyes are like a memory of the lost summer sun.	}{	Your eyes are like a memory of the lost summer sun.	}{	91	}{	Seduction 3 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	45	}{	Uh... maybe I'm what you came all the way here for.	}{	Uh... maybe I'm what you came all the way here for.	}{	51	}{	Seduction -3	}{	}{	}{	}{	}{	}{	}{	}{	You're the moon to my, uh... my mincemeat.	}
-{	46	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	0	}{	G.Vandal_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps later I will return with news of underground galas. Farewell.	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	Right... goodbye.	}{	Right... goodbye.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	[Happy to see player]Hey you....	}{	[Happy to see player]Hey you....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	I heard about a dope party over at the "blood bank".	}{	I heard about a dope party over at the "blood bank".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	The blood bank holds a different delusion for you, my lovely.	}
-{	63	}{	Daddy's here to get a little more sugar.	}{	Mommy's here to get a little more sugar.	}{	79	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 0	}{	G.Danielle_Drink = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	64	}{	I haven't stopped thinking about you since the last time we talked.	}{	I haven't stopped thinking about you since the last time we talked.	}{	21	}{	Seduction 3 & G.Danielle_Seduced == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	65	}{	Your image has been burning holes in my mind.	}{	Your image has been burning holes in my mind.	}{	91	}{	Seduction 3 & G.Danielle_Seduced == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	Hey yourself. So, uh, what's your sign, baby?	}{	Hey yourself. So, uh, you must be pretty experimental, being in college.	}{	51	}{	G.Danielle_Seduced == 0	}{	}{	}{	}{	}{	}{	}{	}{	Your eyes are like, uh... lime-flavored lozenges.	}
-{	67	}{	Daddy's here to get a little more sugar.	}{	Mommy's here to get a little more sugar.	}{	75	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 1	}{	G.Danielle_Drink = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	Daddy's here to get a little more sugar.	}{	Mommy's here to get a little more sugar.	}{	77	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 2	}{	G.Danielle_Drink = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	I'm still looking around for a good party. I'll get back to you.	}{	I'm still looking around for a good party. I'll get back to you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps later I will return with news of underground galas. Farewell.	}
-{	71	}{	Hmm... well, guess I'm going to the "blood bank" then. I had enough of this place anyway.	}{	Hmm... well, guess I'm going to the "blood bank" then. I had enough of this place anyway.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Vandal_Quest = 3; pc.SetQuest("Danielle",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Have fun.	}{	Have fun.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You'll die for it.	}
-{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	I love my dollies. Wanna come play with them?	}{	I love my dollies. Wanna come play with them?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	Yes, I just said that.	}{	Yes, I just said that.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Dollies like to be squeezed.	}
-{	77	}{	It's a long time until sunrise. Wanna come play with me?	}{	It's a long time until sunrise. Wanna come play with me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	Oh yes, all night long.	}{	Oh yes, all night long.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Darkness lasts forever while we play.	}
-{	79	}{	Wanna come play with me?	}{	Wanna come play with me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	As I said, I do.	}{	As I said, I do.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Yummy, playing leads to tasting.	}
-{	81	}{	Oooohhh. That was an interesting thing to say. What, are you are some kind of a barroom philosopher? Or are you just trying to pick me up?	}{	Oooohhh. That was an interesting thing to say. What, are you some kind of a barroom philosopher? Or is that your idea of girl talk?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	The blood bank holds a different delusion, my lovely.	}{	The blood bank holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	I'll pick you up and take you into a wonderfully dark, delicious delirium.	}{	My idea of girl-talk is my lips on your neck, sweetness.	}{	91	}{	Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	Philosophy, philanderings... is there a difference, my sweet?	}{	Philosophy, philanderings... is there a difference, my sweet?	}{	51	}{	Seduction -3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	I'm just trying to divine your direction. Why are you here?	}{	I'm just trying to divine your direction. Why are you here?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	Death and I are old bedfellows.	}{	Death and I are old bedfellows.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	Your words... they're so... hypnotic. I don't know what to say.	}{	I... heh, I don't know. I'm not usually into girls.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Danielle_Seduced = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Don't say anything, my lovely. Just come to me and let yourself go.	}{	But I'm so into you. Come here, let me tell you a dark little secret.	}{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	Say you'll meet me for a secret session over at the "blood bank".	}{	Say you'll meet me for a secret session over at the "blood bank".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	Oh. Well, that's just a little too creepy for me. I'll talk with you later.	}{	Oh. Well, that's just a little too creepy for me. I'll talk with you later.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Danielle_OffendMalk = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Until we creep again. Farewell.	}{	Until we creep again. Farewell.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	Ummm... do me a favor... and leave me alone, weirdo.	}{	Ummm... do me a favor... and leave me alone, weirdo.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Wait! The blood bank holds a different delusion, my lovely.	}{	Wait! The blood bank holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	113	}{	Until next we dance on death's doorstep. Farewell.	}{	Until next we dance on death's doorstep. Farewell.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	Really? Well, that's just a little too creepy for me.	}{	Really? Well, that's just a little too creepy for me.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	71	}{	Persuasion 3 & pc.humanity >= 3	}{	FindPlayer().HumanityAdd( -1 )	}{	}{	}{	}{	}{	}{	}{	Perhaps I misjudged your worldly manner.	}
-{	123	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Dominate 1 & IsClan(pc,"Ventrue") and pc.humanity >= 3 and G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( -1 )	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	71	}{	Persuasion 3 & pc.humanity < 3	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps I misjudged your worldly manner.	}
-{	125	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Dominate 1 & IsClan(pc,"Ventrue") and pc.humanity < 3 and G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	Wait! You don't believe me? You're going to love it!	}{	Wait! You don't believe me? You're going to love it!	}{	51	}{	Persuasion -3	}{	}{	}{	}{	}{	}{	}{	}{	Believe me! The blood bank is, uh... totally bitchin'!	}
-{	127	}{	They probably wouldn't let you in anyway. See ya.	}{	They probably wouldn't let you in anyway. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You're no VIP, little vixen. Farewell.	}
-{	128	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Thaumaturgy 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	Not creepy. As amazing as I am!	}{	Not creepy. As amazing as I am!	}{	71	}{	Presence 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	Your choice. I'm outta here.	}{	Your choice. I'm outta here.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	E' sempre un mortorio qui?	}{	E' sempre un mortorio qui?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Danielle_Know = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	La morte e' solo un dolce inizio, mia cara.	}{	La morte e' solo un dolce inizio, mia cara.	}{	81	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	3	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	4	}{	Ora che ci sono io inizia ufficialmente la festa.	}{	Ora che ci sono io inizia ufficialmente la festa.	}{	11	}{	Seduction 3 & not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{	Piu' di quello che credi.	}{	Piu' di quello che credi.	}{	41	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{	Non saprei.	}{	Non saprei.	}{	41	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{	Gia', questo posto fa schifo. Me ne vado.	}{	Gia', questo posto fa schifo. Me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Solo quando ci sei tu. Addio.	}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Davvero? E cosa porterai alla festa? Qualcosa che non posso procurarmi dall'Arizona? Da queste parti sono tutti cosi' pudici.	}{	Davvero? E cosa porterai alla festa? Qualcosa che non posso procurarmi dall'Arizona? Da queste parti sono tutti cosi' pudici.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Forse non hai sentito cosa va per la maggiore alla "banca del sangue".	}{	Forse non hai sentito cosa va per la maggiore alla "banca del sangue".	}{	121	}{	Persuasion 3 & G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	13	}{	Droghe? Non mi servono. Ma posso dividere la mia estasi con te.	}{	Droghe? Non mi servono. Ma posso dividere la mia estasi con te.	}{	21	}{	Seduction 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	14	}{	Allora magari io e te potremmo andare a farci un goccio da qualche parte.	}{	Allora magari io e te potremmo andare a farci un goccio da qualche parte.	}{	51	}{	Seduction -3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{	Hai mai permesso a qualcuno di bere il tuo sangue? Dev'essere inebriante.	}{	Hai mai permesso a qualcuno di bere il tuo sangue? Dev'essere inebriante.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{	Se succede qualcosa di nuovo, te lo vengo a dire. Ci vediamo,	}{	Se succede qualcosa di nuovo, te lo vengo a dire. Ci vediamo,	}{	0	}{	G.Vandal_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Ora mi hai incuriosito.	}{	Ora mi hai incuriosito.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Vieni qui e ti mostrero' perche' le gattine cadono ai miei piedi.	}{	Vieni qui e ti mostrero' perche' le gattine cadono ai miei piedi.	}{	77	}{		}{	G.Danielle_Seduced = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	23	}{	Davvero? Allora c'e' qualcosa che DEVI vedere alla "banca del sangue".	}{	Davvero? Allora c'e' qualcosa che DEVI vedere alla "banca del sangue".	}{	121	}{	G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	24	}{	Peccato che io non lo sia. Saluti.	}{	Peccato che io non lo sia. Saluti.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	[Disgustato]Schifoso!	}{	[Disgustata]Schifoso!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Danielle_Offend = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Credevo che venire a LA sarebbe stato piu' eccitante dell'Arizona... non ho fatto tutta questa strada solo per i drink annacquati.	}{	Credevo che venire a LA sarebbe stato piu' eccitante dell'Arizona... non ho fatto tutta questa strada solo per i drink annacquati.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Tesoro alla "banca del sangue" ti rimettono in sest. Digli solo che sei li' per "donare".	}{	Tesoro alla "banca del sangue" ti rimettono in sest. Digli solo che sei li' per "donare".	}{	121	}{	G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{	La banca del sangue possiede una delusione differente, mia amata.	}
+{	43	}{	Ora che ci sono io inizia ufficialmente la festa.	}{	Ora che ci sono io inizia ufficialmente la festa.	}{	11	}{	Seduction 3 & not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	44	}{	I tuoi occhi mi ricordano il perduto sole estivo.	}{	I tuoi occhi mi ricordano il perduto sole estivo.	}{	91	}{	Seduction 3 & IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	45	}{	Forse e' per me che hai fatto tutta quella strada.	}{	Forse e' per me che hai fatto tutta quella strada.	}{	51	}{	Seduction -3	}{		}{		}{		}{		}{		}{		}{		}{	Tu per me sei la luna, mia... spezia pepata.	}
+{	46	}{	Se succede qualcosa di nuovo, te lo vengo a dire. Ci vediamo,	}{	Se succede qualcosa di nuovo, te lo vengo a dire. Ci vediamo,	}{	0	}{	G.Vandal_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Piu' tardi verro' a raccontarti delle feste in citta', forse. Saluti.	}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Okay... ci vediamo.	}{	Okay... ci vediamo.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	53	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	54	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	[Felice di vedere il giocatore]Ehi tu....	}{	[Felice di vedere il giocatore]Ehi tu....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Ho sentito di un party alla "banca del sangue".	}{	Ho sentito di un party alla "banca del sangue".	}{	121	}{	G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{	La banca del sangue possiede una delusione differente, mia amata.	}
+{	63	}{	Papa' e' qui per ricevere un altro po' di zucchero.	}{	Mamma e' qui per ricevere un altro po' di zucchero.	}{	 79   }{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 0	}{	G.Danielle_Drink = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	64	}{	Non ho potuto smettere di pensare dall'ultima volta che abbiamo parlato.	}{	Non ho potuto smettere di pensare dall'ultima volta che abbiamo parlato.	}{	21	}{	Seduction 3 & G.Danielle_Seduced == 0 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{	La tua immagine sta creando dei vuoti infuocati nella mia mente.	}{	La tua immagine sta creando dei vuoti infuocati nella mia mente.	}{	91	}{	Seduction 3 & G.Danielle_Seduced == 0 and IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{	Ehi a te. Quindi devi essere una persona pratica, per essere stata al college.	}{	Ehi a te. Quindi devi essere una persona pratica, per essere stata al college.	}{	51	}{	G.Danielle_Seduced == 0	}{		}{		}{		}{		}{		}{		}{		}{	I tuoi occhi sono come... fettine di limone.	}
+{	67	}{	Papà è qui per prendere un altro po' di zucchero.	}{	Papà è qui per prendere un altro po' di zucchero.	}{	75	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 1	}{	G.Danielle_Drink = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{	Papà è qui per prendere un altro po' di zucchero.	}{	Papà è qui per prendere un altro po' di zucchero.	}{	77	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 2	}{	G.Danielle_Drink = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{	Sto ancora cercando un party decente. Tornero' da te.	}{	Sto ancora cercando un party decente. Tornero' da te.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Piu' tardi verro' a raccontarti delle feste in citta', forse. Saluti.	}
+{	71	}{	Beh allora credo che andro' alla "banca del sangue". Comunque ne ho abbastanza di questo posto.	}{	Beh allora credo che andro' alla "banca del sangue". Comunque ne ho abbastanza di questo posto.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Vandal_Quest = 3; pc.SetQuest("Danielle",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Divertitevi.	}{	Divertitevi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Morirai per questo.	}
+{	73	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{	Amo le mie bambole. Vuoi venire a giocare con loro?	}{	Amo le mie bambole. Vuoi venire a giocare con loro?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	Sì, l'ho appena detto.	}{	Sì, l'ho appena detto.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Alle bambole piace essere strette.	}
+{	77	}{	Manca molto tempo all'alba. Vuoi venire a giocare con me?	}{	Manca molto tempo all'alba. Vuoi venire a giocare con me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	78	}{	Oh sì, tutta la notte.	}{	Oh sì, tutta la notte.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Il buio dura per sempre mentre giochiamo.	}
+{	79	}{	Vuoi venire a giocare con me?	}{	Vuoi venire a giocare con me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{	Come ho detto, lo faccio.	}{	Come ho detto, lo faccio.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Gnam, il gioco porta alla degustazione.	}
+{	81	}{	Oooohhh. Che cosa interessante da dire. Sei una specie di filosofo da bar? O stai solo cercando di rimorchiarmi?	}{	Oooohhh. Che cosa interessante da dire. Sei una specie di filosofo da bar? O e' la tua idea di discorso femminile?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	La banca del sangue possiede una delusione differente, mia amata.	}{	La banca del sangue possiede una delusione differente, mia amata.	}{	121	}{	G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{	Ti prendero' e ti portero' in un delirio meravigliosamente oscuro e delizioso.	}{	La mia idea di discorso femminile e' con le mie labbra sul tuo collo, dolcezza.	}{	91	}{	Seduction 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{	Filosofia, amoreggiare... c'e' differenza, mia cara?	}{	Filosofia, amoreggiare... c'e' differenza, mia cara?	}{	51	}{	Seduction -3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{	Sto solo cercando di indovinare la tua direzione. Perche' sei qui?	}{	Sto solo cercando di indovinare la tua direzione. Perche' sei qui	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{	La morte ed io siamo vecchi compagni.	}{	La morte ed io siamo vecchi compagni.	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	Le tue parole... sono cosi' ipnotiche. Non so cosa dire.	}{	Io... non so. heh, Di solito non sto con le ragazze.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Danielle_Seduced = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Non dire nulla, mia amata. Vieni da me e lasciati andare.	}{	Ma io sono con te. Vieni qui, devo raccontarti un piccolo segreto.	}{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	93	}{	Dimmi che ci incontreremo alla "banca del sangue" per un incontro segreto.	}{	Dimmi che ci incontreremo alla "banca del sangue" per un incontro segreto.	}{	121	}{	G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	101	}{	Oh. Beh, per me e' una cosa troppo spaventosa. Parlero' con te piu' tardi.	}{	Oh. Beh, per me e' una cosa troppo spaventosa. Parlero' con te piu' tardi.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Danielle_OffendMalk = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Fino a che non strisceremo di nuovo. Saluti.	}{	Fino a che non strisceremo di nuovo. Saluti.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	103	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	Ummm... fammi un favore: lasciami in pace, mostro.	}{	Ummm... fammi un favore: lasciami in pace, mostro.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	Aspetta! La banca del sangue possiede una delusione differente, mia amata.	}{	Aspetta! La banca del sangue possiede una delusione differente, mia amata.	}{	121	}{	G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	113	}{	Fino al nostro prossimo ballo sul pianerottolo della morte. Saluti.	}{	Fino al nostro prossimo ballo sul pianerottolo della morte. Saluti.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	114	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Davvero? Beh per me e' una cosa proprio raccapricciante.	}{	Davvero? Beh per me e' una cosa proprio raccapricciante.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Oh, scusami. Ti ho scambiata per un una che viveva sul filo del rasoio.	}{	Oh, scusami. Ti ho scambiata per un una che viveva sul filo del rasoio.	}{	71	}{	Persuasion 3 & pc.humanity >= 3	}{	FindPlayer().HumanityAdd( -1 )	}{		}{		}{		}{		}{		}{		}{	Forse ho gidicato male le tue maniere terrene.	}
+{	123	}{	Aspetta! Non mi credi? Ti piacera'?	}{	Aspetta! Non mi credi? Ti piacera'?	}{	71	}{	Dominate 1 & IsClan(pc,"Ventrue") and pc.humanity >= 3 and G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( -1 )	}{		}{		}{		}{		}{		}{		}{	Credimi! La banca del sangue e'... assolutamente meravigliosa!	}
+{	124	}{	Ad ogni modo probabilmente non ti avrebbero nemmeno fatto entrare. Ci vediamo	}{	Ad ogni modo probabilmente non ti avrebbero nemmeno fatto entrare. Ci vediamo	}{	71	}{	Persuasion 3 & pc.humanity < 3	}{		}{		}{		}{		}{		}{		}{		}{	Non sei VIP, piccola bisbetica. Saluti.	}
+{	125	}{	No, ci andrai tu!	}{	No, ci andrai tu!	}{	71	}{	Dominate 1 & IsClan(pc,"Ventrue") and pc.humanity < 3 and G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	126	}{	Aspetta! Non mi credi? Ti piacerà!	}{	Aspetta! Non mi credi? Ti piacerà!	}{	51	}{	Persuasion -3	}{	}{	}{	}{	}{	}{	}{	}{	Credetemi! La banca del sangue e', uh... assolutamente stronza!	}
+{	127	}{	Probabilmente non ti farebbero entrare comunque. Ci vediamo.	}{	Probabilmente non ti farebbero entrare comunque. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sei un VIP, piccola volpe. Addio.	}
+{	128	}{	No, ci andrai tu!	}{	No, ci andrai tu!	}{	71	}{	Thaumaturgy 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	129	}{	Non è inquietante. Per quanto io lo sia!	}{	Non è inquietante. Per quanto io lo sia!	}{	71	}{	Presence 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	130	}{	A voi la scelta. Io me ne vado.	}{	A voi la scelta. Io me ne vado.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	132	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -138,7 +138,7 @@
 {	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	I love my dollies. Want to come play with them?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	Amo le mie bambole. Vuoi venire a giocare con loro?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	142	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -148,7 +148,7 @@
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	It's a long time until sunrise. Want to come play with me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	Manca molto tempo all'alba. Vuoi venire a giocare con me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -158,7 +158,7 @@
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	Want to come play with me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Vuoi venire a giocare con me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	162	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
