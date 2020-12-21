@@ -1,288 +1,288 @@
-{	1	}{	Hunger... [growls animalistically]I need it... a drop of it on my tongue, sliding down my throat, the hot flash in my brain lighting up my body... I can smell it everywhere... blood.	}{	Hunger... [growls animalistically]I need it... a drop of it on my tongue, sliding down my throat, the hot flash in my brain lighting up my body... I can smell it everywhere... blood.	}{	#	}{	}{	npc.SetDisposition("ChairDamaged", 2)	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	What happened to you?	}{	What happened to you?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ah! A lost little sickling flower.	}
-{	3	}{	Who are you?	}{	Who are you?	}{	11	}{	not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	The beauty has met her Beast.	}
-{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Let me go... it's painful, like I'm going to die. It's calling. Never felt like this before. LET ME GO! I CAN SMELL IT! I HAVE TO HAVE IT!	}{	Let me go... it's painful, like I'm going to die. It's calling. Never felt like this before. LET ME GO! I CAN SMELL IT! I HAVE TO HAVE IT!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Hold still. I'll let you go.	}{	Hold still. I'll let you go.	}{	0	}{	}{	G.Lily_Release = 1	}{	}{	}{	}{	}{	}{	}{	I will free you from this fox's den, little flower.	}
-{	13	}{	Calm down, tell me who you are.	}{	Calm down, tell me who you are.	}{	21	}{	not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	Who are you, little sickling chick?	}
-{	14	}{	What's it worth to you? What'll you give me for letting you go?	}{	What's it worth to you? What'll you give me for letting you go?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Freedom has its price....	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	LET ME GO!	}{	LET ME GO!	}{	#	}{	}{	npc.SetDisposition("ChairDamaged", 2)	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Hold still. I'll let you go.	}{	Hold still. I'll let you go.	}{	0	}{	}{	G.Lily_Release = 1	}{	}{	}{	}{	}{	}{	}{	I will free you from this fox's den, little flower.	}
-{	23	}{	What's it worth to you? What'll you give me for letting you go?	}{	What's it worth to you? What'll you give me for letting you go?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Freedom has its price....	}
-{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	ANYTHING! LET ME GO!	}{	ANYTHING! LET ME GO!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Hold still. I'll let you go.	}{	Hold still. I'll let you go.	}{	0	}{	}{	G.Lily_Release = 1	}{	}{	}{	}{	}{	}{	}{	I will free you from this fox's den, little flower.	}
-{	33	}{	No, I think I'll go buy a bag of you. Goodbye.	}{	No, I think I'll go buy a bag of you. Goodbye.	}{	0	}{	}{	G.Lily_Refuse = 1	}{	}{	}{	}{	}{	}{	}{	I think I will purchase some of your liquids. Farewell.	}
-{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	The heat, mmm, it's never been so satisfying. All of it, I drank until I heard his heart stop and I was sucking on a dry, dead artery. It was... euphoric. But I've... I've... killed him. I've never killed anyone before. What happened? What came over me?	}{	The heat, mmm, it's never been so satisfying. All of it, I drank until I heard his heart stop and I was sucking on a dry, dead artery. It was... euphoric. But I've... I've... killed him. I've never killed anyone before. What happened? What came over me?	}{	#	}{	}{	G.Lily_Refuse = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Calm down. Tell me who you are.	}{	Calm down. Tell me who you are.	}{	51	}{	not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	Tell me your tale, sickling.	}
-{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	44	}{	The Beast took over. It happens.	}{	The Beast took over. It happens.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	You wore the mask of the Beast.	}
-{	45	}{	You could've saved me some.	}{	You could've saved me some.	}{	71	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	You could have saved me a delicious drink before you drained him.	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	[Flummoxed]What just happened - it's not who I am. I've never done anything like that before. I'm not a monster!	}{	[Flummoxed]What just happened - it's not who I am. I've never done anything like that before. I'm not a monster!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	Shh. Calm down, it's alright.	}{	Shh. Calm down, it's alright.	}{	81	}{	not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	You are not the darkness you wear.	}
-{	53	}{	Of course you're not. A real monster would have left some blood in the guy.	}{	Of course you're not. A real monster would have left some blood in the guy.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Monstrous more to leave even a little blood.	}
-{	54	}{	You're a Bestial, bloodlusted horror show. Just look at that poor sap.	}{	You're a Bestial, bloodlusted horror show. Just look at that poor sap.	}{	111	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	The Beast has made you its handmaiden. Behold the fruits of your labor!	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Beast? What IS that? Why couldn't I stop myself? Why did it... feel so right?	}{	Beast? What IS that? Why couldn't I stop myself? Why did it... feel so right?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Shh. Calm down, it's alright.	}{	Shh. Calm down, it's alright.	}{	81	}{	Humanity 6 & not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	You are not the darkness you wear.	}
-{	63	}{	Would you please calm down?	}{	Would you please calm down?	}{	81	}{	Humanity -6 & not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	You are not the darkness you wear.	}
-{	64	}{	Because it's our nature.	}{	Because it's our nature.	}{	111	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	A hunter can only see the blood that she seeks.	}
-{	65	}{	You're a Bestial, bloodlusted horror show. Just look at that poor sap.	}{	You're a Bestial, bloodlusted horror show. Just look at that poor sap.	}{	111	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	The Beast has made you his handmaiden. Behold the fruits of your labor!	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	That's horrible! Don't you understand? I've never done that before! It's NOT who I am!	}{	That's horrible! Don't you understand? I've never done that before! It's NOT who I am!	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Shh. Calm down, it's alright.	}{	Shh. Calm down, it's alright.	}{	81	}{	Humanity 6 & not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	You are not the darkness you wear.	}
-{	73	}{	It's our nature.	}{	It's our nature.	}{	111	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	A hunter can only see the blood that she seeks.	}
-{	74	}{	You're a Bestial, bloodlusted horror show. Just look at that poor sap.	}{	You're a Bestial, bloodlusted horror show. Just look at that poor sap.	}{	111	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	The Beast has made you its handmaiden. Behold the fruits of your labor!	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	[A little hysterical]I tried to steal some blood. I'd heard they sold it - I was hungry and I can't hunt in town. They caught me and... I was strapped - trapped... thought I'd never escape. But... I killed a man. I have to get out of here.	}{	[A little hysterical]I tried to steal some blood. I'd heard they sold it - I was hungry and I can't hunt in town. They caught me and... I was strapped - trapped... thought I'd never escape. But... I killed a man. I have to get out of here.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Are you the beautiful, sickling flower?	}{	Are you the beautiful, sickling flower?	}{	101	}{	IsClan(pc,"Malkavian") and not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	Who are you?	}{	Who are you?	}{	91	}{	not IsClan(pc,"Malkavian") and not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	What's your deal?	}{	What's your deal?	}{	91	}{	not IsClan(pc,"Malkavian") and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	Looks like you got your blood, alright.	}{	Looks like you got your blood, alright.	}{	111	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	The blood-thief's death still fills your throat with joy, yes?	}
-{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	My name is Lily.	}{	My name is Lily.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Lily? You're the one E told me about.	}{	Lily? You're the one E told me about.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	Heard about you from E.	}{	Heard about you from E.	}{	151	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	Flower? My name's Lily, if that's what you mean.	}{	Flower? My name's Lily, if that's what you mean.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	You are the flower of he that comes before F and G.	}{	You are the flower of he that comes before F and G.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	[Mortified]No... no - I'm not a monster. It was instinct... I couldn't control it. I'm not responsible for my actions.	}{	[Mortified]No... no - I'm not a monster. It was instinct... I couldn't control it. I'm not responsible for my actions.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Lily_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Are you the beautiful, sickling flower?	}{	Are you the beautiful, sickling flower?	}{	101	}{	IsClan(pc,"Malkavian") and not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	113	}{	Sorry. Who are you?	}{	Sorry. Who are you?	}{	91	}{	not IsClan(pc,"Malkavian") and not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	114	}{	Keep telling yourself that. It'll help you sleep the day away.	}{	Keep telling yourself that. It'll help you sleep the day away.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	It's the little lies that let you sleep.	}
-{	115	}{	Embrace your inner demons. Kill all you want. They'll make more.	}{	Embrace your inner demons. Kill all you want. They'll make more.	}{	121	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Become the darkness that surrounds you, and drunkenly feed until dawn.	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	I'm no murderer. I didn't choose to be like this. I'm not a monster.	}{	I'm no murderer. I didn't choose to be like this. I'm not a monster.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Are you the beautiful, sickling flower?	}{	Are you the beautiful, sickling flower?	}{	101	}{	IsClan(pc,"Malkavian") and not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	123	}{	It happens. So, who are you?	}{	It happens. So, who are you?	}{	91	}{	not IsClan(pc,"Malkavian") and not IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	No, you're a coward. Get out of here, you make me sick.	}{	No, you're a coward. Get out of here, you make me sick.	}{	0	}{	IsDead("E")	}{	}{	}{	}{	}{	}{	}{	}{	Sick flower, wilt away before I pluck you.	}
-{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Don't let me stop you from going in.	}{	Don't let me stop you from going in.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	Maybe another time. Goodbye.	}{	Maybe another time. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	When we meet again. Goodbye.	}
-{	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	Don't even think about it.	}{	Don't even think about it.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Ho fame... [ringhia animalisticamente]Ne ho bisogno... sulla mia lingua, giu' per la gola, il suo calore improvviso nel cervello accende il mio corpo... posso fiutarlo dovunque... sangue.	}{	Ho fame... [ringhia animalisticamente]Ne ho bisogno... sulla mia lingua, giu' per la gola, il suo calore improvviso nel cervello accende il mio corpo... posso fiutarlo dovunque... sangue.	}{	#	}{		}{	npc.SetDisposition("ChairDamaged", 2)	}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Cosa ti e' successo?	}{	Cosa ti e' successo?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Un fiorellino sperduto!	}
+{	3	}{	Chi sei?	}{	Chi sei?	}{	11	}{	not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	La bella ha incontrato la sua Bestia.	}
+{	4	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Lasciami andare... fa male... come se stessi per morire. Mi chiama. Non mi sono mai sentita cosi' prima. LASCIAMI ANDARE! LO SENTO! DEVO AVERLO!	}{	Lasciami andare... fa male... come se stessi per morire. Mi chiama. Non mi sono mai sentita cosi' prima. LASCIAMI ANDARE! LO SENTO! DEVO AVERLO!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Mantieni la calma. Ti lascero' andare.	}{	Mantieni la calma. Ti lascero' andare.	}{	0	}{		}{	G.Lily_Release = 1	}{		}{		}{		}{		}{		}{		}{	Ti liberero' dalla tana di questa volpe, piccolo fiore.	}
+{	13	}{	Calmati, dimmi chi sei.	}{	Calmati, dimmi chi sei.	}{	21	}{	not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	Chi sei, piccolo fiore uncinato?	}
+{	14	}{	Quanto vale per te? Cosa mi darai per lasciarti andare?	}{	Quanto vale per te? Cosa mi darai per lasciarti andare?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	La liberta' ha il suo prezzo....	}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	LASCIAMI ANDARE!	}{	LASCIAMI ANDARE!	}{	#	}{		}{	npc.SetDisposition("ChairDamaged", 2)	}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Mantieni la calma. Ti lascero' andare.	}{	Mantieni la calma. Ti lascero' andare.	}{	0	}{		}{	G.Lily_Release = 1	}{		}{		}{		}{		}{		}{		}{	Ti liberero' dalla tana di questa volpe, piccolo fiore.	}
+{	23	}{	Quanto vale per te? Cosa mi darai per lasciarti andare?	}{	Quanto vale per te? Cosa mi darai per lasciarti andare?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	La liberta' ha il suo prezzo....	}
+{	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	QUALUNQUE COSA! LASCIAMI ANDARE!	}{	QUALUNQUE COSA! LASCIAMI ANDARE!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Mantieni la calma. Ti lascero' andare.	}{	Mantieni la calma. Ti lascero' andare.	}{	0	}{		}{	G.Lily_Release = 1	}{		}{		}{		}{		}{		}{		}{	Ti liberero' dalla tana di questa volpe, piccolo fiore.	}
+{	33	}{	No, vado a comprare una sacca di te. Ci si vede.	}{	No, vado a comprare una sacca di te. Ci si vede.	}{	0	}{		}{	G.Lily_Refuse = 1	}{		}{		}{		}{		}{		}{		}{	Credo che comprero' un po' dei tuoi liquidi. Arrivederci.	}
+{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Il calore, mmm, non e' mai stato cosi' soddisfacente. L'ho bevuto tutto, tutto... fino a che non ho sentito il suo cuore fermarsi e la sua arteria inaridirsi, morire. E' stato... euforico. Ma... l'ho ucciso. Non avevo mai ucciso nessuno prima. Cosa e' successo? Cosa mi e' preso?	}{	Il calore, mmm, non e' mai stato cosi' soddisfacente. L'ho bevuto tutto, tutto... fino a che non ho sentito il suo cuore fermarsi e la sua arteria inaridirsi, morire. E' stato... euforico. Ma... l'ho ucciso. Non avevo mai ucciso nessuno prima. Cosa e' successo? Cosa mi e' preso?	}{	#	}{		}{	G.Lily_Refuse = 0	}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Calmati. Dimmi chi sei.	}{	Calmati. Dimmi chi sei.	}{	51	}{	not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	Raccontami la tua storia, fiorellino.	}
+{	43	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	44	}{	La Bestia ha avuto il sopravvento. Succede.	}{	La Bestia ha avuto il sopravvento. Succede.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hai indossato la maschera della Bestia.	}
+{	45	}{	Avresti potuto lasciarmene un po'.	}{	Avresti potuto lasciarmene un po'.	}{	71	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Avresti potuto lasciarmene un sorsetto prima di prosciugarlo.	}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Quello che e' successo... non sono cosi'. Non ho mai fatto nulla del genere prima. Non sono un mostro!	}{	Quello che e' successo... non sono cosi'. Non ho mai fatto nulla del genere prima. Non sono un mostro!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Shh. Calmati, va bene.	}{	Shh. Calmati, va bene.	}{	81	}{	not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	Non sei malvagia.	}
+{	53	}{	Certo che non lo sei. Un vero mostro gli avrebbe lasciato almeno un goccio di sangue.	}{	Certo che non lo sei. Un vero mostro gli avrebbe lasciato almeno un goccio di sangue.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' piu' mostruoso lasciare almeno un po' di sangue.	}
+{	54	}{	Sei bestiale, non riesci a farne a meno. Guarda quel poveretto.	}{	Sei bestiale, non riesci a farne a meno. Guarda quel poveretto.	}{	111	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	La Bestia ti ha fatto diventare sua schiava. Guarda i frutti delle tue azioni!	}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	Bestia? Che cos'e'? Perche' non sono riuscita a fermarmi? Perche' mi sentivo cosi'... bene?	}{	Bestia? Che cos'e'? Perche' non sono riuscita a fermarmi? Perche' mi sentivo cosi'... bene?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Shh. Va bene, calmati.	}{	Shh. Va bene, calmati.	}{	81	}{	Humanity 6 & not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	Non sei malvagia.	}
+{	63	}{	Potresti calmarti per favore?	}{	Potresti calmarti per favore?	}{	81	}{	Humanity -6 & not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	Non sei malvagia.	}
+{	64	}{	Perche' e' la nostra natura.	}{	Perche' e' la nostra natura.	}{	111	}{	Humanity -8	}{		}{		}{		}{		}{		}{		}{		}{	Un cacciatore riesce a vedere solo il sangue che lei vuole.	}
+{	65	}{	Sei bestiale, non riesci a farne a meno. Guarda quel poveretto.	}{	Sei bestiale, non riesci a farne a meno. Guarda quel poveretto.	}{	111	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	La Bestia ti ha fatto diventare sua schiava. Guarda i frutti delle tue azioni!	}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	E' orribile! Non lo capsici? Non l'ho mai fatto prima! NON e' cio' che sono!	}{	E' orribile! Non lo capsici? Non l'ho mai fatto prima! NON e' cio' che sono!	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Shh. Va bene, calmati.	}{	Shh. Va bene, calmati.	}{	81	}{	Humanity 6 & not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	Non sei malvagia.	}
+{	73	}{	E' la nostra natura.	}{	E' la nostra natura.	}{	111	}{	Humanity -8	}{		}{		}{		}{		}{		}{		}{		}{	Un cacciatore riesce a vedere solo il sangue che lei vuole.	}
+{	74	}{	Sei bestiale, non riesci a farne a meno. Guarda quel poveretto.	}{	Sei bestiale, non riesci a farne a meno. Guarda quel poveretto.	}{	111	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	La Bestia ti ha fatto diventare sua schiava. Guarda i frutti delle tue azioni!	}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	[Un po' isterico]Ho cercato di rubare del sangue, ma l'avevano venduto - avevo fame e non posso cacciare in citta'. Mi hanno presa e... mi hanno legata - intrappolata... pensavo che non sarei mai fuggita. Ma... ho ucciso un uomo. Devo andarmene da qui.	}{	[Un po' isterica]Ho cercato di rubare del sangue, ma l'avevano venduto - avevo fame e non posso cacciare in citta'. Mi hanno presa e... mi hanno legata - intrappolata... pensavo che non sarei mai fuggita. Ma... ho ucciso un uomo. Devo andarmene da qui.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	Sei tu il bel fiorellino uncinato?	}{	Sei tu il bel fiorellino uncinato?	}{	101	}{	IsClan(pc,"Malkavian") and not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{	Chi sei?	}{	Chi sei?	}{	91	}{	not IsClan(pc,"Malkavian") and not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{	Qual'e il tuo nome?	}{	Qual'e il tuo nome?	}{	91	}{	not IsClan(pc,"Malkavian") and G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{	Beh, sembra che tu abbia avuto il tuo sangue.	}{	Beh, sembra che tu abbia avuto il tuo sangue.	}{	111	}{	Humanity -8	}{		}{		}{		}{		}{		}{		}{		}{	La morte del ladro di sangue canta ancora con gioia nella tua gola, vero?	}
+{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	Mi chiamo Lily.	}{	Mi chiamo Lily.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Lily? Sei tu quella di cui mi ha parlato E.	}{	Lily? Sei tu quella di cui mi ha parlato E.	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	93	}{	Ho sentito parlare di te da E.	}{	Ho sentito parlare di te da E.	}{	151	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	101	}{	Fiore? Mi chiamo Lily, se e' quello che vuoi sapere.	}{	Fiore? Mi chiamo Lily, se e' quello che vuoi sapere.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Sei tu il fiore di colui che viene prima della F e della G.	}{	Sei tu il fiore di colui che viene prima della F e della G.	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	103	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	[Mortificato]No... no - non sono un mostro. E' stato l'istinto... non riuscivo a controllarlo. Non sono responsabile delle mie azioni.	}{	[Mortificata]No... no - non sono un mostro. E' stato l'istinto... non riuscivo a controllarlo. Non sono responsabile delle mie azioni.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Lily_Pissed = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	Sei tu il bel fiorellino uncinato?	}{	Sei tu il bel fiorellino uncinato?	}{	101	}{	IsClan(pc,"Malkavian") and not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	113	}{	Mi dispiace. Chi sei?	}{	Mi dispiace. Chi sei?	}{	91	}{	not IsClan(pc,"Malkavian") and not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	114	}{	Continua a raccontarti questa storia. Ti aiutera' a passare il giorno dormendo.	}{	Continua a raccontarti questa storia. Ti aiutera' a passare il giorno dormendo.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' la menzogna che ti permettera' di dormire.	}
+{	115	}{	Abbraccia i tuoi demoni interiori. Uccidi chi vuoi. Loro faranno lo stesso.	}{	Abbraccia i tuoi demoni interiori. Uccidi chi vuoi. Loro faranno lo stesso.	}{	121	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Abbraccia le tenebre che ti circondano, e ubriacati fino all'alba.	}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Non sono un'assassina. Non ho scelto di essere cosi'. Non sono un mostro.	}{	Non sono un'assassina. Non ho scelto di essere cosi'. Non sono un mostro.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Sei tu il bel fiorellino uncinato?	}{	Sei tu il bel fiorellino uncinato?	}{	101	}{	IsClan(pc,"Malkavian") and not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	123	}{	Succede. Allora, chi sei?	}{	Succede. Allora, chi sei?	}{	91	}{	not IsClan(pc,"Malkavian") and not IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	124	}{	No, sei una vigliacca. Sparisci da qui, mi fai schifo.	}{	No, sei una vigliacca. Sparisci da qui, mi fai schifo.	}{	0	}{	IsDead("E")	}{		}{		}{		}{		}{		}{		}{		}{	Fiore malato, vattene via, prima che ti recida.	}
+{	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Non lasciate che vi impedisca di entrare.	}{	Non lasciate che vi impedisca di entrare.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Magari un'altra volta. Arrivederci.	}{	Magari un'altra volta. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quando ci incontreremo di nuovo. Arrivederci.	}
+{	133	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	134	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{	Non pensarci nemmeno.	}{	Non pensarci nemmeno.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	142	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	E? You know E? I... how do you know E?	}{	E? You know E? I... how do you know E?	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	He asked me if I knew anything about thin-bloods, which is how I found you.	}{	He asked me if I knew anything about thin-bloods, which is how I found you.	}{	161	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	I was following the thin blood and it led me to you.	}
-{	153	}{	I said I'd help him. What do you know about thin-bloods?	}{	I said I'd help him. What do you know about thin-bloods?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	You and he are connected by strands of thin blood.	}
-{	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	I tried to tell E about his condition, but he was so furious at me for what I'd made him into, he wouldn't listen. A thin-blood, from what I've been told, is a vampire whose blood is weaker than most.	}{	I tried to tell E about his condition, but he was so furious at me for what I'd made him into, he wouldn't listen. A thin-blood, from what I've been told, is a vampire whose blood is weaker than most.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	Go on.	}{	Go on.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Continue weaving the tale.	}
-{	163	}{	Uh-huh.	}{	Uh-huh.	}{	171	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	Rolf, my sire, told me some vampires consider thin-bloods a bad omen and want them destroyed. Rolf wasn't a thin-blood... and apparently I am. I don't know why. Rolf abandoned me. His group wouldn't take me in. They said I was a... liability.	}{	Rolf, my sire, told me some vampires consider thin-bloods a bad omen and want them destroyed. Rolf wasn't a thin-blood... and apparently I am. I don't know why. Rolf abandoned me. His group wouldn't take me in. They said I was a... liability.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.E_Quest = 3; pc.SetQuest("Lily", 3); FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	(Auto-Link)	}{	(Auto-Link)	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
-{	173	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	174	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	He left me with so many questions. And I did the same thing to E. But I didn't want to leave E - he forced me out of his life. I - I should go. I have to get out of here. Maybe out of this city... soon.	}{	He left me with so many questions. And I did the same thing to E. But I didn't want to leave E - he forced me out of his life. I - I should go. I have to get out of here. Maybe out of this city... soon.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	183	}{	You should go see E on the beach. He said he forgives you. He wants to see you.	}{	You should go see E on the beach. He said he forgives you. He wants to see you.	}{	201	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Seek out your thin-blooded lover.	}
-{	184	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	185	}{	You should get out of here, this city's bad news.	}{	You should get out of here, this city's bad news.	}{	191	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Leave this city of dark angels, little flower.	}
-{	186	}{	Whatever. I did my good deed for the day. Later.	}{	Whatever. I did my good deed for the day. Later.	}{	191	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Yes, all the flies should flee. I must fly, little flea.	}
-{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	Wait... you said E mentioned me. What did he say?	}{	Wait... you said E mentioned me. What did he say?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	He said he forgave you. He's on the beach, go see him.	}{	He said he forgave you. He's on the beach, go see him.	}{	201	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Seek out your thin-blooded lover.	}
-{	193	}{	Wasn't paying attention. If you want to see him, he's on the beach.	}{	Wasn't paying attention. If you want to see him, he's on the beach.	}{	211	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Seek your own truths on the beach.	}
-{	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	E... doesn't hate me anymore?	}{	E... doesn't hate me anymore?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	No. Quite the opposite. You should talk to him.	}{	No. Quite the opposite. You should talk to him.	}{	211	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	He misses your dark bloomings.	}
-{	203	}{	How should I know? Go ask him yourself.	}{	How should I know? Go ask him yourself.	}{	211	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	If he does, he is a master of emotional disguises.	}
-{	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	I'll go see him. Thank you.	}{	I'll go see him. Thank you.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	You're welcome. Goodbye.	}{	You're welcome. Goodbye.	}{	221	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	The path is treacherous, as is love.	}
-{	213	}{	You might want to clean yourself up first. Got some blood, right here.	}{	You might want to clean yourself up first. Got some blood, right here.	}{	221	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	The blood on your lips will leave stains on his cheek. Farewell.	}
-{	214	}{	Wait a sec... I don't do rescues pro bono. What have you got for me?	}{	Wait a sec... I don't do rescues pro bono. What have you got for me?	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	And what do I receive for my midnight gardenings?	}
-{	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	Oh... about tonight... what I did... please, don't tell E. It's not my fault... I couldn't control it. I've never done anything like this before... I'm no killer.	}{	Oh... about tonight... what I did... please, don't tell E. It's not my fault... I couldn't control it. I've never done anything like this before... I'm no killer.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	I promise, Lily. It's not your fault. You couldn't help it. Goodbye.	}{	I promise, Lily. It's not your fault. You couldn't help it. Goodbye.	}{	0	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	This secret dies here between us. Farewell.	}
-{	223	}{	What's my silence worth?	}{	What's my silence worth?	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	What payment for my silence, little flower?	}
-{	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	[Kind of upset]I don't have anything to give.	}{	[Kind of upset]I don't have anything to give.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{	G.Lily_Extort = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	232	}{	Forget I asked. Goodbye, Lily.	}{	Forget I asked. Goodbye, Lily.	}{	0	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	I will forgive your debt. Farewell.	}
-{	233	}{	Next time we meet you better have some money. Or I'll tell E. Goodbye.	}{	Next time we meet you better have some money. Or I'll tell E. Goodbye.	}{	0	}{	}{	G.Lily_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Cash-money when next we meet, or I tell your lover of your maniacal murder.	}
-{	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	235	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	You might have saved me, but I can't look at you. To think anyone could be so compassionless... so heartless.	}{	You might have saved me, but I can't look at you. To think anyone could be so compassionless... so heartless.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	Yeah, I'm not the one that tore out that guy's throat with my teeth. Bye.	}{	Yeah, I'm not the one that tore out that guy's throat with my teeth. Bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am not the poisonous weed.	}
-{	243	}{	You'll get there. You've already turned onto that highway. Goodbye.	}{	You'll get there. You've already turned onto that highway. Goodbye.	}{	0	}{	G.Extra_Lines ==1	}{	}{	}{	}{	}{	}{	}{	}{	You'll go that dark road, you already stepped on it. And I am gone.	}
-{	244	}{	Remember what you did? Give me some money and I won't tell E.	}{	Remember what you did? Give me some money and I won't tell E.	}{	271	}{	G.Lily_Extort == 1	}{	}{	}{	}{	}{	}{	}{	}{	I need some green or E knows what I've seen.	}
-{	245	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	[Lily smiles]Hi.	}{	[Lily smiles]Hi.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	How did it go with E?	}{	How did it go with E?	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	How was your thin-blooded reunion?	}
-{	253	}{	Remember what you did? Give me some money and I won't tell E.	}{	Remember what you did? Give me some money and I won't tell E.	}{	271	}{	G.Lily_Extort == 1	}{	}{	}{	}{	}{	}{	}{	}{	I need some green or E knows what I've seen.	}
-{	254	}{	Good to see you're okay. Goodbye, Lily.	}{	Good to see you're okay. Goodbye, Lily.	}{	0	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	255	}{	You wanna go for a swim?	}{	You wanna go for a swim?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Want to taste the water with me?	}
-{	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	[Smiles, pause]This life's been hard on him... both of us. But he forgives me. We're leaving soon. I have some family with a place out in the middle of nowhere in Oregon. It should be okay for us to stay out there. As long as we're together.	}{	[Smiles, pause]This life's been hard on him... both of us. But he forgives me. We're leaving soon. I have some family with a place out in the middle of nowhere in Oregon. It should be okay for us to stay out there. As long as we're together.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	Good luck to both of you. Bye, Lily.	}{	Good luck to both of you. Bye, Lily.	}{	0	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	Luck to the letter and the flower. Bye, Lily.	}
-{	263	}{	Remember what you did? Give me some money and I won't tell E.	}{	Remember what you did? Give me some money and I won't tell E.	}{	271	}{	G.Lily_Extort == 1	}{	}{	}{	}{	}{	}{	}{	}{	I need some green or E knows what I've seen.	}
-{	264	}{	You probably want your stuff back then. Here, take it...	}{	You probably want your stuff back then. Here, take it...	}{	281	}{	G.Patch_Plus == 1 and pc.HasItem("item_g_lilly_purse") and pc.HasItem("item_g_lilly_photo") and pc.HasItem("item_g_lilly_diary") and pc.HasItem("item_g_bailbond_receipt")	}{	pc.RemoveItem("item_g_lilly_purse"); pc.RemoveItem("item_g_lilly_photo"); pc.RemoveItem("item_g_lilly_diary"); pc.RemoveItem("item_g_bailbond_receipt")	}{	}{	}{	}{	}{	}{	}{	Take what is yours from me, please.	}
-{	265	}{	You kids stay out of trouble. Bye.	}{	You kids stay out of trouble. Bye.	}{	0	}{	Humanity 6	}{	}{	}{	}{	}{	}{	}{	}{	May the sun never shine on you, little flower. Farewell.	}
-{	266	}{	Vampires in love... you guys make a great airport paperback.	}{	Vampires in love... you guys make a great airport paperback.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vampires in love... you guys make a great airport paperback.	}
-{	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	But... I told you, I don't have any money - I don't have anything to give you. Why are you doing this to me?	}{	But... I told you, I don't have any money - I don't have anything to give you. Why are you doing this to me?	}{	#	}{	npc.SetDisposition("Sad", 2)	}{	G.Lily_Extort = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	No money? That's a shame. Oh, well.	}{	No money? That's a shame. Oh, well.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	E will know your dark little secret, flower. Farewell.	}
-{	273	}{	Hey, bitch, I saved your life! Now I gotta tell your man.	}{	Hey, bitch, I saved your life! Now I gotta tell your man.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pray fate does not frown on your deceitful dowry. Farewell.	}
-{	274	}{	Because money rules the world. Here, better cash in your junk then...	}{	Because money rules the world. Here, better cash in your junk then...	}{	0	}{	G.Patch_Plus == 1 and pc.HasItem("item_g_lilly_purse") and pc.HasItem("item_g_lilly_photo") and pc.HasItem("item_g_lilly_diary") and pc.HasItem("item_g_bailbond_receipt")	}{	pc.RemoveItem("item_g_lilly_purse"); pc.RemoveItem("item_g_lilly_photo"); pc.RemoveItem("item_g_lilly_diary"); pc.RemoveItem("item_g_bailbond_receipt")	}{	}{	}{	}{	}{	}{	}{	Because dead presidents rules everything. Sell your trinkets to get some...	}
-{	275	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	Thank you.	}{	Thank you.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	282	}{	Keep your love alive. Goodbye.	}{	Keep your love alive. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let love live in the undead. Farewell.	}
-{	283	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	144	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	145	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	151	}{	E? Conosci E? Io... come conosci E?	}{	E? Conosci E? Io... come conosci E?	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	152	}{	Mi ha chiesto se sapevo qualcosa riguardo i sangue-debole, cosi' ti ho trovato.	}{	Mi ha chiesto se sapevo qualcosa riguardo i sangue-debole, cosi' ti ho trovato.	}{	161	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Seguivo la traccia del sangue debole e mi ha portato da te.	}
+{	153	}{	Ho detto che l'avrei aiutato. Cosa sai dei sangue-debole?	}{	Ho detto che l'avrei aiutato. Cosa sai dei sangue-debole?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tu e lui siete uniti dalla scia del sangue debole.	}
+{	154	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	155	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	161	}{	Ho cercato di raccontare ad E la sua condizione, ma si e' infuriato con me per cio' che e' diventato, non ha voluto ascoltarmi. Un sangue-debole, da quello che mi hanno raccontato, e' un vampiro che ha il sangue piu' debole degli altri.	}{	Ho cercato di raccontare ad E la sua condizione, ma si e' infuriato con me per cio' che e' diventato, non ha voluto ascoltarmi. Un sangue-debole, da quello che mi hanno raccontato, e' un vampiro che ha il sangue piu' debole degli altri.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	162	}{	Continua.	}{	Continua.	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Continua a tessere il racconto.	}
+{	163	}{	Uh-huh.	}{	Uh-huh.	}{	171	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	164	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	165	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	Rolf, mio padre, mi ha detto che alcuni vampiri considerano i sangue-debole un cattivo presagio e vogliono distruggerli. Rolf non era un sangue-debole... e a quanto pare io si'. Non so perche'. Rolf mi ha abbandonato. Il suo gruppo non mi voleva accogliere. Dicevano che sarei stata un peso.	}{	Rolf, mio padre, mi ha detto che alcuni vampiri considerano i sangue-debole un cattivo presagio e vogliono distruggerli. Rolf non era un sangue-debole... e a quanto pare io si'. Non so perche'. Rolf mi ha abbandonato. Il suo gruppo non mi voleva accogliere. Dicevano che sarei stata un peso.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.E_Quest = 3; pc.SetQuest("Lily", 3); FindPlayer().HumanityAdd( 1 )	}{		}{		}{		}{		}{		}{		}{		}
+{	172	}{	(Auto-Link)	}{	(Auto-Link)	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-Link)	}
+{	173	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	174	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	175	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	181	}{	Mi ha lasciata con mille domande. E io ho fatto lo stesso con E. Ma non volevo abbandonarlo - lui mi ha cacciata dalla sua vita. Io dovrei andarmene e basta. Devo uscire di qua. Lasciare questa citta'... presto.	}{	Mi ha lasciata con mille domande. E io ho fatto lo stesso con E. Ma non volevo abbandonarlo - lui mi ha cacciata dalla sua vita. Io dovrei andarmene e basta. Devo uscire di qua. Lasciare questa citta'... presto.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	183	}{	Dovresti andare da E. Ha detto che ti perdona. Vuole vederti.	}{	Dovresti andare da E. Ha detto che ti perdona. Vuole vederti.	}{	201	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Va' fuori a cercare il tuo amore dal sangue debole.	}
+{	184	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	185	}{	Dovresti andartene da qui, questa citta' e' piena di cattive notizie.	}{	Dovresti andartene da qui, questa citta' e' piena di cattive notizie.	}{	191	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Lascia questa citta' di angeli oscuri, piccolo fiore.	}
+{	186	}{	Vabe'. Ho fatto la mia buona azione giornaliera. Ci si vede.	}{	Vabe'. Ho fatto la mia buona azione giornaliera. Ci si vede.	}{	191	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Si', tutti i fiori dovrebbere volare. Io devo volare, piccola pulce.	}
+{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	Aspetta... hai detto che E ha parlato di me. Cos'ha detto?	}{	Aspetta... hai detto che E ha parlato di me. Cos'ha detto?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{	Ha detto che ti perdonava. E' sulla spiaggia, va' da lui.	}{	Ha detto che ti perdonava. E' sulla spiaggia, va' da lui.	}{	201	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Va' fuori a cercare il tuo amore dal sangue debole.	}
+{	193	}{	Non ero attento. Se vuoi vederlo, va' in spiaggia.	}{	Non ero attenta. Se vuoi vederlo, va' in spiaggia.	}{	211	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Cercati le risposte in spiaggia.	}
+{	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	201	}{	E... non ce l'ha piu' con me?	}{	E... non ce l'ha piu' con me?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	No. Anzi, il contrario. Dovresti andare a parlarci.	}{	No. Anzi, il contrario. Dovresti andare a parlarci.	}{	211	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Ha dimenticato i tuoi oscuri boccioli.	}
+{	203	}{	Come faccio a saperlo? Va' tu stessa a chiederglielo.	}{	Come faccio a saperlo? Va' tu stessa a chiederglielo.	}{	211	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Se vuole, e' un maestro dei travestimenti.	}
+{	204	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	211	}{	Vado da lui. Grazie.	}{	Vado da lui. Grazie.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	212	}{	Prego. Ci vediamo.	}{	Prego. Ci vediamo.	}{	221	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Il sentiero e' pericoloso, come l'amore.	}
+{	213	}{	Forse prima e' meglio che ti dia una ripulita. Hai del sangue, proprio qui.	}{	Forse prima e' meglio che ti dia una ripulita. Hai del sangue, proprio qui.	}{	221	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Il sangue sulle tue labbra lascera' delle macchie sul suo viso. Ci vediamo.	}
+{	214	}{	Aspetta un attimo... non salvo pro buono. Cos'hai per me?	}{	Aspetta un attimo... non salvo pro buono. Cos'hai per me?	}{	231	}{		}{		}{		}{		}{		}{		}{		}{		}{	E cosa ricevo in cambio per i miei lavori di giardinaggio notturni?	}
+{	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	221	}{	Riguardo stanotte... cio' che ho fatto... ti prego, non dirlo ad E. Non e' colpa mia... non riuscivo a controllarlo. Non ho mai fatto nulla del genere prima... Non sono un'assassina.	}{	Riguardo stanotte... cio' che ho fatto... ti prego, non dirlo ad E. Non e' colpa mia... non riuscivo a controllarlo. Non ho mai fatto nulla del genere prima... Non sono un'assassina.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	222	}{	Te lo prometto, Lily. Non e' colpa tua. Non potevi impedirlo. Ciao.	}{	Te lo prometto, Lily. Non e' colpa tua. Non potevi impedirlo. Ciao.	}{	0	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Questo segreto morira' tra di noi. Addio.	}
+{	223	}{	Quanto vale il mio silenzio?	}{	Quanto vale il mio silenzio?	}{	231	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quanto paghi il mio silenzio, piccolo fiore?	}
+{	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	225	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	226	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	227	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	228	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	231	}{	Non ho nulla da darti.	}{	Non ho nulla da darti.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{	G.Lily_Extort = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	232	}{	Dimentica che te l'ho chiesto. Ci vediamo, Lily.	}{	Dimentica che te l'ho chiesto. Ci vediamo, Lily.	}{	0	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Condonero' il tuo debito. Ci vediamo.	}
+{	233	}{	La prossima volta che ci vediamo sara' meglio che tu abbia del denaro. O lo diro' ad E. Ciao.	}{	La prossima volta che ci vediamo sara' meglio che tu abbia del denaro. O lo diro' ad E. Ciao.	}{	0	}{		}{	G.Lily_Pissed = 1	}{		}{		}{		}{		}{		}{		}{	Tira fuori i soldi la prossima volta, o diro' al tuo amore del tuo folle omicidio.	}
+{	234	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	235	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	241	}{	Puoi avermi salvata, ma non riesco a guardarti in faccia. E' incredibile che si possa essere cosi' insensibili... spietati.	}{	Puoi avermi salvata, ma non riesco a guardarti in faccia. E' incredibile che si possa essere cosi' insensibili... spietati.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	242	}{	Gia', non sono io quello che ha squarciato la gola di quel tipo con i denti. Ciao.	}{	Gia', non sono io quella che ha squarciato la gola di quel tipo con i denti. Ciao.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono io la malerba velenosa.	}
+{	243	}{	Lo diventerai. Ti stai gia' dirigendo in quella direzione. Saluti.	}{	Lo diventerai. Ti stai gia' dirigendo in quella direzione. Saluti.	}{	0	}{	G.Extra_Lines ==1	}{		}{		}{		}{		}{		}{		}{		}{	Lo diventerai. Ti stai gia' dirigendo in quella direzione. Saluti.	}
+{	244	}{	Ricordi cosa hai fatto? Dammi dei soldi e non lo dirò ad E.	}{	Ricordi cosa hai fatto? Dammi dei soldi e non lo dirò ad E.	}{	271	}{	G.Lily_Extort == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho bisogno di un po' di verde o E saprà quello che ho visto.	}
+{	245	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	247	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	Ciao.	}{	Ciao.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	Come va con E.?	}{	Come va con E.?	}{	261	}{		}{		}{		}{		}{		}{		}{		}{		}{	Com'e' andata la tua rionione da sangue-debole?	}
+{	253	}{	Ricordi quello che mi hai detto? Dammi i soldi e non lo raccontero' ad E.	}{	Ricordi quello che mi hai detto? Dammi i soldi e non lo raccontero' ad E.	}{	271	}{	G.Lily_Extort == 1	}{		}{		}{		}{		}{		}{		}{		}{	Dammi i soldi o E sapra' cio' che ho visto.	}
+{	254	}{	Mi fa piacere che tu stia bene. Ci vediamo, Lily.	}{	Mi fa piacere che tu stia bene. Ci vediamo, Lily.	}{	0	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Me ne vado.	}
+{	255	}{	Ti va di fare una nuotata?	}{	Ti va di fare una nuotata?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vuoi assaggiare l'acqua con me?	}
+{	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	261	}{	[Sorride, pausa]Questa vita non e' stata semplice per lui... per entrambi. Ma mi ha perdonata. Presto andremo via. La mia famiglia si trova in mezzo del nulla, in Oregon. Dovrebbe andar bene per noi. L'importante e' restare insieme.	}{	[Sorride, pausa]Questa vita non e' stata semplice per lui... per entrambi. Ma mi ha perdonata. Presto andremo via. La mia famiglia si trova in mezzo del nulla, in Oregon. Dovrebbe andar bene per noi. L'importante e' restare insieme.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	262	}{	Buona fortuna a tutt'e due. Ciao Lily.	}{	Buona fortuna a tutt'e due. Ciao Lily.	}{	0	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Buona fortuna alla lettera e al fiore. Ciao Lily.	}
+{	263	}{	Ricordi quello che mi hai detto? Dammi i soldi e non lo raccontero' ad E.	}{	Ricordi quello che mi hai detto? Dammi i soldi e non lo raccontero' ad E.	}{	271	}{	G.Lily_Extort == 1	}{		}{		}{		}{		}{		}{		}{		}{	Dammi i soldi o E sapra' cio' che ho visto.	}
+{	264	}{	Probabilmente vuoi la tua roba indietro, allora. Ecco, prendila...	}{	Probabilmente vuoi la tua roba indietro, allora. Ecco, prendila...	}{	281	}{	G.Patch_Plus == 1 and pc.HasItem("item_g_lilly_purse") and pc.HasItem("item_g_lilly_photo") and pc.HasItem("item_g_lilly_diary") and pc.HasItem("item_g_bailbond_receipt")	}{	pc.RemoveItem("item_g_lilly_purse"); pc.RemoveItem("item_g_lilly_photo"); pc.RemoveItem("item_g_lilly_diary"); pc.RemoveItem("item_g_bailbond_receipt")	}{	}{	}{	}{	}{	}{	}{	Prendetemi quello che è vostro, per favore.	}
+{	265	}{	Tenetevi fuori dai guai.. Ciao.	}{	Tenetevi fuori dai guai.. Ciao.	}{	0	}{	Humanity 6	}{		}{		}{		}{		}{		}{		}{		}{	Che il sole non splenda mai su di voi, piccolo fiore. Addio.	}
+{	266	}{	Vampiri innamorati... l'ideale per un romanzo di successo.	}{	Vampiri innamorati... l'ideale per un romanzo di successo.	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vampiri innamorati... l'ideale per un romanzo di successo.	}
+{	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	Ma te l'ho detto, non ho soldi - non ho nulla da darti. Perche' mi stai facendo questo?	}{	Ma te l'ho detto, non ho soldi - non ho nulla da darti. Perche' mi stai facendo questo?	}{	#	}{	npc.SetDisposition("Sad", 2)	}{	G.Lily_Extort = 2	}{		}{		}{		}{		}{		}{		}{		}
+{	272	}{	Non hai soldi? Peccato. Eh, gia'.	}{	Non hai soldi? Peccato. Eh, gia'.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	E conoscera' il tuo oscuro piccolo segreto, fiore. Addio.	}
+{	273	}{	Ehi stronza, ti ho salvato la vita! Ora vado a dirlo al tuo uomo.	}{	Ehi stronza, ti ho salvato la vita! Ora vado a dirlo al tuo uomo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Prega che il fato non disapprovi il tuo ingannevole talento. Addio.	}
+{	274	}{	Perché il denaro governa il mondo. Ecco, meglio il denaro nella tua spazzatura allora...	}{	Perché il denaro governa il mondo. Ecco, meglio il denaro nella tua spazzatura allora...	}{	0	}{	G.Patch_Plus == 1 and pc.HasItem("item_g_lilly_purse") and pc.HasItem("item_g_lilly_photo") and pc.HasItem("item_g_lilly_diary") and pc.HasItem("item_g_bailbond_receipt")	}{	pc.RemoveItem("item_g_lilly_purse"); pc.RemoveItem("item_g_lilly_photo"); pc.RemoveItem("item_g_lilly_diary"); pc.RemoveItem("item_g_bailbond_receipt")	}{	}{	}{	}{	}{	}{	}{	Perché i presidenti morti governano tutto. Vendete i vostri gingilli per...	}
+{	275	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{	Grazie.	}{	Grazie.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	Tieni vivo il tuo amore. Addio.	}{	Tieni vivo il tuo amore. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lasciate che l'amore viva nei non morti. Addio.	}
+{	283	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	284	}{	(Starting Condition)	}{	}{	241	}{	G.Lily_Extort > 1 or G.Lily_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	285	}{	(Starting Condition)	}{	}{	251	}{	G.E_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	286	}{	(Starting Condition)	}{	}{	41	}{	G.Lily_Release == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	287	}{	(Starting Condition)	}{	}{	21	}{	G.Lily_Refuse == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	288	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	285	}{	(Starting Condition)	}{		}{	251	}{	G.E_Quest == 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	286	}{	(Starting Condition)	}{		}{	41	}{	G.Lily_Release == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	287	}{	(Starting Condition)	}{		}{	21	}{	G.Lily_Refuse == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	288	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
