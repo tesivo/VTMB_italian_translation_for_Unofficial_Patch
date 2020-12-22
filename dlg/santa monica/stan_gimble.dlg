@@ -1,285 +1,285 @@
-{	1	}{	Hello. Might I speak with Mr. McGee?	}{	Hello. Might I speak with Mr. McGee?	}{	#	}{	}{	G.Gimble_Phone = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	He doesn't seem to be here at the moment. Can I help you?	}{	He doesn't seem to be here at the moment. Can I help you?	}{	11	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	No. Can you solve the mystery of missing McGee?	}
-{	3	}{	Oh, I'm using his phone, but he doesn't seem to be here at the moment. Can I help you?	}{	Oh, I'm using his phone, but he doesn't seem to be here at the moment. Can I help you?	}{	11	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	No, only with his phone. Can you solve the mystery of missing McGee?	}
-{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Well, I'm not sure. I had an appointment with him a few days ago, but he never seemed to show up. Do you know when he'll return?	}{	Well, I'm not sure. I had an appointment with him a few days ago, but he never seemed to show up. Do you know when he'll return?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	I don't, actually. What sort of appointment was this?	}{	I don't, actually. What sort of appointment was this?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Report about this rendezvous!	}
-{	13	}{	No. Actually, I'm looking for him myself.	}{	No. Actually, I'm looking for him myself.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I also seek missing McGee.	}
-{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	You are? Isn't that a coincidence? Why are you looking for him?	}{	You are? Isn't that a coincidence? Why are you looking for him?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	I'm a bounty hunter. He skipped bail a few months ago.	}{	I'm a bounty hunter. He skipped bail a few months ago.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	I hunt bounties and he is my prey.	}
-{	23	}{	He's just an old friend.	}{	He's just an old friend.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	He is a friend of one of my personalities.	}
-{	24	}{	I'm a cop. This is an ongoing investigation.	}{	I'm a cop. This is an ongoing investigation.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm a doughnut-lover, sifting for secrets.	}
-{	25	}{	That's none of your business.	}{	That's none of your business.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	I own the deed on that business.	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Oh. I-I see.	}{	Oh. I-I see.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Could you answer a few questions for me?	}{	Could you answer a few questions for me?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let us meet on this McGee-ish mystery.	}
-{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	I'd be delighted to. Why don't you come down to my office, and we'll talk about it.	}{	I'd be delighted to. Why don't you come down to my office, and we'll talk about it.	}{	#	}{	}{	G.Gimble_Questions = 1; G.Gimble_Buzzer = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Where are you located?	}{	Where are you located?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is this devilish dwelling?	}
-{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	Well, Mr. McGee was going to be doing some modeling for me. Medical reference for the work that I do here in the studio. It's a shame, really... the proposition would have been quite lucrative for him.	}{	Well, Mr. McGee was going to be doing some modeling for me. Medical reference for the work that I do here in the studio. It's a shame, really... the proposition would have been quite lucrative for him.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	Really? Maybe I could come down and model for you.	}{	Really? Maybe I could come down and model for you.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps I could pose for this peepshow.	}
-{	53	}{	Too bad. I'm looking for him myself, actually.	}{	Too bad. I'm looking for him myself, actually.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I also seek missing McGee.	}
-{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Why, yes. That sounds delightful. Perhaps you could come down to my studio and we can sort out the details.	}{	Why, yes. That sounds delightful. Perhaps you could come down to my studio and we can sort out the details.	}{	#	}{	}{	G.Gimble_Model = 1; G.Gimble_Buzzer = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Sounds good. Where are you located?	}{	Sounds good. Where are you located?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is your lair of lenses?	}
-{	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	I'm at the end of Main Street, a small basement studio. The sign says Gimble's Prosthetics. Just ring the buzzer and I'll let you in.	}{	I'm at the end of Main Street, a small basement studio. The sign says Gimble's Prosthetics. Just ring the buzzer and I'll let you in.	}{	#	}{	}{	pc.SetQuest("Arthur Knox",6)	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Sounds good. I'll be there in a little while.	}{	Sounds good. I'll be there in a little while.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	73	}{	Maybe. See ya.	}{	Maybe. See ya.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	74	}{	I look forward to buzzing your basement.	}{	I look forward to buzzing your basement.	}{	76	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	Very good. And, uh, might I say that you have the most colorful way of saying things. Very... interesting dissection of the language. Well, anyway... speak with you soon.	}{	Very good. And, uh, might I say that you have the most colorful way of saying things. Very... interesting dissection of the language. Well, anyway... speak with you soon.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	I color the world with the hues of my madness. Farewell.	}{	I color the world with the hues of my madness. Farewell.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	Hello there... oh! I thought you were... I mean, umm, ahem, I didn't realize... um, uh... I don't do plastic surgery, I'm afraid. Maybe you should try speaking with someone down at the clinic, instead.	}{	Hello there... oh! I thought you were... I mean, umm, ahem, I didn't realize... um, uh... I don't do plastic surgery, I'm afraid. Maybe you should try speaking with someone down at the clinic, instead.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	What? But I'm here for the modeling position!	}{	What? But I'm here for the modeling position!	}{	86	}{	G.Gimble_Model == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	Don't worry... I'm not contagious. Who are you?	}{	Don't worry... I'm not contagious. Who are you?	}{	101	}{	G.Gimble_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	Oh? You are? Well, I suppose your limbs are in decent shape... well, at least some of them are... I think. Oh, bother it all... I'm sure we'll make do.	}{	Oh? You are? Well, I suppose your limbs are in decent shape... well, at least some of them are... I think. Oh, bother it all... I'm sure we'll make do.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	Good! Who are you?	}{	Good! Who are you?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	Hello. Welcome to Gimble's Prosthetics and Medical Supplies. You're here for the modeling job? Good, good. You seem to have rather well developed limbs, if you don't mind me saying so.	}{	Hello. Welcome to Gimble's Prosthetics and Medical Supplies. You're here for the modeling job? Good, good. You seem to have rather well developed limbs, if you don't mind me saying so.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Uh... who are you?	}{	Uh... who are you?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me your name, limb lord!	}
-{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	96	}{	Hello. Welcome to Gimble's Prosthetics and Medical Supplies. You're here about the missing Mr. McGee, am I right?	}{	Hello. Welcome to Gimble's Prosthetics and Medical Supplies. You're here about the missing Mr. McGee, am I right?	}{	#	}{	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	Yes I am. Who are you?	}{	Yes I am. Who are you?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Yes! Tell me your name, limb lord!	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	Oh, yes. Forgive me. My name is Gimble, Stanley Gimble. But, oh... dear, let us dispense with formalities - you can call me Stan.	}{	Oh, yes. Forgive me. My name is Gimble, Stanley Gimble. But, oh... dear, let us dispense with formalities - you can call me Stan.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Nice to meet you, Stan. I'm ready to get started, if you are.	}{	Nice to meet you, Stan. I'm ready to get started, if you are.	}{	111	}{	G.Gimble_Model == 1	}{	}{	}{	}{	}{	}{	}{	}{	I've the limbs, and you the lenses.	}
-{	103	}{	Let's talk about Mr. McGee.	}{	Let's talk about Mr. McGee.	}{	171	}{	G.Gimble_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Let us speak of the mysterious McGee.	}
-{	104	}{	Tell me a little about yourself, Stan.	}{	Tell me a little about yourself, Stan.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me of your life, limb lord!	}
-{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	A-ha! An eager participant! Very good. Just give me a few moments to get my... equipment... ready, and then come on in and we'll get started.	}{	A-ha! An eager participant! Very good. Just give me a few moments to get my... equipment... ready, and then come on in and we'll get started.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Gimble_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	YES.	}
-{	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	Me? Oh, I'm just trying to make things a little easier for those who find themselves, erm, disadvantaged. Giving a helping hand, you might say - a leg up. [chuckles, then under his breath]Uh, eh... bloody clever, that one.	}{	Me? Oh, I'm just trying to make things a little easier for those who find themselves, erm, disadvantaged. Giving a helping hand, you might say - a leg up. [chuckles, then under his breath]Uh, eh... bloody clever, that one.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Wow. You're really funny. Can we get started?	}{	Wow. You're really funny. Can we get started?	}{	111	}{	G.Gimble_Model == 1	}{	}{	}{	}{	}{	}{	}{	}{	Laughter is a freshly cut vein. Now to pose for some pictures!	}
-{	123	}{	What a laugh. Now about Mr. McGee...	}{	What a laugh. Now about Mr. McGee...	}{	171	}{	G.Gimble_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Let us speak of the mysterious McGee.	}
-{	124	}{	You seem, uh, "disadvantaged" yourself.	}{	You seem, uh, "disadvantaged" yourself.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	And what of your own lopped-off limb?	}
-{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Hmmm? Oh, ah, you mean the arm? Yes, oh ho, that's an interesting story, if you've got the time for one.	}{	Hmmm? Oh, ah, you mean the arm? Yes, oh ho, that's an interesting story, if you've got the time for one.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	Not really. Let's go take some pictures.	}{	Not really. Let's go take some pictures.	}{	111	}{	G.Gimble_Model == 1	}{	}{	}{	}{	}{	}{	}{	}{	I've the limbs, and you the lenses.	}
-{	133	}{	On second thought... let's talk about Mr. McGee.	}{	On second thought... let's talk about Mr. McGee.	}{	171	}{	G.Gimble_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Let us speak of the mysterious McGee.	}
-{	134	}{	I'd love to hear it, Stan.	}{	I'd love to hear it, Stan.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me of your life, limb lord!	}
-{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	Well, you might say I have a certain love affair with the human anatomy - an obsession, really. Prosthetics seemed a natural occupation in which to, ah, focus my enthusiasm, as it were.	}{	Well, you might say I have a certain love affair with the human anatomy - an obsession, really. Prosthetics seemed a natural occupation in which to, ah, focus my enthusiasm, as it were.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	And your arm?	}{	And your arm?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	One man's obsession is another's tuna casserole.	}
-{	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	Well, I came to realize that I would never truly reach mastery in prosthetics without knowing what it was like to have to use one.	}{	Well, I came to realize that I would never truly reach mastery in prosthetics without knowing what it was like to have to use one.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	Wait. You didn't....	}{	Wait. You didn't....	}{	161	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	153	}{	Go on.	}{	Go on.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	I see a stumpy conclusion to this tale.	}
-{	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	And so I decided, quite out of the blue, actually, to cut off my own arm. My work, as you can well imagine, has quite improved since then.	}{	And so I decided, quite out of the blue, actually, to cut off my own arm. My work, as you can well imagine, has quite improved since then.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	Amazing! And I just heard the local morgue offers corpses for scientific research tonight.	}{	Amazing! And I just heard the local morgue offers corpses for scientific research tonight.	}{	255	}{	Persuasion 6 & (G.Vandal_Quest == 1 and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	Groovy! How lucky that tonight the clinic freezer has cold bodies for free!	}
-{	163	}{	Now that's dedication! Can we take some pictures, now?	}{	Now that's dedication! Can we take some pictures, now?	}{	111	}{	G.Gimble_Model == 1	}{	}{	}{	}{	}{	}{	}{	}{	No more words! I long for the love of your lenses!	}
-{	164	}{	Interesting. Maybe we should get started on the photos.	}{	Interesting. Maybe we should get started on the photos.	}{	111	}{	G.Gimble_Model == 1 and not IsClan (pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	165	}{	Now that's dedication! Let's get back to Mr. McGee.	}{	Now that's dedication! Let's get back to Mr. McGee.	}{	171	}{	G.Gimble_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Now let our thoughts mingle on McGee.	}
-{	166	}{	That's, uh, really, really weird. Now, about McGee...	}{	That's, uh, really, really weird. Now, about McGee...	}{	171	}{	G.Gimble_Questions == 1 and not IsClan (pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	Hmmm? Oh oh, right right, Mr. McGee. Well, as I told you, he was supposed to show up a few days ago for a photography session. Reference for my work, that kind of thing.	}{	Hmmm? Oh oh, right right, Mr. McGee. Well, as I told you, he was supposed to show up a few days ago for a photography session. Reference for my work, that kind of thing.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	But he didn't show up?	}{	But he didn't show up?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	But McGee didn't show up for his mug-shot?	}
-{	173	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	174	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	No, he didn't. Earlier, I had asked him to take a few pictures of himself for my... perusal - a sort of resume, you might say - and that was the last I'd heard of him.	}{	No, he didn't. Earlier, I had asked him to take a few pictures of himself for my... perusal - a sort of resume, you might say - and that was the last I'd heard of him.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	I see. Does the name Carson ring a bell?	}{	I see. Does the name Carson ring a bell?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	What about Carson, hunter of bounties?	}
-{	183	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	184	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	185	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	Carson? No. I don't think so, anyway. Oh oh, look... I know I've got some information on Mr. McGee back in my files. Do you want me to try and dig it up?	}{	Carson? No. I don't think so, anyway. Oh oh, look... I know I've got some information on Mr. McGee back in my files. Do you want me to try and dig it up?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	Yeah. That sounds great. I'd appreciate it.	}{	Yeah. That sounds great. I'd appreciate it.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dig for this treasure, limb lord!	}
-{	193	}{	Not now, thanks. By the way, I heard the local morgue offers corpses for scientific research into prosthetics.	}{	Not now, thanks. By the way, I heard the local morgue offers corpses for scientific research into prosthetics.	}{	255	}{	Persuasion 6 & (G.Vandal_Quest == 1 and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	No no no. But the Santa Monica morgue has limbs and body parts for free!	}
-{	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	Don't mention it. Just wait here a moment, and I'll be right along.	}{	Don't mention it. Just wait here a moment, and I'll be right along.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	Thanks. I'll wait here.	}{	Thanks. I'll wait here.	}{	251	}{	G.Gimble_Vandal == 0	}{	}{	}{	}{	}{	}{	}{	}{	A moment is a slice of eternity. Farewell.	}
-{	203	}{	I'll wait here.	}{	I'll wait here.	}{	0	}{	G.Gimble_Vandal == 1	}{	}{	}{	}{	}{	}{	}{	}{	A moment is a slice of eternity. Farewell.	}
-{	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Salve. Posso parlare con il signor McGee?	}{	Salve. Posso parlare con il signor McGee?	}{	#	}{		}{	G.Gimble_Phone = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Al momento non e' qui. Posso aiutarti?	}{	Al momento non e' qui. Posso aiutarti?	}{	11	}{	G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{	No. Puoi risolvere il mistero della scomparsa di McGee?	}
+{	3	}{	Oh, sto usando il suo telefono, ma al momento non sembra essere qui. Posso aiutarla?	}{	Oh, sto usando il suo telefono, ma sembra che non sia qui al momento. Posso aiutarla?	}{	11	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	No, solo con il suo telefono. Puoi risolvere il mistero della scomparsa di McGee?	}
+{	4	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Beh, non credo. Avevo un appountamento con lui un paio di giorni fa, ma non si e' mai fatto vedere. Sai quando tornera'?	}{	Beh, non credo. Avevo un appountamento con lui un paio di giorni fa, ma non si e' mai fatto vedere. Sai quando tornera'?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Veramente no. Che tipo di appuntamento era?	}{	Veramente no. Che tipo di appuntamento era?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Parlami di questo rendezvous!	}
+{	13	}{	No. Veramente anch'io lo sto cercando.	}{	No. Veramente anch'io lo sto cercando.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Anch'io cerco lo scomparso McGee.	}
+{	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Davvero? Non e' una coincidenza? Perche' lo stai cercando?	}{	Davvero? Non e' una coincidenza? Perche' lo stai cercando?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Vado a caccia di persone. Un paio di mesi fa e' scomparso dopo la cauzione.	}{	Vado a caccia di persone. Un paio di mesi fa e' scomparso dopo la cauzione.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado a caccia di ricompense e lui e' la mia preghiera.	}
+{	23	}{	E' solo un vecchio amico.	}{	E' solo un vecchio amico.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' l'amico di una delle mie personalita'.	}
+{	24	}{	Sono un poliziotto. C'e' un indagine in corso.	}{	Sono un poliziotto. C'e' un indagine in corso.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un mangiatore di ciambelle setacciate di segreti.	}
+{	25	}{	Non sono affari tuoi.	}{	Non sono affari tuoi.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Possiedo i diritti su questo affare.	}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Oh. Capisco.	}{	Oh. Capisco.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Puoi rispondere a qualche domanda per me?	}{	Puoi rispondere a qualche domanda per me?	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Parliamo di questo mistero di McGee.	}
+{	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Ne sarei felice. Perche' non vieni a parlarmene nel mio ufficio.	}{	Ne sarei felice. Perche' non vieni a parlarmene nel mio ufficio.	}{	#	}{		}{	G.Gimble_Questions = 1; G.Gimble_Buzzer = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Dove ti trovi?	}{	Dove ti trovi?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dov'e' questa diabolica dimora?	}
+{	43	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	44	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Beh, il signor McGee doveva fare da modello per me. Roba medica per il lavoro che faccio qui nel mio studio. E' un peccato, davvero... la proposta sarebbe stata molto lucrativa per lui.	}{	Beh, il signor McGee doveva fare da modello per me. Roba medica per il lavoro che faccio qui nel mio studio. E' un peccato, davvero... la proposta sarebbe stata molto lucrativa per lui.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Davvero? Magari potrei raggiungerti e fare il modello per te.	}{	Davvero? Magari potrei raggiungerti e fare il modella per te.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Magari posso posare per questo peepshow.	}
+{	53	}{	Che peccato. Veramente anch'io lo sto cercando.	}{	Che peccato. Veramente anch'io lo sto cercando.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Anch'io cerco lo scomparso McGee.	}
+{	54	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	Ma si'. Sembra una proposta interessante. Portesti venire nel mio studio per sistemare insieme i dettagli.	}{	Ma si'. Sembra una proposta interessante. Portesti venire nel mio studio per sistemare insieme i dettagli.	}{	#	}{		}{	G.Gimble_Model = 1; G.Gimble_Buzzer = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Ottimo. Dove ti trovi?	}{	Ottimo. Dove ti trovi?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dov'e' il tuo covo di obiettivi?	}
+{	63	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	Sono alla fine di Main Street, e' un piccolo studio seminterrato. La targa dice Gimble's Prosthetics. Suona il campanello e ti faro' entrare.	}{	Sono alla fine di Main Street, e' un piccolo studio seminterrato. La targa dice Gimble's Prosthetics. Suona il campanello e ti faro' entrare.	}{	#	}{		}{	pc.SetQuest("Arthur Knox",6)	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Perfetto. Saro' li' in un attimo.	}{	Perfetto. Saro' li' in un attimo.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.No_Idle = 0	}{		}{		}{		}{		}{		}{		}{		}
+{	73	}{	Forse. Ci vediamo.	}{	Forse. Ci vediamo.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.No_Idle = 0	}{		}{		}{		}{		}{		}{		}{		}
+{	74	}{	Non vedo l'ora di infilarmi nel tuo scantinato.	}{	Non vedo l'ora di infilarmi nel tuo scantinato.	}{	76	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{	Molto bene. Posso dire che dici le cose in maniera molto colorita. Un dissezionamento di linguaggio molto interessante. Comunque... ci sentiamo presto.	}{	Molto bene. Posso dire che dici le cose in maniera molto colorita. Un dissezionamento di linguaggio molto interessante. Comunque... ci sentiamo presto.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{	Coloro il mondo con le tinte della mia follia. Addio.	}{	Coloro il mondo con le tinte della mia follia. Addio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	Ehi ciao... oh! Pensavo che fossi... cioe', umm, ahem, non credevo... um, uh... Non faccio chirurgia plastica, mi dispiace. Dovresti provare a parlare con qualcuno della clinica, piuttosto.	}{	Ehi ciao... oh! Pensavo che fossi... cioe', umm, ahem, non credevo... um, uh... Non faccio chirurgia plastica, mi dispiace. Dovresti provare a parlare con qualcuno della clinica, piuttosto.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	Cosa? Ma sono qui per il posto da modello!	}{	Cosa? Ma sono qui per il posto da modella!	}{	86	}{	G.Gimble_Model == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{	Non preoccuparti... non sono contagioso. Chi sei?	}{	Non preoccuparti... non sono contagiosa. Chi sei?	}{	101	}{	G.Gimble_Questions == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{	Oh? Sei tu? Beh, suppongo che i tuoi arti abbiano una forma decente... bene, almeno alcuni di loro lo sono, credo. Oh, lasciamo stare... Sono certo che faremo qualcosa.	}{	Oh? Sei tu? Beh, suppongo che i tuoi arti abbiano una forma decente... bene, almeno alcuni di loro lo sono, credo. Oh, lasciamo stare... Sono certo che faremo qualcosa.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{	Bene! Chi sei?	}{	Bene! Chi sei?	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	Salve. Benvenuto da Gimble: Protesi e Forniture Mediche. Sei qui per il lavoro da modello? Bene, Bene.Mi sembra che tu abbia degli arti piuttosto ben sviluppati, se posso permettermi di dirlo.	}{	Salve. Benvenuta da Gimble: Protesi e Forniture Mediche. Sei qui per il lavoro da modella? Bene, Bene. Mi sembra che tu abbia degli arti piuttosto ben sviluppati, se posso permettermi di dirlo.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Uh... chi sei?	}{	Uh... chi sei?	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi il tuo nome, signore degli arti!	}
+{	93	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	96	}{	Salve. Benvenuto da Gimble: Protesi e Forniture Mediche. Sei qui per la scomparsa del signor McGee, dico bene?	}{	Salve. Benvenuta da Gimble: Protesi e Forniture Mediche. Sei qui per la scomparsa del signor McGee, dico bene?	}{	#	}{		}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{	Si'. Chi sei?	}{	Si'. Chi sei?	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Si'! Dimmi il tuo nome, signore degli arti!	}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	101	}{	Oh, certo. Perdonami. Il mio nome e' Gimble, Stanley Gimble. Ma, ti prego aboliamo le formalita' e chiamami Stan.	}{	Oh, certo. Perdonami. Il mio nome e' Gimble, Stanley Gimble. Ma, ti prego aboliamo le formalita' e chiamami Stan.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Piacere di conoscerti, Stan. Sono pronto per cominciare, se ti va.	}{	Piacere di conoscerti, Stan. Sono pronta per cominciare, se ti va.	}{	111	}{	G.Gimble_Model == 1	}{		}{		}{		}{		}{		}{		}{		}{	Io ho gli arti e tu gli obiettivi.	}
+{	103	}{	Parliamo di McGee.	}{	Parliamo di McGee.	}{	171	}{	G.Gimble_Questions == 1	}{		}{		}{		}{		}{		}{		}{		}{	Parliamo del misterioso McGee.	}
+{	104	}{	Parlami un po' di te, Stan.	}{	Parlami un po' di te, Stan.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Parlami della tua vita, signore degli arti!	}
+{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	A-ha! Un collaboratore zelante! Molto bene. Dammi solo un paio di minuti per preparare la mia... attrezzatura, poi entra dentro e cominceremo.	}{	A-ha! Una collaboratrice zelante! Molto bene. Dammi solo un paio di minuti per preparare la mia... attrezzatura, poi entra dentro e cominceremo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Gimble_Leave = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	SI.	}
+{	113	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	114	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Io? Sto solo cercando di semplificare la vita di coloro che sono, ehm, piu' sfortunati. Si puo' dire che do' loro una mano.. o una gamba. [ridacchia, poi sottovoce]Uh, eh... forte, questa battuta.	}{	Io? Sto solo cercando di semplificare la vita di coloro che sono, ehm, piu' sfortunati. Si puo' dire che do' loro una mano.. o una gamba. [ridacchia, poi sottovoce]Uh, eh... forte, questa battuta	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Uao. Sei proprio spiritoso. Possiamo iniziare?	}{	Uao. Sei proprio spiritoso. Possiamo iniziare?	}{	111	}{	G.Gimble_Model == 1	}{		}{		}{		}{		}{		}{		}{		}{	Una risata e' come un vena appena tagliata. Ora, passiamo agli scatti!	}
+{	123	}{	Che ridere. Ora, riguardo al signor McGee...	}{	Che ridere. Ora, riguardo al signor McGee...	}{	171	}{	G.Gimble_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Parliamo del misterioso McGee.	}
+{	124	}{	Anche tu sembri... sfortunato.	}{	Anche tu sembri... sfortunato.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Che mi dici del tuo arto tranciato?	}
+{	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Hmmm? Oh, ah,intendi il braccio? Si', e' una storia interessante, se hai tempo te la racconto.	}{	Hmmm? Oh, ah,intendi il braccio? Si', e' una storia interessante, se hai tempo te la racconto.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	132	}{	Veramente no. Facciamo qualche foto.	}{	Veramente no. Facciamo qualche foto.	}{	111	}{	G.Gimble_Model == 1	}{		}{		}{		}{		}{		}{		}{		}{	Io ho gli arti e tu gli obiettivi.	}
+{	133	}{	Ripensandoci meglio... parliamo di McGee.	}{	Ripensandoci meglio... parliamo di McGee.	}{	171	}{	G.Gimble_Questions == 1	}{		}{		}{		}{		}{		}{		}{		}{	Parliamo del misterioso McGee.	}
+{	134	}{	Mi piacerebbe molto, Stan.	}{	Mi piacerebbe molto, Stan.	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Parlami della tua vita, signore degli arti!	}
+{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{	Si puo' dire che io abbia un vero amore nei confronti dell'anatomia umana - una vera ossessione. Fare protesi sembrava un'attivita' per me naturale, nella quale concentrare il mio entusiasmo, per cosi' dire.	}{	Si puo' dire che io abbia un vero amore nei confronti dell'anatomia umana - una vera ossessione. Fare protesi sembrava un'attivita' per me naturale, nella quale concentrare il mio entusiasmo, per cosi' dire.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{	E il tuo braccio?	}{	E il tuo braccio?	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{	L'ossessione di uno e' una scatola di tonno per l'altro.	}
+{	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	144	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	145	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	151	}{	Cominciai a capire che non avrei mai raggiunto la piena padronanza nella prostetica senza sapere com'e' dover usare un solo arto.	}{	Cominciai a capire che non avrei mai raggiunto la piena padronanza nella prostetica senza sapere com'e' dover usare un solo arto.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	152	}{	Aspetta.. Non avrai....	}{	Aspetta.. Non avrai....	}{	161	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	153	}{	Continua.	}{	Continua.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Questo racconto terminera' con una potatura.	}
+{	154	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	155	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	161	}{	Cosi' decisi, improvvisamente, di tagliarmi il braccio. Come puoi immaginare, il mio lavoro da allora e' decisamente migliorato.	}{	Cosi' decisi, improvvisamente, di tagliarmi il braccio. Come puoi immaginare, il mio lavoro da allora e' decisamente migliorato.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	162	}{	Fantastico! E ho appena saputo che stasera l'obitorio locale offre cadaveri per la ricerca scientifica.	}{	Fantastico! E ho appena saputo che stasera l'obitorio locale offre cadaveri per la ricerca scientifica.	}{	255	}{	Persuasion 6 & (G.Vandal_Quest == 1 and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	Fantastico! Che fortuna che stasera il congelatore della clinica abbia i corpi freddi gratis!	}
+{	163	}{	Questa si' che e' dedizione! Ora possiamo fare qualche foto?	}{	Questa si' che e' dedizione! Ora possiamo fare qualche foto?	}{	111	}{	G.Gimble_Model == 1	}{		}{		}{		}{		}{		}{		}{		}{	Basta parole! Bramo ardentemente i tuoi obiettivi!	}
+{	164	}{	Interessante. Magari dovremmo cominciare a fare le foto.	}{	Interessante. Magari dovremmo cominciare a fare le foto.	}{	111	}{	G.Gimble_Model == 1 and not IsClan (pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	165	}{	Questa si' che e' dedizione! Torniamo al signor McGee.	}{	Questa si' che e' dedizione! Torniamo al signor McGee.	}{	171	}{	G.Gimble_Questions == 1	}{		}{		}{		}{		}{		}{		}{		}{	Ora lasciamo che i nostri pensieri si mischino con McGee.	}
+{	166	}{	Bizzarro. Ora, riguardo McGee...	}{	Bizzarro. Ora, riguardo McGee...	}{	171	}{	G.Gimble_Questions == 1 and not IsClan (pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	Hmmm? Oh oh, giusto giusto, Mr. McGee. Come ti ho detto, ci saremmo dovuti incontrare un paio di giorni fa per una seduta fotografica. In riferimento al mio lavoro, quel genere di cose, sai.	}{	Hmmm? Oh oh, giusto giusto, Mr. McGee. Come ti ho detto, ci saremmo dovuti incontrare un paio di giorni fa per una seduta fotografica. In riferimento al mio lavoro, quel genere di cose, sai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	172	}{	Ma non si e' fatto vedere?	}{	Ma non si e' fatto vedere?	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ma McGee non si e' fatto vedere per i ritratti?	}
+{	173	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	174	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	175	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	181	}{	No, appunto. Prima ho dovuto chiedergli un paio di foto per... esaminarle - una specie di curriculum vitae - e quella e' stata l'ultima volta che l'ho sentito.	}{	No, appunto. Prima ho dovuto chiedergli un paio di foto per... esaminarle - una specie di curriculum vitae - e quella e' stata l'ultima volta che l'ho sentito.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{	Capisco. Il nome Carson ti dice qualcosa?	}{	Capisco. Il nome Carson ti dice qualcosa?	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti dice qualcosa Carson, cacciatore di persone?	}
+{	183	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	184	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	185	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	Carson? No. Non credo, comunque. Senti... credo di avere alcune informazioni sul signor McGee fra i miei documenti. Vuoi che provi a scovare qualcosa?	}{	Carson? No. Non credo, comunque. Senti... credo di avere alcune informazioni sul signor McGee fra i miei documenti. Vuoi che provi a scovare qualcosa?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{	Si', e' magnifico. Lo apprezzerei.	}{	Si', e' magnifico. Lo apprezzerei.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Scova questo tesoro, signore degli arti!	}
+{	193	}{	Non ora, grazie. A proposito, ho sentito che l'obitorio locale offre cadaveri per la ricerca scientifica sulle protesi.	}{	Non ora, grazie. A proposito, ho sentito che l'obitorio locale offre cadaveri per la ricerca scientifica sulle protesi.	}{	255	}{	Persuasion 6 & (G.Vandal_Quest == 1 and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	No no no. Ma l'obitorio di Santa Monica ha arti e parti del corpo gratis!	}
+{	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	201	}{	Non c'e' di che. Aspetta solo un attimo qui, faro' in un attimo.	}{	Non c'e' di che. Aspetta solo un attimo qui, faro' in un attimo.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	Grazie. Aspettero' qui.	}{	Grazie. Aspettero' qui.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Un attimo e' un pezzo di eternita'. Addio.	}
+{	203	}{	Aspettero' qui.	}{	Aspettero' qui.	}{	0	}{	G.Gimble_Vandal == 1	}{	}{	}{	}{	}{	}{	}{	}{	Un momento è una fetta di eternità. Addio.	}
+{	204	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	211	}{	...	}{	...	}{	#	}{	}{	G.No_Idle = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	Hello?	}{	Hello?	}{	1	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Yes?	}
-{	213	}{	Hi, is this Gimble's Prosthetics?	}{	Hi, is this Gimble's Prosthetics?	}{	1	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Do I speak with the guy who cuts people up?	}
-{	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Pronto?	}{	Pronto?	}{	1	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Yes?	}
+{	213	}{	Salve, è questa la protesi di Gimble?	}{	Salve, è questa la protesi di Gimble?	}{	1	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Parlo con il tizio che fa a pezzi la gente?	}
+{	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	221	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	222	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	223	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	226	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	227	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	228	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	231	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	232	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	233	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	235	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	233	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	234	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	235	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	241	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	243	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	244	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	245	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	Ah! You have such beautiful arms! I absolutely must have them.	}{	Ah! You have such beautiful arms! I absolutely must have them.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Gimble_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	What?	}{	What?	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	NO.	}
-{	253	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	254	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	255	}{	Oh, that's wonderful.	}{	Oh, that's wonderful.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	256	}{	Indeed, just check in with a guy called Vandal. It will be perfect for a specialist like yourself.	}{	Indeed, just check in with a guy called Vandal. It will be perfect for a specialist like yourself.	}{	201	}{	pc.humanity >= 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7); FindPlayer().HumanityAdd( -1 ); G.Gimble_Humanity = 1	}{	}{	}{	}{	}{	}{	}{	A Vandal will receive you with pleasure for your are special.	}
-{	257	}{	Indeed, just check in with a guy called Vandal. It will be perfect for a specialist like yourself.	}{	Indeed, just check in with a guy called Vandal. It will be perfect for a specialist like yourself.	}{	201	}{	pc.humanity < 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7)	}{	}{	}{	}{	}{	}{	}{	A Vandal will receive you with pleasure for you are special.	}
-{	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	Hello there.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	Yes?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	263	}{	What are you doing here?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	264	}{	I don't really want to talk with you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	265	}{	Yes.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	266	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	267	}{	Thank you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	268	}{	What did you just say?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	269	}{	What!?!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	270	}{	I don't have the slightest idea.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	Oh, I'm afraid I can't help you with that.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	Oh, that's wonderful.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	273	}{	By the way...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	274	}{	Take this.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	275	}{	I'll send you an email about it.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	282	}{	(Starting Condition)	}{	}{	81	}{	IsClan(pc,"Nosferatu") and G.Gimble_Phone == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	283	}{	(Starting Condition)	}{	}{	91	}{	G.Gimble_Model == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	284	}{	(Starting Condition)	}{	}{	96	}{	G.Gimble_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	243	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	244	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	245	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	247	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	Ah! Hai delle braccia bellissime! Devo assolutamente averle.	}{	Ah! Hai delle braccia bellissime! Devo assolutamente averle.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Gimble_Leave = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	Cosa?	}{	Cosa?	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	NO.	}
+{	253	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	254	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	255	}{	Oh, è meraviglioso.	}{	Oh, è meraviglioso.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	256	}{	Anzi, basta informarsi con un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	Anzi, basta che ti rivolgi a un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	201	}{	pc.humanity >= 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7); FindPlayer().HumanityAdd( -1 ); G.Gimble_Humanity = 1	}{	}{	}{	}{	}{	}{	}{	Un Vandalo vi riceverà con piacere per il vostro essere speciale.	}
+{	257	}{	Anzi, basta informarsi con un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	Anzi, basta che ti rivolgi a un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	201	}{	pc.humanity < 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7)	}{	}{	}{	}{	}{	}{	}{	Un Vandalo vi riceverà con piacere per il vostro essere speciale.	}
+{	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	261	}{	Ehila', ciao.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	262	}{	Si'?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	263	}{	Cosa stai facendo qui?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	264	}{	Non voglio parlare con te.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	265	}{	Si'.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	266	}{	No.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	267	}{	Grazie.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	268	}{	Cos'hai detto?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	269	}{	Cosa!?!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	270	}{	Non ho la minima diea.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	Oh, temo di non poterti aiutare.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	272	}{	Oh, e' meraviglioso.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	273	}{	A proposito...	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	274	}{	Prendi.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	275	}{	Ti mandero' una e-mail a riguardo.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	282	}{	(Starting Condition)	}{		}{	81	}{	IsClan(pc,"Nosferatu") and G.Gimble_Phone == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	283	}{	(Starting Condition)	}{		}{	91	}{	G.Gimble_Model == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	284	}{	(Starting Condition)	}{		}{	96	}{	G.Gimble_Questions == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	285	}{	(Starting Condition)	}{	}{	211	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
