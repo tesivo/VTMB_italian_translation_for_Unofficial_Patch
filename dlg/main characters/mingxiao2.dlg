@@ -1,513 +1,513 @@
-{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Be at peace, Kindred, you stand amongst friends now.	}{	Be at peace, Kindred, you stand amongst friends now.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	I don't think so. Like I said before, I don't want anything to do with you.	}{	I don't think so. Like I said before, I don't want anything to do with you.	}{	246	}{	G.Ming_Pissed == 3	}{	G.Ming_Insult = 1	}{	}{	}{	}{	}{	}{	}{	You are more a curse than my madness, mirror mistress! Leave me!	}
-{	13	}{	Back at the temple you were singing a different tune.	}{	Back at the temple you were singing a different tune.	}{	21	}{	G.Ming_Sorry == 3	}{	}{	}{	}{	}{	}{	}{	}{	Your heart wore a different mask when last we met.	}
-{	14	}{	Is that so?	}{	Is that so?	}{	21	}{	G.Ming_Sorry < 3	}{	}{	}{	}{	}{	}{	}{	}{	Enemies can wear the shed skin of friends.	}
-{	15	}{	It's good to see you, Ming-Xiao.	}{	It's good to see you, Ming-Xiao.	}{	18	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Your presence is a warm, welcome flame.	}
-{	16	}{	Really? Your agents at the Giovanni stronghold weren't so friendly.	}{	Really? Your agents at the Giovanni stronghold weren't so friendly.	}{	91	}{	G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	The shadow warriors shared no friendship at the Giovanni tomb.	}
-{	17	}{	Really? I don't remember the Chang Brothers being so friendly.	}{	Really? I don't remember the Chang Brothers being so friendly.	}{	91	}{	G.Ming_Bros == 1	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs offered no helpful hands.	}
-{	18	}{	I am happy to be received with such warmth. It is encouraging that the tired animosity between our people has not infected your judgement.	}{	I am happy to be received with such warmth. It is encouraging that the tired animosity between our people has not infected your judgement.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	Tired animosity? No. Your agents' blades to my neck? Yes.	}{	Tired animosity? No. Your agents' blades to my neck? Yes.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your shadow warriors fed me a feast of animosity at the Giovanni tomb.	}
-{	20	}{	You have done nothing to earn my distrust, Ming-Xiao.	}{	You have done nothing to earn my distrust, Ming-Xiao.	}{	31	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Trust still bridges our beings, mistress.	}
-{	21	}{	Your foes all lie vanquished, Kindred. I come to help. Be at peace. Trouble is nothing but yours to give.	}{	Your foes all lie vanquished, Kindred. I come to help. Be at peace. Trouble is nothing but yours to give.	}{	#	}{	}{	G.Ming_Foe = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	To tell you the truth, I could really use some help.	}{	To tell you the truth, I could really use some help.	}{	31	}{	G.Ming_Friend == 0	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Your pale hand is a gift well appreciated.	}
-{	23	}{	You're right about that... and you're the one I plan on giving it to.	}{	You're right about that... and you're the one I plan on giving it to.	}{	246	}{	}{	G.Ming_Insult = 1	}{	}{	}{	}{	}{	}{	}{	Trouble will be my dark gift to you, demon-queen!	}
-{	24	}{	What about your agents who tried to kill me over the sarcophagus?	}{	What about your agents who tried to kill me over the sarcophagus?	}{	91	}{	G.Ming_Friend == 1 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	What of the warriors of shadow at the Giovanni tomb?	}
-{	25	}{	The Changs mentioned an alliance between you and LaCroix.	}{	The Changs mentioned an alliance between you and LaCroix.	}{	121	}{	G.Ming_Friend == 1 and (G.Ming_Changs == 1 or G.Ming_Bros == 1)	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	A true friend in death is as true love: precious, rare and sweet. Pray your senses have not gone so languid that this blessing cannot be savored.	}{	A true friend in death is as true love: precious, rare and sweet. Pray your senses have not gone so languid that this blessing cannot be savored.	}{	#	}{	}{	G.Ming_Friend = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	A true friend or a friend of convenience?	}{	A true friend or a friend of convenience?	}{	41	}{	IsClan (pc,"Ventrue") or IsClan (pc,"Toreador") or pc.wits > 2 or pc.perception > 2 or pc.intelligence > 2	}{	}{	}{	}{	}{	}{	}{	}{	Convenience often makes bed buddies.	}
-{	33	}{	You're just saying that because I can help you.	}{	You're just saying that because I can help you.	}{	41	}{	not IsClan (pc,"Ventrue") and not IsClan (pc,"Toreador") and pc.wits < 3 and pc.perception < 3 and pc.intelligence < 3	}{	}{	}{	}{	}{	}{	}{	}{	Your need is the lubricant of this sudden love.	}
-{	34	}{	That would be nice.	}{	That would be nice.	}{	41	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	I have a sweet tooth for such savorings.	}
-{	35	}{	I met some of your agents - they didn't share your vision.	}{	I met some of your agents - they didn't share your vision.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The shadow warriors shared no friendship at the Giovanni tomb.	}
-{	36	}{	The Chang brothers didn't seem to share in your vision.	}{	The Chang brothers didn't seem to share in your vision.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs offered no helpful hands.	}
-{	37	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	121	}{	G.Ming_Changs == 1	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	We are in a position to help each other, yes; is it impossible, then, that my admiration is genuine, Kindred? Can friendship truly be founded on nothing? Or must there be nothing to gain in order for friendship to be true?	}{	We are in a position to help each other, yes; is it impossible, then, that my admiration is genuine, Kindred? Can friendship truly be founded on nothing? Or must there be nothing to gain in order for friendship to be true?	}{	#	}{	}{	Whisper("Distrust")	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	I suppose it's possible.	}{	I suppose it's possible.	}{	51	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Perhaps such a partnership is possible.	}
-{	43	}{	You are speaking in riddles.	}{	You are speaking in riddles.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your words are as twisted as the tunnels in my mind.	}
-{	44	}{	I met some of your agents - they didn't share your vision.	}{	I met some of your agents - they didn't share your vision.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The shadow warriors shared no friendship at the Giovanni tomb.	}
-{	45	}{	The Chang Brothers didn't seem to share in your benevolent vision.	}{	The Chang Brothers didn't seem to share in your benevolent vision.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs offered no helpful hands.	}
-{	46	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	121	}{	G.Ming_Changs == 1	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	The tongue lies limp and pasty if you're simply dead - otherwise you would do well to savor these little graces. Your eyes are still able to take in my form and the blood still rushes hot to your skin - must your organs die so selectively?	}{	The tongue lies limp and pasty if you're simply dead - otherwise you would do well to savor these little graces. Your eyes are still able to take in my form and the blood still rushes hot to your skin - must your organs die so selectively?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	How did you find me here?	}{	How did you find me here?	}{	71	}{	G.Ming_Watch == 0	}{	}{	}{	}{	}{	}{	}{	}{	What breadcrumbs did you follow to my belfry?	}
-{	53	}{	Your agents at the Giovanni stronghold didn't seem to share your vision.	}{	Your agents at the Giovanni stronghold didn't seem to share your vision.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The shadow warriors shared no friendship at the Giovanni tomb.	}
-{	54	}{	The Chang Brothers didn't seem to share in your benevolent vision.	}{	The Chang Brothers didn't seem to share in your benevolent vision.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs offered no helpful hands.	}
-{	55	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Bros == 0	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	3	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	4	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Vieni in pace, Fratello, sei fra amici ora.	}{	Vieni in pace, Fratello, sei fra amici ora.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Non penso proprio. Come ho detto in precedenza, non voglio avere nulla a che fare con te.	}{	Non penso proprio. Come ho detto in precedenza, non voglio avere nulla a che fare con te.	}{	246	}{	G.Ming_Pissed == 3	}{	G.Ming_Insult = 1	}{		}{		}{		}{		}{		}{		}{	Sei piu' potente della mia pazzia, demone! Lasciami!	}
+{	13	}{	Torna al tempio dove cantavi una canzone diversa.	}{	Torna al tempio dove cantavi una canzone diversa.	}{	21	}{	G.Ming_Sorry == 3	}{		}{		}{		}{		}{		}{		}{		}{	Il tuo cuore indossa una maschera diversa da l'ultima volta che ci siamo incontrati.	}
+{	14	}{	E' davvero cosi'?	}{	E' davvero cosi'?	}{	21	}{	G.Ming_Sorry < 3	}{		}{		}{		}{		}{		}{		}{		}{	I nemici possono indossa le vesti di amici.	}
+{	15	}{	E' bello vederti, Ming-Xiao.	}{	E' bello vederti, Ming-Xiao.	}{	18	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	La tua presenza e' cordiale.	}
+{	16	}{	Davvero? I tuoi agenti alla roccaforte di Giovanni non lo erano.	}{	Davvero? I tuoi agenti alla roccaforte di Giovanni non lo erano.	}{	91	}{	G.Ming_Bros == 0	}{		}{		}{		}{		}{		}{		}{		}{	L'ombra dei guerrieri non hanno condiviso amicizia alla tomba di Giovanni.	}
+{	17	}{	Davvero? Non ricordo i Chang Brothers cosi' amichevoli.	}{	Davvero? Non ricordo i Chang Brothers cosi' amichevoli.	}{	91	}{	G.Ming_Bros == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs non hanno offerto una mano.	}
+{	18	}{	Sono contenta di essere ricevuto con simile calore. E' incoraggiante che la stanca animosita' tra le nostre persone non ha infettato il tuo giudizio.	}{	Sono contenta di essere ricevuto con simile calore. E' incoraggiante che la stanca animosita' tra le nostre persone non ha infettato il tuo giudizio.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{	Stanca animosita'? No. I tuoi agenti volevano la mia testa? Si.	}{	Stanca animosita'? No. I tuoi agenti volevano la mia testa? Si.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	L'ombra dei tuoi guerrieri mi hanno fatto la festa alla tomba di Giovanni.	}
+{	20	}{	Non hai nulla da guadagnare con la mia distruzione, Ming-Xiao.	}{	Non hai nulla da guadagnare con la mia distruzione, Ming-Xiao.	}{	31	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	La fiducia copre ancora i nostri esseri, demone.	}
+{	21	}{	I tuoi nemici giacciono tutti sconfitti, Fratello. Vengo in aiuto. Vieni in pace. La preoccupazione non e' nulla se non la tua da dare via.	}{	I tuoi nemici giacciono tutti sconfitti, Fratello. Vengo in aiuto. Vieni in pace. La preoccupazione non e' nulla se non la tua da dare via.	}{	#	}{		}{	G.Ming_Foe = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	A dirti la verita', potrei servirmi di un po' d'aiuto.	}{	A dirti la verita', potrei servirmi di un po' d'aiuto.	}{	31	}{	G.Ming_Friend == 0	}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	La tua debole mano e' un dono molto apprezzato.	}
+{	23	}{	Hai ragione... e sei la prima su cui conto di darla.	}{	Hai ragione... e sei la prima su cui conto di darla.	}{	246	}{		}{	G.Ming_Insult = 1	}{		}{		}{		}{		}{		}{		}{	La preoccupazione sara' il mio oscuro dono per te, regina demone!	}
+{	24	}{	Che mi dici degli agenti che hanno provato ad uccidermi per il sarcofago?	}{	Che mi dici degli agenti che hanno provato ad uccidermi per il sarcofago?	}{	91	}{	G.Ming_Friend == 1 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	Che mi dici dei guerrieri dell'ombra alla tomba di Giovanni?	}
+{	25	}{	I Changs hanno parlato di un'alleanza tra te e LaCroix.	}{	I Changs hanno parlato di un'alleanza tra te e LaCroix.	}{	121	}{	G.Ming_Friend == 1 and (G.Ming_Changs == 1 or G.Ming_Bros == 1)	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Un vero amico nella morte e' come il vero amore: prezioso, raro e dolce. Prega che i tuoi sensi non siano andati cosi' languidi che questa benedizione non puo' essere salvata.	}{	Un vero amico nella morte e' come il vero amore: prezioso, raro e dolce. Prega che i tuoi sensi non siano andati cosi' languidi che questa benedizione non puo' essere salvata.	}{	#	}{		}{	G.Ming_Friend = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Un vero amico o un amico di convenienza?	}{	Un vero amico o un amico di convenienza?	}{	41	}{	IsClan (pc,"Ventrue") or IsClan (pc,"Toreador") or pc.wits > 2 or pc.perception > 2 or pc.intelligence > 2	}{		}{		}{		}{		}{		}{		}{		}{	La convenienza a volte crea amici di letto.	}
+{	33	}{	Lo stai dicendo perche' io posso aiutarti.	}{	Lo stai dicendo perche' io posso aiutarti.	}{	41	}{	not IsClan (pc,"Ventrue") and not IsClan (pc,"Toreador") and pc.wits < 3 and pc.perception < 3 and pc.intelligence < 3	}{		}{		}{		}{		}{		}{		}{		}{	Il tuo bisogno e' il lubrificante di questo improvviso amore.	}
+{	34	}{	Sarebbe carino.	}{	Sarebbe carino.	}{	41	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Ho un dolce dente per simili favoritismi.	}
+{	35	}{	Ho incontrato un paio dei tuoi agenti - non condividono la tua visione.	}{	Ho incontrato un paio dei tuoi agenti - non condividono la tua visione.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	L'ombra dei guerrieri non hanno condiviso amicizia alla tomba di Giovanni.	}
+{	36	}{	I Chang brothers non condividevano la tua visione.	}{	I Chang brothers non condividevano la tua visione.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs non hanno offerto una mano.	}
+{	37	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	121	}{	G.Ming_Changs == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Siamo in una posizione di aiutarci entambi, si: e' impossibile, allora, che la mia ammirazione sia genuina, Fratello? La vera amicizia puo' essere fondata sul nulla? O non ci deve essere nulla da guadagnare nell'amicizia per essere vera?	}{	Siamo in una posizione di aiutarci entambi, si: e' impossibile, allora, che la mia ammirazione sia genuina, Fratello? La vera amicizia puo' essere fondata sul nulla? O non ci deve essere nulla da guadagnare nell'amicizia per essere vera?	}{	#	}{		}{	Whisper("Distrust")	}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Suppongo che sia possibile.	}{	Suppongo che sia possibile.	}{	51	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Forse una simile amicizia e' possibile.	}
+{	43	}{	Stai parlando ad indovinelli.	}{	Stai parlando ad indovinelli.	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le tue parole sono scombinate come i tunnel nella mia mente.	}
+{	44	}{	Ho incontrato alcuni dei tuoi agenti - non condividevano la tua visione.	}{	Ho incontrato alcuni dei tuoi agenti - non condividevano la tua visione.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	Lï¿½ombra dei guerrieri non hanno condiviso amicizia alla tomba di Giovanni.	}
+{	45	}{	I Chang Brothers non sembravano condividere la tua benevolente visione.	}{	I Chang Brothers non sembravano condividere la tua benevolente visione.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs non hanno offerto una mano.	}
+{	46	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	121	}{	G.Ming_Changs == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	La lingua giace zoppa e appiccicosa se sei semplicemente morta - altrimenti faresti bene ad avere il sapore di queste piccole adornazioni. I tuoi occhi sono ancora capaci di recepire la mia forma e il sangue ancora scorre caldo nella tua pelle - i tuoi organi devono morire cosi' selettivamente?	}{	La lingua giace zoppa e appiccicosa se sei semplicemente morta - altrimenti faresti bene ad avere il sapore di queste piccole adornazioni. I tuoi occhi sono ancora capaci di recepire la mia forma e il sangue ancora scorre caldo nella tua pelle - i tuoi organi devono morire cosi' selettivamente?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Come mi hai trovato qui?	}{	Come mi hai trovato qui?	}{	71	}{	G.Ming_Watch == 0	}{		}{		}{		}{		}{		}{		}{		}{	Che cazzo mi hai seguito?	}
+{	53	}{	I tuoi agenti alla roccaforte di Giovanni non sembravano condividere la tua visione.	}{	I tuoi agenti alla roccaforte di Giovanni non sembravano condividere la tua visione.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	I guerrieri ombra non hanno mostrato amicizia alla tomba di Giovanni.	}
+{	54	}{	I Chang Brothers non sembravano condividere la tua benevolente visione.	}{	I Chang Brothers non sembravano condividere la tua benevolente visione.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	Quei coglioni dei Changs non mi hanno datto una mano.	}
+{	55	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Bros == 0	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	63	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	I watch and wait for the time my path is meant to cross another. The "how" of it shall be more clear in a moment.	}{	I watch and wait for the time my path is meant to cross another. The "how" of it shall be more clear in a moment.	}{	#	}{	}{	G.Ming_Watch = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Don't try anything fast.	}{	Don't try anything fast.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Keep your speeds slow and suspicionless.	}
-{	73	}{	Do your agents do the same? I ran into a couple of them.	}{	Do your agents do the same? I ran into a couple of them.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The shadow warriors shared no friendship at the Giovanni tomb.	}
-{	74	}{	The Chang Brothers weren't quite as diplomatic when I ran into them.	}{	The Chang Brothers weren't quite as diplomatic when I ran into them.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs offered no helpful hands.	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Friend == 1	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	No need for alarm, Kindred; I come as a friend.	}{	No need for alarm, Kindred; I come as a friend.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Is that so?	}{	Is that so?	}{	21	}{	G.Ming_Foe == 0	}{	}{	}{	}{	}{	}{	}{	}{	Enemies can wear the shed skin of friends.	}
-{	83	}{	Why? Do you need something?	}{	Why? Do you need something?	}{	41	}{	G.Ming_Friend == 0	}{	}{	}{	}{	}{	}{	}{	}{	Your kind rarely digs without design, mistress.	}
-{	84	}{	Your agents at the Giovanni stronghold didn't seem to share your vision.	}{	Your agents at the Giovanni stronghold didn't seem to share your vision.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The shadow warriors shared no friendship at the Giovanni tomb.	}
-{	85	}{	The Chang Brothers weren't quite as diplomatic when I ran into them.	}{	The Chang Brothers weren't quite as diplomatic when I ran into them.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs offered no helpful hands.	}
-{	86	}{	Does this have to do with what the Chang brothers said about the alliance?	}{	Does this have to do with what the Chang brothers said about the alliance?	}{	121	}{	G.Ming_Changs == 1	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	Indeed. The Chang brothers, my greatest agents, undone by the young soldier of LaCroix. It was obvious your path was greater than I, or he, had anticipated.	}{	Indeed. The Chang brothers, my greatest agents, undone by the young soldier of LaCroix. It was obvious your path was greater than I, or he, had anticipated.	}{	#	}{	}{	G.Ming_Changs = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	What's this about an alliance between you and LaCroix?	}{	What's this about an alliance between you and LaCroix?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	What of your lewd liaisons with LaCroix?	}
-{	93	}{	Why did they try to kill me?	}{	Why did they try to kill me?	}{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	They tried to foment my final funk.	}
-{	94	}{	My apologies, but I had to smoke those dudes.	}{	My apologies, but I had to smoke those dudes.	}{	101	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	I sent them to a place to push up poppies.	}
-{	95	}{	You actually sound impressed.	}{	You actually sound impressed.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your words ring of a rueful respect.	}
-{	96	}{	They had orders to get the sarcophagus at all costs, and to let no one get in the way. It was nothing personal... they had no way of knowing who you were.	}{	They had orders to get the sarcophagus at all costs, and to let no one get in the way. It was nothing personal... they had no way of knowing who you were.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	I'm sorry but I had to kill them.	}{	I'm sorry but I had to kill them.	}{	101	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	I sent them to a place to push up poppies.	}
-{	98	}{	You don't care that I killed them?	}{	You don't care that I killed them?	}{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	Care you not for the churlish Changs?	}
-{	99	}{	It is not that I do not care...	}{	It is not that I do not care...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	(Auto-Link)	}{	(Auto-Link)	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
-{	101	}{	If their purpose was to make apparent to me the significance of your path, then their purpose was indeed served and they are at peace. I can harbor no ill will toward you, the victor.	}{	If their purpose was to make apparent to me the significance of your path, then their purpose was indeed served and they are at peace. I can harbor no ill will toward you, the victor.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	You sound impressed.	}{	You sound impressed.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your words ring of a rueful respect.	}
-{	103	}{	You were singing a different tune back at the temple.	}{	You were singing a different tune back at the temple.	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry == 3	}{	}{	}{	}{	}{	}{	}{	}{	Your heart wore a different mask when last we met.	}
-{	104	}{	Why should I trust a Kuei-jin?	}{	Why should I trust a Kuei-jin?	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry < 3	}{	}{	}{	}{	}{	}{	}{	}{	Trust is a hard won tussle, mirror mistress.	}
-{	105	}{	That's nice to hear.	}{	That's nice to hear.	}{	31	}{	G.Ming_Friend == 0	}{	}{	}{	}{	}{	}{	}{	}{	Your words give me the warm willies.	}
-{	106	}{	So how did our paths come to converge here?	}{	So how did our paths come to converge here?	}{	71	}{	G.Ming_Watch == 0	}{	}{	}{	}{	}{	}{	}{	}{	So how does our web unwind to where we are now?	}
-{	107	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Friend == 1	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	I am impressed, Kindred. That is why I've come to reveal to you the truth, so that you may see that you are not the fist of LaCroix but the hand that will put the final events of this war into motion.	}{	I am impressed, Kindred. That is why I've come to reveal to you the truth, so that you may see that you are not the fist of LaCroix but the hand that will put the final events of this war into motion.	}{	#	}{	}{	G.Ming_Impressed = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	You were singing a different tune back at the temple.	}{	You were singing a different tune back at the temple.	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry == 3	}{	}{	}{	}{	}{	}{	}{	}{	Your heart wore a different mask when last we met.	}
-{	113	}{	Why should I trust a Kuei-jin?	}{	Why should I trust a Kuei-jin?	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry < 3	}{	}{	}{	}{	}{	}{	}{	}{	Trust is a hard won tussle, mirror mistress.	}
-{	114	}{	Thanks for the vote of confidence.	}{	Thanks for the vote of confidence.	}{	31	}{	G.Ming_Friend == 0	}{	}{	}{	}{	}{	}{	}{	}{	Your confidence is well kept, mistress.	}
-{	115	}{	So how did our paths come to converge here?	}{	So how did our paths come to converge here?	}{	71	}{	G.Ming_Watch == 0	}{	}{	}{	}{	}{	}{	}{	}{	So how does our web unwind to where we are now?	}
-{	116	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	The Chang brothers mentioned an alliance with LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Friend == 1	}{	}{	}{	}{	}{	}{	}{	}{	The churlish Changs said you share a secret bed with LaCroix.	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	We did have an arrangement, LaCroix and I. A mutually beneficial pact to drive the lesser factions from the city.	}{	We did have an arrangement, LaCroix and I. A mutually beneficial pact to drive the lesser factions from the city.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Why couldn't you tell me about this before?	}{	Why couldn't you tell me about this before?	}{	131	}{	G.Ming_Bros == 0	}{	G.Ming_Faction = G.Ming_Faction - 1	}{	}{	}{	}{	}{	}{	}{	Snake-charmer! Why did you hold from me this serpentine secret?	}
-{	123	}{	I asked you about this before, but you wouldn't talk to me about it.	}{	I asked you about this before, but you wouldn't talk to me about it.	}{	131	}{	G.Ming_Bros == 1	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Ah! Can we not share such treasonous treasures, my mistress?	}
-{	124	}{	So what happened?	}{	So what happened?	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me your tale.	}
-{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Again, Kindred, I could not have guessed the significance of your path. My arrangement with your prince was too sensitive to reveal.	}{	Again, Kindred, I could not have guessed the significance of your path. My arrangement with your prince was too sensitive to reveal.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	What happened to the arrangement?	}{	What happened to the arrangement?	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	How did your tangled web unweave?	}
-{	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	LaCroix's zeal in recovering the Ankaran Sarcophagus has been to the exclusion of many relationships... mine included. And I, like yourself, have been used by him in his desperate quest for power.	}{	LaCroix's zeal in recovering the Ankaran Sarcophagus has been to the exclusion of many relationships... mine included. And I, like yourself, have been used by him in his desperate quest for power.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	Likely story.	}{	Likely story.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your tale lacks temerity.	}
-{	143	}{	How did he use you?	}{	How did he use you?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	The jester is often the king's downfall.	}
-{	144	}{	Watch what you say about my prince. Now what are you talking about?	}{	Watch what you say about my prince. Now what are you talking about?	}{	161	}{	}{	G.Ming_Faction = G.Ming_Faction - 1	}{	}{	}{	}{	}{	}{	}{	Take no more jabs at the jester.	}
-{	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	[As Nines]Out. Now.	}{	[As Nines]Out. Now.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	What? Are you looking into Grout's disappearance, too?	}{	What? Are you looking into Grout's disappearance, too?	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Huh? Do you also seek the missing Malkavian?	}
-{	153	}{	You feeling alright, man?	}{	You feeling alright, man?	}{	371	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	LaCroix feared Alistair Grout, the Malkavian [mahl-KAVE-ee-uhn]primogen - for the cursed insight of his bloodline was strong and brought him uncomfortably close to the truth about LaCroix's ambitions.	}{	LaCroix feared Alistair Grout, the Malkavian [mahl-KAVE-ee-uhn]primogen - for the cursed insight of his bloodline was strong and brought him uncomfortably close to the truth about LaCroix's ambitions.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	And so?	}{	And so?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	The ale of truth is downed ambitiously.	}
-{	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	LaCroix saw an opportunity to rid himself of two problems - a hardened rebel leader and a problematic primogen - in one fell stroke. And, as you can see, I was integral to his plan.	}{	LaCroix saw an opportunity to rid himself of two problems - a hardened rebel leader and a problematic primogen - in one fell stroke. And, as you can see, I was integral to his plan.	}{	#	}{	}{	ChangeMingXiaoToNines(); G.Story_State = 80	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	What the hell? How did you...? I don't understand.	}{	What the hell? How did you...? I don't understand.	}{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ah! The mistress of mirrors shows another of her faces!	}
-{	173	}{	Fascinating. But why did you agree to do it?	}{	Fascinating. But why did you agree to do it?	}{	176	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	174	}{	Ah. Things are beginning to make sense.	}{	Ah. Things are beginning to make sense.	}{	176	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	176	}{	LaCroix convinced me that an alliance with the Camarilla could strengthen the position of the Kuei-jin. And so, with my help, your prince framed Nines Rodriguez for the murder of Alistair Grout.	}{	LaCroix convinced me that an alliance with the Camarilla could strengthen the position of the Kuei-jin. And so, with my help, your prince framed Nines Rodriguez for the murder of Alistair Grout.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	So you were the one I saw at Grout's mansion?	}{	So you were the one I saw at Grout's mansion?	}{	181	}{	}{	ChangeNinesToMingXiao()	}{	}{	}{	}{	}{	}{	}{	It was your face at the mansion of the mad doctor!	}
-{	178	}{	Why did you need to strengthen your position?	}{	Why did you need to strengthen your position?	}{	401	}{	}{	ChangeNinesToMingXiao()	}{	}{	}{	}{	}{	}{	}{	Strength you seek for what purpose?	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	That's amazing. How do you do it?	}{	That's amazing. How do you do it?	}{	226	}{	}{	G.Ming_Faction = G.Ming_Faction + 1; ChangeNinesToMingXiao()	}{	}{	}{	}{	}{	}{	}{	What dark energies fuel your face-changing?	}
-{	181	}{	Yes. You were made to be the witness, for your political naïveté put your word beyond reproach; no one would believe you'd devise such a story. LaCroix used you and once again turned a problem to his advantage.	}{	Yes. You were made to be the witness, for your political naïveté put your word beyond reproach; no one would believe you'd devise such a story. LaCroix used you and once again turned a problem to his advantage.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	This is bullshit. Why are you REALLY here, Ming-Xiao?	}{	This is bullshit. Why are you REALLY here, Ming-Xiao?	}{	211	}{	G.Ming_Insult == 1	}{	}{	}{	}{	}{	}{	}{	}{	I believe not wobbly words. Show me your true face, mistress.	}
-{	183	}{	Smart. So why are you questioning the alliance now?	}{	Smart. So why are you questioning the alliance now?	}{	381	}{	G.Ming_Alliance == 0 and G.Ming_Insult == 0	}{	G.Ming_Alliance = 1	}{	}{	}{	}{	}{	}{	}{	Why did this web become unwoven?	}
-{	184	}{	Sounds sticky. But why are you telling me all of this?	}{	Sounds sticky. But why are you telling me all of this?	}{	196	}{	G.Ming_Insult == 0	}{	}{	}{	}{	}{	}{	}{	}{	Why do you share these secrets with me, snake-charmer?	}
-{	185	}{	He and I have come a long way since then.	}{	He and I have come a long way since then.	}{	201	}{	G.Ming_Insult == 0	}{	}{	}{	}{	}{	}{	}{	}{	The jester and I have smoked a peace pipe.	}
-{	186	}{	What's any of this matter now? LaCroix has the sarcophagus.	}{	What's any of this matter now? LaCroix has the sarcophagus.	}{	211	}{	G.Ming_Insult == 0	}{	}{	}{	}{	}{	}{	}{	}{	The matter is moot. The jester has his Ankaran jewel.	}
-{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	193	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	196	}{	You need to understand that you are a liability, Kindred. Once LaCroix finds the right moment, you will be disposed of, just as he did with Alistair Grout, Mr. Rodriguez, your sire, and countless others.	}{	You need to understand that you are a liability, Kindred. Once LaCroix finds the right moment, you will be disposed of, just as he did with Alistair Grout, Mr. Rodriguez, your sire, and countless others.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	But I gave him the Ankaran Sarcophagus.	}{	But I gave him the Ankaran Sarcophagus.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	I took for him the Ankaran box!	}
-{	198	}{	If the rumors about the sarcophagus are true, it's not going to matter.	}{	If the rumors about the sarcophagus are true, it's not going to matter.	}{	211	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	You're just pissed because he got the sarcophagus before you did.	}{	You're just angry because you didn't get the sarcophagus.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your envy of the jester's prize is green and garish.	}
-{	200	}{	I trust him. I'll find the key, and we'll open the sarcophagus together.	}{	I trust him. I'll find the key, and we'll open the sarcophagus together.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	I shall find the Ankaran key, and the jester and I together will dance a jig.	}
-{	201	}{	You are no more to him than an entry on his ledger; a sum of that which can be bled from you.	}{	You are no more to him than an entry on his ledger; a sum of that which can be bled from you.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	What's any of this matter now? LaCroix has the sarcophagus.	}{	What's any of this matter now? LaCroix has the sarcophagus.	}{	211	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	203	}{	You're just pissed because he got the sarcophagus before you did.	}{	You're just angry because you didn't get the sarcophagus.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your envy of the jester's prize is green and garish.	}
-{	204	}{	He would never betray me, especially after I obtained the sarcophagus.	}{	He would never betray me, especially after I obtained the sarcophagus.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	I shall find the Ankaran key, and the jester and I together will dance a jig.	}
-{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	Hear these words, Kindred. The sarcophagus is sealed against the ages; only the proper key will break this seal. That key now lies safely in Kuei-jin hands. Your prince's prize cannot be had without it.	}{	Hear these words, Kindred. The sarcophagus is sealed against the ages; only the proper key will break this seal. That key now lies safely in Kuei-jin hands. Your prince's prize cannot be had without it.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	I see. Thanks for your honesty, Ming-Xiao.	}{	I see. Thanks for your honesty, Ming-Xiao.	}{	221	}{	G.Ming_Insult == 0	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	I feel the weight of truth in your words, mistress.	}
-{	213	}{	That's interesting.	}{	That's interesting.	}{	221	}{	G.Ming_Insult == 0	}{	}{	}{	}{	}{	}{	}{	}{	Fate is often a perilous puzzle.	}
-{	214	}{	Whatever. This is probably just another Kuei-jin lie.	}{	Whatever. This is probably just another Kuei-jin lie.	}{	231	}{	G.Ming_Insult == 1	}{	}{	}{	}{	}{	}{	}{	}{	Lies! Your truth is mired in mendacity!	}
-{	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	I hope you recognize my sincerity, Kindred. I would like to see you reach your destination before your path is cut short. I hope when next we meet, it is again as friends.	}{	I hope you recognize my sincerity, Kindred. I would like to see you reach your destination before your path is cut short. I hope when next we meet, it is again as friends.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	We'll see. Later.	}{	We'll see. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	223	}{	I hope so, too. See ya.	}{	I hope so, too. See ya.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	The Disciplines of my Dharma have afforded me skill in the art of disguise... a useful tool, as you can well imagine.	}{	The Disciplines of my Dharma have afforded me skill in the art of disguise... a useful tool, as you can well imagine.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	So you were the one I saw at Grout's mansion.	}{	So you were the one I saw at Grout's mansion.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	It was your face at the mansion of the mad doctor!	}
-{	228	}{	So why are you questioning the alliance now?	}{	So why are you questioning the alliance now?	}{	381	}{	G.Ming_Alliance == 0	}{	G.Ming_Alliance = 1	}{	}{	}{	}{	}{	}{	}{	Why did this web become unwoven?	}
-{	229	}{	Why did you need to strengthen your position?	}{	Why did you need to strengthen your position?	}{	401	}{	}{	}{	}{	}{	}{	}{	}{	}{	Strength you seek for what purpose?	}
-{	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	I assure you that it is not. LaCroix is no longer of any use to us, and by extension, neither are you. The vine of your destiny withers. Your bloodline ends with that of your puppet prince.	}{	I assure you that it is not. LaCroix is no longer of any use to us, and by extension, neither are you. The vine of your destiny withers. Your bloodline ends with that of your puppet prince.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	232	}{	I recommend you get out of town, Ming-Xiao.	}{	I recommend you get out of town, Ming-Xiao.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Leave this town or lose your life.	}
-{	233	}{	I don't even like the guy. And I like you even less.	}{	I don't even like the guy. And I like you even less.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	No love for the jester, and less for you.	}
-{	234	}{	We'll see who's the last one standing.	}{	We'll see who's the last one standing.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Only I will bow at the close of the curtain.	}
-{	235	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	Farewell, Kindred.	}{	Farewell, Kindred.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	243	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	244	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	245	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	246	}{	I see. Well, I will waste no more of my time with you. I just thought you should know that the alliance between your prince and the Kuei-jin has come to an end.	}{	I see. Well, I will waste no more of my time with you. I just thought you should know that the alliance between your prince and the Kuei-jin has come to an end.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	247	}{	So there was an alliance.	}{	So there was an alliance.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ah! The web revealed in the betrayal's dark light!	}
-{	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	Welcome, Kindred. Do not fear the fangs and claws of your Kindred [sarcastic]brethren, you are now under the protection of the Kuei-jin.	}{	Welcome, Kindred. Do not fear the fangs and claws of your Kindred [sarcastic]brethren, you are now under the protection of the Kuei-jin.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	Thank you, Ming-Xiao.	}{	Thank you, Ming-Xiao.	}{	261	}{	G.Ming_Ending == 0	}{	}{	}{	}{	}{	}{	}{	}{	My dark soul is lightened in your presence.	}
-{	253	}{	That's a relief.	}{	That's a relief.	}{	261	}{	G.Ming_Ending == 0	}{	}{	}{	}{	}{	}{	}{	}{	A roof much welcomed.	}
-{	254	}{	I'm sick of Kindred politics and lies.	}{	I'm sick of Kindred politics and lies.	}{	281	}{	G.Ming_Ending == 0	}{	}{	}{	}{	}{	}{	}{	}{	The ancient Kindred games have sickened my soul.	}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	Io osservo e aspetto il momento in cui la mia strada deve percorrerne un'altra. Il "come" sara' piu' chiaro al momento stesso.	}{	Io osservo e aspetto il momento in cui la mia strada deve percorrerne un'altra. Il "come" sara' piu' chiaro al momento stesso.	}{	#	}{		}{	G.Ming_Watch = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Non provare nulla di veloce.	}{	Non provare nulla di veloce.	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tieniti lenta e senza sospetti.	}
+{	73	}{	Anche i tuoi agenti? Ne ho incontrati un paio.	}{	Anche i tuoi agenti? Ne ho incontrati un paio.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	I guerrieri ombra non hanno mostrato amicizia alla tomba di Giovanni.	}
+{	74	}{	I Chang Brothers non erano cosi' diplomatici quando li ho incontrati.	}{	I Chang Brothers non erano cosi' diplomatici quando li ho incontrati.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	Quei coglioni dei Changs non mi hanno datto una mano.	}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Friend == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	Non c'e' bisogno di allarmarsi, Fratello; Vengo in pace.	}{	Non c'e' bisogno di allarmarsi, Fratello; Vengo in pace.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	E' veramente cosi'?	}{	E' veramente cosi'?	}{	21	}{	G.Ming_Foe == 0	}{		}{		}{		}{		}{		}{		}{		}{	I nemici possono indossare la pelle degli amici.	}
+{	83	}{	Perche'? Hai bisogno di qualcosa?	}{	Perche'? Hai bisogno di qualcosa?	}{	41	}{	G.Ming_Friend == 0	}{		}{		}{		}{		}{		}{		}{		}{	La tua specie raramente dimentica senza uno scopo, demone.	}
+{	84	}{	I tuoi agenti alla roccaforte di Giovanni non sembravano condividere la tua visione.	}{	I tuoi agenti alla roccaforte di Giovanni non sembravano condividere la tua visione.	}{	91	}{	G.Ming_Bros == 0 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	I guerrieri ombra non hanno mostrato amicizia alla tomba di Giovanni.	}
+{	85	}{	I Chang Brothers non erano cosi' diplomatici quando li ho incontrati.	}{	I Chang Brothers non erano cosi' diplomatici quando li ho incontrati.	}{	91	}{	G.Ming_Bros == 1 and G.Ming_Changs == 0	}{		}{		}{		}{		}{		}{		}{		}{	Quei coglioni dei Changs non mi hanno datto una mano.	}
+{	86	}{	Questo ha a che fare con cio' che hanno detto i Chang Brothers sull'alleanza?	}{	Questo ha a che fare con cio' che hanno detto i Chang Brothers sull'alleanza?	}{	121	}{	G.Ming_Changs == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	Infatti. I Chang Brothers, i miei agenti piu' forti, sconfitti da un giovane soldato di LaCroix. Era ovvio che il tuo percorosso fosse piu' grande di quanto anticipato.	}{	Infatti. I Chang Brothers, i miei agenti piu' forti, sconfitti da un giovane soldato di LaCroix. Era ovvio che il tuo percorosso fosse piu' grande di quanto anticipato.	}{	#	}{		}{	G.Ming_Changs = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Cosa mi dici di questa alleanza tra te e LaCroix?	}{	Cosa mi dici di questa alleanza tra te e LaCroix?	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	What of your lewd liaisons with LaCroix?	}
+{	93	}{	Perche' hanno provato ad uccidermi?	}{	Perche' hanno provato ad uccidermi?	}{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hanno provato ad accendere il mio finale funk.	}
+{	94	}{	Le mie scuse, ma ho dovuto stanare quei tipi.	}{	Le mie scuse, ma ho dovuto stanare quei tipi.	}{	101	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Li ho mandati in un posto per far salire i papaveri.	}
+{	95	}{	Sembri impressionata.	}{	Sembri impressionata.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le tue parole sembrano celare un addolorato rispetto.	}
+{	96	}{	Avevano ordini di recuperare il sarcofago a tutti i costi e non lasciare nessuno sulla strada. Nulla di personale... non potevano sapere chi fossi.	}{	Avevano ordini di recuperare il sarcofago a tutti i costi e non lasciare nessuno sulla strada. Nulla di personale... non potevano sapere chi fossi.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{	Mi dispiace ma ho dovuto ucciderli.	}{	Mi dispiace ma ho dovuto ucciderli.	}{	101	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Li ho mandati in un posto per far salire i papaveri.	}
+{	98	}{	Non ti interessa il fatto che li ho uccisi?	}{	Non ti interessa il fatto che li ho uccisi?	}{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{	NOn ti interessa degli inutili Changs?	}
+{	99	}{	Non e' che non mi interessa...	}{	Non e' che non mi interessa...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{	(Auto-Link)	}{	(Auto-Link)	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-Link)	}
+{	101	}{	Se il loro scopo fosse stato quello di rendermi chiaro il significato del tuo percorso, allora il loro scopo e' stato chiarificatore e ora sono in pace. Non posso essere in collera con te, il vincitore.	}{	Se il loro scopo fosse stato quello di rendermi chiaro il significato del tuo percorso, allora il loro scopo e' stato chiarificatore e ora sono in pace. Non posso essere in collera con te, il vincitore.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Sembri impressionata.	}{	Sembri impressionata.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le tue parole sembrano celare un addolorato rispetto.	}
+{	103	}{	Cantavi una diversa melodia al tempio.	}{	Cantavi una diversa melodia al tempio.	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry == 3	}{		}{		}{		}{		}{		}{		}{		}{	Il tuo cuore indossa una maschera diversa dall'ultima volta in cui ci siamo incontrati.	}
+{	104	}{	Perche' dovrei fidarmi di un Kuei-jin?	}{	Perche' dovrei fidarmi di un Kuei-jin?	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry < 3	}{		}{		}{		}{		}{		}{		}{		}{	Fiducia e' una difficile parole, demone.	}
+{	105	}{	Questo e' bello da ascoltare.	}{	Questo e' bello da ascoltare.	}{	31	}{	G.Ming_Friend == 0	}{		}{		}{		}{		}{		}{		}{		}{	Le tue parole mi creano disagio.	}
+{	106	}{	Allora come hanno fatto i nostri percorsi a convergere qui?	}{	Allora come hanno fatto i nostri percorsi a convergere qui?	}{	71	}{	G.Ming_Watch == 0	}{		}{		}{		}{		}{		}{		}{		}{	Allora come fa la nostra ragnatela scaricarsi dove siamo ora?	}
+{	107	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Friend == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	Sono impressionata, Fratello. Ecco perche' ti rivelo la verita', cosi' che puoi capire che non sei il pugno di LaCroix ma la mano che fara' gli eventi finali di questa guerra in mozione.	}{	Sono impressionata, Fratello. Ecco perche' ti rivelo la verita', cosi' che puoi capire che non sei il pugno di LaCroix ma la mano che fara' gli eventi finali di questa guerra in mozione.	}{	#	}{		}{	G.Ming_Impressed = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	Cantavi una diversa melodia al tempio.	}{	Cantavi una diversa melodia al tempio.	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry == 3	}{		}{		}{		}{		}{		}{		}{		}{	Il tuo cuore indossa una maschera diversa dall'ultima volta in cui ci siamo incontrati.	}
+{	113	}{	Perche' dovrei fidarmi di un Kuei-jin?	}{	Perche' dovrei fidarmi di un Kuei-jin?	}{	21	}{	G.Ming_Foe == 0 and G.Ming_Sorry < 3	}{		}{		}{		}{		}{		}{		}{		}{	Fiducia e' una difficile parole, demone.	}
+{	114	}{	Grazie per il voto di confidenza.	}{	Grazie per il voto di confidenza.	}{	31	}{	G.Ming_Friend == 0	}{		}{		}{		}{		}{		}{		}{		}{	La tua confidenza e' ben mantenuta, demone.	}
+{	115	}{	Allora come hanno fatto i nostri percorsi a convergere qui?	}{	Allora come hanno fatto i nostri percorsi a convergere qui?	}{	71	}{	G.Ming_Watch == 0	}{		}{		}{		}{		}{		}{		}{		}{	Allora come fa la nostra ragnatela scaricarsi dove siamo ora?	}
+{	116	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	I Chang brothers hanno parlato di un'alleanza con LaCroix.	}{	121	}{	G.Ming_Changs == 1 and G.Ming_Friend == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quei rozzi Changs hanno detto che tu condividi un letto segreto con LaCroix.	}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Abbiamo fatto un patto, LaCroix ed io. Un patto di beneficio reciproco per accompagnare le fazioni inferiori dalla citta'.	}{	Abbiamo fatto un patto, LaCroix ed io. Un patto di beneficio reciproco per accompagnare le fazioni inferiori dalla citta'.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Perche' non potevi dirmelo prima?	}{	Perche' non potevi dirmelo prima?	}{	131	}{	G.Ming_Bros == 0	}{	G.Ming_Faction = G.Ming_Faction - 1	}{		}{		}{		}{		}{		}{		}{	Vipera! Perche' lo hai tenuto segreto a me?	}
+{	123	}{	Te l'ho chiesto prima, ma non volevi dirmi nulla.	}{	Te l'ho chiesto prima, ma non volevi dirmi nulla.	}{	131	}{	G.Ming_Bros == 1	}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Ah! Possiamo non condividire un simile tesoro, mia demone?	}
+{	124	}{	Quindi cosa e' accaduto?	}{	Quindi cosa e' accaduto?	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Raccontami la tua storia.	}
+{	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Di nuovo, Fratello, non avevo capito il significato del tuo percorso. Il mio patto con il tuo principe era troppo pericoloso da rivelare.	}{	Di nuovo, Fratello, non avevo capito il significato del tuo percorso. Il mio patto con il tuo principe era troppo pericoloso da rivelare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	132	}{	Cos'e' accaduto al patto?	}{	Cos'e' accaduto al patto?	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' hai annodato ragnatele incomplete?	}
+{	133	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	134	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{	Lo zelo di LaCroix nel recuperare il Sarcofago Ankaran e' stata un'esclusione di molte relazioni... la mia inclusa. E io, come te, sono stato usata da quell'uomo nella sua disperata sete di potere.	}{	Lo zelo di LaCroix nel recuperare il Sarcofago Ankaran e' stata un'esclusione di molte relazioni... la mia inclusa. E io, come te, sono stato usata da quell'uomo nella sua disperata sete di potere.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{	Bella storia.	}{	Bella storia.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua storia manca di temerarieta'.	}
+{	143	}{	Come ha fatto ad usarti?	}{	Come ha fatto ad usarti?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il pagliaccio e' spesso il re dei caduti.	}
+{	144	}{	Attenta a cosa dici sul mio principe. Ora di cosa vuoi parlare?	}{	Attenta a cosa dici sul mio principe. Ora di cosa vuoi parlare?	}{	161	}{		}{	G.Ming_Faction = G.Ming_Faction - 1	}{		}{		}{		}{		}{		}{		}{	Non dare piu' colpi al pagliaccio.	}
+{	145	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	151	}{	[Come Nines]Fuori. Ora.	}{	[Come Nines]Fuori. Ora.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Cosa? Stai indagando anche tu sulla scomparsa di Grout?	}{	Cosa? Stai indagando anche tu sulla scomparsa di Grout?	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Eh? Cerchi anche tu il malkaviano scomparso?	}
+{	153	}{	Ti senti bene, amico?	}{	Ti senti bene, amico?	}{	371	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	154	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	155	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	161	}{	LaCroix ha spaventato Alistair Grout, il primogenito Malkavian [mahl-KAVE-ee-uhn] - la maledizione in vista nella sua linea di sangue era forte e lo ha portato scomodamente vicino alla verita' sulle ambizioni di LaCroix.	}{	LaCroix ha spaventato Alistair Grout, il primogenito Malkavian [mahl-KAVE-ee-uhn] - la maledizione in vista nella sua linea di sangue era forte e lo ha portato scomodamente vicino alla verita' sulle ambizioni di LaCroix.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	162	}{	E quindi?	}{	E quindi?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	La birra della verita' e' abbattuta ambiziosamente.	}
+{	163	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	164	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	165	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	LaCroix ha visto un'opportunita' di sbarazzarsi di due problemi - un duro leader ribelle e un problematico primogenito - in un sol colpo. E, come puoi vedere, facevo parte del suo piano.	}{	LaCroix ha visto un'opportunita' di sbarazzarsi di due problemi - un duro leader ribelle e un problematico primogenito - in un sol colpo. E, come puoi vedere, facevo parte del suo piano.	}{	#	}{	}{  ChangeMingXiaoToNines(); G.Story_State = 80	}{		}{		}{		}{		}{		}{		}{		}
+{	172	}{	Che diavolo? Come hai...? Non capisco.	}{	Che diavolo? Come hai...? Non capisco.	}{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ah! La demone mostra un'altra delle sue facce!	}
+{	173	}{	Affascinante. Ma perche' hai accettato a farlo?	}{	Affascinante. Ma perche' hai accettato a farlo?	}{	176	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	174	}{	Ah. Le cose stanno incominciando ad avere un senso.	}{	Ah. Le cose stanno incominciando ad avere un senso.	}{	176	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	175	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	176	}{	LaCroix mi convinse che un'alleanza con la Camarilla poteva rafforzare la posizione dei Kuei-jin. E quindi, con il mio aiuto, il principe ha incolpato Nines Rodriguez per l'uccisione di Alistair Grout.	}{	LaCroix mi convinse che un'alleanza con la Camarilla poteva rafforzare la posizione dei Kuei-jin. E quindi, con il mio aiuto, il principe ha incolpato Nines Rodriguez per l'uccisione di Alistair Grout.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	177	}{	Quindi eri tu che ho visto alla villa di Grout?	}{	Quindi eri tu che ho visto alla villa di Grout?	}{	181	}{		}{	ChangeNinesToMingXiao()	}{		}{		}{		}{		}{		}{		}{	Era la tua faccia alla villa del dottore pazzo!	}
+{	178	}{	Perche' avevi bisogno di rafforzare la tua posizione?	}{	Perche' avevi bisogno di rafforzare la tua posizione?	}{	401	}{		}{	ChangeNinesToMingXiao()	}{		}{		}{		}{		}{		}{		}{	Cerchi forza per quale scopo?	}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{	E' sorprendente. Come lo fai?	}{	E' sorprendente. Come lo fai?	}{	226	}{		}{	G.Ming_Faction = G.Ming_Faction + 1; ChangeNinesToMingXiao()	}{		}{		}{		}{		}{		}{		}{	Quali energie scure danno forza al tuo cambiamento facciale?	}
+{	181	}{	Si. Tu dovevi essere il testimone, per la tua ingenuita' in questioni politiche la tua parola era al riparo da qualunque attacco; nessuno avrebbe creduto che ti saresti inventato una storia simile. LaCroix ti ha usato e ancora una volta per risolvere un problema a suo vantaggio.	}{	Si. Tu dovevi essere il testimone, per la tua ingenuita' in questioni politiche la tua parola era al riparo da qualunque attacco; nessuno avrebbe creduto che ti saresti inventato una storia simile. LaCroix ti ha usato e ancora una volta per risolvere un problema a suo vantaggio.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{	Queste sono stronzate. Perche' sei VERAMENTE qui, Ming-Xiao?	}{	Queste sono stronzate. Perche' sei VERAMENTE qui, Ming-Xiao?	}{	211	}{	G.Ming_Insult == 1	}{		}{		}{		}{		}{		}{		}{		}{	Non credo a traballanti parole. Mostrami la tua vera faccia, demone.	}
+{	183	}{	Intelligente. Allora perche' stai domandando alleanza ora?	}{	Intelligente. Allora perche' stai domandando alleanza ora?	}{	381	}{	G.Ming_Alliance == 0 and G.Ming_Insult == 0	}{	G.Ming_Alliance = 1	}{		}{		}{		}{		}{		}{		}{	Perche' questa ragnatela si e' stracciata?	}
+{	184	}{	Sembra una cosa seria. Ma perche' mi stai dicendo tutto questo?	}{	Sembra una cosa seria. Ma perche' mi stai dicendo tutto questo?	}{	196	}{	G.Ming_Insult == 0	}{		}{		}{		}{		}{		}{		}{		}{	Perche' condividi questi segreti con me, vipera?	}
+{	185	}{	Lui e io da allora siamo stati insieme lungo una via.	}{	Lui e io da allora siamo stati insieme lungo una via.	}{	201	}{	G.Ming_Insult == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il pagliaccio e io abbiamo fumato una pipa di pace.	}
+{	186	}{	Cosa importa ora? LaCroix ha il sarcofago.	}{	Cosa importa ora? LaCroix ha il sarcofago.	}{	211	}{	G.Ming_Insult == 0	}{		}{		}{		}{		}{		}{		}{		}{	L'importanza e' irrilevante. Il pagliaccio ha il suo gioiello Ankaran.	}
+{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	193	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	196	}{	Devi capire che sei un vincolo, Fratello. Una volta che LaCroix trova i giusti momenti, sarai incline, giusto come fece con Alistair Grout, Mr. Rodriguez, il tuo signore e innumerevoli altri.	}{	Devi capire che sei un vincolo, Fratello. Una volta che LaCroix trova i giusti momenti, sarai incline, giusto come fece con Alistair Grout, Mr. Rodriguez, il tuo signore e innumerevoli altri.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{	Ma gli ho dato il Sarcofago Ankaran.	}{	Ma gli ho dato il Sarcofago Ankaran.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Gli ho portato il talismano Ankaran!	}
+{	198	}{	Se le chiacchiere sul sarcofago sono vere, non ha importanza.	}{	Se le chiacchiere sul sarcofago sono vere, non ha importanza.	}{	211	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{	Sei scocciata perche' ha preso il sarcofago prima di te.	}{	Sei scocciata perche' ha preso il sarcofago prima di te.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Invidi il premio del pagliaccio.	}
+{	200	}{	Mi fido di lui. Trovero' la chiave e l'apriremo insieme.	}{	Mi fido di lui. Trovero' la chiave e l'apriremo insieme.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Trovero' la chiave Ankaran e il pagliaccio e io balleremo tutta la notte.	}
+{	201	}{	Non sei nulla piu' di un libro mastro per lui; una somma di cio' che puo' essere svuotato da te.	}{	Non sei nulla piu' di un libro mastro per lui; una somma di cio' che puo' essere svuotato da te.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	Cosa importa ora? LaCroix ha il sarcofago.	}{	Cosa importa ora? LaCroix ha il sarcofago.	}{	211	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	203	}{	Sei scocciata perche' ha preso il sarcofago prima di te.	}{	Sei scocciata perche' ha preso il sarcofago prima di te.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Invidi il premio del pagliaccio.	}
+{	204	}{	Non mi tradirebbe mai, specialmente dopo avergli portato il sarcofago.	}{	Non mi tradirebbe mai, specialmente dopo avergli portato il sarcofago.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Trovero' la chiave Ankaran e il pagliaccio e io balleremo tutta la notte.	}
+{	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	211	}{	Ascolta queste parole, Fratello. Il sarcofago e' sigillato contro le ere; solo la giusta chiave rompera' questo sigillo. Quella chiave si trova ora in un posto pacifico nelle mani dei Kuei-jin. Il premio del principe non puo' essere suo senza di essa.	}{	Ascolta queste parole, Fratello. Il sarcofago e' sigillato contro le ere; solo la giusta chiave rompera' questo sigillo. Quella chiave si trova ora in un posto pacifico nelle mani dei Kuei-jin. Il premio del principe non puo' essere suo senza di essa.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	212	}{	Capisco. Grazie per la tua onesta', Ming-Xiao.	}{	Capisco. Grazie per la tua onesta', Ming-Xiao.	}{	221	}{	G.Ming_Insult == 0	}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Sento il peso della verita' nelle tue parole, demone.	}
+{	213	}{	Interessante.	}{	Interessante.	}{	221	}{	G.Ming_Insult == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il destino e' spesso un rischioso puzzle.	}
+{	214	}{	Va bene. Questa e' probabilmente un'altra bugia dei Kuei-jin.	}{	Va bene. Questa e' probabilmente un'altra bugia dei Kuei-jin.	}{	231	}{	G.Ming_Insult == 1	}{		}{		}{		}{		}{		}{		}{		}{	Bugie! La tua verita' e' melma di bugie!	}
+{	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	221	}{	Spero che riconoscerai la mia sincerita', Fratello. Mi piacerebbe vederti raggiungere la tua destinazione prima che il percorso sia tagliato anzitempo. Spero che quando ci incontreremo la prossima volta, sia tra amici.	}{	Spero che riconoscerai la mia sincerita', Fratello. Mi piacerebbe vederti raggiungere la tua destinazione prima che il percorso sia tagliato anzitempo. Spero che quando ci incontreremo la prossima volta, sia tra amici.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	222	}{	Vedremo. A piu' tardi.	}{	Vedremo. A piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado via.	}
+{	223	}{	Lo spero anch'io. Ci vediamo.	}{	Lo spero anch'io. Ci vediamo.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	225	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	226	}{	Le Discipline del mio Dharma mi hanno offerto l'abilita' nelle arti del travestimento... un oggetto utile, come puoi ben immaginare.	}{	Le Discipline del mio Dharma mi hanno offerto l'abilita' nelle arti del travestimento... un oggetto utile, come puoi ben immaginare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	227	}{	Quindi sei tu che ho visto alla villa di Grout.	}{	Quindi sei tu che ho visto alla villa di Grout.	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Era la tua faccia alla villa del dottore pazzo!	}
+{	228	}{	Allora perche' stai domandando alleanza ora?	}{	Allora perche' stai domandando alleanza ora?	}{	381	}{	G.Ming_Alliance == 0	}{	G.Ming_Alliance = 1	}{		}{		}{		}{		}{		}{		}{	Perche' questa ragnatela si e' stracciata?	}
+{	229	}{	Perche' dovevi rafforzare la tua posizione?	}{	Perche' dovevi rafforzare la tua posizione?	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	Cerchi forza per quale scopo?	}
+{	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	231	}{	Ti assicuro che non e' cosi'. LaCroix non e' piu' d'aiuto per noi, e per dirla tutta, neanche a te. Lo stelo del tuo destino appassisce. La tua linea di sangue finisce con quel tuo principe.	}{	Ti assicuro che non e' cosi'. LaCroix non e' piu' d'aiuto per noi, e per dirla tutta, neanche a te. La stelo del tuo destino appassisce. La tua linea di sangue finisce con quel tuo principe.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	232	}{	Ti raccomando di uscire fuori dalla citta', Ming-Xiao.	}{	Ti raccomando di uscire fuori dalla citta', Ming-Xiao.	}{	241	}{		}{		}{		}{		}{		}{		}{		}{		}{	Lascia questa citta' o perderai la tua vita.	}
+{	233	}{	Non mi piace neanche il ragazzo. E io tu mi piace ancora di meno.	}{	Non mi piace neanche il ragazzo. E io tu mi piace ancora di meno.	}{	241	}{		}{		}{		}{		}{		}{		}{		}{		}{	Nessun amore per il pagliaccio e meno per te.	}
+{	234	}{	Vedremo chi sara' l'ultimo a rimanere vivo.	}{	Vedremo chi sara' l'ultimo a rimanere vivo.	}{	241	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi inchinero' solo io alla chiusura del sipario.	}
+{	235	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	241	}{	Addio, Fratello.	}{	Addio, Fratello.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	242	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	243	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	244	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	245	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	246	}{	Capisco. Bene, non sprechero' altro tempo con te. Dovresti sapere che l'alleanza tra il tuo principe e i Kuei-jin e' finita.	}{	Capisco. Bene, non sprechero' altro tempo con te. Dovresti sapere che l'alleanza tra il tuo principe e i Kuei-jin e' finita.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	247	}{	Quindi c'era un'alleanza.	}{	Quindi c'era un'alleanza.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ah! La ragnatela ha rivelato il tradimento della luce oscura!	}
+{	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	Benvenuto, Fratello. Non avere paura degli artigli e canini dei tuoi Fratelli [sarcastico], sei sotto la nostra protezione ora.	}{	Benvenuto, Fratello. Non avere paura degli artigli e canini dei tuoi Fratelli [sarcastico], sei sotto la nostra protezione ora.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	Grazie, Ming-Xiao.	}{	Grazie, Ming-Xiao.	}{	261	}{	G.Ming_Ending == 0	}{		}{		}{		}{		}{		}{		}{		}{	La mia anima oscura e' illuminata dalla tua presenza.	}
+{	253	}{	Che sollievo.	}{	Che sollievo.	}{	261	}{	G.Ming_Ending == 0	}{		}{		}{		}{		}{		}{		}{		}{	Un palato ben accolto.	}
+{	254	}{	Sono stanco della politica e delle bugie dei Fratelli.	}{	Sono stanca della politica e delle bugie dei Fratelli.	}{	281	}{	G.Ming_Ending == 0	}{		}{		}{		}{		}{		}{		}{		}{	I giochi dei Fratelli antichi mi hanno stancato.	}
 {	255	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	Neither need you fear for the Kuei-jin soldiers; you have proven yourself a worthy champion and we are honored to have you as ours. I had so hoped your path would lead back to me.	}{	Neither need you fear for the Kuei-jin soldiers; you have proven yourself a worthy champion and we are honored to have you as ours. I had so hoped your path would lead back to me.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	Why would you be willing to accept a Kindred as your champion?	}{	Why would you be willing to accept a Kindred as your champion?	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can a Kindred wear the mantle of a Kuei-jin champion?	}
-{	263	}{	I am no Kuei-jin soldier, but this was my best option. Can you accept me?	}{	I am no Kuei-jin soldier, but this was my best option. Can you accept me?	}{	271	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	264	}{	I was sick of Kindred politics and lies.	}{	I was sick of Kindred politics and lies.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	The ancient Kindred games have sickened my soul.	}
-{	265	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	Why wouldn't I? A great warrior of low birth is still a great warrior.	}{	Why wouldn't I? A great warrior of low birth is still a great warrior.	}{	#	}{	G.Ming_Breasts = G.Ming_Breasts + 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	I'm sick of the prince and his games.	}{	I'm sick of the prince and his games.	}{	281	}{	G.Ming_Breasts == 1	}{	}{	}{	}{	}{	}{	}{	}{	I tire of the jester's double-faced words.	}
-{	273	}{	I've tired of Kindred politics and lies.	}{	I've tired of Kindred politics and lies.	}{	281	}{	G.Ming_Breasts == 1	}{	}{	}{	}{	}{	}{	}{	}{	The ancient Kindred games have sickened my soul.	}
-{	274	}{	I am willing to put the war between our peoples aside if you are.	}{	I am willing to put the war between our peoples aside if you are.	}{	301	}{	G.Ming_Breasts == 2	}{	}{	}{	}{	}{	}{	}{	}{	Let us make a separate peace, mistress.	}
-{	275	}{	LaCroix set me up.	}{	LaCroix set me up.	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	The jester sacrificed his pawn.	}
-{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	And you will not be made to endure them any longer. The lowly will do what they may to restrain those who would rise above. You shone too brilliantly to remain mired in their mediocrity.	}{	And you will not be made to endure them any longer. The lowly will do what they may to restrain those who would rise above. You shone too brilliantly to remain mired in their mediocrity.	}{	#	}{	G.Ming_Breasts = G.Ming_Breasts + 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	282	}{	Why would you be willing to accept a Kindred as your champion?	}{	Why would you be willing to accept a Kindred as your champion?	}{	271	}{	G.Ming_Breasts == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can a Kindred wear the mantle of a Kuei-jin champion?	}
-{	283	}{	I am no Kuei-jin soldier, but this was my best option.	}{	I am no Kuei-jin soldier, but this was my best option.	}{	271	}{	G.Ming_Breasts == 1 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	284	}{	I am willing to put the war between our peoples aside if you are.	}{	I am willing to put the war between our peoples aside if you are.	}{	301	}{	G.Ming_Breasts == 2	}{	}{	}{	}{	}{	}{	}{	}{	Let us make a separate peace, mistress.	}
-{	285	}{	LaCroix set me up.	}{	LaCroix set me up.	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	The jester sacrificed his pawn.	}
-{	286	}{	What do we do about LaCroix?	}{	What do we do about LaCroix?	}{	291	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	289	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	290	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	291	}{	The quest for the Ankaran Sarcophagus has taken LaCroix far from his path. He lacks balance, he's overextended, and now without his champion. It is our time to strike.	}{	The quest for the Ankaran Sarcophagus has taken LaCroix far from his path. He lacks balance, he's overextended, and now without his champion. It is our time to strike.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	292	}{	That will solve all of this?	}{	That will solve all of this?	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Is the move for this endgame?	}
-{	293	}{	I am willing to put the war between our peoples aside if you are.	}{	I am willing to put the war between our peoples aside if you are.	}{	301	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Let us make a separate peace, mistress.	}
-{	294	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	295	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	296	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	297	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	298	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	299	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	301	}{	The snake must be killed in its nest. You must go to the tower and put an end to LaCroix's rule before he brings the very city down around him. None of us will find peace while he stokes the fires of conflict.	}{	The snake must be killed in its nest. You must go to the tower and put an end to LaCroix's rule before he brings the very city down around him. None of us will find peace while he stokes the fires of conflict.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	302	}{	Agreed. It will be done.	}{	Agreed. It will be done.	}{	311	}{	}{	G.Ming_Faction = G.Ming_Faction + 1	}{	}{	}{	}{	}{	}{	}{	I will do this deed.	}
-{	303	}{	Very well.	}{	Very well.	}{	311	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	304	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	305	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	307	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	308	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	309	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	310	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	311	}{	Go then, champion. I must remain and protect the key, but I shall join you in time. May your fist carry the fury of a thousand hells.	}{	Go then, champion. I must remain and protect the key, but I shall join you in time. May your fist carry the fury of a thousand hells.	}{	#	}{	}{	G.Ming_Ending = 1; pc.SetQuest("Prince",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	312	}{	It will.	}{	It will.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll go to hell.	}
-{	313	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	314	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	315	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	316	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	317	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	318	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	319	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	320	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	321	}{	[cold, angry]You've become a grave disappointment, Kindred. This was not meant to be your destination but your path will end here.	}{	[cold, angry]You've become a grave disappointment, Kindred. This was not meant to be your destination but your path will end here.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	pc.SetQuest("Ming", 4)	}{	}{	}{	}{	}{	}{	}{	}
-{	322	}{	My purpose is not yours to decide.	}{	My purpose is not yours to decide.	}{	331	}{	IsClan(pc,"Ventrue") or IsClan(pc,"Toreador") or pc.humanity > 6	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	323	}{	Don't give me that crap. You don't know any more than any of the rest of us.	}{	Don't give me that crap. You don't know any more than any of the rest of us.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	My purpose is a road unknown to you, mistress.	}
-{	324	}{	Shut up and hand over the key.	}{	Shut up and hand over the key.	}{	338	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your life for the key, mistress of mirrors.	}
-{	325	}{	Die, bitch!	}{	Die, bitch!	}{	341	}{	pc.humanity < 4	}{	}{	}{	}{	}{	}{	}{	}{	Death has come for you on tattered wings! Die!	}
-{	326	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	327	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	328	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	329	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	330	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	331	}{	You were never more than a pawn, Kindred; puppet of those who drew the boundaries on your horizon. It was I who sensed in you the power to right the balance of this city; it will give me no joy to bring you Final Death.	}{	You were never more than a pawn, Kindred; puppet of those who drew the boundaries on your horizon. It was I who sensed in you the power to right the balance of this city; it will give me no joy to bring you Final Death.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	332	}{	We don't have to do this - just give me the key.	}{	We don't have to do this - just give me the key.	}{	338	}{	G.Story_State == 110	}{	}{	}{	}{	}{	}{	}{	}{	Your life for the key, mistress of mirrors.	}
-{	333	}{	I'm not your puppet or anyone else's.	}{	I'm not your puppet or anyone else's.	}{	341	}{	G.Story_State == 115	}{	}{	}{	}{	}{	}{	}{	}{	I dance to no strings, puppetress!	}
-{	334	}{	You won't need to do any mourning for me. You, on the other hand...	}{	You won't need to do any mourning for me. You, on the other hand...	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	My tears will mix with your smoking ashes.	}
-{	335	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	336	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	337	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	338	}{	I will not let you or anyone have the power of the sarcophagus!	}{	I will not let you or anyone have the power of the sarcophagus!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	339	}{	I'm not asking.	}{	I'm not asking.	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Permission is not in your power.	}
-{	340	}{	Then you will die.	}{	Then you will die.	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then death has come to your doorstep.	}
-{	341	}{	You will have time to ponder this folly as you are devoured by worms and disease in the hell of burrowing maggots. A thousand years shall you suffer.	}{	You will have time to ponder this folly as you are devoured by worms and disease in the hell of burrowing maggots. A thousand years shall you suffer.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	342	}{	Whatever...	}{	Whatever...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oh, maggots!	}
-{	343	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	344	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	345	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	346	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	347	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	348	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	349	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	350	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	351	}{	[As Nines]You! What are you doing here?	}{	[As Nines]You! What are you doing here?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	352	}{	Yo, Nines! What's up?	}{	Yo, Nines! What's up?	}{	361	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	He of the numbered name!	}
-{	353	}{	I might ask you the same thing.	}{	I might ask you the same thing.	}{	361	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Wandering the mystical maze of my mind.	}
-{	354	}{	I was just in the neighborhood.	}{	I was just in the neighborhood.	}{	361	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Just hoofin' around this 'hood.	}
-{	355	}{	Yo, Nines! What's up?	}{	Yo, Nines! What's up?	}{	151	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	He of the numbered name!	}
-{	356	}{	I might ask you the same thing.	}{	I might ask you the same thing.	}{	151	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Wandering the mystical maze of my mind.	}
-{	357	}{	I was just in the neighborhood.	}{	I was just in the neighborhood.	}{	151	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Just hoofin' around this 'hood.	}
-{	358	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	359	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	360	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	361	}{	[As Nines]No.	}{	[As Nines]No.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	362	}{	That wasn't really a yes or no question.	}{	That wasn't really a yes or no question.	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your words are a little wobbly.	}
-{	363	}{	Are you looking into Grout's disappearance, too?	}{	Are you looking into Grout's disappearance, too?	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Do you also seek the missing Malkavian?	}
-{	364	}{	You feeling alright, man?	}{	You feeling alright, man?	}{	371	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	365	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	366	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	367	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	368	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	369	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	370	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	371	}{	[As Nines]You should get out of here. This place is bad news. Uh... pardon me.	}{	[As Nines]You should get out of here. This place is bad news. Uh... pardon me.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	372	}{	Why? What's inside?	}{	Why? What's inside?	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	What secrets within those walls?	}
-{	373	}{	Maybe for you, but for a badass like me...	}{	Maybe for you, but for a badass bitch like me...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your mouth is making mystical mush.	}
-{	374	}{	Huh?	}{	Huh?	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	375	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	376	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	377	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	378	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	379	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	380	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	381	}{	Our dealings with LaCroix have put his integrity into question. He has become careless. His desire for the sarcophagus seems to have superseded all other concerns, including political discretion.	}{	Our dealings with LaCroix have put his integrity into question. He has become careless. His desire for the sarcophagus seems to have superseded all other concerns, including political discretion.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	382	}{	Go on.	}{	Go on.	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	Walk onwards.	}
-{	383	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	384	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	385	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	386	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	387	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	388	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	389	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	390	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	391	}{	It is obvious to me that he wishes to obtain it only so that he might use its power against those who would oppose him. If he betrays his own kind in these pursuits, can I trust him to honor our allegiances? Can you?	}{	It is obvious to me that he wishes to obtain it only so that he might use its power against those who would oppose him. If he betrays his own kind in these pursuits, can I trust him to honor our allegiances? Can you?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	261	}{	Non devi aver paura dei soldati Kuei-jin; ti sei dimostrato un campione e siamo onorati di averti tra le nostre fila. Ho sperato che il tuo percorso ti avrebbe riportato qui da me.	}{	Non devi aver paura dei soldati Kuei-jin; ti sei dimostrato un campione e siamo onorati di averti tra le nostre fila. Ho sperato che il tuo percorso ti avrebbe riportato qui da me.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	262	}{	Perche' accetti un Fratello come tuo campione?	}{	Perche' accetti un Fratello come tuo campione?	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Puo' un Fratello indossare il mantello di un campione Kuei-jin?	}
+{	263	}{	Non sono un soldato Kuei-jin, ma questa era la mia migliore opzione. Puoi accettarmi?	}{	Non sono un soldato Kuei-jin, ma questa era la mia migliore opzione. Puoi accettarmi?	}{	271	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	264	}{	Ero stanco della politica e delle bugie dei Fratelli.	}{	Ero stanca della politica e delle bugie dei Fratelli.	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	I giochi dei Fratelli antichi mi hanno stancato.	}
+{	265	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	Perche' non dovrei? Un grande guerriero appena nato e' sempre un grande guerriero.	}{	Perche' non dovrei? Una grande guerriera appena nata e' sempre una grande guerriera.	}{	#	}{		G.Ming_Breasts = G.Ming_Breasts + 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	272	}{	Sono stanco del principe e dei suoi giochi.	}{	Sono stanca del principe e dei suoi giochi.	}{	281	}{	G.Ming_Breasts == 1	}{		}{		}{		}{		}{		}{		}{		}{	Stanco della doppia faccia del pagliaccio.	}
+{	273	}{	Ero stanco della politica e delle bugie dei Fratelli.	}{	Ero stanca della politica e delle bugie dei Fratelli.	}{	281	}{	G.Ming_Breasts == 1	}{		}{		}{		}{		}{		}{		}{		}{	I giochi dei Fratelli antichi mi hanno stancato.	}
+{	274	}{	Voglio fare guerra tra le nostre persone se lo vuoi anche tu.	}{	Voglio fare guerra tra le nostre persone se lo vuoi anche tu.	}{	301	}{	G.Ming_Breasts == 2	}{		}{		}{		}{		}{		}{		}{		}{	Facciamo una pace separata, demone.	}
+{	275	}{	LaCroix mi ha sistemato per bene.	}{	LaCroix mi ha sistemata per bene.	}{	291	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il pagliaccio ha sacrificato la sua pedina.	}
+{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{	E non sarai fatto per sopportarli. Gli inferiori faranno cio' che possono per contenere coloro che cercano di scalare la cima. Brilli troppo intensamente per rimanere intrappolato nella loro mediocrita'.	}{	E non sarai fatto per sopportarli. Gli inferiori faranno cio' che possono per contenere coloro che cercano di scalare la cima. Brilli troppo intensamente per rimanere intrappolata nella loro mediocrita'.	}{	#	}{	G.Ming_Breasts = G.Ming_Breasts + 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	282	}{	Perche' accetti un Fratello come tuo campione?	}{	Perche' accetti un Fratello come tuo campione?	}{	271	}{	G.Ming_Breasts == 1	}{		}{		}{		}{		}{		}{		}{		}{	Puo' un Fratello indossare il mantello di un campione Kuei-jin?	}
+{	283	}{	Non sono un soldato Kuei-jin, ma questa era la mia migliore opzione.	}{	Non sono un soldato Kuei-jin, ma questa era la mia migliore opzione.	}{	271	}{	G.Ming_Breasts == 1 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	284	}{	Voglio fare guerra tra le nostre persone se lo vuoi anche tu.	}{	Voglio fare guerra tra le nostre persone se lo vuoi anche tu.	}{	301	}{	G.Ming_Breasts == 2	}{		}{		}{		}{		}{		}{		}{		}{	Facciamo una pace separata, demone.	}
+{	285	}{	LaCroix mi ha sistemato per bene.	}{	LaCroix mi ha sistemata per bene.	}{	291	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il pagliaccio ha sacrificato la sua pedina.	}
+{	286	}{	Cosa facciamo con LaCroix?	}{	Cosa facciamo con LaCroix?	}{	291	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	287	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	288	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	290	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	291	}{	La ricerca per il Sarcofago Ankaran ha portato LaCroix lontano dal suo percorso. Manca di equilibrio, si e' portato troppo oltre e ora e' senza il suo campione. E' tempo di eliminarlo.	}{	La ricerca per il Sarcofago Ankaran ha portato LaCroix lontano dal suo percorso. Manca di equilibrio, si e' portato troppo oltre e ora e' senza il suo campione. E' tempo di eliminarlo.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	292	}{	Questo risolvera' tutto?	}{	Questo risolvera' tutto?	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' la mossa giusta per la fine del gioco?	}
+{	293	}{	Voglio fare guerra tra le nostre persone se lo vuoi anche tu.	}{	Voglio fare guerra tra le nostre persone se lo vuoi anche tu.	}{	301	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Facciamo una pace separata, demone.	}
+{	294	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	295	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	296	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	297	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	298	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	299	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	301	}{	Il serpente deve essere ucciso nella sua tana. Devi andare alla torre e mettere fino al governo di LaCroix prima butti giu' l'intera citta'. Nessuno di noi trovera' pace mentre scatena il fuoco del conflitto.	}{	Il serpente deve essere ucciso nella sua tana. Devi andare alla torre e mettere fino al governo di LaCroix prima butti giu' l'intera citta'. Nessuno di noi trovera' pace mentre scatena il fuoco del conflitto.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	302	}{	Concordo. Sara' fatto.	}{	Concordo. Sara' fatto.	}{	311	}{		}{	G.Ming_Faction = G.Ming_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Faro' questo compito.	}
+{	303	}{	Molto bene.	}{	Molto bene.	}{	311	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	304	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	305	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	306	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	307	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	308	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	310	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	311	}{	Vai allora, campione. Io devo rimanere a proteggere la chiave, ma mi uniro' a te in tempo. Possa il tuo primo pugno trasportare con se un migliaio di inferni.	}{	Vai allora, campione. Io devo rimanere a proteggere la chiave, ma mi uniro' a te in tempo. Possa il tuo primo pugno trasportare con se un migliaio di inferni.	}{	#	}{		}{	G.Ming_Ending = 1; pc.SetQuest("Prince",3)	}{		}{		}{		}{		}{		}{		}{		}
+{	312	}{	Lo farÃ .	}{	Lo farÃ .	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	AndrÃ² all'inferno.	}
+{	313	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	314	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	315	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	316	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	317	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	318	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	319	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	320	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	321	}{	[fredda, arrabbiare]Sei diventato una grande delusione, Fratello. Questa non doveva essere la tua destinazione ma la fine del tuo percorso.	}{	[fredda, arrabbiare]Sei diventata una grande delusione, Fratello. Questa non doveva essere la tua destinazione ma la fine del tuo percorso.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	pc.SetQuest("Ming", 4)	}{		}{		}{		}{		}{		}{		}{		}
+{	322	}{	Il mio scopo non sta a te deciderlo.	}{	Il mio scopo non sta a te deciderlo.	}{	331	}{	IsClan(pc,"Ventrue") or IsClan(pc,"Toreador") or pc.humanity > 6	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	323	}{	Non dirmi altre stronzate. Non sai nulla di cio' che non sappiano anche gli altri.	}{	Non dirmi altre stronzate. Non sai nulla di cio' che non sappiano anche gli altri.	}{	331	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il mio scopo e' una strada sconosciuta a te, demone.	}
+{	324	}{	Zitta e dammi la chiave.	}{	Zitta e dammi la chiave.	}{	338	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua vita per la chiave, demone degli specchi.	}
+{	325	}{	Muori stronza!	}{	Muori stronza!	}{	341	}{	pc.humanity < 4	}{		}{		}{		}{		}{		}{		}{		}{	La morte e' arrivata per te! Muori!	}
+{	326	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	327	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	328	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	329	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	331	}{	Non sei stato nulla piu' di una pedina, Fratello; una marionetta di quelli che disegnavano i confini del tuo orizzonte. Io ho capito la tua potenza per il giusto bilancio di questa citta'; non mi portera' gioia portati alla Morte Finale.	}{	Non sei stato nulla piu' di una pedina, Fratello; una marionetta di quelli che disegnavano i confini del tuo orizzonte. Io ho capito la tua potenza per il giusto bilancio di questa citta'; non mi portera' gioia portati alla Morte Finale.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	332	}{	Non dobbiamo farlo per forza - semplicemente dammi la chiave.	}{	Non dobbiamo farlo per forza - semplicemente dammi la chiave.	}{	338	}{	G.Story_State == 110	}{		}{		}{		}{		}{		}{		}{		}{	La tua vita per la chiave, demone degli specchi.	}
+{	333	}{	Non sono la tua marionetta e di nessun altro.	}{	Non sono la tua marionetta e di nessun altro.	}{	341	}{	G.Story_State == 115	}{		}{		}{		}{		}{		}{		}{		}{	Balla senza sequenze, marionetta!	}
+{	334	}{	Non dovrai farmi alcun cordoglio. A te, invece...	}{	Non dovrai farmi alcun cordoglio. A te, invece...	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le mie lacrime si mischieranno con le ceneri fumanti.	}
+{	335	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	336	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	337	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	338	}{	Non ti lascero' avere il potere del sarcofago!	}{	Non ti lascero' avere il potere del sarcofago!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	339	}{	Non te lo sto chiedendo.	}{	Non te lo sto chiedendo.	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il permesso non e' in tuo potere.	}
+{	340	}{	Allora morirai.	}{	Allora morirai.	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	La morte e' alla porta.	}
+{	341	}{	Avrai tempo di pensare a questa follia mentre sarai divorato dai vermi e malattia nell'inferno della tana dei vermi. Soffrirai mille anni.	}{	Avrai tempo di pensare a questa follia mentre sarai divorata dai vermi e malattia nell'inferno della tana dei vermi. Soffrirai mille anni.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	342	}{	Non importa,...	}{	Non importa,...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oh, larve!	}
+{	343	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	344	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	345	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	346	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	347	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	348	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	349	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	350	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	351	}{	[Come Ming-Xiao]Tu! Cosa ci fai qui?	}{	[Come Ming-Xiao]Tu! Cosa ci fai qui?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	352	}{	Yo, Nines! Come va?	}{	Yo, Nines! Come va?	}{	361	}{	G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{	Lui dal nome numerato!	}
+{	353	}{	Potrei chiederti la stessa cosa.	}{	Potrei chiederti la stessa cosa.	}{	361	}{	G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{	Chiedo alla pazzia della mia mente.	}
+{	354	}{	Ero nelle vicinanze.	}{	Ero nelle vicinanze.	}{	361	}{	G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{	Ero qui in giro.	}
+{	355	}{	Yo, Nines! Che succede?	}{	Yo, Nines! Che succede?	}{	151	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Lui del nome numerato!	}
+{	356	}{	Potrei chiederti la stessa cosa.	}{	Potrei chiederti la stessa cosa.	}{	151	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Vagando nel labirinto mistico della mia mente.	}
+{	357	}{	Ero nei paraggi.	}{	Ero solo nei paraggi.	}{	151	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Basta aggirarsi intorno a questo "cappuccio".	}
+{	358	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	359	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	360	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	361	}{	[Come Ming-Xiao]No.	}{	[Come Ming-Xiao]No.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	362	}{	Non era proprio una domanda da si o no.	}{	Non era proprio una domanda da si o no.	}{	371	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le tue parole sono un po' traballanti.	}
+{	363	}{	Stai cercando anche tu il Grout scomparso?	}{	Stai cercando anche tu il Grout scomparso?	}{	371	}{		}{		}{		}{		}{		}{		}{		}{		}{	Cerchi il Malkavian scomparso?	}
+{	364	}{	Ti senti bene, amico?	}{	Ti senti bene, amico?	}{	371	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	365	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	366	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	367	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	368	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	369	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	370	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	371	}{	[Come Ming-Xiao]Dovrei andartene. Questo posto ha pessime notizie. Uh... scusami.	}{	[Come Ming-Xiao]Dovrei andartene. Questo posto ha pessime notizie. Uh... scusami.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	372	}{	Perche'? Cosa c'e' all'interno?	}{	Perche'? Cosa c'e' all'interno?	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quali segreti ci sono dentro quelle mura?	}
+{	373	}{	Forse per te, ma per un coglione come me...	}{	Forse per te, ma per una rincoglionita come me...	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua bocca sta facendo errori.	}
+{	374	}{	Huh?	}{	Huh?	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	375	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	376	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	377	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	378	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	379	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	380	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	381	}{	Il nostro accorto con LaCroix ha messo in questione la sua integrita'. E' diventato incurante. Il suo desiderio per il sarcofago sembra averlo sopraffatto in tutti i modi, incluso la discrezione politica.	}{	Il nostro accorto con LaCroix ha messo in questione la sua integrita'. E' diventato incurante. Il suo desiderio per il sarcofago sembra averlo sopraffatto in tutti i modi, incluso la discrezione politica.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	382	}{	Continua.	}{	Continua.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{	Continua.	}
+{	383	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	384	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	385	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	386	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	387	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	388	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	389	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	390	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	391	}{	E' ovvio per me che lui desidera ottenerlo solo cosi' potra' usare la sua potenza contro quelli che si oppongono. Se tradisce la sua stessa specie in queste ricerche, posso fidarmi di lui nella nostra alleanza? E tu?	}{	E' ovvio per me che lui desidera ottenerlo solo cosi' potra' usare la sua potenza contro quelli che si oppongono. Se tradisce la sua stessa specie in queste ricerche, posso fidarmi di lui nella nostra alleanza? E tu?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	392	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	393	}{	I see your point. But why do you care about what happens to me?	}{	I see your point. But why do you care about what happens to me?	}{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why do you fret over my fate, mistress?	}
-{	394	}{	I don't know what to believe anymore. I'm leaving, Ming-Xiao.	}{	I don't know what to believe anymore. I'm leaving, Ming-Xiao.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	All these tales are terribly tangled. I leave you.	}
-{	395	}{	This all sounds a little screwy. I don't buy it.	}{	This all sounds a little screwy. I don't buy it.	}{	411	}{	}{	}{	}{	}{	}{	}{	}{	}{	Feathers are the weight of your words, mistress. A labyrinth of lies.	}
-{	396	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	397	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	398	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	399	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	400	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	401	}{	Our war with the Anarchs has taken its toll. A truce with the Camarilla allowed us to marshal our remaining forces and focus on a lone enemy.	}{	Our war with the Anarchs has taken its toll. A truce with the Camarilla allowed us to marshal our remaining forces and focus on a lone enemy.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	402	}{	So you were the one at Grout's mansion?	}{	So you were the one at Grout's mansion?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	It was your face at the mansion of the mad doctor!	}
-{	403	}{	Alright. So what's the problem? Why break the alliance now?	}{	Alright. So what's the problem? Why break the alliance now?	}{	381	}{	G.Ming_Alliance == 0	}{	G.Ming_Alliance = 1	}{	}{	}{	}{	}{	}{	}{	Why did your web become unwoven?	}
-{	404	}{	Why are you telling me any of this?	}{	Why are you telling me any of this?	}{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why do you share these secrets with me, snake-charmer?	}
-{	405	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	406	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	407	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	408	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	409	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	410	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	411	}{	Tell me something, Kindred. In all of our dealings, have I ever once lied to you? Can you say the same of your prince?	}{	Tell me something, Kindred. In all of our dealings, have I ever once lied to you? Can you say the same of your prince?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	412	}{	No, you haven't. But why do you care about what happens to me?	}{	No, you haven't. But why do you care about what happens to me?	}{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why do you fret over my fate, mistress?	}
-{	413	}{	Alright. So what's the problem? Why question the alliance now?	}{	Alright. So what's the problem? Why question the alliance now?	}{	381	}{	G.Ming_Alliance == 0	}{	G.Ming_Alliance = 1	}{	}{	}{	}{	}{	}{	}{	Why did your web become unwoven?	}
-{	414	}{	I don't know what to believe anymore. I'm leaving, Ming-Xiao.	}{	I don't know what to believe anymore. I'm leaving, Ming-Xiao.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Feathers are the weight of your words, mistress. A labyrinth of lies.	}
-{	415	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	416	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	417	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	418	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	419	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	420	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	421	}{	My compliments, Sebastian, you couldn't have picked a more capable and ambitious operative. You should have done a better job of keeping someone so vital to your success at your side. I was... grateful that they came to see me tonight.	}{	My compliments, Sebastian, you couldn't have picked a more capable and ambitious operative. You should have done a better job of keeping someone so vital to your success at your side. I was... grateful that they came to see me tonight.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	422	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	423	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	424	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	425	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	426	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	427	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	428	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	429	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	430	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	431	}{	What's the matter? You're very quiet, it's so unlike you. Did you have a speech prepared for me, Sebastian, for when you and your soldiers would walk into my temple and put me to death? What words awaited me, in that cavalier braggadocio of yours, hmm, sweet prince?	}{	What's the matter? You're very quiet, it's so unlike you. Did you have a speech prepared for me, Sebastian, for when you and your soldiers would walk into my temple and put me to death? What words awaited me, in that cavalier braggadocio of yours, hmm, sweet prince?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	432	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	433	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	434	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	435	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	436	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	437	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	438	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	439	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	440	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	441	}{	I always imagined you would beg for your life, attempt some final bargain for that handsome head of yours. I am refreshed and humbled by your silence - my apologies, Sebastian.	}{	I always imagined you would beg for your life, attempt some final bargain for that handsome head of yours. I am refreshed and humbled by your silence - my apologies, Sebastian.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	442	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	443	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	444	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	445	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	446	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	447	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	448	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	449	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	450	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	451	}{	Unfortunately, this is all I had to say: farewell.	}{	Unfortunately, this is all I had to say: farewell.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	452	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	453	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	454	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	455	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	456	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	457	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	458	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	459	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	460	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	461	}{	You were splendid tonight. With LaCroix gone, the Camarilla will fall. Without Nines Rodriguez or the Camarilla to lead them, the rest of the Kindred will be flushed from their havens and driven out like rats from the flood.	}{	You were splendid tonight. With LaCroix gone, the Camarilla will fall. Without Nines Rodriguez or the Camarilla to lead them, the rest of the Kindred will be flushed from their havens and driven out like rats from the flood.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	462	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	463	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	464	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	465	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	466	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	467	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	468	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	469	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	470	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	471	}{	[rhetorical]What did he think he would accomplish with this? Hmm. No matter; I can think of a perfectly good use for it - there is still one very dangerous Kindred in this city who could stand in the way of my goal.	}{	[rhetorical]What did he think he would accomplish with this? Hmm. No matter; I can think of a perfectly good use for it - there is still one very dangerous Kindred in this city who could stand in the way of my goal.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	472	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	473	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	474	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	475	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	476	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	477	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	478	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	479	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	480	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	481	}{	[Slight laugh]Did you really think I could let you exist within OUR society? But I do appreciate your service to me, and for that, I will spare your life. Farewell, Kindred.	}{	[Slight laugh]Did you really think I could let you exist within OUR society? But I do appreciate your service to me, and for that, I will spare your life. Farewell, Kindred.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	482	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	483	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	484	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	485	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	486	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	487	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	488	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	489	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	490	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	491	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	492	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	493	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	494	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	495	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	496	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	497	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	498	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	499	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	500	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	501	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	502	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	393	}{	Capisco il punto. Ma perche' ti importa di cio' che mi accade?	}{	Capisco il punto. Ma perche' ti importa di cio' che mi accade?	}{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' punti sul mio destino, demone?	}
+{	394	}{	Non so piu' a cosa credere. Me ne vado, Ming-Xiao.	}{	Non so piu' a cosa credere. Me ne vado, Ming-Xiao.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tutti questi racconti sono terribilmente annodati. Ti lascio.	}
+{	395	}{	Suona tutto un po' confuso. Non ci credo.	}{	Suona tutto un po' confuso. Non ci credo.	}{	411	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le piume sono il peso delle tue parole, demone. Un labirinto di bugie.	}
+{	396	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	397	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	398	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	399	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	400	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	401	}{	La nostra guerra contro gli anarchici ha preso il suo pedaggio. Una tregua con la Camarilla ci ha permesso di mobilitare le nostre rimanenti forze e concentrarci su un solo nemico.	}{	La nostra guerra contro gli anarchici ha preso il suo pedaggio. Una tregua con la Camarilla ci ha permesso di mobilitare le nostre rimanenti forze e concentrarci su un solo nemico.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	402	}{	Quindi eri tu che ho visto alla villa di Grout?	}{	Quindi eri tu che ho visto alla villa di Grout?	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Era la tua faccia alla villa del dottore pazzo!	}
+{	403	}{	Bene. Allora qual'e' il problema? Perche' rompere questa alleanza ora?	}{	Bene. Allora qual'e' il problema? Perche' rompere questa alleanza ora?	}{	381	}{	G.Ming_Alliance == 0	}{	G.Ming_Alliance = 1	}{		}{		}{		}{		}{		}{		}{	Perche' la tua ragnatela si e' stracciata?	}
+{	404	}{	Perche' mi stai dicendo questo?	}{	Perche' mi stai dicendo questo?	}{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' condividi questi segreti con me, serpente?	}
+{	405	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	406	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	407	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	408	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	409	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	410	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	411	}{	Dimmi qualcosa, Fratello. In tutti i nostri accordi, ti ho mai mentito una volta? Puoi dire lo stesso del tuo principe?	}{	Dimmi qualcosa, Fratello. In tutti i nostri accordi, ti ho mai mentito una volta? Puoi dire lo stesso del tuo principe?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	412	}{	No, mai. Ma perche' ti importa cosa mi accade?	}{	No, mai. Ma perche' ti importa cosa mi accade?	}{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' punti sul mio destino, demone?	}
+{	413	}{	Bene. Allora qual'e' il problema? Perche' rompere questa alleanza ora?	}{	Bene. Allora qual'e' il problema? Perche' rompere questa alleanza ora?	}{	381	}{	G.Ming_Alliance == 0	}{	G.Ming_Alliance = 1	}{		}{		}{		}{		}{		}{		}{	Perche' la tua ragnatela si e' stracciata?	}
+{	414	}{	Non so piu' a cosa credere. Me ne vado, Ming-Xiao.	}{	Non so piu' a cosa credere. Me ne vado, Ming-Xiao.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le piume sono il peso delle tue parole, demone. Un labirinto di bugie.	}
+{	415	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	416	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	417	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	418	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	419	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	420	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	421	}{	I miei complimenti, Sebastian, non potevi essere piu' capace e ambizioso. Avresti dovuto fare un lavoro migliore per trattenere qualcuno di cosi' vitale per il tuo successo. Ero... grata che sono venuti a farmi visita stanotte.	}{	I miei complimenti, Sebastian, non potevi essere piu' capace e ambizioso. Avresti dovuto fare un lavoro migliore per trattenere qualcuno di cosi' vitale per il tuo successo. Ero... grata che sono venuti a farmi visita stanotte.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	422	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	423	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	424	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	425	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	426	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	427	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	428	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	429	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	430	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	431	}{	Cosa c'e'? Sei molto silenzioso, e' insolito per te. Hai un discorso preparato per me, Sebastian, per quando tu e i tuoi soldati cammineranno nel mio tempio e mi uccideranno? Che parole mi aspettavano, in quel cavaliere che sei, hmm, dolce principe?	}{	Cosa c'e'? Sei molto silenzioso, e' insolito per te. Hai un discorso preparato per me, Sebastian, per quando tu e i tuoi soldati cammineranno nel mio tempio e mi uccideranno? Che parole mi aspettavano, in quel cavaliere che sei, hmm, dolce principe?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	432	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	433	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	434	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	435	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	436	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	437	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	438	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	439	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	440	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	441	}{	Ti ho sempre immaginata supplicare per tutta la vita, un tentativo finale di guadagno. Sono dubbiosa dal tuo silenzio - le mie scuse, Sebastian.	}{	Ti ho sempre immaginata supplicare per tutta la vita, un tentativo finale di guadagno. Sono dubbiosa dal tuo silenzio - le mie scuse, Sebastian.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	442	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	443	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	444	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	445	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	446	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	447	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	448	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	449	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	450	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	451	}{	Sfortunatamente, questo e' tutto cio' che ho da dire: addio.	}{	Sfortunatamente, questo e' tutto cio' che ho da dire: addio.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	452	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	453	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	454	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	455	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	456	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	457	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	458	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	459	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	460	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	461	}{	Eri splendido stanotte. Con LaCroix fuori causa, la Camarilla cadra'. Senza Nines Rodriguez o la Camarilla a guidarli, il resto dei Fratelli saranno scaricati dai loro covi e gireranno in giro a vuoto.	}{	Eri splendido stanotte. Con LaCroix fuori causa, la Camarilla cadra'. Senza Nines Rodriguez o la Camarilla a guidarli, il resto dei Fratelli saranno scaricati dai loro covi e gireranno in giro a vuoto.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	462	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	463	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	464	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	465	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	466	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	467	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	468	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	469	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	470	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	471	}{	[retorica]Cosa pensava che avrebbe completato la missione? Hmm. Non importa; Posso pensare ad un uso perfetto - c'e' ancora un Fratello molto pericoloso in questa citta' che potrebbe ostacolarmi.	}{	[retorica]Cosa pensava che avrebbe completato la missione? Hmm. Non importa; Posso pensare ad un uso perfetto - c'e' ancora un Fratello molto pericoloso in questa citta' che potrebbe ostacolarmi.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	472	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	473	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	474	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	475	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	476	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	477	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	478	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	479	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	480	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	481	}{	[Leggera risata]Pensavi veramente che ti avrei lasciato vivere nella NOSTRA societa'? Ma apprezzo il tuo servizio per me, e per questo, risparmiero' la tua vita. Addio, Fratello.	}{	[Leggera risata]Pensavi veramente che ti avrei lasciato vivere nella NOSTRA societa'? Ma apprezzo il tuo servizio per me, e per questo, risparmiero' la tua vita. Addio, Fratello.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	482	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	483	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	484	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	485	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	486	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	487	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	488	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	489	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	490	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	491	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	492	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	493	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	494	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	495	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	496	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	497	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	498	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	499	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	500	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	501	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	502	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	503	}{	(Starting Condition)	}{	}{	311	}{	G.Story_State == 100 and G.Ming_Ending == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	504	}{	(Starting Condition)	}{	}{	251	}{	G.Story_State == 100	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	505	}{	(Starting Condition)	}{	}{	321	}{	G.Story_State == 105	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	506	}{	(Starting Condition)	}{	}{	321	}{	G.Story_State == 110	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	507	}{	(Starting Condition)	}{	}{	321	}{	G.Story_State == 115	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	508	}{	(Starting Condition)	}{	}{	321	}{	G.Story_State == 120	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	509	}{	(Starting Condition)	}{	}{	321	}{	G.Story_State == 125	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	510	}{	(Starting Condition)	}{	}{	321	}{	G.Ming_Ending == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	506	}{	(Starting Condition)	}{		}{	321	}{	G.Story_State == 110	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	507	}{	(Starting Condition)	}{		}{	321	}{	G.Story_State == 115	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	508	}{	(Starting Condition)	}{		}{	321	}{	G.Story_State == 120	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	509	}{	(Starting Condition)	}{		}{	321	}{	G.Story_State == 125	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	510	}{	(Starting Condition)	}{		}{	321	}{	G.Ming_Ending == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	511	}{	(Starting Condition)	}{	}{	211	}{	G.Story_State >= 80 and G.Story_State < 100	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	512	}{	(Starting Condition)	}{	}{	11	}{	G.Story_State == 75	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	513	}{	(Starting Condition)	}{	}{	351	}{	G.Story_State < 20	}{	}{	}{	}{	}{	}{	}{	}{	}
