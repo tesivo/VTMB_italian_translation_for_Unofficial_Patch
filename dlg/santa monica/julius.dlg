@@ -68,7 +68,7 @@
 {	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	71	}{	[Grida, gemiti di shock e incredulità]Heh! Hehhhh n-n-n-n-no. Oh d-d-dio!	}{	[Grida, gemiti di shock e incredulità]Heh! Hehhhh n-n-n-n-no. Oh d-d-dio!	}{	#	}{	npc.SetDisposition("Fear", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	[Grida, gemiti di shock e incredulita']Heh! Hehhhh n-n-n-n-no. Oh d-d-dio!	}{	[Grida, gemiti di shock e incredulita']Heh! Hehhhh n-n-n-n-no. Oh d-d-dio!	}{	#	}{	npc.SetDisposition("Fear", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	72	}{	Non sono le mie regole, capisci?	}{	Non sono le mie regole, capisci?	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le regole sono scritte sull'ossidiana.	}
 {	73	}{	Dai, Julius. Credi che voglia farlo? Sto solo seguendo gli ordini.	}{	Dai, Julius. Credi che voglia farlo? Sto solo seguendo gli ordini.	}{	81	}{	Humanity -8	}{		}{		}{		}{		}{		}{		}{		}{	Le mie azioni sono governate dal nostro sangue.	}
 {	74	}{	Cosa preferisci? Decapitazione? Barbecue? alla Cobain?	}{	Cosa preferisci? Decapitazione? Barbecue? alla Cobain?	}{	81	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{	Vermi! Larve! Il tuo corpo marcira' nel suo stesso fluido!	}
@@ -128,7 +128,7 @@
 {	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	131	}{	[Malato di incredulità, soffocato dalle lacrime]Oh, oh d-d-d-d-d-dio, no![Tieni questo per circa mezzo minuto, pietoso singhiozzo.]	}{	[Malato di incredulità, soffocata dalle lacrime]Oh, oh d-d-d-d-d-dio, no![Tieni questo per circa mezzo minuto, pietoso singhiozzo.]	}{	#	}{	npc.SetDisposition("Fear", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	[Malato di incredulita', soffocato dalle lacrime]Oh, oh d-d-d-d-d-dio, no![Tieni questo per circa mezzo minuto, pietoso singhiozzo.]	}{	[Malato di incredulita', soffocata dalle lacrime]Oh, oh d-d-d-d-d-dio, no![Tieni questo per circa mezzo minuto, pietoso singhiozzo.]	}{	#	}{	npc.SetDisposition("Fear", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	132	}{	Non posso farlo. Vattene, lascia la citta'. Ma se ritorni, sara' finita.	}{	Non posso farlo. Vattene, lascia la citta'. Ma se ritorni, sara' finita.	}{	111	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Non posso colpire il verme smidollato. Ora va', e non tornare piu'.	}
 {	133	}{	Mi dispiace tanto. Perdonami.	}{	Mi dispiace tanto. Perdonami.	}{	0	}{	Humanity 5	}{	G.Julius_Cringe = 1	}{		}{		}{		}{		}{		}{		}{	La cieca signora mi dice cosa dev'essere fatto. Addio.	}
 {	134	}{	Tutti noi siamo solo delle pedine in un gioco senza regole, Julius. Saro' veloce, te lo prometto.	}{	Tutti noi siamo solo delle pedine in un gioco senza regole, Julius. Saro' veloce, te lo prometto.	}{	0	}{	G.Extra_Lines == 1	}{	G.Julius_Cringe = 1	}{		}{		}{		}{		}{		}{		}{	Siamo entrambi delle pedine e la mano oscura mi usa per farti cadere. La tua partita termina qui.	}

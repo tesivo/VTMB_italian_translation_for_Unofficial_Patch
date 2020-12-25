@@ -139,7 +139,7 @@
 {	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	141	}{	Balbetta la tua lingua madre nelle buche degli abissi! Non la sentiro' piu'!	}{	Balbetta la tua lingua madre nelle buche degli abissi! Non la sentiro' piu'!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	142	}{	Ma...	}{	Ma...	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	MA PERCHÉ?	}
+{	142	}{	Ma...	}{	Ma...	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	MA PERCHe'?	}
 {	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	144	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	145	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

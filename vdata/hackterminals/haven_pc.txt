@@ -258,7 +258,7 @@ Jeanette "
 	{
 		"subject"	"Biblioteca"
 		"sender"	"beckett@legend.vtm"
-		"body"	"Ciao giovane, LaCroix ti ha elogiato per la tua intraprendenza, quindi forse potresti aiutarmi con una questione importante. Un collega Gangrel, Scott, che stava facendo delle ricerche per me alla biblioteca pubblica, afferma di aver visto un Sabbat Kindred lì. Dato che in questo momento sono preoccupato, per favore incontratelo al mio posto al vecchio negozio di fumo di Santa Monica. Avrà i dettagli. Scott ha insistito molto sul fatto che c'è qualcosa in ballo. E non vorremmo che succedesse qualcosa di brutto a tutti quei preziosi libri, vero? - Beckett"
+		"body"	"Ciao giovane, LaCroix ti ha elogiato per la tua intraprendenza, quindi forse potresti aiutarmi con una questione importante. Un collega Gangrel, Scott, che stava facendo delle ricerche per me alla biblioteca pubblica, afferma di aver visto un Sabbat Kindred lì. Dato che in questo momento sono preoccupato, per favore incontratelo al mio posto al vecchio negozio di fumo di Santa Monica. Avra' i dettagli. Scott ha insistito molto sul fatto che c'è qualcosa in ballo. E non vorremmo che succedesse qualcosa di brutto a tutti quei preziosi libri, vero? - Beckett"
 		"dependency"	"G.Library_Ready == 1 and G.Patch_Plus == 1"
 		"runscript"	"librarySetQuest()"
 	}
@@ -267,7 +267,7 @@ Email	// added by wesp
 	{
 		"subject"	"Eccellente"
 		"sender"	"beckett@legend.vtm"
-		"body"	"Ciao di nuovo, Scott mi ha detto che hai interrotto un processo del Sabbat in biblioteca che l'ha quasi ucciso. Siamo entrambi molto grati per questo, e lui farà in modo che l'accesso alla camera rituale venga interrotto in tempo. Inutile dire che potrebbe non essere molto intelligente dirlo a qualcuno, nemmeno a Sebastian. - Beckett"
+		"body"	"Ciao di nuovo, Scott mi ha detto che hai interrotto un processo del Sabbat in biblioteca che l'ha quasi ucciso. Siamo entrambi molto grati per questo, e lui fara' in modo che l'accesso alla camera rituale venga interrotto in tempo. Inutile dire che potrebbe non essere molto intelligente dirlo a qualcuno, nemmeno a Sebastian. - Beckett"
 		"dependency"	"G.Jumbles_Removed == 2 and G.Patch_Plus == 1"
 		"runscript"	"G.Library_Open = 2; librarySetQuest()"
 	}
@@ -392,7 +392,7 @@ VV"
 	{
 		"subject"	"Stai cercando un appuntamento?"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Ti senti solo, capo? Allora forse l'invio di un Calice Odioso schiacciato ti impedirà di sguazzare nell'autocommiserazione. Barabus ne ha avvistato uno al Sindacato Fu. Come ricompensa affiggerò un poster nel vostro rifugio, di Claira Killenbach e della sua bevanda preferita."
+		"body"		"Ti senti solo, capo? Allora forse l'invio di un Calice Odioso schiacciato ti impedira' di sguazzare nell'autocommiserazione. Barabus ne ha avvistato uno al Sindacato Fu. Come ricompensa affiggerò un poster nel vostro rifugio, di Claira Killenbach e della sua bevanda preferita."
 		"dependency"	"G.Gary_Tawni == 1 and G.Gary_Cross == 0 and G.PP == 1"
 		"runscript"	"garySetQuestSeven()"
 	}

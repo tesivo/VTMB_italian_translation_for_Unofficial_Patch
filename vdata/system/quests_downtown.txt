@@ -468,7 +468,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"5" // Patty 91 San Diego, added by wesp
-			"Description"	"Hai convinto Patty a lasciare la città. Fai rapporto a Skelter."
+			"Description"	"Hai convinto Patty a lasciare la citta'. Fai rapporto a Skelter."
 			"Type"		"incomplete"
 			"AwardXP"	"Junky02"
 		}
@@ -476,7 +476,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"6" // added by wesp
-			"Description"	"Hai convinto Patty a lasciare la città, ma poi l'hai uccisa. Fai rapporto a Skelter."
+			"Description"	"Hai convinto Patty a lasciare la citta', ma poi l'hai uccisa. Fai rapporto a Skelter."
 			"Type"		"incomplete"
 		}
 
@@ -490,7 +490,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"8" // added by wesp
-			"Description"	"Hai fatto incazzare Skelter al punto che non ti parlerà più."
+			"Description"	"Hai fatto incazzare Skelter al punto che non ti parlera' più."
 			"Type"		"failure"
 		}
 
@@ -1012,7 +1012,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"5"	// added by wesp
-			"Description"	"Avete stretto un accordo con il leader dei Sabbat. Il principe sarà felice come una bambina quando gli mentirai su questo."
+			"Description"	"Avete stretto un accordo con il leader dei Sabbat. Il principe sara' felice come una bambina quando gli mentirai su questo."
 			"Type"		"incomplete"
 			"AwardXP"	"Shangrila04"
 		}
@@ -1062,7 +1062,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"Avete trovato Ash catturato e torturato alla Società di Leopold. Perché non lo aiuti ancora una volta?"
+			"Description"	"Avete trovato Ash catturato e torturato alla Societa' di Leopold. Perche' non lo aiuti ancora una volta?"
 			"Type"		"incomplete"
 		}
 
@@ -1077,14 +1077,14 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"Ash è morto alla Società di Leopold."
+			"Description"	"Ash è morto alla Societa' di Leopold."
 			"Type"		"failure"
 		}
 
 		CompletionState	// added by wesp
 		{
 			"ID"		"4"
-			"Description"	"Avete trovato Ash catturato e torturato alla Società di Leopold. Perché non lo aiuti questa volta?"
+			"Description"	"Avete trovato Ash catturato e torturato alla Societa' di Leopold. Perche' non lo aiuti questa volta?"
 			"Type"		"incomplete"
 		}
 	}
@@ -1110,7 +1110,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"Alla fine del molo di Santa Monica hai trovato i segni di una lotta sanguinosa e un foglio scarabocchiato in fretta e furia che ti diceva di indagare sul \"negozio in movimento\" a Santa Monica. E una password dovrebbe essere la "città della bara"."
+			"Description"	"Alla fine del molo di Santa Monica hai trovato i segni di una lotta sanguinosa e un foglio scarabocchiato in fretta e furia che ti diceva di indagare sul \"negozio in movimento\" a Santa Monica. E una password dovrebbe essere la "citta' della bara"."
 			"Type"		"incomplete"
 		}
 

@@ -598,7 +598,7 @@
 {	598	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	599	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	600	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	601	}{	[lontana al limite dell'ostilità]Guarda cosa ha inseguito la strada.	}{	[lontana al limite dell'ostilità]Guarda cosa ha inseguito la strada.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	601	}{	[lontana al limite dell'ostilita']Guarda cosa ha inseguito la strada.	}{	[lontana al limite dell'ostilita']Guarda cosa ha inseguito la strada.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	602	}{	Sono solo di passaggio...	}{	Sono solo di passaggio...	}{	631	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non faccio altro che passare come il vento notturno d'inverno...	}
 {	603	}{	Scusa, non posso parlare, Jack. Ho da fare.	}{	Scusa, non posso parlare, Jack. Ho da fare.	}{	631	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho tempo per discutere...	}
 {	604	}{	Non sono qui per chiacchierare. Di cosa volevi parlarmi?	}{	Non sono qui per chiacchierare. Di cosa volevi parlarmi?	}{	121	}{	}{	G.Jack_Faction = G.Jack_Faction - 1	}{	}{	}{	}{	}{	}{	}{	Ho seguito la strada sanguinosa su cui mi ero incastrato. Cosa cerchi, demone?	}
@@ -643,7 +643,7 @@
 {	643	}{	Non sono assolutamente affari tuoi.	}{	Non sono assolutamente affari tuoi.	}{	641	}{	G.Jack_MM == 1 and G.Jack_Sunrise == 0	}{	G.Jack_MM = 2; G.Jack_Faction = G.Jack_Faction - 1	}{		}{		}{		}{		}{		}{		}{	So meno di niente.	}
 {	644	}{	E' top secret.	}{	E' top secret.	}{	661	}{	G.Jack_MM == 2 and G.Jack_Sunrise == 0	}{	G.Jack_Faction = G.Jack_Faction - 1	}{		}{		}{		}{		}{		}{		}{	E' un segreto che tengo per me soltanto...	}
 {	645	}{	Sto indagando sulla scomparsa del primogenito malkaviano.	}{	Sto indagando sulla scomparsa del primogenito malkaviano.	}{	651	}{	G.Jack_MM == 2 and G.Jack_Sunrise == 0	}{	G.Jack_Faction = G.Jack_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Cerco il folle primogenito malkaviano!	}
-{	646	}{	Te l'ho già detto.	}{	Te l'ho già detto.	}{	0	}{	G.Jack_Sunrise == 1	}{	}{	}{	}{	}{	}{	}{	}{	La verità vi è già stata rivelata.	}
+{	646	}{	Te l'ho gia' detto.	}{	Te l'ho gia' detto.	}{	0	}{	G.Jack_Sunrise == 1	}{	}{	}{	}{	}{	}{	}{	}{	La verita' vi è gia' stata rivelata.	}
 {	647	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	La mia ombra oscura gli altri domini. Addio.	}
 {	648	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	649	}{	Ah, ne ho sentito parlare.	}{	Ah, ne ho sentito parlare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -1360,7 +1360,7 @@
 {	1360	}{	Parlami dei ribelli.	}{	Parlami dei ribelli.	}{	1566	}{		}{		}{		}{		}{		}{		}{		}{		}{	Raccontami la storia dei ribelli!	}
 {	1361	}{	Parlami dei Sabbat.	}{	Parlami dei Sabbat.	}{	1386	}{		}{		}{		}{		}{		}{		}{		}{		}{	Raccontami i segreti dei Sabbat!	}
 {	1362	}{	Vorrei chiederti qualcos'altro.	}{	Vorrei chiederti qualcos'altro.	}{	1369	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi qualcos'altro.	}
-{	1363	}{	Su cos'altro ti serviva un po' di verità?	}{	Su cos'altro ti serviva un po' di verità?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1363	}{	Su cos'altro ti serviva un po' di verita'?	}{	Su cos'altro ti serviva un po' di verita'?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1364	}{	Parlami della Camarilla.	}{	Parlami della Camarilla.	}{	1381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dammi un indizio sulla Camarilla!	}
 {	1365	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1366	}{	Parlami degli Anarchici.	}{	Parlami degli Anarchici.	}{	1566	}{	}{	}{	}{	}{	}{	}{	}{	}{	Girami un racconto degli Anarchici!	}

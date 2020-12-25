@@ -200,7 +200,7 @@
 {	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	201	}{	Non c'e' di che. Aspetta solo un attimo qui, faro' in un attimo.	}{	Non c'e' di che. Aspetta solo un attimo qui, faro' in un attimo.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	202	}{	Grazie. Aspettero' qui.	}{	Grazie. Aspettero' qui.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Un attimo e' un pezzo di eternita'. Addio.	}
-{	203	}{	Aspettero' qui.	}{	Aspettero' qui.	}{	0	}{	G.Gimble_Vandal == 1	}{	}{	}{	}{	}{	}{	}{	}{	Un momento è una fetta di eternità. Addio.	}
+{	203	}{	Aspettero' qui.	}{	Aspettero' qui.	}{	0	}{	G.Gimble_Vandal == 1	}{	}{	}{	}{	}{	}{	}{	}{	Un momento è una fetta di eternita'. Addio.	}
 {	204	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -253,8 +253,8 @@
 {	253	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	254	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	255	}{	Oh, è meraviglioso.	}{	Oh, è meraviglioso.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	256	}{	Anzi, basta informarsi con un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	Anzi, basta che ti rivolgi a un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	201	}{	pc.humanity >= 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7); FindPlayer().HumanityAdd( -1 ); G.Gimble_Humanity = 1	}{	}{	}{	}{	}{	}{	}{	Un Vandalo vi riceverà con piacere per il vostro essere speciale.	}
-{	257	}{	Anzi, basta informarsi con un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	Anzi, basta che ti rivolgi a un tizio di nome Vandal. Sarà perfetto per uno specialista come te.	}{	201	}{	pc.humanity < 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7)	}{	}{	}{	}{	}{	}{	}{	Un Vandalo vi riceverà con piacere per il vostro essere speciale.	}
+{	256	}{	Anzi, basta informarsi con un tizio di nome Vandal. Sara' perfetto per uno specialista come te.	}{	Anzi, basta che ti rivolgi a un tizio di nome Vandal. Sara' perfetto per uno specialista come te.	}{	201	}{	pc.humanity >= 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7); FindPlayer().HumanityAdd( -1 ); G.Gimble_Humanity = 1	}{	}{	}{	}{	}{	}{	}{	Un Vandalo vi ricevera' con piacere per il vostro essere speciale.	}
+{	257	}{	Anzi, basta informarsi con un tizio di nome Vandal. Sara' perfetto per uno specialista come te.	}{	Anzi, basta che ti rivolgi a un tizio di nome Vandal. Sara' perfetto per uno specialista come te.	}{	201	}{	pc.humanity < 4	}{	G.Vandal_Quest = 3; G.Gimble_Vandal = 1; pc.SetQuest("Danielle",7)	}{	}{	}{	}{	}{	}{	}{	Un Vandalo vi ricevera' con piacere per il vostro essere speciale.	}
 {	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

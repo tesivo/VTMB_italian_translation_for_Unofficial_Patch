@@ -120,7 +120,7 @@
 {	120	}{	Chiedevo soltanto. Allora daro' un'occhiata in giro.	}{	Chiedevo soltanto. Allora daro' un'occhiata in giro.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Studiero' le tue bazzeccole.	}
 {	121	}{	Umm... no, no, non proprio. Mi dispiace.	}{	Umm... no, no, non proprio. Scusa.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	Non è vero? C'è una clinica dall'altra parte della strada. Devo farti avere qualcosa per uno sconto?	}{	Non è vero? C'è una clinica dall'altra parte della strada. Devo farti avere qualcosa in cambio di uno sconto?	}{	191	}{	}{	G.Trip_Discount = 1; pc.SetQuest("Trip Drugs", 1)	}{	}{	}{	}{	}{	}{	}{	Sei sicuro? Potrei portartene un po' dalla casa di guarigione in anticipo per rendere le cose più economiche.	}
-{	123	}{	Ho solo pensato di chiedere. Mi guarderò intorno allora.	}{	Ho pensato di chiedere. Do un'occhiata in giro, allora.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Esaminero' la tua opacità.	}
+{	123	}{	Ho solo pensato di chiedere. Mi guarderò intorno allora.	}{	Ho pensato di chiedere. Do un'occhiata in giro, allora.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Esaminero' la tua opacita'.	}
 {	124	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -193,7 +193,7 @@
 {	193	}{	Si'. Cosa c'e' di interessante da queste parti?	}{	Si'. Cosa c'e' di interessante da queste parti?	}{	211	}{	G.Trip_SM == 0	}{		}{		}{		}{		}{		}{		}{		}{	Puoi parlarmi della signora del mare e dei suoi posti?	}
 {	194	}{	No, mi sorprende che non ci siamo incontrati prima.	}{	No, mi sorprende che non ci siamo incontrati prima.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Io e la signora siamo vecchi amici. Mi sorprende che tu ed io non lo siamo, invece.	}
 {	195	}{	Ah. Allora, come ti chiami?	}{	Ah. Allora, come ti chiami?	}{	181	}{	G.Trip_Name == 0	}{	}{	}{	}{	}{	}{	}{	}{	Sì. Qual è il tuo vero nome, Death Dealer?	}
-{	196	}{	Sì, ma in realtà ho già visitato la clinica qui e ti ho portato un po' di roba.	}{	Sì, ma in realtà ho già visitato la clinica qui e ti ho portato un po' di roba.	}{	301	}{	pc.HasItem("item_g_drugs_drug_box") and G.Trip_Discount > 0	}{	G.Trip_Discount = 3	}{	}{	}{	}{	}{	}{	}{	Sono nuovo qui, ma non nella casa della guarigione dove ho trovato una scatola a sorpresa.	}
+{	196	}{	Sì, ma in realta' ho gia' visitato la clinica qui e ti ho portato un po' di roba.	}{	Sì, ma in realta' ho gia' visitato la clinica qui e ti ho portato un po' di roba.	}{	301	}{	pc.HasItem("item_g_drugs_drug_box") and G.Trip_Discount > 0	}{	G.Trip_Discount = 3	}{	}{	}{	}{	}{	}{	}{	Sono nuovo qui, ma non nella casa della guarigione dove ho trovato una scatola a sorpresa.	}
 {	197	}{	Lo sono. Così ti chiamano Trip. Ti droghi?	}{	Lo sono. Così ti chiamano Trip. Ti droghi?	}{	121	}{	G.Patch_Plus == 1 and G.Trip_Discount == 0 and G.Trip_Name == 1	}{	}{	}{	}{	}{	}{	}{	}{	Nuovo per la signora che sono, quindi Trip è il tuo nome e le droghe sono il tuo gioco?	}
 {	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -300,8 +300,8 @@
 {	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	301	}{	Davvero? Fammi vedere cosa sai fare.	}{	Davvero? Fammi vedere cosa sai fare.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	302	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Trip_Discount < 3 or G.Trip_Drugs == 1	}{	npc.StartBarter(G.Story_State, 0, G.Trip_Drugs)	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	303	}{	So che non è quello che volevi, ma ti sarà difficile! Ora, per il mio sconto...	}{	So che non è quello che volevi, ma ti sarà difficile! Ora, per il mio sconto...	}{	281	}{	G.Trip_Discount == 3 and not IsMale(pc)	}{	pc.RemoveItem("item_g_drugs_drug_box"); pc.SetQuest("Trip Drugs", 3); G.Trip_Delivered = 1; G.Trip_Drugs = 1; pc.BumpStat("finance", 1)	}{	}{	}{	}{	}{	}{	}{	Volevi qualcos'altro, ma ti ho portato delle cose difficili! Ora rendi tutto più economico...	}
-{	304	}{	So che non è quello che volevi, ma ti sarà difficile! Ora, per il mio sconto...	}{	So che non è quello che volevi, ma ti sarà difficile! Ora, per il mio sconto...	}{	291	}{	G.Trip_Discount == 3 and IsMale(pc)	}{	pc.RemoveItem("item_g_drugs_drug_box"); pc.SetQuest("Trip Drugs", 3); G.Trip_Delivered = 1; G.Trip_Drugs = 1; pc.BumpStat("finance", 1)	}{	}{	}{	}{	}{	}{	}{	Volevi qualcos'altro, ma ti ho portato delle cose difficili! Ora rendi tutto più economico...	}
+{	303	}{	So che non è quello che volevi, ma ti sara' difficile! Ora, per il mio sconto...	}{	So che non è quello che volevi, ma ti sara' difficile! Ora, per il mio sconto...	}{	281	}{	G.Trip_Discount == 3 and not IsMale(pc)	}{	pc.RemoveItem("item_g_drugs_drug_box"); pc.SetQuest("Trip Drugs", 3); G.Trip_Delivered = 1; G.Trip_Drugs = 1; pc.BumpStat("finance", 1)	}{	}{	}{	}{	}{	}{	}{	Volevi qualcos'altro, ma ti ho portato delle cose difficili! Ora rendi tutto più economico...	}
+{	304	}{	So che non è quello che volevi, ma ti sara' difficile! Ora, per il mio sconto...	}{	So che non è quello che volevi, ma ti sara' difficile! Ora, per il mio sconto...	}{	291	}{	G.Trip_Discount == 3 and IsMale(pc)	}{	pc.RemoveItem("item_g_drugs_drug_box"); pc.SetQuest("Trip Drugs", 3); G.Trip_Delivered = 1; G.Trip_Drugs = 1; pc.BumpStat("finance", 1)	}{	}{	}{	}{	}{	}{	}{	Volevi qualcos'altro, ma ti ho portato delle cose difficili! Ora rendi tutto più economico...	}
 {	305	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	306	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	307	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

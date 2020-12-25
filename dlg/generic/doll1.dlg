@@ -6,13 +6,13 @@
 {	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	9	}{	Ehi, stupenda, cosa fai fuori dai miei sogni?	}{	Ehi, stupenda, cosa fai fuori dai miei sogni?	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realtà.	}
-{	10	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realtà.	}
-{	11	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realtà.	}
-{	12	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realtà.	}
-{	13	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realtà.	}
-{	14	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realtà.	}
-{	15	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realtà.	}
+{	9	}{	Ehi, stupenda, cosa fai fuori dai miei sogni?	}{	Ehi, stupenda, cosa fai fuori dai miei sogni?	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realta'.	}
+{	10	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realta'.	}
+{	11	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realta'.	}
+{	12	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realta'.	}
+{	13	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realta'.	}
+{	14	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realta'.	}
+{	15	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	Ehi, bellezza, cosa ci fai fuori dai miei sogni?	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh bellissimo angelo, i miei sogni hanno invaso la mia realta'.	}
 {	16	}{	Che ne dici di questo tempo? E' bello, no?	}{	Che ne dici di questo tempo? E' bello, no?	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che fuori c'era il maltempo?	}
 {	17	}{	Che ne dici di questo tempo? E' bello, no?	}{	Che ne dici di questo tempo? E' bello, no?	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che fuori c'era il maltempo?	}
 {	18	}{	Che ne dici di questo tempo? E' bello, no?	}{	Che ne dici di questo tempo? E' bello, no?	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che fuori c'era il maltempo?	}
@@ -20,13 +20,13 @@
 {	20	}{	Che ne dici di questo tempo? E' bello, no?	}{	Che ne dici di questo tempo? E' bello, no?	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che fuori c'era il maltempo?	}
 {	21	}{	Che ne dici di questo tempo? E' bello, no?	}{	Che ne dici di questo tempo? E' bello, no?	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che fuori c'era il maltempo?	}
 {	22	}{	Che ne dici di questo tempo? E' bello, no?	}{	Che ne dici di questo tempo? E' bello, no?	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che fuori c'era il maltempo?	}
-{	23	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	281	}{	Seduction -3 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perché sono completamente fuori di testa!	}
-{	24	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	291	}{	Seduction -3 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perché sono completamente fuori di testa!	}
-{	25	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	301	}{	Seduction -3 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perché sono completamente fuori di testa!	}
-{	26	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	311	}{	Seduction -3 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perché sono completamente fuori di testa!	}
-{	27	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	321	}{	Seduction -3 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perché sono completamente fuori di testa!	}
-{	28	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	331	}{	Seduction -3 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perché sono completamente fuori di testa!	}
-{	29	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	341	}{	Seduction -3 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perché sono completamente fuori di testa!	}
+{	23	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	281	}{	Seduction -3 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
+{	24	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	291	}{	Seduction -3 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
+{	25	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	301	}{	Seduction -3 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
+{	26	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	311	}{	Seduction -3 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
+{	27	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	321	}{	Seduction -3 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
+{	28	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	331	}{	Seduction -3 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
+{	29	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	341	}{	Seduction -3 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
 {	30	}{	Scusami, pensavo fossi un'altra persona.	}{	Scusami, pensavo fossi un'altra persona.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tu non sei quello che sei. Devo andare.	}
 {	31	}{	Mmm?	}{	Mmm?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	151	}{	Seduction 3 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo è spezzato, ma per la tua bellezza.	}
@@ -89,7 +89,7 @@
 {	89	}{	Hai mai desiderato scopare con un astronauta? Beh, questa e' la tua chance.	}{	Hai mai desiderato scopare con un'astronauta? Beh, questa e' la tua chance.	}{	341	}{	Seduction -3 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai mai voluto pomiciare con un cadetto spaziale? Beh, ecco la tua occasione.	}
 {	90	}{	Dovremo parlare un'altra volta, perdonami.	}{	Dovremo parlare un'altra volta, perdonami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora sono incapace di parlare. Un'altra volta, forse.	}
 {	91	}{	Mi sei mancato... ti sono mancata?	}{	Mi sei mancata... ti sono mancata?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	92	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuto.	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuta.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Come se mi mancasse la sanità mentale. È ora di pranzo!	}
+{	92	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuto.	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuta.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Come se mi mancasse la sanita' mentale. È ora di pranzo!	}
 {	93	}{	Dove eravamo rimasti? Oh, ora ricordo.	}{	Dove eravamo rimaste? Oh, ora ricordo.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	In cosa ero coinvolta Paige? Oh si', tu.	}
 {	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	95	}{	Non muoverti, tornero'.	}{	Non muoverti, tornero'.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non andatevene. Correrò in cerchio e tornerò presto.	}
@@ -186,7 +186,7 @@
 {	186	}{	Somigli un casino alla mia ex.	}{	Somigli un casino alla mia ex.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sembra che lo farei se fossi in te.	}
 {	187	}{	Somigli un casino alla mia ex.	}{	Somigli un casino alla mia ex.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sembra che lo farei se fossi in te.	}
 {	188	}{	Somigli un casino alla mia ex.	}{	Somigli un casino alla mia ex.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Sembra che lo farei se fossi in te.	}
-{	189	}{	Vorrei essere un pittore per poter rendere eterno il tuo viso.	}{	Vorrei essere una pittrice per poter rendere eterno il tuo viso.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Una delle mie personalità avrebbe dovuto essere Rembrandt per poterla dipingere.	}
+{	189	}{	Vorrei essere un pittore per poter rendere eterno il tuo viso.	}{	Vorrei essere una pittrice per poter rendere eterno il tuo viso.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Una delle mie personalita' avrebbe dovuto essere Rembrandt per poterla dipingere.	}
 {	190	}{	Sei ancora qui! Questo e' il punto in cui solitamente mi sveglio.	}{	Sei ancora qui! Questo e' il punto in cui solitamente mi sveglio.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sei ancora qui? Pensavo fossi un'altra illusione.	}
 {	191	}{	Non hai forse un sito web? Credo di aver scaricato le tue immagini prima.	}{	Non hai forse un sito web? Credo di aver scaricato le tue immagini prima.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ho una ragnatela piena di te, vero?	}
 {	192	}{	Non hai forse un sito web? Credo di aver scaricato le tue immagini prima.	}{	Non hai forse un sito web? Credo di aver scaricato le tue immagini prima.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ho una ragnatela piena di te, vero?	}

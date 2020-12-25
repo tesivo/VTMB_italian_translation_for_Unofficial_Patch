@@ -28,7 +28,7 @@
 {	28	}{	Sto solo portando degli oggetti personali ad un amico.	}{	Sto solo portando degli oggetti personali ad un amico.	}{	31	}{	Persuasion 3 & G.Nurse_Insult == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il mio amico ha bisogno dei doni che vengo a portare.	}
 {	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	30	}{	Okay.	}{	Okay.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Me ne vado.	}
-{	31	}{	[In realtà]Va bene. Va' pure.	}{	[In realtà]Va bene. Va' pure.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nurse_Flag = 1; G.Nurse_Warn = 0	}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	[In realta']Va bene. Va' pure.	}{	[In realta']Va bene. Va' pure.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nurse_Flag = 1; G.Nurse_Warn = 0	}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
 {	33	}{	...	}{	...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	34	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}

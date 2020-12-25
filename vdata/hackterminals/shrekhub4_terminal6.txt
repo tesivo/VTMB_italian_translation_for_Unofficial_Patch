@@ -24,7 +24,7 @@ TerminalDefinition
 			"name"		"RECUPERA"
 			"description"	"Quando il Culo e' Grasso."	
 			"runtext"	"Ce l'hai fatta. Stai sudando un po'? Rilassati. Apriro' la porta dietro di te.
-Grazie, ragazzo, e abbi cura di te là fuori.
+Grazie, ragazzo, e abbi cura di te la' fuori.
 
 >m1tn1ck<"	// changed by wesp
 			"runscript"	""

@@ -512,7 +512,7 @@
 {	512	}{	Si'.	}{	Si'.	}{	531	}{	not pc.HasItem("item_g_ghost_pendant")	}{		}{		}{		}{		}{		}{		}{		}{	Si', il verme si sta agitando.	}
 {	513	}{	Certo. Ho anche l'oggetto preso dall'Ocean House.	}{	Certo. Ho anche l'oggetto preso dall'Ocean House.	}{	521	}{	pc.HasItem("item_g_ghost_pendant") and (not pc.HasItem("item_g_oh_diary") or G.Patch_Plus == 0)	}{	pc.RemoveItem("item_g_ghost_pendant"); G.Therese_Seduce = G.Therese_Seduce + 2	}{		}{		}{		}{		}{		}{		}{	Si'. E ti ho anche portato il gioiello spettrale, dolce oscurita'.	}
 {	514	}{	Tu cosa credi?	}{	Tu cosa credi?	}{	531	}{	G.Extra_Lines == 1 and not pc.HasItem("item_g_ghost_pendant")	}{		}{		}{		}{		}{		}{		}{		}{	Certamente, oscura signora.	}
-{	515	}{	Sì, ho l'articolo della Ocean House e anche un diario.	}{	Sì, ho l'articolo della Ocean House e anche un diario.	}{	521	}{	pc.HasItem("item_g_ghost_pendant") and pc.HasItem("item_g_oh_diary") and G.Patch_Plus == 1	}{	pc.RemoveItem("item_g_ghost_pendant"); pc.RemoveItem("item_g_oh_diary"); G.Therese_Seduce = G.Therese_Seduce + 2	}{	}{	}{	}{	}{	}{	}{	Sì. E ti ho portato un gingillo spettrale e parole, dolce oscurità.	}
+{	515	}{	Sì, ho l'articolo della Ocean House e anche un diario.	}{	Sì, ho l'articolo della Ocean House e anche un diario.	}{	521	}{	pc.HasItem("item_g_ghost_pendant") and pc.HasItem("item_g_oh_diary") and G.Patch_Plus == 1	}{	pc.RemoveItem("item_g_ghost_pendant"); pc.RemoveItem("item_g_oh_diary"); G.Therese_Seduce = G.Therese_Seduce + 2	}{	}{	}{	}{	}{	}{	}{	Sì. E ti ho portato un gingillo spettrale e parole, dolce oscurita'.	}
 {	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	517	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	518	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

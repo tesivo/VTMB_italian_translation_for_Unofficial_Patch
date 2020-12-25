@@ -9,8 +9,8 @@
 {	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	11	}{	Qualche pazzoide si e' intrufolato nella galleria e ha danneggiato i quadri. Oggigiorno sono tutti critici d'arte, eh?	}{	Qualche pazzoide si e' intrufolato nella galleria e ha danneggiato i quadri. Oggigiorno sono tutti critici d'arte, eh?	}{	#	}{		}{	G.Noir_Talk = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	12	}{	Grazie, agente.	}{	Grazie, agente.	}{	0	}{	G.Gallery_Slashed == 0 and pc.GetQuestState("Slashterpiece") != 5	}{	pc.SetQuest("Slashterpiece",3)	}{		}{		}{		}{		}{		}{		}{	Il pesce finirà nella rete. Vado.	}
-{	13	}{	Grazie, agente.	}{	Grazie, agente.	}{	0	}{	G.Gallery_Slashed == 0 and pc.GetQuestState("Slashterpiece") == 5	}{		}{		}{		}{		}{		}{		}{		}{	Il pesce finirà nella rete. Vado.	}
+{	12	}{	Grazie, agente.	}{	Grazie, agente.	}{	0	}{	G.Gallery_Slashed == 0 and pc.GetQuestState("Slashterpiece") != 5	}{	pc.SetQuest("Slashterpiece",3)	}{		}{		}{		}{		}{		}{		}{	Il pesce finira' nella rete. Vado.	}
+{	13	}{	Grazie, agente.	}{	Grazie, agente.	}{	0	}{	G.Gallery_Slashed == 0 and pc.GetQuestState("Slashterpiece") == 5	}{		}{		}{		}{		}{		}{		}{		}{	Il pesce finira' nella rete. Vado.	}
 {	14	}{	Spero che acciuffino l'uomo, cioe', la persona che ha commesso il fatto. Ci vediamo.	}{	Spero che acciuffino la donna, cioe', la persona che ha commesso il fatto. Ci vediamo.	}{	0	}{	G.Gallery_Slashed == 1	}{		}{		}{		}{		}{		}{		}{		}{	Pazzoide...? Lei e' troppo buono, detective. Vado.	}
 {	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

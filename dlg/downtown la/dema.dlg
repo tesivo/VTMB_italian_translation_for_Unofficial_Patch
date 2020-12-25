@@ -33,7 +33,7 @@
 {	33	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}
 {	34	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	35	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	Devo parlare con Boris. Vorrà sentire cosa ho da dirgli.	}{	Devo parlare con Boris. Vorrà sentire cosa ho da dirgli.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	L'uomo dietro la porta vuole le mie risposte.	}
+{	36	}{	Devo parlare con Boris. Vorra' sentire cosa ho da dirgli.	}{	Devo parlare con Boris. Vorra' sentire cosa ho da dirgli.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	L'uomo dietro la porta vuole le mie risposte.	}
 {	37	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	9	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Fuori. Di corsa. Mortale.	}
 {	38	}{	Questo è strano. Non ti ha detto che sarei venuto?	}{	Questo è strano. Non ti ha detto che sarei venuto?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse avete dimenticato il messaggio del mio arrivo?	}
 {	39	}{	Sono della Manutenzione; le tue tubature perdono.	}{	Sono della Manutenzione; le tue tubature perdono.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sentite il rumore dei tubi? Potrebbero essere pieni di serpenti.	}

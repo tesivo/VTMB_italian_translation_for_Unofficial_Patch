@@ -113,7 +113,7 @@
 {	113	}{	Ora ti serve altro sangue di unicorno?	}{	Ora ti serve altro sangue di unicorno?	}{	161	}{	G.Copper_Rob == 0 and G.Copper_Blood >=3 and G.Copper_Uni == 1 and pc.HasItem("item_g_bloodpack")	}{	}{	}{	}{	}{	}{	}{	}{	Ho più sangue di cavallo con un corno solo.	}
 {	114	}{	Ora vi serve del sangue di unicorno?	}{	Ora vi serve del sangue di unicorno?	}{	141	}{	G.Copper_Rob == 0 and G.Copper_Blood < 3 and G.Copper_Uni == 1 and pc.HasItem("item_g_bloodpack")	}{	}{	}{	}{	}{	}{	}{	}{	Ho il sangue dello stallone magico. Quanto ne desideri?	}
 {	115	}{	Ed ecco il paletto. Hai 100 dollari?	}{	Ed ecco il paletto. Hai 100 dollari?	}{	121	}{	G.Copper_Rob == 0 and G.Copper_Stake == 1 and pc.HasItem("item_g_stake")	}{	}{	}{	}{	}{	}{	}{	}{	E io ho il Paletto Santo se hai i benedetti 100 dollari.	}
-{	116	}{	Tornerò con più merce. Arrivederci.	}{	Tornerò con più merce. Arrivederci.	}{	0	}{	G.Copper_Rob == 0 and G.Copper_Uni < 2	}{	}{	}{	}{	}{	}{	}{	}{	Non ho nient'altro che le mie altre personalità. Addio.	}
+{	116	}{	Tornerò con più merce. Arrivederci.	}{	Tornerò con più merce. Arrivederci.	}{	0	}{	G.Copper_Rob == 0 and G.Copper_Uni < 2	}{	}{	}{	}{	}{	}{	}{	}{	Non ho nient'altro che le mie altre personalita'. Addio.	}
 {	117	}{	Divertiti. Arrivederci.	}{	Divertiti. Arrivederci.	}{	0	}{	G.Copper_Uni == 2 and G.Copper_Stake == 0 and G.Patch_Plus == 1	}{	pc.SetQuest("Copper", 4)	}{	}{	}{	}{	}{	}{	}{	Certo che si'. Me ne sono andato.	}
 {	118	}{	Non preoccuparti, tornerò quando li avrò.	}{	Non preoccuparti, tornerò quando li avrò.	}{	0	}{	G.Copper_Rob == 1 and G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Un pazzo è meglio che rimanga al verde. Addio.	}
 {	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

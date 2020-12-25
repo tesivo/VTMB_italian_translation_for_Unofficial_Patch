@@ -1,5 +1,5 @@
 {	1	}{	Non mi interessa! Devo trovarlo, così che lui possa trovarlo! Qui ci sono in gioco 250.000 bigliettoni dei miei soldi! [guarda in alto] Senti, senti, ci sentiamo dopo, ok? Fammi sapere se senti qualcosa su uno dei due!	}{	Non mi interessa! Devo trovarlo, così che lui possa trovarlo! Qui ci sono in gioco 250.000 bigliettoni dei miei soldi! [guarda in alto] Senti, senti, ci sentiamo dopo, ok? Fammi sapere se senti qualcosa su uno dei due!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Ehilà! Come stai?	}{	Ehilà! Come stai?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Ehila'! Come stai?	}{	Ehila'! Come stai?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	3	}{	Ciao.	}{	Ciao.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Salve!	}
 {	4	}{	Fammi sapere se hai bisogno di qualcosa....	}{	Fammi sapere se hai bisogno di qualcosa....	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	5	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -96,7 +96,7 @@
 {	96	}{	Conosci la galleria notturna?	}{	Conosci la galleria notturna?	}{	621	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	97	}{	Sai qualcosa della Galleria Noir?	}{	Sai qualcosa della Galleria Noir?	}{	141	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	98	}{	Qualche posto qui vicino.	}{	Qualche posto qui vicino.	}{	101	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Un posto non troppo lontano.	}
-{	99	}{	In realtà, avevo una domanda su un'altra cosa.	}{	In realtà, avevo una domanda su un'altra cosa.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	La mia mente ha domande cui servono le risposte della tua mente.	}
+{	99	}{	In realta', avevo una domanda su un'altra cosa.	}{	In realta', avevo una domanda su un'altra cosa.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	La mia mente ha domande cui servono le risposte della tua mente.	}
 {	100	}{	Non importa. Ora devo andare.	}{	Non importa. Ora devo andare.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' il momento di andare altrove.	}
 {	101	}{	Si' certo, dove?	}{	Si' certo, dove?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	102	}{	Il regno del grasso.	}{	Il regno del grasso.	}{	631	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -190,7 +190,7 @@
 {	190	}{	Conversazione interessante, ma ora devo proprio scappare, Arthur.	}{	Conversazione interessante, ma ora devo proprio scappare, Arthur.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' una grossa scheggia di ferro. Volo via.	}
 {	191	}{	Si chiama Knox, ora non riesco a trovarlo.	}{	Si chiama Knox, ora non riesco a trovarlo.	}{	#	}{	}{	G.Arthur_Knoxold = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	192	}{	Non ho mai sentito questo nome prima d'ora.	}{	Non ho mai sentito questo nome prima d'ora.	}{	681	}{	G.Knox_Vamp != 3	}{	}{	}{	}{	}{	}{	}{	}{	Il mio cervello non ricorda questo nome.	}
-{	193	}{	Credo di aver già sentito questo nome.	}{	Credo di aver già sentito questo nome.	}{	681	}{	G.Knox_Vamp == 3	}{	}{	}{	}{	}{	}{	}{	}{	Il mio cervello ricorda questo nome.	}
+{	193	}{	Credo di aver gia' sentito questo nome.	}{	Credo di aver gia' sentito questo nome.	}{	681	}{	G.Knox_Vamp == 3	}{	}{	}{	}{	}{	}{	}{	}{	Il mio cervello ricorda questo nome.	}
 {	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -218,8 +218,8 @@
 {	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	220	}{	Ok. Ci vediamo Arthur.	}{	Ok. Ci vediamo Arthur.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho altro a cui pensare. Ci vediamo.	}
-{	221	}{	Grande, grande! Ora, non è a casa, lo so, e non ha lasciato la città, quindi controlla dove ci sono alcolici e donne; probabilmente è la cosa migliore. È un tipo un po' pesante, con i capelli un po' lunghi.	}{	Grande, grande! Ora, non è a casa, lo so, e non ha lasciato la città, quindi controlla dove ci sono alcolici e donne; probabilmente è la cosa migliore. È un tipo un po' pesante, con i capelli un po' lunghi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	Sarà fatto.	}{	Sarà fatto.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Questo sta già cercando.	}
+{	221	}{	Grande, grande! Ora, non è a casa, lo so, e non ha lasciato la citta', quindi controlla dove ci sono alcolici e donne; probabilmente è la cosa migliore. È un tipo un po' pesante, con i capelli un po' lunghi.	}{	Grande, grande! Ora, non è a casa, lo so, e non ha lasciato la citta', quindi controlla dove ci sono alcolici e donne; probabilmente è la cosa migliore. È un tipo un po' pesante, con i capelli un po' lunghi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	Sara' fatto.	}{	Sara' fatto.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Questo sta gia' cercando.	}
 {	223	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	225	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -234,7 +234,7 @@
 {	234	}{	Ho trovato Carson. Purtroppo non fara' ritorno.	}{	Ho trovato Carson. Purtroppo non fara' ritorno.	}{	241	}{	G.Arthur_Knox == 3	}{		}{		}{		}{		}{		}{		}{		}{	Ho trovato il cacciatore, ma non potra' piu' cacciare alcunche'.	}
 {	235	}{	Mi interessano i tuoi affari.	}{	Mi interessano i tuoi affari.	}{	551	}{	G.Arthur_BJ == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parlami dei tuoi affari, mercante.	}
 {	236	}{	Avrei una domanda per te.	}{	Avrei una domanda per te.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 0	}{		}{		}{		}{		}{		}{		}{		}{	Ho una domanda che mi fa scoppiare il cervello.	}
-{	237	}{	Ti serve un cacciatore?	}{	Ti serve un cacciatore?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{		}{		}{		}{		}{		}{		}{	Avete bisogno delle mie abilità di cacciatore di taglie?	}
+{	237	}{	Ti serve un cacciatore?	}{	Ti serve un cacciatore?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{		}{		}{		}{		}{		}{		}{	Avete bisogno delle mie abilita' di cacciatore di taglie?	}
 {	238	}{	Sai dove posso trovare una pistola... o due?	}{	Sai dove posso trovare una pistola... o due?	}{	471	}{	G.Arthur_Muddy == 2 and G.Trip_Know < 4 and not G.Trip_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	Potrei aver bisogno di un arco che spara proiettili.	}
 {	239	}{	Ho un paio di domande per te, Arthur.	}{	Ho un paio di domande per te, Arthur.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox >= 1	}{		}{		}{		}{		}{		}{		}{		}{	Ho delle domande che mi fanno esplodene il cervello.	}
 {	240	}{	Per ora niente, Arthur. Ci vediamo.	}{	Per ora niente, Arthur. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Oh cavolo. Mi sono ricordato che devo andarmene.	}
@@ -520,8 +520,8 @@
 {	520	}{	Faccio solo un salto, Arthur. Ci vediamo.	}{	Faccio solo un salto, Arthur. Ci vediamo.	}{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il tuo diametro e' portavoce di ciambelle ben digerite. Addio.	}
 {	521	}{	Ehila'! Hai bisogno di qualcosa in particolare o sei qui solo per chiacchierare?	}{	Ehila'! Hai bisogno di qualcosa in particolare o sei qui solo per chiacchierare?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	522	}{	Posso chiederti un paio di cose, Arthur?	}{	Posso chiederti un paio di cose, Arthur?	}{	541	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia mente ha domande cui servono le risposte della tua mente.	}
-{	523	}{	In realtà sono tornato perché la tua rudezza mi eccita.	}{	In realtà sono tornata perché la tua rudezza mi eccita.	}{	821	}{	Seduction 4 & (not IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	524	}{	In realtà sono tornato perché la tua rudezza mi eccita.	}{	In realtà sono tornata perché la tua rudezza mi eccita.	}{	831	}{	Seduction 4 & (IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	523	}{	In realta' sono tornato perché la tua rudezza mi eccita.	}{	In realta' sono tornata perché la tua rudezza mi eccita.	}{	821	}{	Seduction 4 & (not IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	524	}{	In realta' sono tornato perché la tua rudezza mi eccita.	}{	In realta' sono tornata perché la tua rudezza mi eccita.	}{	831	}{	Seduction 4 & (IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	525	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	526	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	527	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -531,8 +531,8 @@
 {	531	}{	Ehila'. Speravo passassi di qua. Ho notizie di Muddy Mike. Pare che sia diventato una vittima di quel serial killer. Incredibile, vero? Comunque, puoi smettere di cercarlo... se lo stavi facendo.	}{	Ehila'. Speravo passassi di qua. Ho notizie di Muddy Mike. Pare che sia diventato una vittima di quel serial killer. Incredibile, vero? Comunque, puoi smettere di cercarlo... se lo stavi facendo.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Arthur_Muddyrecord = 1; G.Arthur_Muddy = 5; G.Arthur_Killer = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	532	}{	Wow. Veramente ho un paio di domande per te.	}{	Wow. Veramente ho un paio di domande per te.	}{	81	}{	pc.GetQuestState("Bail Jumper") < 3	}{	pc.SetQuest("Bail Jumper", 4)	}{		}{		}{		}{		}{		}{		}{	Ho ancora delle domande che esplodono nel cervello.	}
 {	533	}{	Grazie Arthur.	}{	Grazie Arthur.	}{	0	}{	pc.GetQuestState("Bail Jumper") < 3	}{	pc.SetQuest("Bail Jumper", 4)	}{		}{		}{		}{		}{		}{		}{	Vado via.	}
-{	534	}{	Fico. Ho alcune domande da farti, in realtà.	}{	Fico. Ho alcune domande da farti, in realtà.	}{	81	}{	pc.GetQuestState("Bail Jumper") == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho altre perplessità che mi fanno scoppiare il cervello.	}
-{	535	}{	Grazie Arthur.	}{	Grazie Arthur.	}{	0	}{	pc.GetQuestState("Bail Jumper") == 3	}{	}{	}{	}{	}{	}{	}{	}{	Me ne sono già andato.	}
+{	534	}{	Fico. Ho alcune domande da farti, in realta'.	}{	Fico. Ho alcune domande da farti, in realta'.	}{	81	}{	pc.GetQuestState("Bail Jumper") == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho altre perplessita' che mi fanno scoppiare il cervello.	}
+{	535	}{	Grazie Arthur.	}{	Grazie Arthur.	}{	0	}{	pc.GetQuestState("Bail Jumper") == 3	}{	}{	}{	}{	}{	}{	}{	}{	Me ne sono gia' andato.	}
 {	536	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	537	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	538	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -602,7 +602,7 @@
 {	602	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	603	}{	Chi è il proprietario di questa casa di specchi incrinati?	}{	Chi è il proprietario di questa casa di specchi incrinati?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	604	}{	Ho altri posti che ho bisogno di scoprire con le tue parole.	}{	Ho altri posti che ho bisogno di scoprire con le tue parole.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	605	}{	Ho altre perplessità che mi fanno scoppiare il cervello.	}{	Ho altre perplessità che mi fanno scoppiare il cervello.	}{	81	}{	G.Arthur_SM == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	605	}{	Ho altre perplessita' che mi fanno scoppiare il cervello.	}{	Ho altre perplessita' che mi fanno scoppiare il cervello.	}{	81	}{	G.Arthur_SM == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	606	}{	Mi fai sentire come uno yeti a Natale. Addio.	}{	Mi fai sentire come uno yeti a Natale. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	607	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	608	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -851,20 +851,20 @@
 {	851	}{	Ehi bello! E' magnifico rivederti!	}{	Ehi dolcezza! E' magnifico rivederti!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	852	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	691	}{	G.Arthur_Knox == 1	}{	}{	}{	}{	}{	}{	}{	}{	Troverò il tuo cacciatore di teste d'ottone.	}
 {	853	}{	Sono ancora a caccia di Carson.	}{	Sono ancora a caccia di Carson.	}{	221	}{	G.Arthur_Knox == 2	}{	}{	}{	}{	}{	}{	}{	}{	Cerco ancora il cacciatore di taglie.	}
-{	854	}{	Ho trovato Carson. Purtroppo non tornerà.	}{	Ho trovato Carson. Purtroppo non tornerà.	}{	241	}{	G.Arthur_Knox == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho trovato il cacciatore, ma non tornerà a caccia di taglie.	}
+{	854	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	241	}{	G.Arthur_Knox == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho trovato il cacciatore, ma non tornera' a caccia di taglie.	}
 {	855	}{	Sono curioso di conoscere i tuoi affari.	}{	Sono curiosa di conoscere i tuoi affari.	}{	551	}{	G.Arthur_BJ == 0	}{	}{	}{	}{	}{	}{	}{	}{	Raccontami le tue storie di caccia, maestro delle chiavi.	}
 {	856	}{	Ho una domanda da farti.	}{	Ho una domanda da farti.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ho una domanda che mi fa scervellare.	}
-{	857	}{	Hai bisogno di un cacciatore di taglie?	}{	Hai bisogno di un cacciatore di taglie?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{	}{	}{	}{	}{	}{	}{	Hai bisogno delle mie abilità di cacciatore di taglie?	}
+{	857	}{	Hai bisogno di un cacciatore di taglie?	}{	Hai bisogno di un cacciatore di taglie?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{	}{	}{	}{	}{	}{	}{	Hai bisogno delle mie abilita' di cacciatore di taglie?	}
 {	858	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	859	}{	Ho alcune domande da farti, Arthur.	}{	Ho alcune domande da farti, Arthur.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox >= 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho altre quesiti che mi fanno scoppiare il cervello.	}
 {	860	}{	Niente per ora, Arthur. Ci vediamo.	}{	Niente per ora, Arthur. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Egadi. Devo fare la mia uscita dopo la fretta.	}
 {	861	}{	Che si dice?	}{	Che si dice?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	862	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	691	}{	G.Arthur_Knox == 1	}{	}{	}{	}{	}{	}{	}{	}{	Troverò il tuo cacciatore di teste d'ottone.	}
 {	863	}{	Sono ancora a caccia di Carson.	}{	Sono ancora a caccia di Carson.	}{	221	}{	G.Arthur_Knox == 2	}{	}{	}{	}{	}{	}{	}{	}{	Cerco ancora il cacciatore di taglie.	}
-{	864	}{	Ho trovato Carson. Purtroppo non tornerà.	}{	Ho trovato Carson. Purtroppo non tornerà.	}{	241	}{	G.Arthur_Knox == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho trovato il cacciatore, ma non tornerà a caccia di taglie.	}
+{	864	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	241	}{	G.Arthur_Knox == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho trovato il cacciatore, ma non tornera' a caccia di taglie.	}
 {	865	}{	Sono curioso di conoscere i tuoi affari.	}{	Sono curiosa di conoscere i tuoi affari.	}{	551	}{	G.Arthur_BJ == 0	}{	}{	}{	}{	}{	}{	}{	}{	Raccontami le tue storie di caccia, maestro delle chiavi.	}
 {	866	}{	Ho una domanda da farti.	}{	Ho una domanda da farti.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ho una domanda che mi fa scervellare.	}
-{	867	}{	Hai bisogno di un cacciatore di taglie?	}{	Hai bisogno di un cacciatore di taglie?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{	}{	}{	}{	}{	}{	}{	Hai bisogno delle mie abilità di cacciatore di taglie?	}
+{	867	}{	Hai bisogno di un cacciatore di taglie?	}{	Hai bisogno di un cacciatore di taglie?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{	}{	}{	}{	}{	}{	}{	Hai bisogno delle mie abilita' di cacciatore di taglie?	}
 {	868	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	869	}{	Ho alcune domande da farti, Arthur.	}{	Ho alcune domande da farti, Arthur.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox >= 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho altre quesiti che mi fanno scoppiare il cervello.	}
 {	870	}{	Niente per ora, Arthur. Ci vediamo.	}{	Niente per ora, Arthur. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Egadi. Devo fare la mia uscita dopo la fretta.	}

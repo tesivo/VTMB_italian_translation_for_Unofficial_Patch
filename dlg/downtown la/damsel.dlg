@@ -727,7 +727,7 @@
 {	727	}{	D'altronde...	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	728	}{	Tieni.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	729	}{	Fascista!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	730	}{	Uh, io vado.	}{	Uh, io vado.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	Me ne sono già andato.	}
+{	730	}{	Uh, io vado.	}{	Uh, io vado.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	Me ne sono gia' andato.	}
 {	731	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	732	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	733	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -788,7 +788,7 @@
 {	788	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	789	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	790	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	791	}{	[Incredulità]Davvero?	}{	[Incredulità]Davvero?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	791	}{	[Incredulita']Davvero?	}{	[Incredulita']Davvero?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	792	}{	Si', davvero. Posso entrare ora?	}{	Si', davvero. Posso entrare ora?	}{	771	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sicuro. Allora posso passare?	}
 {	793	}{	Si'. Ora entro.	}{	Si'. Ora entro.	}{	771	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi sono unito solo per avere il cappellino gratis. E' gratis, vero? Posso entrare a prenderne uno?	}
 {	794	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

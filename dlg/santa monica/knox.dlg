@@ -60,7 +60,7 @@
 {	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	61	}{	Ehi io lavoro per un vampiro! Non so quanto potrei dirti ma - oh cazzo cazzo! - sarebbe magnifico poter parlare con qualcun'altro "da dentro", capisci cosa intendo? Hehe, oh cavolo!	}{	Ehi io lavoro per un vampiro! Non so quanto potrei dirti ma - oh cazzo cazzo! - sarebbe magnifico poter parlare con qualcun'altro "da dentro", capisci cosa intendo? Hehe, oh cavolo!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	62	}{	Si', potrei aver capito cosa intendi.	}{	Si', potrei aver capito cosa intendi.	}{	101	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	63	}{	No, non lo faccio perché non sono un vampiro. E ora vado via.	}{	No, non lo faccio perché non sono un vampiro. E ora vado via.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	No, e non posso sentirti perché me ne sono già andato.	}
+{	63	}{	No, non lo faccio perché non sono un vampiro. E ora vado via.	}{	No, non lo faccio perché non sono un vampiro. E ora vado via.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	No, e non posso sentirti perché me ne sono gia' andato.	}
 {	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	65	}{	Magnifici sono i quadri astratti della mia mente.	}{	Magnifici sono i quadri astratti della mia mente.	}{	551	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -201,7 +201,7 @@
 {	201	}{	Bertram dice che ha bisogno di qualcuno che faccia alcune cose. Oh, cavolo, era da un po' che mi guardava lavorare come cacciatore di taglie - bam! Oh cavolo, che figata! È come una promozione di lavoro che solo a me piace vivere per sempre e cose del genere.	}{	Bertram dice che ha bisogno di qualcuno che faccia alcune cose. Oh, cavolo, era da un po' che mi guardava lavorare come cacciatore di taglie - bam! Oh cavolo, che figata! È come una promozione di lavoro che solo a me piace vivere per sempre e cose del genere.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Puoi dirmi cosa ti fa fare?	}{	Puoi dirmi cosa ti fa fare?	}{	211	}{	G.Knox_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Quali cose orribili stai facendo per lui?	}
 {	203	}{	Fico. Puoi rispondere ad alcune altre domande?	}{	Fico. Puoi rispondere ad alcune altre domande?	}{	541	}{	G.Knox_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho altre domande che mi fanno scoppiare il cervello...	}
-{	204	}{	Che figata. Ora devo andare. A dopo.	}{	Che figata. Ora devo andare. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono già andato via.	}
+{	204	}{	Che figata. Ora devo andare. A dopo.	}{	Che figata. Ora devo andare. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono gia' andato via.	}
 {	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -417,7 +417,7 @@
 {	417	}{	Lascia perdere. Quindi vuoi che dia un'occhiata a questa cosa?	}{	Lascia perdere. Quindi vuoi che dia un'occhiata a questa cosa?	}{	241	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non lo so neanch'io. Potrei aiutarti, piccolo ghoulie?	}
 {	418	}{	Non lo so.	}{	Non lo so.	}{	241	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Buona domanda.	}
 {	419	}{	Dimmi la verita'.	}{	Dimmi la verita'.	}{	561	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
-{	420	}{	Come puoi nascondermi la verità?	}{	Come puoi nascondermi la verità?	}{	561	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	420	}{	Come puoi nascondermi la verita'?	}{	Come puoi nascondermi la verita'?	}{	561	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	421	}{	Okay, okay, okay. Maledizione Knox, cazzo! Oh, cavolo, va bene, senti, sono nei casini, okay? Sto solo facendo quello che mi e' stato detto di fare.	}{	Okay, okay, okay. Maledizione Knox, cazzo! Oh, cavolo, va bene, senti, sono nei casini, okay? Sto solo facendo quello che mi e' stato detto di fare.	}{	#	}{	npc.SetDisposition("Sad",1)	}{	G.Knox_Fess = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	422	}{	Continua.	}{	Continua.	}{	431	}{	}{	}{	}{	}{	}{	}{	}{	}{	Avanti, parla.	}
 {	423	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -545,7 +545,7 @@
 {	545	}{	Cos'e' che fai per Bertram?	}{	Cos'e' che fai per Bertram?	}{	211	}{	G.Knox_Bertram > 0 and G.Knox_Ghoul == 2 and G.Knox_Quest == 0 and G.Bertram_Check == 0	}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{		}{		}{		}{		}{		}{		}{	Che tipo di losche imprese compi per conto dell'Orripilante?	}
 {	546	}{	E' bello essere un ghoul?	}{	E' bello essere un ghoul?	}{	141	}{		}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{		}{		}{		}{		}{		}{		}{	Ti diverte il tuo status di prezioso ghoul?	}
 {	547	}{	Veramente devo andarmene. A piu' tardi.	}{	Veramente devo andarmene. A piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
-{	548	}{	In realtà, devo andarmene da qui. A dopo.	}{	In realtà, devo andarmene da qui. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	548	}{	In realta', devo andarmene da qui. A dopo.	}{	In realta', devo andarmene da qui. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
 {	549	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	551	}{	Oh, maledizione! Quante puttanate che dici! Cavolo! Scommetto che sei un Malkavian, vero? So poco di voi. Avete la testa che e' un gran bel casino, giusto? Matti, tipo Hannibal Lecter, sai di che parlo?	}{	Oh, maledizione! Quante puttanate che dici! Cavolo! Scommetto che sei una Malkavian, vero? So poco di voi. Avete la testa che e' un gran bel casino, giusto? Matti, tipo Hannibal Lecter, sai di che parlo?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}

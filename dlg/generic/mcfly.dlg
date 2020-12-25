@@ -33,7 +33,7 @@
 {	33	}{	Tu non l'hai mai vista, e non sei mai venuto qui. Torna da dove sei venuto e svegliati.	}{	Tu non l'hai mai vista, e non sei mai venuto qui. Torna da dove sei venuto e svegliati.	}{	41	}{	Dominate 2	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	34	}{	Vacci ora dalla polizia. Di' "Ehi, porci, ho una pistola".	}{	Vacci ora dalla polizia. Di' "Ehi, porci, ho una pistola".	}{	51	}{	Dementation 2	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	35	}{	Faresti davvero una cosa del genere a uno come me?	}{	Faresti davvero una cosa del genere a uno come me?	}{	111	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	Come sarà in grado di comunicare con la mascella e le mani rotte?	}{	Come sarà in grado di comunicare con la mascella e le mani rotte?	}{	111	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	36	}{	Come sara' in grado di comunicare con la mascella e le mani rotte?	}{	Come sara' in grado di comunicare con la mascella e le mani rotte?	}{	111	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	37	}{	Si', come no. Dopo che ti avro' dissanguato, non saprai nemmeno che anno e'.	}{	Si', come no. Dopo che ti avro' dissanguato, non saprai nemmeno che anno e'.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	38	}{	Forse potrei farmi un drink... Gia', una bella bevuta!	}{	Forse potrei farmi un drink... Gia', una bella bevuta!	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	39	}{	Hah hah, cena a teatro. Sai che le adoro. E ora, la portata principale.	}{	Hah hah, cena a teatro. Sai che le adoro. E ora, la portata principale.	}{	131	}{	Humanity -6	}{		}{		}{		}{		}{		}{		}{		}{		}

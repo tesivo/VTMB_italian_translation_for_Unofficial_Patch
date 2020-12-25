@@ -210,13 +210,13 @@
 {	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	211	}{	[Lusingato]Um... dunque... chi sei?	}{	[Lusingato]Um... dunque... chi sei?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	212	}{	Tutto cio' che hai sempre cercato. Sulla modestia ci sto ancora lavorando.	}{	Tutto cio' che hai sempre cercato. Sulla modestia ci sto ancora lavorando.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Io sono il tuo tu, ecco chi.	}
-{	213	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perché parlo con le mani.	}
-{	214	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perché parlo con le mani.	}
-{	215	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perché parlo con le mani.	}
-{	216	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perché parlo con le mani.	}
-{	217	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perché parlo con le mani.	}
-{	218	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perché parlo con le mani.	}
-{	219	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perché parlo con le mani.	}
+{	213	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perche' parlo con le mani.	}
+{	214	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perche' parlo con le mani.	}
+{	215	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perche' parlo con le mani.	}
+{	216	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perche' parlo con le mani.	}
+{	217	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perche' parlo con le mani.	}
+{	218	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perche' parlo con le mani.	}
+{	219	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	Chiamami DJ, perche' parlo con le mie mani.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Chiamami Handsome, perche' parlo con le mani.	}
 {	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	221	}{	Non mi riconosci? Non vedi molti film porno, vero?	}{	Non mi riconosci? Non vedi molti film porno, vero?	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non ti ricordi di me? Non ci siamo mai incontrati prima.	}
 {	222	}{	Non mi riconosci? Non vedi molti film porno, vero?	}{	Non mi riconosci? Non vedi molti film porno, vero?	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Non ti ricordi di me? Non ci siamo mai incontrati prima.	}

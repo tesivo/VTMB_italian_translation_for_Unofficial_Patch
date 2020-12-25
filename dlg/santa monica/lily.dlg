@@ -241,7 +241,7 @@
 {	241	}{	Puoi avermi salvata, ma non riesco a guardarti in faccia. E' incredibile che si possa essere cosi' insensibili... spietati.	}{	Puoi avermi salvata, ma non riesco a guardarti in faccia. E' incredibile che si possa essere cosi' insensibili... spietati.	}{	#	}{	npc.SetDisposition("Sad", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	242	}{	Gia', non sono io quello che ha squarciato la gola di quel tipo con i denti. Ciao.	}{	Gia', non sono io quella che ha squarciato la gola di quel tipo con i denti. Ciao.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono io la malerba velenosa.	}
 {	243	}{	Lo diventerai. Ti stai gia' dirigendo in quella direzione. Saluti.	}{	Lo diventerai. Ti stai gia' dirigendo in quella direzione. Saluti.	}{	0	}{	G.Extra_Lines ==1	}{		}{		}{		}{		}{		}{		}{		}{	Lo diventerai. Ti stai gia' dirigendo in quella direzione. Saluti.	}
-{	244	}{	Ricordi cosa hai fatto? Dammi dei soldi e non lo dirò ad E.	}{	Ricordi cosa hai fatto? Dammi dei soldi e non lo dirò ad E.	}{	271	}{	G.Lily_Extort == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho bisogno di un po' di verde o E saprà quello che ho visto.	}
+{	244	}{	Ricordi cosa hai fatto? Dammi dei soldi e non lo dirò ad E.	}{	Ricordi cosa hai fatto? Dammi dei soldi e non lo dirò ad E.	}{	271	}{	G.Lily_Extort == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho bisogno di un po' di verde o E sapra' quello che ho visto.	}
 {	245	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	247	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

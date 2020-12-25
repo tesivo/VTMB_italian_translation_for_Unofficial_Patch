@@ -309,7 +309,7 @@
 {	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	310	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	311	}{	Vai allora, campione. Io devo rimanere a proteggere la chiave, ma mi uniro' a te in tempo. Possa il tuo primo pugno trasportare con se un migliaio di inferni.	}{	Vai allora, campione. Io devo rimanere a proteggere la chiave, ma mi uniro' a te in tempo. Possa il tuo primo pugno trasportare con se un migliaio di inferni.	}{	#	}{		}{	G.Ming_Ending = 1; pc.SetQuest("Prince",3)	}{		}{		}{		}{		}{		}{		}{		}
-{	312	}{	Lo farà.	}{	Lo farà.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Andrò all'inferno.	}
+{	312	}{	Lo fara'.	}{	Lo fara'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Andrò all'inferno.	}
 {	313	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	314	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	315	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

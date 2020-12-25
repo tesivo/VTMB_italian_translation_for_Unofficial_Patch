@@ -5,7 +5,7 @@
 {	5	}{	Sono un anello portachiami, nutrimi! Dopo non potrai vedermi.	}{	Sono un anello portachiami, nutrimi! Dopo non potrai vedermi.	}{	131	}{	Dementation 1	}{	G.Guard_Dominated = 1; G.CS_Key = 1; pc.GiveItem("item_k_clinic_cs_key")	}{		}{		}{		}{		}{		}{		}{		}
 {	6	}{	Dammi le chiavi e lasciami in pace.	}{	Dammi le chiavi e lasciami in pace.	}{	131	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Guard_Dominated = 1; G.CS_Key = 1; pc.GiveItem("item_k_clinic_cs_key")	}{		}{		}{		}{		}{		}{		}{		}
 {	7	}{	Ma io appartengo a questo posto e ho bisogno delle tue chiavi.	}{	Ma io appartengo a questo posto e ho bisogno delle tue chiavi.	}{	131	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Guard_Dominated = 1; G.CS_Key = 1; pc.GiveItem("item_k_clinic_cs_key")	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	Chi mi fermerà? Tu?	}{	Chi mi fermerà? Tu?	}{	11	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Non posso essere fermato da semplici mortali.	}
+{	8	}{	Chi mi fermera'? Tu?	}{	Chi mi fermera'? Tu?	}{	11	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Non posso essere fermato da semplici mortali.	}
 {	9	}{	Okay.	}{	Okay.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Capito.	}
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	11	}{	Non puoi stare qui - dovrai andartene.	}{	Non puoi stare qui - dovrai andartene.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -160,7 +160,7 @@
 {	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	161	}{	Spiacente, e' un area ad accesso limitato.	}{	Spiacente, e' un area ad accesso limitato.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	162	}{	Tu fa' il tuo lavoro, io faccio il mio.	}{	Tu fa' il tuo lavoro, io faccio il mio.	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fate come voi e come me.	}
-{	163	}{	Il driver della CPU principale dev'essere immediatamente riparato o si friggera'!	}{	Il driver della CPU principale dev'essere immediatamente riparato o si friggera'!	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il cervello maestro deve essere riaccoppiato o morirà!	}
+{	163	}{	Il driver della CPU principale dev'essere immediatamente riparato o si friggera'!	}{	Il driver della CPU principale dev'essere immediatamente riparato o si friggera'!	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il cervello maestro deve essere riaccoppiato o morira'!	}
 {	164	}{	Se non lo riparo, dovro' tornare domani.	}{	Se non lo riparo, dovro' tornare domani.	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se non parlo con i computer ora dovrò tornare.	}
 {	165	}{	Davvero? Credi di poter fare un'eccezione per me?	}{	Davvero? Credi di poter fare un'eccezione per me?	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non pensi che io sia abbastanza speciale per fare questo?	}
 {	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

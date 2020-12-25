@@ -549,7 +549,7 @@
 {	549	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	551	}{	Devo farti un disegno? La galleria e' proprio in fondo alla strada.	}{	Devo farti un disegno? La galleria e' proprio in fondo alla strada.	}{	#	}{	npc.SetDisposition("neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	552	}{	Non serve, lo troverò.	}{	Non serve, lo troverò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ho già in testa una mappa.	}
+{	552	}{	Non serve, lo troverò.	}{	Non serve, lo troverò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ho gia' in testa una mappa.	}
 {	553	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

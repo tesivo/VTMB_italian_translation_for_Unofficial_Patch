@@ -13,7 +13,7 @@ WeaponData
 	"printname"		"Sconosciuto"	// added by wesp
 	"description"	"Non ne avete mai visto uno prima d'ora, ma Bun Bun l'ha lasciato qui, quindi non può essere una buona notizia.
 
-Per usare questo articolo è necessaria una capacità di ricerca di almeno 6."	// added by wesp
+Per usare questo articolo è necessaria una capacita' di ricerca di almeno 6."	// added by wesp
 
 	"impact_snd_group"	"fist"
 

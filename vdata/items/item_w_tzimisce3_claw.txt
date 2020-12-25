@@ -13,7 +13,7 @@ WeaponData
 	"printname"			"Sconosciuto"	// added by wesp
 	"description"		"Forse se foste un po' più goth avreste un'idea di cosa sia questo coso.
 
-Hai bisogno di una capacità di ricerca di almeno 4 per usare questo oggetto."	// added by wesp
+Hai bisogno di una capacita' di ricerca di almeno 4 per usare questo oggetto."	// added by wesp
 
 	"impact_snd_group"	"fist"
 

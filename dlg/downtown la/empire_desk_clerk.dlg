@@ -10,7 +10,7 @@
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	11	}{	Si'. Miss Locke e' uno dei nostri clienti piu', umm, famosi. Perche' questa domanda?	}{	Si'. Miss Locke e' uno dei nostri clienti piu', umm, famosi. Perche' questa domanda?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	12	}{	Mi serve la chiave della sua stanza.	}{	Mi serve la chiave della sua stanza.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi serve la chiave del suo regno.	}
-{	13	}{	Oh, non importa.	}{	Oh, non importa.	}{	0	}{	G.Jezebel_Dead == 1	}{	}{	}{	}{	}{	}{	}{	}{	Scusa, me ne sono già dimenticato.	}
+{	13	}{	Oh, non importa.	}{	Oh, non importa.	}{	0	}{	G.Jezebel_Dead == 1	}{	}{	}{	}{	}{	}{	}{	}{	Scusa, me ne sono gia' dimenticato.	}
 {	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -29,7 +29,7 @@
 {	29	}{	Ascolta, ho davvero bisogno di entrare nella sua stanza.	}{	Ascolta, ho davvero bisogno di entrare nella sua stanza.	}{	41	}{	IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{	Per favore! Devo assolutamente trovare questa Regina dell'Oscurita'!	}
 {	30	}{	Lascia stare. Ci vediamo.	}{	Lascia stare. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado.	}
 {	31	}{	Capisco. Beh, in tal caso, forse posso fare un'eccezione. Ecco la chiave della sua suite. Buona serata.	}{	Capisco. Beh, in tal caso, forse posso fare un'eccezione. Ecco la chiave della sua suite. Buona serata.	}{	#	}{		}{	pc.AwardExperience("Plague02"); pc.GiveItem("item_k_empire_jezebel_key")	}{		}{		}{		}{		}{		}{		}{		}
-{	32	}{	Grazie. Ci vediamo.	}{	Grazie. Ci vediamo.	}{	0	}{		}{	G.Clerk_End = 1	}{		}{		}{		}{		}{		}{		}{	Grazie. Quel Locke ora si aprirà a me.	}
+{	32	}{	Grazie. Ci vediamo.	}{	Grazie. Ci vediamo.	}{	0	}{		}{	G.Clerk_End = 1	}{		}{		}{		}{		}{		}{		}{	Grazie. Quel Locke ora si aprira' a me.	}
 {	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

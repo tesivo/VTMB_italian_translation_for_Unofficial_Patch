@@ -540,7 +540,7 @@
 {	540	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	541	}{	[sollevato]Ah, vedo che hai imparato bene. Nonostante le indiscrezioni del tuo signore, stai provando di essere un bene per il clan. Ti lodo e ringrazio, neonato.	}{	[sollevato]Ah, vedo che hai imparato bene. Nonostante le indiscrezioni del tuo signore, stai provando di essere un bene per il clan. Ti lodo e ringrazio, neonata.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	542	}{	Nessun problema. Ora cosa dovrei fare?	}{	Nessun problema. Ora cosa dovrei fare?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	543	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	543	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
 {	544	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	545	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	546	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -550,7 +550,7 @@
 {	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	551	}{	Apprezzo la tua discrezione in questa questione, neonato.	}{	Apprezzo la tua discrezione in questa questione, neonata.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	552	}{	Bene da sentire. Ora, cosa devo fare?	}{	Bene da sentire. Ora, cosa devo fare?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{	Cosa devo fare?	}
-{	553	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	553	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
 {	554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	556	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -570,7 +570,7 @@
 {	570	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	571	}{	E' un gioco pericoloso quello a cui stai giocando, neonato. Confido che farai la giusta decisione. Addio.	}{	E' un gioco pericoloso quello a cui stai giocando, neonata. Confido che farai la giusta decisione. Addio.	}{	#	}{		}{	G.Regent_QuestGargoyle = 4	}{		}{		}{		}{		}{		}{		}{		}
 {	572	}{	Come posso combattere il gargoyle?	}{	Come posso combattere il gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{	Come distruggo il demone?	}
-{	573	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	573	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
 {	574	}{	Addio, Max.	}{	Addio, Max.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Addio, re-mago.	}
 {	575	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	576	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -590,7 +590,7 @@
 {	590	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	591	}{	Buona fortuna, giovane. Quando avrai completato la distruzione del Gargoyle, ritorna e ti daro' un'appropriata ricompensa.	}{	Buona fortuna, giovane. Quando avrai completato la distruzione del Gargoyle, ritorna e ti daro' un'appropriata ricompensa.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	592	}{	Ancora una domanda, come combatto il gargoyle?	}{	Ancora una domanda, come combatto il gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{	Richiesta piu' conoscenza. Come distruggo il demone?	}
-{	593	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	In realtà ho già risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	593	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
 {	594	}{	Aspetta. C'era qualcos'altro di cui avevo bisogno.	}{	Aspetta. C'era qualcos'altro di cui avevo bisogno.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ancora una cosa...	}
 {	595	}{	Lo faro'. Ci vediamo.	}{	Lo faro'. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
 {	596	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

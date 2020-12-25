@@ -1276,7 +1276,7 @@ Una piu' facile accettazione nella societa' della Camarilla. Puo' essere usata l
 		{
 			"TemplateName"		"mp-mercenary"	// changed by wesp
 			"Name"			"Mercenario"	// changed by wesp
-			"Description"		"Per inseguire i non morti in zone dove i loro fratelli non possono entrare, la Società di Leopoldo impiega donne mercenarie. Queste donne dure sono normalmente di formazione ex-militare o delle forze dell'ordine e sono abbastanza abituate alle moderne armi da fuoco, alla tecnologia di sicurezza e ai combattimenti corpo a corpo. A causa della loro natura avida, sono solitamente lontane dal comprendere il profondo fondamento religioso della Società, il che significa che la loro Numina non è all'altezza dei poteri dei veri credenti."	// added by wesp
+			"Description"		"Per inseguire i non morti in zone dove i loro fratelli non possono entrare, la Societa' di Leopoldo impiega donne mercenarie. Queste donne dure sono normalmente di formazione ex-militare o delle forze dell'ordine e sono abbastanza abituate alle moderne armi da fuoco, alla tecnologia di sicurezza e ai combattimenti corpo a corpo. A causa della loro natura avida, sono solitamente lontane dal comprendere il profondo fondamento religioso della Societa', il che significa che la loro Numina non è all'altezza dei poteri dei veri credenti."	// added by wesp
 			"ShortDescription"		""
 			"ShortPenaltyDescription"	""
 		}
@@ -1374,7 +1374,7 @@ Una piu' facile accettazione nella societa' della Camarilla. Puo' essere usata l
 		{
 			"TemplateName"			"mp-brujah"	// changed by wesp
 			"Name"				"Brujah"
-			"Description"			"Bruja sono idealisti appassionati e ribelli, più propensi a combattere per i loro diritti che a scrivere canzoni di protesta. Nella vita, la maggior parte dei Bruja cercava il cambiamento sociale, e nei non-morti la maggior parte dei membri del clan cercava comunemente la creazione di un'utopia vampirica. Come radicali militanti, sono rinomati per le loro capacità di combattimento, ma sono anche più inclini alla frenesia a causa del loro sangue caldo, per così dire. Ricevono un +1 alla loro impresa disarmata, ma sono penalizzati con un -2 a tutti i controlli di frenesia, a causa della loro natura zelante."
+			"Description"			"Bruja sono idealisti appassionati e ribelli, più propensi a combattere per i loro diritti che a scrivere canzoni di protesta. Nella vita, la maggior parte dei Bruja cercava il cambiamento sociale, e nei non-morti la maggior parte dei membri del clan cercava comunemente la creazione di un'utopia vampirica. Come radicali militanti, sono rinomati per le loro capacita' di combattimento, ma sono anche più inclini alla frenesia a causa del loro sangue caldo, per così dire. Ricevono un +1 alla loro impresa disarmata, ma sono penalizzati con un -2 a tutti i controlli di frenesia, a causa della loro natura zelante."
 			"ShortDescription"		"
 Vantaggio: Guadagna +1 a Disarmato."	// changed by wesp
 			"ShortPenaltyDescription"	"Svantaggi: -2 su tutti i controlli di frenesia."
@@ -1492,7 +1492,7 @@ Vantaggio: Guadagna +1 a Disarmato."	// changed by wesp
 		{
 			"TemplateName"			"mp-gangrel"	// changed by wesp
 			"Name"				"Gangrel"
-			"Description"			"I Gangrel sono dei solitari selvaggi che sono i più in sintonia con la Bestia Interiore, permettendo loro di trasformarsi in forme più bestiali. Di natura nomade, i Gangrel si preoccupano poco della politica vampiresca e preferiscono abitare e cacciare ai margini della società. A causa della loro natura animalesca, ricevono un +5 alla Forza, alla Resistenza e all'Intelligenza durante la frenesia. Tuttavia, a causa della loro natura selvaggia, i Gangrel ricevono un -1 su tutti i controlli della frenesia."
+			"Description"			"I Gangrel sono dei solitari selvaggi che sono i più in sintonia con la Bestia Interiore, permettendo loro di trasformarsi in forme più bestiali. Di natura nomade, i Gangrel si preoccupano poco della politica vampiresca e preferiscono abitare e cacciare ai margini della societa'. A causa della loro natura animalesca, ricevono un +5 alla Forza, alla Resistenza e all'Intelligenza durante la frenesia. Tuttavia, a causa della loro natura selvaggia, i Gangrel ricevono un -1 su tutti i controlli della frenesia."
 			"ShortDescription"		"
 Vantaggi: +5 alla forza, all'ingegno e alla resistenza durante la frenesia."
 			"ShortPenaltyDescription"	"Svantaggi: -1 su tutti i controlli di frenesia."
@@ -1612,10 +1612,10 @@ Vantaggi: +5 alla forza, all'ingegno e alla resistenza durante la frenesia."
 		{
 			"TemplateName"			"mp-malkavian"	// changed by wesp
 			"Name"				"Malkavian"
-			"Description"			"I Malkaviani sono conosciuti come Lunatici per la loro capacità di sentire voci di \"intuizione\" e di sottoporre gli altri alla loro pazzia attraverso la loro Disciplina, la Dementazione. Il mondo appare molto diverso dai Malkavian rispetto ai clan \"sani\", anche se l'entità della follia di un Malkavian dipende dall'individuo. Una benedizione e una maledizione, la pazzia di un malkaviano li aiuterà o li ostacolerà, a seconda di quanto lottano contro la loro natura. I malkaviani iniziano con un bonus di +2 all'ispezione."
+			"Description"			"I Malkaviani sono conosciuti come Lunatici per la loro capacita' di sentire voci di \"intuizione\" e di sottoporre gli altri alla loro pazzia attraverso la loro Disciplina, la Dementazione. Il mondo appare molto diverso dai Malkavian rispetto ai clan \"sani\", anche se l'entita' della follia di un Malkavian dipende dall'individuo. Una benedizione e una maledizione, la pazzia di un malkaviano li aiutera' o li ostacolera', a seconda di quanto lottano contro la loro natura. I malkaviani iniziano con un bonus di +2 all'ispezione."
 			"ShortDescription"		"
 Vantaggi: Approfondimento, +2 all'ispezione."
-			"ShortPenaltyDescription"	"Penalità: Follia."
+			"ShortPenaltyDescription"	"Penalita': Follia."
 		}
 
 		General
@@ -1731,10 +1731,10 @@ Vantaggi: Approfondimento, +2 all'ispezione."
 		{
 			"TemplateName"			"mp-nosferatu"	// changed by wesp
 			"Name"				"Nosferatu"
-			"Description"			"Orribile, furtivo e potente. Anche in un mondo di mostri i Nosferatu si distinguono. L'Abbraccio torce e deforma i loro tratti fisici, costringendoli a cercare rifugio nel sottosuolo. I Nosferatu sono padroni delle ombre. A causa della loro maledizione, i Nosferatu hanno una Seduzione di 0 e non possono mai elevarla più in alto, e nascondono la loro esistenza agli umani comuni. Avendo condiviso l'oscurità con i parassiti per così tanto tempo, i vampiri del Clan Nosferatu sono in grado di attingere nutrimento extra dai ratti."
+			"Description"			"Orribile, furtivo e potente. Anche in un mondo di mostri i Nosferatu si distinguono. L'Abbraccio torce e deforma i loro tratti fisici, costringendoli a cercare rifugio nel sottosuolo. I Nosferatu sono padroni delle ombre. A causa della loro maledizione, i Nosferatu hanno una Seduzione di 0 e non possono mai elevarla più in alto, e nascondono la loro esistenza agli umani comuni. Avendo condiviso l'oscurita' con i parassiti per così tanto tempo, i vampiri del Clan Nosferatu sono in grado di attingere nutrimento extra dai ratti."
 			"ShortDescription"		"
 Vantaggio: I ratti non fuggono da Nosferatu, e Nosferatu guadagna sangue extra quando si nutre di ratti."
-			"ShortPenaltyDescription"	"Penalità: Seduzione massima di 0. Il viso mostruoso può causare una violazione del Mascheramento."
+			"ShortPenaltyDescription"	"Penalita': Seduzione massima di 0. Il viso mostruoso può causare una violazione del Mascheramento."
 		}
 
 		General
@@ -2522,10 +2522,10 @@ Advantage: Rats do not flee from Nosferatu, and Nosferatu gain extra blood when 
 		{
 			"TemplateName"			"mp-toreador"	// changed by wesp
 			"Name"				"Toreador"
-			"Description"			"Toreador si immaginano come artisti e visionari, e apprezzano la mentalità di alta società che la Camarilla rafforza. Tra tutti i clan, i Toreador sono i più legati al mondo mortale attraverso l'arte e lo spettacolo. I Toreador sono creature bellissime, snelle e seducenti, e si muovono quasi senza sforzo nella società dei vivi. L'empatia dei Toreador è sia un dono che un peso. Tutti i turni dell'Umanità sono raddoppiati, ma il Toreador inizia con un bonus di Aspetto di uno."	// changed by wesp
+			"Description"			"Toreador si immaginano come artisti e visionari, e apprezzano la mentalita' di alta societa' che la Camarilla rafforza. Tra tutti i clan, i Toreador sono i più legati al mondo mortale attraverso l'arte e lo spettacolo. I Toreador sono creature bellissime, snelle e seducenti, e si muovono quasi senza sforzo nella societa' dei vivi. L'empatia dei Toreador è sia un dono che un peso. Tutti i turni dell'Umanita' sono raddoppiati, ma il Toreador inizia con un bonus di Aspetto di uno."	// changed by wesp
 			"ShortDescription"		"
-Vantaggio: Tutti i guadagni dell'Umanità sono raddoppiati. L'esperienza più economica costa di più per aumentare l'Umanità."
-			"ShortPenaltyDescription"	"Penalita': Tutte le perdite dell'umanità sono raddoppiate."
+Vantaggio: Tutti i guadagni dell'Umanita' sono raddoppiati. L'esperienza più economica costa di più per aumentare l'Umanita'."
+			"ShortPenaltyDescription"	"Penalita': Tutte le perdite dell'umanita' sono raddoppiate."
 		}
 
 		General
@@ -2760,10 +2760,10 @@ Vantaggio: Taumaturgia."
 		{
 			"TemplateName"			"mp-ventrue"	// changed by wesp
 			"Name"				"Ventrue"
-			"Description"			"Vere e proprie alte sfere della società, i Ventrue sono visti come i leader onorevoli e virtuosi dei Camarilla. Essi sostengono con tutto il cuore la Mascherata, influenzando il mondo dei mortali e dei non morti per aiutarli a mantenere la Mascherata e a ottenere il loro sostegno. Il Clan Ventrue è un raduno esclusivo e potente di immortali, e anche il più basso iniziato del Clan Ventrue può aspettarsi un trattamento speciale nella società dei Kindred. Questa linea di sangue regale inizia con un bonus di Carisma di uno, tuttavia, non riceve alcun nutrimento da chi è di bassa statura e dal sangue magro. I Ventrue non guadagnano sangue nutrendosi degli animali. Nutrirsi di esseri umani di bassa statura - prostitute e senzatetto - può causare il vomito della Ventrue."	// changed by wesp
+			"Description"			"Vere e proprie alte sfere della societa', i Ventrue sono visti come i leader onorevoli e virtuosi dei Camarilla. Essi sostengono con tutto il cuore la Mascherata, influenzando il mondo dei mortali e dei non morti per aiutarli a mantenere la Mascherata e a ottenere il loro sostegno. Il Clan Ventrue è un raduno esclusivo e potente di immortali, e anche il più basso iniziato del Clan Ventrue può aspettarsi un trattamento speciale nella societa' dei Kindred. Questa linea di sangue regale inizia con un bonus di Carisma di uno, tuttavia, non riceve alcun nutrimento da chi è di bassa statura e dal sangue magro. I Ventrue non guadagnano sangue nutrendosi degli animali. Nutrirsi di esseri umani di bassa statura - prostitute e senzatetto - può causare il vomito della Ventrue."	// changed by wesp
 			"ShortDescription"		"
-Vantaggio: Accettazione più facile nella società di Camarilla. Può usare Dominare nel dialogo."
-			"ShortPenaltyDescription"	"Penalità: Non guadagnare sangue nutrendosi di animali. L'alimentazione di animali di bassa statura può causare vomito."
+Vantaggio: Accettazione più facile nella societa' di Camarilla. Può usare Dominare nel dialogo."
+			"ShortPenaltyDescription"	"Penalita': Non guadagnare sangue nutrendosi di animali. L'alimentazione di animali di bassa statura può causare vomito."
 		}
 
 		General

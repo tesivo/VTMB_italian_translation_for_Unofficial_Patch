@@ -19,7 +19,7 @@ TerminalDefinition
 	{
 		"subject"	"Riflettore!"
 		"sender"	"sksp@company.vtm"
-		"body"		"Hai lasciato il riflettore rotto sulla ringhiera? Qualcuno ci inciamperà sopra e si romperà il collo! Mettetelo nel laboratorio il prima possibile, non lo metterò via per voi.
+		"body"		"Hai lasciato il riflettore rotto sulla ringhiera? Qualcuno ci inciampera' sopra e si rompera' il collo! Mettetelo nel laboratorio il prima possibile, non lo metterò via per voi.
 SkSp"
 	}
 	

@@ -8,7 +8,7 @@ HistoryDataTables
 		Text
 		{
 			"Name"				"Omosessuale"
-			"Description"			"Hai sempre trovato il tuo genere molto più attraente dell'altro sesso, anche se molte persone hanno ancora problemi ad affrontarlo. Forse la società vampirica è diversa..."
+			"Description"			"Hai sempre trovato il tuo genere molto più attraente dell'altro sesso, anche se molte persone hanno ancora problemi ad affrontarlo. Forse la societa' vampirica è diversa..."
 			"ShortDescription"		"Inizia come omosessuale."
 			"ShortPenaltyDescription"	""
 		}
@@ -27,8 +27,8 @@ HistoryDataTables
 		{
 			"Name"				"Attivista ambientale"
 			"Description"			"Sei stato un membro di Greenpeace nella vita, sempre combattendo per proteggere l'ambiente, cavalcando con le balene e arrampicandoti sui reattori nucleari. Conoscere causa ed effetto era importante allora.
-			Scambia l'ordine di priorità delle tue capacità con le tue conoscenze, i tuoi talenti, le tue abilità."
-			"ShortDescription"		"Alternare le priorità di partenza."
+			Scambia l'ordine di priorita' delle tue capacita' con le tue conoscenze, i tuoi talenti, le tue abilita'."
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 		General
@@ -47,7 +47,7 @@ HistoryDataTables
 			"Name"				"Vecchi tempi"
 			"Description"			"Tu sei un tipo all'antica e non ti interessa tutta questa nuova tecnologia. Quindi vi costa di più aumentare le vostre conoscenze informatiche, ma iniziate con un bonus in borsa di studio."	// added by wesp
 			"ShortDescription"		"Vantaggio: +1 alla borsa di studio."
-			"ShortPenaltyDescription"	"Penalità: Aumentare le conoscenze informatiche costa di più."
+			"ShortPenaltyDescription"	"Penalita': Aumentare le conoscenze informatiche costa di più."
 		}
 
 		General
@@ -65,9 +65,9 @@ HistoryDataTables
 		Text
 		{
 			"Name"				"Carcere minorile"
-			"Description"			"Già da adolescente amavi dimostrare la tua influenza e il tuo potere sugli altri.
-Scambia l'ordine di priorità dei tuoi attributi con quelli fisici, mentali, sociali."	// added by wesp
-			"ShortDescription"		"Alternare le priorità di partenza."
+			"Description"			"Gia' da adolescente amavi dimostrare la tua influenza e il tuo potere sugli altri.
+Scambia l'ordine di priorita' dei tuoi attributi con quelli fisici, mentali, sociali."	// added by wesp
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 		General
@@ -84,8 +84,8 @@ Scambia l'ordine di priorità dei tuoi attributi con quelli fisici, mentali, soc
 		{
 			"Name"				"Editore di videogiochi"
 			"Description"			"Si assapora un triste piacere nel rovinare gli studi di sviluppo di giochi promettenti con scadenze impossibili.
-Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// added by wesp
-			"ShortDescription"		"Alternare le priorità di partenza."
+Scambia l'ordine di priorita' dei tuoi Attributi Mentali, Sociali, Fisici."	// added by wesp
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 		General
@@ -557,8 +557,8 @@ Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 		{
 			"Name"				"Consulente di riabilitazione"
 			"Description"			"Hai sempre avuto un orecchio aperto per i problemi degli altri, anche se hai dovuto ascoltare qualche stronzo seduto in prigione.
-			Scambi l'ordine di priorità delle sue abilità con abilità, conoscenze, talenti."	// added by wesp
-			"ShortDescription"		"Alternare le priorità di partenza."
+			Scambi l'ordine di priorita' delle sue abilita' con abilita', conoscenze, talenti."	// added by wesp
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 		General
@@ -631,8 +631,8 @@ Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 		{
 			"Name"				"Sostenitore del vizio"
 			"Description"			"Fumare, bere, drogarsi, hai fatto tutto questo quando eri ancora vivo. Ora nella morte ti rimane solo il sangue per eccitarti.
-			Scambia l'ordine di priorità delle tue abilità con le abilità, le conoscenze, i talenti."	// added by wesp
-			"ShortDescription"		"Alternare le priorità di partenza."
+			Scambia l'ordine di priorita' delle tue abilita' con le abilita', le conoscenze, i talenti."	// added by wesp
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 		General
@@ -650,8 +650,8 @@ Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 		{
 			"Name"				"Baglady"
 			"Description"			"La tua vita era un gran casino che ti ha lasciato bloccato per strada con nient'altro che alcolici a buon mercato. E ora hai un aspetto ancora peggiore!
-			Scambia l'ordine di priorità delle tue Abilità con Talenti, Conoscenze, Abilità."	// added by wesp
-			"ShortDescription"		"Alternare le priorità di partenza."
+			Scambia l'ordine di priorita' delle tue Abilita' con Talenti, Conoscenze, Abilita'."	// added by wesp
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 		General
@@ -687,9 +687,9 @@ Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 		Text
 		{
 			"Name"				"Buttafuori del bar"
-			"Description"			"Nessuno poteva superarti quando stavi in piedi su una porta e ti divertivi a buttare fuori la gente. Ora sarà ancora più facile fare del male alla gente.
-			Scambia l'ordine di priorità delle tue Abilità con Talenti, Conoscenze, Abilità."	// added by wesp
-			"ShortDescription"		"Alternare le priorità di partenza."
+			"Description"			"Nessuno poteva superarti quando stavi in piedi su una porta e ti divertivi a buttare fuori la gente. Ora sara' ancora più facile fare del male alla gente.
+			Scambia l'ordine di priorita' delle tue Abilita' con Talenti, Conoscenze, Abilita'."	// added by wesp
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 		General
@@ -729,7 +729,7 @@ Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 			"Description"	"Le cose non sono state facili per te. Hai lottato per tutto cio' che hai perso. Fai tesoro di quello che hai, e accetti con filosofia anche le lezioni piu' dure, mentre urli che lassu' qualcuno ti odia. Questa fortuna ti ha seguito fino alla non-morte. Che denti aguzzi!.
 			Ogni nutrimento ti da 2 punti sangue in meno. Ma come ogni perdente riconoscente, guadagni piu' esperienza dalle lezioni di vita. Ricevi un bonus esperienza per ogni ricompensa d'esperienza di 3 o piu'."
 			"ShortDescription"		"Vantaggio: Guadagno esperienza superiore."
-			"ShortPenaltyDescription"	"Penalità: Meno sangue dalla nutrizione."
+			"ShortPenaltyDescription"	"Penalita': Meno sangue dalla nutrizione."
 		}
 		General
 		{
@@ -748,7 +748,7 @@ Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 			"Description"			"Eri un grande poliziotto - finche' un drogato non ti ha spaccato la spina dorsale relegandoti al lavoro in ufficio per il resto della tua carriera.
 			Inizi con due punti in Arma da Fuoco, e un punto in Intimidazione, ma non puoi aumentare la tua Costituzione piu' di 3."
 			"ShortDescription"		"Vantaggio: +2 per Arma da Fuoco, +1 per Intimidazione."
-			"ShortPenaltyDescription"	"Penalità: Costituzione massima 3."
+			"ShortPenaltyDescription"	"Penalita': Costituzione massima 3."
 		}
 		General
 		{
@@ -767,7 +767,7 @@ Scambia l'ordine di priorità dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella morte vivente i tuoi appetiti soppressi sono riemersi.
 			Guadagni sangue extra quando ti nutri di un umano del sesso opposto. Sfortunatamente, la non-morte ha fatto poco per la tua personalita'. Il tuo Sotterfugio non puo' essere piu' di 1."
 			"ShortDescription"		"Vantaggio: Sangue extra dalle donne."
-			"ShortPenaltyDescription"	"Penalità: Sotterfugio massimo 1"
+			"ShortPenaltyDescription"	"Penalita': Sotterfugio massimo 1"
 		}
 		General
 		{
@@ -786,7 +786,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Sei una ragazzina fuori di testa. E forse ti piace ricevere le attenzioni dei ragazzi. E quindi ti piace fare la scema. Questo non significa che le persone hanno il diritto di parlare di te e chiamarti con quei nomi - loro non ti conoscono!
 			Nella non morte il tuo appetito sessuale e' riemerso in un modo curioso; digerisci molto piu' facilmente i fluidi del sesso opposto, e guadagni sangue extra quando ti nutri dagli uomini. Sfortunamente, avendo ignorato la vita in passato, ora apprendi con difficolta' le sue piccole lezioni. Devi spendere piu' esperienza per aumentare gli Attributi Mentali."
 			"ShortDescription"		"Vantaggio: Sangue extra dagli uomini."
-			"ShortPenaltyDescription"	"Penalità: Aumentare attributo Mentale costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Aumentare attributo Mentale costa di piu'."
 		}
 		General
 		{
@@ -805,7 +805,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Da ragazzino ti prendevano in giro per il tuo cranio deformato... finche' non e' cominciato il contrattacco. Ti � toccata la parte del ritardato, ma sei un tipo tosto, e te la sei giocata bene.
 			Hai una straordinaria resistenza alle punizioni, e inizi con due punti extra di Costituzione. Sei, comunque, un po' lento. Ti costera' piu' punti esperienza per aumentare qualunque Attributo Mentale."
 			"ShortDescription"		"Vantaggio: +2 in Costituzione."
-			"ShortPenaltyDescription"	"Penalità: Aumentare attributo Mentale costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Aumentare attributo Mentale costa di piu'."
 		}
 		General
 		{
@@ -823,7 +823,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"E' vero cio' che hanno detto. Hai tirato fuori il tuo occhio. E' stato difficile crescere con un raccapricciante occhio di vetro, ma da grande hai imparato a sfruttarlo nel lavoro. C'e' qualcosa in quel tuo snervante fissare che fa fare alle persone cio' che dici.
 			Inizi con due punti in Intimidazione, ma non puoi aumentare la tua Percezione a piu' di 3."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +2 in Intimidazione."
-			"ShortPenaltyDescription"	"Penalità: Percezione massima 3."
+			"ShortPenaltyDescription"	"Penalita': Percezione massima 3."
 		}
 		General
 		{
@@ -841,7 +841,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"'Non aiutarmi!' Le tue duplici deformita' rendono la vita difficile, ma sei uno di quegli sfortunati che ha ingoiato per anni la solita tiritera: sorridi, la vita e' bella comunque.
 			Non puoi aumentare la tua Destrezza a piu' di 1, ma inizi con punti extra in Umanita', Carisma, e Prontezza."
 			"ShortDescription"		"Vantaggio: +1 ad Umanita', Carisma e Prontezza."
-			"ShortPenaltyDescription"	"Penalità: Destrezza massima 1."
+			"ShortPenaltyDescription"	"Penalita': Destrezza massima 1."
 		}
 		General
 		{
@@ -859,7 +859,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Rifiuto, gentaglia, feccia - in qualunque modo lo chiami, sei il soprannaturale equivalente. Provieni da una lunga dinastia di gente di bassi fondi. Come tale, sei predisposto alla feccia dell'umanita'.
 			Ricevi sangue extra quando ti nutri dei senzatetto e dei ladri. La tua sporca dinastia non ti lascia molto in fatto di educazione - ti costera' piu' punti esperienza per aumentare le tue Abilita' Conoscenza."
 			"ShortDescription"		"Vantaggio: Sangue Extra dai senzatetto."
-			"ShortPenaltyDescription"	"Penalità: aumentare Conoscenza costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': aumentare Conoscenza costa di piu'."
 		}
 		General
 		{
@@ -877,7 +877,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Il tuo vecchio era un bastardo. Puoi dirlo ora. Ci sono voluti anni per essere capace di dirlo. Stai facendo progressi, ma eviti ancora il confronto, e non sai se ti sentirai mai bene ad essere toccata.
 			Inizi con un punto in Furtivita', ma costa piu' punti esperienza aumentare la tua Abilita' Disarmato."
 			"ShortDescription"		"Vantaggio: +1 in Furtivita'."
-			"ShortPenaltyDescription"	"Penalità: aumentare Disarmato costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': aumentare Disarmato costa di piu'."
 		}
 		General
 		{
@@ -895,7 +895,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Sei nata in un quartiere di periferia. Il Terzo Mondo. Eri solo una ragazza incazzata, che dava calci e mordeva per sopravvivere. Tra fame e persecutori, la malavita era la vera vita.
 			Inizi con un punto in Armi da Fuoco. La tua vita nelle strade non ti ha lasciato con molta pazienza per le istruzioni. Devi spendere piu' punti esperienza per aumentare le tue Abilita' Conoscenza."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 in Armi da Fuoco."
-			"ShortPenaltyDescription"	"Penalità: aumentare Conoscenza costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': aumentare Conoscenza costa di piu'."
 		}
 		General
 		{
@@ -914,7 +914,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Tra i piccoli paesini che punteggiano il Midwest, c'e' un sacco di spazio aperto, un sacco di lunghe ombre, un sacco di stanze per scomparire. Lo sai, lo hai fatto. E forse hai aiutato altre persone a farlo.
 			Inizi il gioco con un punto in Rissa, ma inizi con un'Umanita' di punteggio 5."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 in Rissa."
-			"ShortPenaltyDescription"	"Penalità: -2 in Umanita'."
+			"ShortPenaltyDescription"	"Penalita': -2 in Umanita'."
 		}
 		General
 		{
@@ -933,7 +933,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"La scienza deve ancora provare il collegamento tra l'uso di marijuana e la riduzione della capacita' mentale. Tu dici di essere sempre stato un po' lento, ma questo e' perche' sei cosi' maturo.
 			Non puoi aumentare la Prontezza piu' di 3, ma sei meno prono alla pazzia."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Meno incline alla pazzia."
-			"ShortPenaltyDescription"	"Penalità: Prontezza massima 3."
+			"ShortPenaltyDescription"	"Penalita': Prontezza massima 3."
 		}
 		General
 		{
@@ -951,7 +951,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Ogni manifestazione di vampirismo e' unica. La tua comporta una sfortunata deficienza. Il tuo corpo vuole decomporsi. Non e' nulla che non possa essere superato, ma costantemente hai dei rigetti.
 			Il tuo corpo si cura piu' lentamente del solito, dato che ci vuole piu' energia per ritornare alla condizione precedente. Dall'altro lato, la tua carne e' malleabile. Ti costa meno esperienza aumentare gli Attributi Fisici. Oh, e non puoi aumentare il Carisma a piu' di 3 a causa del tuo...peculiare odore."	// changed by wesp
 			"ShortDescription"		"Vantaggio: aumentare Attributi Fisici costa meno."
-			"ShortPenaltyDescription"	"Penalità: Lento ripristino vita, Carisma massimo 3."
+			"ShortPenaltyDescription"	"Penalita': Lento ripristino vita, Carisma massimo 3."
 		}
 		General
 		{
@@ -969,7 +969,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Molti vampiri non hanno problemi ad adattarsi alla societa' mortale. Non sai perche', ma non riesce a socializzare. Fai cio' che fanno gli altri, ma qualcosa dentro sembra rendere gli umani ansiosi. A volte, sembra che possano sentirti. Eri un umano intelligente e affidabile. Quindi cosa c'e'?
 			Costa meno esperienza aumentare gli Attributi Mentali, ma costa di piu' aumentare i tuoi Attributi Sociali e la tua Abilita' Furtivita'."
 			"ShortDescription"		"Vantaggio: aumentare Attributi Mentali costa di meno."
-			"ShortPenaltyDescription"	"Penalità: aumentare Attributi Sociali e Furtivita' costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': aumentare Attributi Sociali e Furtivita' costa di piu'."
 		}
 		General
 		{
@@ -987,7 +987,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Eri imbranato, ma con l'Abbraccio hai dato riserva alla tua innaturale potenza fisica.
 			Non puoi aumentare la Destrezza e la Percezione a piu' di 3, ma quando usi Blood Buff dura due volte piu' a lungo."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Blood Buff dura di piu'."
-			"ShortPenaltyDescription"	"Penalità: Destrezza e Percezione massima 3."
+			"ShortPenaltyDescription"	"Penalita': Destrezza e Percezione massima 3."
 		}
 		General
 		{
@@ -1005,7 +1005,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"L'abbraccio ti ha gettato in un periodo buio. Sei constantemente in lotta per la voglia di uccidere, allo stesso tempo la tua potenza migliora.
 			Inizi con un punto extra in Forza e Disarmato, ma sei incline alla pazzia. Il tuo atteggiamento impaziente rende la furtivita' piu' difficoltosa; ci vogliono piu' punti esperienza per aumentare la tua Abilita' Furtivita'."
 			"ShortDescription"		"Vantaggio: +1 in Forza e Disarmato."
-			"ShortPenaltyDescription"	"Penalità: Incline alla pazzia, aumentare la Furtivita' costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Incline alla pazzia, aumentare la Furtivita' costa di piu'."
 		}
 		General
 		{
@@ -1024,7 +1024,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"L'Abbraccio ti ha reso piu' leggero dell'aria, una sensazione che deve ancora abbandonarti.
 			La Velocita' ha una durata piu' lunga, ma devi spendere piu' punti esperienza per poter aumentare la Potenza."
 			"ShortDescription"		"Vantaggio: Velocita' dura di piu'."
-			"ShortPenaltyDescription"	"Penalità: aumentare Potenza costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': aumentare Potenza costa di piu'."
 		}
 		General
 		{
@@ -1042,7 +1042,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Da vivo un bullo, da morto un tiranno. Sei nato con la stoffa del guerriero e non esiti a combattere per dimostrare il tuo valore. Quando lo fai, e' una terribile visione.
 			L'Ascendente ti costa meno punti esperienza e inizi con un punto in Rissa. Ti costa di piu' Velocita' e inizi con un punto in meno di Umanita'."
 			"ShortDescription"		"Vantaggio: Ascendente costa di meno, +1 in Rissa."
-			"ShortPenaltyDescription"	"Penalità: Velocita' costa di piu', -1 in Umanita'."
+			"ShortPenaltyDescription"	"Penalita': Velocita' costa di piu', -1 in Umanita'."
 		}
 		General
 		{
@@ -1060,7 +1060,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Le voci dicono che sei un discendente dei legendari Chupacabra - il sangue impazzito del demonio che ha tormentato la campagna Messicana per generazioni. L'esattezza di questa dubbia distinzione e' impossibile da accertare, ma la selvaggita' del tuo istinto e' forte.
 			Inizi con un punto extra in Proteide. Sfortunatamente il tuo progenitore ti ha lasciato con una deficienza. Non puoi aumentare a piu' di 3 la Disciplina Robustezza."
 			"ShortDescription"		"Vantaggio: +1 in Proteide."
-			"ShortPenaltyDescription"	"Penalità: Robustezza massima 3."
+			"ShortPenaltyDescription"	"Penalita': Robustezza massima 3."
 		}
 		General
 		{
@@ -1079,7 +1079,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Le creature mortali ritengono i vampiri creature abominevoli, estranei all'ordine naturale. La tua presenza, comunque, sembra pacificare lo spirito animale come un dolce malsano inebriante.
 			Il tuo effetto Animalita' dura piu' a lungo ed e' piu' potente, ma hai difficolta' nel mantenere a lungo qualunque effetto della Proteide."
 			"ShortDescription"		"Vantaggio: Animalita' dura di piu'."
-			"ShortPenaltyDescription"	"Penalità: La durata di Proteide e' minore."
+			"ShortPenaltyDescription"	"Penalita': La durata di Proteide e' minore."
 		}
 		General
 		{
@@ -1098,7 +1098,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Forse e' la vaga costrizione di tessere una tela, o quando ti ritrovi a provare ad usare i tuoi sensi immaginari, ma qualcosa ti dice che il tuo sangue Gangrel e' eccezionale.
 			Sei capace di prolungare la durata di Proteide e della Robustezza. Sfortunatamente la tua natura e' anche piu' umana che Gangrel. Non puoi aumentare Prontezza, Carisma, e Aspetto a piu' di 3."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Proteide e Robustezza durano di piu'."
-			"ShortPenaltyDescription"	"Penalità: Prontezza, Carisma e Aspetto massimo 3."
+			"ShortPenaltyDescription"	"Penalita': Prontezza, Carisma e Aspetto massimo 3."
 		}
 		General
 		{
@@ -1116,7 +1116,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Discendente dei guerrieri nomadi vampiri, sei stato allenato a prove estreme di resistenza.
 			Inizi con punti extra in Costituzione e Robustezza. Il sangue Anda non e' di questa terra e il tuo spirito non e' collegato con la fauna naturale, cosi' l'Animalita' ti costa piu' esperienza."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 in Costituzione e Robustezza."
-			"ShortPenaltyDescription"	"Penalità: Animalita' costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Animalita' costa di piu'."
 		}
 		General
 		{
@@ -1134,7 +1134,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Pensi di essere un ninja. Kee-ai!
 			Inizi con un punto in Disarmato e un punto in Rissa, ma Arma da Fuoco non puo' essere aumentato a piu' di zero, dato che le armi sono un anatema del tuo Codice del Killer Silenzioso. Anche le anatre. Anche le anatre sono un anatema."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 in Disarmato e Rissa."
-			"ShortPenaltyDescription"	"Penalità: Arma da Fuoco massimo 0."
+			"ShortPenaltyDescription"	"Penalita': Arma da Fuoco massimo 0."
 		}
 		General
 		{
@@ -1152,7 +1152,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"La paralizzante paura della morte eterna ha una stretta ferrea su di te. La tomba e' dietro l'angolo, per te, per tutti, lo sai.
 			Non ti fidi dell'Oscurazione per lavorare e quindi non puoi mantenere l'effetto per molto a lungo - ogni livello di Oscurazione ha una durata piu' breve del normale. Sei constantemente in guardia del pericolo e puoi mantenere l'Auspex due volte piu' a lungo del normale."
 			"ShortDescription"		"Vantaggio: Auspex dura piu' a lungo."
-			"ShortPenaltyDescription"	"Penalità: Oscurazione ha una durata minore."
+			"ShortPenaltyDescription"	"Penalita': Oscurazione ha una durata minore."
 		}
 		General
 		{
@@ -1170,7 +1170,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"La maledizione del Clan Malkavian brucia incandescente nelle tue vene. Sei un calderone pieno di follia.
 			Gli effetti della tua Demenza sono piu' grandi e durano piu' a lungo. E' difficile far assorbire al tuo cervello agitato il concetto dell'invisibilita' e devi spendere piu' punti esperienza per aumentare la tua abilita' in Oscurazione."
 			"ShortDescription"		"Vantaggio: La Demenza dura piu' a lungo."
-			"ShortPenaltyDescription"	"Penalità: Aumentare l'Oscurazione costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Aumentare l'Oscurazione costa di piu'."
 		}
 		General
 		{
@@ -1188,7 +1188,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"L'Umanita' e' uno spettacolo davvero affascinante. Tutti vorrebbero essere osservatori prima o poi, ma tu eri ossessionato dall'idea. Anche i tuoi progenitori Nosferatu avevano un debole nello spiare.
 			Provieni da una lunga dinastia di pervertiti e gli effetti dell'Oscurazione durano piu' a lungo. D'altra parte, questa inquietudine ha indebolito la tua discendenza; la tua Potenza non puo' essere aumentata a piu' di 3."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Oscurazione dura piu' a lungo."
-			"ShortPenaltyDescription"	"Penalità: Potenza massima 3."
+			"ShortPenaltyDescription"	"Penalita': Potenza massima 3."
 		}
 		General
 		{
@@ -1207,7 +1207,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Ci sono destini peggiori della morte. Lo sai questo. In vita, eri un oggetto del desiderio. Gli uomini ti volevano, le donne volevano essere come te. Sei stata trasformata in una crudele derisione. Hai un intuito unico nella psicologia dell'umano e anche del vampiro.
 			Inizi con un punto in Furtivita'. Il tuo intenso desiderio di nasconderti per sempre ti ha dato un'Oscurazione che dura piu' a lungo. Non eri molto amica degli animali e ti costera' piu' punti esperienza aumentare la tua disciplina Animalita'."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 in Furtivita', Oscurazione dura piu' a lungo."
-			"ShortPenaltyDescription"	"Penalità: Aumentare Animalita' costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Aumentare Animalita' costa di piu'."
 		}
 
 		General
@@ -1227,7 +1227,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"La tua rinascita come bestia spaventosa e' un sogno che si realizza. La potenza e' inebriante. E ora la farai pagare a tutti - a tutti.
 			Inizi con un punto in Rissa, e un punto extra in Potenza. Non hai mai sentito molta empatia per le altre cose viventi e ora l'Umanita' ti costera' piu' esperienza."
 			"ShortDescription"		"Vantaggio: +1 in Rissa e Potenza."
-			"ShortPenaltyDescription"	"Penalità: Aumentare l'Umanita' costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Aumentare l'Umanita' costa di piu'."
 		}
 		General
 		{
@@ -1246,7 +1246,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Sei una creatura da leggenda urbana. Il tuo spirito e' in comunione con quello degli animali pestilenziali e con essi condividi il loro sporco dominio.
 			Gli effetti di Animalita' sono piu' potenti e durano piu' a lungo. Il tuo sangue malato diminuisce la durata della Potenza."
 			"ShortDescription"		"Vantaggio: Animalita' dura piu' a lungo."
-			"ShortPenaltyDescription"	"Penalità: Potenza ha una durata minore."
+			"ShortPenaltyDescription"	"Penalita': Potenza ha una durata minore."
 		}
 		General
 		{
@@ -1264,7 +1264,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Bella, noiosa e sociopatica. Ti diverti testando i limiti dei tuoi devoti corteggiatori e ti delizi della disperazione che loro testardamente soffrono per il tuo amore.
 			Inizi con un punto extra in Aspetto e uno in Sotterfugio, ma la tua Velocita' ha una durata minore."
 			"ShortDescription"		"Vantaggio: +1 in Aspetto e Sotterfugio."
-			"ShortPenaltyDescription"	"Penalità: Durata Velocita' minore."
+			"ShortPenaltyDescription"	"Penalita': Durata Velocita' minore."
 		}
 		General
 		{
@@ -1283,7 +1283,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Sei governato dalle tue passioni. E alcune di loro non sono piacevoli. Le persone ti trovano assolutamente affascinante. Ma sei sempre stato troppo egocentrico da infastidire le normali conversazioni umane.
 			Gli effetti del tuo Ascendente hanno una durata maggiore di altri Toreador, ma non puoi aumentare la Prontezza a piu' di 3 e sei piu' propenso alla pazzia quando le cose non vanno come avevi previsto."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Ascendente dura di piu'."
-			"ShortPenaltyDescription"	"Penalità: Prontezza massima 3, piu' propenso alla pazzia."
+			"ShortPenaltyDescription"	"Penalita': Prontezza massima 3, piu' propenso alla pazzia."
 		}
 		General
 		{
@@ -1302,7 +1302,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Giuri su Dio di poter vedere il futuro. Non quello che succedera' fra qualche anno, o la prossima settiamna, ma momento per momento sai sempre cosa sta per arrivare. Sei cosi' acutamente consapevole del tuo ambiente circostante che riesci a schivare le pallottole senza nemmeno guardare. Questa abilita' si manifesta anche come una forma superiore di Auspex.
 			Ricevi benefici maggiori dall'Auspex e puoi mantenere i suoi effetti piu' a lungo. Sfortunatamente, il grande volume di informazioni ti rende piu' cauto di altri; aumentare la tua disciplina Velocita' ti costera' piu' punti esperienza."
 			"ShortDescription"		"Vantaggio: Auspex dura piu' a lungo."
-			"ShortPenaltyDescription"	"Penalità: Aumentare Velocita' costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Aumentare Velocita' costa di piu'."
 		}
 		General
 		{
@@ -1320,7 +1320,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Sei una creatura di delicata bellezza e di effimera grazia. Sembri essere uscita dalle pagine di Spenser o Keats piuttosto che da Shelley o Stoker.
 			Ascendente e Velocita' hanno una durata maggiore, ma sei un essere veramente delicato - questo ti costa piu' esperienza per aumentare la tua Costituzione, Arma da Fuoco e Intimidazione."
 			"ShortDescription"		"Vantaggio: Ascendente e Velocita' durano di piu'."
-			"ShortPenaltyDescription"	"Penalità: Aumentare Costituzione, Forza, Arma da Fuoco e Intimidazione costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Aumentare Costituzione, Forza, Arma da Fuoco e Intimidazione costa di piu'."
 		}
 		General
 		{
@@ -1338,7 +1338,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Hai il dono della Taumaturgia, e puoi usarla con effetti maggiori di un semplice Tremere. La Taumaturgia e' l'unica tua passione. Non pratichi nemmeno la caccia.
 			Gli effetti della Taumaturiga sono incrementati, tuttavia soffri di un punto di penalita' in ogni esperienza acquisita di 3 o piu'."
 			"ShortDescription"		"Vantaggio: Taumaturgia piu' forte."
-			"ShortPenaltyDescription"	"Penalità: Meno esperienza guadagnata."
+			"ShortPenaltyDescription"	"Penalita': Meno esperienza guadagnata."
 		}
 		General
 		{
@@ -1356,7 +1356,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"I tuoi antenati hanno pagato un prezzo enorme nel raggiungimento del potere. Esso dura ancora, e tu continuerai a pagare per tutta l'eternita'.
 			Avanzare in Taumaturgia ti costa meno esperienza, ma l'Auspex ha la durata dimezzata, e non puoi aumentare la Dominazione a piu' di 3."
 			"ShortDescription"		"Vantaggio: Incrementa Taumaturgia costa di meno."
-			"ShortPenaltyDescription"	"Penalità: Durata breve Auspex, Dominazione massima 3."
+			"ShortPenaltyDescription"	"Penalita': Durata breve Auspex, Dominazione massima 3."
 		}
 		General
 		{
@@ -1374,7 +1374,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Sei sempre stata persuasiva, ma come vampiro, pochi possono rifiutare la tua volonta'.
 			Inizi con un punto in Sotterfugio e gli effetti Dominazione sono piu' forti e durano piu' a lungo. Come succede a coloro che usano gli altri per farsi servire, dovrai spendere piu' punti esperienza per aumentare le tue Abilita'."
 			"ShortDescription"		"Vantaggio: +1 in Sotterfugio, Dominazione piu' forte e durata piu' lunga."
-			"ShortPenaltyDescription"	"Penalità: aumentare le Abilita' costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': aumentare le Abilita' costa di piu'."
 		}
 		General
 		{
@@ -1393,7 +1393,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Oltre alla Bestia Interna, combatti contro una forza sempre piu' oscura. Senti l'influenza della salvezza e della dannazione in ogni azione.
 			Il tuo Ascendente ha una durata maggiore, ma inizi con un punto in meno in Umanita', e sei piu' propenso alla pazzia."
 			"ShortDescription"		"Vantaggio: Ascendente dura di piu'."
-			"ShortPenaltyDescription"	"Penalità: -1 in Umanita', piu' propenso alla pazzia."
+			"ShortPenaltyDescription"	"Penalita': -1 in Umanita', piu' propenso alla pazzia."
 		}
 		General
 		{
@@ -1411,7 +1411,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"			"Non tutti i Ventrue temono di sporcarsi le mani. Alcuni problemi devono essere affrontati, e a volte le questioni sono troppo delicate per ordinare ad un Gangrel di attaccare al posto tuo. Nonostante la tua dinastia non provenga da un ramo sano della famiglia Ventrue, i tuoi antenati si sono sempre interessati a sbrigare con cura maniacale le faccende spigolose degli altri.
 			Robustezza ha una durata maggiore, ma Ascendente ti costa piu' esperienza."
 			"ShortDescription"		"Vantaggio: Robustezza dura piu' a lungo."
-			"ShortPenaltyDescription"	"Penalità: Ascendente costa di piu'."
+			"ShortPenaltyDescription"	"Penalita': Ascendente costa di piu'."
 		}
 		General
 		{
@@ -1427,10 +1427,10 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Megalomane"
-			"Description"	"Hai un grande ego. A causa della tua fiducia in te stesso e delle tue capacità, le persone o ti odiano davvero, o sono attratte da te.
+			"Description"	"Hai un grande ego. A causa della tua fiducia in te stesso e delle tue capacita', le persone o ti odiano davvero, o sono attratte da te.
 			Si inizia con un punto in più di Charisma, ma non si può mai alzare Subterfugo al di sopra di quattro."	// changed by wesp
 			"ShortDescription"	"Vantaggio: +1 a Charisma."
-			"ShortPenaltyDescription"	"Penalità: Sotterfugio massimo di 4."
+			"ShortPenaltyDescription"	"Penalita': Sotterfugio massimo di 4."
 		}
 
 		General
@@ -1470,7 +1470,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"	"Dopo l'Abbraccio, sei entrato naturalmente in sintonia con la Bestia interna e quell'affinita' e' ora fisicamente evidente.
 			Inizi con un livello in Proteide ma altri, specialmente umani, troveranno il tuo aspetto disgustoso. (-5 reazione per i vampiri diversi dai Gangrel e -20 per gli umani.)"
 			"ShortDescription"		"Vantaggio: Aumentare Proteide costa meno."
-			"ShortPenaltyDescription"	"Penalità: Aspetto massimo di 3."
+			"ShortPenaltyDescription"	"Penalita': Aspetto massimo di 3."
 		}
 
 		General
@@ -1487,10 +1487,10 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Sottilmente folle"
-			"Description"	"La vostra pazzia non ostacola troppo la vostra capacità di interagire con gli altri. A prima vista, la maggior parte non dubita della vostra stabilità mentale.
+			"Description"	"La vostra pazzia non ostacola troppo la vostra capacita' di interagire con gli altri. A prima vista, la maggior parte non dubita della vostra stabilita' mentale.
 			La vostra forma unica di demenza si infiamma più facilmente se provocata in combattimento, ma non potete mai alzare la vostra Schivata sopra i tre."	// changed by wesp
 			"ShortDescription"	"Vantaggio: +1 alla demolizione."
-			"ShortPenaltyDescription"	"Penalità: Schivare al massimo 3."
+			"ShortPenaltyDescription"	"Penalita': Schivare al massimo 3."
 		}
 
 		General
@@ -1508,9 +1508,9 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Ben istruito"
 			"Description"	"Lei è stato molto privilegiato e ha ottenuto un'eccellente istruzione a tutto tondo.
-			Hai un bonus in una varietà di abilità, ma hai un temperamento mite e una volontà debole. Non potrai mai aumentare Dominare e Intimidire oltre i tre."	// changed by wesp
+			Hai un bonus in una varieta' di abilita', ma hai un temperamento mite e una volonta' debole. Non potrai mai aumentare Dominare e Intimidire oltre i tre."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Bonus in tutti i tratti della Conoscenza."	// changed by wesp
-			"ShortPenaltyDescription"	"Penalità: Dominare e intimidire un massimo di 3."
+			"ShortPenaltyDescription"	"Penalita': Dominare e intimidire un massimo di 3."
 		}
 
 		General
@@ -1526,11 +1526,11 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 	{
 		Text
 		{
-			"Name"		"Affinità per la magia"
+			"Name"		"Affinita' per la magia"
 			"Description"	"Ti sono sempre piaciute le illusioni magiche, e hai anche fatto qualche trucco da bambino. Ora ti stupisci che la magia sia davvero reale.
 			Si può avanzare più facilmente nella Taumaturgia. D'altra parte si guadagna meno esperienza per tutto il resto."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Aumentare la Taumaturgia costa meno."
-			"ShortPenaltyDescription"	"Penalità: Meno esperienza acquisita."
+			"ShortPenaltyDescription"	"Penalita': Meno esperienza acquisita."
 		}
 
 		General
@@ -1570,7 +1570,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"	"Tu eri un artista affamato. Vivevi con i vestiti addosso e, a causa del tuo scarso background, non hai alcuna rimostranza per non indossare vestiti brutti.
 			Hai un occhio speciale per i piccoli dettagli che ti danno un bonus a Perception, ma non puoi mai alzare il tuo aspetto sopra i quattro."	// changed by wesp
 			"ShortDescription"	"Vantaggio: +1 a Percezione."
-			"ShortPenaltyDescription"	"Penalità: Aspetto massimo di 4."
+			"ShortPenaltyDescription"	"Penalita': Aspetto massimo di 4."
 		}
 
 		General
@@ -1588,9 +1588,9 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Black-Hearted"
 			"Description"	"Quando eri vivo eri un uomo dal cuore nero, amante della violenza, un cattivo, un duro, e sei ancora un maniaco malvagio nella vita.
-			Hai un'Umanità di cinque, ma inizia con un bonus alla tua abilità con le armi da fuoco."	// changed by wesp
+			Hai un'Umanita' di cinque, ma inizia con un bonus alla tua abilita' con le armi da fuoco."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 alle armi da fuoco."
-			"ShortPenaltyDescription"	"Penalita': Umanità -2."
+			"ShortPenaltyDescription"	"Penalita': Umanita' -2."
 		}
 
 		General
@@ -1608,10 +1608,10 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Dado occulto"
-			"Description"	"Chi avrebbe mai pensato che tutto questo potesse essere reale? Lei amava le fantasie oscure e si considerava un esperto di occulto. Ora che sei tra i Kindred, scopri che in realtà conosci alcune di queste cose e sei davvero entusiasta di saperne di più sul tuo nuovo stato di non-vita.
+			"Description"	"Chi avrebbe mai pensato che tutto questo potesse essere reale? Lei amava le fantasie oscure e si considerava un esperto di occulto. Ora che sei tra i Kindred, scopri che in realta' conosci alcune di queste cose e sei davvero entusiasta di saperne di più sul tuo nuovo stato di non-vita.
 			Guadagni un bonus per la borsa di studio e per l'esperienza, ma altri ti trovano sdegnoso, quindi il tuo carisma non può essere aumentato oltre i 3."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 alla borsa di studio, più esperienza."
-			"ShortPenaltyDescription"	"Penalità: Carisma massimo di 3."
+			"ShortPenaltyDescription"	"Penalita': Carisma massimo di 3."
 		}
 
 		General
@@ -1629,8 +1629,8 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Accademico"
 			"Description"	"Lei era un tipo accademico, come il suo sire di Brujah, all'altezza della vecchia immagine di Brujah del poeta-guerriero.
-			I tuoi attributi hanno una priorità diversa: il mentale è il più importante, poi il sociale, seguito dal fisico."
-			"ShortDescription"		"Alternare le priorità di partenza."
+			I tuoi attributi hanno una priorita' diversa: il mentale è il più importante, poi il sociale, seguito dal fisico."
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 
@@ -1649,8 +1649,8 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Generalissimo"
 			"Description"	"Disciplina e ordine, tattica e guerra: questi sono i motivi per cui è entrato nell'esercito. Non solo si è inserito perfettamente, ma ha anche eccelso nell'esercito.
-			Scambia l'ordine di priorità con i tuoi attributi fisici, mentali e sociali."
-			"ShortDescription"		"Alternare le priorità di partenza."
+			Scambia l'ordine di priorita' con i tuoi attributi fisici, mentali e sociali."
+			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
 
@@ -1668,10 +1668,10 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Ex-SWAT"	// changed by wesp
-			"Description"	"Durante il periodo in cui è stato nelle forze di polizia, ha sviluppato una notevole abilità con le armi da fuoco. Tuttavia, ha lasciato le forze armate dopo aver ricevuto un infortunio invalidante mentre era in servizio.
-			Iniziate con un bonus all'abilità con le armi da fuoco, ma la vostra destrezza non può essere aumentata al di sopra di uno."
+			"Description"	"Durante il periodo in cui è stato nelle forze di polizia, ha sviluppato una notevole abilita' con le armi da fuoco. Tuttavia, ha lasciato le forze armate dopo aver ricevuto un infortunio invalidante mentre era in servizio.
+			Iniziate con un bonus all'abilita' con le armi da fuoco, ma la vostra destrezza non può essere aumentata al di sopra di uno."
 			"ShortDescription"		"Vantaggio: +2 alle armi da fuoco."
-			"ShortPenaltyDescription"	"Penalità: Destrezza massima di 1."
+			"ShortPenaltyDescription"	"Penalita': Destrezza massima di 1."
 		}
 
 		General
@@ -1691,7 +1691,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Description"	"Non è colpa tua se sei nato carente nel campo dell'apparenza. Dato che non piaci a nessuno, i tuoi desideri sessuali insoddisfatti e repressi ti hanno trasformato in un piccolo pervertito.
 			Ora, nella tua vita, scopri che digerisci il vitae di un membro del sesso opposto in modo più efficiente, ma non puoi aumentare il tuo carisma al di sopra dei tre."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Sangue extra dalle donne."
-			"ShortPenaltyDescription"	"Penalità: Carisma massimo di 3."
+			"ShortPenaltyDescription"	"Penalita': Carisma massimo di 3."
 		}
 
 		General
@@ -1711,8 +1711,8 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 			"Name"		"Testa di pentola"
 			"Description"	"Gli scienziati dicono che fumare erba può rendere più stupidi. Questo può spiegare la tua terribile memoria, perché spesso dimentichi i nomi e altri dettagli. Tuttavia, hai un atteggiamento molto rilassato nei confronti della vita, o della non vita.
 			Si guadagna un bonus ai controlli di frenesia, ma non si può aumentare la propria intelligenza oltre i tre."	// changed by wesp
-			"ShortDescription"		"Vantaggio: Meno probabilità di frenesia."
-			"ShortPenaltyDescription"	"Penalità: Intelligenza massima di 3."
+			"ShortDescription"		"Vantaggio: Meno probabilita' di frenesia."
+			"ShortPenaltyDescription"	"Penalita': Intelligenza massima di 3."
 		}
 
 		General
@@ -1729,9 +1729,9 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Sordo"
-			"Description"	"Sei nato praticamente sordo. Non solo hai superato la tua disabilità, ma ti piace aiutare gli altri ad affrontare la vita e ad andare avanti.
-			Cominci con un'Umanità di 8, ma non riesci ad alzare la tua Percezione al di sopra di tre punti. Inoltre, pur non volendo essere presuntuoso, hai la vaga sensazione che la Dea bendata ti sorrida dandoti un bonus a Schivare."
-			"ShortDescription"		"Vantaggio: +1 a Umanità e Dodge."	// changed by wesp
+			"Description"	"Sei nato praticamente sordo. Non solo hai superato la tua disabilita', ma ti piace aiutare gli altri ad affrontare la vita e ad andare avanti.
+			Cominci con un'Umanita' di 8, ma non riesci ad alzare la tua Percezione al di sopra di tre punti. Inoltre, pur non volendo essere presuntuoso, hai la vaga sensazione che la Dea bendata ti sorrida dandoti un bonus a Schivare."
+			"ShortDescription"		"Vantaggio: +1 a Umanita' e Dodge."	// changed by wesp
 			"ShortPenaltyDescription"	"Penalita': Percezione massima di 3."
 		}
 

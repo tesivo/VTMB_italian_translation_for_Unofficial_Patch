@@ -14,7 +14,7 @@
 {	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	15	}{	[Therese]È diverso dal modo in cui hai trattato tuo padre?	}{	[Therese]È diverso dal modo in cui hai trattato tuo padre?	}{	#	}{	pc.SetCamera("tTherese") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	16	}{	(Auto-Link)	}{	(Auto-Link)	}{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	[Jeanette]Padre? Oh, Therese... povera, cara illusa... Ho trattato papà esattamente come meritava di essere trattato... e lui ti ha trattato come una -	}{	[Jeanette]Padre? Oh, Therese... povera, cara illusa... Ho trattato papà esattamente come meritava di essere trattato... e lui ti ha trattato come una -	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	[Jeanette]Padre? Oh, Therese... povera, cara illusa... Ho trattato papa' esattamente come meritava di essere trattato... e lui ti ha trattato come una -	}{	[Jeanette]Padre? Oh, Therese... povera, cara illusa... Ho trattato papa' esattamente come meritava di essere trattato... e lui ti ha trattato come una -	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	18	}{	(Auto-Link)	}{	(Auto-Link)	}{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -22,9 +22,9 @@
 {	22	}{	(Auto-Link)	}{	(Auto-Link)	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	23	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	25	}{	[Therese]Non dici una parola su papà!	}{	[Therese]Non dici una parola su papà!	}{	#	}{	pc.SetCamera("tTherese") or npc.SetDisposition("anger",2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	[Therese]Non dici una parola su papa'!	}{	[Therese]Non dici una parola su papa'!	}{	#	}{	pc.SetCamera("tTherese") or npc.SetDisposition("anger",2)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	26	}{	(Auto-Link)	}{	(Auto-Link)	}{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	[Jeanette]Il tuo cuore appartiene ancora a papà dopo tutti questi anni, eh, sorella?	}{	[Jeanette]Il tuo cuore appartiene ancora a papà dopo tutti questi anni, eh, sorella?	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{	[Jeanette]Il tuo cuore appartiene ancora a papa' dopo tutti questi anni, eh, sorella?	}{	[Jeanette]Il tuo cuore appartiene ancora a papa' dopo tutti questi anni, eh, sorella?	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	28	}{	(Auto-Link)	}{	(Auto-Link)	}{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

@@ -935,7 +935,7 @@
 {	935	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	936	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	937	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	938	}{	Non farmi ridere. Non hai nessuna possibilità e lo sai. Ora vendimi l'attrezzatura!	}{	Non farmi ridere. Non hai nessuna possibilità e lo sai. Ora vendimi l'attrezzatura!	}{	0	}{	G.Story_State >= 100	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Ah, ah, ah, ah. Non ci credo. Ora vendi la mia roba!	}
+{	938	}{	Non farmi ridere. Non hai nessuna possibilita' e lo sai. Ora vendimi l'attrezzatura!	}{	Non farmi ridere. Non hai nessuna possibilita' e lo sai. Ora vendimi l'attrezzatura!	}{	0	}{	G.Story_State >= 100	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Ah, ah, ah, ah. Non ci credo. Ora vendi la mia roba!	}
 {	939	}{	Desidererai ardentemente di essere morto sulla spiaggia. Fatti sotto, ghoul.	}{	Desidererai ardentemente di essere morto sulla spiaggia. Fatti sotto, ghoul.	}{	0	}{	G.Story_State < 100	}{	G.Mercurio_Attack = 1	}{		}{		}{		}{		}{		}{		}{	Oooh. Che paura.	}
 {	940	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	941	}{	Volevo solo assicurarmi che sapessi che apprezzo molto. E come ho detto prima, se qualcuno ha bisogno di qualcosa, posso procurargliela. Questa barca, per esempio.	}{	Volevo solo assicurarmi che sapessi che apprezzo molto. E come ho detto prima, se qualcuno ha bisogno di qualcosa, posso procurargliela. Questa barca, per esempio.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}

@@ -9,7 +9,7 @@
 {	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	11	}{	[In punto di morte e davvero spaventata per la sua vita. Non vuole morire]Uh. Ti prego - chiama un dottore.	}{	[In punto di morte e davvero spaventata per la sua vita. Non vuole morire]Uh. Ti prego - chiama un dottore.	}{	#	}{		}{	G.Heather_Know = 1; heatherQuest1()	}{		}{		}{		}{		}{		}{		}{		}
-{	12	}{	Vedrò cosa posso fare.	}{	Vedrò cosa posso fare.	}{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il guasto sarà riparato.	}
+{	12	}{	Vedrò cosa posso fare.	}{	Vedrò cosa posso fare.	}{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il guasto sara' riparato.	}
 {	13	}{	[In shock, sofferente, spaventata]Uhh. Le mie interiora.... fanno davvero male.	}{	[In shock, sofferente, spaventata]Uhh. Le mie interiora.... fanno davvero male.	}{	#	}{		}{	G.Heather_Insides = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	14	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
 {	15	}{	[Sofferente, inizia a piangere]Heh huh. Qualcuno puo' chiamare mia nonna?!?	}{	[Sofferente, inizia a piangere]Heh huh. Qualcuno puo' chiamare mia nonna?!?	}{	#	}{		}{	G.Heather_Grandma = 1	}{		}{		}{		}{		}{		}{		}{		}
@@ -611,7 +611,7 @@
 {	611	}{	[Singhiozzando, in procinto di piangere]Me ne andro'... okay? Ma se dovessi mai cambiare idea-	}{	[Singhiozzando, in procinto di piangere]Me ne andro'... okay? Ma se dovessi mai cambiare idea-	}{	#	}{	npc.SetDisposition("Sad",3)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	612	}{	No.	}{	No.	}{	621	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non posso.	}
 {	613	}{	VAI VIA!	}{	VAI VIA!	}{	621	}{		}{		}{		}{		}{		}{		}{		}{		}{	FUORI!	}
-{	614	}{	-quindi ti troverò, te lo prometto.	}{	-quindi ti trovero', te lo prometto.	}{	621	}{	Humanity 8	}{	}{	}{	}{	}{	}{	}{	}{	-la strada mi riporterà a te.	}
+{	614	}{	-quindi ti troverò, te lo prometto.	}{	-quindi ti trovero', te lo prometto.	}{	621	}{	Humanity 8	}{	}{	}{	}{	}{	}{	}{	}{	-la strada mi riportera' a te.	}
 {	615	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	616	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	617	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -672,9 +672,9 @@
 {	672	}{	Cos'hai fatto?!? Dov'e'?	}{	Cos'hai fatto?!? Dov'e'?	}{	681	}{		}{		}{		}{		}{		}{		}{		}{		}{	No no no no no... i pesci stanno nelle scuole! Dov'e'?	}
 {	673	}{	Ah, mi piace venire qui e trovare la cena pronta. Grazie.	}{	Ah, mi piace venire qui e trovare la cena pronta. Grazie.	}{	691	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	674	}{	Giusto in tempo, sono affamato. Finalmente ti rendi utile.	}{	Giusto in tempo, sono affamata. Finalmente ti rendi utile.	}{	691	}{		}{		}{		}{		}{		}{		}{		}{		}{	Bene che lui sia qui o forse avrei potuto spezzarti a meta'. Brava ragazza.	}
-{	675	}{	L'ho già fatto. Scaricate il suo corpo in un posto che non dia nell'occhio, vi dispiace?	}{	L'ho già fatto. Può scaricare il suo corpo in un posto che non dia nell'occhio, per favore?	}{	711	}{	IsDead("McFly") and G.Mcfly_Dump == 0	}{	G.Heather_Lure = 2	}{	}{	}{	}{	}{	}{	}{	Il pesce puzza da morire. Pulisci, per favore.	}
-{	676	}{	Me ne sono già accorto e l'ho lasciato andare. Non farlo mai più, mai più, Heather.	}{	Me ne sono già accorta e l'ho lasciato andare. Non farlo mai più, mai più, Heather.	}{	721	}{	(G.Mcfly_Leave == 1 or G.Mcfly_Dominated == 1 or G.Mcfly_Dementated == 1) and G.Mcfly_Free == 0	}{	G.Mcfly_Free = 1; G.Heather_Lure = 2	}{	}{	}{	}{	}{	}{	}{	Ho trovato il pesce e l'ho rimesso nello stagno.	}
-{	677	}{	Mi sono già nutrito di lui, ma l'ho lasciato vivere. Fallo uscire finché la trance dura.	}{	Mi sono già nutrito di lui ma l'ho lasciato vivere. Fallo uscire finché la trance dura.	}{	711	}{	not IsDead("McFly") and G.Mcfly_Dump == 0 and G.Mcfly_Feed == 1	}{	G.Heather_Lure = 2	}{	}{	}{	}{	}{	}{	}{	Ho già assaggiato un boccone, ora butto via il pesce.	}
+{	675	}{	L'ho gia' fatto. Scaricate il suo corpo in un posto che non dia nell'occhio, vi dispiace?	}{	L'ho gia' fatto. Può scaricare il suo corpo in un posto che non dia nell'occhio, per favore?	}{	711	}{	IsDead("McFly") and G.Mcfly_Dump == 0	}{	G.Heather_Lure = 2	}{	}{	}{	}{	}{	}{	}{	Il pesce puzza da morire. Pulisci, per favore.	}
+{	676	}{	Me ne sono gia' accorto e l'ho lasciato andare. Non farlo mai più, mai più, Heather.	}{	Me ne sono gia' accorta e l'ho lasciato andare. Non farlo mai più, mai più, Heather.	}{	721	}{	(G.Mcfly_Leave == 1 or G.Mcfly_Dominated == 1 or G.Mcfly_Dementated == 1) and G.Mcfly_Free == 0	}{	G.Mcfly_Free = 1; G.Heather_Lure = 2	}{	}{	}{	}{	}{	}{	}{	Ho trovato il pesce e l'ho rimesso nello stagno.	}
+{	677	}{	Mi sono gia' nutrito di lui, ma l'ho lasciato vivere. Fallo uscire finché la trance dura.	}{	Mi sono gia' nutrito di lui ma l'ho lasciato vivere. Fallo uscire finché la trance dura.	}{	711	}{	not IsDead("McFly") and G.Mcfly_Dump == 0 and G.Mcfly_Feed == 1	}{	G.Heather_Lure = 2	}{	}{	}{	}{	}{	}{	}{	Ho gia' assaggiato un boccone, ora butto via il pesce.	}
 {	678	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	679	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	680	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -741,7 +741,7 @@
 {	741	}{	Ti vogliono morto? Perche'? Perche' qualcuno puo' mai pensare di fare del male ad una persona cosi'... straordinaria?	}{	Ti vogliono morto? Perche'? Perche' qualcuno puo' mai pensare di fare del male ad una persona cosi'... straordinaria?	}{	#	}{	npc.SetDisposition("Confused",1)	}{		}{		}{		}{		}{		}{		}{		}{	Sono davveri andati via quegl'occhi? E' davvero tutto ok?	}
 {	742	}{	Probabilmente e' gelosia. Stai attenta, okay?	}{	Probabilmente e' gelosia. Stai attenta, okay?	}{	761	}{		}{		}{		}{		}{		}{		}{		}{		}{	Gli occhi cercano me, non te.	}
 {	743	}{	Se qualcuno ti si avvicina e non lo conosci, picchialo in testa.	}{	Se qualcuno ti si avvicina e non lo conosci, picchialo in testa.	}{	751	}{		}{		}{		}{		}{		}{		}{		}{		}{	se dovessi rivedere quei occhi... falli neri.	}
-{	744	}{	Heather, promettimi di restare in casa fino a quando tutto questo non sarà finito!	}{	Heather, promettimi di restare in casa fino a quando tutto questo non sarà finito!	}{	761	}{	G.Patch_Plus == 1	}{	G.Heather_Indoors = 1	}{	}{	}{	}{	}{	}{	}{	Resta nella gabbia dorata del cielo finché non ti libero.	}
+{	744	}{	Heather, promettimi di restare in casa fino a quando tutto questo non sara' finito!	}{	Heather, promettimi di restare in casa fino a quando tutto questo non sara' finito!	}{	761	}{	G.Patch_Plus == 1	}{	G.Heather_Indoors = 1	}{	}{	}{	}{	}{	}{	}{	Resta nella gabbia dorata del cielo finché non ti libero.	}
 {	745	}{	La tua vita potrebbe essere in pericolo. Quindi, Heather, devo chiederti di andartene.	}{	La tua vita potrebbe essere in pericolo. Quindi, Heather, devo chiederti di andartene.	}{	591	}{		}{		}{		}{		}{		}{		}{		}{		}{	No... questa e' la fine... questa e' la fine se non te ne vai.	}
 {	746	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	747	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -984,7 +984,7 @@
 {	984	}{	Ecco.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	985	}{	Okay.	}{	Okay.	}{	#	}{		}{	G.Heather_Clothes = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	986	}{	Quando ritorno, spero di vedere una bella sorpresa.	}{	Quando ritorno, spero di vedere una bella sorpresa.	}{	0	}{	G.Heather_Outfit == 0 or G.Heather_Outfit == 1	}{	G.Heather_Outfit = 2	}{		}{		}{		}{		}{		}{		}{	Quando ritorno, spero di vedere una bella sorpresa.	}
-{	987	}{	Mi piace il buio e il gotico.	}{	Mi piace il buio e il gotico.	}{	0	}{	G.Heather_Outfit == 0 or G.Heather_Outfit == 2	}{	G.Heather_Outfit = 1	}{	}{	}{	}{	}{	}{	}{	Mi piacciono i vestiti che si adattano all'oscurità della mia anima.	}
+{	987	}{	Mi piace il buio e il gotico.	}{	Mi piace il buio e il gotico.	}{	0	}{	G.Heather_Outfit == 0 or G.Heather_Outfit == 2	}{	G.Heather_Outfit = 1	}{	}{	}{	}{	}{	}{	}{	Mi piacciono i vestiti che si adattano all'oscurita' della mia anima.	}
 {	988	}{	Vediamo cosa riuscirai a prendere mentre sto fuori.	}{	Vediamo cosa riuscirai a prendere mentre sto fuori.	}{	0	}{	G.Heather_Outfit == 1 or G.Heather_Outfit == 2	}{	G.Heather_Outfit = 0	}{		}{		}{		}{		}{		}{		}{	La mia mente ti vuole così come ti ho conosciuto.	}
 {	989	}{	D'altra parte, dimenticatelo.	}{	D'altra parte, dimenticalo.	}{	0	}{	}{	G.Heather_Clothes = 0	}{	}{	}{	}{	}{	}{	}{	Non badare alla mia mente.	}
 {	990	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

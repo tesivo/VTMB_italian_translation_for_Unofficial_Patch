@@ -158,13 +158,13 @@
 {	158	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
 {	159	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	Se fossi in te, anch'io mi piacerei. Ma non credere che cercherei di sfoderare l'attrezzatura.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Se fossi in te, piacerebbe anche a me. Posso togliermi il tuo vestito?	}
 {	160	}{	Oh! So di piacerti.	}{	Oh! So di piacerti.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Oh, che bello! Anch'io!	}
-{	161	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
-{	162	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
-{	163	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
-{	164	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
-{	165	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
-{	166	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
-{	167	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti già.	}
+{	161	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti gia'.	}
+{	162	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti gia'.	}
+{	163	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti gia'.	}
+{	164	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti gia'.	}
+{	165	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti gia'.	}
+{	166	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti gia'.	}
+{	167	}{	Tu e un bel mucchio di signorine fortunate.	}{	Tu e un bel mucchio di signorine fortunate.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	SO di piacerti gia'.	}
 {	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	169	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
 {	170	}{	Sono sicuro che dici cosi' a tutti.	}{	Sono sicura che dici cosi' a tutti.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Awwww... Scommetto che lo dici a TUTTI i pazzi.	}
@@ -246,13 +246,13 @@
 {	246	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
 {	247	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
 {	248	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	Ovunque ci sia una donna disperata, io saro' li'.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, solo in privato. E nemmeno dopo, adesso.	}
-{	249	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
-{	250	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
-{	251	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
-{	252	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
-{	253	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
-{	254	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
-{	255	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perché? Chi vuole saperlo? Mi stai spiando?	}
+{	249	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
+{	250	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
+{	251	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
+{	252	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
+{	253	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
+{	254	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
+{	255	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
 {	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	258	}{	No, ma spero che diventi il nostro posto speciale.	}{	No, ma spero che diventi il nostro posto speciale.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora che sei qui, la mia risposta è "Sì!	}

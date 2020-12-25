@@ -498,7 +498,7 @@
 {	498	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	499	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	500	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	501	}{	Vediamo cosa ho trovato.... Per uno della tua specie, non sarà economico.	}{	Vediamo cosa ho trovato.... Per uno della tua specie, non sarà economico.	}{	#	}{	}{	spawnPack(); G.Pack_Given = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	501	}{	Vediamo cosa ho trovato.... Per uno della tua specie, non sara' economico.	}{	Vediamo cosa ho trovato.... Per uno della tua specie, non sara' economico.	}{	#	}{	}{	spawnPack(); G.Pack_Given = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	502	}{	Una misera confezione di sangue? Molto divertente. C'è altro?	}{	Una misera confezione di sangue? Molto divertente. C'è altro?	}{	651	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	503	}{	(Auto-Link)	}{	(Auto-Link)	}{	651	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	504	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -664,7 +664,7 @@
 {	664	}{	Sembra pericoloso. Hai qualcosa che posso usare per proteggermi?	}{	Sembra pericoloso. Hai qualcosa che posso usare per proteggermi?	}{	491	}{	not IsClan(pc,"Nosferatu") and not IsClan(pc,"Toreador") and G.Pack_Given == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	665	}{	Sembra pericoloso. Hai qualcosa che posso usare per proteggermi?	}{	Sembra pericoloso. Hai qualcosa che posso usare per proteggermi?	}{	501	}{	IsClan(pc,"Toreador") and G.Pack_Given == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	666	}{	Va bene. Ci andro'. Ma e' meglio per te che finisca bene.	}{	Va bene. Ci andro'. Ma e' meglio per te che finisca bene.	}{	671	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hmm... Andro' in Cina... ma non intralciarmi, voce.	}
-{	667	}{	I Kuei-jin saranno dispiaciuti che io sia venuto in città.	}{	I Kuei-jin saranno dispiaciuti che io sia venuto in città.	}{	721	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Voce, tu mandi il caos stesso in quelle terre.	}
+{	667	}{	I Kuei-jin saranno dispiaciuti che io sia venuto in citta'.	}{	I Kuei-jin saranno dispiaciuti che io sia venuto in citta'.	}{	721	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Voce, tu mandi il caos stesso in quelle terre.	}
 {	668	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	669	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	670	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

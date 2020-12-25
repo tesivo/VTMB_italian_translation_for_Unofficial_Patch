@@ -712,7 +712,7 @@
 {	712	}{	Sara', ma non sembrava che mi stesse aspettando.	}{	Sara', ma non sembrava che mi stesse aspettando.	}{	721	}{		}{		}{		}{		}{		}{		}{		}{		}{	Secondo me, invece, era sorpreso.	}
 {	713	}{	Ma aveva bisogno del mio aiuto. Ho ucciso un vampiro cinese che sembrava alquanto minaccioso.	}{	Ma aveva bisogno del mio aiuto. Ho ucciso un vampiro cinese che sembrava alquanto minaccioso.	}{	731	}{	G.Knox_Quest > 5	}{		}{		}{		}{		}{		}{		}{		}{	Ma se ho sconfitto l'incubo orientale al posto suo!	}
 {	714	}{	Lascia stare. Knox mi ha detto tutto. Gli ho detto di dirmi tutto del tuo piano.	}{	Lascia stare. Knox mi ha detto tutto. Gli ho detto di dirmi tutto del tuo piano.	}{	751	}{	G.Knox_Fess == 1	}{		}{		}{		}{		}{		}{		}{		}{	Il tuo prezioso ghoul ha rovesciato i suoi segreti come un bambino maldestro.	}
-{	715	}{	Allora probabilmente vi dispiacerà sapere che l'ho ucciso.	}{	Allora probabilmente vi dispiacerà sapere che l'ho ucciso.	}{	551	}{	IsDead("Knox")	}{	G.Knox_Killed = 1	}{	}{	}{	}{	}{	}{	}{	Mi dispiace, ma l'ho dato in pasto alla grande morte.	}
+{	715	}{	Allora probabilmente vi dispiacera' sapere che l'ho ucciso.	}{	Allora probabilmente vi dispiacera' sapere che l'ho ucciso.	}{	551	}{	IsDead("Knox")	}{	G.Knox_Killed = 1	}{	}{	}{	}{	}{	}{	}{	Mi dispiace, ma l'ho dato in pasto alla grande morte.	}
 {	716	}{	Ho qualche altra domanda.	}{	Ho qualche altra domanda.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Voglio estrarre informazioni dalla tua zucca parlante.	}
 {	717	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	718	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

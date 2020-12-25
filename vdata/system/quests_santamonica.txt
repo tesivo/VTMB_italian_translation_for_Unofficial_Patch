@@ -343,7 +343,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"5" // added by wesp
-			"Description"	"Avete intrappolato lo spirito della donna condannata nella Casa dell'Oceano con il fantasma assassino del marito per tutta l'eternità, tenendo il ciondolo."
+			"Description"	"Avete intrappolato lo spirito della donna condannata nella Casa dell'Oceano con il fantasma assassino del marito per tutta l'eternita', tenendo il ciondolo."
 			"Type"		"failure"
 		}
 
@@ -735,7 +735,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"8" // added by wesp
-			"Description"	"Avete localizzato Bertram Tung. Il vostro prossimo passo sarà quello di far saltare in aria il magazzino. E piantare l'Astrolite senza essere scoperti, se possibile."
+			"Description"	"Avete localizzato Bertram Tung. Il vostro prossimo passo sara' quello di far saltare in aria il magazzino. E piantare l'Astrolite senza essere scoperti, se possibile."
 			"Type"		"incomplete"
 			"AwardXP"	"Explosive02"
 		}
@@ -1140,7 +1140,7 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"Trip vuole la droga. La clinica avrà sicuramente una cassaforte medica piena di roba."
+			"Description"	"Trip vuole la droga. La clinica avra' sicuramente una cassaforte medica piena di roba."
 			"Type"		"incomplete"
 		}
 

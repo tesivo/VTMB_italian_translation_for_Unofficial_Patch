@@ -639,7 +639,7 @@
 {	639	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	640	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	641	}{	Non mi sono nascosto qui perche' c'e' una bella veduta. L'ho fatto perche' nessuno verrebbe a cercarmi da queste parti. Questo e' un paese per lupi mannari.	}{	Non mi sono nascosto qui perche' c'e' una bella veduta. L'ho fatto perche' nessuno verrebbe a cercarmi da queste parti. Questo e' un paese per lupi mannari.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	642	}{	E allora?	}{	E allora?	}{	651	}{	}{	}{	}{	}{	}{	}{	}{	}{	Niente di cui preoccuparsi, ho l'immunità diplomatica.	}
+{	642	}{	E allora?	}{	E allora?	}{	651	}{	}{	}{	}{	}{	}{	}{	}{	}{	Niente di cui preoccuparsi, ho l'immunita' diplomatica.	}
 {	643	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	644	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	645	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
