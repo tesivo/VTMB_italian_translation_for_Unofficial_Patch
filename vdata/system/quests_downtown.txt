@@ -490,7 +490,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"8" // added by wesp
-			"Description"	"Hai fatto incazzare Skelter al punto che non ti parlera' più."
+			"Description"	"Hai fatto incazzare Skelter al punto che non ti parlera' piu'."
 			"Type"		"failure"
 		}
 
@@ -889,7 +889,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4" // added by wesp
-			"Description"	"Avete scoperto che il codice della zona in cui si trova il sarcofago di Ancarano è del 2358. Ora prendetelo da lì e portatelo al principe."
+			"Description"	"Avete scoperto che il codice della zona in cui si trova il sarcofago di Ancarano e' del 2358. Ora prendetelo da li' e portatelo al principe."
 			"Type"		"incomplete"
 		}
 	}
@@ -1077,7 +1077,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"Ash è morto alla Societa' di Leopold."
+			"Description"	"Ash e' morto alla Societa' di Leopold."
 			"Type"		"failure"
 		}
 
@@ -1104,7 +1104,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Sei andato al Negozio del fumo, ma l'amico di Beckett non c'era. Scott ha però lasciato un biglietto, suggerendo che qualcosa sta succedendo alla fine del molo di Santa Monica."
+			"Description"	"Sei andato al Negozio del fumo, ma l'amico di Beckett non c'era. Scott ha pero' lasciato un biglietto, suggerendo che qualcosa sta succedendo alla fine del molo di Santa Monica."
 			"Type"		"incomplete"
 		}
 		CompletionState
@@ -1117,14 +1117,14 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4"
-			"Description"	"Avete cercato al Santa Monica Coffee Shop e avete trovato il portatile di Scott. Il suo diario ha notato che è possibile entrare nella Downtown Public Library utilizzando un accesso alla rete fognaria. È ora di farlo."
+			"Description"	"Avete cercato al Santa Monica Coffee Shop e avete trovato il portatile di Scott. Il suo diario ha notato che e' possibile entrare nella Downtown Public Library utilizzando un accesso alla rete fognaria. e' ora di farlo."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"5"
-			"Description"	"Avete riparato l'ascensore nella zona principale della biblioteca. Ora potete continuare a cercare il Sabbat, ma è meglio evitare di attirare l'attenzione uccidendo tutti."
+			"Description"	"Avete riparato l'ascensore nella zona principale della biblioteca. Ora potete continuare a cercare il Sabbat, ma e' meglio evitare di attirare l'attenzione uccidendo tutti."
 			"Type"		"incomplete"
 		}
 

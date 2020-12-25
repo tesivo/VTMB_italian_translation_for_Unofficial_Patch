@@ -4,7 +4,7 @@
 {	4	}{	A volte le voci spiegano.	}{	A volte le voci spiegano.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	A volte le voci spiegano.	}
 {	5	}{	Zaydi (Vieni)!	}{	Zaydi (Vieni)!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	Cosa?	}{	Cosa?	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sto arrivando.	}
-{	7	}{	Chto eto takoe (Che cos'è questo)?	}{	Chto eto takoe (Che cos'è questo)?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	Chto eto takoe (Che cos'e' questo)?	}{	Chto eto takoe (Che cos'e' questo)?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	8	}{	Huh?	}{	Huh?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono io.	}
 {	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -64,7 +64,7 @@
 {	64	}{	Tu cancellerai il debito. Lo farai.	}{	Tu cancellerai il debito. Lo farai.	}{	141	}{	Dominate 1 & (G.Dema_Go == 0 or G.Dema_Leave == 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	65	}{	Tu cancellerai il debito. Lo farai.	}{	Tu cancellerai il debito. Lo farai.	}{	141	}{	Thaumaturgy 1 & ((G.Dema_Go == 0 or G.Dema_Leave == 1) and G.Patch_Plus == 1)	}{	dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{	Cancellare il debito. Per me.	}{	Cancellare il debito. Per me.	}{	141	}{	Presence 1 & ((G.Dema_Go == 0 or G.Dema_Leave == 1) and G.Patch_Plus == 1)	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	Lei crede di averlo... più che pagato.	}{	Lei crede di averlo... più che pagato.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	Lei crede di averlo... piu' che pagato.	}{	Lei crede di averlo... piu' che pagato.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	68	}{	Vuole cio' che e' suo.	}{	Vuole cio' che e' suo.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	69	}{	Cancella il debito o altrimenti...	}{	Cancella il debito o altrimenti...	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

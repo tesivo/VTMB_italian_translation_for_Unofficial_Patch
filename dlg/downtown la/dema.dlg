@@ -18,11 +18,11 @@
 {	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	21	}{	O-STAN-O-vis'(Stai lì in piedi)! Chi cazzo sei?	}{	O-STAN-O-vis'(Stai lì in piedi)! Chi cazzo sei?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	O-STAN-O-vis'(Stai li' in piedi)! Chi cazzo sei?	}{	O-STAN-O-vis'(Stai li' in piedi)! Chi cazzo sei?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Fammi entrare.	}{	Fammi entrare.	}{	0	}{	Dominate 1	}{	G.Dema_Go = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	23	}{	Tu sei una chiave. Fa' cio' che ti viene piu' naturale.	}{	Tu sei una chiave. Fa' cio' che ti viene piu' naturale.	}{	0	}{	Dementation 1	}{	G.Dema_Go = 1	}{		}{		}{		}{		}{		}{		}{	Tu sei una chiave. Fa' cio' che ti viene piu' naturale.	}
 {	24	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	La mia presenza e' richiesta dal vostro capo.	}{	La mia presenza e' richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	26	}{	Ho un messaggio personale per Boris. Dalla sua... socia.	}{	Ho un messaggio personale per Boris. Dalla sua... socia.	}{	41	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	Porto con me le parole della dea, in dono all'uomo dietro quella porta.	}
 {	27	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	9	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Ho delle parole per l'uomo dietro quella porta, e cio' richiede che tu vada da qualche altra parte.	}
 {	28	}{	Sono qui per parlare con Boris.	}{	Sono qui per parlare con Boris.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Devo parlare con l'uomo dietro la porta.	}
@@ -32,17 +32,17 @@
 {	32	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	33	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}
 {	34	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	35	}{	La mia presenza e' richiesta dal vostro capo.	}{	La mia presenza e' richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	36	}{	Devo parlare con Boris. Vorra' sentire cosa ho da dirgli.	}{	Devo parlare con Boris. Vorra' sentire cosa ho da dirgli.	}{	41	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	L'uomo dietro la porta vuole le mie risposte.	}
 {	37	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	Devo dire una cosa al tuo capo, compagno. Fatti da parte.	}{	9	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Fuori. Di corsa. Mortale.	}
-{	38	}{	Questo è strano. Non ti ha detto che sarei venuto?	}{	Questo è strano. Non ti ha detto che sarei venuto?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse avete dimenticato il messaggio del mio arrivo?	}
+{	38	}{	Questo e' strano. Non ti ha detto che sarei venuto?	}{	Questo e' strano. Non ti ha detto che sarei venuto?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse avete dimenticato il messaggio del mio arrivo?	}
 {	39	}{	Sono della Manutenzione; le tue tubature perdono.	}{	Sono della Manutenzione; le tue tubature perdono.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sentite il rumore dei tubi? Potrebbero essere pieni di serpenti.	}
 {	40	}{	Sono del servizio in camera; ho il caviale che ha ordinato.	}{	Sono del servizio in camera; ho il caviale che ha ordinato.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nelle mie tasche ci sono uova di pesce per l'uomo dietro la porta.	}
 {	41	}{	[Minaccioso]Dammi il messaggio. Riferiro'.	}{	[Minaccioso]Dammi il messaggio. Riferiro'.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	43	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}
 {	44	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	45	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	La mia presenza e' richiesta dal vostro capo.	}{	La mia presenza e' richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	46	}{	Non posso. Ma e' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	Non posso. Ma e' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	13	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	E' un messaggio solo per le sue orecchie e nessun altro.	}
 {	47	}{	E' pesonale. Ora fammi entrare.	}{	E' pesonale. Ora fammi entrare.	}{	9	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Le mie parole sono sprecate per un sordo.	}
 {	48	}{	Come faccio a sapere che posso fidarmi di te?	}{	Come faccio a sapere che posso fidarmi di te?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non mi sembri un porta valori appropriato per le mie parole preziose.	}
@@ -52,8 +52,8 @@
 {	52	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	53	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	Tu sei una chiave. Fai quello che ti viene naturale.	}
 {	54	}{	Fammi entrare.	}{	Fammi entrare.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	La mia presenza è richiesta dal vostro capo.	}{	La mia presenza è richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	Non te lo dirò di nuovo.	}{	Non te lo dirò di nuovo.	}{	61	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	L'uomo dietro la porta vuole le mie parole.	}
+{	55	}{	La mia presenza e' richiesta dal vostro capo.	}{	La mia presenza e' richiesta dal vostro capo.	}{	3	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	Non te lo diro' di nuovo.	}{	Non te lo diro' di nuovo.	}{	61	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	L'uomo dietro la porta vuole le mie parole.	}
 {	57	}{	E' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	E' importante. Si arrabbiera' se non lo ricevera', e dara' la colpa a te.	}{	61	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	E' un messaggio solo per le sue orecchie e nessun altro.	}
 {	58	}{	Beh, lo so.	}{	Beh, lo so.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tu non pensi.	}
 {	59	}{	Ripensaci. Fammi entrare. Ora.	}{	Ripensaci. Fammi entrare. Ora.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Io si'... La penso cosi'.	}

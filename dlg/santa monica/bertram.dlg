@@ -9,8 +9,8 @@
 {	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	11	}{	L'unico e il solo. Non ti annoiero' con le premesse, novellino; so chi sei.	}{	L'unico e il solo. Non ti annoiero' con le premesse, novellina; so chi sei.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	12	}{	Si'?	}{	Si'?	}{	31	}{	G.Patch_Plus == 0	}{	G.Bertram_Check = 1; pc.SetQuest("Warehouse",1)	}{		}{		}{		}{		}{		}{		}{	Allora ne sai più di me.	}
-{	13	}{	Si'?	}{	Si'?	}{	31	}{	G.Patch_Plus == 1	}{	G.Bertram_Check = 1; pc.SetQuest("Warehouse",8)	}{	}{	}{	}{	}{	}{	}{	Allora ne sai più di me.	}
+{	12	}{	Si'?	}{	Si'?	}{	31	}{	G.Patch_Plus == 0	}{	G.Bertram_Check = 1; pc.SetQuest("Warehouse",1)	}{		}{		}{		}{		}{		}{		}{	Allora ne sai piu' di me.	}
+{	13	}{	Si'?	}{	Si'?	}{	31	}{	G.Patch_Plus == 1	}{	G.Bertram_Check = 1; pc.SetQuest("Warehouse",8)	}{	}{	}{	}{	}{	}{	}{	Allora ne sai piu' di me.	}
 {	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -77,7 +77,7 @@
 {	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	79	}{	Me ne vado.	}{	Me ne vado.	}{	511	}{	G.Bertram_Ready > 0 and G.Bertram_Map == 0 and IsClan(pc,"Nosferatu")	}{	G.Bertram_Feud = 2	}{		}{		}{		}{		}{		}{		}{		}
-{	80	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{	G.Bertram_Ready > 0 and G.Bertram_Map == 1	}{	G.Bertram_Feud = 2	}{		}{		}{		}{		}{		}{		}{	Non sono più qui.	}
+{	80	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{	G.Bertram_Ready > 0 and G.Bertram_Map == 1	}{	G.Bertram_Feud = 2	}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
 {	81	}{	Oh e' cosi'? Beh, non mi sono preoccupato. Dunque, perche' mi cercheresti? Cosa ti serve?	}{	Oh e' cosi'? Beh, non mi sono preoccupato. Dunque, perche' mi cercheresti? Cosa ti serve?	}{	#	}{	npc.SetDisposition("joy",3)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	82	}{	Devo andare a quel magazzino per Mercurio. Conosci Mercurio?	}{	Devo andare a quel magazzino per Mercurio. Conosci Mercurio?		}{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una strana fabbrica di merce, oh Ragazzaccio! Per quello alato, sai?	}
 {	83	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -154,7 +154,7 @@
 {	154	}{	Sono nato pronto. Andiamo.	}{	Sono nata pronta. Andiamo.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 0	}{	G.Bertram_Ready = 2	}{		}{		}{		}{		}{		}{		}{	Fatemi strada. Vostra Orripilanza.	}
 {	155	}{	Sono nato pronto. Andiamo.	}{	Sono nata pronta. Andiamo.	}{	511	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 0 and pc.HasItem("item_g_astrolite")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	156	}{	Sono nato pronto. Andiamo.	}{	Sono nata pronta. Andiamo.	}{	0	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 1 and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 0	}{	G.Bertram_Ready = 2	}{		}{		}{		}{		}{		}{		}{		}
-{	157	}{	Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Illumina la strada per me quando mi sveglierò domani sera, Vostra Grazia.	}
+{	157	}{	Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Illumina la strada per me quando mi svegliero' domani sera, Vostra Grazia.	}
 {	158	}{	Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	0	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 1 and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -464,7 +464,7 @@
 {	464	}{	Quando tornero' avro' delle domande per te. Andiamo.	}{	Quando tornero' avro' delle domande per te. Andiamo.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite")	}{	G.Bertram_Ready = 2	}{		}{		}{		}{		}{		}{		}{	Fatemi strada, Vostra Orripilanza.	}
 {	465	}{	Non ancora. Tornero' fra un po'. Ci vediamo.	}{	Non ancora. Tornero' fra un po'. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ci sono ancora cose da sistemare. Tornero' piu' tardi.	}
 {	466	}{	Quando tornero' avro' delle domande per te. Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	Quando tornero' avro' delle domande per te. Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	0	}{	G.Bertram_Map == 1 and IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	467	}{	Quando tornero' avro' delle domande per te. Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	Quando tornero' avro' delle domande per te. Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Illumina la strada per me quando mi sveglierò domani sera, Vostra Grazia.	}
+{	467	}{	Quando tornero' avro' delle domande per te. Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	Quando tornero' avro' delle domande per te. Passa a prendermi al mio rifugio dopo aver dormito tutto il giorno e poi andiamo.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Illumina la strada per me quando mi svegliero' domani sera, Vostra Grazia.	}
 {	468	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	469	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	470	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -551,7 +551,7 @@
 {	551	}{	Ah, non me lo sarei aspettato. Pensavo che avresti approfittato della possibilita' di imparare da un tuo superiore.	}{	Ah, non me lo sarei aspettato. Pensavo che avresti approfittato della possibilita' di imparare da un tuo superiore.	}{	#	}{	npc.SetDisposition("anger",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	552	}{	Hai ragione.	}{	Hai ragione.	}{	561	}{	G.CD == 2	}{		}{		}{		}{		}{		}{		}{		}{	CDvertiremo.	}
 {	553	}{	Non mi sembra una cosa da me.	}{	Non mi sembra una cosa da me.	}{	601	}{	G.CD == 2	}{		}{		}{		}{		}{		}{		}{		}{	Spiacente. Non faccio uso di queste cose.	}
-{	554	}{	Forse posso rimediare più tardi.	}{	Forse posso rimediare più tardi.	}{	0	}{	G.Knox_Killed == 1	}{	G.Knox_Killed = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	554	}{	Forse posso rimediare piu' tardi.	}{	Forse posso rimediare piu' tardi.	}{	0	}{	G.Knox_Killed == 1	}{	G.Knox_Killed = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	556	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	557	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -659,7 +659,7 @@
 {	659	}{	Me ne vado, Bertram. Pace.	}{	Me ne vado, Bertram. Pace.	}{	0	}{	G.Story_State >= 10	}{		}{		}{		}{		}{		}{		}{		}{	Nessuno e' piu' brutto di Voi. I miei saluti.	}
 {	660	}{	Me ne vado, Bertram. Pace.	}{	Me ne vado, Bertram. Pace.	}{	661	}{	G.Story_State < 10	}{		}{		}{		}{		}{		}{		}{		}{	Siete deliziosamente orripilante. Addio.	}
 {	661	}{	E' meglio se torni a downtown. Il principe LaCroix vorra' sapere tutti i particolari della sua vittoria.	}{	E' meglio se torni a downtown. Il principe LaCroix vorra' sapere tutti i particolari della sua vittoria.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	662	}{	Sto arrivando.	}{	Sto arrivando.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il sottomarino giallo è in attesa.	}
+{	662	}{	Sto arrivando.	}{	Sto arrivando.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il sottomarino giallo e' in attesa.	}
 {	663	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	664	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	665	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

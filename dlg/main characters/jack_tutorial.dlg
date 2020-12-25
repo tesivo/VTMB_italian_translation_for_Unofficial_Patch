@@ -22,7 +22,7 @@
 {	22	}{	Okay. Approfittero' della tua offerta.	}{	Okay. Approfittero' della tua offerta.	}{	81	}{	G.Patch_Plus == 0	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Sopportero' il tuo oscuro tutoraggio.	}
 {	23	}{	Okay. Approfittero' della tua offerta.	}{	Okay. Approfittero' della tua offerta.	}{	81	}{	G.Patch_Plus == 1	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Sopportero' il tuo oscuro tutoraggio.	}
 {	24	}{	Non ho molto tempo... spiegami solo le basi.	}{	Non ho molto tempo... spiegami solo le basi.	}{	891	}{		}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Smettila e spiegami solo le basi.	}
-{	25	}{	Cosa è successo lì dentro?	}{	Cosa è successo lì dentro?	}{	1015	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho capito il loro gioco.	}
+{	25	}{	Cosa e' successo li' dentro?	}{	Cosa e' successo li' dentro?	}{	1015	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho capito il loro gioco.	}
 {	26	}{	Non ho bisogno del tuo aiuto. Vado via.	}{	Non ho bisogno del tuo aiuto. Vado via.	}{	1023	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida in questo oscuro percorso. Lasciami in pace.	}
 {	27	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	28	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -521,7 +521,7 @@
 {	521	}{	Buono, vero? Eh, potevi trovare di peggio. Ci sono un paio di topi in quella strada. Pensi che stia scherzando? Puoi sopravvivere nutrendoti sugli animali, se hai stomaco per fare una cosa simile. Bleah	}{	Buono, vero? Eh, potevi trovare di peggio. Ci sono un paio di topi in quella strada. Pensi che stia scherzando? Puoi sopravvivere nutrendoti sugli animali, se hai stomaco per fare una cosa simile. Bleah	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	522	}{	Peggio del collo di un vagabondo? Quell'individuo sapeva di vecchi calzini.	}{	Peggio del collo di un vagabondo? Quell'individuo sapeva di vecchi calzini.	}{	531	}{	not IsClan(pc,"Ventrue")	}{		}{	}{	}{	}{	}{	}{	}{	Uggh! Il suo collo sapeva come il tuo alito.	}
 {	523	}{	Penso di avere ancora dei fili tra i denti.	}{	Penso di avere ancora dei fili tra i denti.	}{	531	}{	not IsClan(pc,"Malkavian") and not IsClan(pc,"Ventrue")	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	524	}{	Il sangue di quel barbone era gia' abbastanza brutto, non mi nutrirò di un topo!	}{	Il sangue di quel barbone era gia' abbastanza brutto, non mi nutrirò di un topo!	}{	541	}{	IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	524	}{	Il sangue di quel barbone era gia' abbastanza brutto, non mi nutriro' di un topo!	}{	Il sangue di quel barbone era gia' abbastanza brutto, non mi nutriro' di un topo!	}{	541	}{	IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	525	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	526	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	527	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -709,7 +709,7 @@
 {	709	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	710	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	711	}{	Bene, vai nello scantinato, attraverso la grata. Tieni in mano la mazza. Saro' li' in un minuto.	}{	Bene, vai nello scantinato, attraverso la grata. Tieni in mano la mazza. Saro' li' in un minuto.	}{	#	}{		}{	G.Tut_Jack = 11; pc.SetQuest("Tutorial",12)	}{	}{	}{	}{	}{	}{	}{		}
-{	712	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ti aspetterò.	}
+{	712	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ti aspettero'.	}
 {	713	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	714	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	715	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -871,7 +871,7 @@
 {	871	}{	[Brontola]Oh, ragazzo. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da solo.	}{	[Brontola]Oh, ragazzo. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da solo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	872	}{	(Auto-Link)	}{	(Auto-Link)	}{	881	}{	G.Patch_Plus == 0 and pc.HasItem("item_w_thirtyeight")	}{	pc.RemoveItem("item_w_thirtyeight")	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	873	}{	Certo, ed ecco la tua pistola.	}{	Certo, ed ecco la tua pistola.	}{	881	}{	G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight")	}{	pc.RemoveItem("item_w_thirtyeight"); G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Lo faremo, ora riprenditi la tua spara-piselli.	}
-{	874	}{	Lo farò, ma vorrei tenere la pistola.	}{	Lo farò, ma vorrei tenere la pistola.	}{	881	}{	Persuasion 1 & (G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight"))	}{	}{	}{	}{	}{	}{	}{	}{	Sì, sì, sì. Ma ci servira' la spara-piselli.	}
+{	874	}{	Lo faro', ma vorrei tenere la pistola.	}{	Lo faro', ma vorrei tenere la pistola.	}{	881	}{	Persuasion 1 & (G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight"))	}{	}{	}{	}{	}{	}{	}{	}{	Si', si', si'. Ma ci servira' la spara-piselli.	}
 {	875	}{	(Auto-Link)	}{	(Auto-Link)	}{	881	}{	not pc.HasItem("item_w_thirtyeight")	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	876	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	877	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -880,7 +880,7 @@
 {	880	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	881	}{	Se ce la fai a tornare indietro, fermata al Last Round - e' il bar a downtown - ti diro' di piu' sulla politica. Ora anche questa roba puo' ucciderti. Buona fortuna.	}{	Se ce la fai a tornare indietro, fermata al Last Round - e' il bar a downtown - ti diro' di piu' sulla politica. Ora anche questa roba puo' ucciderti. Buona fortuna.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	882	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Patch_Plus == 0	}{	G.Tut_Jack = 15	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	883	}{	Ci vediamo lì dopo aver dormito bene.	}{	Ci vediamo lì dopo aver dormito bene.	}{	0	}{	G.Patch_Plus == 1	}{	G.Tut_Jack = 15	}{	}{	}{	}{	}{	}{	}{	Saremo lì dopo aver chiuso gli occhi durante il giorno.	}
+{	883	}{	Ci vediamo li' dopo aver dormito bene.	}{	Ci vediamo li' dopo aver dormito bene.	}{	0	}{	G.Patch_Plus == 1	}{	G.Tut_Jack = 15	}{	}{	}{	}{	}{	}{	}{	Saremo li' dopo aver chiuso gli occhi durante il giorno.	}
 {	884	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	885	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	886	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -930,7 +930,7 @@
 {	930	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	931	}{	Giusto. Ora, vai via come un bravo soldato. Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuto, ragazzo!	}{	Giusto. Ora, vai via come un bravo soldato. Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuta, ragazza!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	932	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{	G.Patch_Plus == 0	}{	LeaveTutorialShort()	}{	}{	}{	}{	}{	}{	}{	La mia ombre oscura le altre. Addio.	}
-{	933	}{	È divertente. Dormirò il giorno libero e riderò più tardi. Ci vediamo.	}{	È divertente. Dormirò il giorno libero e riderò più tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo è buffo. Non sono più qui perché ho bisogno di chiudere gli occhi quando il sole splende.	}
+{	933	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' buffo. Non sono piu' qui perche' ho bisogno di chiudere gli occhi quando il sole splende.	}
 {	934	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	935	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	936	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1000,11 +1000,11 @@
 {	1000	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1001	}{	Sarei scocciato se non fosse cosi' bello guardarti mentre ci provi con tutto te stesso; e' assolutamente magnifico!	}{	Sarei scocciato se non fosse cosi' bello guardarti mentre ci provi con tutta te stessa; e' assolutamente magnifico!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1002	}{	Che cosa intendi dire? Come ho ottenuto queste statistiche incredibili?	}{	Che cosa intendi dire? Come ho ottenuto queste statistiche incredibili?	}{	1006	}{	}{	}{	}{	}{	}{	}{	}{	}{	Malkav mi ha dato le mie super statistiche!	}
-{	1003	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	1006	}{	}{	}{	}{	}{	}{	}{	}{	}{	Un debole come me non può completare il gioco.	}
+{	1003	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	1006	}{	}{	}{	}{	}{	}{	}{	}{	}{	Un debole come me non puo' completare il gioco.	}
 {	1004	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1005	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1006	}{	Si'. Dovunque ti sia divertito, possiamo andare avanti	}{	Si'. Dovunque ti sia divertita, possiamo andare avanti	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1007	}{	Mi dispiace, creerò un nuovo personaggio.	}{	Mi dispiace, creerò un nuovo personaggio.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono persa per sempre a contemplare l'infinito.	}
+{	1007	}{	Mi dispiace, creero' un nuovo personaggio.	}{	Mi dispiace, creero' un nuovo personaggio.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono persa per sempre a contemplare l'infinito.	}
 {	1008	}{	Uso un mod o qualcosa di simile, per favore lasciatemi continuare.	}{	Uso un mod o qualcosa di simile, per favore lasciatemi continuare.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Modificato ho le budella del gioco, per favore fatemi passare.	}
 {	1009	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1010	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1012,8 +1012,8 @@
 {	1012	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1013	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1014	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegarti tutto ma il tempo è uno spreco di tempo - vuoi un aiuto o cosa?    }{    Non preoccuparti, ragazzo, ti abituerai. Mi piacerebbe spiegarti tutto ma il tempo è uno spreco di tempo, vuoi una mano o no?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1016	}{	Ok. Mi farebbe comodo un po' d'aiuto.    }{    Ok. Mi farebbe comodo un po' d'aiuto.	}{	81	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Mi sottoporrò alla vostra oscura tutela.	}
+{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo - vuoi un aiuto o cosa?    }{    Non preoccuparti, ragazzo, ti abituerai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo, vuoi una mano o no?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1016	}{	Ok. Mi farebbe comodo un po' d'aiuto.    }{    Ok. Mi farebbe comodo un po' d'aiuto.	}{	81	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Mi sottoporro' alla vostra oscura tutela.	}
 {	1017	}{	Non ho molto tempo... dammi solo le basi.	}{	Non ho molto tempo... dammi solo le basi.	}{	891	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Spiegami le basi.	}
 {	1018	}{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.    }{    Non ho bisogno dell'aiuto di nessuno. Me ne vado.	}{	1023	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida per questo sentiero oscuro. Lasciatemi.	}
 {	1019	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1030,7 +1030,7 @@
 {	1030	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1031	}{	Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuto, ragazzo!	}{	Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuta, ragazza!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1032	}{	Che divertente. Ci vediamo.	}{	Che divertente. Ci vediamo.	}{	0	}{		}{	LeaveTutorialShort()	}{	}{	}{	}{	}{	}{	}{	Il tuo humor e' di merda. Vado via.	}
-{	1033	}{	È divertente. Dormirò il giorno libero e riderò più tardi. Ci vediamo.    }{    E' divertente. Dormirò il giorno libero e riderò più tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo è buffo. Non sono più qui perché chiuderò gli occhi quando il sole splende.	}
+{	1033	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.    }{    E' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' buffo. Non sono piu' qui perche' chiudero' gli occhi quando il sole splende.	}
 {	1034	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1035	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1036	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}

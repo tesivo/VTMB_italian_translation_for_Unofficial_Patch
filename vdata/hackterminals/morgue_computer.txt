@@ -67,7 +67,7 @@ Il soggetto e' apparentemente morto per strozzamento causato da prosciutto e/o f
 			"name"		"Poe, H"
 			"description"	"Armadietto 3B -- 24/10/04"
 			"runtext"	"Armadietto 3B -- 24/10/04
-Il soggetto è morto per emorragie interne. Dolce ragazza dai capelli rossi, è un vero peccato."
+Il soggetto e' morto per emorragie interne. Dolce ragazza dai capelli rossi, e' un vero peccato."
 			"dependency"	"G.Heather_Drank == 0 and G.Story_State > 9"
 			"runscript"	"heatherQuest3()"
 		}

@@ -479,7 +479,7 @@
 {	479	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	480	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	481	}{	Vediamo cosa ho trovato.... Per un collega Topo di fogna, sono disposto a lasciar perdere a buon mercato.	}{	Vediamo cosa ho trovato.... Per un collega Topo di fogna, sono disposto a lasciar perdere a buon mercato.	}{	#	}{	}{	spawnPack(); G.Pack_Given = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	482	}{	Un Anziano Vitae libero, davvero generoso, grazie mille. C'è altro?	}{	Un Anziano Vitae libero, davvero generoso, grazie mille. C'è altro?	}{	641	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	482	}{	Un Anziano Vitae libero, davvero generoso, grazie mille. C'e' altro?	}{	Un Anziano Vitae libero, davvero generoso, grazie mille. C'e' altro?	}{	641	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	483	}{	(Auto-Link)	}{	(Auto-Link)	}{	641	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	484	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	485	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -489,7 +489,7 @@
 {	489	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	490	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	491	}{	Vediamo cosa ho trovato....	}{	Vediamo cosa ho trovato....	}{	#	}{	}{	spawnPack(); G.Pack_Given = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	492	}{	Grazie, non si può mai avere abbastanza sangue blu. C'è altro?	}{	Grazie, non si ha mai abbastanza sangue blu. Nient'altro?	}{	641	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	492	}{	Grazie, non si puo' mai avere abbastanza sangue blu. C'e' altro?	}{	Grazie, non si ha mai abbastanza sangue blu. Nient'altro?	}{	641	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	493	}{	(Auto-Link)	}{	(Auto-Link)	}{	641	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	494	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	495	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -499,7 +499,7 @@
 {	499	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	500	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	501	}{	Vediamo cosa ho trovato.... Per uno della tua specie, non sara' economico.	}{	Vediamo cosa ho trovato.... Per uno della tua specie, non sara' economico.	}{	#	}{	}{	spawnPack(); G.Pack_Given = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	502	}{	Una misera confezione di sangue? Molto divertente. C'è altro?	}{	Una misera confezione di sangue? Molto divertente. C'è altro?	}{	651	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	502	}{	Una misera confezione di sangue? Molto divertente. C'e' altro?	}{	Una misera confezione di sangue? Molto divertente. C'e' altro?	}{	651	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	503	}{	(Auto-Link)	}{	(Auto-Link)	}{	651	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	504	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	505	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

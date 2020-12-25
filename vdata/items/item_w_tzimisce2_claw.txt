@@ -15,7 +15,7 @@ WeaponData
 	"impact_snd_group"	"fist"
 
 	"printname"	"Patente di guida"	// added by wesp
-	"description"	"Una patente di guida della California. Il nome sulla patente è Kent Alan Ryan."	// added by wesp
+	"description"	"Una patente di guida della California. Il nome sulla patente e' Kent Alan Ryan."	// added by wesp
 
 	"bucket"               "0"
 	"bucket_position"      "1"

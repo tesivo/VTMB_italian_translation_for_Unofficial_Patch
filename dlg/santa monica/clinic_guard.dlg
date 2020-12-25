@@ -18,7 +18,7 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	Cosa mi fermera'? Tu?	}{	Cosa mi fermera'? Tu?	}{	21	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Nessun semplice mortale puo' fermarmi.	}
 {	20	}{	Okay.	}{	Okay.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Capito.	}
-{	21	}{	[Più irritato]Mi hai sentito? Questa e' un'area riservata. Ora sparisci, o usero' la forza.	}{	[Più irritato]Mi hai sentito? Questa e' un'area riservata. Ora sparisci, o usero' la forza.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Guard_Warning = G.Guard_Warning +1	}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	[Piu' irritato]Mi hai sentito? Questa e' un'area riservata. Ora sparisci, o usero' la forza.	}{	[Piu' irritato]Mi hai sentito? Questa e' un'area riservata. Ora sparisci, o usero' la forza.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Guard_Warning = G.Guard_Warning +1	}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Sono qui per riparare la rete. L'infermiera di sotto mi ha detto di parlare con te.	}{	Sono qui per riparare la rete. L'infermiera di sotto mi ha detto di parlare con te.	}{	121	}{	G.Nurse_Persuade == 1	}{		}{		}{		}{		}{		}{		}{		}{	I computer rifiutano di comunicare. L'infermiera mi ha mandato qui per farli riconciliare.	}
 {	23	}{	Dammi le chiavi e lasciami in pace.	}{	Dammi le chiavi e lasciami in pace.	}{	131	}{	Dominate 1	}{	G.Guard_Dominated = 1; G.CS_Key = 1; pc.GiveItem("item_k_clinic_cs_key")	}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{	Sei troppo bello per lavorare in un posto del genere.	}{	Sei troppo bello per lavorare in un posto del genere.	}{	151	}{	F_Seduction 3	}{		}{		}{		}{		}{		}{		}{		}{	Il tuo viso appartiene al cinema, non alla sicurezza.	}
@@ -99,7 +99,7 @@
 {	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	101	}{	Annulla i rinforzi.	}{	Annulla i rinforzi.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	102	}{	Ora sì che si ragiona.	}{	Ora sì che si ragiona.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il codardo ha trovato il coraggio.	}
+{	102	}{	Ora si' che si ragiona.	}{	Ora si' che si ragiona.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il codardo ha trovato il coraggio.	}
 {	103	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -161,7 +161,7 @@
 {	161	}{	Spiacente, e' un area ad accesso limitato.	}{	Spiacente, e' un area ad accesso limitato.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	162	}{	Tu fa' il tuo lavoro, io faccio il mio.	}{	Tu fa' il tuo lavoro, io faccio il mio.	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fate come voi e come me.	}
 {	163	}{	Il driver della CPU principale dev'essere immediatamente riparato o si friggera'!	}{	Il driver della CPU principale dev'essere immediatamente riparato o si friggera'!	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il cervello maestro deve essere riaccoppiato o morira'!	}
-{	164	}{	Se non lo riparo, dovro' tornare domani.	}{	Se non lo riparo, dovro' tornare domani.	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se non parlo con i computer ora dovrò tornare.	}
+{	164	}{	Se non lo riparo, dovro' tornare domani.	}{	Se non lo riparo, dovro' tornare domani.	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se non parlo con i computer ora dovro' tornare.	}
 {	165	}{	Davvero? Credi di poter fare un'eccezione per me?	}{	Davvero? Credi di poter fare un'eccezione per me?	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non pensi che io sia abbastanza speciale per fare questo?	}
 {	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

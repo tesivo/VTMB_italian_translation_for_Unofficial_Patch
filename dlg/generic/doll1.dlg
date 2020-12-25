@@ -1,8 +1,8 @@
 {	1	}{	Um....	}{	Um....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	2	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	151	}{	Seduction 3 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'è andata da tempo, ma i miei occhi non ci sono più tornati dal mio ingresso.	}
-{	3	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	181	}{	Seduction 3 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'è andata da tempo, ma i miei occhi non ci sono più tornati dal mio ingresso.	}
-{	4	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	211	}{	Seduction 3 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'è andata da tempo, ma i miei occhi non ci sono più tornati dal mio ingresso.	}
-{	5	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	241	}{	Seduction 3 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'è andata da tempo, ma i miei occhi non ci sono più tornati dal mio ingresso.	}
+{	2	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	151	}{	Seduction 3 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'e' andata da tempo, ma i miei occhi non ci sono piu' tornati dal mio ingresso.	}
+{	3	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	181	}{	Seduction 3 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'e' andata da tempo, ma i miei occhi non ci sono piu' tornati dal mio ingresso.	}
+{	4	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	211	}{	Seduction 3 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'e' andata da tempo, ma i miei occhi non ci sono piu' tornati dal mio ingresso.	}
+{	5	}{	Da quando sono entrato qui dentro, non sono riuscito a distogliere il mio sguardo da te.	}{	Da quando sono entrata qui dentro, non sono riuscita a distogliere il mio sguardo da te.	}{	241	}{	Seduction 3 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente se n'e' andata da tempo, ma i miei occhi non ci sono piu' tornati dal mio ingresso.	}
 {	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -29,10 +29,10 @@
 {	29	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	Ti piace cio' che vedi? So che e' cosi'.	}{	341	}{	Seduction -3 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono le noccioline? Perche' sono completamente fuori di testa!	}
 {	30	}{	Scusami, pensavo fossi un'altra persona.	}{	Scusami, pensavo fossi un'altra persona.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tu non sei quello che sei. Devo andare.	}
 {	31	}{	Mmm?	}{	Mmm?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	32	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	151	}{	Seduction 3 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo è spezzato, ma per la tua bellezza.	}
-{	33	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	181	}{	Seduction 3 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo è spezzato, ma per la tua bellezza.	}
-{	34	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	211	}{	Seduction 3 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo è spezzato, ma per la tua bellezza.	}
-{	35	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	241	}{	Seduction 3 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo è spezzato, ma per la tua bellezza.	}
+{	32	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	151	}{	Seduction 3 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo e' spezzato, ma per la tua bellezza.	}
+{	33	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	181	}{	Seduction 3 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo e' spezzato, ma per la tua bellezza.	}
+{	34	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	211	}{	Seduction 3 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo e' spezzato, ma per la tua bellezza.	}
+{	35	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	Il mondo sarebbe insopportabile se non ci fosse una cosa bella come te.	}{	241	}{	Seduction 3 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio mondo e' spezzato, ma per la tua bellezza.	}
 {	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -50,13 +50,13 @@
 {	50	}{	Ho fatto colpo su di te, non e' vero? Voglio dire, mi stavi guardando.	}{	Ho fatto colpo su di te, non e' vero? Voglio dire, mi stavi guardando.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ehi, guardami!	}
 {	51	}{	Ho fatto colpo su di te, non e' vero? Voglio dire, mi stavi guardando.	}{	Ho fatto colpo su di te, non e' vero? Voglio dire, mi stavi guardando.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ehi, guardami!	}
 {	52	}{	Ho fatto colpo su di te, non e' vero? Voglio dire, mi stavi guardando.	}{	Ho fatto colpo su di te, non e' vero? Voglio dire, mi stavi guardando.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Ehi, guardami!	}
-{	53	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	281	}{	Seduction -3 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello è come un uovo fritto e tu sei la mia droga preferita.	}
-{	54	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	291	}{	Seduction -3 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello è come un uovo fritto e tu sei la mia droga preferita.	}
-{	55	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	301	}{	Seduction -3 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello è come un uovo fritto e tu sei la mia droga preferita.	}
-{	56	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	311	}{	Seduction -3 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello è come un uovo fritto e tu sei la mia droga preferita.	}
-{	57	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	321	}{	Seduction -3 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello è come un uovo fritto e tu sei la mia droga preferita.	}
-{	58	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	331	}{	Seduction -3 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello è come un uovo fritto e tu sei la mia droga preferita.	}
-{	59	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	341	}{	Seduction -3 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello è come un uovo fritto e tu sei la mia droga preferita.	}
+{	53	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	281	}{	Seduction -3 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' come un uovo fritto e tu sei la mia droga preferita.	}
+{	54	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	291	}{	Seduction -3 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' come un uovo fritto e tu sei la mia droga preferita.	}
+{	55	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	301	}{	Seduction -3 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' come un uovo fritto e tu sei la mia droga preferita.	}
+{	56	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	311	}{	Seduction -3 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' come un uovo fritto e tu sei la mia droga preferita.	}
+{	57	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	321	}{	Seduction -3 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' come un uovo fritto e tu sei la mia droga preferita.	}
+{	58	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	331	}{	Seduction -3 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' come un uovo fritto e tu sei la mia droga preferita.	}
+{	59	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	Ho provato tante droghe, ma mi basta guardarti per sballarmi come non mai.	}{	341	}{	Seduction -3 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello e' come un uovo fritto e tu sei la mia droga preferita.	}
 {	60	}{	Scusami.	}{	Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono completamente qui.	}
 {	61	}{	Uh, ciao....	}{	Uh, ciao....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	62	}{	Non sei quell'attrice? Oh, come si chiama...?	}{	Non sei quell'attrice? Oh, come si chiama...?	}{	151	}{	Seduction 3 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Sembri quell'attrice. Sai, quella che era in quei film.	}
@@ -89,10 +89,10 @@
 {	89	}{	Hai mai desiderato scopare con un astronauta? Beh, questa e' la tua chance.	}{	Hai mai desiderato scopare con un'astronauta? Beh, questa e' la tua chance.	}{	341	}{	Seduction -3 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai mai voluto pomiciare con un cadetto spaziale? Beh, ecco la tua occasione.	}
 {	90	}{	Dovremo parlare un'altra volta, perdonami.	}{	Dovremo parlare un'altra volta, perdonami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora sono incapace di parlare. Un'altra volta, forse.	}
 {	91	}{	Mi sei mancato... ti sono mancata?	}{	Mi sei mancata... ti sono mancata?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	92	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuto.	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuta.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Come se mi mancasse la sanita' mentale. È ora di pranzo!	}
+{	92	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuto.	}{	Terribilmente. Lascia che ti mostri quando sono dispiaciuta.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Come se mi mancasse la sanita' mentale. e' ora di pranzo!	}
 {	93	}{	Dove eravamo rimasti? Oh, ora ricordo.	}{	Dove eravamo rimaste? Oh, ora ricordo.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	In cosa ero coinvolta Paige? Oh si', tu.	}
 {	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	95	}{	Non muoverti, tornero'.	}{	Non muoverti, tornero'.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non andatevene. Correrò in cerchio e tornerò presto.	}
+{	95	}{	Non muoverti, tornero'.	}{	Non muoverti, tornero'.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non andatevene. Correro' in cerchio e tornero' presto.	}
 {	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -149,7 +149,7 @@
 {	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	151	}{	Tu credi che io... Davvero?	}{	Tu credi che io... Davvero?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	152	}{	Sono sicuro che non e' la prima volta che te lo senti dire.	}{	Sono sicura che non e' la prima volta che te lo senti dire.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sì, credo che tu sia.... Davvero.	}
+{	152	}{	Sono sicuro che non e' la prima volta che te lo senti dire.	}{	Sono sicura che non e' la prima volta che te lo senti dire.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Si', credo che tu sia.... Davvero.	}
 {	153	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio. Dico solo quello che vuoi sentire.	}
 {	154	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio. Dico solo quello che vuoi sentire.	}
 {	155	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio. Dico solo quello che vuoi sentire.	}
@@ -158,13 +158,13 @@
 {	158	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio. Dico solo quello che vuoi sentire.	}
 {	159	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	Si', credo. Se e' cio' che vuoi sentire.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio. Dico solo quello che vuoi sentire.	}
 {	160	}{	Te lo ripetero' di nuovo, ma questa volta lo sussurrero' al tuo orecchio.	}{	Te lo ripetero' di nuovo, ma questa volta lo sussurrero' al tuo orecchio.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Permettetemi di condividere i sussurri nella mia mente con il vostro orecchio.	}
-{	161	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio è rotto, ma ti sta benissimo.	}
-{	162	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio è rotto, ma ti sta benissimo.	}
-{	163	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio è rotto, ma ti sta benissimo.	}
-{	164	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio è rotto, ma ti sta benissimo.	}
-{	165	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio è rotto, ma ti sta benissimo.	}
-{	166	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio è rotto, ma ti sta benissimo.	}
-{	167	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio è rotto, ma ti sta benissimo.	}
+{	161	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio e' rotto, ma ti sta benissimo.	}
+{	162	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio e' rotto, ma ti sta benissimo.	}
+{	163	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio e' rotto, ma ti sta benissimo.	}
+{	164	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio e' rotto, ma ti sta benissimo.	}
+{	165	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio e' rotto, ma ti sta benissimo.	}
+{	166	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio e' rotto, ma ti sta benissimo.	}
+{	167	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	Forse non fai impazzire tutti quanti, ma sei decisamente il mio tipo.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Il mio specchio e' rotto, ma ti sta benissimo.	}
 {	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -209,13 +209,13 @@
 {	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	211	}{	[Lusingato]No....	}{	[Lusingato]No....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	212	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, sì! Sono, diciamo, assolutamente serio.	}
-{	213	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, sì! Sono, diciamo, assolutamente serio.	}
-{	214	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, sì! Sono, diciamo, assolutamente serio.	}
-{	215	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, sì! Sono, diciamo, assolutamente serio.	}
-{	216	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, sì! Sono, diciamo, assolutamente serio.	}
-{	217	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, sì! Sono, diciamo, assolutamente serio.	}
-{	218	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, sì! Sono, diciamo, assolutamente serio.	}
+{	212	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, si'! Sono, diciamo, assolutamente serio.	}
+{	213	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, si'! Sono, diciamo, assolutamente serio.	}
+{	214	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, si'! Sono, diciamo, assolutamente serio.	}
+{	215	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, si'! Sono, diciamo, assolutamente serio.	}
+{	216	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, si'! Sono, diciamo, assolutamente serio.	}
+{	217	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, si'! Sono, diciamo, assolutamente serio.	}
+{	218	}{	Dico davvero, non sono sbronzo o che altro.	}{	Dico davvero, non sono ubriaca o che altro.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Oh, si'! Sono, diciamo, assolutamente serio.	}
 {	219	}{	Si'!	}{	Si'!	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	220	}{	Lo penso anch'io. Questo e' l'importante.	}{	Lo penso anch'io. Questo e' l'importante.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai ragione. No.	}
 {	221	}{	Lo penso anch'io. Questo e' l'importante.	}{	Lo penso anch'io. Questo e' l'importante.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Hai ragione. No.	}
@@ -270,9 +270,9 @@
 {	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	271	}{	[Sedotto]Mmm...!	}{	[Sedotto]Mmm...!	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll1_Seduce = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	272	}{	Voglio dirti una cosa; avvicinati....	}{	Voglio dirti una cosa; avvicinati....	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Devo sussurrarti nel collo. Vieni qui.	}
-{	273	}{	Lascia che ti faccia sentire un piacere che non hai mai provato.	}{	Lascia che ti faccia sentire un piacere che non hai mai provato.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Non sono completamente funzionale, ma sono programmato in più tecniche.	}
+{	273	}{	Lascia che ti faccia sentire un piacere che non hai mai provato.	}{	Lascia che ti faccia sentire un piacere che non hai mai provato.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Non sono completamente funzionale, ma sono programmato in piu' tecniche.	}
 {	274	}{	Che ne dici di un bacio prima che vada?	}{	Che ne dici di un bacio prima che vada?	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Ooh.... che femminuccia!	}
-{	275	}{	Prometto che saro' dolce.	}{	Prometto che saro' dolce.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Sii gentile con me - è la mia ennesima volta.	}
+{	275	}{	Prometto che saro' dolce.	}{	Prometto che saro' dolce.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Sii gentile con me - e' la mia ennesima volta.	}
 {	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

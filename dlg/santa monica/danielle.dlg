@@ -64,8 +64,8 @@
 {	64	}{	Non ho potuto smettere di pensare dall'ultima volta che abbiamo parlato.	}{	Non ho potuto smettere di pensare dall'ultima volta che abbiamo parlato.	}{	21	}{	Seduction 3 & G.Danielle_Seduced == 0 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	65	}{	La tua immagine sta creando dei vuoti infuocati nella mia mente.	}{	La tua immagine sta creando dei vuoti infuocati nella mia mente.	}{	91	}{	Seduction 3 & G.Danielle_Seduced == 0 and IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{	Ehi a te. Quindi devi essere una persona pratica, per essere stata al college.	}{	Ehi a te. Quindi devi essere una persona pratica, per essere stata al college.	}{	51	}{	G.Danielle_Seduced == 0	}{		}{		}{		}{		}{		}{		}{		}{	I tuoi occhi sono come... fettine di limone.	}
-{	67	}{	Papa' è qui per prendere un altro po' di zucchero.	}{	Papa' è qui per prendere un altro po' di zucchero.	}{	75	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 1	}{	G.Danielle_Drink = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	Papa' è qui per prendere un altro po' di zucchero.	}{	Papa' è qui per prendere un altro po' di zucchero.	}{	77	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 2	}{	G.Danielle_Drink = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	Papa' e' qui per prendere un altro po' di zucchero.	}{	Papa' e' qui per prendere un altro po' di zucchero.	}{	75	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 1	}{	G.Danielle_Drink = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{	Papa' e' qui per prendere un altro po' di zucchero.	}{	Papa' e' qui per prendere un altro po' di zucchero.	}{	77	}{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 2	}{	G.Danielle_Drink = 0	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	70	}{	Sto ancora cercando un party decente. Tornero' da te.	}{	Sto ancora cercando un party decente. Tornero' da te.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Piu' tardi verro' a raccontarti delle feste in citta', forse. Saluti.	}
 {	71	}{	Beh allora credo che andro' alla "banca del sangue". Comunque ne ho abbastanza di questo posto.	}{	Beh allora credo che andro' alla "banca del sangue". Comunque ne ho abbastanza di questo posto.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Vandal_Quest = 3; pc.SetQuest("Danielle",2)	}{		}{		}{		}{		}{		}{		}{		}
@@ -73,9 +73,9 @@
 {	73	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	75	}{	Amo le mie bambole. Vuoi venire a giocare con loro?	}{	Amo le mie bambole. Vuoi venire a giocare con loro?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	Sì, l'ho appena detto.	}{	Sì, l'ho appena detto.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Alle bambole piace essere strette.	}
+{	76	}{	Si', l'ho appena detto.	}{	Si', l'ho appena detto.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Alle bambole piace essere strette.	}
 {	77	}{	Manca molto tempo all'alba. Vuoi venire a giocare con me?	}{	Manca molto tempo all'alba. Vuoi venire a giocare con me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	Oh sì, tutta la notte.	}{	Oh sì, tutta la notte.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Il buio dura per sempre mentre giochiamo.	}
+{	78	}{	Oh si', tutta la notte.	}{	Oh si', tutta la notte.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Il buio dura per sempre mentre giochiamo.	}
 {	79	}{	Vuoi venire a giocare con me?	}{	Vuoi venire a giocare con me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	Come ho detto, lo faccio.	}{	Come ho detto, lo faccio.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Gnam, il gioco porta alla degustazione.	}
 {	81	}{	Oooohhh. Che cosa interessante da dire. Sei una specie di filosofo da bar? O stai solo cercando di rimorchiarmi?	}{	Oooohhh. Che cosa interessante da dire. Sei una specie di filosofo da bar? O e' la tua idea di discorso femminile?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -126,7 +126,7 @@
 {	126	}{	Aspetta! Non mi credi? Ti piacera'!	}{	Aspetta! Non mi credi? Ti piacera'!	}{	51	}{	Persuasion -3	}{	}{	}{	}{	}{	}{	}{	}{	Credetemi! La banca del sangue e', uh... assolutamente stronza!	}
 {	127	}{	Probabilmente non ti farebbero entrare comunque. Ci vediamo.	}{	Probabilmente non ti farebbero entrare comunque. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sei un VIP, piccola volpe. Addio.	}
 {	128	}{	No, ci andrai tu!	}{	No, ci andrai tu!	}{	71	}{	Thaumaturgy 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	Non è inquietante. Per quanto io lo sia!	}{	Non è inquietante. Per quanto io lo sia!	}{	71	}{	Presence 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	129	}{	Non e' inquietante. Per quanto io lo sia!	}{	Non e' inquietante. Per quanto io lo sia!	}{	71	}{	Presence 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	130	}{	A voi la scelta. Io me ne vado.	}{	A voi la scelta. Io me ne vado.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	131	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	132	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

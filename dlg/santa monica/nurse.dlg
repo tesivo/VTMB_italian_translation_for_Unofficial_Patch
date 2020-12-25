@@ -18,7 +18,7 @@
 {	18	}{	Sto solo portando degli oggetti personali ad un amico.	}{	Sto solo portando degli oggetti personali ad un amico.	}{	31	}{	Persuasion 3 & G.Nurse_Insult == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il mio amico ha bisogno dei doni che vengo a portare.	}
 {	19	}{	Okay.	}{	Okay.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{	Chissenefrega.	}{	Chissenefrega.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Me ne vado.	}
-{	21	}{	[Più severo]Mi hai sentito? Siediti - il dottore arrivera' quando potra'.	}{	[Più severo]Mi hai sentito? Siediti - il dottore arrivera' quando potra'.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	[Piu' severo]Mi hai sentito? Siediti - il dottore arrivera' quando potra'.	}{	[Piu' severo]Mi hai sentito? Siediti - il dottore arrivera' quando potra'.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Non saro' visitato e non aspettero'.	}{	Non saro' visitato e non aspettero'.	}{	31	}{	Dominate 1 & IsClan(pc,"Ventrue")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	23	}{	Non saro' visitato e non aspettero'.	}{	Non saro' visitato e non aspettero'.	}{	31	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	Ma li' hanno bisogno di qualcuno come me!	}{	Ma li' hanno bisogno di qualcuno come me!	}{	31	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}

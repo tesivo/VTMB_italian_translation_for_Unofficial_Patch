@@ -1,4 +1,4 @@
-{	1	}{	Non mi interessa! Devo trovarlo, così che lui possa trovarlo! Qui ci sono in gioco 250.000 bigliettoni dei miei soldi! [guarda in alto] Senti, senti, ci sentiamo dopo, ok? Fammi sapere se senti qualcosa su uno dei due!	}{	Non mi interessa! Devo trovarlo, così che lui possa trovarlo! Qui ci sono in gioco 250.000 bigliettoni dei miei soldi! [guarda in alto] Senti, senti, ci sentiamo dopo, ok? Fammi sapere se senti qualcosa su uno dei due!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Non mi interessa! Devo trovarlo, cosi' che lui possa trovarlo! Qui ci sono in gioco 250.000 bigliettoni dei miei soldi! [guarda in alto] Senti, senti, ci sentiamo dopo, ok? Fammi sapere se senti qualcosa su uno dei due!	}{	Non mi interessa! Devo trovarlo, cosi' che lui possa trovarlo! Qui ci sono in gioco 250.000 bigliettoni dei miei soldi! [guarda in alto] Senti, senti, ci sentiamo dopo, ok? Fammi sapere se senti qualcosa su uno dei due!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Ehila'! Come stai?	}{	Ehila'! Come stai?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	3	}{	Ciao.	}{	Ciao.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Salve!	}
 {	4	}{	Fammi sapere se hai bisogno di qualcosa....	}{	Fammi sapere se hai bisogno di qualcosa....	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -39,7 +39,7 @@
 {	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	40	}{	Ho capito. Credo che me ne andro'....	}{	Ho capito. Credo che me ne andro'....	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	I'm no longer here.	}
 {	41	}{	Bah, ti diro', i miei affari non vanno male. Santa Monica sta colando a picco. Immagino che dovesse essere piu' carina. Ora abbiamo un volume di affari maggiore di quello che avevamo anni fa, ma dobbiamo fare affari con molti piu' pazzi e rompi palle.	}{	Bah, ti diro', i miei affari non vanno male. Santa Monica sta colando a picco. Immagino che dovesse essere piu' carina. Ora abbiamo un volume di affari maggiore di quello che avevamo anni fa, ma dobbiamo fare affari con molti piu' pazzi e rompi palle.	}{	#	}{	npc.SetDisposition("Neutral",1); G.Arthur_BJ = 1	}{		}{		}{		}{		}{		}{		}{		}{  }
-{	42	}{	A quanto pare Santa Monica ha conosciuto giorni migliori.	}{	A quanto pare Santa Monica ha conosciuto giorni migliori.	}{	61	}{	G.Arthur_SM == 0	}{		}{		}{		}{		}{		}{		}{		}{	La bellezza della signora è svanita?	}
+{	42	}{	A quanto pare Santa Monica ha conosciuto giorni migliori.	}{	A quanto pare Santa Monica ha conosciuto giorni migliori.	}{	61	}{	G.Arthur_SM == 0	}{		}{		}{		}{		}{		}{		}{		}{	La bellezza della signora e' svanita?	}
 {	43	}{	Sono in molti a scappare?	}{	Sono in molti a scappare?	}{	71	}{	G.Arthur_BH == 0	}{		}{		}{		}{		}{		}{		}{		}{	Si trovano molte persone a cui dare la caccia?	}
 {	44	}{	Posso farti un paio di domande, Arthur?	}{	Se non ti dispiace ho un paio di domande.	}{	81	}{	G.Arthur_SM == 1 and G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Posso strapparti qualche risposta dalla testa?	}
 {	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -47,7 +47,7 @@
 {	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	50	}{	Sembra che tu abbia parecchio da fare, allora. Ci vediamo in giro.	}{	Sembra che tu abbia parecchio da fare, allora. Ci vediamo in giro.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora non sono più qui.	}
+{	50	}{	Sembra che tu abbia parecchio da fare, allora. Ci vediamo in giro.	}{	Sembra che tu abbia parecchio da fare, allora. Ci vediamo in giro.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora non sono piu' qui.	}
 {	51	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	52	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	53	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -64,7 +64,7 @@
 {	64	}{	Capito. Volevo farti una domanda.	}{	Capito. Volevo farti una domanda.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente ha domande cui servono le risposte della tua mente.	}
 {	65	}{	A quanto pare c'e' tanto lavoro per un cacciatore, qui.	}{	A quanto pare c'e' tanto lavoro per un cacciatore, qui.	}{	181	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 0	}{		}{		}{		}{		}{		}{		}{		}{	Pare che questo sia il posto migliore per un cacciatore.	}
 {	66	}{	Hai bisogno di un cacciatore?	}{	Hai bisogno di un cacciatore?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox < 2	}{	G.Arthur_Asked = 1	}{		}{		}{		}{		}{		}{		}{	Hai bisogno delle mie abilita' di cacciatore?	}
-{	67	}{	Me ne vado. A dopo.	}{	Me ne vado. A dopo.	}{	0	}{	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	È ora di andare a piedi da qualche altra parte.	}
+{	67	}{	Me ne vado. A dopo.	}{	Me ne vado. A dopo.	}{	0	}{	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	e' ora di andare a piedi da qualche altra parte.	}
 {	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	70	}{	Sei un vero filantropo. Ti faro' sapere cosa scopro.	}{	Sei un vero filantropo. Ti faro' sapere cosa scopro.	}{	0	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox == 2	}{		}{		}{		}{		}{		}{		}{		}{	Sei proprio uno che ci tiene. A dopo.	}
@@ -72,7 +72,7 @@
 {	72	}{	Dev'essere un lavoro interessante.	}{	Dev'essere un lavoro interessante.	}{	181	}{	G.Arthur_BH == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	73	}{	Spero che il tuo cacciatore sia bravo.	}{	Spero che il tuo cacciatore sia bravo.	}{	671	}{	G.Arthur_BH == 1 and G.Arthur_Knox < 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	74	}{	Heh. Posso farti un paio di domande, Arthur?	}{	Heh. Posso farti un paio di domande, Arthur?	}{	81	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Posso strapparti qualche risposta dalla testa?	}
-{	75	}{	Me ne vado. A piu' tardi.	}{	Me ne vado. A piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	È ora di andare a piedi da qualche altra parte.	}
+{	75	}{	Me ne vado. A piu' tardi.	}{	Me ne vado. A piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	e' ora di andare a piedi da qualche altra parte.	}
 {	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -82,7 +82,7 @@
 {	82	}{	Santa Monica sta andando in declino, non e' cosi'?	}{	Santa Monica sta andando in declino, non e' cosi'?	}{	61	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_SM == 0	}{		}{		}{		}{		}{		}{		}{		}{	La dama del mare sta affondando, e' vero?	}
 {	83	}{	Mi interessano i tuoi affari.	}{	Mi interessano i tuoi affari.	}{	551	}{	G.Arthur_BH == 0 and G.Arthur_BJ == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parlami dei tuoi affari.	}
 {	84	}{	Voglio conoscere un paio di posti in citta'.	}{	Voglio conoscere un paio di posti in citta'.	}{	91	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_SM == 1	}{		}{		}{		}{		}{		}{		}{		}{	Palrami della citta' e dei suoi posti.	}
-{	85	}{	C'e' qualcuno che salta le udienze?	}{	C'e' qualcuno che salta le udienze?	}{	71	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 0	}{		}{		}{		}{		}{		}{		}{		}{	C'è chi cerca di scivolare giù per i tubi senza pagare le chiavi?	}
+{	85	}{	C'e' qualcuno che salta le udienze?	}{	C'e' qualcuno che salta le udienze?	}{	71	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 0	}{		}{		}{		}{		}{		}{		}{		}{	C'e' chi cerca di scivolare giu' per i tubi senza pagare le chiavi?	}
 {	86	}{	Hai sentito degli omicidi in citta'?	}{	Hai sentito degli omicidi in citta'?	}{	451	}{	G.Know_Murder == 1 and G.Arthur_Killer == 0	}{		}{		}{		}{		}{		}{		}{		}{	Hai sentito del misterioso omicida?	}
 {	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -118,7 +118,7 @@
 {	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	121	}{	Oh, intendi quel club? Knox, il cacciatore di taglie, ci va ogni tanto - non ci sono mai stato. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari lo gestiscono piuttosto bene, però.	}{	Oh, intendi quel club? Knox, il cacciatore di taglie, ci va ogni tanto - non ci sono mai stato. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari lo gestiscono piuttosto bene, però.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Oh, intendi quel club? Knox, il cacciatore di taglie, ci va ogni tanto - non ci sono mai stato. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari lo gestiscono piuttosto bene, pero'.	}{	Oh, intendi quel club? Knox, il cacciatore di taglie, ci va ogni tanto - non ci sono mai stato. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari lo gestiscono piuttosto bene, pero'.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	123	}{	Sono curioso di conoscere i suoi affari.	}{	Sono curioso di conoscere i suoi affari.	}{	551	}{	G.Arthur_BH == 0 and G.Arthur_BJ == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	124	}{	Chi sono i proprietari?	}{	Chi sono i proprietari?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -198,7 +198,7 @@
 {	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	201	}{	Beh, non mi sento ancora a mio agio a tagliare fuori Knox. Ci conosciamo da molto tempo. Conoscevo anche suo padre... Ti dico una cosa, visto che sono bloccato qui, perché non vai a cercare Knox? Una cosa veloce. Ti pagherò per il tuo tempo.	}{	Beh, non mi sento ancora a mio agio a tagliare fuori Knox. Ci conosciamo da molto tempo. Conoscevo anche suo padre... Ti dico una cosa, visto che sono bloccato qui, perché non vai a cercare Knox? Una cosa veloce. Ti pagherò per il tuo tempo.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	Beh, non mi sento ancora a mio agio a tagliare fuori Knox. Ci conosciamo da molto tempo. Conoscevo anche suo padre... Ti dico una cosa, visto che sono bloccato qui, perche' non vai a cercare Knox? Una cosa veloce. Ti paghero' per il tuo tempo.	}{	Beh, non mi sento ancora a mio agio a tagliare fuori Knox. Ci conosciamo da molto tempo. Conoscevo anche suo padre... Ti dico una cosa, visto che sono bloccato qui, perche' non vai a cercare Knox? Una cosa veloce. Ti paghero' per il tuo tempo.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	203	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	204	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -218,7 +218,7 @@
 {	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	220	}{	Ok. Ci vediamo Arthur.	}{	Ok. Ci vediamo Arthur.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho altro a cui pensare. Ci vediamo.	}
-{	221	}{	Grande, grande! Ora, non è a casa, lo so, e non ha lasciato la citta', quindi controlla dove ci sono alcolici e donne; probabilmente è la cosa migliore. È un tipo un po' pesante, con i capelli un po' lunghi.	}{	Grande, grande! Ora, non è a casa, lo so, e non ha lasciato la citta', quindi controlla dove ci sono alcolici e donne; probabilmente è la cosa migliore. È un tipo un po' pesante, con i capelli un po' lunghi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	221	}{	Grande, grande! Ora, non e' a casa, lo so, e non ha lasciato la citta', quindi controlla dove ci sono alcolici e donne; probabilmente e' la cosa migliore. e' un tipo un po' pesante, con i capelli un po' lunghi.	}{	Grande, grande! Ora, non e' a casa, lo so, e non ha lasciato la citta', quindi controlla dove ci sono alcolici e donne; probabilmente e' la cosa migliore. e' un tipo un po' pesante, con i capelli un po' lunghi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	222	}{	Sara' fatto.	}{	Sara' fatto.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Questo sta gia' cercando.	}
 {	223	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -508,7 +508,7 @@
 {	508	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	509	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	510	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	511	}{	Ehila'. Speravo che saresti passato a trovarmi. Ho sentito Knox; il cretino è scappato e si è unito alla maledetta legione straniera francese. Quindi, puoi smettere di cercarlo... se non fossi....	}{	Ehila'. Speravo che saresti passata a trovarmi. Ho sentito Knox; il cretino è scappato e si è unito alla maledetta legione straniera francese. Quindi, puoi smettere di cercarlo... se non fossi....	}{	#	}{	}{	G.Arthur_Foreign = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	511	}{	Ehila'. Speravo che saresti passato a trovarmi. Ho sentito Knox; il cretino e' scappato e si e' unito alla maledetta legione straniera francese. Quindi, puoi smettere di cercarlo... se non fossi....	}{	Ehila'. Speravo che saresti passata a trovarmi. Ho sentito Knox; il cretino e' scappato e si e' unito alla maledetta legione straniera francese. Quindi, puoi smettere di cercarlo... se non fossi....	}{	#	}{	}{	G.Arthur_Foreign = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	512	}{	Uh, tu ci credi? Comunque, posso farti qualche domanda, Arthur?	}{	Uh, tu ci credi? Comunque, posso farti qualche domanda, Arthur?	}{	541	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il deserto chiama, ma la mia mente ha domande che hanno bisogno delle risposte della tua mente.	}
 {	513	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	514	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -520,8 +520,8 @@
 {	520	}{	Faccio solo un salto, Arthur. Ci vediamo.	}{	Faccio solo un salto, Arthur. Ci vediamo.	}{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il tuo diametro e' portavoce di ciambelle ben digerite. Addio.	}
 {	521	}{	Ehila'! Hai bisogno di qualcosa in particolare o sei qui solo per chiacchierare?	}{	Ehila'! Hai bisogno di qualcosa in particolare o sei qui solo per chiacchierare?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	522	}{	Posso chiederti un paio di cose, Arthur?	}{	Posso chiederti un paio di cose, Arthur?	}{	541	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia mente ha domande cui servono le risposte della tua mente.	}
-{	523	}{	In realta' sono tornato perché la tua rudezza mi eccita.	}{	In realta' sono tornata perché la tua rudezza mi eccita.	}{	821	}{	Seduction 4 & (not IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	524	}{	In realta' sono tornato perché la tua rudezza mi eccita.	}{	In realta' sono tornata perché la tua rudezza mi eccita.	}{	831	}{	Seduction 4 & (IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	523	}{	In realta' sono tornato perche' la tua rudezza mi eccita.	}{	In realta' sono tornata perche' la tua rudezza mi eccita.	}{	821	}{	Seduction 4 & (not IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	524	}{	In realta' sono tornato perche' la tua rudezza mi eccita.	}{	In realta' sono tornata perche' la tua rudezza mi eccita.	}{	831	}{	Seduction 4 & (IsMale(pc) and G.Patch_Plus == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	525	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	526	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	527	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -598,9 +598,9 @@
 {	598	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	599	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	600	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	601	}{	Oh, intendi quel club, il Manicomio? Knox, il cacciatore di taglie, ci va ogni tanto, non io non ci sono mai stato. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari sono molto severi, però.	}{	Oh, intendi quel club, il Manicomio? Knox, il cacciatore di taglie, ci va ogni tanto, non io non ci sono mai stata. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari sono molto severi, però.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	601	}{	Oh, intendi quel club, il Manicomio? Knox, il cacciatore di taglie, ci va ogni tanto, non io non ci sono mai stato. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari sono molto severi, pero'.	}{	Oh, intendi quel club, il Manicomio? Knox, il cacciatore di taglie, ci va ogni tanto, non io non ci sono mai stata. A volte ci andiamo per ubriachezza, per disturbo della quiete pubblica e per droga. Qualche rissa. I proprietari sono molto severi, pero'.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	602	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	603	}{	Chi è il proprietario di questa casa di specchi incrinati?	}{	Chi è il proprietario di questa casa di specchi incrinati?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	603	}{	Chi e' il proprietario di questa casa di specchi incrinati?	}{	Chi e' il proprietario di questa casa di specchi incrinati?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	604	}{	Ho altri posti che ho bisogno di scoprire con le tue parole.	}{	Ho altri posti che ho bisogno di scoprire con le tue parole.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	605	}{	Ho altre perplessita' che mi fanno scoppiare il cervello.	}{	Ho altre perplessita' che mi fanno scoppiare il cervello.	}{	81	}{	G.Arthur_SM == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	606	}{	Mi fai sentire come uno yeti a Natale. Addio.	}{	Mi fai sentire come uno yeti a Natale. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -762,7 +762,7 @@
 {	762	}{	Oh, eddai, non vuoi litigare con me, vero?	}{	Oh, eddai, non vuoi litigare con me, vero?	}{	771	}{	Persuasion 4	}{		}{		}{		}{		}{		}{		}{		}{	Dimmi che non e' la mia presenza ad agitarti cosi' tanto.	}
 {	763	}{	I nostri cervelli si assomigliano in una maniera impressionante.	}{	I nostri cervelli si assomigliano in una maniera impressionante.	}{	781	}{	Dementation 2	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	764	}{	Tu devi rivolgerti a me con rispetto!	}{	Tu devi rivolgerti a me con rispetto!	}{	801	}{	Dominate 2 & IsClan(pc,"Ventrue")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	765	}{	Come osi parlarmi così!	}{	Come osi parlarmi così!	}{	801	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	765	}{	Come osi parlarmi cosi'!	}{	Come osi parlarmi cosi'!	}{	801	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	766	}{	Continua a parlare cosi' e ti spezzo un braccio.	}{	Continua a parlare cosi' e ti spezzo un braccio.	}{	811	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Le fratture possono essere divertente! Vieni, ti faccio vedere!	}
 {	767	}{	Sei cosi' sexy quando ti arrabbi.	}{	Sei cosi' sexy quando ti arrabbi.	}{	821	}{	Seduction 4 & not IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{	Tu infervori le mie parti piu' basse.	}
 {	768	}{	Sei cosi' sexy quando ti arrabbi.	}{	Sei cosi' sexy quando ti arrabbi.	}{	831	}{	Seduction 4 & IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{	Tu infervori le mie parti piu' basse.	}
@@ -849,7 +849,7 @@
 {	849	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	850	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Ciao, ciccione.	}
 {	851	}{	Ehi bello! E' magnifico rivederti!	}{	Ehi dolcezza! E' magnifico rivederti!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	852	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	691	}{	G.Arthur_Knox == 1	}{	}{	}{	}{	}{	}{	}{	}{	Troverò il tuo cacciatore di teste d'ottone.	}
+{	852	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	691	}{	G.Arthur_Knox == 1	}{	}{	}{	}{	}{	}{	}{	}{	Trovero' il tuo cacciatore di teste d'ottone.	}
 {	853	}{	Sono ancora a caccia di Carson.	}{	Sono ancora a caccia di Carson.	}{	221	}{	G.Arthur_Knox == 2	}{	}{	}{	}{	}{	}{	}{	}{	Cerco ancora il cacciatore di taglie.	}
 {	854	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	241	}{	G.Arthur_Knox == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho trovato il cacciatore, ma non tornera' a caccia di taglie.	}
 {	855	}{	Sono curioso di conoscere i tuoi affari.	}{	Sono curiosa di conoscere i tuoi affari.	}{	551	}{	G.Arthur_BJ == 0	}{	}{	}{	}{	}{	}{	}{	}{	Raccontami le tue storie di caccia, maestro delle chiavi.	}
@@ -859,7 +859,7 @@
 {	859	}{	Ho alcune domande da farti, Arthur.	}{	Ho alcune domande da farti, Arthur.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox >= 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho altre quesiti che mi fanno scoppiare il cervello.	}
 {	860	}{	Niente per ora, Arthur. Ci vediamo.	}{	Niente per ora, Arthur. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Egadi. Devo fare la mia uscita dopo la fretta.	}
 {	861	}{	Che si dice?	}{	Che si dice?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	862	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	691	}{	G.Arthur_Knox == 1	}{	}{	}{	}{	}{	}{	}{	}{	Troverò il tuo cacciatore di teste d'ottone.	}
+{	862	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	Ti dico una cosa... Vado a cercare Carson per te.	}{	691	}{	G.Arthur_Knox == 1	}{	}{	}{	}{	}{	}{	}{	}{	Trovero' il tuo cacciatore di teste d'ottone.	}
 {	863	}{	Sono ancora a caccia di Carson.	}{	Sono ancora a caccia di Carson.	}{	221	}{	G.Arthur_Knox == 2	}{	}{	}{	}{	}{	}{	}{	}{	Cerco ancora il cacciatore di taglie.	}
 {	864	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	Ho trovato Carson. Purtroppo non tornera'.	}{	241	}{	G.Arthur_Knox == 3	}{	}{	}{	}{	}{	}{	}{	}{	Ho trovato il cacciatore, ma non tornera' a caccia di taglie.	}
 {	865	}{	Sono curioso di conoscere i tuoi affari.	}{	Sono curiosa di conoscere i tuoi affari.	}{	551	}{	G.Arthur_BJ == 0	}{	}{	}{	}{	}{	}{	}{	}{	Raccontami le tue storie di caccia, maestro delle chiavi.	}

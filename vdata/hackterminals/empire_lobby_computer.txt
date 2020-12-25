@@ -59,7 +59,7 @@ TerminalDefinition
 		{
 			"name"		"Brooklyn Suite"
 			"description"	"Chiusa"
-			"runtext"	"La Brooklyn Suite (5° piano) è CHIUSA a causa di un'indagine criminale."
+			"runtext"	"La Brooklyn Suite (5° piano) e' CHIUSA a causa di un'indagine criminale."
 			"dependency"		"G.Jumbles_Removed > 0 and G.PP == 1"
 		}
 
@@ -75,7 +75,7 @@ TerminalDefinition
 		{
 			"name"		"Buffalo Suite"
 			"description"	"Chiusa"
-			"runtext"	"La Buffalo Suite (6° piano) è CHIUSA a causa di un'indagine criminale."
+			"runtext"	"La Buffalo Suite (6° piano) e' CHIUSA a causa di un'indagine criminale."
 			"dependency"		"G.Venus_Boris == 2 and G.PP == 1"
 		}
 

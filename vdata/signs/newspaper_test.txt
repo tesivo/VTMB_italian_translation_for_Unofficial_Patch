@@ -49,7 +49,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Text line 2
 	{
-		"Text"				"         SHRINK DR.  ALISTAIR GROUT SI È TROVATO NELLE FIAMME"
+		"Text"				"         SHRINK DR.  ALISTAIR GROUT SI e' TROVATO NELLE FIAMME"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"280"	// 310
@@ -62,7 +62,7 @@ NewspaperData	// changed by wesp & psycho-a
 
 	TextBlock	// Text line 3
 	{
-		"Text"				"         AUTO COME SI È SCHIANTATA OGGI SULLE COLLINE DI HOLLYWOOD!"
+		"Text"				"         AUTO COME SI e' SCHIANTATA OGGI SULLE COLLINE DI HOLLYWOOD!"
 		"Font"				"Newsprint"
 		"XPos"				"233"
 		"YPos"				"300"	// 330

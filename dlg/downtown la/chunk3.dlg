@@ -377,7 +377,7 @@
 {	377	}{	Fuggi, mortale!	}{	Fuggi, mortale!	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	378	}{	Ecco la tua grande occasione per essere un eroe. Prova a fermarmi.	}{	Ecco la tua grande occasione per essere un eroe. Prova a fermarmi.	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sii un muro se proprio devi, ma ti avverto che sono una palla da demolizione.	}
 {	379	}{	Temo che sia finita. La tua vita, intendo.	}{	Temo che sia finita. La tua vita, intendo.	}{	391	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Quando ti sei svegliato oggi, sapevi che saresti morto?	}
-{	380	}{	Ho ucciso tuo fratello e ora ucciderò te.	}{	Ho ucciso tuo fratello e ora ucciderò te.	}{	391	}{	Humanity -5 & G.Chunk_Dead == 1 }{	}{	}{	}{	}{	}{	}{	}{	Ora farò a te quello che ho fatto all'altra ciambella.	}
+{	380	}{	Ho ucciso tuo fratello e ora uccidero' te.	}{	Ho ucciso tuo fratello e ora uccidero' te.	}{	391	}{	Humanity -5 & G.Chunk_Dead == 1 }{	}{	}{	}{	}{	}{	}{	}{	Ora faro' a te quello che ho fatto all'altra ciambella.	}
 {	381	}{	Aaah, andiamo, vattene e basta okay? Non costringermi ad usare la forza, ma sappi che sono autorizzato a farlo. Non farmi questo, tesoro.	}{	Aaah, andiamo, vattene e basta okay? Non costringermi ad usare la forza, ma sappi che sono autorizzato a farlo. Non farmi questo, tesoro.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	382	}{	Io andro' di sopra. Tu puoi provare a fermarmi, o puoi andartene.	}{	Io andro' di sopra. Tu puoi provare a fermarmi, o puoi andartene.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia strada non ha uscite. Puoi infrangerti, o puoi deviare dove ti pare.	}
 {	383	}{	Ti do dieci secondi per lasciare l'edificio.	}{	Ti do dieci secondi per lasciare l'edificio.	}{	0	}{	Intimidate 8	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Ti do solo tre secondi. 1...	}
@@ -386,7 +386,7 @@
 {	386	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	0	}{	Dementation 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	387	}{	Sparisci.	}{	Sparisci.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	388	}{	Fuggi, mortale!	}{	Fuggi, mortale!	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Chunk_Run = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	389	}{	Ho ucciso tuo fratello e ora ucciderò te.	}{	Ho ucciso tuo fratello e ora ucciderò te.	}{	391	}{	Humanity -5 & G.Chunk_Dead == 1 }{	}{	}{	}{	}{	}{	}{	}{	Ora farò a te quello che ho fatto all'altra ciambella.	}
+{	389	}{	Ho ucciso tuo fratello e ora uccidero' te.	}{	Ho ucciso tuo fratello e ora uccidero' te.	}{	391	}{	Humanity -5 & G.Chunk_Dead == 1 }{	}{	}{	}{	}{	}{	}{	}{	Ora faro' a te quello che ho fatto all'altra ciambella.	}
 {	390	}{	Sarai uno spuntino perfetto prima della portata principale.	}{	Sarai uno spuntino perfetto prima della portata principale.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	391	}{	Cosa?	}{	Cosa?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	392	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	G.Chunk_Attack = 1	}{		}{		}{		}{		}{		}{		}{		}
@@ -618,7 +618,7 @@
 {	618	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	619	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	620	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	621	}{	Deh! Togli le mani da lì.	}{	Deh! Togli le mani da lì.	}{	#	}{	}{	G.Chunk_Reset = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	621	}{	Deh! Togli le mani da li'.	}{	Deh! Togli le mani da li'.	}{	#	}{	}{	G.Chunk_Reset = 0	}{	}{	}{	}{	}{	}{	}{	}
 {	622	}{	Scusa.	}{	Scusa.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oops.	}
 {	623	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	624	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

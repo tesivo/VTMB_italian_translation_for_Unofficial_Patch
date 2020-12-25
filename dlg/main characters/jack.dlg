@@ -588,7 +588,7 @@
 {	588	}{	Volevo farti delle domande.	}{	Volevo farti delle domande.	}{	1333	}{	G.Jack_Faction >= 0	}{		}{		}{		}{		}{		}{		}{		}{	Posso importunare la tua materia grigia?	}
 {	589	}{	Volevo farti delle domande.	}{	Volevo farti delle domande.	}{	391	}{	G.Jack_Faction < 0	}{		}{		}{		}{		}{		}{		}{		}{	Posso importunare la tua materia grigia?	}
 {	590	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
-{	591	}{	Quindi, a parte QUESTO, cos'altro c'è di nuovo?	}{	Quindi, a parte QUESTO, cos'altro c'è di nuovo?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	591	}{	Quindi, a parte QUESTO, cos'altro c'e' di nuovo?	}{	Quindi, a parte QUESTO, cos'altro c'e' di nuovo?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	592	}{	Lavori ancora per LaCroix...	}{	Lavoriamo ancora per LaCroix...	}{	631	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Ascolto ancora il comando del giullare...	}
 {	593	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	594	}{	Niente che valga la pena menzionare.	}{	Niente che valga la pena menzionare.	}{	631	}{	}{	G.Jack_Faction = G.Jack_Faction - 1	}{	}{	}{	}{	}{	}{	}{	Ne so meno di niente.	}
@@ -643,7 +643,7 @@
 {	643	}{	Non sono assolutamente affari tuoi.	}{	Non sono assolutamente affari tuoi.	}{	641	}{	G.Jack_MM == 1 and G.Jack_Sunrise == 0	}{	G.Jack_MM = 2; G.Jack_Faction = G.Jack_Faction - 1	}{		}{		}{		}{		}{		}{		}{	So meno di niente.	}
 {	644	}{	E' top secret.	}{	E' top secret.	}{	661	}{	G.Jack_MM == 2 and G.Jack_Sunrise == 0	}{	G.Jack_Faction = G.Jack_Faction - 1	}{		}{		}{		}{		}{		}{		}{	E' un segreto che tengo per me soltanto...	}
 {	645	}{	Sto indagando sulla scomparsa del primogenito malkaviano.	}{	Sto indagando sulla scomparsa del primogenito malkaviano.	}{	651	}{	G.Jack_MM == 2 and G.Jack_Sunrise == 0	}{	G.Jack_Faction = G.Jack_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Cerco il folle primogenito malkaviano!	}
-{	646	}{	Te l'ho gia' detto.	}{	Te l'ho gia' detto.	}{	0	}{	G.Jack_Sunrise == 1	}{	}{	}{	}{	}{	}{	}{	}{	La verita' vi è gia' stata rivelata.	}
+{	646	}{	Te l'ho gia' detto.	}{	Te l'ho gia' detto.	}{	0	}{	G.Jack_Sunrise == 1	}{	}{	}{	}{	}{	}{	}{	}{	La verita' vi e' gia' stata rivelata.	}
 {	647	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	La mia ombra oscura gli altri domini. Addio.	}
 {	648	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	649	}{	Ah, ne ho sentito parlare.	}{	Ah, ne ho sentito parlare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -1019,7 +1019,7 @@
 {	1019	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1020	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia ombra oscurera' altri domini. Arrivederci.	}
 {	1021	}{	Ehi, ragazzo. Che succede?	}{	Ehi, ragazzo. Che succede?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1022	}{	Perché pensi che LaCroix mi abbia mandato a Santa Monica?	}{	Perché pensi che LaCroix mi abbia mandato a Santa Monica?	}{	161	}{	G.Jack_Henever == 0	}{	}{	}{	}{	}{	}{	}{	}{	Perché il giullare mi ha mandato a Santa Monica?	}
+{	1022	}{	Perche' pensi che LaCroix mi abbia mandato a Santa Monica?	}{	Perche' pensi che LaCroix mi abbia mandato a Santa Monica?	}{	161	}{	G.Jack_Henever == 0	}{	}{	}{	}{	}{	}{	}{	}{	Perche' il giullare mi ha mandato a Santa Monica?	}
 {	1023	}{	Sto facendo altre stronzate inutili per LaCroix.	}{	Sto facendo altre stronzate inutili per LaCroix.	}{	751	}{	G.Jack_Faction > 5 and G.Jack_Buckup == 0 and G.Jack_Gottado == 1	}{	G.Jack_Outbound = 4	}{	}{	}{	}{	}{	}{	}{	Sono vincolato al principio del giullare.	}
 {	1024	}{	Sono in missione per il principe.	}{	Sono in missione per il principe.	}{	631	}{	G.Story_State == 15 and G.Jack_Sunrise == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco il giullare.	}
 {	1025	}{	Sto andando a cercare il primogeno malkaviano scomparso.	}{	Sto andando a cercare il primogeno malkaviano scomparso.	}{	649	}{	G.Story_State == 15 and G.Jack_Sunrise == 0 and G.Prince_Grout == 1	}{	}{	}{	}{	}{	}{	}{	}{	Cerco il primogeno pazzo malkaviano.	}
@@ -1064,7 +1064,7 @@
 {	1064	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1065	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1066	}{	[RM: cut off? Why don't you...?]Corri a casa dal tuo principe prima che ti mostri cosa combinano alle puttane della Camarilla da queste parti.	}{	[RM: cut off? Why don't you...?]Corri a casa dal tuo principe prima che ti mostri cosa combinano alle puttane della Camarilla da queste parti.	}{	#	}{		}{	G.Jack_Bitch = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	1067	}{	Lo farò.	}{	Lo farò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sto correndo.	}
+{	1067	}{	Lo faro'.	}{	Lo faro'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sto correndo.	}
 {	1068	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1069	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1070	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -1326,7 +1326,7 @@
 {	1326	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
 {	1327	}{	Vai!	}{	Vai!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1328	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	1329	}{	Il tempo è sprecato.	}{	Il tempo è sprecato.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1329	}{	Il tempo e' sprecato.	}{	Il tempo e' sprecato.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1330	}{	(Auto-Link)	}{	(Auto-Link)	}{	1327	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	1331	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1332	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -1384,7 +1384,7 @@
 {	1384	}{	Sei proprio convinto che tutta la Camarilla sia marcia?	}{	Sei proprio convinto che tutta la Camarilla sia marcia?	}{	1501	}{	G.Jack_Extra == 1	}{		}{		}{		}{		}{		}{		}{		}{	La Camarilla e' cosi' corrotta?	}
 {	1385	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1386	}{	Di nuovo? Tutto deve riguardare queste teste di cazzo?	}{	Di nuovo? Tutto deve riguardare queste teste di cazzo?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1387	}{	Spero di no.	}{	Spero di no.	}{	1741	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non se non ce n'è bisogno.	}
+{	1387	}{	Spero di no.	}{	Spero di no.	}{	1741	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non se non ce n'e' bisogno.	}
 {	1388	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1389	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1390	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -1548,8 +1548,8 @@
 {	1548	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1549	}{	Ho qualche altra domanda.	}{	Ho qualche altra domanda.	}{	1357	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso importunare la tua materia grigia?	}
 {	1550	}{	A dopo.	}{	A dopo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	1551	}{	Essere morti non è una scusa per andare in giro ad occhi chiusi.	}{	Essere morti non è una scusa per andare in giro ad occhi chiusi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1552	}{	Forse la Camarilla ha ragione. Non c'è niente di sbagliato nella disciplina.	}{	Forse la Camarilla ha ragione. Non c'è niente di sbagliato nella disciplina.	}{	1541	}{	}{	}{	}{	}{	}{	}{	}{	}{	L'anarchia raramente protegge i suoi praticanti.	}
+{	1551	}{	Essere morti non e' una scusa per andare in giro ad occhi chiusi.	}{	Essere morti non e' una scusa per andare in giro ad occhi chiusi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1552	}{	Forse la Camarilla ha ragione. Non c'e' niente di sbagliato nella disciplina.	}{	Forse la Camarilla ha ragione. Non c'e' niente di sbagliato nella disciplina.	}{	1541	}{	}{	}{	}{	}{	}{	}{	}{	}{	L'anarchia raramente protegge i suoi praticanti.	}
 {	1553	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

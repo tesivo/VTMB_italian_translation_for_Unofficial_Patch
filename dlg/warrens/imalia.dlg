@@ -49,7 +49,7 @@
 {	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	51	}{	Oh, bene. Forse non mi riconosci a causa di questa roba tipo Texas Chainsaw Massacre che ho dappertutto. Il mio nome e'... Imalia.	}{	Oh, bene. Forse non mi riconosci a causa di questa roba tipo Texas Chainsaw Massacre che ho dappertutto. Il mio nome e'... Imalia.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	52	}{	Hey, Imalia. Come mai odi cosi' tanto Tawni Sessions?	}{	Hey, Imalia. Come mai odi cosi' tanto Tawni Sessions?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perché questo terribile odio per Tawni?	}
+{	52	}{	Hey, Imalia. Come mai odi cosi' tanto Tawni Sessions?	}{	Hey, Imalia. Come mai odi cosi' tanto Tawni Sessions?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' questo terribile odio per Tawni?	}
 {	53	}{	Solo Imalia? Hai un cognome?	}{	Solo Imalia? Hai un cognome?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hai un nome dopo il tuo nome?	}
 {	54	}{	Sto cercando Gary. Sai dov'e'?	}{	Sto cercando Gary. Sai dov'e'?	}{	191	}{	G.Story_State < 45	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	55	}{	Piacere di conoscerti, ma devo andare. Ci vediamo.	}{	Piacere di conoscerti, ma devo andare. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Presumo uno stato di invisibilita'. Addio.	}
@@ -200,7 +200,7 @@
 {	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	201	}{	I Nosferatu hanno un disgustoso senso dell'humor. A volte sentono - come me in questo momento - che le loro vittime sono troppo vanitose e bisogna insegnar loro una importante "lezione di vita".	}{	I Nosferatu hanno un disgustoso senso dell'humor. A volte sentono - come me in questo momento - che le loro vittime sono troppo vanitose e bisogna insegnar loro una importante "lezione di vita".	}{	#	}{		}{	G.Imalia_Lifelesson = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	202	}{	Capisco. Cos'e' successo?	}{	Capisco. Cos'e' successo?	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	E quindi?	}
-{	203	}{	Torniamo a Tawni Sessions	}{	Torniamo a Tawni Sessions. Perché non la si può semplicemente raggirare?	}{	91	}{	G.Imalia_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parliamo ancora di Tawni.	}
+{	203	}{	Torniamo a Tawni Sessions	}{	Torniamo a Tawni Sessions. Perche' non la si puo' semplicemente raggirare?	}{	91	}{	G.Imalia_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parliamo ancora di Tawni.	}
 {	204	}{	Oh. Ad ogni modo... posso farti qualche domanda?	}{	Oh. Ad ogni modo... posso farti qualche domanda?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso interpellare la tua materia grigia?	}
 {	205	}{	Spero che tu l'abbia imparata. Io me ne vado.	}{	Spero che tu l'abbia imparata. Io me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia mente e' gia partita, il mio corpo la segue.	}
 {	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -210,7 +210,7 @@
 {	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	211	}{	Beh, avevo appena vinto il titolo di "la piu' esageratamente fica in tutto l'universo" indetto dalla rivista Guy, e quando tornai a casa dopo la cerimonia, Gary era seduto sul mio divano con un martini in mano. Puoi immaginare il resto.	}{	Beh, avevo appena vinto il titolo di "la piu' esageratamente fica in tutto l'universo" indetto dalla rivista Guy, e quando tornai a casa dopo la cerimonia, Gary era seduto sul mio divano con un martini in mano. Puoi immaginare il resto.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	212	}{	Allora... hai imparato la tua "lezione di vita"?	}{	Allora... hai imparato la tua "lezione di vita"?	}{	221	}{		}{		}{		}{		}{		}{		}{		}{		}{	Spesso il destino e' crudele.	}
-{	213	}{	Torniamo a Tawni Sessions.	}{	Torniamo a Tawni Sessions. Perché non la si può semplicemente raggirare?	}{	91	}{	G.Imalia_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parliamo ancora di Tawni.	}
+{	213	}{	Torniamo a Tawni Sessions.	}{	Torniamo a Tawni Sessions. Perche' non la si puo' semplicemente raggirare?	}{	91	}{	G.Imalia_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parliamo ancora di Tawni.	}
 {	214	}{	Giusto. Posso farti qualche domanda?	}{	Giusto. Posso farti qualche domanda?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso interpellare la tua materia grigia?	}
 {	215	}{	Cavolate. Ci vediamo.	}{	Cavolate. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ciu Ciuf.	}
 {	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -233,7 +233,7 @@
 {	233	}{	Su con la vita! Dammi quello che mi devi e basta.	}{	Su con la vita! Dammi quello che mi devi e basta.	}{	241	}{	Humanity 3 & G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( -1	}{		}{		}{		}{		}{		}{		}{	La tua felicita' e' una macchia scura. Ora dammi il mio denaro.	}
 {	234	}{	Mi hai rotto. Mi devi dei soldi, questo e' certo.	}{	Mi hai rotto. Mi devi dei soldi, questo e' certo.	}{	241	}{	Humanity 3 & not IsClan(pc,"Malkavian") and G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	235	}{	Non voglio i tuoi soldi insanguinati. Ci vediamo.	}{	Non voglio i tuoi soldi insanguinati. Ci vediamo.	}{	241	}{	Humanity 3 & not IsClan(pc,"Malkavian") and G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( -1 )	}{		}{		}{		}{		}{		}{		}{		}
-{	236	}{	Su con la vita, perché non lo fai? Dammi quello che mi devi.	}{	Su con la vita, perché non lo fai? Dammi quello che mi devi.	}{	241	}{	Humanity -3	}{	}{	}{	}{	}{	}{	}{	}{	La tua felicita' è una macchia scura. Ora dammi il mio oro.	}
+{	236	}{	Su con la vita, perche' non lo fai? Dammi quello che mi devi.	}{	Su con la vita, perche' non lo fai? Dammi quello che mi devi.	}{	241	}{	Humanity -3	}{	}{	}{	}{	}{	}{	}{	}{	La tua felicita' e' una macchia scura. Ora dammi il mio oro.	}
 {	237	}{	Ripensandoci, non voglio i tuoi soldi sporchi di sangue. Ci vediamo.	}{	Ripensandoci, non voglio i tuoi soldi sporchi di sangue. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tieniti i tuoi trenta denari. Ti lascio alla tua rovina.	}
 {	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -261,7 +261,7 @@
 {	261	}{	Beh...si', dai. E' contro ogni mio principio, ma credo di poterti dare qualcosina, giusto per lo sforzo. Prendi.	}{	Beh...si', dai. E' contro ogni mio principio, ma credo di poterti dare qualcosina, giusto per lo sforzo. Prendi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd( 200 ); G.Imalia_Pissed = 0; G.Imalia_Paid = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	262	}{	Cerchero' di non spenderli tutti in un solo posto. Ci vediamo.	}{	Cerchero' di non spenderli tutti in un solo posto. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi gustero' dell'olio di fegato di merluzzo. Addio.	}
 {	263	}{	Quindi forse possiamo fare un piccolo pow-wow? Posso farti qualche domanda?	}{	Quindi forse possiamo fare un piccolo pow-wow? Posso farti qualche domanda?	}{	161	}{	G.Tawni_Dead == 0 and G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Posso ora estrarre la tua materia grigia?	}
-{	264	}{	Grazie mille, mi è costato il doppio!	}{	Grazie mille, mi è costato il doppio!	}{	0	}{	G.Imalia_Gotmag == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ma ho perso altri pezzi di carta verde per questo!	}
+{	264	}{	Grazie mille, mi e' costato il doppio!	}{	Grazie mille, mi e' costato il doppio!	}{	0	}{	G.Imalia_Gotmag == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ma ho perso altri pezzi di carta verde per questo!	}
 {	265	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

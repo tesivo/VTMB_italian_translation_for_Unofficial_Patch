@@ -128,7 +128,7 @@
 {	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	131	}{	Che questa giusta esposizione serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Per il potere del Signore, purificherò la tua anima nera!	}{	Che questa giusta esposizione serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Per il potere del Signore, purificherò la tua anima nera!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Story_State = 20	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	Che questa giusta esposizione serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Per il potere del Signore, purifichero' la tua anima nera!	}{	Che questa giusta esposizione serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Per il potere del Signore, purifichero' la tua anima nera!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Story_State = 20	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	Si', come vuoi.	}{	Si', come vuoi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tante parole, poco senso.	}
 {	133	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	134	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

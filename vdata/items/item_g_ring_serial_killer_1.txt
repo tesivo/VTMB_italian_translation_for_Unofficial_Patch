@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"	"La perla di Dubai"
-	"description"	"Questo gioiello è la famosa Perla di Dubai. È molto preziosa e piena di una magica vitalita' che da' una spinta al vostro Carisma."
+	"description"	"Questo gioiello e' la famosa Perla di Dubai. e' molto preziosa e piena di una magica vitalita' che da' una spinta al vostro Carisma."
 
 	// added by wesp
 	"infomodel"	"models/items/pearl_of_dubai/Info/pearl_of_dubai.mdl"

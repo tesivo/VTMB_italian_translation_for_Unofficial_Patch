@@ -12,9 +12,9 @@ WeaponData
 	"anim_prefix"	"fist"
 
 	"printname"		"Sconosciuto"	// changed by wesp
-	"description"	"Non è un braccialetto della WWJD, quindi non hai idea di cosa possa essere.
+	"description"	"Non e' un braccialetto della WWJD, quindi non hai idea di cosa possa essere.
 
-Per utilizzare questo oggetto è necessaria una competenza di ricerca di almeno 8."	// added by wesp
+Per utilizzare questo oggetto e' necessaria una competenza di ricerca di almeno 8."	// added by wesp
 
 	"impact_snd_group"	"fist"
 

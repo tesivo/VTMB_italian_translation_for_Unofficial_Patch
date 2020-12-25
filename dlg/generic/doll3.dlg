@@ -57,7 +57,7 @@
 {	57	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
 {	58	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
 {	59	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	Guardami negli occhi.... Sei ipnotizzata, non e' vero?	}{	341	}{	Seduction -6 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Guardami negli occhi.... Ahhhh! Vattene, vattene, vattene!	}
-{	60	}{	Scusa se ti do fastidio.	}{	Scusa se ti do fastidio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo disturbarvi più tardi; ora non è un buon momento.	}
+{	60	}{	Scusa se ti do fastidio.	}{	Scusa se ti do fastidio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo disturbarvi piu' tardi; ora non e' un buon momento.	}
 {	61	}{	Mi paghi da bere?	}{	Mi paghi da bere?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	62	}{	Perche' fermarci a questo?	}{	Perche' fermarci a questo?	}{	151	}{	Seduction 6 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Si', padrona.	}
 {	63	}{	Perche' fermarci a questo?	}{	Perche' fermarci a questo?	}{	181	}{	Seduction 6 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Si', padrona.	}
@@ -87,12 +87,12 @@
 {	87	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	321	}{	Seduction -6 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
 {	88	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	331	}{	Seduction -6 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
 {	89	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	Qualunque cosa per mettere le MIE mani sul bel TUO culo.	}{	344	}{	Seduction -6 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Le bevande ti mettono le mani sul culo, sicuro!	}
-{	90	}{	Forse piu' tardi, scusami.	}{	Forse piu' tardi, scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tale servizio non è attualmente disponibile. Si prega di riprovare più tardi.	}
+{	90	}{	Forse piu' tardi, scusami.	}{	Forse piu' tardi, scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tale servizio non e' attualmente disponibile. Si prega di riprovare piu' tardi.	}
 {	91	}{	Finalmente. Non dovresti far aspettare cosi' una ragazza!	}{	Finalmente. Non dovresti far aspettare cosi' una ragazza!	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	92	}{	Per tutto il tempo che non ti ho vista non ho fatto altro che pensare a questo.	}{	Per tutto il tempo che non ti ho vista non ho fatto altro che pensare a questo.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Ho pensato di farlo ogni volta che eravamo separati... tranne quando non l'ho fatto.	}
-{	93	}{	E' per questo che sono tornato... ma per poco.	}{	E' per questo che sono tornata... ma per poco.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Lavorerò per ridurre i tempi di attesa. Ho bisogno di una trasfusione.	}
+{	93	}{	E' per questo che sono tornato... ma per poco.	}{	E' per questo che sono tornata... ma per poco.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Lavorero' per ridurre i tempi di attesa. Ho bisogno di una trasfusione.	}
 {	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	95	}{	Solo un po' piu' a lungo, baby.	}{	Solo un po' piu' a lungo, baby.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Scusate, dovete aspettare ancora un po'. Tornerò.	}
+{	95	}{	Solo un po' piu' a lungo, baby.	}{	Solo un po' piu' a lungo, baby.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Scusate, dovete aspettare ancora un po'. Tornero'.	}
 {	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -210,7 +210,7 @@
 {	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	211	}{	Non stai cercando di conquistarmi con una canzoncina, vero?	}{	Non stai cercando di conquistarmi con una canzoncina, vero?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	212	}{	Non sono quel tipo, ma tu senza dubbio sei il mio.	}{	Non sono quel tipo, ma tu senza dubbio sei il mio.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	No, qui non ci sono battute. Sei troppo carina per me per fare le battute.	}
-{	213	}{	Solo le ragazze stupide ci cascano.	}{	Solo le ragazze stupide ci cascano.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non staresti bene in una battuta. Il tuo attuale abbigliamento è molto meglio.	}
+{	213	}{	Solo le ragazze stupide ci cascano.	}{	Solo le ragazze stupide ci cascano.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non staresti bene in una battuta. Il tuo attuale abbigliamento e' molto meglio.	}
 {	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -255,14 +255,14 @@
 {	255	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	Cosa sei, una detective? Perche' voglio farmi mettere le manette.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Perche'? Chi vuole saperlo? Mi stai spiando?	}
 {	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	258	}{	No, ma spero che diventi il nostro posto speciale.	}{	No, ma spero che diventi il nostro posto speciale.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora che sei qui, la mia risposta è "Sì!	}
-{	259	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
-{	260	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
-{	261	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
-{	262	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
-{	263	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
-{	264	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
-{	265	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora è tornata.	}
+{	258	}{	No, ma spero che diventi il nostro posto speciale.	}{	No, ma spero che diventi il nostro posto speciale.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora che sei qui, la mia risposta e' "Si'!	}
+{	259	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora e' tornata.	}
+{	260	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora e' tornata.	}
+{	261	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora e' tornata.	}
+{	262	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora e' tornata.	}
+{	263	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora e' tornata.	}
+{	264	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora e' tornata.	}
+{	265	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	Le belle persone non rispondono alle domande, esse meritano solo la tua completa attenzione.	}{	344	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	La mia mente vaga.... Ok, ora e' tornata.	}
 {	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -270,7 +270,7 @@
 {	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	271	}{	Non sei come tutti gli altri ragazzi, vero?	}{	Non sei come tutte le altre ragazze, vero?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll3_Seduce = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	272	}{	Hai maledettamente ragione. Lascia che ti mostri il perche'.	}{	You don't know how right you are. Let me show you why.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	In tanti modi. Permettimi di mostrartene uno.	}
-{	273	}{	Nessun'altro ti ha mai fatto questo prima?	}{	Nessun'altro ti ha mai fatto questo prima?	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Sì. No, non lo so. Ecco, facciamo qualcosa di meno confuso.	}
+{	273	}{	Nessun'altro ti ha mai fatto questo prima?	}{	Nessun'altro ti ha mai fatto questo prima?	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Si'. No, non lo so. Ecco, facciamo qualcosa di meno confuso.	}
 {	274	}{	Voglio mostrarti un'estasi che non troverai da nessun'altra parte in questo mondo.	}{	Voglio mostrarti un'estasi che non troverai da nessun'altra parte in questo mondo.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Sono come l'estasi, solo meglio. Lasciate che ve lo mostri.	}
 {	275	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

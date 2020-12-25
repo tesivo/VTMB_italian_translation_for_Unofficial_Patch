@@ -246,7 +246,7 @@
 {	246	}{	Non sistemo i vostri impicci.	}{	Non sistemo i vostri impicci.	}{	261	}{	Humanity 6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{		}{		}{		}{		}{		}{		}{		}{	Non pulisco i cessi dei ribelli, Helter Skelter.	}
 {	247	}{	Normalmente avrei preso al volo quest'opportunita', ma oggi no.	}{	Normalmente avrei preso al volo quest'opportunita', ma oggi no.	}{	261	}{	Humanity -6 & (not IsDead ("Patty") and G.Patty_SM == 0)	}{		}{		}{		}{		}{		}{		}{		}{	Mi ci sarei fatto un bagno nel suo sangue, ma ho altre bestiacce da bastonare.	}
 {	248	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	249	}{	Mi sono gia' occupato del tuo problema.	}{	Mi sono gia' occupato del tuo problema.	}{	271	}{	IsDead ("Patty") or G.Patty_SM == 1	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	La macabra Patty non è più un problema.	}
+{	249	}{	Mi sono gia' occupato del tuo problema.	}{	Mi sono gia' occupato del tuo problema.	}{	271	}{	IsDead ("Patty") or G.Patty_SM == 1	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	La macabra Patty non e' piu' un problema.	}
 {	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	251	}{	Bene. Divertiti. Mi sarebbe piaciuto occuparmene io stesso, ma conosco colui che l'ha generata. Fammi solo sapere quando e' tutto fatto.	}{	Bene. Divertiti. Mi sarebbe piaciuto occuparmene io stesso, ma conosco colui che l'ha generata. Fammi solo sapere quando e' tutto fatto.	}{	#	}{		}{	G.Skelter_Quest = 3; pc.SetQuest("Junky",1)	}{		}{		}{		}{		}{		}{		}{		}
 {	252	}{	Okay. Ma prima di andare ho qualche altra domanda....	}{	Okay. Ma prima di andare ho qualche altra domanda....	}{	591	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso provare la tua materia grigia?	}
@@ -392,8 +392,8 @@
 {	392	}{	Dov'e' andato Nines?	}{	Dov'e' andato Nines?	}{	361	}{	G.Skelter_Setup == 1 and G.Story_State < 45	}{		}{		}{		}{		}{		}{		}{		}{	Dov'e' colui che ha dei numeri per nome?	}
 {	393	}{	Sto cercando qualcosa da fare.	}{	Sto cercando qualcosa da fare.	}{	191	}{	G.Skelter_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Hai qualcosa da farmi fare?	}
 {	394	}{	Stavo pensando al tuo problema Patty; credo di poterti dare una mano.	}{	Stavo pensando al tuo problema Patty; credo di poterti dare una mano.	}{	251	}{	G.Skelter_Quest == 2	}{		}{		}{		}{		}{		}{		}{		}{	Risolvero' il tuo imbarazzante problema di nome Patty.	}
-{	395	}{	Mi sono occupata del problema Patty.	}{	Mi sono occupata del problema Patty.	}{	271	}{	(G.Patty_Pisha == 1 or IsDead ("Patty") or G.Test_Patty == 1 or G.Patty_SM == 1) and G.Skelter_Quest == 3	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	La macabra Patty non è più un problema.	}
-{	396	}{	Mi sono occupata del problema Patty.	}{	Mi sono occupata del problema Patty.	}{	271	}{	G.Patty_SD == 1 and G.Skelter_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	La macabra Patty non è più un problema.	}
+{	395	}{	Mi sono occupata del problema Patty.	}{	Mi sono occupata del problema Patty.	}{	271	}{	(G.Patty_Pisha == 1 or IsDead ("Patty") or G.Test_Patty == 1 or G.Patty_SM == 1) and G.Skelter_Quest == 3	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	La macabra Patty non e' piu' un problema.	}
+{	396	}{	Mi sono occupata del problema Patty.	}{	Mi sono occupata del problema Patty.	}{	271	}{	G.Patty_SD == 1 and G.Skelter_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	La macabra Patty non e' piu' un problema.	}
 {	397	}{	Ho fatto quella cosa... Patty.	}{	Ho fatto quella cosa... Patty.	}{	576	}{	G.Patty_Alley > 0 and not IsDead ("Patty") and G.Test_Patty == 0 and G.Skelter_Quest == 3	}{		}{		}{		}{		}{		}{		}{		}{	Patty non rappresenta piu' un problema.	}
 {	398	}{	Ho qualche domanda per te.	}{	Ho qualche domanda per te.	}{	591	}{		}{	G.Skelter_Questions = 1	}{		}{		}{		}{		}{		}{		}{	Posso provare la tua materia grigia?	}
 {	399	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -510,7 +510,7 @@
 {	510	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	511	}{	Che cazzata. Non so se ti hanno spinto a dire questo, ma e' meglio per te non dirlo troppo forte. So cosa e' andato a fare e non ha nulla a che vedere con la Camarilla. Non sono la nostra unica preoccupazione, lo sai.	}{	Che cazzata. Non so se ti hanno spinto a dire questo, ma e' meglio per te non dirlo troppo forte. So cosa e' andato a fare e non ha nulla a che vedere con la Camarilla. Non sono la nostra unica preoccupazione, lo sai.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	512	}{	Lascia stare. Hai un paio di minuti?	}{	Lascia stare. Hai un paio di minuti?	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	513	}{	Ok, ma ho trovato anche questo. Sembra che Grout abbia ucciso il papa' zuccherino Toreador di Patty.	}{	Ok, ma ho trovato anche questo. Sembra che Grout abbia ucciso il papa' zuccherino Toreador di Patty.	}{	261	}{	G.Patty_Known == 1 and pc.HasItem("item_w_tzimisce2_claw") 	}{	pc.RemoveItem("item_w_tzimisce2_claw"); G.Grout_Kent = 1	}{	}{	}{	}{	}{	}{	}{	Okydoky. Ed ecco la foto della stella di Patty che è bruciata lassù.	}
+{	513	}{	Ok, ma ho trovato anche questo. Sembra che Grout abbia ucciso il papa' zuccherino Toreador di Patty.	}{	Ok, ma ho trovato anche questo. Sembra che Grout abbia ucciso il papa' zuccherino Toreador di Patty.	}{	261	}{	G.Patty_Known == 1 and pc.HasItem("item_w_tzimisce2_claw") 	}{	pc.RemoveItem("item_w_tzimisce2_claw"); G.Grout_Kent = 1	}{	}{	}{	}{	}{	}{	}{	Okydoky. Ed ecco la foto della stella di Patty che e' bruciata lassu'.	}
 {	514	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	515	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

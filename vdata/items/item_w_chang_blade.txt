@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"		"Shin Gunto"	// changed by wesp
-	"description"	"Si tratta di una riproduzione in serie della tradizionale katana giapponese. Non è efficace come una vera e propria katana, ma è comunque molto pericolosa."	// changed by wesp
+	"description"	"Si tratta di una riproduzione in serie della tradizionale katana giapponese. Non e' efficace come una vera e propria katana, ma e' comunque molto pericolosa."	// changed by wesp
 
 	"viewmodel"		"models/weapons/w_null.mdl"
 	"playermodel"	"models/weapons/ShinGunto/world/g_ShinGunto.mdl"	// changed by wesp

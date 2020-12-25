@@ -529,7 +529,7 @@
 {	529	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	530	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	531	}{	Non mi interesso di quel genere di cose. Forse dovresti andare.	}{	Non mi interesso di quel genere di cose. Forse dovresti andare.	}{	#	}{	npc.SetDisposition("apathy",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	532	}{	Forse lo farò.	}{	Forse lo farò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ne parlerò tra me e me.	}
+{	532	}{	Forse lo faro'.	}{	Forse lo faro'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ne parlero' tra me e me.	}
 {	533	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	534	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	535	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -549,7 +549,7 @@
 {	549	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	551	}{	Devo farti un disegno? La galleria e' proprio in fondo alla strada.	}{	Devo farti un disegno? La galleria e' proprio in fondo alla strada.	}{	#	}{	npc.SetDisposition("neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	552	}{	Non serve, lo troverò.	}{	Non serve, lo troverò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ho gia' in testa una mappa.	}
+{	552	}{	Non serve, lo trovero'.	}{	Non serve, lo trovero'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ho gia' in testa una mappa.	}
 {	553	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -809,7 +809,7 @@
 {	809	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	810	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	811	}{	Oh, c'era una cosa riguardo i quadri...Hmm, cos'era...? Non me lo ricordo. Vabe', divertiti tesoruccio!	}{	Oh, c'era una cosa riguardo i quadri...Hmm, cos'era...? Non me lo ricordo. Vabe', divertiti tesoruccio!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	812	}{	Lo farò.	}{	Lo farò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lo faremo.	}
+{	812	}{	Lo faro'.	}{	Lo faro'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lo faremo.	}
 {	813	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	814	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	815	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

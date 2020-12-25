@@ -107,9 +107,9 @@ btung@schreck.vtm, Nosferatu locale"
 
 	Email		// added by wesp
 	{
-		"subject"	"re: Santa Monica è la MIA citta'!!"
+		"subject"	"re: Santa Monica e' la MIA citta'!!"
 		"sender"	"Jeanette"
-		"body"		"No, il tuo atteggiamento da stronza ci sta facendo a pezzi. Hai bisogno di rinfrescarti, perché non vai a nuotare nel Pacifico?"
+		"body"		"No, il tuo atteggiamento da stronza ci sta facendo a pezzi. Hai bisogno di rinfrescarti, perche' non vai a nuotare nel Pacifico?"
 		"dependency"	"G.Therese_Quest > 2 and G.Jeanette_Scorn == 1"	// changed by wesp
 	}
 

@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"		"Coltello"
-	"description"		"Alcuni coltelli, durante tutta la loro esistenza, non sono mai usati per scopi malevoli. Questo non è uno di quelli."
+	"description"		"Alcuni coltelli, durante tutta la loro esistenza, non sono mai usati per scopi malevoli. Questo non e' uno di quelli."
 //	"viewmodel"	"models/weapons/knife/view/v_knife.mdl"
 //"viewmodel"	""
     "viewmodel"		    "models/weapons/w_null.mdl"

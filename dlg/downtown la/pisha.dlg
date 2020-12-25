@@ -209,7 +209,7 @@
 {	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	211	}{	Le cronache del diciannovesimo secolo riportano di un incontro tra un plotone britannico e una tribu' locale, e parlano anche di un feticcio. Durante la notte i soldati scomparvero e al loro posto furono ritrovati questi feticci. Potrebbe risultare prezioso per i miei studi.	}{	Le cronache del diciannovesimo secolo riportano di un incontro tra un plotone britannico e una tribu' locale, e parlano anche di un feticcio. Durante la notte i soldati scomparvero e al loro posto furono ritrovati questi feticci. Potrebbe risultare prezioso per i miei studi.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	212	}{	Intendi questa cosa?	}{	Intendi questa cosa?	}{	251	}{	pc.HasItem("item_g_pisha_fetish")	}{	pc.SetQuest("Occult",2)	}{	}{	}{	}{	}{	}{	}{	Sì, ho l'uomo rimpicciolito.	}
+{	212	}{	Intendi questa cosa?	}{	Intendi questa cosa?	}{	251	}{	pc.HasItem("item_g_pisha_fetish")	}{	pc.SetQuest("Occult",2)	}{	}{	}{	}{	}{	}{	}{	Si', ho l'uomo rimpicciolito.	}
 {	213	}{	Quale museo ha una cosa del genere?	}{	Quale museo ha una cosa del genere?	}{	201	}{	G.Pisha_Fetish == 0 and G.Story_State >= 30	}{	}{	}{	}{	}{	}{	}{	}{	Quale museo conserva un tale premio?	}
 {	214	}{	E l'altro?	}{	E l'altro?	}{	221	}{	G.Pisha_Morte == 0	}{		}{		}{		}{		}{		}{		}{		}{	E l'altro prezioso?	}
 {	215	}{	Ho un'altra domanda.	}{	Ho un'altra domanda.	}{	231	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vorrei chiedere una cosa alla vedova.	}

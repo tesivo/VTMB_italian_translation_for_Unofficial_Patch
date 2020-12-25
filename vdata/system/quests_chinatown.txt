@@ -446,7 +446,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"I candidati Giovanni stanno cercando di spostarsi l'uno dall'altro. Perché non aiutate un po' uno di loro?"I candidati Giovanni stanno cercando di allontanarsi gli uni dagli altri. Perché non aiutate un po' uno di loro?
+			"Description"	"I candidati Giovanni stanno cercando di spostarsi l'uno dall'altro. Perche' non aiutate un po' uno di loro?"I candidati Giovanni stanno cercando di allontanarsi gli uni dagli altri. Perche' non aiutate un po' uno di loro?
 			"Type"		"incomplete"
 		}
 

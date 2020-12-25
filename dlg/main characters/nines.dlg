@@ -89,7 +89,7 @@
 {	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	91	}{	Questa e' una dura esistenza. Stai fuori dai pericoli, ragazzo.	}{	Questa e' una dura esistenza. Stai fuori dai pericoli, ragazza.	}{	#	}{		}{	G.Nines_Farewell = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	92	}{	Ci proverò.	}{	Ci proverò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse, o forse no.	}
+{	92	}{	Ci provero'.	}{	Ci provero'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse, o forse no.	}
 {	93	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -932,7 +932,7 @@
 {	932	}{	Comunque -	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	933	}{	Ecco.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	934	}{	Segui questa strada fino alla fine.	}{	Segui questa strada fino alla fine.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	935	}{	Lo farò.	}{	Lo farò.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Boom!	}
+{	935	}{	Lo faro'.	}{	Lo faro'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Boom!	}
 {	936	}{	(Starting Condition)	}{	}{	881	}{	G.Nines_Mission == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	937	}{	(Starting Condition)	}{	}{	701	}{	G.Story_State == 115	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	938	}{	(Starting Condition)	}{	}{	541	}{	G.Story_State == 85 and G.Player_Anarch == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

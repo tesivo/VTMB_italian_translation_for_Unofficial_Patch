@@ -8,7 +8,7 @@ HistoryDataTables
 		Text
 		{
 			"Name"				"Omosessuale"
-			"Description"			"Hai sempre trovato il tuo genere molto più attraente dell'altro sesso, anche se molte persone hanno ancora problemi ad affrontarlo. Forse la societa' vampirica è diversa..."
+			"Description"			"Hai sempre trovato il tuo genere molto piu' attraente dell'altro sesso, anche se molte persone hanno ancora problemi ad affrontarlo. Forse la societa' vampirica e' diversa..."
 			"ShortDescription"		"Inizia come omosessuale."
 			"ShortPenaltyDescription"	""
 		}
@@ -45,9 +45,9 @@ HistoryDataTables
 		Text
 		{
 			"Name"				"Vecchi tempi"
-			"Description"			"Tu sei un tipo all'antica e non ti interessa tutta questa nuova tecnologia. Quindi vi costa di più aumentare le vostre conoscenze informatiche, ma iniziate con un bonus in borsa di studio."	// added by wesp
+			"Description"			"Tu sei un tipo all'antica e non ti interessa tutta questa nuova tecnologia. Quindi vi costa di piu' aumentare le vostre conoscenze informatiche, ma iniziate con un bonus in borsa di studio."	// added by wesp
 			"ShortDescription"		"Vantaggio: +1 alla borsa di studio."
-			"ShortPenaltyDescription"	"Penalita': Aumentare le conoscenze informatiche costa di più."
+			"ShortPenaltyDescription"	"Penalita': Aumentare le conoscenze informatiche costa di piu'."
 		}
 
 		General
@@ -687,7 +687,7 @@ Scambia l'ordine di priorita' dei tuoi Attributi Mentali, Sociali, Fisici."	// a
 		Text
 		{
 			"Name"				"Buttafuori del bar"
-			"Description"			"Nessuno poteva superarti quando stavi in piedi su una porta e ti divertivi a buttare fuori la gente. Ora sara' ancora più facile fare del male alla gente.
+			"Description"			"Nessuno poteva superarti quando stavi in piedi su una porta e ti divertivi a buttare fuori la gente. Ora sara' ancora piu' facile fare del male alla gente.
 			Scambia l'ordine di priorita' delle tue Abilita' con Talenti, Conoscenze, Abilita'."	// added by wesp
 			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
@@ -1428,7 +1428,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Megalomane"
 			"Description"	"Hai un grande ego. A causa della tua fiducia in te stesso e delle tue capacita', le persone o ti odiano davvero, o sono attratte da te.
-			Si inizia con un punto in più di Charisma, ma non si può mai alzare Subterfugo al di sopra di quattro."	// changed by wesp
+			Si inizia con un punto in piu' di Charisma, ma non si puo' mai alzare Subterfugo al di sopra di quattro."	// changed by wesp
 			"ShortDescription"	"Vantaggio: +1 a Charisma."
 			"ShortPenaltyDescription"	"Penalita': Sotterfugio massimo di 4."
 		}
@@ -1488,7 +1488,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Sottilmente folle"
 			"Description"	"La vostra pazzia non ostacola troppo la vostra capacita' di interagire con gli altri. A prima vista, la maggior parte non dubita della vostra stabilita' mentale.
-			La vostra forma unica di demenza si infiamma più facilmente se provocata in combattimento, ma non potete mai alzare la vostra Schivata sopra i tre."	// changed by wesp
+			La vostra forma unica di demenza si infiamma piu' facilmente se provocata in combattimento, ma non potete mai alzare la vostra Schivata sopra i tre."	// changed by wesp
 			"ShortDescription"	"Vantaggio: +1 alla demolizione."
 			"ShortPenaltyDescription"	"Penalita': Schivare al massimo 3."
 		}
@@ -1507,7 +1507,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Ben istruito"
-			"Description"	"Lei è stato molto privilegiato e ha ottenuto un'eccellente istruzione a tutto tondo.
+			"Description"	"Lei e' stato molto privilegiato e ha ottenuto un'eccellente istruzione a tutto tondo.
 			Hai un bonus in una varieta' di abilita', ma hai un temperamento mite e una volonta' debole. Non potrai mai aumentare Dominare e Intimidire oltre i tre."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Bonus in tutti i tratti della Conoscenza."	// changed by wesp
 			"ShortPenaltyDescription"	"Penalita': Dominare e intimidire un massimo di 3."
@@ -1528,7 +1528,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Affinita' per la magia"
 			"Description"	"Ti sono sempre piaciute le illusioni magiche, e hai anche fatto qualche trucco da bambino. Ora ti stupisci che la magia sia davvero reale.
-			Si può avanzare più facilmente nella Taumaturgia. D'altra parte si guadagna meno esperienza per tutto il resto."	// changed by wesp
+			Si puo' avanzare piu' facilmente nella Taumaturgia. D'altra parte si guadagna meno esperienza per tutto il resto."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Aumentare la Taumaturgia costa meno."
 			"ShortPenaltyDescription"	"Penalita': Meno esperienza acquisita."
 		}
@@ -1548,9 +1548,9 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Presentabile"
 			"Description"	"Il sangue di Nosferatu del tuo sire era piuttosto debole e la maledizione del sangue non ha preso troppo forte su di te.
-			Sei deformato solo dove non splende la luna, così ottieni un bonus di Carisma, ma è più difficile per te imparare la Disciplina Oscura del tuo clan."	// changed by wesp
+			Sei deformato solo dove non splende la luna, cosi' ottieni un bonus di Carisma, ma e' piu' difficile per te imparare la Disciplina Oscura del tuo clan."	// changed by wesp
 			"ShortDescription"		"Vantaggio: +1 a Carisma."
-			"ShortPenaltyDescription"	"Penalita': Aumentare l'Obfuscate costa di più."
+			"ShortPenaltyDescription"	"Penalita': Aumentare l'Obfuscate costa di piu'."
 		}
 
 		General
@@ -1608,9 +1608,9 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Dado occulto"
-			"Description"	"Chi avrebbe mai pensato che tutto questo potesse essere reale? Lei amava le fantasie oscure e si considerava un esperto di occulto. Ora che sei tra i Kindred, scopri che in realta' conosci alcune di queste cose e sei davvero entusiasta di saperne di più sul tuo nuovo stato di non-vita.
-			Guadagni un bonus per la borsa di studio e per l'esperienza, ma altri ti trovano sdegnoso, quindi il tuo carisma non può essere aumentato oltre i 3."	// changed by wesp
-			"ShortDescription"		"Vantaggio: +1 alla borsa di studio, più esperienza."
+			"Description"	"Chi avrebbe mai pensato che tutto questo potesse essere reale? Lei amava le fantasie oscure e si considerava un esperto di occulto. Ora che sei tra i Kindred, scopri che in realta' conosci alcune di queste cose e sei davvero entusiasta di saperne di piu' sul tuo nuovo stato di non-vita.
+			Guadagni un bonus per la borsa di studio e per l'esperienza, ma altri ti trovano sdegnoso, quindi il tuo carisma non puo' essere aumentato oltre i 3."	// changed by wesp
+			"ShortDescription"		"Vantaggio: +1 alla borsa di studio, piu' esperienza."
 			"ShortPenaltyDescription"	"Penalita': Carisma massimo di 3."
 		}
 
@@ -1629,7 +1629,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		{
 			"Name"		"Accademico"
 			"Description"	"Lei era un tipo accademico, come il suo sire di Brujah, all'altezza della vecchia immagine di Brujah del poeta-guerriero.
-			I tuoi attributi hanno una priorita' diversa: il mentale è il più importante, poi il sociale, seguito dal fisico."
+			I tuoi attributi hanno una priorita' diversa: il mentale e' il piu' importante, poi il sociale, seguito dal fisico."
 			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
 		}
@@ -1648,7 +1648,7 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Generalissimo"
-			"Description"	"Disciplina e ordine, tattica e guerra: questi sono i motivi per cui è entrato nell'esercito. Non solo si è inserito perfettamente, ma ha anche eccelso nell'esercito.
+			"Description"	"Disciplina e ordine, tattica e guerra: questi sono i motivi per cui e' entrato nell'esercito. Non solo si e' inserito perfettamente, ma ha anche eccelso nell'esercito.
 			Scambia l'ordine di priorita' con i tuoi attributi fisici, mentali e sociali."
 			"ShortDescription"		"Alternare le priorita' di partenza."
 			"ShortPenaltyDescription"	""
@@ -1668,8 +1668,8 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Ex-SWAT"	// changed by wesp
-			"Description"	"Durante il periodo in cui è stato nelle forze di polizia, ha sviluppato una notevole abilita' con le armi da fuoco. Tuttavia, ha lasciato le forze armate dopo aver ricevuto un infortunio invalidante mentre era in servizio.
-			Iniziate con un bonus all'abilita' con le armi da fuoco, ma la vostra destrezza non può essere aumentata al di sopra di uno."
+			"Description"	"Durante il periodo in cui e' stato nelle forze di polizia, ha sviluppato una notevole abilita' con le armi da fuoco. Tuttavia, ha lasciato le forze armate dopo aver ricevuto un infortunio invalidante mentre era in servizio.
+			Iniziate con un bonus all'abilita' con le armi da fuoco, ma la vostra destrezza non puo' essere aumentata al di sopra di uno."
 			"ShortDescription"		"Vantaggio: +2 alle armi da fuoco."
 			"ShortPenaltyDescription"	"Penalita': Destrezza massima di 1."
 		}
@@ -1688,8 +1688,8 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Guardone"	// changed by wesp
-			"Description"	"Non è colpa tua se sei nato carente nel campo dell'apparenza. Dato che non piaci a nessuno, i tuoi desideri sessuali insoddisfatti e repressi ti hanno trasformato in un piccolo pervertito.
-			Ora, nella tua vita, scopri che digerisci il vitae di un membro del sesso opposto in modo più efficiente, ma non puoi aumentare il tuo carisma al di sopra dei tre."	// changed by wesp
+			"Description"	"Non e' colpa tua se sei nato carente nel campo dell'apparenza. Dato che non piaci a nessuno, i tuoi desideri sessuali insoddisfatti e repressi ti hanno trasformato in un piccolo pervertito.
+			Ora, nella tua vita, scopri che digerisci il vitae di un membro del sesso opposto in modo piu' efficiente, ma non puoi aumentare il tuo carisma al di sopra dei tre."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Sangue extra dalle donne."
 			"ShortPenaltyDescription"	"Penalita': Carisma massimo di 3."
 		}
@@ -1709,8 +1709,8 @@ Mmmmmm si. Non hanno mai ricambiato il tuo interesse, ma, bhe, fottile. Nella mo
 		Text
 		{
 			"Name"		"Testa di pentola"
-			"Description"	"Gli scienziati dicono che fumare erba può rendere più stupidi. Questo può spiegare la tua terribile memoria, perché spesso dimentichi i nomi e altri dettagli. Tuttavia, hai un atteggiamento molto rilassato nei confronti della vita, o della non vita.
-			Si guadagna un bonus ai controlli di frenesia, ma non si può aumentare la propria intelligenza oltre i tre."	// changed by wesp
+			"Description"	"Gli scienziati dicono che fumare erba puo' rendere piu' stupidi. Questo puo' spiegare la tua terribile memoria, perche' spesso dimentichi i nomi e altri dettagli. Tuttavia, hai un atteggiamento molto rilassato nei confronti della vita, o della non vita.
+			Si guadagna un bonus ai controlli di frenesia, ma non si puo' aumentare la propria intelligenza oltre i tre."	// changed by wesp
 			"ShortDescription"		"Vantaggio: Meno probabilita' di frenesia."
 			"ShortPenaltyDescription"	"Penalita': Intelligenza massima di 3."
 		}

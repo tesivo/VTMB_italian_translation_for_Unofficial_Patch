@@ -1,5 +1,5 @@
 {	1	}{	Ehi, che diavolo e' questa merda?! Fatemi uscire, maledizione! La uccidero' quella pazza puttana!	}{	Ehi, che diavolo e' questa merda?! Fatemi uscire, maledizione! La uccidero' quella pazza puttana!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	2	}{	Senti, mia sorella e' una povera matta. Ti lascio andare se prometti ti dimenticare tutto.	}{	Senti, mia sorella e' una povera matta. Ti lascio andare se prometti ti dimenticare tutto.	}{	11	}{	Persuasion 6	}{		}{		}{		}{		}{		}{		}{		}{	La mia piccola è un po' come me. Vada e ce lo dimentichiamo tutti.	}
+{	2	}{	Senti, mia sorella e' una povera matta. Ti lascio andare se prometti ti dimenticare tutto.	}{	Senti, mia sorella e' una povera matta. Ti lascio andare se prometti ti dimenticare tutto.	}{	11	}{	Persuasion 6	}{		}{		}{		}{		}{		}{		}{		}{	La mia piccola e' un po' come me. Vada e ce lo dimentichiamo tutti.	}
 {	3	}{	Calmati. C'e' stato un malinteso.	}{	Calmati. C'e' stato un malinteso.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	4	}{	Tu non farai proprio niente.	}{	Tu non farai proprio niente.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	5	}{	Bla bla bla....	}{	Bla bla bla....	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -109,7 +109,7 @@
 {	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	111	}{	Ah, andiamo, ora - non volevo. I - io avrei dovuto capirlo che c'era qualcosa che non andava in quella schifosa. Senti, ti daro' dei soldi, tutto cio' che vuoi, solo... lasciami andare, okay? Ti prego non picchiarmi! Oh, cavolo, credo proprio di essermi cagato addosso.	}{	Ah, andiamo, ora - non volevo. I - io avrei dovuto capirlo che c'era qualcosa che non andava in quella schifosa. Senti, ti daro' dei soldi, tutto cio' che vuoi, solo... lasciami andare, okay? Ti prego non picchiarmi! Oh, cavolo, credo proprio di essermi cagato addosso.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	112	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	0	}{		}{	G.Mcfly_Leave = 1	}{		}{		}{		}{		}{		}{		}{	Andatevene e fate silenzio, o vi seguirò in giro per il mondo.	}
+{	112	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	0	}{		}{	G.Mcfly_Leave = 1	}{		}{		}{		}{		}{		}{		}{	Andatevene e fate silenzio, o vi seguiro' in giro per il mondo.	}
 {	113	}{	Dammi tutto cio' che hai e te ne andrai da qui senza un graffio.	}{	Dammi tutto cio' che hai e te ne andrai da qui senza un graffio.	}{	121	}{	G.Mcfly_Money == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	114	}{	Hmm.... Non ho ancora la garanzia che non parlerai... E io ho un po' di sete.	}{	Hmm.... Non ho ancora la garanzia che non parlerai... E io ho un po' di sete.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	115	}{	Forse potrei farmi un drink... Gia', una bella bevuta!	}{	Forse potrei farmi un drink... Gia', una bella bevuta!	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -119,7 +119,7 @@
 {	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	121	}{	Certo, certo tieni. Prendi - prenditi tutto! Ma ti prego non mi picchiare!	}{	Certo, certo tieni. Prendi - prenditi tutto! Ma ti prego non mi picchiare!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	pc.MoneyAdd( 50 ); G.Mcfly_Money = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	122	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	0	}{		}{	G.Mcfly_Leave = 1	}{		}{		}{		}{		}{		}{		}{	Andatevene e fate silenzio, o vi seguirò in giro per il mondo.	}
+{	122	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	Levati di torno. Di' una parola e ti trovero'. E ti pentirai di averlo fatto.	}{	0	}{		}{	G.Mcfly_Leave = 1	}{		}{		}{		}{		}{		}{		}{	Andatevene e fate silenzio, o vi seguiro' in giro per il mondo.	}
 {	123	}{	Hmm.... Non ho ancora la garanzia che non parlerai... E io ho un po' di sete.	}{	Hmm.... Non ho ancora la garanzia che non parlerai... E io ho un po' di sete.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	124	}{	Forse potrei farmi un drink... Gia', una bella bevuta!	}{	Forse potrei farmi un drink... Gia', una bella bevuta!	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

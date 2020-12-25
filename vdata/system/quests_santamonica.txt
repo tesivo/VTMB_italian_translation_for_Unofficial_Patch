@@ -336,7 +336,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4" // added by wesp
-			"Description"	"Con la riconciliazione delle sorelle, avete dato a Teresa i mezzi per liberare gli spiriti dalla Casa dell'Oceano, consegnando così la sfortunata moglie alla sua eterna ricompensa e il marito assassino alla sua eterna dannazione."
+			"Description"	"Con la riconciliazione delle sorelle, avete dato a Teresa i mezzi per liberare gli spiriti dalla Casa dell'Oceano, consegnando cosi' la sfortunata moglie alla sua eterna ricompensa e il marito assassino alla sua eterna dannazione."
 			"Type"		"success"
 		}
 
@@ -555,7 +555,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"11" // Killer
-			"Description"	"Lei è andato al molo per cercare l'omicidio menzionato sul giornale, ma non c'era più niente di visibile. Meglio tenere gli occhi aperti, però."
+			"Description"	"Lei e' andato al molo per cercare l'omicidio menzionato sul giornale, ma non c'era piu' niente di visibile. Meglio tenere gli occhi aperti, pero'."
 			"Type"		"incomplete"
 		}
 	}
@@ -728,7 +728,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"7" // added by wesp
-			"Description"	"Il magazzino si trova per lo più sul fondo del Pacifico, con alcuni pezzi sistemati ordinatamente in un prato a Pasadena. Fate rapporto al Principe LaCroix presso la Venture Tower in centro."
+			"Description"	"Il magazzino si trova per lo piu' sul fondo del Pacifico, con alcuni pezzi sistemati ordinatamente in un prato a Pasadena. Fate rapporto al Principe LaCroix presso la Venture Tower in centro."
 			"Type"		"incomplete"
 		}
 
@@ -1082,7 +1082,7 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Hai salvato la ragazza nella clinica di Santa Monica donandole il tuo sangue. Dovresti prenderti cura di lei più tardi, visto che ora è il tuo ghoul."
+			"Description"	"Hai salvato la ragazza nella clinica di Santa Monica donandole il tuo sangue. Dovresti prenderti cura di lei piu' tardi, visto che ora e' il tuo ghoul."
 			"Type"		"success"
 			"AwardXP"	"Heather01"
 		}
@@ -1090,7 +1090,7 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"La ragazza della clinica di Santa Monica è morta ed è tutta colpa tua."
+			"Description"	"La ragazza della clinica di Santa Monica e' morta ed e' tutta colpa tua."
 			"Type"		"failure"
 		}
 	}
@@ -1110,7 +1110,7 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Lei ha sfruttato il sangue debole e l'ha mandato in missione suicida. È soddisfatto ora?"
+			"Description"	"Lei ha sfruttato il sangue debole e l'ha mandato in missione suicida. e' soddisfatto ora?"
 			"Type"		"success"
 			"AwardXP"	"Copper01"
 		}

@@ -22,7 +22,7 @@ TerminalDefinition
 		
 	Email
 	{
-		"subject"	"PERICOLO! È grande, sapete!!! 111"
+		"subject"	"PERICOLO! e' grande, sapete!!! 111"
 		"sender"	"HungLow@trojanbotnet.vtm"
 		"body"		"ALLUGA IL TUO PENE! Le ragazze ti correranno dietro! 1-800-555-STICK!"
 		"autodelete"	"1"
@@ -169,7 +169,7 @@ Jeanette "
 	{
 	"subject"	"Tommy Flayton"
 	"sender"	"LaCroix"
-	"body"	"Ho letto di recente il necrologio di Mr. Flayton sul Sun, e devo dirvi che sono estremamente triste per la sua prematura scomparsa. Ricordo chiaramente di averle chiesto una recensione mortale, non un recensore morto. Mi deludi, neonato. Ovviamente, non ci si può fidare di te nemmeno per i compiti più umili. - SL"
+	"body"	"Ho letto di recente il necrologio di Mr. Flayton sul Sun, e devo dirvi che sono estremamente triste per la sua prematura scomparsa. Ricordo chiaramente di averle chiesto una recensione mortale, non un recensore morto. Mi deludi, neonato. Ovviamente, non ci si puo' fidare di te nemmeno per i compiti piu' umili. - SL"
 	"dependency"	"G.Tommy_Review == 2 and G.Patch_Plus == 1"
 	"runscript"	"G.Prince_Reaction = G.Prince_Reaction -1"
 	}
@@ -258,7 +258,7 @@ Jeanette "
 	{
 		"subject"	"Biblioteca"
 		"sender"	"beckett@legend.vtm"
-		"body"	"Ciao giovane, LaCroix ti ha elogiato per la tua intraprendenza, quindi forse potresti aiutarmi con una questione importante. Un collega Gangrel, Scott, che stava facendo delle ricerche per me alla biblioteca pubblica, afferma di aver visto un Sabbat Kindred lì. Dato che in questo momento sono preoccupato, per favore incontratelo al mio posto al vecchio negozio di fumo di Santa Monica. Avra' i dettagli. Scott ha insistito molto sul fatto che c'è qualcosa in ballo. E non vorremmo che succedesse qualcosa di brutto a tutti quei preziosi libri, vero? - Beckett"
+		"body"	"Ciao giovane, LaCroix ti ha elogiato per la tua intraprendenza, quindi forse potresti aiutarmi con una questione importante. Un collega Gangrel, Scott, che stava facendo delle ricerche per me alla biblioteca pubblica, afferma di aver visto un Sabbat Kindred li'. Dato che in questo momento sono preoccupato, per favore incontratelo al mio posto al vecchio negozio di fumo di Santa Monica. Avra' i dettagli. Scott ha insistito molto sul fatto che c'e' qualcosa in ballo. E non vorremmo che succedesse qualcosa di brutto a tutti quei preziosi libri, vero? - Beckett"
 		"dependency"	"G.Library_Ready == 1 and G.Patch_Plus == 1"
 		"runscript"	"librarySetQuest()"
 	}
@@ -392,7 +392,7 @@ VV"
 	{
 		"subject"	"Stai cercando un appuntamento?"
 		"sender"	"gary@schrecknet.vtm"
-		"body"		"Ti senti solo, capo? Allora forse l'invio di un Calice Odioso schiacciato ti impedira' di sguazzare nell'autocommiserazione. Barabus ne ha avvistato uno al Sindacato Fu. Come ricompensa affiggerò un poster nel vostro rifugio, di Claira Killenbach e della sua bevanda preferita."
+		"body"		"Ti senti solo, capo? Allora forse l'invio di un Calice Odioso schiacciato ti impedira' di sguazzare nell'autocommiserazione. Barabus ne ha avvistato uno al Sindacato Fu. Come ricompensa affiggero' un poster nel vostro rifugio, di Claira Killenbach e della sua bevanda preferita."
 		"dependency"	"G.Gary_Tawni == 1 and G.Gary_Cross == 0 and G.PP == 1"
 		"runscript"	"garySetQuestSeven()"
 	}

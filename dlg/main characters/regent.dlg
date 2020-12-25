@@ -387,12 +387,12 @@
 {	387	}{	Dammi il denaro, baby.	}{	Dammi il denaro, baby.	}{	401	}{	not IsClan(pc,"Tremere") and pc.CalcFeat("haggle") < 4	}{	pc.MoneyAdd( 250 )	}{		}{		}{		}{		}{		}{		}{	Il verde e' il mio colore porta fortuna.	}
 {	388	}{	Dammi il denaro, baby.	}{	Dammi il denaro, baby.	}{	401	}{	not IsClan(pc,"Tremere") and pc.CalcFeat("haggle") == 4	}{	pc.MoneyAdd( 300 )	}{		}{		}{		}{		}{		}{		}{	Il verde e' il mio colore porta fortuna.	}
 {	389	}{	Dammi il denaro, baby.	}{	Dammi il denaro, baby.	}{	401	}{	not IsClan(pc,"Tremere") and pc.CalcFeat("haggle") > 4	}{	pc.MoneyAdd( 350 )	}{		}{		}{		}{		}{		}{		}{	Il verde e' il mio colore porta fortuna.	}
-{	390	}{	Prendero' l'oggetto di cui stai parlando. Va bene con il mio clan.	}{	Prendero' l'oggetto di cui stai parlando. Va bene con il mio clan.	}{	391	}{	not IsClan(pc,"Tremere")	}{		}{		}{		}{		}{		}{		}{		}{	Prenderò il prezioso talismano.	}
+{	390	}{	Prendero' l'oggetto di cui stai parlando. Va bene con il mio clan.	}{	Prendero' l'oggetto di cui stai parlando. Va bene con il mio clan.	}{	391	}{	not IsClan(pc,"Tremere")	}{		}{		}{		}{		}{		}{		}{		}{	Prendero' il prezioso talismano.	}
 {	391	}{	Saggia scelta, neonato. La vera potenza giace non nella ricchezza ma nelle cose che ti fornisce. Spero che questo oggetto ti serva.	}{	Saggia scelta, neonato. La vera potenza giace non nella ricchezza ma nelle cose che ti fornisce. Spero che questo oggetto ti serva.	}{	#	}{		}{	pc.GiveItem("item_p_occult_blood_buff")	}{		}{		}{		}{		}{		}{		}{		}
 {	392	}{	Grazie. Ho un altro paio di domande.	}{	Grazie. Ho un altro paio di domande.	}{	141	}{	not IsClan(pc,"Tremere")	}{		}{		}{		}{		}{		}{		}{		}{	Posso far mia la tua materia grigia?	}
 {	393	}{	C'era un'altra cosa che volevo.	}{	C'era un'altra cosa che volevo.	}{	41	}{	not IsClan(pc,"Tremere")	}{		}{		}{		}{		}{		}{		}{		}{	Ancora una cosa...	}
 {	394	}{	Anche io. Ci vediamo.	}{	Anche io. Ci vediamo.	}{	0	}{	not IsClan(pc,"Tremere")	}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
-{	395	}{	Lo userò per il bene del clan.	}{	Lo userò per il bene del clan.	}{	621	}{	IsClan(pc,"Tremere")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	395	}{	Lo usero' per il bene del clan.	}{	Lo usero' per il bene del clan.	}{	621	}{	IsClan(pc,"Tremere")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	396	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	397	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	398	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -540,7 +540,7 @@
 {	540	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	541	}{	[sollevato]Ah, vedo che hai imparato bene. Nonostante le indiscrezioni del tuo signore, stai provando di essere un bene per il clan. Ti lodo e ringrazio, neonato.	}{	[sollevato]Ah, vedo che hai imparato bene. Nonostante le indiscrezioni del tuo signore, stai provando di essere un bene per il clan. Ti lodo e ringrazio, neonata.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	542	}{	Nessun problema. Ora cosa dovrei fare?	}{	Nessun problema. Ora cosa dovrei fare?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	543	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	543	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse piu' Hollywood.	}
 {	544	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	545	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	546	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -550,7 +550,7 @@
 {	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	551	}{	Apprezzo la tua discrezione in questa questione, neonato.	}{	Apprezzo la tua discrezione in questa questione, neonata.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	552	}{	Bene da sentire. Ora, cosa devo fare?	}{	Bene da sentire. Ora, cosa devo fare?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{	Cosa devo fare?	}
-{	553	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	553	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse piu' Hollywood.	}
 {	554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	556	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -570,7 +570,7 @@
 {	570	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	571	}{	E' un gioco pericoloso quello a cui stai giocando, neonato. Confido che farai la giusta decisione. Addio.	}{	E' un gioco pericoloso quello a cui stai giocando, neonata. Confido che farai la giusta decisione. Addio.	}{	#	}{		}{	G.Regent_QuestGargoyle = 4	}{		}{		}{		}{		}{		}{		}{		}
 {	572	}{	Come posso combattere il gargoyle?	}{	Come posso combattere il gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{	Come distruggo il demone?	}
-{	573	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	573	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse piu' Hollywood.	}
 {	574	}{	Addio, Max.	}{	Addio, Max.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Addio, re-mago.	}
 {	575	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	576	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -590,7 +590,7 @@
 {	590	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	591	}{	Buona fortuna, giovane. Quando avrai completato la distruzione del Gargoyle, ritorna e ti daro' un'appropriata ricompensa.	}{	Buona fortuna, giovane. Quando avrai completato la distruzione del Gargoyle, ritorna e ti daro' un'appropriata ricompensa.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	592	}{	Ancora una domanda, come combatto il gargoyle?	}{	Ancora una domanda, come combatto il gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{		}{		}{		}{		}{		}{		}{		}{	Richiesta piu' conoscenza. Come distruggo il demone?	}
-{	593	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse più Hollywood.	}
+{	593	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	In realta' ho gia' risolto il problema con il Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	Ho fatto in modo che il Golem di sangue non infestasse piu' Hollywood.	}
 {	594	}{	Aspetta. C'era qualcos'altro di cui avevo bisogno.	}{	Aspetta. C'era qualcos'altro di cui avevo bisogno.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ancora una cosa...	}
 {	595	}{	Lo faro'. Ci vediamo.	}{	Lo faro'. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
 {	596	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -613,8 +613,8 @@
 {	613	}{	Ho fatto cio' che sentivo piu' giusto.	}{	Ho fatto cio' che sentivo piu' giusto.	}{	711	}{	G.Patch_Plus == 0 and G.Isaac_Gargoyle < 4	}{	pc.SetQuest("Gargoyle",9); pc.MoneyAdd( 500 )	}{	}{	}{	}{	}{	}{	}{	Questo compito meritava discrezione.	}
 {	614	}{	Ho fatto cio' che sentivo piu' giusto.	}{	Ho fatto cio' che sentivo piu' giusto.	}{	711	}{	G.Patch_Plus == 1 and G.Isaac_Gargoyle == 4 and not pc.HasItem("item_g_gargoyle_book")	}{	pc.SetQuest("Gargoyle",5); pc.GiveItem("item_p_occult_dexterity")	}{	}{	}{	}{	}{	}{	}{	Questo compito meritava discrezione.	}
 {	615	}{	Ho fatto cio' che sentivo piu' giusto.	}{	Ho fatto cio' che sentivo piu' giusto.	}{	711	}{	G.Patch_Plus == 1 and G.Isaac_Gargoyle < 4 and not pc.HasItem("item_g_gargoyle_book")	}{	pc.SetQuest("Gargoyle",9); pc.GiveItem("item_p_occult_dexterity")	}{	}{	}{	}{	}{	}{	}{	Questo compito meritava discrezione.	}
-{	616	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro può tornare nella vostra biblioteca.	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro può tornare nella vostra biblioteca.	}{	711	}{	G.Patch_Plus == 1 and G.Isaac_Gargoyle == 4 and pc.HasItem("item_g_gargoyle_book")	}{	pc.SetQuest("Gargoyle",5); pc.GiveItem("item_p_occult_dexterity"); pc.RemoveItem("item_g_gargoyle_book")	}{	}{	}{	}{	}{	}{	}{	Questo compito meritava discrezione. E ho restituito il libro in tempo.	}
-{	617	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro può tornare nella vostra biblioteca.	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro può tornare nella vostra biblioteca.	}{	711	}{	G.Patch_Plus == 1 and G.Isaac_Gargoyle < 4 and pc.HasItem("item_g_gargoyle_book")	}{	pc.SetQuest("Gargoyle",9); pc.GiveItem("item_p_occult_dexterity"); pc.RemoveItem("item_g_gargoyle_book")	}{	}{	}{	}{	}{	}{	}{	Questo compito meritava discrezione. E ho restituito il libro in tempo.	}
+{	616	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro puo' tornare nella vostra biblioteca.	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro puo' tornare nella vostra biblioteca.	}{	711	}{	G.Patch_Plus == 1 and G.Isaac_Gargoyle == 4 and pc.HasItem("item_g_gargoyle_book")	}{	pc.SetQuest("Gargoyle",5); pc.GiveItem("item_p_occult_dexterity"); pc.RemoveItem("item_g_gargoyle_book")	}{	}{	}{	}{	}{	}{	}{	Questo compito meritava discrezione. E ho restituito il libro in tempo.	}
+{	617	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro puo' tornare nella vostra biblioteca.	}{	Ho fatto cio' che sentivo piu' giusto. E questo libro puo' tornare nella vostra biblioteca.	}{	711	}{	G.Patch_Plus == 1 and G.Isaac_Gargoyle < 4 and pc.HasItem("item_g_gargoyle_book")	}{	pc.SetQuest("Gargoyle",9); pc.GiveItem("item_p_occult_dexterity"); pc.RemoveItem("item_g_gargoyle_book")	}{	}{	}{	}{	}{	}{	}{	Questo compito meritava discrezione. E ho restituito il libro in tempo.	}
 {	618	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	619	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	620	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -850,7 +850,7 @@
 {	850	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	851	}{	Saluti, neonato. Ho saputo delle tue recenti... difficolta' con LaCroix. Non posso dire di essere meravigliato. L'amore per il potere porta sempre al tradimento, ma sono contento che sei sopravvissuto.	}{	Saluti, neonata. Ho saputo delle tue recenti... difficolta' con LaCroix. Non posso dire di essere meravigliato. L'amore per il potere porta sempre al tradimento, ma sono contento che sei sopravvissuta.	}{	#	}{		}{	G.Regent_Ending = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	852	}{	Grazie, Max. Ascolta... il principe ha un doppio accordo con i Kuei-jin.	}{	Grazie, Max. Ascolta... il principe ha un doppio accordo con i Kuei-jin.	}{	861	}{	G.Story_State == 120	}{		}{		}{		}{		}{		}{		}{		}{	Il pagliaccio divide il suo lotto con i mangia-vite Orientali.	}
-{	853	}{	Grazie, Max. Ora è il momento di farla finita...	}{	Grazie, Max. Ora è il momento di farla finita...	}{	0	}{	G.Story_State != 120	}{	}{	}{	}{	}{	}{	}{	}{	Il tempo è scaduto, mi divertirò un po'.	}
+{	853	}{	Grazie, Max. Ora e' il momento di farla finita...	}{	Grazie, Max. Ora e' il momento di farla finita...	}{	0	}{	G.Story_State != 120	}{	}{	}{	}{	}{	}{	}{	}{	Il tempo e' scaduto, mi divertiro' un po'.	}
 {	854	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	855	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	856	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

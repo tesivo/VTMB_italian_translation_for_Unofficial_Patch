@@ -10,7 +10,7 @@
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	11	}{	[Click]...	}{	[Click]...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Gimble_Vandal == 0 and G.Gimble_Leave == 0	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	13	}{	Non c'è nessuno in casa?	}{	Non c'è nessuno in casa?	}{	0	}{	G.Gimble_Vandal == 1 or G.Gimble_Leave == 1	}{	G.Gimble_Open = 1; G.Phone_Call = 1; G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Alone at home...	}
+{	13	}{	Non c'e' nessuno in casa?	}{	Non c'e' nessuno in casa?	}{	0	}{	G.Gimble_Vandal == 1 or G.Gimble_Leave == 1	}{	G.Gimble_Open = 1; G.Phone_Call = 1; G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Alone at home...	}
 {	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

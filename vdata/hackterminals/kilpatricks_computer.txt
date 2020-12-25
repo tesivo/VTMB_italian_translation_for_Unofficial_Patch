@@ -38,7 +38,7 @@ TerminalDefinition
 			"name"		"Muddy"			// this is what the player must type in to trigger this function. (16 characters)
 			"description"	"Informazioni su Muddy"		// this is a description of this function  (128 characters)
 			"runtext"	"Non voglio sapere perche' lo chiamano Muddy....
-... e non lo saprò mai, perché ora è morto!"
+... e non lo sapro' mai, perche' ora e' morto!"
 									// this text is printed when the player triggers this function.  (128 characters)
 		"dependency"		"G.Muddy_Dead == 1"
 		}

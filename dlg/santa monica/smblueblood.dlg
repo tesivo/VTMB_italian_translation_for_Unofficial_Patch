@@ -27,7 +27,7 @@
 {	27	}{	Vediamoci nel vicolo.	}{	Vediamoci nel vicolo.	}{	61	}{	Dominate 1	}{	G.Smblue_Dominated = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	28	}{	Vediamoci nel vicolo.	}{	Vediamoci nel vicolo.	}{	61	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Smblue_Dominated = 1; dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
 {	29	}{	Volete solo ammirarmi in privato.	}{	Vuoi solo ammirarmi in privato.	}{	61	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Smblue_Dominated = 1; G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	Me ne vado.	}{	Me ne vado.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	30	}{	Me ne vado.	}{	Me ne vado.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	31	}{	Niente... niente. Sto solo aspettando un amico, che smonta. E'... un ufficiale di polizia - uno della vecchia guardia. Dovrebbe portare il suo cane... e' un Rottweiler. Sono magnifici cani d'attacco.	}{	Niente... niente. Sto solo aspettando un amico, che smonta. E'... un ufficiale di polizia - uno della vecchia guardia. Dovrebbe portare il suo cane... e' un Rottweiler. Sono magnifici cani d'attacco.	}{	#	}{	Whisper("Lying"); npc.SetDisposition("Fear", 1)	}{	G.Smblue_Plans = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Mi dispiace molto per il fastidio, mi hanno rubato il portafogli e ho bisogno di prendere un taxi.	}{	Mi dispiace molto per il fastidio, mi hanno rubato il portafogli e ho bisogno di prendere un taxi.	}{	51	}{	Persuasion 4 & G.Smblue_Persuade == 0	}{		}{		}{		}{		}{		}{		}{		}{	Credo di aver smarrito il denaro della mia sacca. Puoi aiutarmi a rimpinguarla?	}
 {	33	}{	Posso convincerti ad aiutarmi? Mi hanno rubato il portafogli.	}{	Posso convincerti ad aiutarmi? Mi hanno rubato il portafogli.	}{	41	}{	Persuasion -4	}{		}{		}{		}{		}{		}{		}{		}{	Posso convincerti a fornirmi i fondi che recentemente mi hanno rubato?	}
@@ -59,8 +59,8 @@
 {	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	61	}{	Un impulso irrefrenabile mi spinge a camminare giu' per quel... sentiero oscuro e misterioso laggiu'. Ti va di unirti a me?	}{	Un impulso irrefrenabile mi spinge a camminare giu' per quel... sentiero oscuro e misterioso laggiu'. Ti va di unirti a me?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Ci vediamo lì.	}{	Ci vediamo lì.	}{	0	}{	G.Smblue_Dominated == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ci vediamo lì, mio libidinoso insetto d'amore.	}
-{	63	}{	Non c'è bisogno di andare così lontano.	}{	Non c'è bisogno di andare così lontano.	}{	0	}{	G.Smblue_Seduced == 1	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Possiamo unirci a noi qui.	}
+{	62	}{	Ci vediamo li'.	}{	Ci vediamo li'.	}{	0	}{	G.Smblue_Dominated == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ci vediamo li', mio libidinoso insetto d'amore.	}
+{	63	}{	Non c'e' bisogno di andare cosi' lontano.	}{	Non c'e' bisogno di andare cosi' lontano.	}{	0	}{	G.Smblue_Seduced == 1	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Possiamo unirci a noi qui.	}
 {	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

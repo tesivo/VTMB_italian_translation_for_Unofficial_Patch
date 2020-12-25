@@ -42,7 +42,7 @@
 {	42	}{	Dammi l'Astrolite.	}{	Dammi l'Astrolite.	}{	71	}{	Dominate 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	43	}{	Non importa. Dammi la luce astrale.	}{	Non importa. Dammi la luce astrale.	}{	71	}{	Dementation 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	44	}{	Dammi l'Astrolite o dovro' gettare i tuoi coglioni nel Pacifico.	}{	Dammi l'Astrolite o dovro' gettare i tuoi coglioni nel Pacifico.	}{	71	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
-{	45	}{	L'Astrolite è perfetta per me.	}{	L'Astrolite è perfetta per me.	}{	71	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	L'Astrolite e' perfetta per me.	}{	L'Astrolite e' perfetta per me.	}{	71	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	46	}{	Immagino che potrei riuscire a trovare un altro fornitore, ma ho sentito che tui sei il migliore.	}{	Immagino che potrei riuscire a trovare un altro fornitore, ma ho sentito che tui sei il migliore.	}{	81	}{	Persuasion 3	}{		}{		}{		}{		}{		}{		}{		}{	Mi e' stato detto che tu hai cio' che cerco, ma forse si sbagliavano.	}
 {	47	}{	Ho sentito che ce l'hai.	}{	Ho sentito che ce l'hai.	}{	91	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	48	}{	Ho sentito il tuo nome nel vento di mezzanotte.	}{	Ho sentito il tuo nome nel vento di mezzanotte.	}{	261	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}

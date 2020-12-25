@@ -1,4 +1,4 @@
-{	1	}{	[Fisicamente forte e intimidatorio, un individuo molto robusto. Ora insolitamente vertiginoso. Knox ha ceduto all'eccitazione infantile di fronte al nuovo mondo che si è improvvisamente dispiegato davanti a lui pochi mesi fa, quando un vampiro è venuto da lui e gli ha dato il benvenuto nel mondo degli immortali].	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	[Fisicamente forte e intimidatorio, un individuo molto robusto. Ora insolitamente vertiginoso. Knox ha ceduto all'eccitazione infantile di fronte al nuovo mondo che si e' improvvisamente dispiegato davanti a lui pochi mesi fa, quando un vampiro e' venuto da lui e gli ha dato il benvenuto nel mondo degli immortali].	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	3	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	4	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -28,7 +28,7 @@
 {	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	31	}{	[Ha notato qualcosa, si è concentrato sull'altra persona]Ah cavolo! Aspetta. Ripeti.	}{	[Ha notato qualcosa, si è concentrata sull'altra persona]Ah cavolo! Aspetta. Ripeti.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	[Ha notato qualcosa, si e' concentrato sull'altra persona]Ah cavolo! Aspetta. Ripeti.	}{	[Ha notato qualcosa, si e' concentrata sull'altra persona]Ah cavolo! Aspetta. Ripeti.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Okay. Sto cercando una persona.	}{	Ti conosco?	}{	611	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono stato io. E' stata una delle altre voci nella mia testa.	}
 {	33	}{	Forse riusciresti a sentirmi se tirassi la tua testa fuori dal tuo culo.	}{	Forse riusciresti a sentirmi se tirassi la tua testa fuori dal tuo culo.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	La stupidita' del tuo cervello e' sbalorditiva.	}
 {	34	}{	No.	}{	No.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche', ho detto qualcosa?	}
@@ -60,7 +60,7 @@
 {	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	61	}{	Ehi io lavoro per un vampiro! Non so quanto potrei dirti ma - oh cazzo cazzo! - sarebbe magnifico poter parlare con qualcun'altro "da dentro", capisci cosa intendo? Hehe, oh cavolo!	}{	Ehi io lavoro per un vampiro! Non so quanto potrei dirti ma - oh cazzo cazzo! - sarebbe magnifico poter parlare con qualcun'altro "da dentro", capisci cosa intendo? Hehe, oh cavolo!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	62	}{	Si', potrei aver capito cosa intendi.	}{	Si', potrei aver capito cosa intendi.	}{	101	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	63	}{	No, non lo faccio perché non sono un vampiro. E ora vado via.	}{	No, non lo faccio perché non sono un vampiro. E ora vado via.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	No, e non posso sentirti perché me ne sono gia' andato.	}
+{	63	}{	No, non lo faccio perche' non sono un vampiro. E ora vado via.	}{	No, non lo faccio perche' non sono un vampiro. E ora vado via.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	No, e non posso sentirti perche' me ne sono gia' andato.	}
 {	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	65	}{	Magnifici sono i quadri astratti della mia mente.	}{	Magnifici sono i quadri astratti della mia mente.	}{	551	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -78,20 +78,20 @@
 {	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	81	}{	Oh, questo è un bene. E allora? Ora torni a parlare con me per cosa? Co... per dirmi che non sei davvero, DAVVERO, un vampiro? Oh, cavolo!	}{	Oh, questo è un bene. E allora? Ora torni a parlare con me per cosa? Co... per dirmi che non sei davvero, DAVVERO, un vampiro? Oh, cavolo!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Oh, questo e' un bene. E allora? Ora torni a parlare con me per cosa? Co... per dirmi che non sei davvero, DAVVERO, un vampiro? Oh, cavolo!	}{	Oh, questo e' un bene. E allora? Ora torni a parlare con me per cosa? Co... per dirmi che non sei davvero, DAVVERO, un vampiro? Oh, cavolo!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	83	}{	Va bene, senti, abbassa la voce e parliamo.	}{	Va bene, senti, abbassa la voce e parliamo.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Facciamo due parole, ragazzo d'oro.	}
 {	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	85	}{	No, sono tornato per chiederti il tuo nome.	}{	No, sono tornato per chiederti il tuo nome.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse non sei così pazzo, dopotutto. Addio.	}
-{	86	}{	Proprio così.	}{	Proprio così.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vero.	}
+{	85	}{	No, sono tornato per chiederti il tuo nome.	}{	No, sono tornato per chiederti il tuo nome.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse non sei cosi' pazzo, dopotutto. Addio.	}
+{	86	}{	Proprio cosi'.	}{	Proprio cosi'.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vero.	}
 {	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	91	}{	Perché dovrei dirtelo? Non sei sincero con me.	}{	Perché dovrei dirtelo? Non sei sincero con me.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Perche' dovrei dirtelo? Non sei sincero con me.	}{	Perche' dovrei dirtelo? Non sei sincero con me.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	93	}{	Ok, parliamo. Cerca solo di abbassare la voce, va bene?	}{	Ok, parliamo. Cerca solo di abbassare la voce, va bene?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Facciamo due parole, ragazzo d'oro.	}
-{	94	}{	Bene. Me ne vado.	}{	Bene. Me ne vado.	}{	0	}{	}{	G.Knox_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	94	}{	Bene. Me ne vado.	}{	Bene. Me ne vado.	}{	0	}{	}{	G.Knox_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -110,7 +110,7 @@
 {	110	}{	Il piacere e' tutto tuo. Lasciami stare, cretino.	}{	Il piacere e' tutto tuo. Lasciami stare, cretino.	}{	691	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	111	}{	Sono un ghoul. Non sapevo niente di questa roba finche' un paio di mesi fa... e' apparso questo tizio e, beh, improvvisamente - bum! - wo!! - vampiri autentici proprio davanti ai miei occhi. Come una bomba nella mia fottuta testa.	}{	Sono un ghoul. Non sapevo niente di questa roba finche' un paio di mesi fa... e' apparso questo tizio e, beh, improvvisamente - bum! - wo!! - vampiri autentici proprio davanti ai miei occhi. Come una bomba nella mia fottuta testa.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Ghoul = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	112	}{	Hai detto di essere un "ghoul"? Cos'e'?	}{	Hai detto di essere un "ghoul"? Cos'e'?	}{	131	}{	G.Knox_Questions == 0	}{		}{		}{		}{		}{		}{		}{		}{	Ghoulish vuol dire orrendo... aspetta. Cos'e' un ghoul?	}
-{	113	}{	Non è stato difficile entrare nel mondo dei vampiri?	}{	Non è stato difficile entrare nel mondo dei vampiri?	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ti ha fatto male entrare nel nostro mondo?	}
+{	113	}{	Non e' stato difficile entrare nel mondo dei vampiri?	}{	Non e' stato difficile entrare nel mondo dei vampiri?	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ti ha fatto male entrare nel nostro mondo?	}
 {	114	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	115	}{	Fico. Ho un altro paio di domande.	}{	Fico. Ho un altro paio di domande.	}{	541	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2 and G.Knox_Knowledge < 5	}{		}{		}{		}{		}{		}{		}{		}{	Posso estrarre risposte dal tuo cervello d'oro?	}
 {	116	}{	Me ne vado, Knox. Ci vediamo.	}{	Me ne vado, Knox. Ci vediamo.	}{	0	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2	}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
@@ -180,7 +180,7 @@
 {	180	}{	Devo andarmene. A piu' tardi.	}{	Devo andarmene. A piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Cosa dici? Non riesco a sentirti perche' sono gia' andato.	}
 {	181	}{	E' assurdo, appare come un fantasma. La prima volta che e' apparso - bum! - stava per venirmi un infarto. Cavolo! Soprattutto per come e' fatto, bleah.	}{	E' assurdo, appare come un fantasma. La prima volta che e' apparso - bum! - stava per venirmi un infarto. Cavolo! Soprattutto per come e' fatto, bleah.	}{	#	}{		}{	G.Knox_Appear = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	182	}{	(Auto-Link)	}{	(Auto-Link)	}{	191	}{	IsClan(pc,"Nosferatu") and G.Knox_Questions == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	183	}{	La prima volta? Allora perché ha scelto te?	}{	La prima volta? Allora perché ha scelto te?	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perché il cattivo ti ha scelto quando è apparso per la prima volta?	}
+{	183	}{	La prima volta? Allora perche' ha scelto te?	}{	La prima volta? Allora perche' ha scelto te?	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perche' il cattivo ti ha scelto quando e' apparso per la prima volta?	}
 {	184	}{	Cosa fai per Bertram?	}{	Cosa fai per Bertram?	}{	211	}{	G.Knox_Quest == 0 and G.Knox_Questions == 0	}{		}{		}{		}{		}{		}{		}{		}{	Quali orripilanti cose gestisci per lui?	}
 {	185	}{	Gia'. Un'altra domanda...	}{	Gia'. Un'altra domanda...	}{	541	}{	G.Knox_Questions == 1 and G.Knox_Knowledge < 5	}{		}{		}{		}{		}{		}{		}{		}{	Ho altre domande che mi esplodono nel cervello.	}
 {	186	}{	Grazie per le informazioni. Ora me ne vado.	}{	Grazie per le informazioni. Ora me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
@@ -198,7 +198,7 @@
 {	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	201	}{	Bertram dice che ha bisogno di qualcuno che faccia alcune cose. Oh, cavolo, era da un po' che mi guardava lavorare come cacciatore di taglie - bam! Oh cavolo, che figata! È come una promozione di lavoro che solo a me piace vivere per sempre e cose del genere.	}{	Bertram dice che ha bisogno di qualcuno che faccia alcune cose. Oh, cavolo, era da un po' che mi guardava lavorare come cacciatore di taglie - bam! Oh cavolo, che figata! È come una promozione di lavoro che solo a me piace vivere per sempre e cose del genere.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	Bertram dice che ha bisogno di qualcuno che faccia alcune cose. Oh, cavolo, era da un po' che mi guardava lavorare come cacciatore di taglie - bam! Oh cavolo, che figata! e' come una promozione di lavoro che solo a me piace vivere per sempre e cose del genere.	}{	Bertram dice che ha bisogno di qualcuno che faccia alcune cose. Oh, cavolo, era da un po' che mi guardava lavorare come cacciatore di taglie - bam! Oh cavolo, che figata! e' come una promozione di lavoro che solo a me piace vivere per sempre e cose del genere.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Puoi dirmi cosa ti fa fare?	}{	Puoi dirmi cosa ti fa fare?	}{	211	}{	G.Knox_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	Quali cose orribili stai facendo per lui?	}
 {	203	}{	Fico. Puoi rispondere ad alcune altre domande?	}{	Fico. Puoi rispondere ad alcune altre domande?	}{	541	}{	G.Knox_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ho altre domande che mi fanno scoppiare il cervello...	}
 {	204	}{	Che figata. Ora devo andare. A dopo.	}{	Che figata. Ora devo andare. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono gia' andato via.	}
@@ -309,7 +309,7 @@
 {	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	310	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	311	}{	Oh, diavolo! Arthur? Dannazione, amico. Mi sento male a lasciarlo nella merda, ma non posso tornare a caccia di taglie.	}{	Oh, diavolo! Arthur? Dannazione, amico. Mi sento male a lasciarlo nella merda, ma non posso tornare a caccia di taglie.	}{	#	}{	}{	G.Arthur_Knoxout = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	312	}{	Perché?	}{	Perché?	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	E la ragione sarebbe?	}
+{	312	}{	Perche'?	}{	Perche'?	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	E la ragione sarebbe?	}
 {	313	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	314	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	315	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -329,16 +329,16 @@
 {	329	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	331	}{	No. Il mio nuovo capo mi ha incastrato.	}{	No. Il mio nuovo capo mi ha incastrato.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	332	}{	Hai detto che sei un "ghoul"? Che cos'è?	}{	Hai detto che sei un "ghoul"? Che cos'è?	}{	131	}{	G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	Il ghoulish è come il ghoulish... aspetta. Cos'è un ghoul?	}
+{	332	}{	Hai detto che sei un "ghoul"? Che cos'e'?	}{	Hai detto che sei un "ghoul"? Che cos'e'?	}{	131	}{	G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	Il ghoulish e' come il ghoulish... aspetta. Cos'e' un ghoul?	}
 {	333	}{	Fico. Ho ancora un paio di domande.	}{	Fico. Ho ancora un paio di domande.	}{	541	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2 and G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	Posso trarre risposte dalla tua materia grigia e dorata?	}
-{	334	}{	Me ne vado, Knox. Ci vediamo.	}{	Me ne vado, Knox. Ci vediamo.	}{	0	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	334	}{	Me ne vado, Knox. Ci vediamo.	}{	Me ne vado, Knox. Ci vediamo.	}{	0	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	335	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	336	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	337	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	341	}{	Ah, andiamo. Immaginate che io stia dando la caccia a qualche sfigato che ha saltato la cauzione con un'accusa di rapina a mano armata e all'improvviso salta fuori un affare da vampiri. Voglio dire, cosa dovrei fare? Dire a un vampiro di incazzarsi perché devo beccare Johnny Hubcapper?	}{	Ah, andiamo. Immaginate che io stia dando la caccia a qualche sfigato che ha saltato la cauzione con un'accusa di rapina a mano armata e all'improvviso salta fuori un affare da vampiri. Voglio dire, cosa dovrei fare? Dire a un vampiro di incazzarsi perché devo beccare Johnny Hubcapper?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	341	}{	Ah, andiamo. Immaginate che io stia dando la caccia a qualche sfigato che ha saltato la cauzione con un'accusa di rapina a mano armata e all'improvviso salta fuori un affare da vampiri. Voglio dire, cosa dovrei fare? Dire a un vampiro di incazzarsi perche' devo beccare Johnny Hubcapper?	}{	Ah, andiamo. Immaginate che io stia dando la caccia a qualche sfigato che ha saltato la cauzione con un'accusa di rapina a mano armata e all'improvviso salta fuori un affare da vampiri. Voglio dire, cosa dovrei fare? Dire a un vampiro di incazzarsi perche' devo beccare Johnny Hubcapper?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	342	}{	Faresti meglio a farti dimenticare da Arthur, allora. Ho ancora un paio di domande.	}{	Faresti meglio a farti dimenticare da Arthur, allora. Ho ancora un paio di domande.	}{	541	}{	G.Knox_Ghoul > 0	}{	}{	}{	}{	}{	}{	}{	}{	Meglio farti dimenticare dal grassone, allora. Posso trarre risposte dalla tua materia grigia e dorata?	}
 {	343	}{	Faresti meglio a farti dimenticare da Arthur, allora. Allora, sei un vampiro?	}{	Faresti meglio a farti dimenticare da Arthur, allora. Allora, sei un vampiro?	}{	111	}{	G.Knox_Ghoul == 0	}{	}{	}{	}{	}{	}{	}{	}{	Meglio farti dimenticare dal grassone, allora. Quindi sei anche tu il figlio della notte?	}
 {	344	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -545,12 +545,12 @@
 {	545	}{	Cos'e' che fai per Bertram?	}{	Cos'e' che fai per Bertram?	}{	211	}{	G.Knox_Bertram > 0 and G.Knox_Ghoul == 2 and G.Knox_Quest == 0 and G.Bertram_Check == 0	}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{		}{		}{		}{		}{		}{		}{	Che tipo di losche imprese compi per conto dell'Orripilante?	}
 {	546	}{	E' bello essere un ghoul?	}{	E' bello essere un ghoul?	}{	141	}{		}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{		}{		}{		}{		}{		}{		}{	Ti diverte il tuo status di prezioso ghoul?	}
 {	547	}{	Veramente devo andarmene. A piu' tardi.	}{	Veramente devo andarmene. A piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
-{	548	}{	In realta', devo andarmene da qui. A dopo.	}{	In realta', devo andarmene da qui. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	548	}{	In realta', devo andarmene da qui. A dopo.	}{	In realta', devo andarmene da qui. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	549	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	551	}{	Oh, maledizione! Quante puttanate che dici! Cavolo! Scommetto che sei un Malkavian, vero? So poco di voi. Avete la testa che e' un gran bel casino, giusto? Matti, tipo Hannibal Lecter, sai di che parlo?	}{	Oh, maledizione! Quante puttanate che dici! Cavolo! Scommetto che sei una Malkavian, vero? So poco di voi. Avete la testa che e' un gran bel casino, giusto? Matti, tipo Hannibal Lecter, sai di che parlo?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	552	}{	Questo e' un segreto che non urliamo ai quattro venti, tesoro.	}{	Questo e' un segreto che non urliamo ai quattro venti, tesoro.	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	553	}{	Sì, golden ghoul. E so che anche tu stavi dando la caccia alla gente.	}{	Sì, golden ghoul. E so che anche tu stavi dando la caccia alla gente.	}{	571	}{	G.Arthur_Knoxold == 1 and G.Arthur_Knoxout == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	553	}{	Si', golden ghoul. E so che anche tu stavi dando la caccia alla gente.	}{	Si', golden ghoul. E so che anche tu stavi dando la caccia alla gente.	}{	571	}{	G.Arthur_Knoxold == 1 and G.Arthur_Knoxout == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	556	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -568,8 +568,8 @@
 {	568	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	569	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	570	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	571	}{	[Sorpreso]Eh? Sì! Oh, cavolo! Sono un cacciatore di taglie! E vuoi dire, tipo, oro come, come Fort Knox, giusto? Diavolo, si'! Oh, cavolo! Ti piace leggere nel pensiero, vero? Vedete? Questa è una stronzata da vampiri pazzeschi!	}{	[Sorpreso]Eh? Sì! Oh, cavolo! Sono un cacciatore di taglie! E vuoi dire, tipo, oro come, come Fort Knox, giusto? Diavolo, si'! Oh, cavolo! Ti piace leggere nel pensiero, vero? Vedete? Questa è una stronzata da vampiri pazzeschi!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	572	}{	Ho letto nella tua materia grigia che eri a caccia di Artù grasso.	}{	Ho letto nella tua materia grigia che eri a caccia di Artù grasso.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	571	}{	[Sorpreso]Eh? Si'! Oh, cavolo! Sono un cacciatore di taglie! E vuoi dire, tipo, oro come, come Fort Knox, giusto? Diavolo, si'! Oh, cavolo! Ti piace leggere nel pensiero, vero? Vedete? Questa e' una stronzata da vampiri pazzeschi!	}{	[Sorpreso]Eh? Si'! Oh, cavolo! Sono un cacciatore di taglie! E vuoi dire, tipo, oro come, come Fort Knox, giusto? Diavolo, si'! Oh, cavolo! Ti piace leggere nel pensiero, vero? Vedete? Questa e' una stronzata da vampiri pazzeschi!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	572	}{	Ho letto nella tua materia grigia che eri a caccia di Artu' grasso.	}{	Ho letto nella tua materia grigia che eri a caccia di Artu' grasso.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	573	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	574	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	575	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -758,7 +758,7 @@
 {	758	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	759	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	760	}{	Niente. Ciao.	}{	Niente. Ciao.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	761	}{	[un po' abbattuto]E' okay, credo. [si fa più grintoso]Penso di essere un po' stressato per questa faccenda del tipo asiatico.	}{	[un po' abbattuta]E' okay, credo. [si fa più grintosa]Penso di essere un po' stressato per questa faccenda del tipo asiatico.	}{	#	}{	npc.SetDisposition("Sad",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	761	}{	[un po' abbattuto]E' okay, credo. [si fa piu' grintoso]Penso di essere un po' stressato per questa faccenda del tipo asiatico.	}{	[un po' abbattuta]E' okay, credo. [si fa piu' grintosa]Penso di essere un po' stressato per questa faccenda del tipo asiatico.	}{	#	}{	npc.SetDisposition("Sad",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	762	}{	Cos'hai intenzione di fare?	}{	Cos'hai intenzione di fare?	}{	241	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	763	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	764	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

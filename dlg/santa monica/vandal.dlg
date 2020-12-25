@@ -59,7 +59,7 @@
 {	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	61	}{	Perche' te ne sei andato e hai lasciato fuori quella puttana? Ora c'e' un Phil in meno nel mondo. Perche' le hai permesso di mangiare quell'uomo, eh? Ora io non potro' fare lo stesso a quel bastardo. Beh, sai una cosa - non c'e' sangue per te, non ce n'e' piu'!	}{	Perche' te ne sei andata e hai lasciato fuori quella puttana? Ora c'e' un Phil in meno nel mondo. Perche' le hai permesso di mangiare quell'uomo, eh? Ora io non potro' fare lo stesso a quel bastardo. Beh, sai una cosa - non c'e' sangue per te, non ce n'e' piu'!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Lily_Free = 2; G.Vandal_Pissed = 1; G.Vandal_Quest = 0	}{		}{		}{		}{		}{		}{		}{		}
-{	62	}{	Quale incidente? Non è successo niente laggiù. Stavo solo comprando del sangue.	}{	Che incidente? Non è successo niente laggiù. Stavo solo comprando il sangue.	}{	111	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Quale incidente? Non e' successo niente laggiu'. Stavo solo comprando del sangue.	}{	Che incidente? Non e' successo niente laggiu'. Stavo solo comprando il sangue.	}{	111	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	63	}{	Ha ha ha....	}{	Ha ha ha....	}{	481	}{	Dementation 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	64	}{	Devo prendere del sangue da qualche parte. E' da un po' che non ho sangue di ghoul.	}{	Devo prendere del sangue da qualche parte. E' da un po' che non ho sangue di ghoul.	}{	101	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Forse succhiero' la vita dalle tue vene, schiavo del sangue.	}
 {	65	}{	Che incidente? Non e' successo niente la' dietro. Stavo solo comprando del sangue.	}{	Che incidente? Non e' successo niente la' dietro. Stavo solo comprando del sangue.	}{	111	}{	Dominate 1	}{	dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
@@ -189,7 +189,7 @@
 {	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	191	}{	E questo lo chiami macabro? Io voglio umiliazione, realta', crudelta'. Non meriti il sangue. Vattelo a prendere da solo.	}{	E questo lo chiami macabro? Io voglio umiliazione, realta', crudelta'. Non meriti il sangue. Vattelo a prendere da sola.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	192	}{	Dimentica quello che ho detto. Non ho bisogno del tuo sangue.	}{	Dimentica quello che ho detto. Non mi serve il tuo sangue.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hai perso il tuo oro, piccola schiava di sangue. Non sono più qui.	}
+{	192	}{	Dimentica quello che ho detto. Non ho bisogno del tuo sangue.	}{	Dimentica quello che ho detto. Non mi serve il tuo sangue.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hai perso il tuo oro, piccola schiava di sangue. Non sono piu' qui.	}
 {	193	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -209,7 +209,7 @@
 {	209	}{	Sei fortunato. Se non l'avessi liberata i suoi amici avrebbero distrutto questo posto.	}{	Sei fortunato. Se non l'avessi liberata i suoi amici avrebbero distrutto questo posto.	}{	121	}{	Persuasion 3 & not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	210	}{	Non mi serve il tuo sangue. Non quando so bene come l'hai avuto.	}{	Non mi serve il tuo sangue. Non quando so bene come l'hai avuto.	}{	211	}{	Humanity 7	}{		}{		}{		}{		}{		}{		}{		}{	Il sangue di un fiore innocente e' sangue che non posso bere.	}
 {	211	}{	Il sangue proviene dagli esseri viventi. Da tutti, in un torrente rosso. Gocce cremisi che cadono al ritmo del battito cardiaco. Ogni goccia versata contiene un briciolo di vita... non ti importa come l'hai avuto. Comincerai a sentirne il bisogno, e non potrai farne a meno.	}{	Il sangue proviene dagli esseri viventi. Da tutti, in un torrente rosso. Gocce cremisi che cadono al ritmo del battito cardiaco. Ogni goccia versata contiene un briciolo di vita... non ti importa come l'hai avuto. Comincerai a sentirne il bisogno, e non potrai farne a meno.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	212	}{	Non importa...	}{	Non importa...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stai parlando con qualcuno che se n'è gia' andato.	}
+{	212	}{	Non importa...	}{	Non importa...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stai parlando con qualcuno che se n'e' gia' andato.	}
 {	213	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -221,7 +221,7 @@
 {	221	}{	Serve una dose?	}{	Serve una dose?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	222	}{	Gia'.	}{	Gia'.	}{	0	}{		}{	G.Vandal_Blood = G.Vandal_Blood +1; npc.StartBarter(G.Story_State, 0)	}{		}{		}{		}{		}{		}{		}{	Dammi la dolcezza rossa....	}
 {	223	}{	Ho bisogno di entrare nel retro.	}{	Ho bisogno di entrare nel retro.	}{	421	}{	G.E_Quest == 2 and G.Vandal_Permission == 0 and G.Story_State < 100	}{		}{		}{		}{		}{		}{		}{		}{	Devo entrare nella fortezza del sangue.	}
-{	224	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi è il tuo maledetto "pozzo" adesso?	}
+{	224	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi e' il tuo maledetto "pozzo" adesso?	}
 {	225	}{	Al momento no.	}{	Al momento no.	}{	0	}{	G.Story_State < 100	}{		}{		}{		}{		}{		}{		}{		}{	Me ne vado.	}
 {	226	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	227	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -232,7 +232,7 @@
 {	232	}{	Certo... Vendimi un po' di sangue.	}{	Certo... Vendimi un po' di sangue.	}{	0	}{		}{	G.Vandal_Blood = G.Vandal_Blood +1; npc.StartBarter(G.Story_State, 0)	}{		}{		}{		}{		}{		}{		}{	Dammi solo un po' di sangue, sanguinoso ghoul.	}
 {	233	}{	Ho bisogno di entrare nel retro.	}{	Ho bisogno di entrare nel retro.	}{	421	}{	G.E_Quest == 2 and G.Vandal_Permission == 0	}{		}{		}{		}{		}{		}{		}{		}{	Devo entrare nella fortezza del sangue.	}
 {	234	}{	Torno piu' tardi. Mostro.	}{	Torno piu' tardi. Mostro.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Puzzi come quelle piccole morti. Addio.	}
-{	235	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi è il tuo maledetto "pozzo" adesso?	}
+{	235	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi e' il tuo maledetto "pozzo" adesso?	}
 {	236	}{	Dovremmo scambiarci le nostre storie qualche volta. Devo andare.	}{	Dovremmo scambiarci le nostre storie qualche volta. Devo andare.	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Mi piace ilt essuto del tuo racconto, piccolo ghoul. Ti lascio.	}
 {	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -243,7 +243,7 @@
 {	243	}{	Sangue fresco dici? Magari potrei iniziare con te.	}{	Sangue fresco dici? Magari potrei iniziare con te.	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le tue parole mi danno visioni di una lacerazione sul tuo collo.	}
 {	244	}{	Lasciamo perdere. Dammi una dose e basta.	}{	Lasciamo perdere. Dammi una dose e basta.	}{	331	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dammi solo un po' di rossore.	}
 {	245	}{	Devo andare nella stanza sul retro.	}{	Devo andare nella stanza sul retro.	}{	421	}{	G.E_Quest == 2 and G.Vandal_Permission == 0	}{	}{	}{	}{	}{	}{	}{	}{	Devo entrare in questa dannata fortezza.	}
-{	246	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi è il tuo maledetto "pozzo" adesso?	}
+{	246	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi e' il tuo maledetto "pozzo" adesso?	}
 {	247	}{	Se non hai bisogno della mia clientela, me ne vado.	}{	Se non hai bisogno della mia clientela, me ne vado.	}{	331	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le parole sprecate ti faranno perdere i tuoi clienti, ghoul.	}
 {	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -352,7 +352,7 @@
 {	352	}{	Interessante... Credo che ne comprero' un po'.	}{	Interessante... Credo che ne comprero' un po'.	}{	0	}{	Humanity 5	}{	G.Vandal_Blood = G.Vandal_Blood +1; npc.StartBarter(G.Story_State, 0)	}{		}{		}{		}{		}{		}{		}{	Prendo l'elisir cremisi.	}
 {	353	}{	Non hai un campione? Va bene, vediamo quello che hai.	}{	Non hai un campione? Va bene, vediamo quello che hai.	}{	0	}{	Humanity -5	}{	G.Vandal_Blood = G.Vandal_Blood +1; npc.StartBarter(G.Story_State, 0)	}{		}{		}{		}{		}{		}{		}{	Voglio leccare la ciotola.	}
 {	354	}{	Devo andare nella stanza sul retro.	}{	Devo andare nella stanza sul retro.	}{	421	}{	G.E_Quest == 2 and G.Vandal_Permission == 0	}{	}{	}{	}{	}{	}{	}{	}{	Devo entrare in questa dannata fortezza.	}
-{	355	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi è il tuo maledetto "pozzo" adesso?	}
+{	355	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi e' il tuo maledetto "pozzo" adesso?	}
 {	356	}{	E' sconvolgente. Tornero' piu' tardi.	}{	E' sconvolgente. Tornero' piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non partecipero' ai tuoi aperitivi corrotti. Addio.	}
 {	357	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	358	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -363,8 +363,8 @@
 {	363	}{	A piu' tardi.	}{	A piu' tardi.	}{	0	}{	G.Gimble_Vandal == 0 or G.Gimble_Vandal == 2	}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
 {	364	}{	Devo andare nella stanza sul retro.	}{	Devo andare nella stanza sul retro.	}{	421	}{	G.E_Quest == 2 and G.Vandal_Permission == 0	}{	}{	}{	}{	}{	}{	}{	}{	Devo entrare in questa dannata fortezza.	}
 {	365	}{	Si', dammi un po' di sangue del tizio che ti ho mandato.	}{	Si', dammi un po' del sangue del tizio che ti ho mandato.	}{	0	}{	G.Gimble_Vandal == 1	}{	G.Vandal_Blood = G.Vandal_Blood +1; npc.StartBarter(G.Story_State, 0); G.Vandal_Shop = 1; G.Vandal_Quest = 4; G.E_Missing = 3; G.Vandal_Pissed = 0; G.Gimble_Vandal = 2; pc.SetQuest("Danielle",6)	}{	}{	}{	}{	}{	}{	}{	Dammi da mangiare con il sangue del pazzo che ti ho mandato....	}
-{	366	}{	Quindi ti è piaciuto il pazzo? Non ho bisogno del suo sangue in questo momento, però.	}{	Quindi ti è piaciuto il pazzo? Non ho bisogno del suo sangue adesso, però.	}{	0	}{	G.Gimble_Vandal == 1	}{	G.Vandal_Shop = 1; G.Vandal_Quest = 4; G.E_Missing = 3; G.Vandal_Pissed = 0; G.Gimble_Vandal = 2; pc.SetQuest("Danielle",6)	}{	}{	}{	}{	}{	}{	}{	Ti ho mandato un regalo, ma non mi serve il sangue.	}
-{	367	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi è il tuo maledetto "pozzo" adesso?	}
+{	366	}{	Quindi ti e' piaciuto il pazzo? Non ho bisogno del suo sangue in questo momento, pero'.	}{	Quindi ti e' piaciuto il pazzo? Non ho bisogno del suo sangue adesso, pero'.	}{	0	}{	G.Gimble_Vandal == 1	}{	G.Vandal_Shop = 1; G.Vandal_Quest = 4; G.E_Missing = 3; G.Vandal_Pissed = 0; G.Gimble_Vandal = 2; pc.SetQuest("Danielle",6)	}{	}{	}{	}{	}{	}{	}{	Ti ho mandato un regalo, ma non mi serve il sangue.	}
+{	367	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	Di' piuttosto, da dove prendi il tuo sangue adesso?	}{	371	}{	G.Story_State < 100 and G.Vandal_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Allora, chi e' il tuo maledetto "pozzo" adesso?	}
 {	368	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	369	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	370	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -374,14 +374,14 @@
 {	374	}{	Ha ha ha....	}{	Ha ha ha....	}{	481	}{	Dementation 1 & G.Vandal_Quest == 0 and G.Vandal_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	375	}{	Vendimi il sangue.	}{	Vendimi il sangue.	}{	111	}{	Dominate 1 & G.Vandal_Quest == 0 and G.Vandal_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	376	}{	Sei fortunato. Se non l'avessi liberata i suoi amici avrebbero distrutto questo posto.	}{	Sei fortunato. Se non l'avessi liberata i suoi amici avrebbero distrutto questo posto.	}{	121	}{	Persuasion 3 & (not IsClan(pc,"Malkavian") and G.Vandal_Quest == 0 and G.Vandal_Plus == 0)	}{		}{		}{		}{		}{		}{		}{		}{	Il fiore aveva dei piccoli amici falciatori che se chiamati sarebbero arrivati.	}
-{	377	}{	Perché non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	Perché non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	71	}{	not IsClan(pc,"Nosferatu") and G.Vandal_Quest == 0 and G.Vandal_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Fairest gold is often the cause of a sweet amnesia.	}
+{	377	}{	Perche' non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	Perche' non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	71	}{	not IsClan(pc,"Nosferatu") and G.Vandal_Quest == 0 and G.Vandal_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Fairest gold is often the cause of a sweet amnesia.	}
 {	378	}{	Non mi serve il tuo sangue. Non quando so bene come l'hai avuto.	}{	Non mi serve il tuo sangue. Non quando so bene come l'hai avuto.	}{	211	}{	Humanity 7	}{		}{		}{		}{		}{		}{		}{		}{	Il sangue di un fiore innocente e' sangue che non posso bere.	}
 {	379	}{	Non ci so fare molto con le persone. Posso pagarti per dimenticare tutto?	}{	Non ci so fare molto con le persone. Posso pagarti per dimenticare tutto?	}{	71	}{	IsClan(pc,"Nosferatu") and G.Vandal_Quest == 0 and G.Vandal_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	380	}{	Vendimi il sangue.	}{	Vendimi il sangue.	}{	111	}{	Thaumaturgy 1 & (G.Patch_Plus == 1 and G.Vandal_Quest == 0 and G.Vandal_Plus == 0)	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	381	}{	La troia che possiede me e questo posto, gestisce l'Asylum. C'e' un casino di giovani e sangue stupido la'. Non come il sangue putrido, fetido e vagabondo che spesso ci arriva. Ma non ti nutrire la', nononono... la padrona non lo apprezzerebbe.	}{	La troia che possiede me e questo posto, gestisce l'Asylum. C'e' un casino di giovani e sangue stupido la'. Non come il sangue putrido, fetido e vagabondo che spesso ci arriva. Ma non ti nutrire la', nononono... la padrona non lo apprezzerebbe.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	382	}{	Bene. Daro' un'occhiata all'Asylum. Ciao.	}{	Bene. Daro' un'occhiata all'Asylum. Ciao.	}{	0	}{	G.Vandal_Quest == 0	}{	G.Vandal_Quest = 1; pc.SetQuest("Danielle",1); G.Vandal_Plus = 0	}{		}{		}{		}{		}{		}{		}{	Cerchero' nella casa dei devastati. Addio.	}
 {	383	}{	Bene. Daro' un'occhiata all'Asylum. Ciao.	}{	Bene. Daro' un'occhiata all'Asylum. Ciao.	}{	0	}{	G.Vandal_Quest >= 1	}{		}{		}{		}{		}{		}{		}{		}{	I will look in the house of the shattered. Farewell.	}
-{	384	}{	Non credo di volerlo fare davvero, ciao.	}{	Non credo di volerlo fare davvero, ciao.	}{	0	}{	G.Vandal_Quest >= 1	}{	}{	}{	}{	}{	}{	}{	}{	Una voce mi dice di non farlo, perché me ne sono gia' andato.	}
+{	384	}{	Non credo di volerlo fare davvero, ciao.	}{	Non credo di volerlo fare davvero, ciao.	}{	0	}{	G.Vandal_Quest >= 1	}{	}{	}{	}{	}{	}{	}{	}{	Una voce mi dice di non farlo, perche' me ne sono gia' andato.	}
 {	385	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	386	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	387	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -396,7 +396,7 @@
 {	396	}{	Ha ha ha....	}{	Ha ha ha....	}{	481	}{	Dementation 1 & G.Vandal_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	397	}{	Vendimi il sangue.	}{	Vendimi il sangue.	}{	111	}{	Thaumaturgy 1 & (G.Patch_Plus == 1 and G.Vandal_Quest == 0)	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	398	}{	Sono un po' di fretta in questo momento. Forse il tuo sangue andra' bene.	}{	Sono un po' di fretta in questo momento. Forse il tuo sangue andra' bene.	}{	101	}{	G.Story_State >= 100	}{	}{	}{	}{	}{	}{	}{	}{	Forse le tue vene mi daranno il sangue.	}
-{	399	}{	Perché non pago 200 dollari per dimenticare la ragazza?	}{	Perché non pago 200 dollari per dimenticare la ragazza?	}{	81	}{	pc.CurrentMoney() >= 200 and G.Vandal_Quest == 0	}{	pc.MoneyRemove(200)	}{	}{	}{	}{	}{	}{	}{	Ho duecento piccoli pezzi d'oro per provocare una dolce amnesia.	}
+{	399	}{	Perche' non pago 200 dollari per dimenticare la ragazza?	}{	Perche' non pago 200 dollari per dimenticare la ragazza?	}{	81	}{	pc.CurrentMoney() >= 200 and G.Vandal_Quest == 0	}{	pc.MoneyRemove(200)	}{	}{	}{	}{	}{	}{	}{	Ho duecento piccoli pezzi d'oro per provocare una dolce amnesia.	}
 {	400	}{	Non e' finita, ghoul.	}{	Non e' finita, ghoul.	}{	0	}{	IsClan(pc,"Nosferatu") and G.Story_State < 100 and G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	401	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	402	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -498,16 +498,16 @@
 {	498	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	499	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	500	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	501	}{	Perché sei dovuto andare a far uscire quella stronza? C'è un Bill in meno al mondo ora. Perché hai dovuto lasciarla andare a mangiarlo, eh? Ora non riuscirò mai a fare io stesso in quel bastardo. Beh, sai una cosa? Niente sangue per te, non più!	}{	Perché sei dovuto andare a far uscire quella stronza? C'è un Bill in meno al mondo ora. Perché hai dovuto lasciarla andare a mangiarlo, eh? Ora non riuscirò mai a fare io stesso in quel bastardo. Beh, sai una cosa? Niente sangue per te, non più!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Lily_Free = 2; G.Vandal_Pissed = 1; G.Vandal_Quest = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	502	}{	Quale incidente? Non è successo niente laggiù. Stavo solo comprando del sangue.	}{	Quale incidente? Non è successo niente laggiù. Stavo solo comprando del sangue.	}{	111	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	501	}{	Perche' sei dovuto andare a far uscire quella stronza? C'e' un Bill in meno al mondo ora. Perche' hai dovuto lasciarla andare a mangiarlo, eh? Ora non riusciro' mai a fare io stesso in quel bastardo. Beh, sai una cosa? Niente sangue per te, non piu'!	}{	Perche' sei dovuto andare a far uscire quella stronza? C'e' un Bill in meno al mondo ora. Perche' hai dovuto lasciarla andare a mangiarlo, eh? Ora non riusciro' mai a fare io stesso in quel bastardo. Beh, sai una cosa? Niente sangue per te, non piu'!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Lily_Free = 2; G.Vandal_Pissed = 1; G.Vandal_Quest = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	502	}{	Quale incidente? Non e' successo niente laggiu'. Stavo solo comprando del sangue.	}{	Quale incidente? Non e' successo niente laggiu'. Stavo solo comprando del sangue.	}{	111	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	503	}{	Ha ha ha....	}{	Ha ha ha....	}{	481	}{	Dementation 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	504	}{	Devo prendere del sangue da qualche parte. È da un po' di tempo che non ho sangue di ghoul.	}{	Devo prendere del sangue da qualche parte. È da un po' di tempo che non ho sangue di ghoul.	}{	101	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Forse succhierò la vita dalle tue vene, schiavo di sangue.	}
-{	505	}{	Quale incidente? Non è successo niente laggiù. Stavo solo comprando del sangue.	}{	Quale incidente? Non è successo niente laggiù. Stavo solo comprando del sangue.	}{	111	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	504	}{	Devo prendere del sangue da qualche parte. e' da un po' di tempo che non ho sangue di ghoul.	}{	Devo prendere del sangue da qualche parte. e' da un po' di tempo che non ho sangue di ghoul.	}{	101	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Forse succhiero' la vita dalle tue vene, schiavo di sangue.	}
+{	505	}{	Quale incidente? Non e' successo niente laggiu'. Stavo solo comprando del sangue.	}{	Quale incidente? Non e' successo niente laggiu'. Stavo solo comprando del sangue.	}{	111	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	506	}{	Sei fortunato. Se non l'avessi liberata, i suoi amici avrebbero fatto saltare in aria il posto.	}{	Sei fortunato. Se non l'avessi liberata, i suoi amici avrebbero fatto saltare in aria il posto.	}{	121	}{	Persuasion 3 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	507	}{	Sei sicuro che non ci sia niente che possa farti cambiare idea?	}{	Sei sicuro che non c'è niente che io possa farti per farti cambiare idea?	}{	201	}{	F_Seduction 4	}{	}{	}{	}{	}{	}{	}{	}{	Vieni, piccolo ghoul. Ci sono cose che posso farti che non crederesti.	}
-{	508	}{	Non mi serve il tuo sangue. Non quando so come te lo procurerai.	}{	Non mi serve il tuo sangue. Non quando so come te lo procurerai.	}{	211	}{	Humanity 7	}{	}{	}{	}{	}{	}{	}{	}{	Il sangue di un fiorellino è sangue che non posso bere.	}
+{	507	}{	Sei sicuro che non ci sia niente che possa farti cambiare idea?	}{	Sei sicuro che non c'e' niente che io possa farti per farti cambiare idea?	}{	201	}{	F_Seduction 4	}{	}{	}{	}{	}{	}{	}{	}{	Vieni, piccolo ghoul. Ci sono cose che posso farti che non crederesti.	}
+{	508	}{	Non mi serve il tuo sangue. Non quando so come te lo procurerai.	}{	Non mi serve il tuo sangue. Non quando so come te lo procurerai.	}{	211	}{	Humanity 7	}{	}{	}{	}{	}{	}{	}{	}{	Il sangue di un fiorellino e' sangue che non posso bere.	}
 {	509	}{	Cosa posso fare per mettere le cose in chiaro?	}{	Cosa posso fare per mettere le cose in chiaro?	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forse posso scrivere il prossimo atto in questo piccolo dramma di sangue.	}
-{	510	}{	Perché non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	Perché non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	L'oro più bello è spesso causa di una dolce amnesia.	}
+{	510	}{	Perche' non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	Perche' non vi pago una somma che ritenete giusta ignorando tutto questo?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	L'oro piu' bello e' spesso causa di una dolce amnesia.	}
 {	511	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	512	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	513	}{	(Starting Condition)	}{	}{	391	}{	G.Story_State >= 100 and G.Vandal_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

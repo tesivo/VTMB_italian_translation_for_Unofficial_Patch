@@ -12,7 +12,7 @@
 {	12	}{	(Auto-Link)	}{	(Auto-Link)	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	13	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	15	}{	[Therese]È diverso dal modo in cui hai trattato tuo padre?	}{	[Therese]È diverso dal modo in cui hai trattato tuo padre?	}{	#	}{	pc.SetCamera("tTherese") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	[Therese]e' diverso dal modo in cui hai trattato tuo padre?	}{	[Therese]e' diverso dal modo in cui hai trattato tuo padre?	}{	#	}{	pc.SetCamera("tTherese") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	16	}{	(Auto-Link)	}{	(Auto-Link)	}{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	17	}{	[Jeanette]Padre? Oh, Therese... povera, cara illusa... Ho trattato papa' esattamente come meritava di essere trattato... e lui ti ha trattato come una -	}{	[Jeanette]Padre? Oh, Therese... povera, cara illusa... Ho trattato papa' esattamente come meritava di essere trattato... e lui ti ha trattato come una -	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	18	}{	(Auto-Link)	}{	(Auto-Link)	}{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -928,10 +928,10 @@
 {	928	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	929	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	930	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	931	}{	[Jeanette]Therese si è ufficialmente schierata con la Camarilla. Potrebbe essere un principe, un giorno.	}{	[Jeanette]Therese si è ufficialmente schierata con la Camarilla. Potrebbe essere un principe, un giorno.	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("joy",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	931	}{	[Jeanette]Therese si e' ufficialmente schierata con la Camarilla. Potrebbe essere un principe, un giorno.	}{	[Jeanette]Therese si e' ufficialmente schierata con la Camarilla. Potrebbe essere un principe, un giorno.	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("joy",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	932	}{	Come andate d'accordo voi due?	}{	Come andate d'accordo voi due?	}{	811	}{	G.Story_State >= 10 and G.Tourette_1 == 0	}{	G.Tourette_1 = 1	}{	}{	}{	}{	}{	}{	}{	Hai trovato spazio per due nella tua pelle pallida?	}
 {	933	}{	Congratulazioni. Se hai bisogno di un favore, trovami. Arrivederci.	}{	Congratulazioni. Se hai bisogno di un favore, trovami. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chiamatemi quando volete, figlie di Giano.	}
-{	934	}{	Finire la frase dell'altro - è davvero inquietante. Arrivederci.	}{	Finire la frase dell'altro è davvero inquietante. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	La tua follia è divina. Addio.	}
+{	934	}{	Finire la frase dell'altro - e' davvero inquietante. Arrivederci.	}{	Finire la frase dell'altro e' davvero inquietante. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	La tua follia e' divina. Addio.	}
 {	935	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	936	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	937	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

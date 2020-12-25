@@ -90,7 +90,7 @@
 {	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	91	}{	Ci sto. Ma sono occupato, dovro' sbrigarmela piu' tardi. Ora non parlarmene piu'.	}{	Ci sto. Ma sono occupato, dovro' sbrigarmela piu' tardi. Ora non parlarmene piu'.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	92	}{	Mettili nella cassetta postale 508, dottore, agli appartamenti sul banco dei pegni.	}{	Mettili nella cassetta postale 508, dottore, agli appartamenti sul banco dei pegni.	}{	0	}{	G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{	Metti i miei soldi sopra la banco dei pegni. Addio.	}
-{	93	}{	Lo metta da qualche parte nel suo ufficio, dottore. Lo ritirerò più tardi.	}{	Lo metta da qualche parte nel suo ufficio, dottore. Lo ritirerò più tardi.	}{	0	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Lascia il verde nel tuo ufficio perché io lo raccolga più tardi. Addio.	}
+{	93	}{	Lo metta da qualche parte nel suo ufficio, dottore. Lo ritirero' piu' tardi.	}{	Lo metta da qualche parte nel suo ufficio, dottore. Lo ritirero' piu' tardi.	}{	0	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Lascia il verde nel tuo ufficio perche' io lo raccolga piu' tardi. Addio.	}
 {	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

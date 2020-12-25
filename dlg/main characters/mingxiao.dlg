@@ -216,8 +216,8 @@
 {	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	219	}{	Come vuoi. Vado via.	}{	Come vuoi. Vado via.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
-{	220	}{	Come vuoi. Vado via.	}{	Come vuoi. Vado via.	}{	0	}{	npc.times_talked > 1	}{		}{		}{		}{		}{		}{		}{		}{	Non sono più qui.	}
+{	219	}{	Come vuoi. Vado via.	}{	Come vuoi. Vado via.	}{	491	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
+{	220	}{	Come vuoi. Vado via.	}{	Come vuoi. Vado via.	}{	0	}{	npc.times_talked > 1	}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
 {	221	}{	Questo e' cio' che cerchiamo. O almeno il meglio che posso fare per spiegartelo.	}{	Questo e' cio' che cerchiamo. O almeno il meglio che posso fare per spiegartelo.	}{	#	}{		}{	G.Ming_Human = 5; G.Ming_Humandone = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	222	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	223	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -285,7 +285,7 @@
 {	285	}{	Parlami di nuovo di hengeyokai.	}{	Parlami di nuovo di hengeyokai.	}{	481	}{	G.Ming_Ziggy == 1 and G.Zyg_Meet == 0 and G.Yukie_Market == 0 and not IsDead("Zygaena")	}{		}{		}{		}{		}{		}{		}{		}{	Parlami dell'orrendo hengeyokai.	}
 {	286	}{	Sto cercando un Nosferatu.	}{	Sto cercando un Nosferatu.	}{	421	}{	G.Ming_Barrabus == 0	}{		}{		}{		}{		}{		}{		}{		}{	Sto cercando un figlio della notte Nosferatu.	}
 {	287	}{	Sto ancora cercando il Nosferatu. Cosa devo fare di nuovo?	}{	Sto ancora cercando il Nosferatu. Cosa devo fare di nuovo?	}{	441	}{	G.Ming_Barrabus > 0 and pc.GetQuestState("Barabus") > 3	}{		}{		}{		}{		}{		}{		}{		}{	Dove potrei trovare il figlio della notte Nosferatu?	}
-{	288	}{	Dove posso trovare la Tong?	}{	Dove posso trovare la Tong?	}{	581	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Dove si può trovare la Tong?	}
+{	288	}{	Dove posso trovare la Tong?	}{	Dove posso trovare la Tong?	}{	581	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Dove si puo' trovare la Tong?	}
 {	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	290	}{	Me ne vado. Ci vediamo.	}{	Me ne vado. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado via.	}
 {	291	}{	Molti Fratelli devono imparare i nostri modi.	}{	Molti Fratelli devono imparare i nostri modi.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -433,7 +433,7 @@
 {	433	}{	Te lo ripeto, dov'e'?	}{	Te lo ripeto, dov'e'?	}{	441	}{	G.Ming_Barrabus > 0	}{		}{		}{		}{		}{		}{		}{		}{	Dove posso trovare questo Wong Ho?	}
 {	434	}{	Ho un altro paio di domande.	}{	Ho un altro paio di domande.	}{	281	}{	G.Ming_Barrabus > 0	}{		}{		}{		}{		}{		}{		}{		}{	Posso far mia la tua materia grigia?	}
 {	435	}{	Ok lo faro'. Ci vediamo.	}{	Ok lo faro'. Ci vediamo.	}{	491 }{	G.Ming_Barrabus > 0  and npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{	Vado via.	}
-{	436	}{	Ok lo faro'. Ci vediamo.	}{	Ok lo faro'. Ci vediamo.	}{	0	}{	G.Ming_Barrabus > 0 and npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	436	}{	Ok lo faro'. Ci vediamo.	}{	Ok lo faro'. Ci vediamo.	}{	0	}{	G.Ming_Barrabus > 0 and npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	437	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	438	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	439	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -508,10 +508,10 @@
 {	508	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	509	}{	Mi piacerebbe farti un paio di domande.	}{	Mi piacerebbe farti un paio di domande.	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso far mia la tua materia grigia?	}
 {	510	}{	No non ora. Ci vediamo.	}{	No non ora. Ci vediamo.	}{	0	}{	G.Silver_Know == 0 or G.Ming_Ziggy == 0	}{		}{		}{		}{		}{		}{		}{		}{	Vado via.	}
-{	511	}{	Wong Ho, sì, lo conosco bene.	}{	Wong Ho, sì, lo conosco bene.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	511	}{	Wong Ho, si', lo conosco bene.	}{	Wong Ho, si', lo conosco bene.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	512	}{	Puoi parlarmi ancora di lui?	}{	Puoi parlarmi ancora di lui?	}{	441	}{	pc.GetQuestState("Barabus") < 3	}{	}{	}{	}{	}{	}{	}{	}{	Tessimi un racconto di Wong Ho.	}
 {	513	}{	Parla molto bene di te.	}{	Parla molto bene di te.	}{	521	}{	G.Ming_Highly == 0 and G.Wong_ZQ > 0	}{	}{	}{	}{	}{	}{	}{	}{	Per i suoi occhi ciechi sei una dea.	}
-{	514	}{	Sua figlia è stata rapita. Vuole che la riporti indietro.	}{	Sua figlia è stata rapita. Vuole che la riporti indietro.	}{	561	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Il suo tesoro è stato preso, e io cerco di restituirlo.	}
+{	514	}{	Sua figlia e' stata rapita. Vuole che la riporti indietro.	}{	Sua figlia e' stata rapita. Vuole che la riporti indietro.	}{	561	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Il suo tesoro e' stato preso, e io cerco di restituirlo.	}
 {	515	}{	Ho ancora qualche domanda.	}{	Ho ancora qualche domanda.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Posso estrarre la tua materia grigia?	}
 {	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	517	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -519,8 +519,8 @@
 {	519	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	520	}{	Non importa. Arrivederci.	}{	Non importa. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
 {	521	}{	Io fornisco una guida spirituale a tutti coloro che la cercano.	}{	Io fornisco una guida spirituale a tutti coloro che la cercano.	}{	#	}{	}{	G.Ming_Kindred = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	522	}{	E questo serve bene ai vostri scopi, non è vero?	}{	E questo serve bene ai vostri scopi, non è vero?	}{	531	}{	pc.perception >= 4 or pc.wits >= 4	}{	}{	}{	}{	}{	}{	}{	}{	La vostra guida indica un percorso pericoloso.	}
-{	523	}{	Sua figlia è stata rapita. Vuole che la riporti indietro.	}{	Sua figlia è stata rapita. Vuole che la riporti indietro.	}{	561	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Il suo tesoro è stato preso, e io cerco di restituirlo.	}
+{	522	}{	E questo serve bene ai vostri scopi, non e' vero?	}{	E questo serve bene ai vostri scopi, non e' vero?	}{	531	}{	pc.perception >= 4 or pc.wits >= 4	}{	}{	}{	}{	}{	}{	}{	}{	La vostra guida indica un percorso pericoloso.	}
+{	523	}{	Sua figlia e' stata rapita. Vuole che la riporti indietro.	}{	Sua figlia e' stata rapita. Vuole che la riporti indietro.	}{	561	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Il suo tesoro e' stato preso, e io cerco di restituirlo.	}
 {	524	}{	Ho ancora qualche domanda.	}{	Ho ancora qualche domanda.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Posso estrarre la tua materia grigia?	}
 {	525	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	526	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -528,7 +528,7 @@
 {	528	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	529	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	530	}{	Non ne ho bisogno. Ci vediamo.	}{	Non ne ho bisogno. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	La mia ombra oscura gli altri domini.	}
-{	531	}{	Gli eventi hanno un loro senso. Tutte le cose vanno a posto secondo piani più grandi del nostro. Ormai dovresti conoscere bene questa lezione, Kindred.	}{	Gli eventi hanno un loro senso. Tutte le cose vanno a posto secondo piani più grandi del nostro. Ormai dovresti conoscere bene questa lezione, Kindred.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	531	}{	Gli eventi hanno un loro senso. Tutte le cose vanno a posto secondo piani piu' grandi del nostro. Ormai dovresti conoscere bene questa lezione, Kindred.	}{	Gli eventi hanno un loro senso. Tutte le cose vanno a posto secondo piani piu' grandi del nostro. Ormai dovresti conoscere bene questa lezione, Kindred.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	532	}{	E' profondo. Ho ancora qualche domanda da farle.	}{	E' profondo. Ho ancora qualche domanda da farle.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Posso estrarre la tua materia grigia?	}
 {	533	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	534	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -537,7 +537,7 @@
 {	537	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	538	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	539	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	540	}{	Capisco. Arrivederci.	}{	Capisco. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	540	}{	Capisco. Arrivederci.	}{	Capisco. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	541	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	542	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	543	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -559,7 +559,7 @@
 {	559	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	560	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	561	}{	Spero proprio che ci riesca.	}{	Spero proprio che ci riesca.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	562	}{	Mi ha chiesto di farlo solo perché pensa che io lavori per te.	}{	Mi ha chiesto di farlo solo perché pensa che io lavori per te.	}{	531	}{	pc.perception >= 4 or pc.wits >= 4	}{	}{	}{	}{	}{	}{	}{	}{	La sua fiducia in me arriva solo fino alla tua benedizione.	}
+{	562	}{	Mi ha chiesto di farlo solo perche' pensa che io lavori per te.	}{	Mi ha chiesto di farlo solo perche' pensa che io lavori per te.	}{	531	}{	pc.perception >= 4 or pc.wits >= 4	}{	}{	}{	}{	}{	}{	}{	}{	La sua fiducia in me arriva solo fino alla tua benedizione.	}
 {	563	}{	Ho ancora qualche domanda.	}{	Ho ancora qualche domanda.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Posso estrarre la tua materia grigia?	}
 {	564	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	565	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -567,7 +567,7 @@
 {	567	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	568	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	569	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	570	}{	Ci proverò. Arrivederci.	}{	Ci proverò. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	La mia ombra oscura gli altri domini.	}
+{	570	}{	Ci provero'. Arrivederci.	}{	Ci provero'. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	La mia ombra oscura gli altri domini.	}
 {	571	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	572	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	573	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -580,8 +580,8 @@
 {	580	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	581	}{	La Tong ha forzato molte aziende locali ad utilizzare le loro strutture. Controllate i vicoli sul retro. Vi auguro buona fortuna.	}{	La Tong ha forzato molte aziende locali ad utilizzare le loro strutture. Controllate i vicoli sul retro. Vi auguro buona fortuna.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	582	}{	Ho ancora qualche domanda.	}{	Ho ancora qualche domanda.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	Posso estrarre la tua materia grigia?	}
-{	583	}{	Ci vediamo.	}{	Ci vediamo.	}{	491	}{	npc.times_talked == 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
-{	584	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{	npc.times_talked > 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	583	}{	Ci vediamo.	}{	Ci vediamo.	}{	491	}{	npc.times_talked == 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
+{	584	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{	npc.times_talked > 1 and G.Ming_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	585	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	586	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	587	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -703,7 +703,7 @@
 {	703	}{	A piu' tardi.	}{	A piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia ombra oscura altri dominii.	}
 {	704	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	705	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	706	}{	Hmmm. Sì, ne conosco uno. Si chiama Zygaena.	}{	Hmmm. Sì, ne conosco uno. Si chiama Zygaena.	}{	#	}{	}{	G.Ming_Ziggy = 1; G.Ming_Zygaena = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	706	}{	Hmmm. Si', ne conosco uno. Si chiama Zygaena.	}{	Hmmm. Si', ne conosco uno. Si chiama Zygaena.	}{	#	}{	}{	G.Ming_Ziggy = 1; G.Ming_Zygaena = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	707	}{	Lavora per te?	}{	Lavora per te?	}{	471	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	708	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	709	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

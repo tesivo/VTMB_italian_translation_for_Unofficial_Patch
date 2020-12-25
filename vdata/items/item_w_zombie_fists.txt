@@ -15,9 +15,9 @@ WeaponData
 	"impact_snd_group"	"fist"
 
 	"printname"		"Sconosciuto"	// changed by wesp
-	"description"	"Hmm, quando si guarda questo oggetto, i cieli si oscurano e i lampi lampeggiano. Questi non sono però buoni indizi di cosa sia questo.
+	"description"	"Hmm, quando si guarda questo oggetto, i cieli si oscurano e i lampi lampeggiano. Questi non sono pero' buoni indizi di cosa sia questo.
 
-Per usare questo oggetto è necessaria una competenza di ricerca di almeno 4."	// added by wesp
+Per usare questo oggetto e' necessaria una competenza di ricerca di almeno 4."	// added by wesp
 
 	"activation0"	"Attack"
 	"activation1"	""

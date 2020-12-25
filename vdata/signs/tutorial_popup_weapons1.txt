@@ -14,7 +14,7 @@ SignData
 	{
 		"Text"		"Questa icona indica l'arma che hai attualmente in mano.
 Per le armi a distanza, i numeri indicano l'attuale riserva di munizioni.
-Più avanti nel gioco troverai un'armatura per proteggerti. Equipaggiatela allo stesso modo delle armi premendo il tasto Armatura (default F3) fino a quando l'armatura non viene evidenziata, e poi cliccando il tasto sinistro del mouse."
+Piu' avanti nel gioco troverai un'armatura per proteggerti. Equipaggiatela allo stesso modo delle armi premendo il tasto Armatura (default F3) fino a quando l'armatura non viene evidenziata, e poi cliccando il tasto sinistro del mouse."
 		"Font"		"ParagraphText"
 		"XPos"		"324"
 		"YPos"		"182"

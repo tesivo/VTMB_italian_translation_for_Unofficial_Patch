@@ -1,8 +1,8 @@
 {	1	}{	Um....	}{	Um....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	2	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	151	}{	Seduction 4 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa è ancora più angelica di quella nella mia.	}
-{	3	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	181	}{	Seduction 4 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa è ancora più angelica di quella nella mia.	}
-{	4	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	211	}{	Seduction 4 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa è ancora più angelica di quella nella mia.	}
-{	5	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	241	}{	Seduction 4 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa è ancora più angelica di quella nella mia.	}
+{	2	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	151	}{	Seduction 4 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa e' ancora piu' angelica di quella nella mia.	}
+{	3	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	181	}{	Seduction 4 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa e' ancora piu' angelica di quella nella mia.	}
+{	4	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	211	}{	Seduction 4 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa e' ancora piu' angelica di quella nella mia.	}
+{	5	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	Volevo solo sentire se la tua voce era angelica come te. Lo e'. Sei un angelo.	}{	241	}{	Seduction 4 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	La voce che proviene dalla tua testa e' ancora piu' angelica di quella nella mia.	}
 {	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -59,10 +59,10 @@
 {	59	}{	Due domande: qual'e' il tuo piatto preferito, e, nel caso in cui fossi io, mi mangeresti?	}{	Due domande: qual'e' il tuo piatto preferito, e, nel caso in cui fossi io, mi mangeresti?	}{	341	}{	Seduction -4 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	60	}{	Scusami.	}{	Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ex-strizzacervelli.	}
 {	61	}{	Ehi ciao...!	}{	Ehi ciao...!	}{	#	}{	npc.SetDisposition("Joy", 3)	}{		}{		}{		}{		}{	}{	}{	}{	}
-{	62	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	151	}{	Seduction 4 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza può farla piangere.	}
-{	63	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	181	}{	Seduction 4 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza può farla piangere.	}
-{	64	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	211	}{	Seduction 4 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza può farla piangere.	}
-{	65	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	241	}{	Seduction 4 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza può farla piangere.	}
+{	62	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	151	}{	Seduction 4 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza puo' farla piangere.	}
+{	63	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	181	}{	Seduction 4 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza puo' farla piangere.	}
+{	64	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	211	}{	Seduction 4 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza puo' farla piangere.	}
+{	65	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	Cosa devo fare per meritarmi un sorriso da parte tua?	}{	241	}{	Seduction 4 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	Posso far ridere la gente, ma la tua bellezza puo' farla piangere.	}
 {	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -80,19 +80,19 @@
 {	80	}{	Tu... mi completi.	}{	Tu... mi completi.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	81	}{	Tu... mi completi.	}{	Tu... mi completi.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	82	}{	Tu... mi completi.	}{	Tu... mi completi.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	83	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	281	}{	Seduction -4 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non è giusto.	}
-{	84	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	291	}{	Seduction -4 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non è giusto.	}
-{	85	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	301	}{	Seduction -4 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non è giusto.	}
-{	86	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	311	}{	Seduction -4 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non è giusto.	}
-{	87	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	321	}{	Seduction -4 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non è giusto.	}
-{	88	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	331	}{	Seduction -4 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non è giusto.	}
-{	89	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	341	}{	Seduction -4 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non è giusto.	}
+{	83	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	281	}{	Seduction -4 & OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non e' giusto.	}
+{	84	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	291	}{	Seduction -4 & OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non e' giusto.	}
+{	85	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	301	}{	Seduction -4 & OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non e' giusto.	}
+{	86	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	311	}{	Seduction -4 & OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non e' giusto.	}
+{	87	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	321	}{	Seduction -4 & OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non e' giusto.	}
+{	88	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	331	}{	Seduction -4 & OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non e' giusto.	}
+{	89	}{	Scometto dieci dollari che non me la darai.	}{	Scometto dieci dollari che non me la darai.	}{	341	}{	Seduction -4 & OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	Scommetto che vorresti dieci dollari per non pomiciare con me.... Aspetta, non e' giusto.	}
 {	90	}{	Oh, scusa se ti infastidisco, perdonami.	}{	Oh, scusa se ti infastidisco, perdonami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono fastidioso. Fammi andare via.	}
 {	91	}{	Eccoti qui! Stavo cominciando a pensare che mi stessi evitando.	}{	Eccoti qui! Stavo cominciando a pensare che mi stessi evitando.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	92	}{	Evitarti? Solo un perfetto perdente lo farebbe. Vieni qui.	}{	Evitarti? Solo un perfetto perdente lo farebbe. Vieni qui.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Non ti lascerei mai in un fosso. Lo faccio solo con le persone cattive.	}
 {	93	}{	Tu sai di cosa ho bisogno.	}{	Tu sai di cosa ho bisogno.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Hai delle cose necessarie.	}
 {	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	95	}{	Torno subito, baby.	}{	Torno subito, baby.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ahimè, devo lasciarvi in questo frangente.	}
+{	95	}{	Torno subito, baby.	}{	Torno subito, baby.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ahime', devo lasciarvi in questo frangente.	}
 {	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -150,13 +150,13 @@
 {	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	151	}{	Davvero?	}{	Davvero?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	152	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	153	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Sì, davvero. Aspetta, cosa stavo dicendo?	}
-{	154	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Sì, davvero. Aspetta, cosa stavo dicendo?	}
-{	155	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Sì, davvero. Aspetta, cosa stavo dicendo?	}
-{	156	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Sì, davvero. Aspetta, cosa stavo dicendo?	}
-{	157	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Sì, davvero. Aspetta, cosa stavo dicendo?	}
-{	158	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Sì, davvero. Aspetta, cosa stavo dicendo?	}
-{	159	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Sì, davvero. Aspetta, cosa stavo dicendo?	}
+{	153	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Si', davvero. Aspetta, cosa stavo dicendo?	}
+{	154	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Si', davvero. Aspetta, cosa stavo dicendo?	}
+{	155	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	301	}{	OneOfSet(3,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Si', davvero. Aspetta, cosa stavo dicendo?	}
+{	156	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	311	}{	OneOfSet(4,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Si', davvero. Aspetta, cosa stavo dicendo?	}
+{	157	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Si', davvero. Aspetta, cosa stavo dicendo?	}
+{	158	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Si', davvero. Aspetta, cosa stavo dicendo?	}
+{	159	}{	No, non davvero! Si', davvero. Cazzo, donna...!	}{	No, non davvero! Si', davvero. D'oh....	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, non proprio! Si', davvero. Aspetta, cosa stavo dicendo?	}
 {	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	161	}{	Certo, baby. Ora fa' come ti ordina il tuo uomo, e  tagliami una fetta di torta.	}{	Certo, baby. Ora fa' come ti ordina la tua signora, e  tagliami una fetta di torta.	}{	281	}{	OneOfSet(1,7)	}{		}{		}{		}{		}{		}{		}{		}{	Avete delle carni dolci per me?	}
 {	162	}{	Certo, baby. Ora fa' come ti ordina il tuo uomo, e  tagliami una fetta di torta.	}{	Certo, baby. Ora fa' come ti ordina la tua signora, e  tagliami una fetta di torta.	}{	291	}{	OneOfSet(2,7)	}{		}{		}{		}{		}{		}{		}{		}{	Avete delle carni dolci per me?	}
@@ -195,7 +195,7 @@
 {	195	}{	Non cerco di rimorchiare tutte le belle fighe che vedo.	}{	Non cerco di rimorchiare tutte le belle fighe che vedo.	}{	321	}{	OneOfSet(5,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, io!	}
 {	196	}{	Non cerco di rimorchiare tutte le belle fighe che vedo.	}{	Non cerco di rimorchiare tutte le belle fighe che vedo.	}{	331	}{	OneOfSet(6,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, io!	}
 {	197	}{	Non cerco di rimorchiare tutte le belle fighe che vedo.	}{	Non cerco di rimorchiare tutte le belle fighe che vedo.	}{	341	}{	OneOfSet(7,7)	}{		}{		}{		}{		}{		}{		}{		}{	No, io!	}
-{	198	}{	Scusa, di solito non sono cosi' espansivo. Sei tu che mi ispiri.	}{	Scusa, di solito non sono cosi' espansiva. Sei tu che mi ispiri.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sì, tu sei l'argomento di conversazione più importante.	}
+{	198	}{	Scusa, di solito non sono cosi' espansivo. Sei tu che mi ispiri.	}{	Scusa, di solito non sono cosi' espansiva. Sei tu che mi ispiri.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Si', tu sei l'argomento di conversazione piu' importante.	}
 {	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	201	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
