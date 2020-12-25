@@ -546,11 +546,11 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 922 " I n   o t h e r   n e w s ,   a n   a p p a r e n t   t h i r d   v i c t i m   o f   t h e   S o u t h l a n d   S l a s h e r   h a s   p r o m p t e d   t h e   c l o s i n g   o f   t h e   S a n t a   M o n i c a   P i e r ,   w h e r e   t h e   b o d y   w a s   f o u n d   e a r l i e r   t o n i g h t .   I n v e s t i g a t o r s   s a y   t h e   s c e n e   c l o s e l y   m i r r o r s   t h o s e   o f   s l a y i n g s   i n   G l e n d a l e   a n d   L o n g   B e a c h .   I n   b o t h   c a s e s ,   t h e   b o d i e s   o f   t h e   v i c t i m s   w e r e   d e s c r i b e d   a s   " t o r n   a p a r t " ,   t h o u g h   d e t a i l s   a r e   b e i n g   w i t h h e l d   f r o m   t h e   p u b l i c   a t   t h i s   t i m e .   P o l i c e   u r g e   a n y o n e   w i t h   i n f o r m a t i o n   r e l a t i n g   t o   t h i s   c a s e   t o   c o n t a c t   t h e m . "  0.080 23.680
+PHRASE unicode 1148 " U n ' a l t r a   n o t i z i a ,   l a   t e r z a   v i t t i m a   a c c e r t a t a   d e l   M a s s a c r a t o r e   d i   S o u t h l a n d   h a   c o s t r e t t o   g l i   i n q u i r e n t i   a l l a   c h i u s u r a   d e l   M o l o   d i   S a n t a   M o n i c a ,   d o v e   e '   s t a t o   r i n v e n u t o   i l   c a d a v e r e   p o c o   p r i m a   d i   q u e s t a   n o t t e .   G l i   i n v e s t i g a t o r i   d i c h i a r a n o   c h e   l a   s c e n a   d e l   d e l i t t o   r i s p e c c h i a   i   p r e c e d e n t i   m a s s a c r i   a   G l e n d a l e   e   L o n g   B e a c h .   I n   e n t r a m b i   i   c a s i ,   i   c o r p i   d e l l e   v i t t i m e   e r a n o   " d i v i s i   i n   p e z z i " ,   s e b b e n e   i   d e t t a g l i   i n   m e r i t o   s i a n o   s t a t i   v o l u t a m e n t e   o m e s s i   a l   p u b b l i c o .   L a   p o l i z i a   f a   s a p e r e   c h e   c h i u n q u e   s i a   i n   p o s s e s s o   d i   i n f o r m a z i o n i   r e l a t i v e   a   q u e s t o   c a s o   n o n   e s i t i   a   c o n t a t t a r l a . "  0.080 23.680
 }
 }
 OPTIONS
 {
 voice_duck 1
-speaker_name Newscaster
+speaker_name Annunciatore Radio
 }

@@ -671,11 +671,11 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 1094 " S i m o n   M i l l i g a n ,   h o s t   o f   l o c a l   c a b l e   s h o w   H a u n t e d   L A ,   a n d   h i s   c r e w   a r e   r e p o r t e d   m i s s i n g   t o n i g h t .   T h e   t e a m   o f   t h e   p o p u l a r   s u p e r n a t u r a l - t h e m e d   p r o g r a m   w e r e   f i l m i n g   a r o u n d   d o w n t o w n   L o s   A n g e l e s   a c c o r d i n g   t o   t h e   s h o w ' s   p r o d u c e r ,   b u t   f r i e n d s   a n d   f a m i l y   o f   t h e   c r e w   s t a r t e d   t o   w o r r y   w h e n   t h e y   f a i l e d   t o   r e t u r n   f r o m   a   n i g h t   o f   s h o o t i n g .   N o   t r a c e   h a s   b e e n   f o u n d   y e t   o f   t h e   H a u n t e d   L A   t e a m ,   a n d   r u m o r s   b y   t h e   s h o w s   f a n s   s p e c u l a t e   t h a t   t h e   c r e w   m e t   a   s u p e r n a t u r a l   e n d ,   t h o u g h   p o l i c e   d i s a g r e e   a n d   h a v e   s t a r t e d   a   s w e e p   o f   t h e   a r e a s   w h e r e   t h e   c r e w   w a s   f i l m i n g . "  0.048 28.128
+PHRASE unicode 1316 " S i m o n   M i l l i g a n ,   a u t o r e   d i   H a n t e d   L A   s u   u n a   t v   l o c a l e ,   e   i l   s u o   s t a f f   s o n o   s t a t i   d a t i   p e r   d i s p e r s i   q u e s t a   n o t t e .   L a   s q u a d r a   d e l   f a m o s o   p r o g r a m m a   d i   s u r r e a l e   s t a v a   f a c e n d o   d e l l e   r i p r e s e   n e i   d i n t o r n i   d e l   c e n t r o   d i   L o s   A n g e l e s ,   d ' a c c o r d o   c o n   i l   p r o d u t t o r e   d e l l o   s h o w ,   m a   g l i   a m i c i   e   i   f a m i l i a r i   d e l   t e a m   h a n n o   c o m i n c i a t o   a   p r e o c c u p a r s i   q u a n d o   n o n   h a n n o   f a t t o   r i t o r n o   d o p o   u n a   n o t t e   d i   r i p r e s e .   F i n ' o r a   n o n   s o n o   s t a t e   r i n v e n u t e   t r a c c e   d e l   t e a m   d i   H a u n t e d   L A ,   e   t r a   i   f a n s   d e l l o   s h o w   e '   d i f f u s a   l ' i p o t e s i   s o p r a n n a t u r a l e   d e l l a   f i n e   d e l l o   s t a f f ,   t u t t a v i a   l a   p o l i z i a   n o n   c o n c o r d a   e   h a   c o m i n c i a t o   a   r a s t r e l l a r e   i   l u o g h i   i n   c u i   i l   g r u p p o   s t a v a   e f f e t t u a n d o   l e   r i p r e s e . "  0.048 28.128
 }
 }
 OPTIONS
 {
 voice_duck 1
-speaker_name Newscaster
+speaker_name Annunciatore Radio
 }

@@ -407,11 +407,11 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 686 " A n o t h e r   m u r d e r   i n   H o l l y w o o d   t o n i g h t   a t   a n   a d u l t   b o o k s t o r e .   A   p e e p   s h o w   d a n c e r   w a s   k i l l e d   i n   t h e   b a s e m e n t   o f   t h e   s t o r e ,   a n d   i n v e s t i g a t o r s   a r e   s t i l l   t r y i n g   t o   p u t   t h e   p i e c e s   t o g e t h e r ,   s i n c e   n o   o n e   p r e s e n t   s a w   o r   h e a r d   a n y t h i n g .   I t   i s   u n k n o w n   a t   t h i s   t i m e   w h a t   t h e   m o t i v e s   w e r e ,   b u t   t h e   p o l i c e   a r e   r u l i n g   o u t   t h e   S o u t h l a n d   S l a s h e r   a s   a   s u s p e c t . "  0.032 16.640
+PHRASE unicode 768 " U n   a l t r o   o m i c i d i o   a d   H o l l y w o o d   q u e s t a   n o t t e   i n   u n a   l i b r e r i a   p e r   a d u l t i .   U n a   b a l l e r i n a   e '   s t a t a   u c c i s a   n e l l o   s c a n t i n a t o   d e l   n e g o z i o ,   e   g l i   i n v e s t i g a t o r i   s t a n n o   a n c o r a   c e r c a n d o   d i   m e t t e r e   i   p e z z i   i n s i e m e ,   d a l   m o m e n t o   c h e   n e s s u n o   d e i   p r e s e n t i   h a   v i s t o   o   s e n t i t o   q u a l c o s a .   A l   m o m e n t o   n o n   s i   c o n o s c o n o   i   p r o b a b i l i   m o t i v i ,   m a   l a   p o l i z i a   e s c l u d e   i l   M a s s a c r a t o r e   d i   S o u t h l a n d   c o m e   s o s p e t t o . "  0.032 16.640
 }
 }
 OPTIONS
 {
 voice_duck 1
-speaker_name Newscaster
+speaker_name Annunciatore Radio
 }

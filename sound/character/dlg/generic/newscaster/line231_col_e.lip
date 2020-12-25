@@ -463,11 +463,11 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 752 " M i s t a k e n   i d e n t i t y   m a y   h a v e   l e d   t o   a   m u r d e r   o u t s i d e   t h e   A s p   H o l e   w h e n   a n   u n i d e n t i f i e d   m a n   d r o v e   a   w o o d e n   s t a k e   i n t o   a   e x i t i n g   p a t r o n   o u t s i d e   t h e   p o p u l a r   H o l l y w o o d   c l u b .   T h e   v i c t i m   b o r e   a   r e s e m b l a n c e   t o   A s h   R i v e r s ,   t h e   o w n e r   o f   t h e   A s p   H o l e ,   a n d   i n v e s t i g a t o r s   a r e   s p e c u l a t i n g   t h a t   t h e   a s s a s s i n   m e a n t   t o   k i l l   t h e   p o p u l a r   H o l l y w o o d   s t a r .   R i v e r s   c o u l d   n o t   b e   r e a c h e d   f o r   c o m m e n t . "  0.000 20.144
+PHRASE unicode 892 " U n o   s c a m b i o   d ' i d e n t i t a '   p o t r e b b e   e s s e r e   a l l ' o r i g i n e   d e l l ' o m i c i d i o   f u o r i   d a l l ' A s p   H o l e ,   d o v e   u n   u o m o   n o n   a n c o r a   i d e n t i f i c a t o   h a   t r a f i t t o   c o n   u n   p a l e t t o   d i   l e g n o   u n   c l i e n t e   d e l   n o t o   C l u b   d i   H o l l y w o o d   c h e   s t a v a   a n d a n d o   v i a .   L a   v i t t i m a   a v e v a   u n a   f o r t e   s o m i g l i a n z a   c o n   A s h   R i v e r s ,   p r o p r i e t a r i o   d e l l ' A s p   H o l e ,   e   g l i   i n v e s t i g a t o r i   i p o t i z z a n o   c h e   l ' a s s a s s i n o   a v e s s e   i n t e n z i o n e   d i   u c c i d e r e   l a   f a m o s a   s t a r   d i   H o l l y w o o d .   R i v e r s   n o n   h a   r i l a s c i a t o   c o m m e n t i . "  0.000 20.144
 }
 }
 OPTIONS
 {
 voice_duck 1
-speaker_name Newscaster
+speaker_name Annunciatore Radio
 }

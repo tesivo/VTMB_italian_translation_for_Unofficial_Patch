@@ -393,11 +393,11 @@ CLOSECAPTION
 {
 english
 {
-PHRASE unicode 616 " I   h a v e   d e c i d e d   t o   l e t   t h i s   K i n d r e d   l i v e .   T h e y   s h a l l   b e   i n s t r u c t e d   i n   t h e   w a y s   o f   o u r   k i n d   a n d   b e   g r a n t e d   t h e   s a m e   r i g h t s .   L e t   n o   o n e   s a y   I   a m   u n s y m p a t h e t i c   t o   t h e   p l i g h t s   a n d   c a u s e s   o f   t h i s   c o m m u n i t y .   I   t h a n k   y o u   a l l   f o r   a t t e n d i n g   t h e s e   p r o c e e d i n g s ,   a n d   I   h o p e   t h e i r   s i g n i f i c a n c e   i s   n o t   l o s t .   G o o d   e v e n i n g . "  0.032 21.952
+PHRASE unicode 706 " H o   d e c i s o   d i   l a s c i a r e   v i v e r e   q u e s t o   F r a t e l l o .   D o v r a '   e s s e r e   i s t r u i t o   a l l a   n o s t r a   d o t t r i n a ,   e   d o v r a n n o   e s s e r g l i   g a r a n t i t i   g l i   s t e s s i   d i r i t t i .   N e s s u n o   p u o '   d i r e   c h e   s o n o   i n s e n s i b i l e   a l l e   d i f f i c o l t a '   d e l l a   n o s t r a   c o m u n i t a ' .   R i n g r a z i o   t u t t i   v o i   c h e   a v e t e   p a r t e c i p a t o   a   q u e s t a   c e r i m o n i a ,   e   s p e r o   c h e   n o n   d i m e n t i c h e r e t e   i l   s e n s o   d i   t u t t o   c i o ' .   B u o n a   s e r a t a . "  0.032 21.952
 }
 }
 OPTIONS
 {
 voice_duck 1
-speaker_name Prince
+speaker_name Principe
 }
