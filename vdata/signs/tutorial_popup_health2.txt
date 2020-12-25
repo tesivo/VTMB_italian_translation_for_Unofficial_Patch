@@ -25,7 +25,7 @@ Certi rischi, come il fuoco o attacchi soprannaturali, causano danno aggravato. 
 
 	TextBlock
 	{
-		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
+		"Text"		"Cliccare per continuare"
 		"XPos"		"410"
 		"YPos"		"578"	//572
 		"Wide"		"215"

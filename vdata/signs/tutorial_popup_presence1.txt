@@ -40,7 +40,7 @@ L'uso dell'Ascendente non e' una violazione della Masquerade."
 
 	TextBlock
 	{
-		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
+		"Text"		"Cliccare per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"

@@ -25,7 +25,7 @@ Puoi anche usare le tue Imprese e Discipline nel dialogo. Quando sarai in grado 
 
 	TextBlock
 	{
-		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
+		"Text"		"Cliccare per continuare"
 		"XPos"		"920"	//407, ws-fix
 		"YPos"		"567"	//439, ws-fix
 		"Wide"		"215"

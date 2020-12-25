@@ -27,7 +27,7 @@ La tua salute si rigenera col tempo. Quando ti nutri, essa salira' piu' veloceme
 
 	TextBlock
 	{
-		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
+		"Text"		"Cliccare per continuare"
 		"XPos"		"410"
 		"YPos"		"578"	//572
 		"Wide"		"215"

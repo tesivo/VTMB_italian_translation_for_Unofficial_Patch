@@ -26,7 +26,7 @@ La RObustezza e' molto efficace se usata con un'altra arma. Dopo aver attivato l
 
 	TextBlock
 	{
-		"Text"		"Cliccare con il tasto sinistro del mouse per continuare"
+		"Text"		"Cliccare per continuare"
 		"XPos"		"922"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
 		"Wide"		"215"
