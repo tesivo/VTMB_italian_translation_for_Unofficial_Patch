@@ -128,7 +128,7 @@
 {	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	131	}{	Tung e le influenze del suo socio mi hanno rovinato la possibilit� di collaborare all'acquisto di una propriet�. Ho altri progetti piuttosto promettenti, ed uno in particolare � stato un vero travaglio.	}{	Tung e le influenze del suo socio mi hanno rovinato la possibilit� di collaborare all'acquisto di una propriet�. Ho altri progetti piuttosto promettenti, ed uno in particolare � stato un vero travaglio.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Tung e le influenze del suo socio mi hanno rovinato la possibilita' di collaborare all'acquisto di una proprieta'. Ho altri progetti piuttosto promettenti, ed uno in particolare e' stato un vero travaglio.	}{	Tung e le influenze del suo socio mi hanno rovinato la possibilita' di collaborare all'acquisto di una proprieta'. Ho altri progetti piuttosto promettenti, ed uno in particolare e' stato un vero travaglio.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	132	}{	(Auto-Link)	}{	(Auto-Link)	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-Link)	}
 {	133	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	134	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -229,7 +229,7 @@
 {	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	231	}{	Ho pienamente intenzione di farlo. Ti accorgerai che trattare con me e', tutto sommato, decisamente rassicurante che trattare con qualche egocentrico del mio stesso rango. A condizione che il nostro business non marcisca, il mio mondo e' la ricchezza.	}{	Ho pienamente intenzione di farlo. Ti accorgerai che trattare con me e', tutto sommato, decisamente rassicurante che trattare con qualche egocentrico del mio stesso rango. A condizione che il nostro business non marcisca, il mio mondo e' la ricchezza.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Therese_Quest = 1; pc.SetQuest("Hotel",1)	}{		}{		}{		}{		}{		}{		}{		}
-{	232	}{	Business? Intendi l'arte di fregare le persone?	}{	Business? Intendi l'arte di fregare le persone?	}{	661	}{		}{	G.Therese_Seduce = G.Therese_Seduce - 1	}{		}{		}{		}{		}{		}{		}{	Allora io sono fuori della Casa sull'Oceano.	}
+{	232	}{	Business? Intendi l'arte di fregare le persone?	}{	Business? Intendi l'arte di fregare le persone?	}{	661	}{		}{	G.Therese_Seduce = G.Therese_Seduce - 1	}{		}{		}{		}{		}{		}{		}{	Allora io sono fuori della Ocean House.	}
 {	233	}{	Lo rispetto. E lo apprezzo. Ci vediamo.	}{	Lo rispetto. E lo apprezzo. Ci vediamo.	}{	661	}{		}{	G.Therese_Seduce = G.Therese_Seduce + 1	}{		}{		}{		}{		}{		}{		}{	Le tue parole sono come un nettore succoso, oscura signora. Addio.	}
 {	234	}{	Va bene. Ci vediamo.	}{	Va bene. Ci vediamo.	}{	661	}{		}{		}{		}{		}{		}{		}{		}{		}{	Me ne vado.	}
 {	235	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -240,7 +240,7 @@
 {	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	241	}{	Se vuoi scusarmi, vado a sistemare alcune faccende.	}{	Se vuoi scusarmi, vado a sistemare alcune faccende.	}{	#	}{	npc.SetDisposition("Apathy",1)	}{	G.Therese_Bother = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	242	}{	Ho qualche domanda.	}{	Ho qualche domanda.	}{	671	}{		}{		}{		}{		}{		}{		}{		}{		}{	Qualche altra risposta dalla tua materia grigia.	}
-{	243	}{	Okay. Ci vediamo.	}{	Okay. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Allora io sono fuori della Casa sull'Oceano.	}
+{	243	}{	Okay. Ci vediamo.	}{	Okay. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Allora io sono fuori della Ocean House.	}
 {	244	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	245	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -671,8 +671,8 @@
 {	671	}{	[Sigh]...	}{	[Sigh]...	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	672	}{	Perche' odi Bertram Tung?	}{	Perche' odi Bertram Tung?	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' c'e' cosi' tanto odio tra te e il verme?	}
 {	673	}{	Parlami di tua sorella.	}{	Parlami di tua sorella.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Parlami di tua sorella, la principessa bianca.	}
-{	674	}{	Mi occupero' del tuo problema all'Ocean House. Cosa devo fare?	}{	Mi occupero' del tuo problema all'Ocean House. Cosa devo fare?	}{	191	}{	G.Therese_Quest == 0	}{	G.Therese_Questions = 0	}{		}{		}{		}{		}{		}{		}{	Andro' alla tua Casa sull'Oceano. Cosa devo fare?	}
-{	675	}{	Cosa dovro' fare all'Ocean House Hotel?	}{	Cosa dovro' fare all'Ocean House Hotel?	}{	191	}{	G.Therese_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quali imprese devo compiere alla Casa sull'Oceano?	}
+{	674	}{	Mi occupero' del tuo problema all'Ocean House. Cosa devo fare?	}{	Mi occupero' del tuo problema all'Ocean House. Cosa devo fare?	}{	191	}{	G.Therese_Quest == 0	}{	G.Therese_Questions = 0	}{		}{		}{		}{		}{		}{		}{	Andro' alla tua Ocean House. Cosa devo fare?	}
+{	675	}{	Cosa dovro' fare all'Ocean House Hotel?	}{	Cosa dovro' fare all'Ocean House Hotel?	}{	191	}{	G.Therese_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{	Quali imprese devo compiere alla Ocean House?	}
 {	676	}{	Ho cambiato idea. Addio.	}{	Ho cambiato idea. Addio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia mente e' adnata. E il mio corpo la segue.	}
 {	677	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	678	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

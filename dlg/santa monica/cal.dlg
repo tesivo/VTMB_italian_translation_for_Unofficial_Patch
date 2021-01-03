@@ -99,7 +99,7 @@
 {	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	101	}{	Va bene, senti, ti concedo un'opportunita' perche' siamo occupati. Diro' a Therese che stai arrivando. Prendi l'ascensore di la'. Ma se vengo a sapere che non avresti dovuto trovarti da quelle parti, io e te avremo un piccolo faccia-a-faccia, mi hai sentito?	}{	Va bene, senti, ti concedo un'opportunita' perche' siamo occupati. Diro' a Therese che stai arrivando. Prendi l'ascensore di la'. Ma se vengo a sapere che non avresti dovuto trovarti da quelle parti, io e te avremo un piccolo faccia-a-faccia, mi hai sentito?	}{	#	}{	npc.SetDisposition("Bartender", 1)	}{	G.Cal_Permission = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	102	}{	Grazie. Ci vediamo.	}{	ThanGrazie. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Grazie. Ci vediamo.	}{	Grazie. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	103	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

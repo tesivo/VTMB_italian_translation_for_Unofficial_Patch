@@ -336,14 +336,14 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4" // added by wesp
-			"Description"	"Con la riconciliazione delle sorelle, avete dato a Teresa i mezzi per liberare gli spiriti dalla Casa dell'Oceano, consegnando cosi' la sfortunata moglie alla sua eterna ricompensa e il marito assassino alla sua eterna dannazione."
+			"Description"	"Con la riconciliazione delle sorelle, avete dato a Teresa i mezzi per liberare gli spiriti dalla Ocean House, consegnando cosi' la sfortunata moglie alla sua eterna ricompensa e il marito assassino alla sua eterna dannazione."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"5" // added by wesp
-			"Description"	"Avete intrappolato lo spirito della donna condannata nella Casa dell'Oceano con il fantasma assassino del marito per tutta l'eternita', tenendo il ciondolo."
+			"Description"	"Avete intrappolato lo spirito della donna condannata nella Ocean House con il fantasma assassino del marito per tutta l'eternita', tenendo il ciondolo."
 			"Type"		"failure"
 		}
 
@@ -794,14 +794,14 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"7" // Tourette 871, added by wesp
-			"Description"	"Con la riconciliazione delle sorelle Teresa ha ottenuto alla fine il ciondolo della Casa dell'Oceano."
+			"Description"	"Con la riconciliazione delle sorelle Teresa ha ottenuto alla fine il ciondolo della Ocean House."
 			"Type"		"success"
 		}
 
 		CompletionState
 		{
 			"ID"		"8" // Tourette 743, added by wesp
-			"Description"	"Alla fine sei riuscito a dare il ciondolo della Casa dell'Oceano a Therese."
+			"Description"	"Alla fine sei riuscito a dare il ciondolo della Ocean House a Therese."
 			"Type"		"success"
 		}
 
