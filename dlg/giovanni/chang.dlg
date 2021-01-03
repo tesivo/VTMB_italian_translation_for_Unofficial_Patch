@@ -3,30 +3,30 @@
 {	3	}{	Discutiamone, di qualunque cosa si tratti.	}{	Discutiamone, di qualunque cosa si tratti.	}{	11	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	Da dove credete di aver preso tutta questa rabbia? Forse da vostro padre?	}
 {	4	}{	Chi dovrebbe fermarmi, voi due scarti?	}{	Chi dovrebbe fermarmi, voi due scarti?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Da un horror all'italiana ad un film di kung fu, le due facce della medaglia.	}
 {	5	}{	Amo il suono della parola Conseguenze.	}{	Amo il suono della parola Conseguenze.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Conseguenze? Ooh... per esempio?	}
-{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	11	}{	C'e' un'alleanza tra il tuo leader, LaCroix, e la signora Ming-Xiao! Stai violando l'accordo! Se non te ne vai, non saremo responsabili della tua morte.	}{	C'e' un'alleanza tra il tuo leader, LaCroix, e la signora Ming-Xiao! Stai violando l'accordo! Se non te ne vai, non saremo responsabili della tua morte.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	12	}{	Ma che alleanza! Ma che alleanza! Di cosa state parlando?	}{	Ma che alleanza! Di cosa state parlando?	}{	21	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Non capisco.	}
-{	13	}{	Cazzate! Non c'e' nessuna alleanza!	}{	Cazzate! Non c'e' nessuna alleanza!	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Alleanza? E' un'altra di quelle parole false?	}
+{	12	}{	Che alleanza? Di cosa state parlando?	}{	Che alleanza? Di cosa state parlando?	}{	21	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Non ho previsto questi legami.	}
+{	13	}{	Cazzate! Non c'e' nessuna alleanza!	}{	Cazzate! Non c'e' nessuna alleanza!	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Alleanza? E' un'altra parola per falsità?	}
 {	14	}{	Devo trovare un agente pubblicitario. E' chiaro che voi due non conoscete la mia reputazione.	}{	Devo trovare un agente pubblicitario. E' chiaro che voi due non conoscete la mia reputazione.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' dovete sempre parlare prima di un combattimento? Blah blah blah....	}
 {	15	}{	Non preoccupatevi, non sarete responsabili. Glielo diro' io.	}{	Non preoccupatevi, non sarete responsabili. Glielo diro' io.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Credete che il vostro kung fu sia cosi' forte? Bene, huh huh... attaccate!	}
 {	16	}{	Ho sempre desiderato uccidere un Kuei-jin. E ora ne ho due al prezzo di uno. Andiamo!	}{	Ho sempre desiderato uccidere un Kuei-jin. E ora ne ho due al prezzo di uno. Andiamo!	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Nati insieme, morti insieme.... Detesto sfasciare le famiglie.	}
-{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	21	}{	Ti daremo un'ultima possibilita' per lasciare questo posto da vivo. Te ne andrai?	}{	Ti daremo un'ultima possibilita' per lasciare questo posto da viva. Te ne andrai?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Ho una missione... restero'.	}{	Ho una missione... restero'.	}{	31	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Come disse George Washington, "Pedro, non posso".	}
-{	23	}{	Nessuno mi dice cosa fare... ultimamente sono gia' in troppi, ed ora mi sono stancato.	}{	Nessuno mi dice cosa fare... ultimamente sono gia' in troppi, ed ora mi sono stancata.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Stai ancora parlando? Ma avevo spento...!	}
-{	24	}{	No.	}{	No.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	NON me ne andro'.	}
-{	25	}{	Va bene Dragoni Gemelli profughi, diamoci da fare.	}{	Va bene Dragoni Gemelli profughi, diamoci da fare.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non siete troppo piccoli per fare i boss? La mente mi sta dicendo qualcosa a proposito della vostra debolezza...	}
-{	26	}{	Sono deluso che ci siano solo due Kuei-jin da uccidere. Ma dato che ci siete...Cominciamo.	}{	Sono delusa che ci siano solo due Kuei-jin da uccidere. Ma dato che ci siete...Cominciamo.	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Solo due? Ma i Ninja non attaccano in gruppo! Ahh, bene, two e' meglio che one.	}
-{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	31	}{	Il tempo della scelta e' passato. Noi, i fratelli Chang accettiamo con onore la tua vita.	}{	Il tempo della scelta e' passato. Noi, i fratelli Chang accettiamo con onore la tua vita.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	32	}{	Sorry, but you won't get it.	}{	Sorry, but you won't get it.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	But my life is mine!	}
+{	23	}{	Nessuno mi dice cosa fare... in realta' ultimamente lo fanno in tanti, ed ora mi sono stancato.	}{	Nessuno mi dice cosa fare... in realta' ultimamente lo fanno in tanti, ed ora mi sono stancata.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Stai ancora parlando? La mia testa stava vagando.	}
+{	24	}{	No.	}{	No.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non me ne vado.	}
+{	25	}{	Va bene profughi dei Dragoni Gemelli, diamoci da fare.	}{	Va bene profughi dei Dragoni Gemelli, diamoci da fare.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non siete troppo piccoli per essere dei boss? Potete dirmi la vostra debolezza?	}
+{	26	}{	Sono deluso che siete solo in due da uccidere. Ma ora mi è passata...Cominciamo.	}{	Sono delusa che siete solo in due da uccidere. Ma ora mi è passata...Cominciamo.	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Solo due? Ma i Ninja attaccano in gruppo! Ahh, neh, meglio di niente.	}
+{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Il tempo della scelta e' scaduto. Noi, i fratelli Chang, accettiamo con onore la tua vita.	}{	Il tempo della scelta e' scaduto. Noi, i fratelli Chang, accettiamo con onore la tua vita.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Scusatemi, ma non la avrete.	}{	Scusatemi, ma non la avrete.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ma la mia vita è mia!	}
