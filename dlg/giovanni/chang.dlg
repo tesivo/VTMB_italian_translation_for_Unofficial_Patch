@@ -1,32 +1,32 @@
-{	1	}{	Kindred! Your presence here violates the agreement between our leaders! Leave now or face the consequences of your actions!	}{	Kindred! Your presence here violates the agreement between our leaders! Leave now or face the consequences of your actions!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	What are you talking about?	}{	What are you talking about?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	???	}
-{	3	}{	Let's discuss this problem, whatever it may be.	}{	Let's discuss this problem, whatever it may be.	}{	11	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	Where do you think this anger stems from? Your father, maybe?	}
-{	4	}{	Who's going to stop me, you two wire-fu rejects?	}{	Who's going to stop me, you two wire-fu rejects?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	From a spaghetti horror to a kung fu film, this is some double feature.	}
-{	5	}{	Consequences, I like the sound of that.	}{	Consequences, I like the sound of that.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Consequences? Ooh... like what?	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	There is an alliance between your leader, LaCroix, and mistress Ming-Xiao! You violate the agreement! If you do not leave, we are not responsible for your death!	}{	There is an alliance between your leader, LaCroix, and mistress Ming-Xiao! You violate the agreement! If you do not leave, we are not responsible for your death!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	What alliance? What are you talking about?	}{	What alliance? What are you talking about?	}{	21	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	I did not see these bonds.	}
-{	13	}{	Bullshit! There's no alliance!	}{	Bullshit! There's no alliance!	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Alliance? Is that another word for untruth?	}
-{	14	}{	I've got to get a publicist. You two obviously aren't aware of my reputation.	}{	I've got to get a publicist. You two obviously aren't aware of my reputation.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why do they always talk before they fight? Blah blah blah....	}
-{	15	}{	Don't worry, you won't be responsible. I'll tell them.	}{	Don't worry, you won't be responsible. I'll tell them.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You think your kung fu's pretty good? Well, huh huh... fight me!	}
-{	16	}{	I've always wanted to kill a Kuei-jin. Looks like I get a two-for-one. C'mon!	}{	I've always wanted to kill a Kuei-jin. Looks like I get a two-for-one. C'mon!	}{	0	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Born together, die together.... I'd hate to break up a family.	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	We'll give you one more chance to leave this place and keep your life. You will go?	}{	We'll give you one more chance to leave this place and keep your life. You will go?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	I've got my mission... I will stay.	}{	I've got my mission... I will stay.	}{	31	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	In the words of George Washington, "No can do, Pedro".	}
-{	23	}{	Nobody tells me what to do... actually a lot do, but here's where I get even.	}{	Nobody tells me what to do... actually a lot do, but here's where I get even.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are you still talking? I tuned out.	}
-{	24	}{	No.	}{	No.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am NOT gone.	}
-{	25	}{	Alright you Double Dragon refugees, let's do this thing.	}{	Alright you Double Dragon refugees, let's do this thing.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Aren't you guys a little small to be bosses? Mind telling me your weakness?	}
-{	26	}{	I'm disappointed there's only two of you to kill. Now I'm over it. Let's begin.	}{	I'm disappointed there's only two of you to kill. Now I'm over it. Let's begin.	}{	0	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Just two? Ninjas attack in groups! Aww well, two kills are better than none.	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	The time for decisions has passed. We Chang brothers accept your life graciously.	}{	The time for decisions has passed. We Chang brothers accept your life graciously.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Fratello! La tua presenza qui viola l'accordo tra i nostri leader! Vattene ora o affronta le conseguenze delle tue azioni!	}{	Sorella! La tua presenza qui viola l'accordo tra i nostri leader! Vattene ora o affronta le conseguenze delle tue azioni!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Di cosa state parlando?	}{	Di cosa state parlando?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	???	}
+{	3	}{	Discutiamone, di qualunque cosa si tratti.	}{	Discutiamone, di qualunque cosa si tratti.	}{	11	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	Da dove credete di aver preso tutta questa rabbia? Forse da vostro padre?	}
+{	4	}{	Chi dovrebbe fermarmi, voi due scarti?	}{	Chi dovrebbe fermarmi, voi due scarti?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Da un horror all'italiana ad un film di kung fu, le due facce della medaglia.	}
+{	5	}{	Amo il suono della parola Conseguenze.	}{	Amo il suono della parola Conseguenze.	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Conseguenze? Ooh... per esempio?	}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	C'e' un'alleanza tra il tuo leader, LaCroix, e la signora Ming-Xiao! Stai violando l'accordo! Se non te ne vai, non saremo responsabili della tua morte.	}{	C'e' un'alleanza tra il tuo leader, LaCroix, e la signora Ming-Xiao! Stai violando l'accordo! Se non te ne vai, non saremo responsabili della tua morte.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Ma che alleanza! Ma che alleanza! Di cosa state parlando?	}{	Ma che alleanza! Di cosa state parlando?	}{	21	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Non capisco.	}
+{	13	}{	Cazzate! Non c'e' nessuna alleanza!	}{	Cazzate! Non c'e' nessuna alleanza!	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Alleanza? E' un'altra di quelle parole false?	}
+{	14	}{	Devo trovare un agente pubblicitario. E' chiaro che voi due non conoscete la mia reputazione.	}{	Devo trovare un agente pubblicitario. E' chiaro che voi due non conoscete la mia reputazione.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' dovete sempre parlare prima di un combattimento? Blah blah blah....	}
+{	15	}{	Non preoccupatevi, non sarete responsabili. Glielo diro' io.	}{	Non preoccupatevi, non sarete responsabili. Glielo diro' io.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Credete che il vostro kung fu sia cosi' forte? Bene, huh huh... attaccate!	}
+{	16	}{	Ho sempre desiderato uccidere un Kuei-jin. E ora ne ho due al prezzo di uno. Andiamo!	}{	Ho sempre desiderato uccidere un Kuei-jin. E ora ne ho due al prezzo di uno. Andiamo!	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Nati insieme, morti insieme.... Detesto sfasciare le famiglie.	}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Ti daremo un'ultima possibilita' per lasciare questo posto da vivo. Te ne andrai?	}{	Ti daremo un'ultima possibilita' per lasciare questo posto da viva. Te ne andrai?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Ho una missione... restero'.	}{	Ho una missione... restero'.	}{	31	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Come disse George Washington, "Pedro, non posso".	}
+{	23	}{	Nessuno mi dice cosa fare... ultimamente sono gia' in troppi, ed ora mi sono stancato.	}{	Nessuno mi dice cosa fare... ultimamente sono gia' in troppi, ed ora mi sono stancata.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Stai ancora parlando? Ma avevo spento...!	}
+{	24	}{	No.	}{	No.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	NON me ne andro'.	}
+{	25	}{	Va bene Dragoni Gemelli profughi, diamoci da fare.	}{	Va bene Dragoni Gemelli profughi, diamoci da fare.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non siete troppo piccoli per fare i boss? La mente mi sta dicendo qualcosa a proposito della vostra debolezza...	}
+{	26	}{	Sono deluso che ci siano solo due Kuei-jin da uccidere. Ma dato che ci siete...Cominciamo.	}{	Sono delusa che ci siano solo due Kuei-jin da uccidere. Ma dato che ci siete...Cominciamo.	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Solo due? Ma i Ninja non attaccano in gruppo! Ahh, bene, two e' meglio che one.	}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Il tempo della scelta e' passato. Noi, i fratelli Chang accettiamo con onore la tua vita.	}{	Il tempo della scelta e' passato. Noi, i fratelli Chang accettiamo con onore la tua vita.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Sorry, but you won't get it.	}{	Sorry, but you won't get it.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	But my life is mine!	}
