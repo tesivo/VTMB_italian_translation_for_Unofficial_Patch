@@ -19,7 +19,7 @@
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	21	}{	Vedo. Benvenuto nella Confraternita. Il vescovo ti ricevera' di sopra.	}{	Vedo. Benvenuto nella Confraternita. Il vescovo ti ricevera' di sopra.	}{	#	}{		}{	G.Jumbles_Enter = 1; pc.AwardExperience("AllPlague02"); pc.RemoveItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}
-{	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	22	}{	Grazie.	}{	Grazie.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi vedrà e morirà.	}
 {	23	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -29,7 +29,7 @@
 {	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	31	}{	Tutti i nuovi fratelli e le nuove sorelle devono andare a vedere il vescovo. Ti sta aspettando! Va' di sopra.	}{	Tutti i nuovi fratelli e le nuove sorelle devono andare a vedere il vescovo. Ti sta aspettando! Va' di sopra.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
+{	32	}{	Grazie.	}{	Grazie.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi vedrà e morirà.	}
 {	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -40,7 +40,7 @@
 {	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	41	}{	Di gia' illuminato, fratello?	}{	Di gia' illuminata, sorella?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	Uh... si'?	}{	Uh... si'?	}{	11	}{	not pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	A quale delle mie personalita' stai parlando?	}
-{	43	}{	Immagino di no.	}{	Immagino di no.	}{	11	}{	not pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	Se "illuminato" vuol dire psicologicamente eccitato, allora si'!	}
+{	43	}{	Immagino di no.	}{	Immagino di no.	}{	11	}{	not pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	Se "illuminato" vuol dire psicologicamente danneggiato, allora si'!	}
 {	44	}{	Si'. (Show him the flyer.)	}{	Si'. (Show him the flyer.)	}{	21	}{	pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	Alleluia, fratello. Vedo la luce. (Give him the flyer.)	}
 {	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
