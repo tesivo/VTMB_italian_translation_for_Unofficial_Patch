@@ -1,26 +1,26 @@
-{	1	}{	Hey there, handsome. My name is Misti. Can I interest you in a private dance? I've got something special in mind, just for you.	}{	Hey there, sweetheart. My name is Misti. Can I interest you in a private dance? I've got something special in mind, just for you.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Sounds great.	}{	Sounds great.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	No thanks. If I change my mind, I'll come find you.	}{	No thanks. If I change my mind, I'll come find you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	No doubt your dances would bring the sweet little death. Perhaps later.	}
-{	4	}{	Forget it. I've seen better bodies in a morgue.	}{	Forget it. I've seen better bodies in a morgue.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Better to play with dead ringworms.	}
-{	5	}{	Let me swim in your lava lagoon.	}{	Let me swim in your lava lagoon.	}{	161	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Ciao, bello. Mi chiamo Misti. Ti interessa un ballo privato? Ho qualcos di speciale in mente, solo per te.	}{	Ciao, bellezza. Mi chiamo Misti. Ti interessa un ballo privato? Ho qualcos di speciale in mente, solo per te.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Fantastico.	}{	Fantastico.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	No grazie. Se cambio idea, vengo a trovarti.	}{	No grazie. Se cambio idea, vengo a trovarti.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Senza dubbio le tue danze porteranno una dolce morte. Forse dopo.	}
+{	4	}{	Meglio di no. Ho visto corpi migliori in un obitorio.	}{	Meglio di no. Ho visto corpi migliori in un obitorio.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Preferirei giocare con i vermi morti.	}
+{	5	}{ Fammi nuotare nel tuo lago di lava.	}{	Fammi nuotare nel tuo lago di lava.	}{	161	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Great. Now all I need from you is 100 dollars, and then we can go back and get things started.	}{	Great. Now all I need from you is 100 dollars, and then we can go back and get things started.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Sounds good to me. Here's a C-note.	}{	Sounds good to me. Here's a C-note.	}{	41	}{	pc.CurrentMoney() >= 100	}{	pc.MoneyRemove( 100 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Here is a hundred pieces of gold.	}
-{	13	}{	100 bucks? Come on. How about 75?	}{	100 bucks? Come on. How about 75?	}{	41	}{	Haggle 6 & pc.CurrentMoney() >= 75	}{	pc.MoneyRemove( 75 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Seventy-five simoleons and no more.	}
-{	14	}{	So much? Even for me? Come on, sweetheart... how about 60?	}{	So much? Even for me? Come on, sweetheart... how about 60?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 60 and not IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 60 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Sixty is a better price for one as fractured as I.	}
-{	15	}{	So much? Even for me? Come on, sweetheart... how about 40?	}{	So much? Even for me? Come on, sweetheart... how about 40?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 40 and IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 40 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	Actually, I'm a little short on cash, baby.	}{	Actually, I'm a little short on cash, baby.	}{	71	}{	}{	G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	My pockets are as empty as my head.	}
+{	11	}{	Benissimo. Ora ho solo bisogno di 100 dollari, e possiamo iniziare la festa.	}{	Benissimo. Ora ho solo bisogno di 100 dollari, e possiamo iniziare la festa.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Per me va bene. Ecco qui.	}{	Per me va bene. Ecco qui.	}{	41	}{	pc.CurrentMoney() >= 100	}{	pc.MoneyRemove( 100 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Ecco 100 pezzi d'oro.	}
+{	13	}{	100 dollari? Ma dai. Che ne dici di 75?	}{	100 dollari? Ma dai. Che ne dici di 75?	}{	41	}{	Haggle 6 & pc.CurrentMoney() >= 75	}{	pc.MoneyRemove( 75 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Settantacinque simoleons e non uno in piu'.	}
+{	14	}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 60?}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 60?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 60 and not IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 60 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Sessanta e' un prezzo migliore per una persona spezzata come me.	}
+{	15	}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 40?	}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 40?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 40 and IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 40 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	In realtà ho pochi soldi, tesoro.}{	In realtà ho pochi soldi, tesoro.	}{	71	}{	}{	G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Le mie tasche sono vuote come la mia testa.	}
 {	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	Forget it. I'm outta here.	}{	Forget it. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	21	}{	Mmmm. Hi, there. Good to see you again, sweetheart. Want to have a little party? Just you and me?	}{	Mmmm. Hi, there. Good to see you again, sweetheart. Want to have a little party? Just you and me?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Oh yeah!	}{	Oh yeah!	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	If that party is in your private places....	}
-{	23	}{	Sorry, Misti. Maybe later.	}{	Sorry, Misti. Maybe later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I've no time for your devilish dance. Farewell.	}
+{	20	}{	Lascia stare. Me ne vado. }{	Lascia stare. Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
+{	21	}{	Mmm. Ehila'. Che bello rivederti, dolcezza. Vuoi divertirti un po'? Solo io e te? }{	Mmm. Ehila'. Che bello rivederti, dolcezza. Vuoi divertirti un po'? Solo io e te?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Oh si!	}{	Oh si!	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{ Se quel divertimento e' nelle tue parti private...	}
+{	23	}{	Scusa, Misti. Forse dopo.	}{	Scusa, Misti. Forse dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{ Non ho tempo per la tua danza diabolica. Addio.	}
 {	24	}{	Whatever. If I get that desperate, I'll jump off a bridge.	}{	Whatever. If I get that desperate, I'll jump off a bridge.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'd sooner boogie with a dung beetle.	}
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
