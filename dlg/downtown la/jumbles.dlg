@@ -19,7 +19,7 @@
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	21	}{	Vedo. Benvenuto nella Confraternita. Il vescovo ti ricevera' di sopra.	}{	Vedo. Benvenuto nella Confraternita. Il vescovo ti ricevera' di sopra.	}{	#	}{		}{	G.Jumbles_Enter = 1; pc.AwardExperience("AllPlague02"); pc.RemoveItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}
-{	22	}{	Grazie.	}{	Grazie.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi vedrà e morirà.	}
+{	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}	
 {	23	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -29,7 +29,7 @@
 {	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	31	}{	Tutti i nuovi fratelli e le nuove sorelle devono andare a vedere il vescovo. Ti sta aspettando! Va' di sopra.	}{	Tutti i nuovi fratelli e le nuove sorelle devono andare a vedere il vescovo. Ti sta aspettando! Va' di sopra.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	32	}{	Grazie.	}{	Grazie.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi vedrà e morirà.	}
+{	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}	
 {	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
