@@ -40,7 +40,7 @@
 {	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	41	}{	Di gia' illuminato, fratello?	}{	Di gia' illuminata, sorella?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	Uh... si'?	}{	Uh... si'?	}{	11	}{	not pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	A quale delle mie personalita' stai parlando?	}
-{	43	}{	Immagino di no.	}{	Immagino di no.	}{	11	}{	not pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	Se "illuminato" vuol dire psicologicamente eccitato, allora si'!	}
+{	43	}{	Immagino di no.	}{	Immagino di no.	}{	11	}{	not pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	Se "illuminato" vuol dire psicologicamente danneggiato, allora si'!	}
 {	44	}{	Si'. (Show him the flyer.)	}{	Si'. (Show him the flyer.)	}{	21	}{	pc.HasItem("item_g_brotherhood_flyer")	}{		}{		}{		}{		}{		}{		}{		}{	Alleluia, fratello. Vedo la luce. (Give him the flyer.)	}
 {	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
