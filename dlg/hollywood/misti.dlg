@@ -1,4 +1,4 @@
-{	1	}{	Ciao, bello. Mi chiamo Misti. Ti interessa un ballo privato? Ho qualcos di speciale in mente, solo per te.	}{	Ciao, bellezza. Mi chiamo Misti. Ti interessa un ballo privato? Ho qualcos di speciale in mente, solo per te.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Ciao, bello. Mi chiamo Misti. Ti interessa un ballo privato? Ho qualcosa di speciale in mente, solo per te.	}{	Ciao, bellezza. Mi chiamo Misti. Ti interessa un ballo privato? Ho qualcosa di speciale in mente, solo per te.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Fantastico.	}{	Fantastico.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	3	}{	No grazie. Se cambio idea, vengo a trovarti.	}{	No grazie. Se cambio idea, vengo a trovarti.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Senza dubbio le tue danze porteranno una dolce morte. Forse dopo.	}
 {	4	}{	Meglio di no. Ho visto corpi migliori in un obitorio.	}{	Meglio di no. Ho visto corpi migliori in un obitorio.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Preferirei giocare con i vermi morti.	}
@@ -21,7 +21,7 @@
 {	21	}{	Mmm. Ehila'. Che bello rivederti, dolcezza. Vuoi divertirti un po'? Solo io e te? }{	Mmm. Ehila'. Che bello rivederti, dolcezza. Vuoi divertirti un po'? Solo io e te?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Oh si!	}{	Oh si!	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{ Se quel divertimento e' nelle tue parti private...	}
 {	23	}{	Scusa, Misti. Forse dopo.	}{	Scusa, Misti. Forse dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{ Non ho tempo per la tua danza diabolica. Addio.	}
-{	24	}{	Whatever. If I get that desperate, I'll jump off a bridge.	}{	Whatever. If I get that desperate, I'll jump off a bridge.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'd sooner boogie with a dung beetle.	}
+{	24	}{	No. Se sono cosi' disperato, meglio che io salti da un ponte.	}{	No. Se sono cosi' disperata, meglio che io salti da un ponte.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Preferirei darci dentro con uno scarabeo stercorario. }
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,8 +38,8 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Okay. Now follow me back to the private rooms and we can get a little more... comfortable.	}{	Okay. Now follow me back to the private rooms and we can get a little more... comfortable.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Lead the way.	}{	Lead the way.	}{	0	}{	}{	G.Misti_Follow = 1	}{	}{	}{	}{	}{	}{	}{	I will follow your busty beacon.	}
+{	41	}{	Okay. Ora seguimi nelle stanze private, cosi' possiamo stare un po' piu... comodi.	}{	Okay. Ora seguimi nelle stanze private, cosi' possiamo stare un po' piu... comode.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Fai strada.	}{	Fai strada.	}{	0	}{	}{	G.Misti_Follow = 1	}{	}{	}{	}{	}{	}{	}{	Seguiro' le tue grandi... segnaletiche.	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -48,8 +48,8 @@
 {	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	Just follow me... we're almost there.	}{	Just follow me... we're almost there.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	Okay.	}{	Okay.	}{	0	}{	}{	G.Misti_Follow = 1	}{	}{	}{	}{	}{	}{	}{	Following....	}
+{	51	}{	Seguimi... ci siamo quasi.	}{	Seguimi... ci siamo quasi.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Okay.	}{	Okay.	}{	0	}{	}{	G.Misti_Follow = 1	}{	}{	}{	}{	}{	}{	}{	Ti seguo....	}
 {	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -58,19 +58,19 @@
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	There we are. Now... what would you like me to do? I just love a man who tells me what he wants and how he wants it.	}{	There we are. Now... what would you like me to do, hmm? I shouldn't tell you this, but dancing for girls always drives me absolutely wild.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Come here, I have a secret to tell you.	}{	Come here, I have a secret to tell you.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc); G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	Come here. I have words to whisper into your secret places....	}
-{	63	}{	I want you to close your eyes, my sweet.	}{	I want you to close your eyes, my sweet.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc); G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	64	}{	Hm, I'm not hungry right now, just dance for me!	}{	Hm, I'm not hungry right now, so get wild for me!	}{	0	}{	G.Patch_Plus == 1	}{	G.Misti_Follow = 0; G.Misti_Dance = 1	}{	}{	}{	}{	}{	}{	}{	Shake it baby!	}
+{	61	}{	Eccoci qua. Ora... cosa vuoi che faccia? Amo un uomo che mi dice cosa vuole e come.}{	Eccoci qua. Ora... cosa vuoi che faccia? Non dovrei dirtelo, ma ballare per le donne mi ha sempre fatto impazzire.}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Vieni qui, ti dico un segreto.}{	Vieni qui, ti dico un segreto.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc); G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	Vieni qui. Ho delle parole da dire in posti segreti...	}
+{	63	}{	Voglio che chiudi gli occhi, tesoro.	}{	Voglio che chiudi gli occhi, tesoro.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc); G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{	Hm, non ho fame ora, balla per me!}{	Hm, non ho fame ora, balla per me!	}{	0	}{	G.Patch_Plus == 1	}{	G.Misti_Follow = 0; G.Misti_Dance = 1	}{	}{	}{	}{	}{	}{	}{	Scuotile baby!	}
 {	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	Actually, I just want to get out of here. See ya.	}{	Actually, I just want to get out of here. See ya.	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	I've forgotten who we are. Farewell.	}
-{	71	}{	What? Then I'm a little short on time, sweetheart. Sorry, but I don't give up these goods for free.	}{	What? Then I'm a little short on time, sweetheart. Sorry, but I don't give up these goods for free.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	I understand. I'll come back when I've got the bucks.	}{	I understand. I'll come back when I've got the bucks.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll find some green and return for some goggling.	}
-{	73	}{	Why should I pay for them? You already did. And you got ripped off, by the way.	}{	Why should I pay for them? You already did. And you got ripped off, by the way.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	I should be paid to stomach your stitchings and stretchings.	}
+{	70	}{	A dir la verità, dovrei andarmene. Ci vediamo.	}{	A dir la verità, dovrei andarmene. Ci vediamo.	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	Ho dimenticato chi siamo. Addio.	}
+{	71	}{	Cosa? E allora io non ho tempo, tesoro. Scusa, ma non regalo queste due bellezze.	}{	Cosa? E allora io non ho tempo, bellezza. Scusa, ma non regalo queste due bellezze.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{ Capisco. Tornero' quando avro' i soldi.	}{	Capisco. Tornero' quando avro' i soldi.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quando trovero' del verde, tornero' per fissarti.	}
+{	73	}{	Perche' dovrei pagare per loro? L'hai gia' fatto tu. E ti hanno truffata, comunque.	}{	Perche' dovrei pagare per loro? L'hai gia' fatto tu. E ti hanno truffata, comunque.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dovrei essere pagato io per sopportare quella che chiami danza.	}
 {	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -78,8 +78,8 @@
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	What!?! Listen, I don't have to take this kind of crap from a desperate loser like you. Go pay for it somewhere else, asshole!	}{	What!?! Listen, I don't have to take this kind of crap from you, bitch! Go pay for it somewhere else.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Misti_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Gladly. Later.	}{	Gladly. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I shall be paying for eternity.	}
+{	81	}{	Cosa!?! Senti, non devo star qui a prendere merda da un perdente come te. Paga qualcun altro, perdente.	}{	Cosa!?! Senti, non devo star qui a prendere merda da te, puttana! Paga qualcun altro. }{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Misti_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Con piacere. A dopo.	}{	Con piacere. A dopo.		}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Paghero' in eterno.}
 {	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -88,7 +88,7 @@
 {	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	You do that, sweetheart.	}{	You do that, sweetheart.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Meglio, tesoro.	}{	Meglio, tesoro.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -98,9 +98,9 @@
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	[pissed]What do you want?	}{	[pissed]What do you want?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Come on, Misti. I was just kidding. I'd really like to get to know you better.	}{	Come on, Misti. I was just kidding. I'd really like to get to know you better.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forgive me, little devil. I wish only to die in your dark dance.	}
-{	103	}{	Nothing from you. Later.	}{	Nothing from you. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your body in a chalky outline. Farewell.	}
+{	101	}{	[pissed]Che vuoi?	}{	[pissed]Che vuoi?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Dai, Misti. Scherzavo. Vorrei conoscerti meglio. 	}{	Dai, Misti. Scherzavo. Vorrei conoscerti meglio.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perdonami, diavoletto. Voglio solo morire nella tua danza oscura.	}
+{	103	}{	Nulla da te. A piu' tardi.	}{	Nulla da te. A piu' tardi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{ Farewell. Il tuo corpo circondato dal gesso. Addio.	}
 {	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -108,18 +108,18 @@
 {	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	Sure. Whatever. 100 bucks and that's my final offer.	}{	Sure. Whatever. 100 bucks and that's my final offer.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Fine, fine. Let's go.	}{	Fine, fine. Let's go.	}{	41	}{	pc.CurrentMoney() >= 100	}{	pc.MoneyRemove( 100 ); G.Misti_Regular = 1; G.Misti_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	Here's your hundred.	}
-{	113	}{	Oh! Look at that! I don't quite have a hundred bucks.	}{	Oh! Look at that! I don't quite have a hundred bucks.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I don't have the dinero.	}
+{	111	}{ Va beh, chissenefrega. 100 dollari, la mia ultima offerta.	}{	Va beh, chissenefrega. 100 dollari, la mia ultima offerta.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Va bene, va bene, andiamo.	}{	Va bene, va bene, andiamo.	}{	41	}{	pc.CurrentMoney() >= 100	}{	pc.MoneyRemove( 100 ); G.Misti_Regular = 1; G.Misti_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	Ecco il tuo centone.	}
+{	113	}{	Oh! Ma guarda un po'! Non li ho.	}{	Oh! Ma guarda un po'! Non li ho.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho il dinero.	}
 {	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	Whatever. If it was a dollar, you'd still owe me some change. See ya.	}{	Whatever. If it was a dollar, you'd still owe me some change. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I don't crave your cottage cheese. Farewell.	}
-{	121	}{	Get a job and stop wasting my time.	}{	Get a job and stop wasting my time.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Later.	}{	Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
+{	120	}{	Non importa. Se anche fosse un dollaro, dovresti comunque darmi il resto. Ci vediamo.	}{	on importa. Se anche fosse un dollaro, dovresti comunque darmi il resto. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho voglia di quelle ricotte. Addio.	}
+{	121	}{	Trovati un lavoro e smettila di farmi perdere tempo.	}{	Trovati un lavoro e smettila di farmi perdere tempo.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	A dopo.	}{	A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{ Non sono piu' qui.	}
 {	123	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	124	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -128,7 +128,7 @@
 {	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Aaah! Freak! Get away from me!	}{	Aaah! Freak! Get away from me!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	Aaah! Mostro! Vattene!	}{	Aaah! Mostro! Vattene!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -138,8 +138,8 @@
 {	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	Hey, sweetheart. How are you tonight? Do anything for ya?	}{	Hey, sweetheart. How are you tonight? Do anything for ya?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	Velvet sent me over. She said I could have a freebie.	}{	Velvet sent me over. She said I could have a freebie.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	The vampy vixen told me to visit your voodoo.	}
+{	141	}{	Hey, tesoro. Come stai? Posso fare qualcosa per te?	}{	Hey, tesoro. Come stai? Posso fare qualcosa per te?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Mi manda Velvet. Ha detto che posso avere un omaggio.	}{	Mi manda Velvet. Ha detto che posso avere un omaggio.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	L'ammaliatrice mi ha detto di visitare il tuo voodoo.	}
 {	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -147,9 +147,9 @@
 {	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	I can think of a lot of things, but I'm a little short on time. See ya.	}{	I can think of a lot of things, but I'm a little short on time. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Now is not the time, little devil. Farewell.	}
-{	151	}{	VV sent you? Oh, right. She paid for you in advance. She told me to give you whatever you wanted. Shall we go back to the private rooms?	}{	VV sent you? Oh, right. She paid for you in advance. She told me to give you whatever you wanted. Shall we go back to the private rooms?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	Sounds like a fine idea.	}{	Sounds like a fine idea.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Privates are where I like to be.	}
+{	150	}{	Sto avendo tante idee, ma ho poco tempo. Ci vediamo. }{	Sto avendo tante idee, ma ho poco tempo. Ci vediamo. 	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ora non ho tempo, diavoletto. Addio.	}
+{	151	}{	Ti manda VV? Oh, giusto. Ha pagato in anticipo per la tua danza. Mi ha detto di darti tutto quel che vuoi. Andiamo nelle stanze private? }{	VTi manda VV? Oh, giusto. Ha pagato in anticipo per la tua danza. Mi ha detto di darti tutto quel che vuoi. Andiamo nelle stanze private?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Mi sembra una buona idea.	}{	Mi sembra una buona idea.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mi piace stare nel privè.	}
 {	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -158,8 +158,8 @@
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	Uh, sure... whatever you say, baby. Why don't you follow me to one of the private rooms and we'll get to know each other a little better.	}{	Uh, sure... whatever you say, baby. Why don't you follow me to one of the private rooms and we'll get to know each other a little better.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	I'll be your little Pompeii.	}{	I'll be your little Pompeii.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Uh, certo... come dici tu, tesoro. Perche' non mi segui in una delle stanze private e ci conosciamo un po' meglio?	}{	Uh, certo... come dici tu, dolcezza. Perche' non mi segui in una delle stanze private e ci conosciamo un po' meglio?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Saro' il tuo piccolo Pompeii.	}{	Saro' la tua piccola Pompeii.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
