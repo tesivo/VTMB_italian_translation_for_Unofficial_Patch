@@ -1,6 +1,6 @@
-{	1	}{	[out of breath]Y-yeah? What do you want?	}{	[out of breath]Y-yeah? What do you want?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Scared_Meet = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Are you the guy with the tape? Isaac sent me.	}{	Are you the guy with the tape? Isaac sent me.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	The blood baron sends forth the pawn to obtain the terrible tape.	}{	The blood baron sends forth the pawn to obtain the terrible tape.	}{	91	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	[out of breath]S-si'? Cosa vuoi?	}{	[out of breath]S-si'? Cosa vuoi?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Scared_Meet = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Sei quello che ha la videocassetta? Mi manda Isaac.}{	Sei quello che ha la videocassetta? Mi manda Isaac.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Il barone sanguinario manda avanti la pedina per prendere la terribile videocassetta.	}{	Il barone sanguinario manda avanti la pedina per prendere la terribile videocassetta.	}{	91	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -8,19 +8,19 @@
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	[paranoid]Ye- yeah. I-I mean, what? Who the hell is Isaac?!? I don't know anyone named Isaac. Get lost, pal!	}{	[paranoid]Ye- yeah. I-I mean, what? Who the hell is Isaac?!? I don't know anyone named Isaac. Get lost, bitch!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Come on. I know about the tape. Just give it to me and you can go.	}{	Come on. I know about the tape. Just give it to me and you can go.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	13	}{	Relax. You can trust me. What the hell is going on here?	}{	Relax. You can trust me. What the hell is going on here?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	You sure you don't know him? He won't be happy if I go back empty-handed.	}{	You sure you don't know him? He won't be happy if I go back empty-handed.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[paranoid]S-si'. V-voglio dire, cosa? Chi cazzo è Isaac?!? Non conosco nessuno che si chiama Isaac. Vattene, amico!}{	[paranoid]S-si'. V-voglio dire, cosa? Chi cazzo è Isaac?!? Non conosco nessuno che si chiama Isaac. Vattene, puttana!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Dai. So della cassetta. Dammela e puoi andartene.	}{	Dai. So della cassetta. Dammela e puoi andartene.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Rilassati. Puoi fidarti di me. Cosa e' successo? 	}{	Rilassati. Puoi fidarti di me. Cosa e' successo?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Sei sicuro di non conoscerlo? Non sara' felice se torno a mani vuote.}{	Sei sicuro di non conoscerlo? Non sara' felice se torno a mani vuote.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Tape? What tape? I don't know what the hell you're talkin' about. I-I'm getting' the hell out of here.	}{	Tape? What tape? I don't know what the hell you're talkin' about. I-I'm getting' the hell out of here.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Fine. I'll tell Isaac you wouldn't give me what's his.	}{	Fine. I'll tell Isaac you wouldn't give me what's his.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll convey your betrayal to the blood baron.	}
-{	23	}{	Listen. Everything's cool. Tell me what you're so scared about.	}{	Listen. Everything's cool. Tell me what you're so scared about.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	You need not fear this demon. Tell me what horrors haunt you.	}
+{	21	}{	Cassetta? Che cassetta? Non so di che cazzo stai parlando. M-me ne vado da qui.}{	Cassetta? Che cassetta? Non so di che cazzo stai parlando. M-me ne vado da qui.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Va bene. Riferiro' ad Isaac che non vuoi darmi quello che e' suo.}{	Va bene. Riferiro' ad Isaac che non vuoi darmi quello che e' suo.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Riferiro' del tuo tradimento al barone sanguinario.	}
+{	23	}{	Senti. Va tutto bene. Dimmi di cosa hai cosi' tanta paura.}{	Senti. Va tutto bene. Dimmi di cosa hai cosi' tanta paura.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non devi temere questo demone. Dimmi degli orrori che ti affliggono.	}
 {	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,8 +38,8 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	[takes a deep breath]Alright. S-sorry. It's just that... I mean, something is... I just want out of this whole thing. I don't want anything to do with that damn tape.	}{	[takes a deep breath]Alright. S-sorry. It's just that... I mean, something is... I just want out of this whole thing. I don't want anything to do with that damn tape.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Why? What's going on?	}{	Why? What's going on?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Speak your secrets, little messenger.	}
+{	41	}{	[takes a deep breath]Va bene. S-scusa. E' solo che... Voglio dire, qualcosa e'... Voglio solo uscire da questa situazione. Non voglio piu' avere a che fare con quella dannata videocassetta.}{	[takes a deep breath]Va bene. S-scusa. E' solo che... Voglio dire, qualcosa e'... Voglio solo uscire da questa situazione. Non voglio piu' avere a che fare con quella dannata videocassetta.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Perche'? Che succede?	}{	Perche'? Che succede?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dimmi i tuoi segreti, piccolo messaggero.	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -48,29 +48,29 @@
 {	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	I - I don't know. I mean, when it comes to video, I've seen everything - and I do mean EVERYTHING - but this thing, it's sick. I-it can't be real, but... it is! I know it. It's real and it scares the hell out of me.	}{	I - I don't know. I mean, when it comes to video, I've seen everything - and I do mean EVERYTHING - but this thing, it's sick. I-it can't be real, but... it is! I know it. It's real and it scares the hell out of me.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	Really? Is it that bad?	}{	Really? Is it that bad?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	I see teeth and terror, a girl lost to the blood storm.	}
-{	53	}{	Don't be such a coward... it's only a tape. How bad could it be?	}{	Don't be such a coward... it's only a tape. How bad could it be?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	54	}{	I know how you feel. Lately I've seen a lot of things you wouldn't believe.	}{	I know how you feel. Lately I've seen a lot of things you wouldn't believe.	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	Whatever. Just give me the tape.	}{	Whatever. Just give me the tape.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Rid yourself of its curse, and hand me this horror.	}
+{	51	}{	Io- Io non lo so. Voglio dire, quando si tratta di video, ho visto di tutto, veramente DI TUTTO, ma quella cosa, e' da malati. Non puo' essere reale, ma... lo e'! Ne sono sicuro. E' reale e mi terrorizza.	}{	 Io- Io non lo so. Voglio dire, quando si tratta di video, ho visto di tutto, veramente DI TUTTO, ma quella cosa, e' da malati. Non puo' essere reale, ma... lo e'! Ne sono sicuro. E' reale e mi terrorizza.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Sul serio? E' cosi' brutto? }{	Sul serio? E' cosi' brutto?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vedo denti e paura, una ragazza persa in una tempesta di sangue}
+{	53	}{	Non essere codardo... e' solo una videocassetta. Non puo' essere cosi' tremendo.	}{	Non essere codardo... e' solo una videocassetta. Non puo' essere cosi' tremendo.	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{	So come ti senti. Ultimamente ho visto delle cose da non credere.	}{	So come ti senti. Ultimamente ho visto delle cose da non credere.	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{ Non mi importa. Dammi la cassetta e basta. 	}{	Non mi importa. Dammi la cassetta e basta.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Liberati della sua maledizione e dammi questo orrore. }
 {	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Oh, you have no idea. It's disgusting... that girl... the things that are happening to her. It just ain't right, man. It just ain't right! And now... something's wrong... something's after me. I swear to God, something's after me!	}{	Oh, you have no idea. It's disgusting... that girl... the things that are happening to her. It just ain't right, man. It just ain't right! And now... something's wrong... something's after me. I swear to God, something's after me!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	What? What are you talking about?	}{	What? What are you talking about?	}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	63	}{	Pull it together! You're losing it!	}{	Pull it together! You're losing it!	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	You swat at phantoms and shadows.	}
-{	64	}{	Wow. You're even more yellow than I thought.	}{	Wow. You're even more yellow than I thought.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your back bears a stripe of the most curious yellow.	}
-{	65	}{	Whatever. Just give me the tape.	}{	Whatever. Just give me the tape.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Rid yourself of its curse, and hand me this horror.	}
+{	61	}{	Oh, non ne hai idea. E' disgustoso... quella ragazza... le cose che le succedono. Non e' giusto, amico. E ora... c'e' qualcosa che non va... qualcosa mi segue. Lo giuro su Dio, qualcosa mi segue!	}{	Oh, non ne hai idea. E' disgustoso... quella ragazza... le cose che le succedono. Non e' giusto, bella. E ora... c'e' qualcosa che non va... qualcosa mi segue. Lo giuro su Dio, qualcosa mi segue!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Cosa? Di cosa stai parlando?	}{	Cosa? Di cosa stai parlando?}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	Riprenditi! Stai perdendo la testa!}{	Riprenditi! Stai perdendo la testa!	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stai colpendo fantasmi e ombre.}
+{	64	}{	Wow. Sei ancora piu' vigliacco di quel che pensavo. 	}{	Wow. Sei ancora piu' vigliacco di quel che pensavo.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	La tua schiena porta il marchio della vigliaccheria.}
+{	65	}{	Non mi importa. Dammi la cassetta e basta.	}{	Non mi importa. Dammi la cassetta e basta.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Liberati della sua maledizione e dammi questo orrore.	}
 {	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	Every place I go... wherever I look, I see things. In the shadows. My phone rings, I hear something breathing on the other end and.... Shit! I'm out, man... I'm out of this whole thing!	}{	Every place I go... wherever I look, I see things. In the shadows. My phone rings, I hear something breathing on the other end and.... Shit! I'm out, man... I'm out of this whole thing!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Alright, alright. Just give me the tape.	}{	Alright, alright. Just give me the tape.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Rid yourself of its curse, and hand me this horror.	}
-{	73	}{	What's that smell? Did you shit your pants? Hand it over.	}{	What's that smell? Did you shit your pants? Hand it over.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your shorts smell strangely soiled. Give me what I seek.	}
+{	71	}{	Dovunque vado... dovunque guardo, vedo delle cose. Nell'ombra. Il mio telefono suona, sento qualcosa respirare dall'altra parte e... Merda! Me ne vado... Sono fuori da questa roba! }{	Dovunque vado... dovunque guardo, vedo delle cose. Nell'ombra. Il mio telefono suona, sento qualcosa respirare dall'altra parte e... Merda! Me ne vado... Sono fuori da questa roba!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Va bene, va bene, dammi la cassetta e basta.}{	Va bene, va bene, dammi la cassetta e basta.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Liberati della sua maledizione e dammi questo orrore.	}
+{	73	}{	Cos'e' questo odore? Te la sei fatta nei pantaloni? Dammela.	}{	Cos'e' questo odore? Te la sei fatta nei pantaloni? Dammela.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	I tuoi pantaloni odorano di sporco. Dammi quel che cerco.	}
 {	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -78,9 +78,9 @@
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	I don't have it! I stashed it someplace. Look, you need to find Ginger Swan's. Huh? What the hell was that? Oh shit! Did you see that? I'm getting the fuck out of here...!	}{	I don't have it! I stashed it someplace. Look, you need to find Ginger Swan's. Huh? What the hell was that? Oh shit! Did you see that? I'm getting the fuck out of here...!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	See what?	}{	See what?	}{	0	}{	G.GingerSwanKnowledge == 0	}{	G.Ginger_Swan = 1; pc.SetQuest("Courier",3)	}{	}{	}{	}{	}{	}{	}{	I expect dead people.	}
-{	83	}{	See what?	}{	See what?	}{	0	}{	G.GingerSwanKnowledge == 1	}{	G.Ginger_Swan = 1; pc.SetQuest("Courier",4); pc.AwardExperience("Dead02")	}{	}{	}{	}{	}{	}{	}{	I expect dead people.	}
+{	81	}{	Non ce l'ho! L'ho messa da qualche parte. Devi trovare Ginger Swan. Huh? Cos'era quello? Oh merda! L'hai visto? Cazzo, me ne vado da qui...!}{	Non ce l'ho! L'ho messa da qualche parte. Devi trovare Ginger Swan. Huh? Cos'era quello? Oh merda! L'hai visto? Cazzo, me ne vado da qui...!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Visto cosa?	}{	Visto cosa?	}{	0	}{	G.GingerSwanKnowledge == 0	}{	G.Ginger_Swan = 1; pc.SetQuest("Courier",3)	}{	}{	}{	}{	}{	}{	}{	Mi aspetto persone morte.	}
+{	83	}{	Visto cosa?	}{	Visto cosa?	}{	0	}{	G.GingerSwanKnowledge == 1	}{	G.Ginger_Swan = 1; pc.SetQuest("Courier",4); pc.AwardExperience("Dead02")	}{	}{	}{	}{	}{	}{	}{	Mi aspetto persone morte.	}
 {	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -88,18 +88,18 @@
 {	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	What? Blood baron? What the hell? Who are you? Didn't Isaac send - agh, damn.... Y-you must have the wrong guy. I-I don't know what you're talking about. Get lost!	}{	What? Blood baron? What the hell? Who are you? Didn't Isaac send - agh, damn.... Y-you must have the wrong guy. I-I don't know what you're talking about. Get lost!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Just toss me the terrible tape and you can retreat.	}{	Just toss me the terrible tape and you can retreat.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	Shadows draw near to you, little messenger. Tell me what you fear.	}{	Shadows draw near to you, little messenger. Tell me what you fear.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	94	}{	The blood baron will be unhappy if my hands return to him empty.	}{	The blood baron will be unhappy if my hands return to him empty.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Cosa? Barone sanguinario? Che cazzo? Chi sei?  Isaac non aveva mandato - agh, dio... Non sono chi cerchi. I-Io non so di cosa stai perlando. Vattene! }{	Cosa? Barone sanguinario? Che cazzo? Chi sei?  Isaac non aveva mandato - agh, dio... Non sono chi cerchi. I-Io non so di cosa stai perlando. Vattene!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Lanciami l'orribile videocassetta e puoi ritirarti.	}{	Lanciami l'orribile videocassetta e puoi ritirarti.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	Le ombre si avvicinano a te, piccolo messaggero. Dimmi di cosa hai paura.	}{	Le ombre si avvicinano a te, piccolo messaggero. Dimmi di cosa hai paura.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	Il barone sanguinario sara' infelice se le mie mani tornano da lui vuote.	}{	Il barone sanguinario sara' infelice se le mie mani tornano da lui vuote.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	What? Man, I don't have to take this crap. You can tell Isaac to get his own goddamn - what? What the hell was that? Oh shit! Did you see that? I'm getting the fuck out of here...!	}{	What? Man, I don't have to take this crap. You can tell Isaac to get his own goddamn - what? What the hell was that? Oh shit! Did you see that? I'm getting the fuck out of here...!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Not yet. Where is the tape?	}{	Not yet. Where is the tape?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Only after you tell me where the horror is hidden.	}
+{	101	}{	Cosa? Non devo star qui a prendere merda. Di' ad Isaac di venire a prendere la sua cazzo di - cosa? Cos'era quello? Oh merda! L'hai visto? Cazzo, me ne vado da qui...! }{	Cosa? Non devo star qui a prendere merda. Di' ad Isaac di venire a prendere la sua cazzo di - cosa? Cos'era quello? Oh merda! L'hai visto? Cazzo, me ne vado da qui...!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Non cosi' in fretta. Dov'e' la videocassetta?	}{	Non cosi' in fretta. Dov'e' la videocassetta?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Solo dopo che mi dici dov'e' nascosto l'orrore.	}
 {	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -109,16 +109,16 @@
 {	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Uh, hey.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Yeah?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	113	}{	What're you doing here?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	114	}{	Get outta here.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	Uh, sure.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Si'? }{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	Che ci fai qui?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{	Vattene.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	Uh, certo.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	116	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	Thanks.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	What?!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	I don't know.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	I can't help you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	Uh, that's great.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	By the way...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	123	}{	Take this.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	I uh... I'll drop you an email about it.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	117	}{	Grazie.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	118	}{	Cosa?!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	119	}{	Non lo so.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	120	}{	Non ti posso aiutare.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Uh, fantastico.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Comunque...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	123	}{	Prendi questo.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{	Io, uh... ti mandero' una mail a riguardo.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
