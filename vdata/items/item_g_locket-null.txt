@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Antique Locket"
-	"description"	"This locket is old and slightly tarnished. It might be your imagination, but it seems to radiate an unnatural heat."
+	"printname"	"Ciondolo antico"
+	"description"	"Questo ciondolo e' veccchio e leggermente rovinato. Forse e' un trucco della tua immaginazione, ma sembra emanare un calore innaturale."
 
 	"bucket"		"1"
 	"bucket_position"	"2"
