@@ -38,14 +38,14 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"1" // line 221 of Arthur's dialog
-			"Description"	"Il garante Arthur Kilpatrick vuole che trovi il suo cacciatore di taglie, Carson, e gli chieda di tornare al lavoro. Carson vive al Santa Monica Suites, nell'Appartamento 1."
+			"Description"	"Il garante alle cauzioni Arthur Kilpatrick vuole che trovi il suo cacciatore di taglie, Carson, e gli chieda di tornare al lavoro. Carson vive al Santa Monica Suites, nell'Appartamento 1."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"2" // set upon getting info from Carson's computer
-			"Description"	"Dopo essere entrato nell'appartamento di Carson, hai trovato informazioni sull'ultimo caso a cui stava lavorando. Accennava qualcosa di un negozio di tatuaggi. Forse dopo dovresti andare li'."
+			"Description"	"Dopo essere entrato nell'appartamento di Carson, hai trovato informazioni sull'ultimo caso a cui stava lavorando. Accennava a un negozio di tatuaggi. Forse dopo dovresti andare li'."
 			"Type"		"incomplete"
 			"AwardXP"	"Carson01"
 		}
@@ -193,7 +193,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"8"
-			"Description"	"Hai ucciso Knox, rendendo la tua quest: uccidi il \"vampiro Asiatico\" irrilevante."
+			"Description"	"Hai ucciso Knox, rendendo la tua missione di uccidere il \"vampiro Asiatico\" irrilevante."
 			"Type"		"failure"
 		}
 
@@ -400,7 +400,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"2" // Danielle 71, changed by wesp
-			"Description"	"Hai convinto la ragazza del manicomio ad andare alla banca del sangue. Non ti senti bene con te stesso? Fai rapporto a Vandal."
+			"Description"	"Hai convinto la ragazza dell' Asylum ad andare alla banca del sangue. Ti senti bene con te stesso? Fai rapporto a Vandal."
 			"Type"		"incomplete"
 		}
 
@@ -436,7 +436,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"7" // Gimble, added by wesp
-			"Description"	"Avete convinto Gimble ad andare alla banca del sangue. Fai rapporto a Vandal."
+			"Description"	"Hai convinto Gimble ad andare alla banca del sangue. Fai rapporto a Vandal."
 			"Type"		"incomplete"
 		}
 	}
@@ -555,7 +555,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"11" // Killer
-			"Description"	"Lei e' andato al molo per cercare l'omicidio menzionato sul giornale, ma non c'era piu' niente di visibile. Meglio tenere gli occhi aperti, pero'."
+			"Description"	"Sei andato al molo per cercare l'omicidio menzionato sul giornale, ma non c'era piu' niente di visibile. Meglio tenere gli occhi aperti, pero'."
 			"Type"		"incomplete"
 		}
 	}
@@ -647,7 +647,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4" // Merc 851
-			"Description"	"Mercurio e' stato malmenato da una banda di \"cazzoni drogati|" che vivono in una topaia sulla spiaggia. Devi prendere l'Astrolite da loro, usando qualunque mezzo possibile."
+			"Description"	"Mercurio e' stato malmenato da una banda di \"cazzoni drogati\" che vivono in una topaia sulla spiaggia. Devi prendere l'Astrolite da loro, usando qualunque mezzo possibile."
 			"Type"		"incomplete"
 		}
 		CompletionState
@@ -661,7 +661,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"6" // Merc death
-			"Description"	"Hai ritrovato l'Astrolite, ma Mercurio non era molto contento di vederti. Dovevi ucciderlo come il cane che era. Devi trovare informazioni su cio' che dovresti fare dopo."
+			"Description"	"Hai ritrovato l'Astrolite, ma Mercurio non era molto contento di vederti. Hai dovuto ucciderlo come il cane che era. Devi trovare informazioni su cio' che dovresti fare dopo."
 			"Type"		"incomplete"
 		}
 
@@ -697,7 +697,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3" // Tourette 671
-			"Description"	"L'ostilita' e' stata allontanata. Tung si sta nascondendo in una cisterna d'olio non lontano dall'Asylum. Devi incontrarti con lui e farti mostrare un modo per entrare nel magazzino e piazzare gli esplosivi."
+			"Description"	"Le ostilita' tra Bertram e Therese si sono placate. Tung si sta nascondendo in una cisterna d'olio non lontano dall'Asylum. Devi incontrarti con lui e farti mostrare un modo per entrare nel magazzino e piazzare gli esplosivi."
 			"Type"		"incomplete"
 			"AwardXP"	"Explosive01"
 		}
@@ -728,14 +728,14 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"7" // added by wesp
-			"Description"	"Il magazzino si trova per lo piu' sul fondo del Pacifico, con alcuni pezzi sistemati ordinatamente in un prato a Pasadena. Fate rapporto al Principe LaCroix presso la Venture Tower in centro."
+			"Description"	"Il magazzino si trova per lo piu' sul fondo del Pacifico, con alcuni pezzi sistemati ordinatamente in un prato a Pasadena. Fai rapporto al Principe LaCroix presso la Venture Tower in downtown."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"8" // added by wesp
-			"Description"	"Avete localizzato Bertram Tung. Il vostro prossimo passo sara' quello di far saltare in aria il magazzino. E piantare l'Astrolite senza essere scoperti, se possibile."
+			"Description"	"Hai localizzato Bertram Tung. Il tuo prossimo passo sara' quello di far saltare in aria il magazzino. E piantare l'Astrolite senza essere scoperti, se possibile."
 			"Type"		"incomplete"
 			"AwardXP"	"Explosive02"
 		}
@@ -794,7 +794,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"7" // Tourette 871, added by wesp
-			"Description"	"Con la riconciliazione delle sorelle Teresa ha ottenuto alla fine il ciondolo della Ocean House."
+			"Description"	"Con la riconciliazione delle sorelle Therese ha ottenuto alla fine il ciondolo della Ocean House."
 			"Type"		"success"
 		}
 
@@ -808,7 +808,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"9" // Tourette 871, added by wesp
-			"Description"	"By keeping the pendant you thwarted Therese's plans to exorcise the spirits haunting the hotel."
+			"Description"	"Tenendo il ciondolo per te hai rovinato i piani di Therese di esorcizzare gli spiriti che infestavano l'hotel."
 			"Type"		"failure"
 		}
 	}
@@ -821,7 +821,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"1" // Jeanette 361
-			"Description"	"Jeanette ti ha chiesto di andare alla Galleria Noir a Santa Monica e distruggere i dipinti all'interno. Quindi, rubare la cassetta dell'elemosina."
+			"Description"	"Jeanette ti ha chiesto di andare alla Galleria Noir a Santa Monica e distruggere i dipinti all'interno. E inoltre rubare la cassetta dell'elemosina."
 			"Type"		"incomplete"
 		}
 
@@ -1062,7 +1062,7 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"4" // added by wesp
-			"Description"	"Bertram Tung, il Nosferatu di Santa Monica, vi ha inviato un'e-mail dicendovi che ha una proposta per voi."
+			"Description"	"Bertram Tung, il Nosferatu di Santa Monica, ti ha inviato un'e-mail dicendovi che ha una proposta per te."
 			"Type"		"incomplete"
 		}
 	}
@@ -1075,7 +1075,7 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"Avete scoperto una ragazza che sta morendo nella clinica di Santa Monica. Forse potete fare qualcosa al riguardo."
+			"Description"	"Hai scoperto una ragazza agonizzante nella clinica di Santa Monica. Forse puoi fare qualcosa al riguardo."
 			"Type"		"incomplete"
 		}
 
@@ -1103,14 +1103,14 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"Uno dei magri crede a tutto quello che dici. Vendergli quello che vuole potrebbe farti guadagnare un po' di soldi."
+			"Description"	"Uno dei sangue-debole crede a tutto quello che dici. Vendergli quello che vuole potrebbe farti guadagnare un po' di soldi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Lei ha sfruttato il sangue debole e l'ha mandato in missione suicida. e' soddisfatto ora?"
+			"Description"	"Hai sfruttato il sangue debole e l'ha mandato in una missione suicida. Sei soddisfatto ora?"
 			"Type"		"success"
 			"AwardXP"	"Copper01"
 		}
@@ -1176,7 +1176,7 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Consegnare la chiave al principe e occuparsi di lui."
+			"Description"	"Consegna la chiave al principe e occupati di lui."
 			"Type"		"incomplete"
 		}
 
