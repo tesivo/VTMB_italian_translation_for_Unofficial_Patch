@@ -1,4 +1,4 @@
-{	1	}{	[out of breath]S-si'? Cosa vuoi?	}{	[out of breath]S-si'? Cosa vuoi?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Scared_Meet = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	[a corto di fiato]S-si'? Cosa vuoi?	}{	[a corto di fiato]S-si'? Cosa vuoi?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Scared_Meet = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Sei quello che ha la videocassetta? Mi manda Isaac.}{	Sei quello che ha la videocassetta? Mi manda Isaac.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	3	}{	Il barone sanguinario manda avanti la pedina per prendere la terribile videocassetta.	}{	Il barone sanguinario manda avanti la pedina per prendere la terribile videocassetta.	}{	91	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -8,7 +8,7 @@
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	[paranoid]S-si'. V-voglio dire, cosa? Chi cazzo è Isaac?!? Non conosco nessuno che si chiama Isaac. Vattene, amico!}{	[paranoid]S-si'. V-voglio dire, cosa? Chi cazzo è Isaac?!? Non conosco nessuno che si chiama Isaac. Vattene, puttana!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[paranoico]S-si'. V-voglio dire, cosa? Chi cazzo è Isaac?!? Non conosco nessuno che si chiama Isaac. Vattene, amico!}{	[paranoico]S-si'. V-voglio dire, cosa? Chi cazzo è Isaac?!? Non conosco nessuno che si chiama Isaac. Vattene, puttana!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	Dai. So della cassetta. Dammela e puoi andartene.	}{	Dai. So della cassetta. Dammela e puoi andartene.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	13	}{	Rilassati. Puoi fidarti di me. Cosa e' successo? 	}{	Rilassati. Puoi fidarti di me. Cosa e' successo?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	14	}{	Sei sicuro di non conoscerlo? Non sara' felice se torno a mani vuote.}{	Sei sicuro di non conoscerlo? Non sara' felice se torno a mani vuote.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,7 +38,7 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	[takes a deep breath]Va bene. S-scusa. E' solo che... Voglio dire, qualcosa e'... Voglio solo uscire da questa situazione. Non voglio piu' avere a che fare con quella dannata videocassetta.}{	[takes a deep breath]Va bene. S-scusa. E' solo che... Voglio dire, qualcosa e'... Voglio solo uscire da questa situazione. Non voglio piu' avere a che fare con quella dannata videocassetta.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	[fa un respiro profondo]Va bene. S-scusa. E' solo che... Voglio dire, qualcosa e'... Voglio solo uscire da questa situazione. Non voglio piu' avere a che fare con quella dannata videocassetta.}{	[fa un respiro profondo]Va bene. S-scusa. E' solo che... Voglio dire, qualcosa e'... Voglio solo uscire da questa situazione. Non voglio piu' avere a che fare con quella dannata videocassetta.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	Perche'? Che succede?	}{	Perche'? Che succede?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dimmi i tuoi segreti, piccolo messaggero.	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -52,7 +52,7 @@
 {	52	}{	Sul serio? E' cosi' brutto? }{	Sul serio? E' cosi' brutto?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vedo denti e paura, una ragazza persa in una tempesta di sangue}
 {	53	}{	Non essere codardo... e' solo una videocassetta. Non puo' essere cosi' tremendo.	}{	Non essere codardo... e' solo una videocassetta. Non puo' essere cosi' tremendo.	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	54	}{	So come ti senti. Ultimamente ho visto delle cose da non credere.	}{	So come ti senti. Ultimamente ho visto delle cose da non credere.	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{ Non mi importa. Dammi la cassetta e basta. 	}{	Non mi importa. Dammi la cassetta e basta.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Liberati della sua maledizione e dammi questo orrore. }
+{	55	}{  Non mi importa. Dammi la cassetta e basta. 	}{	Non mi importa. Dammi la cassetta e basta.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Liberati della sua maledizione e dammi questo orrore. }
 {	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
