@@ -18,7 +18,7 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	[Laughs]Invece vuoi. }{	[Laughs]Invece vuoi.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	[Ride]Invece vuoi. }{	[Ride]Invece vuoi.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Va bene.	}{	Va bene.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Questo gioco e' gia' stabilito - perche' no?	}
 {	23	}{	Mi costringi?}{	Mi costringi?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Provocami.}
 {	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,7 +38,7 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	[Laughs harder] Che spreco di fiato.}{	[Laughs harder]Che spreco di fiato.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	[Ride più forte] Che spreco di fiato.}{	[Ride più forte]Che spreco di fiato.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
