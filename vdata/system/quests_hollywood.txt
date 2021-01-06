@@ -213,7 +213,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3" // VV 761, 881
-			"Description"	"Hai ucciso David Hatter ed e' stato stupido andare a da dirlo a VV. Ora non ti parlera' piu'."
+			"Description"	"Hai ucciso David Hatter ed e' stato stupido andare a dirlo a VV. Ora non ti parlera' piu'."
 			"Type"		"failure"
 		}
 
@@ -419,7 +419,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4" // killed Tawny
-			"Description"	"Hai ucciso il rivale di Imalia, Tawni, anche se non ti era stato detto di farlo."
+			"Description"	"Hai ucciso la rivale di Imalia, Tawni, anche se non ti era stato detto di farlo."
 			"Type"		"incomplete"
 		}
 
@@ -698,14 +698,14 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"3" // added by wesp
-			"Description"	"Hai detto a Isacco che hai sconfitto lo Tzimisce nella sua tana al 609 di King's Way, e lui ti ha promesso un regalo in cambio."
+			"Description"	"Hai detto a Isaac che hai sconfitto lo Tzimisce nella sua tana al 609 di King's Way, e lui ti ha promesso un regalo in cambio."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"4" // added by wesp
-			"Description"	"Hai detto a Isacco che hai sconfitto lo Tzimisce nella sua tana al 609 di King's Way, e lui ti ha fatto un regalo per il tuo aiuto."
+			"Description"	"Hai detto a Isaac che hai sconfitto lo Tzimisce nella sua tana al 609 di King's Way, e lui ti ha fatto un regalo per il tuo aiuto."
 			"Type"		"success"
 		}
 
@@ -755,56 +755,56 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"Gary scambiera' un poster di Jeanette Voerman con una cassetta di un suo vecchio film chiamato Tap Hotel. Mettete il nastro nella cassetta della posta e controllate il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary scambiera' un poster di Jeanette Voerman con una cassetta di un suo vecchio film chiamato Tap Hotel. Metti il nastro nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Gary offre un poster di VV in cambio di una foto rivelatrice che ha visto su Haunted LA. Mettete la foto nella cassetta della posta e controllate il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary offre un poster di VV in cambio di una foto rivelatrice che ha visto su Haunted LA. Metti la foto nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"Gary scambiera' un poster di Ming-Xiao con un nastro del servizio in costume da bagno della rivista Jock Shot dello scorso anno. Mettete il nastro nella cassetta della posta e controllate il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary scambiera' un poster di Ming-Xiao con un nastro del servizio in costume da bagno della rivista Jock Shot dello scorso anno. Metti il nastro nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"4"
-			"Description"	"Gary offre un poster di Damsel in cambio di un giocattolo di legno da tirare che potrebbe essere in Metalhead Industries. Basta mettere il giocattolo nella cassetta della posta e controllare il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary offre un poster di Damsel in cambio di un giocattolino in legno che potrebbe essere in Metalhead Industries. Basta mettere il giocattolo nella cassetta della posta e controllare il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"5"
-			"Description"	"Gary scambiera' un poster di Imalia con una targhetta speciale con transponder. Basta mettere la targa nella cassetta della posta e controllare il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary scambiera' un poster di Imalia con una targhetta speciale con transponder. Basta mettere la targa nella cassetta della posta e controllare il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"6"
-			"Description"	"Gary offre un poster di Tawni Sessions per una stella del lancio. Mettete la stella nella cassetta della posta e controllate il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary offre un poster di Tawni Sessions per una stella ninja. Metti la stella nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"7"
-			"Description"	"Gary scambiera' un poster di Claira Killenbach con un Calice Odioso schiacciato visto nel Sindacato Fu. Mettetelo nella cassetta della posta e controllate il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary scambiera' un poster di Claira Killenbach con un Calice Odioso schiacciato visto nel Sindacato Fu. Mettilo nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"8"
-			"Description"	"Gary scambiera' il poster di un'altra ragazza con una palla di carne Tzimisce. Mettete la palla nella cassetta della posta e controllate il vostro rifugio e le e-mail piu' tardi."
+			"Description"	"Gary scambiera' il poster di un'altra ragazza con una palla di carne Tzimisce. Metti la palla nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
