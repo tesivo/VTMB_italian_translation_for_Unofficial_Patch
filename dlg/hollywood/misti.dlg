@@ -2,7 +2,7 @@
 {	2	}{	Fantastico.	}{	Fantastico.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	3	}{	No grazie. Se cambio idea, vengo a trovarti.	}{	No grazie. Se cambio idea, vengo a trovarti.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Senza dubbio le tue danze porteranno una dolce morte. Forse dopo.	}
 {	4	}{	Meglio di no. Ho visto corpi migliori in un obitorio.	}{	Meglio di no. Ho visto corpi migliori in un obitorio.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Preferirei giocare con i vermi morti.	}
-{	5	}{ Fammi nuotare nel tuo lago di lava.	}{	Fammi nuotare nel tuo lago di lava.	}{	161	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{  Fammi nuotare nel tuo lago di lava.	}{	Fammi nuotare nel tuo lago di lava.	}{	161	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -69,7 +69,7 @@
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	A dir la verità, dovrei andarmene. Ci vediamo.	}{	A dir la verità, dovrei andarmene. Ci vediamo.	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	Ho dimenticato chi siamo. Addio.	}
 {	71	}{	Cosa? E allora io non ho tempo, tesoro. Scusa, ma non regalo queste due bellezze.	}{	Cosa? E allora io non ho tempo, bellezza. Scusa, ma non regalo queste due bellezze.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{ Capisco. Tornero' quando avro' i soldi.	}{	Capisco. Tornero' quando avro' i soldi.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quando trovero' del verde, tornero' per fissarti.	}
+{	72	}{  Capisco. Tornero' quando avro' i soldi.	}{	Capisco. Tornero' quando avro' i soldi.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quando trovero' del verde, tornero' per fissarti.	}
 {	73	}{	Perche' dovrei pagare per loro? L'hai gia' fatto tu. E ti hanno truffata, comunque.	}{	Perche' dovrei pagare per loro? L'hai gia' fatto tu. E ti hanno truffata, comunque.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dovrei essere pagato io per sopportare quella che chiami danza.	}
 {	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -98,7 +98,7 @@
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	[pissed]Che vuoi?	}{	[pissed]Che vuoi?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	[incazzato]Che vuoi?	}{	[incazzato]Che vuoi?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	102	}{	Dai, Misti. Scherzavo. Vorrei conoscerti meglio. 	}{	Dai, Misti. Scherzavo. Vorrei conoscerti meglio.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perdonami, diavoletto. Voglio solo morire nella tua danza oscura.	}
 {	103	}{	Nulla da te. A piu' tardi.	}{	Nulla da te. A piu' tardi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{ Farewell. Il tuo corpo circondato dal gesso. Addio.	}
 {	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
