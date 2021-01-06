@@ -776,7 +776,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4"
-			"Description"	"Gary offre un poster di Damsel in cambio di un giocattolo di legno da tirare che potrebbe essere in Metalhead Industries. Basta mettere il giocattolo nella cassetta della posta e controllare il tuo rifugio e le e-mail piu' tardi."
+			"Description"	"Gary offre un poster di Damsel in cambio di un giocattolino in legno che potrebbe essere in Metalhead Industries. Basta mettere il giocattolo nella cassetta della posta e controllare il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
@@ -790,7 +790,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"6"
-			"Description"	"Gary offre un poster di Tawni Sessions per una stella del lancio. Metti la stella nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
+			"Description"	"Gary offre un poster di Tawni Sessions per una stella ninja. Metti la stella nella cassetta della posta e controlla il tuo rifugio e le e-mail piu' tardi."
 			"Type"		"incomplete"
 		}
 
