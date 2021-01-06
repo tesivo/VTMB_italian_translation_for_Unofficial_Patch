@@ -1,5 +1,5 @@
-{	1	}{	Oh, Jesus, man... what the- what the fuck is going on up there? D-dead, everyone s-s-slaughtered... oh, oh go- sh-sh-shhh. Do-do-don't make any noise... th'll- they'll hear us.	}{	Oh, Jesus, man... what the- what the fuck is going on up there? D-dead, everyone s-s-slaughtered... oh, oh go- sh-sh-shhh. Do-do-don't make any noise... th'll- they'll hear us.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Who are you? You work for DMP?	}{	Who are you? You work for DMP?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Have you Death's Head on your shoulders?	}
+{	1	}{	Oh, Gesu', dio... che- che cazzo succede lassu'? M-morti, sono stati tutti u-u-uccisi... oh, oh vai- sh-sh-shhh. Non-non-non fare rumore... ci- ci sentiranno.}{	Oh, Gesu', dio... che- che cazzo succede lassu'? M-morti, sono stati tutti u-u-uccisi... oh, oh vai- sh-sh-shhh. Non-non-non fare rumore... ci- ci sentiranno.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Chi sei? Lavori per DMP?	}{	Chi sei? Lavori per DMP?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hai la Testa della Morte sulle sue spalle?	}
 {	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -8,8 +8,8 @@
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Yeah, yeah... I uh mean, uh, n-no. Uh... f-fuck it! Yeah, I'm with DMP. You 5-0?	}{	Yeah, yeah... I uh mean, uh, n-no. Uh... f-fuck it! Yeah, I'm with DMP. You 5-0?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	What the hell is going on? Those are the same creatures on your tape.	}{	What the hell is going on? Those are the same creatures on your tape.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	These cranial cretins are the same as those on the terrible tape!	}
+{	11	}{	Si, si... Voglio dire, uh, n-no...Uh...c-cazzo! Si', sono della DMP. Sei della polizia? }{	Si, si... Voglio dire, uh, n-no...Uh...c-cazzo! Si', sono della DMP. Sei della polizia?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Che sta succedendo? Quelle sono le stesse creature della tua videocassetta.}{	Che sta succedendo? Quelle sono le stesse creature della tua videocassetta.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quegli orribili crani sono gli stessi della terribile cassetta! }
 {	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -18,25 +18,25 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Yeah, yeah, I-I know, but... we didn't make that shit. Uh, one of the guys stole it... f-found it in the creepy house in the hills. We just copied it and put our names on it. Worse than anything we ever did... worst thing I ever saw!	}{	Yeah, yeah, I-I know, but... we didn't make that shit. Uh, one of the guys stole it... f-found it in the creepy house in the hills. We just copied it and put our names on it. Worse than anything we ever did... worst thing I ever saw!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Yeah? What goes on down here? Parcheesi?	}{	Yeah? What goes on down here? Parcheesi?	}{	31	}{	Humanity 7	}{	}{	}{	}{	}{	}{	}{	}{	No! Death has cast its shadow on this evil place before.	}
-{	23	}{	Whatever. You guys aren't exactly angels.	}{	Whatever. You guys aren't exactly angels.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	You wear no halo, little demon.	}
-{	24	}{	Come on... looks like you guys were doing some pretty cool stuff down here.	}{	Come on... looks like you guys were doing some pretty cool stuff down here.	}{	31	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Your brilliant work here smells of sweet and innocent blood.	}
-{	25	}{	What mansion? Where is it?	}{	What mansion? Where is it?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is this hell house?	}
+{	21	}{	Si, si, lo so, ma... non abbiamo prodotto noi quella merda. Uh, uno dei ragazzi l'ha rubata... l-l'ha trovata in quella casa inquietante sulla collina. E' peggio di qualsiasi cosa che abbiamo mai prodotto... la peggior cosa che abbia mai visto!}{	Si, si, lo so, ma... non abbiamo prodotto noi quella merda. Uh, uno dei ragazzi l'ha rubata... l-l'ha trovata in quella casa inquietante sulla collina. E' peggio di qualsiasi cosa che abbiamo mai prodotto... la peggior cosa che abbia mai visto!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Si? E voi che fate qui? Giocate a carte? }{	Si? E voi che fate qui? Giocate a carte?	}{	31	}{	Humanity 7	}{	}{	}{	}{	}{	}{	}{	}{	No! La morte ha toccato questo posto maligno prima d'ora.	}
+{	23	}{	Non mi importa. Non siete proprio degli angeli.}{	Non mi importa. Non siete proprio degli angeli.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non hai l'aureola, piccolo demone.}
+{	24	}{	Andiamo... sembra che stavate facendo delle belle cose qui dentro.}{	Andiamo... sembra che stavate facendo delle belle cose qui dentro.	}{	31	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Il tuo bel lavoro odora di sangue dolce e innocente.	}
+{	25	}{	Che casa? Dov'e'?}{	Che casa? Dov'e'?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dov'e' questa casa infernale? }
 {	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	S-some of it, y-yeah... it w- it was b- it was bad, but... you know, no one who r-really mattered: j-junkies, runaways. Mos-mostly doing 'em a favor!	}{	S-some of it, y-yeah... it w- it was b- it was bad, but... you know, no one who r-really mattered: j-junkies, runaways. Mos-mostly doing 'em a favor!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	You're sick. I hope those things find you down here and kill you too.	}{	You're sick. I hope those things find you down here and kill you too.	}{	41	}{	Humanity 7	}{	}{	}{	}{	}{	}{	}{	}{	May these horrors feed on your flesh, demon!	}
-{	33	}{	This must be what they call poetic justice.	}{	This must be what they call poetic justice.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Fate has judged you fairly, flesh dealer.	}
-{	34	}{	That's a pretty dismal view of humanity.	}{	That's a pretty dismal view of humanity.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your eyes are glazed in darkness.	}
-{	35	}{	That's cool. I'd have probably done the same thing.	}{	That's cool. I'd have probably done the same thing.	}{	41	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	I revel in the purity of your dark and demonic visions!	}
-{	36	}{	I don't care about that. Just tell me where this mansion is.	}{	I don't care about that. Just tell me where this mansion is.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is this hell house?	}
+{	31	}{ Alcune cose brutte, si'... le- le facevamo anche noi, ma... sai, ne-nessuno di cui la gente si importava: d-drogati, scappati di casa. G-gli facevamo un favore!}{	Alcune cose brutte, si'... le- le facevamo anche noi, ma... sai, ne-nessuno di cui la gente si importava: d-drogati, scappati di casa. G-gli facevamo un favore!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Sei malato. Spero che quelle cose ti trovano e uccidano pure te.	}{	Sei malato. Spero che quelle cose ti trovano e uccidano pure te.	}{	41	}{	Humanity 7	}{	}{	}{	}{	}{	}{	}{	}{	Che questi orrori si nutrano della tua carne, demone!	}
+{	33	}{	Questa dev'essere quella che chiamano giustizia poetica.	}{	Questa dev'essere quella che chiamano giustizia poetica.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il destino ti ha giudicato in modo equo, spacciatore di carne.	}
+{	34	}{	E' una visione abbastanza lugubre dell'umanita'.}{	E' una visione abbastanza lugubre dell'umanita'.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	I tuoi occhi solo offuscati dall'oscurita'. }
+{	35	}{	Che figo. Probabilmente avrei fatto la stessa cosa.}{Che figo. Probabilmente avrei fatto la stessa cosa.	}{	41	}{	Humanity -6	}{	}{	}{	}{	}{	}{	}{	}{	Gioisco della purezza delle tue visioni oscure e demoniache!}
+{	36	}{	Non mi importa di quello. Dimmi solo dov'e' quella casa.}{	Non mi importa di quello. Dimmi solo dov'e' quella casa.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dov'e' questa casa infernale?	}
 {	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Please, please... jus- just get me outta here. OH NO! AHHHHHH!!!	}{	Please, please... jus- just get me outta here. OH NO! AHHHHHH!!!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Per favore, per favore... fa-fammi uscire da qui. OH NO! AHHHHHH!!! }{	Per favore, per favore... fa-fammi uscire da qui. OH NO! AHHHHHH!!!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
