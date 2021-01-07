@@ -22,7 +22,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 9 "Va bene." 0.048 0.704
+PHRASE char 4 "Ok." 0.048 0.704
 }
 }
 OPTIONS
