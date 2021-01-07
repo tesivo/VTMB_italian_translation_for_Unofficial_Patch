@@ -60,7 +60,7 @@
 {	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	61	}{	Cosa significa, Camarilla?	}{	Cosa significa, Camarilla?	}{	#	}{	}{	G.Gargoyle_Persuade = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	62	}{	Non sei molto intelligente, vero? }{	Non sei molto intelligente, vero?	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Apparentemente anche la tua materia grigia si e' pietrificata.	}
-{	63	}{	Dovresti iniziare a fare i compiti. Sono loro al comando ora. 	}{	Dovresti iniziare a fare i compiti. Sono loro al comando ora.	}{	141	}{	G.Gargoyle_Pissed == 0	}{	G.Gargoyle_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Follow the strings upwards from the puppet's hands.	}
+{	63	}{	Dovresti iniziare a fare i compiti. Sono loro al comando ora. 	}{	Dovresti iniziare a fare i compiti. Sono loro al comando ora.	}{	141	}{	G.Gargoyle_Pissed == 0	}{	G.Gargoyle_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Segui il filo fino alla mano del burattinaio.	}
 {	64	}{	Dovresti iniziare a fare i compiti. Sono loro al comando ora.	}{	Dovresti iniziare a fare i compiti. Sono loro al comando ora.	}{	71	}{	G.Gargoyle_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{ Segui il filo fino alla mano del burattinaio. }
 {	65	}{	In realta', lavoro per loro. Vogliono prendere il controllo di Los Angeles.	}{	In realta', lavoro per loro. Vogliono prendere il controllo di Los Angeles.	}{	141	}{	G.Gargoyle_Pissed == 0	}{	G.Gargoyle_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Lavoro per il giullare. Vuole rendere questa citta' degli angeli il suo regno.}
 {	66	}{	In realta', lavoro per loro. Vogliono prendere il controllo di Los Angeles.	}{	In realta', lavoro per loro. Vogliono prendere il controllo di Los Angeles.	}{	71	}{	G.Gargoyle_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	Lavoro per il giullare. Vuole rendere questa citta' degli angeli il suo regno.	}
