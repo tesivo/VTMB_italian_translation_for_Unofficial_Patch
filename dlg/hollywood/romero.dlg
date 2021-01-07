@@ -1,7 +1,7 @@
 {	1	}{	Whoa there, slick - might want to think about knocking next time, I damn near blew your head off. Thought you might be a zombie.	}{	Whoa there, sugarpuss - might want to think about knocking next time, I damn near blew your head off. Thought you might be a zombie.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Why would you think I was a zombie?	}{	Why would you think I was a zombie?	}{	461	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	I think my shambling needs work. What makes you say different?	}
+{	2	}{	Perche' pensavi che io fossi uno zombie? }{	Perche' pensavi che io fossi una zombie?	}{	461	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	I think my shambling needs work. What makes you say different? Penso che 	}
 {	3	}{	Why would you think I was a zombie?	}{	Why would you think I was a zombie?	}{	431	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	Who are you?	}{	Who are you?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	How do I address you, confused one?	}
+{	4	}{	Chi sei? 	}{	Chi sei?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	How do I address you, confused one?	}
 {	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
