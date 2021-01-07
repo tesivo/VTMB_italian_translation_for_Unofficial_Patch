@@ -1,7 +1,7 @@
-{	1	}{	Whoa there, slick - might want to think about knocking next time, I damn near blew your head off. Thought you might be a zombie.	}{	Whoa there, sugarpuss - might want to think about knocking next time, I damn near blew your head off. Thought you might be a zombie.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Perche' pensavi che io fossi uno zombie? }{	Perche' pensavi che io fossi una zombie?	}{	461	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	I think my shambling needs work. What makes you say different? Penso che 	}
-{	3	}{	Why would you think I was a zombie?	}{	Why would you think I was a zombie?	}{	431	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	Chi sei? 	}{	Chi sei?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	How do I address you, confused one?	}
+{	1	}{	Ehi, fermo, bello - prova a bussare la prossima volta, ti ho quasi fatto esplodere la testa, cazzo. Pensavo fossi uno zombie. }{	Ehi, ferma, tesoro - prova a bussare la prossima volta, ti ho quasi fatto esplodere la testa, cazzo. Pensavo fossi una zombie.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Perche' pensavi che io fossi uno zombie? }{	Perche' pensavi che io fossi una zombie?	}{	461	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	I think my shambling needs work. Penso che la mia camminata abbia bisogno di un po' di lavoro. Perche' dici cio'?}
+{	3	}{	Perche' pensavi che io fossi uno zombie?	}{	Perche' pensavi che io fossi una zombie?	}{	431	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Chi sei? 	}{	Chi sei?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Come ti posso chiamare, persona confusa? }
 {	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -18,8 +18,8 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Name's Romero... I'm the caretaker here. Well, that is, I don't exactly keep people from getting in, although that is part of my job. No, you see, I'm here to make sure nothing gets out.	}{	Name's Romero... I'm the caretaker here. Well, that is, I don't exactly keep people from getting in, although that is part of my job. No, you see, I'm here to make sure nothing gets out.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	What do you mean?	}{	What do you mean?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Really? I'm in charge of making sure the stars don't go anywhere. Stay! Good star.	}
+{	21	}{	Mi chiamo Romero... Sono il becchino qui. Beh, diciamo, non fermo esattamente le persone dall'entrare, anche se quello fa parte del mio lavoro. No, vedi, sono qui per assicurarmi che niente esca.	}{	Mi chiamo Romero... Sono il becchino qui. Beh, diciamo, non fermo esattamente le persone dall'entrare, anche se quello fa parte del mio lavoro. No, vedi, sono qui per assicurarmi che niente esca.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Cosa intendi? }{	Cosa intendi?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sul serio? Io invece devo assicurarmi che le stelle non vadano da nessuna parte. Stai ferma! Brava stella!}
 {	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,7 +38,7 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	I love my job, what can I say? By the way...	}{	I love my job, what can I say? By the way...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Amo il mio lavoro, che ti devo dire? Comunque...}{	Amo il mio lavoro, che ti devo dire? Comunque...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	(Auto-Link)	}{	(Auto-Link)	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -48,7 +48,7 @@
 {	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	See it's like this: every night 'round this time for the past... oh, several months now, the dead've been getting up with an itch to stroll down Hollywood Boulevard. Nobody knows why, but they're working on it.	}{	See it's like this: every night 'round this time for the past... oh, several months now, the dead've been getting up with an itch to stroll down Hollywood Boulevard. Nobody knows why, but they're working on it.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	La situazione e' questa: ogni notte intorno a quest'ora da... oh, molti mesi ormai, i morti hanno voglia di farsi un giro per Hollywood Boulevard. Nessuno sa perche', ma ci stanno lavorando.}{	La situazione e' questa: ogni notte intorno a quest'ora da... oh, molti mesi ormai, i morti hanno voglia di farsi un giro per Hollywood Boulevard. Nessuno sa perche', ma ci stanno lavorando.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	52	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -58,10 +58,10 @@
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Till they figure it out, they needed a volunteer to patch the problem and I stepped forward. Problem temporarily solved, the baron's happy, I get to shoot zombies and guarantee I get my blood for another month. I've carved out a nice niche here.	}{	Till they figure it out, they needed a volunteer to patch the problem and I stepped forward. Problem temporarily solved, the baron's happy, I get to shoot zombies and guarantee I get my blood for another month. I've carved out a nice niche here.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	So, all you do is shoot zombies?	}{	So, all you do is shoot zombies?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	The dead taste your lead?	}
-{	63	}{	Sounds like fun.	}{	Sounds like fun.	}{	91	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... fun.	}
-{	64	}{	What's causing the zombies to rise?	}{	What's causing the zombies to rise?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why don't the dead sleep?	}
+{	61	}{	Fino a che non lo capiscono, avevano bisogno di un volontario per arginare il problema e mi sono proposto io. Il problema e' temporaneamente risolto, il barone e' felice, sparo agli zombie e ho la garanzia di avere il mio sangue un altro mese. Mi sono fatto una piccola nicchia qui. }{	Fino a che non lo capiscono, avevano bisogno di un volontario per arginare il problema e mi sono proposto io. Il problema e' temporaneamente risolto, il barone e' felice, sparo agli zombie e ho la garanzia di avere il mio sangue un altro mese. Mi sono fatto una piccola nicchia qui.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Percio' tutto quello che fai e' sparare agli zombie? }{	Percio' tutto quello che fai e' sparare agli zombie?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	I morti assaggiano i tuoi proiettili?}
+{	63	}{	Sembra divertente.}{	Sembra divertente.	}{	91	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... divertente.	}
+{	64	}{	Qual e' la causa del loro risveglio?}{	Qual e' la causa del loro risveglio?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perche' i morti non dormono? }
 {	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -71,7 +71,7 @@
 {	71	}{	Shoot them, blow them away, frag them - whatever the situation calls for. Sometimes I throw in chopping and dicing just to mix it up.	}{	Shoot them, blow them away, frag them - whatever the situation calls for. Sometimes I throw in chopping and dicing just to mix it up.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Romero_Shootin = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	What's causing the zombies to rise?	}{	What's causing the zombies to rise?	}{	81	}{	G.Romero_Rise == 0	}{	}{	}{	}{	}{	}{	}{	}{	Why don't the dead sleep?	}
 {	73	}{	Sounds like fun.	}{	Sounds like fun.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... fun.	}
-{	74	}{	Well, enjoy. Goodbye.	}{	Well, enjoy. Goodbye.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	The prejudice against the undead is strong here, so I am gone.	}
+{	74	}{	Beh, divertiti. Addio.}{	Beh, divertiti. Addio.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	The prejudice against the undead is strong here, so I am gone.	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
