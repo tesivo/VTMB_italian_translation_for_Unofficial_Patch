@@ -159,7 +159,7 @@
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	161	}{	Barone sanguinario? Ramoscello d'ulivo? Parli con delle parole controrte e delle bugie, come tutti quelli della tua specie! }{	Barone sanguinario? Ramoscello d'ulivo? Parli con delle parole controrte e delle bugie, come tutti quelli della tua specie! 	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	Abrams, quello dei sogni di celluloide! Ha un offerta, estende una mano.	}{	Abrams, he of the celluloid dream! An offer, extended hands.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Abrams, quello dei sogni di celluloide! Ha un offerta, estende una mano.	}{	Abrams, quello dei sogni di celluloide! Ha un offerta, estende una mano.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
