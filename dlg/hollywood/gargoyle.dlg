@@ -109,7 +109,7 @@
 {	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Si'. Combattero' a fianco di questo Abrams, e lo aiutero' nella sua lotta contro questa... Camarilla. Sara' anche un demone senza vita, ma giuro di combattere al suo fianco. }{	Si'. Combattero' a fianco di questo Abrams, e lo aiutero' nella sua lotta contro questa... Camarilla. Sara' anche un demone senza vita, ma giuro di combattere al suo fianco.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Fantastico. Diro' a Isaac che ha un nuovo alleato. }{ Fantastico. Diro' a Isaac che ha un nuovo alleato.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Farewell. Il barone sanguinario ne sara' lieto. Addio.	}
+{	112	}{	Fantastico. Diro' a Isaac che ha un nuovo alleato. }{ Fantastico. Diro' a Isaac che ha un nuovo alleato.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il barone sanguinario ne sara' lieto. Addio.	}
 {	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -141,13 +141,13 @@
 {	141	}{	Ah! Mostri senz'anima! Volete sempre piu' potere, piu' schiavi! Dovrei ucciderti ora, e farla finita! }{	Ah! Mostri senz'anima! Volete sempre piu' potere, piu' schiavi! Dovrei ucciderti ora, e farla finita!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	142	}{	Forse alleato e' la parola migliore. Ha bisogno della tua forza per combattere la Camarilla... }{	Forse alleato e' la parola migliore. Ha bisogno della tua forza per combattere la Camarilla...	}{	61	}{	G.Gargoyle_Persuade == 1	}{	}{	}{	}{	}{	}{	}{	}{	No! Il barone ha bisogno di una mano destra per combattere la Camarilla, non un patetico schiavo...}
 {	143	}{	Senti. Tutti devono seguire degli ordini, e lo farai pure tu. }{	Senti. Tutti devono seguire degli ordini, e lo farai pure tu.	}{	71	}{	G.Gargoyle_Persuade == 1	}{	}{	}{	}{	}{	}{	}{	}{	Sta' al tuo posto e inginocchiati.}
-{	144	}{	No! Wait! I don't like them and neither does Isaac. That's why he's fighting them.	}{	No! Wait! I don't like them and neither does Isaac. That's why he's fighting them.	}{	81	}{	G.Gargoyle_Persuade == 2	}{	}{	}{	}{	}{	}{	}{	}{	Wait! My heart wears no Camarilla emblem! I battle them with the blood baron.	}
-{	145	}{	The Camarilla is where it's at. I recommend you start changing your attitude.	}{	The Camarilla is where it's at. I recommend you start changing your attitude.	}{	71	}{	G.Gargoyle_Persuade == 2	}{	}{	}{	}{	}{	}{	}{	}{	Life or unlife, dark hearts need direction. Serve the Camarilla.	}
-{	146	}{	Wait! Isaac only needs power so he can fight your old enemies, the Tremere.	}{	Wait! Isaac only needs power so he can fight your old enemies, the Tremere.	}{	91	}{	G.Gargoyle_Persuade == 3 and (G.Chantry_Gbook == 1 or G.Gargoyle_Tremere == 1 or G.Regent_Gargoyleinside == 1)	}{	}{	}{	}{	}{	}{	}{	}{	No! Such power only to crush the meddling blood magickers, the Tremere....	}
-{	147	}{	Power is like anything else. Some people have it and some people don't.	}{	Power is like anything else. Some people have it and some people don't.	}{	71	}{	G.Gargoyle_Persuade == 3	}{	}{	}{	}{	}{	}{	}{	}{	Those without yearn after such power. When you have none, serve those who do.	}
+{	144	}{	No! Aspetta! A me non piacciono e neanche ad Isaac. E' per questo che combatte contro di loro. }{	No! Aspetta! A me non piacciono e neanche ad Isaac. E' per questo che combatte contro di loro.	}{	81	}{	G.Gargoyle_Persuade == 2	}{	}{	}{	}{	}{	}{	}{	}{	Aspetta! Il mio cuore non segue la Camarilla. Combatto contro di loro insieme al barone sanguinario. 	}
+{	145	}{	La Camarilla ha ragione. Ti consiglio di cambiare atteggiamento. }{	La Camarilla ha ragione. Ti consiglio di cambiare atteggiamento.	}{	71	}{	G.Gargoyle_Persuade == 2	}{	}{	}{	}{	}{	}{	}{	}{	Vita o nonvita, i nostri cuori oscuri hanno bisogno di una direzione. Servi la Camarilla. }
+{	146	}{	Aspetta! Isaac ha solo bisogno di potere per combattere i tuoi vecchi nemici, i Tremere. }{	Aspetta! Isaac ha solo bisogno di potere per combattere i tuoi vecchi nemici, i Tremere. 	}{	91	}{	G.Gargoyle_Persuade == 3 and (G.Chantry_Gbook == 1 or G.Gargoyle_Tremere == 1 or G.Regent_Gargoyleinside == 1)	}{	}{	}{	}{	}{	}{	}{	}{	No! Quel potere e' solo per distruggere gli stregoni del sangue, i Tremere... }
+{	147	}{	Il potere e' come ogni altra cosa. Alcune persone ce l'hanno e altre no. }{	Il potere e' come ogni altra cosa. Alcune persone ce l'hanno e altre no.	}{	71	}{	G.Gargoyle_Persuade == 3	}{	}{	}{	}{	}{	}{	}{	}{	Coloro che sono senza potere lo cercano. Se non ne hai, devi servire coloro che lo possiedono.	}
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	Fine. You want it, you got it. Bring it on!	}{	Fine. You want it, you got it. Bring it on!	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	The grave calls your cursed name, golem. Farewell.	}
+{	150	}{	Va bene! Se vuoi lottare, allora lottiamo. Forza! }{	Va bene! Se vuoi lottare, allora lottiamo. Forza!	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	La tomba chiama il tuo nome maledetto, golem. Addio.	}
 {	151	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -158,7 +158,7 @@
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	Blood baron? Olive branch? You speak in twisted words and lies, as all your kind do!	}{	Blood baron? Olive branch? You speak in twisted words and lies, as all your kind do!	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Barone sanguinario? Ramoscello d'ulivo? Parli con delle parole controrte e delle bugie, come tutti quelli della tua specie! }{	Barone sanguinario? Ramoscello d'ulivo? Parli con delle parole controrte e delle bugie, come tutti quelli della tua specie! 	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	162	}{	Abrams, quello dei sogni di celluloide! Ha un offerta, estende una mano.	}{	Abrams, he of the celluloid dream! An offer, extended hands.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
