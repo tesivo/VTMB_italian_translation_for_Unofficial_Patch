@@ -68,9 +68,9 @@
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	Shoot them, blow them away, frag them - whatever the situation calls for. Sometimes I throw in chopping and dicing just to mix it up.	}{	Shoot them, blow them away, frag them - whatever the situation calls for. Sometimes I throw in chopping and dicing just to mix it up.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Romero_Shootin = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	What's causing the zombies to rise?	}{	What's causing the zombies to rise?	}{	81	}{	G.Romero_Rise == 0	}{	}{	}{	}{	}{	}{	}{	}{	Why don't the dead sleep?	}
-{	73	}{	Sounds like fun.	}{	Sounds like fun.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... fun.	}
+{	71	}{	Gli sparo, li faccio esplodere, gli tiro granate - dipende dalla situazione. A volte ci metto dentro anche un po' di tagliuzzamento, tanto per cambiare. }{	Gli sparo, li faccio esplodere, gli tiro granate - dipende dalla situazione. A volte ci metto dentro anche un po' di tagliuzzamento, tanto per cambiare.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Romero_Shootin = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Qual e' la causa del loro risveglio?	}{	Qual e' la causa del loro risveglio?	}{	81	}{	G.Romero_Rise == 0	}{	}{	}{	}{	}{	}{	}{	}{	Perche' i morti non dormono?	}
+{	73	}{	Sembra divertente.	}{	Sembra divertente.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... divertente.	}
 {	74	}{	Beh, divertiti. Addio.}{	Beh, divertiti. Addio.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	The prejudice against the undead is strong here, so I am gone.	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -78,17 +78,17 @@
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	Who knows? Vampire necro-hoodoo, toxic waste, solar radiation - the important part is: they continue to rise up, and I get to put 'em down. Everybody's a winner.	}{	Who knows? Vampire necro-hoodoo, toxic waste, solar radiation - the important part is: they continue to rise up, and I get to put 'em down. Everybody's a winner.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Romero_Rise = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	All you do here is shoot zombies?	}{	All you do here is shoot zombies?	}{	71	}{	G.Romero_Shootin == 0 and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	The dead taste your lead?	}
-{	83	}{	Sounds like fun.	}{	Sounds like fun.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... fun.	}
-{	84	}{	Enjoy. Goodbye.	}{	Enjoy. Goodbye.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	The prejudice against the undead is strong here, so I am gone.	}
+{	81	}{	Chi lo sa? Necro-vodoo vampiresco, rifiuti tossici, radiazioni solari - la cosa importante e' questa: continuano a svegliarsi e io li abbatto. Vincono tutti. }{	Chi lo sa? Necro-vodoo vampiresco, rifiuti tossici, radiazioni solari - la cosa importante e' questa: continuano a svegliarsi e io li abbatto. Vincono tutti.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Romero_Rise = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Percio' tutto quello che fai e' sparare agli zombie?	}{	Percio' tutto quello che fai e' sparare agli zombie?	}{	71	}{	G.Romero_Shootin == 0 and G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	I morti assaggiano i tuoi proiettili?	}
+{	83	}{	Sembra divertente. }{	Sembra divertente.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... divertente.	}
+{	84	}{	Beh, divertiti. Addio.	}{	Beh, divertiti. Addio.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il pregiudizio contro i nonmorti e' intenso qui, quindi me ne vado. }
 {	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	You're telling me. Far as I know I'm the only person around Hollywood who considers marksmanship an art. A lot of the stiffs around here used to be asshole celebrities too. Bonus.	}{	You're telling me. Far as I know I'm the only person around Hollywood who considers marksmanship an art. A lot of the stiffs around here used to be asshole celebrities too. Bonus.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Dillo a me. Da quel che so sono l'unica persona a Hollywood che considera il tiro di precisione un'arte. Tanti dei vaganti qui erano anche delle celebrita' stronze. Bonus. 	}{	Dillo a me. Da quel che so sono l'unica persona a Hollywood che considera il tiro di precisione un'arte. Tanti dei vaganti qui erano anche delle celebrita' stronze. Bonus.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{	(Auto-Link)	}{	(Auto-Link)	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -98,18 +98,18 @@
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	Hey - you wouldn't be interested in watching the place while I go handle some business, would you? I'm not supposed to leave or it might end up in a zombie holocaust or something. Like one time, these goths snuck in... wooh, wasn't pretty.	}{	Hey - you wouldn't be interested in watching the place while I go handle some business, would you? I'm not supposed to leave or it might end up in a zombie holocaust or something. Like one time, these goths snuck in... wooh, wasn't pretty.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Romero_Offer = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	What do I have to do?	}{	What do I have to do?	}{	141	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	How do I stop the zombie hordes?	}
-{	103	}{	What do I have to do?	}{	What do I have to do?	}{	141	}{	Appearance -2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	How do I stop the zombie hordes?	}
-{	104	}{	What do I have to do?	}{	What do I have to do?	}{	131	}{	Appearance 2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	How do I stop the zombie hordes?	}
-{	105	}{	What's in it for me?	}{	What's in it for me?	}{	121	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	What's my motivation?	}
+{	101	}{	Hey - ti interessa fare la guardia a questo posto mentre mi occupo di alcuni affari? Non dovrei andarmene, altrimenti finisce in un olocausto zombie o cose simili. Una volta, sono entrati dei goth... wooh, non e' stato bello. }{	Hey - ti interessa fare la guardia a questo posto mentre mi occupo di alcuni affari? Non dovrei andarmene, altrimenti finisce in un olocausto zombie o cose simili. Una volta, sono entrati dei goth... wooh, non e' stato bello.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Romero_Offer = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Cosa devo fare?	}{	Cosa devo fare?	}{	141	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Come fermo le orde di zombie? 	}
+{	103	}{	Cosa devo fare?	}{	Cosa devo fare?	}{	141	}{	Appearance -2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Come fermo le orde di zombie?	}
+{	104	}{	Cosa devo fare?	}{	Cosa devo fare?	}{	131	}{	Appearance 2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Come fermo le orde di zombie?	}
+{	105	}{	Che ci guadagno?	}{	Che ci guadagno?	}{	121	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Qual e' la mia motivazione?	}
 {	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	No, sorry not interested.	}{	No, sorry not interested.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	No thanks, but for the grace of the blood, there go I.	}
-{	111	}{	Well, if you change your mind, you know where I'll be. Careful not to let anything out as you leave.	}{	Well, if you change your mind, you know where I'll be. Careful not to let anything out as you leave.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	I will. Goodbye.	}{	I will. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It changes as it stays the same. I am gone.	}
+{	110	}{	No, scusa, non sono interessato.	}{	No, scusa, non sono interessata.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	No grazie, me ne vado.	}
+{	111	}{	Beh, se cambi idea, sai dove sono. Attento a non far uscire nulla quando te ne vai. }{	Beh, se cambi idea, sai dove sono. Attenta a non far uscire nulla quando te ne vai.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Lo faro'. Arrivederci.	}{	Lo faro'. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cambia e rimane la stessa. Me ne vado.	}
 {	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -118,59 +118,59 @@
 {	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	Let's see... if you can't shoot straight, I can probably fix that. And I've got quite the arsenal - I can probably let one piece go. We'll work something out when I get back.	}{	Let's see... if you can't shoot straight, I can probably fix that. And I've got quite the arsenal - I can probably let one piece go. We'll work something out when I get back.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	What do I have to do?	}{	What do I have to do?	}{	141	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	How do I stop the zombie hordes?	}
-{	123	}{	What do I have to do?	}{	What do I have to do?	}{	141	}{	Appearance -2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	How do I stop the zombie hordes?	}
-{	124	}{	What do I have to do?	}{	What do I have to do?	}{	131	}{	Appearance 2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	How do I stop the zombie hordes?	}
+{	121	}{	Vediamo... se non sai sparare bene, ti posso insegnare. E ho un buon arsenale - ti posso dare un pezzo. Ci accordiamo quando ritorno.	}{	Vediamo... se non sai sparare bene, ti posso insegnare. E ho un buon arsenale - ti posso dare un pezzo. Ci accordiamo quando ritorno.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Cosa devo fare?	}{	Cosa devo fare?	}{	141	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Come fermo le orde di zombie?	}
+{	123	}{	Cosa devo fare?	}{	Cosa devo fare?	}{	141	}{	Appearance -2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Come fermo le orde di zombie?	}
+{	124	}{	Cosa devo fare?	}{	Cosa devo fare?	}{	131	}{	Appearance 2 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Come fermo le orde di zombie?	}
 {	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Uh, you know, I know you're technically dead and all, but... goddamn you are one striking looking piece of ass. Where were you when you were still breathing, huh? I don't suppose you'd still be interested in a little, uh -	}{	Uh, you know, I know you're technically dead and all, but... goddamn you are one striking looking piece of ass. Where were you when you were still breathing, huh? I don't suppose you'd still be interested in a little, uh -	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Romero_Crush = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	I can slick my parts with blood as you thrust up against my corpse. Okay?	}{	I can slick my parts with blood as you thrust up against my corpse. Okay?	}{	341	}{	IsClan(pc,"Malkavian") and G.Player_Homo == 0	}{	G.Romero_Crush = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	133	}{	Stick to the subject at hand, Romero.	}{	Stick to the subject at hand, Romero.	}{	511	}{	}{	G.Romero_Crush = 0	}{	}{	}{	}{	}{	}{	}{	I'd rather speak of your other love for the undead.	}
-{	134	}{	Even if I were alive the answer'd still be no. Let's get back on track.	}{	Even if I were alive the answer'd still be no. Let's get back on track.	}{	521	}{	not IsClan(pc,"Malkavian")	}{	G.Romero_Crush = 0	}{	}{	}{	}{	}{	}{	}{	}
-{	135	}{	I just might, but let's get back to business first.	}{	I just might, but let's get back to business first.	}{	531	}{	 G.Player_Homo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Fleshy pleasure? Sounds like a laugh... but fleshy business first.	}
+{	131	}{	Uh, sai, lo so che tecnicamente sei morta e tutto quanto, pero'... cazzo se sei figa! Dov'eri quando respiravi ancora, uh? Credo che tu non sia interessata a un po' di, uh - }{	Uh, sai, lo so che tecnicamente sei morta e tutto quanto, pero'... cazzo se sei figa! Dov'eri quando respiravi ancora, uh? Credo che tu non sia interessata a un po' di, uh -	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Romero_Crush = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Posso bagnare le parti intime di sangue e tu fai quello che vuoi con il mio cadavere. Okay? }{	Posso bagnare le parti intime di sangue e tu fai quello che vuoi con il mio cadavere. Okay?	}{	341	}{	IsClan(pc,"Malkavian") and G.Player_Homo == 0	}{	G.Romero_Crush = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{	Rimanamo sull'argomento, Romero. }{	Rimanamo sull'argomento, Romero.	}{	511	}{	}{	G.Romero_Crush = 0	}{	}{	}{	}{	}{	}{	}{ Preferirei parlare del tuo altro amore per i nonmorti.}
+{	134	}{	Anche se fossi ancora viva la risposta sarebbe comunque no. Rimettiamoci in carreggiata. 	}{	Anche se fossi ancora viva la risposta sarebbe comunque no. Rimettiamoci in carreggiata.	}{	521	}{	not IsClan(pc,"Malkavian")	}{	G.Romero_Crush = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	Forse, ma parliamo di affari prima. }{	Forse, ma parliamo di affari prima.	}{	531	}{	 G.Player_Homo == 0	}{	}{	}{	}{	}{	}{	}{	}{	Piacere carnale? Sembra divertente... ma prima parliamo di affari carnali. }
 {	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	I'll be back in about five minutes. If you should see any zombies in that time, you need to put them down. Now, they're dead, so you're either going to have to hack them up good or shoot 'em in the head. Just don't let them bite you.	}{	I'll be back in about five minutes. If you should see any zombies in that time, you need to put them down. Now, they're dead, so you're either going to have to hack them up good or shoot 'em in the head. Just don't let them bite you.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Romero_Details = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	Why? Do you turn into a zombie if they bite you?	}{	Why? Do you turn into a zombie if they bite you?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	Does it cause zombie status? I am out of holy water.	}
-{	143	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	541	}{	G.Romero_Crush == 1	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here in ten minutes. Until then, I am you.	}
-{	144	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	161	}{	G.Romero_Crush == 0	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here in five minutes. Until then, I am you.	}
+{	141	}{	Torno tra circa cinque minuti. Se vedi degli zombie, devi abbatterli. Allora, sono morti, quindi devi farli a pezzi o sparargli in testa. Non farti mordere. }{	Torno tra circa cinque minuti. Se vedi degli zombie, devi abbatterli. Allora, sono morti, quindi devi farli a pezzi o sparargli in testa. Non farti mordere.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Romero_Details = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Perche'? Ti trasformi in uno zombie se ti mordono? }{	Perche'? Ti trasformi in uno zombie se ti mordono? 	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	Provoca uno stato di zombie? Ho finito l'acqua santa.	}
+{	143	}{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado. }{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado.	}{	541	}{	G.Romero_Crush == 1	}{	}{	}{	}{	}{	}{	}{	}{	Me ne vado tra cinque minuti. Fino ad allora, io sono te. }
+{	144	}{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado.	}{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado.	}{	161	}{	G.Romero_Crush == 0	}{	}{	}{	}{	}{	}{	}{	}{	Me ne vado tra cinque minuti. Fino ad allora, io sono te.	}
 {	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	146	}{	I'm not interested in fighting zombies. Maybe I can help some other way?	}{	I'm not interested in fighting zombies. Maybe I can help some other way?	}{	681	}{	G.Romero_Kidding == 0 and not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	I have a soft spot for the undead. Something else, perhaps?	}
+{	146	}{	Non mi interessa combattere gli zombie. Forse posso aiutarti in un altro modo? }{	Non mi interessa combattere gli zombie. Forse posso aiutarti in un altro modo?	}{	681	}{	G.Romero_Kidding == 0 and not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Mi piacciono i nonmorti. C'e' un altro modo per aiutare? }
 {	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	Naw, it just hurts like a bitch.	}{	Naw, it just hurts like a bitch.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	541	}{	G.Romero_Crush == 1	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here in ten minutes. Until then, I am you.	}
-{	153	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	Alright, I'll take over. But you'd better come back in five minutes or I'm leaving.	}{	161	}{	G.Romero_Crush == 0	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here in five minutes. Until then, I am you.	}
+{	151	}{	Nah, fa solo un male cane. }{	Nah, fa solo un male cane.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado.	}{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado.	}{	541	}{	G.Romero_Crush == 1	}{	}{	}{	}{	}{	}{	}{	}{ Me ne vado tra cinque minuti. Fino ad allora, io sono te. }
+{	153	}{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado.	}{	Va bene, faccio io. Ma devi tornare tra cinque minuti o me ne vado.	}{	161	}{	G.Romero_Crush == 0	}{	}{	}{	}{	}{	}{	}{	}{	Me ne vado tra cinque minuti. Fino ad allora, io sono te.	}
 {	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	155	}{	I'm not interested in fighting zombies. Maybe I can help some other way?	}{	I'm not interested in fighting zombies. Maybe I can help some other way?	}{	681	}{	G.Romero_Kidding == 0 and not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	I have a soft spot for the undead. Something else, perhaps?	}
+{	155	}{	Non mi interessa combattere gli zombie. Forse posso aiutarti in un altro modo?	}{	Non mi interessa combattere gli zombie. Forse posso aiutarti in un altro modo?	}{	681	}{	G.Romero_Kidding == 0 and not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Mi piacciono i nonmorti. C'e' un altro modo per aiutare?	}
 {	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	Hold tight. I've got something to take care of. I'll be back. Goodbye.	}{	Hold tight. I've got something to take care of. I'll be back. Goodbye.	}{	0	}{	}{	G.Romero_Quest = 1	}{	}{	}{	}{	}{	}{	}{	Tell the dead to stay put. I am returning.	}
-{	161	}{	Fantastic. Only one rule - nothing gets out. Keep 'em away from the front and back gates. Here, this might come in handy. Back in five.	}{	Fantastic. Only one rule - nothing gets out. Keep 'em away from the front and back gates. Here, this might come in handy. Back in five.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	pc.GiveItem("item_w_remington_m_700"); pc.GiveAmmo("item_w_remington_m_700",10); G.Romero_Quest = 2; pc.SetQuest("Romero",1)	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	Got it. Goodbye.	}{	Got it. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm crazy, not stupid. You are gone.	}
-{	163	}{	Hurry up. This is so beneath me. Goodbye.	}{	Hurry up. This is so beneath me. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am a creature of infinite power... doing a ghoul's job. Five minutes.	}
-{	164	}{	Take your time, I'm going to enjoy this. Goodbye.	}{	Take your time, I'm going to enjoy this. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Just like a video game... I could play for hours. You are gone.	}
+{	160	}{	Aspetta. Devo occuparmi di una cosa. Tornero'. Arrivederci. 	}{	Aspetta. Devo occuparmi di una cosa. Tornero'. Arrivederci.	}{	0	}{	}{	G.Romero_Quest = 1	}{	}{	}{	}{	}{	}{	}{	Di' ai morti di stare fermi. Tornero'.	}
+{	161	}{	Fantastico. L'unica regola - non esce nulla. Tienili lontani dal cancello di fronte e quello sul retro. Tieni, questo puo' esserti utile. Torno in cinque minuti.	}{	Fantastico. L'unica regola - non esce nulla. Tienili lontani dal cancello di fronte e quello sul retro. Tieni, questo puo' esserti utile. Torno in cinque minuti.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	pc.GiveItem("item_w_remington_m_700"); pc.GiveAmmo("item_w_remington_m_700",10); G.Romero_Quest = 2; pc.SetQuest("Romero",1)	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Capito. Ci vediamo dopo.	}{	Capito. Ci vediamo dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono pazzo, non stupido. Vai.	}
+{	163	}{	Sbrigati. Questa cosa e' indegna per me. Ci vediamo.	}{	Sbrigati. Questa cosa e' indegna per me. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono una creatura con poteri infiniti... che fa il lavoro di un ghoul. Cinque minuti.	}
+{	164	}{	Fai con calma, voglio divertirmi. Ci vediamo.	}{	Fai con calma, voglio divertirmi. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Proprio come un videogioco... potrei giocare per ore. Ci vediamo.	}
 {	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	What the hell? I can't get a six-pack without the whole shithouse going up in flames? How do I explain this? What's the opposite of not screwed? That's ME right now.	}{	What the hell? I can't get a six-pack without the whole shithouse going up in flames? How do I explain this? What's the opposite of not screwed? That's ME right now.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	pc.RemoveItem("item_w_remington_m_700"); G.Romero_Quest = 5	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	Yeah. Sorry about letting them get out. Goodbye.	}{	Yeah. Sorry about letting them get out. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Look at them go! It's like watching old people race.	}
-{	173	}{	Wait, I helped you out, somewhat. How about some gratitude and a reward?	}{	Wait, I helped you out, somewhat. How about some gratitude and a reward?	}{	181	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Where are the fabulous prizes I was promised?	}
+{	171	}{	Che cazzo? Non posso prendermi delle birre senza che vada tutto a puttane? Come lo spieghi questo? Sai cos'e' l'opposto di non fottuto? IO, adesso. }{	Che cazzo? Non posso prendermi delle birre senza che vada tutto a puttane? Come lo spieghi questo? Sai cos'e' l'opposto di non fottuto? IO, adesso.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	pc.RemoveItem("item_w_remington_m_700"); G.Romero_Quest = 5	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Si'. Scusa se li ho lasciati uscire. Ci vediamo.	}{	Si'. Scusa se li ho lasciati uscire. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ma guardali! E' come vedere dei vecchietti che corrono. }
+{	173	}{	Aspetta, ma ti ho dato una mano, in un certo senso. Che ne dici di un po' di gratitudine e un premio?	}{	Aspetta, ma ti ho dato una mano, in un certo senso. Che ne dici di un po' di gratitudine e un premio?	}{	181	}{	Humanity -8	}{	}{	}{	}{	}{	}{	}{	}{	Dove sono i favolosi premi che mi hai promesso? }
 {	174	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -178,19 +178,19 @@
 {	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	Where are my manners - thanks for letting the rotting animated corpses out to chew on the flesh of the living so I could spend all of my pre-dawn hours cleaning up decaying flesh and half-eaten dolt carcasses. Really, made my night.	}{	Where are my manners - thanks for letting the rotting animated corpses out to chew on the flesh of the living so I could spend all of my pre-dawn hours cleaning up decaying flesh and half-eaten dolt carcasses. Really, made my night.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	I won't ask again... give me something for my time.	}{	I won't ask again... give me something for my time.	}{	191	}{	Intimidate 7	}{	}{	}{	}{	}{	}{	}{	}{	It doesn't have to be shiny but it has to be something. And now.	}
-{	183	}{	I won't ask again... give me something for my time.	}{	I won't ask again... give me something for my time.	}{	201	}{	Intimidate -7	}{	}{	}{	}{	}{	}{	}{	}{	It doesn't have to be shiny but it has to be something. And now.	}
-{	184	}{	Sorry. Goodbye.	}{	Sorry. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oops. I am gone.	}
-{	185	}{	Have fun with that. Goodbye.	}{	Have fun with that. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You're welcome. I am no longer here.	}
+{	181	}{	Ma che maleducato - grazie per aver fatto uscire dei cadaveri vaganti che ora mangeranno la carne dei vivi, cosi' io posso passare le ore a pulire carne putrida e carcasse mezze mangiucchiate. Veramente, mi hai fatto un favore. }{	Ma che maleducato - grazie per aver fatto uscire dei cadaveri vaganti che ora mangeranno la carne dei vivi, cosi' io posso passare le ore a pulire carne putrida e carcasse mezze mangiucchiate. Veramente, mi hai fatto un favore.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Non te lo chiedero' di nuovo... dammi una ricompensa. }{	Non te lo chiedero' di nuovo... dammi una ricompensa.	}{	191	}{	Intimidate 7	}{	}{	}{	}{	}{	}{	}{	}{	Non deve brillare ma deve essere qualcosa. E ora. 	}
+{	183	}{	Non te lo chiedero' di nuovo... dammi una ricompensa.	}{	Non te lo chiedero' di nuovo... dammi una ricompensa.	}{	201	}{	Intimidate -7	}{	}{	}{	}{	}{	}{	}{	}{	Non deve brillare ma deve essere qualcosa. E ora.	}
+{	184	}{	Scusami. Addio.	}{	Scusami. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Oops. Me ne vado.	}
+{	185	}{	Beh, divertiti. Addio.}{	Beh, divertiti. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ma prego. Non sono piu' qui.	}
 {	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	Oh, I know when to pick a fight and when to back down, and looking at you - I'm sure the outcome's going to result in a very mangled me, though I might point out though that we're in a public place and, uh, I'm a close acquaintance of Isaac.	}{	Oh, I know when to pick a fight and when to back down, and looking at you - I'm sure the outcome's going to result in a very mangled me, though I might point out though that we're in a public place and, uh, I'm a close acquaintance of Isaac.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	Point made. Goodbye.	}{	Point made. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It is a ruse, but it is no joke. I am gone.	}
-{	193	}{	I'm not going to take this from a goddamn ghoul. C'mon.	}{	I'm not going to take this from a goddamn ghoul. C'mon.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's even things up. I'm dead, they're dead, hmm... think I see what's to be done.	}
+{	191	}{	Oh, so quando attaccare briga e quando no, e guardandoti - Sono sicuro che il risultato potrei essere io a brandelli, ma ti ricordo che siamo in un luogo pubblico e, uh, sono un conoscente di Isaac. }{	h, so quando attaccare briga e quando no, e guardandoti - Sono sicuro che il risultato potrei essere io a brandelli, ma ti ricordo che siamo in un luogo pubblico e, uh, sono un conoscente di Isaac.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	Hai ragione. Addio.	}{	Hai ragione. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It is a ruse, but it is no joke. I am gone.	}
+{	193	}{	Non voglio essere rimproverato da un cazzo di ghoul. Dai.	}{	Non voglio essere rimproverata da un cazzo di ghoul. Dai.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	LMettiamo le cose in pari... sono morto, loro sono morti, hmmm... capisco cosa deve essere fatto.	}
 {	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -198,7 +198,7 @@
 {	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	Walk it off, superstar. I may not have your powers but I can pop a head open at this distance no problem. And don't forget, we're in public and I'm a close acquaintance of Isaac. Now get moving so I can cover your mess.	}{	Walk it off, superstar. I may not have your powers but I can pop a head open at this distance no problem. And don't forget, we're in public and I'm a close acquaintance of Isaac. Now get moving so I can cover your mess.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	Cammina che ti passa, superstar. Non avro' i tuoi poteri ma posso far esplodere una testa a questa distanza senza problemi. E non dimenticare che siamo in un luogo pubblico e io sono un conoscente di Isaac. Ora vattene, che devo ripulire il tuo casino.}{	Cammina che ti passa, superstar. Non avro' i tuoi poteri ma posso far esplodere una testa a questa distanza senza problemi. E non dimenticare che siamo in un luogo pubblico e io sono un conoscente di Isaac. Ora vattene, che devo ripulire il tuo casino.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Point made. Goodbye.	}{	Point made. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It is a ruse, but it is no joke. I am gone.	}
 {	203	}{	I'm not going to take this from a goddamn ghoul. C'mon.	}{	I'm not going to take this from a goddamn ghoul. C'mon.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's even things up. I'm dead, they're dead, hmm... think I see what's to be done.	}
 {	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
