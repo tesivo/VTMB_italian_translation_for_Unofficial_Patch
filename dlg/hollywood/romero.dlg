@@ -189,8 +189,8 @@
 {	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	191	}{	Oh, so quando attaccare briga e quando no, e guardandoti - Sono sicuro che il risultato potrei essere io a brandelli, ma ti ricordo che siamo in un luogo pubblico e, uh, sono un conoscente di Isaac. }{	h, so quando attaccare briga e quando no, e guardandoti - Sono sicuro che il risultato potrei essere io a brandelli, ma ti ricordo che siamo in un luogo pubblico e, uh, sono un conoscente di Isaac.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	Hai ragione. Addio.	}{	Hai ragione. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It is a ruse, but it is no joke. I am gone.	}
-{	193	}{	Non voglio essere rimproverato da un cazzo di ghoul. Dai.	}{	Non voglio essere rimproverata da un cazzo di ghoul. Dai.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	LMettiamo le cose in pari... sono morto, loro sono morti, hmmm... capisco cosa deve essere fatto.	}
+{	192	}{	Hai ragione. Addio.	}{	Hai ragione. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	E' un inganno, ma non uno scherzo. Me ne vado.	}
+{	193	}{	Non voglio essere rimproverato da un cazzo di ghoul. Dai.	}{	Non voglio essere rimproverata da un cazzo di ghoul. Dai.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mettiamo le cose in pari... sono morto, loro sono morti, hmmm... capisco cosa deve essere fatto.	}
 {	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -199,8 +199,8 @@
 {	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	201	}{	Cammina che ti passa, superstar. Non avro' i tuoi poteri ma posso far esplodere una testa a questa distanza senza problemi. E non dimenticare che siamo in un luogo pubblico e io sono un conoscente di Isaac. Ora vattene, che devo ripulire il tuo casino.}{	Cammina che ti passa, superstar. Non avro' i tuoi poteri ma posso far esplodere una testa a questa distanza senza problemi. E non dimenticare che siamo in un luogo pubblico e io sono un conoscente di Isaac. Ora vattene, che devo ripulire il tuo casino.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	Point made. Goodbye.	}{	Point made. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It is a ruse, but it is no joke. I am gone.	}
-{	203	}{	I'm not going to take this from a goddamn ghoul. C'mon.	}{	I'm not going to take this from a goddamn ghoul. C'mon.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's even things up. I'm dead, they're dead, hmm... think I see what's to be done.	}
+{	202	}{	Hai ragione. Addio.	}{	Hai ragione. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	E' un inganno, ma non uno scherzo. Me ne vado.	}
+{	203	}{	Non voglio essere rimproverato da un cazzo di ghoul. Dai.	}{	Non voglio essere rimproverata da un cazzo di ghoul. Dai.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mettiamo le cose in pari... sono morto, loro sono morti, hmmm... capisco cosa deve essere fatto.	}
 {	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -208,23 +208,23 @@
 {	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	Very nice. The whole time I was getting that six-pack I kept thinking, "I might've made a mistake". Can't believe I missed out on tonight's action. Eh, they'll be back tomorrow night. Hey, let me give you something for the assist.	}{	Very nice. The whole time I was getting that six-pack I kept thinking, "I might've made a mistake". Can't believe I missed out on tonight's action. Eh, they'll be back tomorrow night. Hey, let me give you something for the assist.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	Sure. What've you got?	}{	Sure. What've you got?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... is it scabby?	}
-{	213	}{	Damn right you better.	}{	Damn right you better.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	That's always the right answer.	}
-{	214	}{	It's not necessary. Goodbye.	}{	It's not necessary. Goodbye.	}{	0	}{	Humanity 6	}{	G.Romero_Quest = 4	}{	}{	}{	}{	}{	}{	}{	I'll just pin it on my karma, thanks. I am gone.	}
+{	211	}{	Molto bene. Mentre andavo a prendere le birre pensavo, "Ho fatto un errore.". Mi sono perso tutto il divertimento, non ci credo. Eh, torneranno domani sera. Lascia che ti dia qualcosa per l'aiuto.	}{	Molto bene. Mentre andavo a prendere le birre pensavo, "Ho fatto un errore.". Mi sono perso tutto il divertimento, non ci credo. Eh, torneranno domani sera. Lascia che ti dia qualcosa per l'aiuto.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Certo. Che cos'hai? }{	Certo. Che cos'hai?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... e' viscido?	}
+{	213	}{	Faresti meglio a farlo.	}{	Faresti meglio a farlo.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quella e' sempre la risposta giusta. }
+{	214	}{	Non serve. Ci vediamo. 	}{	Non serve. Ci vediamo.	}{	0	}{	Humanity 6	}{	G.Romero_Quest = 4	}{	}{	}{	}{	}{	}{	}{	Questo serve solo al mio karma, grazie. Me ne vado.	}
 {	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	You know, for a hot little number you sure know how to handle the hordes of the undead. I like that in a woman. I like it a lot.	}{	You know, for a hot little number you sure know how to handle the hordes of the undead. I like that in a woman. I like it a lot.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	pc.SetQuest("Romero",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	Uh, thanks. Can I get something for my troubles so I can get out of here?	}{	Uh, thanks. Can I get something for my troubles so I can get out of here?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll take the consolation prize instead.	}
-{	223	}{	I'm REALLY not interested. I only did this to get something in return.	}{	I'm REALLY not interested. I only did this to get something in return.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	I like generosity a lot. That, and shrieking in crowds.	}
-{	224	}{	I bet you could show me a thing or two about handling a weapon.	}{	I bet you could show me a thing or two about handling a weapon.	}{	231	}{	Firearms -3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Let me hold your piece, while you guide my fingers.	}
-{	225	}{	Oh, I can handle a piece. Can I keep the rifle?	}{	Oh, I can handle a piece. Can I keep the rifle?	}{	261	}{	Firearms 3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	My hands are hungry to hold the long gun. Can I keep it?	}
-{	226	}{	I bet you could show me a thing or two about handling a weapon.	}{	I bet you could show me a thing or two about handling a weapon.	}{	231	}{	Firearms -4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Let me hold your piece, while you guide my fingers.	}
-{	227	}{	Oh, I can handle a piece. Can I keep the rifle?	}{	Oh, I can handle a piece. Can I keep the rifle?	}{	261	}{	Firearms 4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	My hands are hungry to hold the long gun. Can I keep it?	}
+{	221	}{	Sai, per una bellezza come te sai come gestire le orde di nonmorti. Mi piace questo in una donna. Mi piace molto. 	}{	Sai, per una bellezza come te sai come gestire le orde di nonmorti. Mi piace questo in una donna. Mi piace molto.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	pc.SetQuest("Romero",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	Uh, grazie. Posso avere qualcosa per il mio lavoro cosi' posso andarmene da qui? }{	Uh, grazie. Posso avere qualcosa per il mio lavoro cosi' posso andarmene da qui?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{ Prendo il premio di consolazione, grazie. }
+{	223	}{	Non sono interessata, SUL SERIO. Ho fatto questo per avere qualcosa in cambio.	}{	Non sono interessata, SUL SERIO. Ho fatto questo per avere qualcosa in cambio.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	A me piace molto la generosita'. Quello, e urlare nelle folle. }
+{	224	}{	Scommetto che puoi mostrarmi una cosa o due riguardo le armi. }{	Scommetto che puoi mostrarmi una cosa o due riguardo le armi.	}{	231	}{	Firearms -3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Io tengo la tua arma, mentre tu guidi le mie dita. }
+{	225	}{	Oh, posso gestire un'arma. Posso tenermi il fucile? }{	Oh, posso gestire un'arma. Posso tenermi il fucile?	}{	261	}{	Firearms 3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Le mie mani vogliono tenere la pistola lunga. Posso tenerla? }
+{	226	}{	Scommetto che puoi mostrarmi una cosa o due riguardo le armi.	}{	Scommetto che puoi mostrarmi una cosa o due riguardo le armi.	}{	231	}{	Firearms -4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Io tengo la tua arma, mentre tu guidi le mie dita.	}
+{	227	}{	Oh, posso gestire un'arma. Posso tenermi il fucile?	}{	Oh, posso gestire un'arma. Posso tenermi il fucile?	}{	261	}{	Firearms 4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Le mie mani vogliono tenere la pistola lunga. Posso tenerla?	}
 {	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
