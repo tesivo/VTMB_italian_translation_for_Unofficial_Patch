@@ -228,7 +228,7 @@
 {	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	If that's what you want to call it. Here, let me see if I can't improve your aim.	}{	If that's what you want to call it. Here, let me see if I can't improve your aim.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	pc.BumpStat("firearms", 1); G.Romero_Quest = 4	}{	}{	}{	}{	}{	}{	}{	}
+{	231	}{	Se lo dici tu. Ecco, vediamo se posso migliorare la tua mira. }{	Se lo dici tu. Ecco, vediamo se posso migliorare la tua mira.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	pc.BumpStat("firearms", 1); G.Romero_Quest = 4	}{	}{	}{	}{	}{	}{	}{	}
 {	232	}{	(Auto-Link)	}{	(Auto-Link)	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	233	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -238,27 +238,27 @@
 {	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	[To self]Hmm... what've I got to give? I can give you a couple boxes of ammo... or, uh... uh, if you need it, I can try to improve your aim with a gun.	}{	[To self]Hmm... what've I got to give? I can give you a couple boxes of ammo... or, uh... uh, if you need it, I can try to improve your aim with a gun.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	I know how to use a firearm. Mind if I keep the rifle?	}{	I know how to use a firearm. Mind if I keep the rifle?	}{	261	}{	Firearms 3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Long gun, please.	}
-{	243	}{	I don't need ammo because I can't shoot. Teach me how to use a firearm.	}{	I don't need ammo because I can't shoot. Teach me how to use a firearm.	}{	271	}{	Firearms -3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Which end do you point at things you want to die?	}
-{	244	}{	I know how to use a firearm. Mind if I keep the rifle?	}{	I know how to use a firearm. Mind if I keep the rifle?	}{	261	}{	Firearms 4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Long gun, please.	}
-{	245	}{	I don't need ammo because I can't shoot. Teach me how to use a firearm.	}{	I don't need ammo because I can't shoot. Teach me how to use a firearm.	}{	271	}{	Firearms -4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Which end do you point at things you want to die?	}
+{	241	}{	Hmm.. cosa posso darti? Posso darti un paio di scatole di munizioni... o, uh... uh, se ti serve, posso aiutarti a migliorare la tua mira.	}{	Hmm.. cosa posso darti? Posso darti un paio di scatole di munizioni... o, uh... uh, se ti serve, posso aiutarti a migliorare la tua mira.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	So come usare un'arma. Ti dispiace se tengo il fucile? }{ So come usare un'arma. Ti dispiace se tengo il fucile?	}{	261	}{	Firearms 3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	La pistola lunga, per favore.	}
+{	243	}{	Non ho bisogno di munizioni perche' non so sparare. Insegnami a usare un'arma da fuoco. }{	Non ho bisogno di munizioni perche' non so sparare. Insegnami a usare un'arma da fuoco.	}{	271	}{	Firearms -3 & G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Che parte punti alle cose che vuoi uccidere? }
+{	244	}{	So come usare un'arma. Ti dispiace se tengo il fucile?	}{	So come usare un'arma. Ti dispiace se tengo il fucile?	}{	261	}{	Firearms 4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	La pistola lunga, per favore.	}
+{	245	}{	Non ho bisogno di munizioni perche' non so sparare. Insegnami a usare un'arma da fuoco.	}{	Non ho bisogno di munizioni perche' non so sparare. Insegnami a usare un'arma da fuoco.	}{	271	}{	Firearms -4 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Che parte punti alle cose che vuoi uccidere?	}
 {	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	There we go. Hope that'll help your aim. And, uh, keep the rifle. It'd be a damn shame if anything were to happen to that tight little body of yours. You keep it in one piece, you hear me?	}{	There we go. Hope that'll help your aim. And, uh, keep the rifle. It'd be a damn shame if anything were to happen to that tight little body of yours. You keep it in one piece, you hear me?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Romero_Ally = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	251	}{	Ecco qui. Spero ti aiuti a migliorare la mira. E, uh, tieni il fucile. Sarebbe un peccato se succedesse qualcosa al tuo bel corpicino. Stai al sicuro, va bene? }{	Ecco qui. Spero ti aiuti a migliorare la mira. E, uh, tieni il fucile. Sarebbe un peccato se succedesse qualcosa al tuo bel corpicino. Stai al sicuro, va bene?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Romero_Ally = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	252	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	253	}{	Will do, Romero.	}{	Will do, Romero.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stay sweet, you smell sour. I am gone.	}
-{	254	}{	Uh, thanks for the lesson. Bye.	}{	Uh, thanks for the lesson. Bye.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	Whenever I shoot a stranger, I shall think of you. I am no longer here.	}
+{	253	}{	Lo faro', Romero.	}{	Lo faro', Romero.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sei dolce, ma il tuo odore e' acre. Me ne vado.	}
+{	254	}{	Uh, grazie per la lezione. Ciao.	}{	Uh, grazie per la lezione. Ciao.	}{	551	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quando sparero' alle persone, pensero' a te. Me ne vado.}
 {	255	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	Old Jamie Sue? Personally, I prefer the boomstick, so what the hell, she's all yours.	}{	Old Jamie Sue? Personally, I prefer the boomstick, so what the hell, she's all yours.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.GiveItem("item_w_remington_m_700"); G.Romero_Quest = 4	}{	}{	}{	}{	}{	}{	}{	}
+{	261	}{	Questo vecchiotto? Personalmente, preferisco il fucile a pompa, quindi che cazzo, e' tutto tuo. }{	Questo vecchiotto? Personalmente, preferisco il fucile a pompa, quindi che cazzo, e' tutto tuo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.GiveItem("item_w_remington_m_700"); G.Romero_Quest = 4	}{	}{	}{	}{	}{	}{	}{	}
 {	262	}{	(Auto-Link)	}{	(Auto-Link)	}{	551	}{	G.Romero_Crush == 1 and G.Romero_Whore != 3	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	263	}{	(Auto-Link)	}{	(Auto-Link)	}{	281	}{	G.Romero_Crush == 0 and G.Romero_Whore != 3	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	264	}{	(Auto-Link)	}{	(Auto-Link)	}{	651	}{	G.Romero_Whore == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
