@@ -71,7 +71,7 @@
 {	71	}{	Gli sparo, li faccio esplodere, gli tiro granate - dipende dalla situazione. A volte ci metto dentro anche un po' di tagliuzzamento, tanto per cambiare. }{	Gli sparo, li faccio esplodere, gli tiro granate - dipende dalla situazione. A volte ci metto dentro anche un po' di tagliuzzamento, tanto per cambiare.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Romero_Shootin = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	Qual e' la causa del loro risveglio?	}{	Qual e' la causa del loro risveglio?	}{	81	}{	G.Romero_Rise == 0	}{	}{	}{	}{	}{	}{	}{	}{	Perche' i morti non dormono?	}
 {	73	}{	Sembra divertente.	}{	Sembra divertente.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ooh... divertente.	}
-{	74	}{	Beh, divertiti. Addio.}{	Beh, divertiti. Addio.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	The prejudice against the undead is strong here, so I am gone.	}
+{	74	}{	Beh, divertiti. Addio.}{	Beh, divertiti. Addio.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il pregiudizio contro i nonmorti e' intenso qui, quindi me ne vado.	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
