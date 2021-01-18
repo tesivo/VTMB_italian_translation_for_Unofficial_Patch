@@ -649,7 +649,7 @@
 {	649	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	650	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	651	}{	Ah, si e' fatto tardi - io e, uh,... la ragazza qui, dobbiamo competere nelle Olimpiadi da divano, quindi se non ti dispiace...}{	Ah, si e' fatto tardi - io e, uh,... la ragazza qui, dobbiamo competere nelle Olimpiadi da divano, quindi se non ti dispiace...	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	652	}{	Divertiti.	}{	Divertiti.	}{	0	}{	}{	endRomero()	}{	}{	}{	}{	}{	}{	}{	La mia mente non è mai stata qui.	}
+{	652	}{	Divertiti.	}{	Divertiti.	}{	0	}{	}{	endRomero()	}{	}{	}{	}{	}{	}{	}{	La mia mente non e' mai stata qui.	}
 {	653	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	654	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	655	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -670,7 +670,7 @@
 {	670	}{	Grazie.	}{	Grazie.	}{	651	}{	}{	}{	}{	}{	}{	}{	}{	}{	Soldi!	}
 {	671	}{	A volte un uomo ha bisogno della gioia che non ottiene dal mettere proiettili nel cervello degli zombie. Dai, sei un uomo, mi capisci, vero?}{	A volte un uomo ha bisogno della gioia che non ottiene dal mettere proiettili nel cervello degli zombie. Sai... affetto temporaneo.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	672	}{	Ti risparmio il viaggio. Porto da te qualcuno.	}{	Ti risparmio il viaggio. Porto da te qualcuno.	}{	621	}{	G.Romero_Quest != 4	}{	}{	}{	}{	}{	}{	}{	}{	Il viaggio non e' il tuo futuro, e' il mio.	}
-{	673	}{	Porto qui qualcuno per te.	}{	Porto qui qualcuno per te.	}{	621	}{	G.Romero_Quest == 4	}{	}{	}{	}{	}{	}{	}{	}{	Prenderò una preda per te.	}
+{	673	}{	Porto qui qualcuno per te.	}{	Porto qui qualcuno per te.	}{	621	}{	G.Romero_Quest == 4	}{	}{	}{	}{	}{	}{	}{	}{	Prendero' una preda per te.	}
 {	674	}{	Quindi hai di nuovo caldo?	}{	Quindi hai di nuovo caldo?	}{	551	}{	Appearance 2 & G.Romero_Crush == 1	}{	}{	}{	}{	}{	}{	}{	}{	Vedo che stai prendendo fuoco!}
 {	675	}{	Penso di capire cosa intendi.	}{	Penso di capire cosa intendi.	}{	551	}{	Appearance 2 & not pc.IsMale()	}{	G.Romero_Crush = 1	}{	}{	}{	}{	}{	}{	}{	Vedo quello che vedi tu.	}
 {	676	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
