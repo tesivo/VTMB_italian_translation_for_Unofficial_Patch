@@ -41,7 +41,7 @@
 {	41	}{	L'ingordigia e' un peccato! Fai un passo e riceverai la giusta condanna. Non fare resistenza e forse il Signore sara' misericordioso.	}{	L'ingordigia e' un peccato! Fai un passo e riceverai la giusta condanna. Non fare resistenza e forse il Signore sara' misericordioso.	}{	#	}{		}{	Whisper("Gibberish")	}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	Ha mai funzionato? Bene, andiamo, bravo ragazzo.	}{	Ha mai funzionato? Bene, andiamo, bravo ragazzo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il mio sangue mi giudica... il tuo colorera' questi muri.	}
 {	43	}{	Se ti piace cosi' tanto il Signore, permittimi di comprarti un biglietto prima classe per incontrarlo.	}{	Se ti piace cosi' tanto il Signore, permittimi di comprarti un biglietto prima classe per incontrarlo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se il Signore fosse dalla tua parte, io non sarei qui stanotte.	}
-{	44	}{	Quindi e' uccisione... mettilo nella mia aletta.	}{	Quindi e' uccisione... mettilo nella mia aletta.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un golosone di peccati. Omicidio, per esempio, suona delizioso.	}
+{	44	}{	Quindi e' uccisione... mettilo nel mio conto.	}{	Quindi e' uccisione... mettilo nel mio conto.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un golosone di peccati. Omicidio, per esempio, suona delizioso.	}
 {	45	}{	Assaporero' il tuo sangue sulle mie labbra... mentre lo lecco direttamente dal muro.	}{	Assaporero' il tuo sangue sulle mie labbra... mentre lo lecco direttamente dal muro.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
