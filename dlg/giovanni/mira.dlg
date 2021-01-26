@@ -1,327 +1,327 @@
-{	1	}{	Might as well be a costume party... everyone smiling, pretending this isn't a pageant put on by the patriarch of this family. Fine. But this is a contest, and I came to win.	}{	Might as well be a costume party... everyone smiling, pretending this isn't a pageant put on by the patriarch of this family. Fine. But this is a contest, and I came to win.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	What are you talking about?	}{	What are you talking about?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can't catch up to your train of thought.	}
-{	3	}{	Tell me what you know about the sarcophagus.	}{	Tell me what you know about the sarcophagus.	}{	161	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	I don't want your story, I want the sarcophagus.	}
-{	4	}{	I'm Victor. Pleasure to make your acquaintance.	}{	I'm Maria. Pleasure to make your acquaintance.	}{	11	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	I'm also a family member. I'm... mmm-mmm ahem.... And you are?	}
-{	5	}{	May the best one win.	}{	May the best one win.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	That trophy is mine!	}
-{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Hmm... Mira. Mira Giovanni.	}{	Hmm... Mira. Mira Giovanni.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Introduce = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	So what exactly did you mean when you called this a contest?	}{	So what exactly did you mean when you called this a contest?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me the rules of this contest.	}
-{	13	}{	Mira... that's a beautiful name... it suits you.	}{	Mira... that's a beautiful name... it suits you.	}{	21	}{	Seduction 8	}{	}{	}{	}{	}{	}{	}{	}{	Your name should replace the word "wow".	}
-{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Oh, please... I've had men hitting on me since I was twelve. I've heard all the lines.	}{	What? [Va' a farti fottere! Va afar-tea fot-tere!] (Go and get fucked!) Dyke!	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Mira_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	I just meant that, you look very elegant tonight. I'm positively envious.	}{	I just meant that, you look very elegant tonight. I'm positively envious.	}{	181	}{	Persuasion 6 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	You have an interesting face is what I think I meant.	}
-{	23	}{	Can you really blame them, beautiful?	}{	Don't knock it until you've tried it, sugar.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	That's a delightful way to say bring on the passion.	}
-{	24	}{	Have you heard this one? Mira, you look like most women only wish they could.	}{	Have you heard this one? Mira, you look like most women only wish they could.	}{	41	}{	IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	They cannot help themselves.	}
-{	25	}{	Then, you already know about the party in my pants?	}{	Then, you already know about the party in my pants?	}{	31	}{	IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	You say that now, but after a few minutes you'd be screaming my name.	}{	You say that now, but after a few minutes you'd be screaming my name.	}{	31	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	If your tongue wants a war, mine's all ready to wrestle.	}
-{	27	}{	Oh my gosh, I'm so sorry... you just had that look about you.	}{	Oh my gosh, I'm so sorry... you just had that look about you.	}{	31	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	I would love to comb your hair.	}
-{	28	}{	You have beautiful eyes, anyone ever tell you that?	}{	You have beautiful eyes, anyone ever tell you that?	}{	31	}{	IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Ugh... I can't take this anymore. Excuse me.	}{	You're disgusting. Get out of my face... and god help you.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Mira_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	What?	}{	What?	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	[Playfully]Stop. Fine, I'm flattered, okay.	}{	[Playfully]Stop. Fine, I'm flattered, okay.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Maybe you want to get out of the party for a bit, and get into some trouble.	}{	Maybe you want to get out of the party for a bit, and get into some trouble.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Want to go somewhere cramped?	}
-{	43	}{	So tell me about this contest, Mira.	}{	So tell me about this contest, Mira.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me the rules of this contest.	}
-{	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	No... no, I can't.	}{	No... no, I can't.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	Are you with someone?	}{	Are you with someone?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your heart's in another's pocket?	}
-{	53	}{	It can't be that you're not attracted to me. So what's the problem?	}{	It can't be that you're not attracted to me. So what's the problem?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	If not with me, than how about your doctor? Who I can also be.	}
-{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	Is it something I said? I apologize if I came on too strong.	}{	Is it something I said? I apologize if I came on too strong.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Did I say something strange? Really, I can't help it.	}
-{	56	}{	Oh... I understand. That's okay, a little blood's never scared me away.	}{	Oh... I understand. That's okay, a little blood's never scared me away.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Right here's good too.	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	It's not that, it's just, if you asked me a few months ago, I would've said yes in a heartbeat. I like a good time... I love that rush... but I can't do that anymore. I need what Uncle Bruno's offering, and nothing can get in my way.	}{	It's not that, it's just, if you asked me a few months ago, I would've said yes in a heartbeat. I like a good time... I love that rush... but I can't do that anymore. I need what Uncle Bruno's offering, and nothing can get in my way.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Hidden = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Is that really all there is to it?	}{	Is that really all there is to it?	}{	71	}{	Persuasion 9	}{	}{	}{	}{	}{	}{	}{	}{	You lived fast, but you got in a wreck, didn't you?	}
-{	63	}{	Is there anything I can do to help?	}{	Is there anything I can do to help?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can I soothe the sore?	}
-{	64	}{	What do you mean, "what he's offering"?	}{	What do you mean, "what he's offering"?	}{	221	}{	G.Mira_Bruno == 0	}{	}{	}{	}{	}{	}{	}{	}{	Offering? To what gods?	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	I just met you... I like you, but I can't tell anyone... it's too personal. Sometimes, you do things you regret... and if someone here found out, they'd use it to destroy my chances of the family ever letting me into their inner circle.	}{	I just met you... I like you, but I can't tell anyone... it's too personal. Sometimes, you do things you regret... and if someone here found out, they'd use it to destroy my chances of the family ever letting me into their inner circle.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Confide = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	You're not the only one with regrets, Mira.	}{	You're not the only one with regrets, Mira.	}{	301	}{	Persuasion 9	}{	}{	}{	}{	}{	}{	}{	}{	I'm constructed out of regret.	}
-{	73	}{	Inner circle... what do you mean?	}{	Inner circle... what do you mean?	}{	221	}{	G.Mira_Bruno == 0	}{	}{	}{	}{	}{	}{	}{	}{	The circle within contains...?	}
-{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	[Slightly whispered]I did something... because it made me feel alive. If you've never tasted it, you wouldn't understand. But a few months ago, I shared a hit with somebody I thought was clean.... I tested positive last week.	}{	[Slightly whispered]I did something... because it made me feel alive. If you've never tasted it, you wouldn't understand. But a few months ago, I shared a hit with somebody I thought was clean.... I tested positive last week.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Secret = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	I understand. That's unfortunate.	}{	I understand. That's unfortunate.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Human fragility is something I know intimately.	}
-{	83	}{	You were a drug addict and now you've got -	}{	You were a drug addict and now you've got -	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Positive! That's the spirit!	}
-{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	[Whisper]Shh! You couldn't possibly understand. But that's why I'm here tonight.	}{	[Whisper]Shh! You couldn't possibly understand. But that's why I'm here tonight.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	(Auto-Link)	}{	(Auto-Link)	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	I won't have to worry about this disease if the family accepts me into the inner circle. I won't have to worry about a thing ever. I'm on a lot of politicians' Christmas card lists and this family knows I've swung a lot of votes for it. But -	}{	I won't have to worry about this disease if the family accepts me into the inner circle. I won't have to worry about a thing ever. I'm on a lot of politicians' Christmas card lists and this family knows I've swung a lot of votes for it. But -	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Potrebbe essere una festa in maschera... tutti sorridono, fingendo che questa non sia una messa in scena allestita dal patriarca di questa famiglia. Bene. Ma questa e' una gara, e sono venuta per vincere.	}{	Potrebbe essere una festa in maschera... tutti sorridono, fingendo che questa non sia una messa in scena allestita dal patriarca di questa famiglia. Bene. Ma questa e' una gara, e sono venuta per vincere.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Di che stai parlando?	}{	Di che stai parlando?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non riesco ad afferrare il tuo treno di pensieri.	}
+{	3	}{	Dimmi cosa sai sul sarcofago.	}{	Dimmi cosa sai sul sarcofago.	}{	161	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{	Non voglio conoscere la tua storia, voglio il sarcofago.	}
+{	4	}{	Sono Victor. Piacere di fare la tua conoscenza.	}{	Sono Maria. Piacere di fare la tua conoscenza.	}{	11	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Anch'io faccio parte della famiglia. Sono... mmm-mmm ahem.... e tu?	}
+{	5	}{	Che vinca il migliore.	}{	Che vinca il migliore.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quel trofeo sara' mio!	}
+{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Hmm... Mira. Mira Giovanni.	}{	Hmm... Mira. Mira Giovanni.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Introduce = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	A cosa ti riferivi esattamente quando parlavi di una gara?	}{	A cosa ti riferivi esattamente quando parlavi di una gara?	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi le regole di queste gara.	}
+{	13	}{	Mira... che nome meraviglioso... ti si addice.	}{	Mira... che nome meraviglioso... ti si addice.	}{	21	}{	Seduction 8	}{		}{		}{		}{		}{		}{		}{		}{	Il tuo nome potrebbe sostituire la parola "wow".	}
+{	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Oh, ti prego... E' da quando avevo dodici anni che gli uomini cercano di far colpo. Ne ho sentite di tutti i tipi.	}{	Cosa? Va' a farti fottere! Lesbica!	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Mira_Seduce = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Volevo solo dire che stanotte sei molto elegante. Sono veramente invidioso.	}{	Volevo solo dire che stanotte sei molto elegante. Sono veramente invidiosa.	}{	181	}{	Persuasion 6 & not IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{	Indevo dire che hai un viso interessante, credo.	}
+{	23	}{	Potresti biasimarli, bella?	}{	Non criticare fiche' non hai provato, dolcezza.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' un modo incantevole di dire le cose con passione.	}
+{	24	}{	E questa l'hai sentita? Mira, tu sei cio' che molte donne vorrebbero essere.	}{	E questa l'hai sentita? Mira, tu sei cio' che molte donne vorrebbero essere.	}{	41	}{	IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{	Non servivano a niente.	}
+{	25	}{	Allora conosci la festa che si sta tenendo nei miei pantaloni?	}{	Allora conosci la festa che si sta tenendo nei miei pantaloni?	}{	31	}{	IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{	Ora parli cosi', ma tra qualche minuti lo diresti gridando, il mio nome.	}{	Ora parli cosi', ma tra qualche minuti lo diresti gridando, il mio nome.	}{	31	}{	not IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{	Se la tua lingua vuole la guerra, la mia e' pronta a combattere.	}
+{	27	}{	Oh, caspita, scusa davvero... e' solo che tutti ti guardavano.	}{	Oh, caspita, scusa davvero... e' solo che tutti ti guardavano.	}{	31	}{	not IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{	Mi piacerebbe pettinarti i capelli.	}
+{	28	}{	Hai degli occhi stupendi, te l'ha mai detto nessuno?	}{	Hai degli occhi stupendi, te l'ha mai detto nessuno?	}{	31	}{	IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Ugh... ne ho abbastanza. Scusami.	}{	Sei disgustosa. Sparisci dalla mia vista... e che dio ti aiuti.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Mira_Pissed = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Cosa?	}{	Cosa?	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	[Giocosamente]Stop. Va bene, okay, sono lusingata.	}{	[Giocosamente]Stop. Va bene, okay, sono lusingata.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Magari ti andrebbe di lasciare per un attimo la festa, e metterti nei guai.	}{	Magari ti andrebbe di lasciare per un attimo la festa, e metterti nei guai.	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti va di andare in qualche posto angusto?	}
+{	43	}{	Parlami di questa gara, Mira.	}{	Parlami di questa gara, Mira.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Parlami delle regole di questa gara.	}
+{	44	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	No... no, non posso.	}{	No... no, non posso.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Stai con qualcuno?	}{	Stai con qualcuno?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tuo cuore appartiene a qualcuno?	}
+{	53	}{	Non puo' essere che tu non sia attratta da me. Allora qual'e' il problema?	}{	Non puo' essere che tu non sia attratta da me. Allora qual'e' il problema?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se non a me, almeno al tuo dottore... Chi vuoi che sia.	}
+{	54	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	55	}{	E' per qualcosa che ho detto? Mi scuso se a volte ci vado giu' pesante.	}{	E' per qualcosa che ho detto? Mi scuso se a volte ci vado giu' pesante.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho detto qualcosa di strano? Davvero, non posso farci niente.	}
+{	56	}{	Oh... capisco. E' okay, un po' di sangue non mi ha mai spaventato.	}{	Oh... capisco. E' okay, un po' di sangue non mi ha mai spaventato.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Giusto, va bene.	}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	Non e' quello, e' solo che, se me l'avessi chiesto qualche mese fa, avrei detto immediatamente si'. Adoro quei momenti... quell'impeto...ma non posso piu' farlo. Ho bisogno di cio' che offre Zio Bruno, e nulla puo' mettersi sulla mia strada.	}{	Non e' quello, e' solo che, se me l'avessi chiesto qualche mese fa, avrei detto immediatamente si'. Adoro quei momenti... quell'impeto...ma non posso piu' farlo. Ho bisogno di cio' che offre Zio Bruno, e nulla puo' mettersi sulla mia strada.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Hidden = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	E' tutto qua o c'e' dell'altro?	}{	E' tutto qua o c'e' dell'altro?	}{	71	}{	Persuasion 9	}{		}{		}{		}{		}{		}{		}{		}{	hai visuto velocemente, e ora ti senti un rottame, non e' vero?	}
+{	63	}{	C'e' qualcosa che posso fare per aiutarti?	}{	C'e' qualcosa che posso fare per aiutarti?	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso sedare il tuo dolore?	}
+{	64	}{	"Cio' che offre", che vuoi dire?	}{	"Cio' che offre", che vuoi dire?	}{	221	}{	G.Mira_Bruno == 0	}{		}{		}{		}{		}{		}{		}{		}{	Offre? Cosa offre?	}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	Ti ho appena conosciuto... mi piaci, ma non posso parlarne con nessuno... e' troppo personale. A volte fai cose di cui ti penti... e se qualcuno qui lo scopre, lo userebbe per distruggere le mie opportunita' di entrare nel circolo interno della famiglia.	}{	Ti ho appena conosciuta... mi piaci, ma non posso parlarne con nessuno... e' troppo personale. A volte fai cose di cui ti penti... e se qualcuno qui lo scopre, lo userebbe per distruggere le mie opportunita' di entrare nel circolo interno della famiglia.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Confide = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Non sei la sola che rimpiange qualcosa, Mira.	}{	Non sei la sola che rimpiange qualcosa, Mira.	}{	301	}{	Persuasion 9	}{		}{		}{		}{		}{		}{		}{		}{	Io vivo di pentimenti, Mira.	}
+{	73	}{	Circolo interno... di che parli?	}{	Circolo interno... di che parli?	}{	221	}{	G.Mira_Bruno == 0	}{		}{		}{		}{		}{		}{		}{		}{	Cosa contiene il circolo...?	}
+{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	[Leggermente sussurrato]Ho fatto una cosa... perche' mi faceva sentire viva. Se non l'hai mai provato, non puoi capire. Ma alcuni mesi fa, ho diviso una dose con un tipo che credevo pulito... e la scorsa settimana sono risultata positiva.	}{	[Leggermente sussurrato]Ho fatto una cosa... perche' mi faceva sentire viva. Se non l'hai mai provato, non puoi capire. Ma alcuni mesi fa, ho diviso una dose con un tipo che credevo pulito... e la scorsa settimana sono risultata positiva.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Secret = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	Capisco. Che sfortuna.	}{	Capisco. Che sfortuna.	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	La fragilita' dell'uomo e' una cosa che conosco bene.	}
+{	83	}{	Eri una tossicodipendente e ora hai -	}{	Eri una tossicodipendente e ora hai -	}{	91	}{		}{		}{		}{		}{		}{		}{		}{		}{	Positiva! Questo e' lo spirito giusto!	}
+{	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	[Sussurro]Shh! Non e' possibile che tu possa capire. Ma e' per questo che sono qui stanotte.	}{	[Sussurro]Shh! Non e' possibile che tu possa capire. Ma e' per questo che sono qui stanotte.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	(Auto-Link)	}{	(Auto-Link)	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	93	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	101	}{	Se la famiglia mi accetta nel circolo interno non dovro' piu' preoccuparmi di questa malattia. Non dovro' piu' preoccuparmi di niente. Sono sulla lista dei doni di Natale di molti politici e questa famiglia sa che le ho procurato parecchi voti. Ma -	}{	Se la famiglia mi accetta nel circolo interno non dovro' piu' preoccuparmi di questa malattia. Non dovro' piu' preoccuparmi di niente. Sono sulla lista dei doni di Natale di molti politici e questa famiglia sa che le ho procurato parecchi voti. Ma -	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	102	}{	(Auto-Link)	}{	(Auto-Link)	}{	111	}{	G.Patch_Plus == 0 or pc.GetQuestState("Dirt") > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	103	}{	(Auto-Link)	}{	(Auto-Link)	}{	121	}{	G.Patch_Plus == 1 and pc.GetQuestState("Dirt") == 0	}{	pc.SetQuest("Dirt",1)	}{	}{	}{	}{	}{	}{	}{	}
-{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	There are two people at this party I know they've had their eye on for a long time. One's Chris, my cousin. The other's Adam, who made Bruno a huge amount of money on tech investments a few years back. With them out of the running, they'd choose me.	}{	There are two people at this party I know they've had their eye on for a long time. One's Chris, my cousin. The other's Adam, who made Bruno a huge amount of money on tech investments a few years back. With them out of the running, they'd choose me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Gossip = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Choose you for what?	}{	Choose you for what?	}{	221	}{	G.Mira_Bruno == 0	}{	}{	}{	}{	}{	}{	}{	}{	What are you running towards?	}
-{	113	}{	You want to make your relatives look bad?	}{	You want to make your relatives look bad?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	You collect closet bones?	}
-{	114	}{	If I knew something damaging about your relatives, what'd it be worth to you?	}{	If I knew something damaging about your relatives, what'd it be worth to you?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	What would you pay for closet bones?	}
-{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	I'll spare no expense for a lock. I want to be in that circle of power, and I won't let blood get in the way. And of course, when your time comes, I'll pay back the favor.	}{	I'll spare no expense for a lock. I want to be in that circle of power, and I won't let blood get in the way. And of course, when your time comes, I'll pay back the favor.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Gossip = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	You'll be happy to know then, that Adam is completely broke.	}{	You'll be happy to know then, that Adam is completely broke.	}{	131	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Adam's bank is a chasm. Roll a penny and watch him chase it.	}
-{	123	}{	You'll like this: Chris isn't really a Giovanni. His mother had an affair.	}{	You'll like this: Chris isn't really a Giovanni. His mother had an affair.	}{	141	}{	G.Chris_Secret == 1 and G.Chris_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Christopher's blood is not Giovanni. His mother is a harlot.	}
-{	124	}{	Circle of power? What do you mean?	}{	Circle of power? What do you mean?	}{	221	}{	G.Mira_Bruno == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me about this powerful circle.	}
-{	125	}{	I'll think about it.	}{	I'll think about it.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will discuss this with myself.	}
-{	126	}{	I'll see what I can dig up.	}{	I'll see what I can dig up.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will pillage the minds of this party and return.	}
-{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Adam broke? A few years ago they did an article on him in the business section. Hmm. Money's practically more important than God to this family. I'll make sure Uncle Bruno somehow overhears this. Take this. It's more than Adam's worth.	}{	Adam broke? A few years ago they did an article on him in the business section. Hmm. Money's practically more important than God to this family. I'll make sure Uncle Bruno somehow overhears this. Take this. It's more than Adam's worth.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Mira_Told = 1; G.Adam_Secret = 2; pc.MoneyAdd(100); pc.AwardExperience("Gio01")	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	(Auto-Link)	}{	(Auto-Link)	}{	151	}{	G.Chris_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	133	}{	You'll like this too - Chris isn't really a Giovanni. His mother had an affair.	}{	You'll like this too - Chris isn't really a Giovanni. His mother had an affair.	}{	141	}{	G.Chris_Secret == 1 and G.Chris_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Christopher's blood is not Giovanni. His mother is a harlot.	}
-{	134	}{	I'll see what else I can find out.	}{	I'll see what else I can find out.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will pillage the minds of this party and return.	}
-{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	Aunt Cecelia had an affair? If Chris isn't really a Giovanni, it won't sit well at all with Bruno. So sorry, cousin. Here, these bills represent Chris' entire future. Spend them wisely.	}{	Aunt Cecelia had an affair? If Chris isn't really a Giovanni, it won't sit well at all with Bruno. So sorry, cousin. Here, these bills represent Chris' entire future. Spend them wisely.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Mira_Told = 1; G.Chris_Secret = 2; pc.MoneyAdd(100); pc.AwardExperience("Gio02")	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	(Auto-Link)	}{	(Auto-Link)	}{	151	}{	G.Adam_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	143	}{	You'll be happy to know then, that Adam is completely broke.	}{	You'll be happy to know then, that Adam is completely broke.	}{	131	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Adam's bank is a chasm. Roll a penny and watch him chase it.	}
-{	144	}{	I'll see what else I can find out.	}{	I'll see what else I can find out.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will pillage the minds of this party and return.	}
-{	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	For your assistance, you can be certain that, when I have my way, I'll bring you into the fold... if you wish. All I have to do is set the rumor mill in motion and I'm as good as in... excuse me.	}{	For your assistance, you can be certain that, when I have my way, I'll bring you into the fold... if you wish. All I have to do is set the rumor mill in motion and I'm as good as in... excuse me.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Mira_Win = 1; pc.AwardExperience("Gio03"); pc.SetQuest("Dirt",2)	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Fine with me.	}
-{	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	The Sarcophagus? I thought they closed that place down after they found that missing cheerleader doped up in the back. That was years ago though, when I was in high school.	}{	The Sarcophagus? I thought they closed that place down after they found that missing cheerleader doped up in the back. That was years ago though, when I was in high school.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	163	}{	Never mind. I'm Victor. Pleasure to make your acquaintance.	}{	Never mind. I'm Maria. Pleasure to make your acquaintance.	}{	11	}{	Humanity 5 & G.Mira_Introduce == 0	}{	}{	}{	}{	}{	}{	}{	}{	I'm also a family member. I'm... mmm-mmm ahem.... And you are?	}
-{	164	}{	Forget it. Excuse me.	}{	Forget it. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You don't know, so I'm gone.	}
-{	165	}{	Good times. Enjoy the party.	}{	Good times. Enjoy the party.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Fruitless. I'll pick from another tree.	}
-{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	If you don't even know about the contest, then you really don't have to worry about winning it.	}{	If you don't even know about the contest, then you really don't have to worry about winning it.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	Tell me what you know about the sarcophagus.	}{	Tell me what you know about the sarcophagus.	}{	161	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	I don't want your story, I want the sarcophagus.	}
-{	173	}{	I'm Victor. Pleasure to make your acquaintance.	}{	I'm Maria. Pleasure to make your acquaintance.	}{	11	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	I'm also a family member. I'm... mmm-mmm ahem.... And you are?	}
-{	174	}{	That's what you think. I have a contest to win, excuse me.	}{	That's what you think. I have a contest to win, excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	That trophy is mine!	}
-{	175	}{	Right. Enjoy the party.	}{	Right. Enjoy the party.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Fruitless. I'll pick from another tree.	}
-{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	Oh....	}{	Oh....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	You were saying something about this being a contest...?	}{	You were saying something about this being a contest...?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me the rules of this contest.	}
-{	183	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	184	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	185	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	They gather us up here to decide just who the best and brightest of this generation is. The lucky few are given the real power in this family. But some of us need to win more than others. Oh, forget it. You wouldn't understand.	}{	They gather us up here to decide just who the best and brightest of this generation is. The lucky few are given the real power in this family. But some of us need to win more than others. Oh, forget it. You wouldn't understand.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	I'm very interested. Tell me more about the real power in the family.	}{	I'm very interested. Tell me more about the real power in the family.	}{	221	}{	Persuasion 9	}{	}{	}{	}{	}{	}{	}{	}{	I understand more than anyone.	}
-{	193	}{	What? I want to know.	}{	What? I want to know.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	TELL ME!	}
-{	194	}{	Do you need help winning this contest?	}{	Do you need help winning this contest?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can fix the contest.	}
-{	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	Forget it. I've said too much already.	}{	Forget it. I've said too much already.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	I'm very interested. Tell me more about the real power in the family.	}{	I'm very interested. Tell me more about the real power in the family.	}{	221	}{	Persuasion 9	}{	}{	}{	}{	}{	}{	}{	}{	I understand more than anyone.	}
-{	203	}{	Do you need help winning this contest?	}{	Do you need help winning this contest?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can fix the contest.	}
-{	204	}{	Fine. Forget I asked.	}{	Fine. Forget I asked.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	So have I. I am no longer here.	}
-{	205	}{	Screw you then. I hope you lose.	}{	Screw you then. I hope you lose.	}{	0	}{	}{	G.Mira_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Then you lose!	}
-{	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	Actually...	}{	Actually...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	(Auto-Link)	}{	(Auto-Link)	}{	111	}{	G.Patch_Plus == 0 or pc.GetQuestState("Dirt") > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	Ci sono due persone a questa festa che tengono d'occhio da molto tempo. Uno e' Chris, mio cugino. L'altro e' Adam, che ha procurato a Bruno un consistente guadagno investendo sulla tecnologia, qualche anno fa. Con loro fuori dalla corsa, sceglieranno me.	}{	Ci sono due persone a questa festa che tengono d'occhio da molto tempo. Uno e' Chris, mio cugino. L'altro e' Adam, che ha procurato a Bruno un consistente guadagno investendo sulla tecnologia, qualche anno fa. Con loro fuori dalla corsa, sceglieranno me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Gossip =1	}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	Scegliere te per cosa?	}{	Scegliere te per cosa?	}{	221	}{	G.Mira_Bruno == 0	}{		}{		}{		}{		}{		}{		}{		}{	Per cosa correte?	}
+{	113	}{	Vuoi che ai tuoi parenti accada qualcosa di brutto?	}{	Vuoi che ai tuoi parenti accada qualcosa di brutto?	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Collezioni scheletri negli armadi?	}
+{	114	}{	Se scopro qualcosa di dannoso a carico dei tuoi parenti, quanto lo terresti in considerazione?	}{	Se scopro qualcosa di dannoso a carico dei tuoi parenti, quanto lo terresti in considerazione?	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quanto pagheresti per uno scheletro nell'armadio?	}
+{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Non bado a spese. Voglio entrare in quel circolo di potere, e non sara' il sangue dei miei parenti a fermarmi. Stai sicuro, quando arrivera' il tuo momento, ti ripaghero' il favore.	}{	Non bado a spese. Voglio entrare in quel circolo di potere, e non sara' il sangue dei miei parenti a fermarmi. Stai sicura, quando arrivera' il tuo momento, ti ripaghero' il favore.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Gossip = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Ti fara' piacere sapere che quell'Adam e' completamente al verde.	}{	Ti fara' piacere sapere che quell'Adam e' completamente al verde.	}{	131	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{		}{		}{		}{		}{		}{		}{		}{	La banca di Adam e' sull'orlo del baratro. Butta un penny a terra, e vedrai come si precipita.	}
+{	123	}{	Questa ti piacera': Chris non e' davvero un Giovanni. Sua madre ebbe un'avventura.	}{	Questa ti piacera': Chris non e' davvero un Giovanni. Sua madre ebbe un'avventura.	}{	141	}{	G.Chris_Secret == 1 and G.Chris_Told == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il sangue di Christopher non e' firmato Giovanni. Sua madre e' una prostituta.	}
+{	124	}{	Circolo di potere? Che intendi?	}{	Circolo di potere? Che intendi?	}{	221	}{	G.Mira_Bruno == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parlami di questo potente circolo.	}
+{	125	}{	Ci pensero'.	}{	Ci pensero'.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Discutero' di questa cosa con me stesso.	}
+{	126	}{	Vedro' cosa riesco a scoprire.	}{	Vedro' cosa riesco a scoprire.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Saccheggero' le menti di questa festa e tornero'.	}
+{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Adam al verde? Qualche anno fa fecero un articolo su di lui nella sezione business. Hmm. Per questa famiglia i soldi sono praticamente piu' importanti di Dio. Mi accertero' che zio Bruno ascolti casualmente questa storia. Prendi. E' piu' quanto Adam valga.	}{	Adam al verde? Qualche anno fa fecero un articolo su di lui nella sezione business. Hmm. Per questa famiglia i soldi sono praticamente piu' importanti di Dio. Mi accertero' che zio Bruno ascolti casualmente questa storia. Prendi. E' piu' quanto Adam valga.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Mira_Told = 1; G.Adam_Secret = 2; pc.MoneyAdd(100); pc.AwardExperience("Gio01")	}{		}{		}{		}{		}{		}{		}{		}
+{	132	}{	(Auto-Link)	}{	(Auto-Link)	}{	151	}{	G.Chris_Secret == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	133	}{	Ti piacera' anche questa: Chris non e' davvero un Giovanni. Sua madre ebbe un'avventura.	}{	Ti piacera' anche questa: Chris non e' davvero un Giovanni. Sua madre ebbe un'avventura.	}{	141	}{	G.Chris_Secret == 1 and G.Chris_Told == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il sangue di Christopher non e' firmato Giovanni. Sua madre e' una prostituta.	}
+{	134	}{	Vedro' cos'altro riesco a scoprire.	}{	Vedro' cos'altro riesco a scoprire.	}{	0	}{	}{		}{		}{		}{		}{		}{		}{		}{	Saccheggero' le menti di questa festa e tornero'.	}
+{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{	Un'avventura? Zia Cecilia? Se Chris non e' veramente un Giovanni, non stara' bene che sieda con Bruno. Povero cugino. Tieni, sono l'intero futuro di Chris. Usali con attenzione.	}{	Un'avventura? Zia Cecilia? Se Chris non e' veramente un Giovanni, non stara' bene che sieda con Bruno. Povero cugino. Tieni, sono l'intero futuro di Chris. Usali con attenzione.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Mira_Told = 1; G.Chris_Secret = 2; pc.MoneyAdd(100); pc.AwardExperience("Gio02")	}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{	(Auto-Link)	}{	(Auto-Link)	}{	151	}{	G.Adam_Secret == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	143	}{	Ti fara' piacere sapere che quell'Adam e' completamente al verde.	}{	Ti fara' piacere sapere che quell'Adam e' completamente al verde.	}{	131	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{		}{		}{		}{		}{		}{		}{		}{	Adam's bank is a chasm. Roll a penny and watch him chase it.	}
+{	144	}{	Vedro' cos'altro riesco a scoprire.	}{	Vedro' cos'altro riesco a scoprire.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Saccheggero' le menti di questa festa e tornero'.	}
+{	145	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	151	}{	Per il tuo aiuto, puoi star certo che, quando trovero' la mia strada, faro' entrare anche te... se lo vorrai. Tutto cio' che devo fare e' mettere le voci in circolazione e sono brava quasi quanto a... scusami.	}{	Per il tuo aiuto, puoi star certa che, quando trovero' la mia strada, faro' entrare anche te... se lo vorrai. Tutto cio' che devo fare e' mettere le voci in circolazione e sono brava quasi quanto a... scusami.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Mira_Win = 1; pc.AwardExperience("Gio03"); pc.SetQuest("Dirt",2)	}{		}{		}{		}{		}{		}{		}{		}
+{	152	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Per me va bene.	}
+{	153	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	154	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	155	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	161	}{	Il Sarcofago? Pensavo che avessero chiuso quel palazzo in seguito al ritrovameno di quella cheerleader scomparsa...era strafatta. E' successo anni fa, quando ero al liceo.	}{	Il Sarcofago? Pensavo che avessero chiuso quel palazzo in seguito al ritrovameno di quella cheerleader scomparsa...era strafatta. E' successo anni fa, quando ero al liceo.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	162	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	163	}{	Lascia stare. Sono Victor. Piacere di fare la tua conoscenza.	}{	Lascia stare. Sono Maria. Piacere di fare la tua conoscenza.	}{	11	}{	Humanity 5 & G.Mira_Introduce == 0	}{		}{		}{		}{		}{		}{		}{		}{	Anch'io faccio parte della famiglia. Sono... mmm-mmm ahem.... e tu?	}
+{	164	}{	Lascia perdere. Scusami.	}{	Lascia perdere. Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sai niente. E allora ciao.	}
+{	165	}{	Divertiti.	}{	Divertiti.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Senza frutta. Andro' ad un altro albero.	}
+{	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	Se non sai nulla sulla gara, allora non devi preoccuparti neanche di vincerla.	}{	Se non sai nulla sulla gara, allora non devi preoccuparti neanche di vincerla.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	172	}{	Dimmi cosa sai sul sarcofago.	}{	Dimmi cosa sai sul sarcofago.	}{	161	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{	Non voglio sapere la tua storia, voglio il sarcofago.	}
+{	173	}{	Sono Victor. Piacere di fare la tua conoscenza.	}{	Sono Maria. Piacere di fare la tua conoscenza.	}{	11	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Anch'io faccio parte della famiglia. Sono... mmm-mmm ahem.... e tu?	}
+{	174	}{	Questo e' cio' che pensi tu. Scusami, ho una gara da vincere.	}{	Questo e' cio' che pensi tu. Scusami, ho una gara da vincere.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quel trofeo e' mio!	}
+{	175	}{	Giusto. Divertiti.	}{	Giusto. Divertiti.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Senza frutta. Andro' ad un altro albero.	}
+{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	181	}{	Oh....	}{	Oh....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{	Prima stavi dicendo qualcosa riguardo una gara...?	}{	Prima stavi dicendo qualcosa riguardo una gara...?	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi le regole della gara.	}
+{	183	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	184	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	185	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	Ci hanno riuniti tutti qui per decidere chi e' il migliore e il piu' brillante di questa generazione. Il fortunato ricevera' potere in questa famiglia. Ma alcuni di noi hanno bisogno di vincere piu' degli altri. Oh, lascia stare. Non capiresti.	}{	Ci hanno riuniti tutti qui per decidere chi e' il migliore e il piu' brillante di questa generazione. Il fortunato ricevera' potere in questa famiglia. Ma alcuni di noi hanno bisogno di vincere piu' degli altri. Oh, lascia stare. Non capiresti.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{	Sono molto interessato. Parlami di questo potere nella famiglia.	}{	Sono molto interessata. Parlami di questo potere nella famiglia.	}{	221	}{	Persuasion 9	}{		}{		}{		}{		}{		}{		}{		}{	Capisco piu' degli altri, invece.	}
+{	193	}{	Cosa? Voglio saperlo.	}{	Cosa? Voglio saperlo.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	DIMMELO!	}
+{	194	}{	Hai bisogno di aiuto per vincere la gara?	}{	Hai bisogno di aiuto per vincere la gara?	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso aiutarti nella gara.	}
+{	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	201	}{	Scordatelo. Ho gia' detto troppo.	}{	Scordatelo. Ho gia' detto troppo.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	Sono molto interessato. Parlami di questo potere nella famiglia.	}{	Sono molto interessata. Parlami di questo potere nella famiglia.	}{	221	}{	Persuasion 9	}{		}{		}{		}{		}{		}{		}{		}{	Capisco piu' degli altri, invece.	}
+{	203	}{	Hai bisogno di aiuto per vincere la gara?	}{	Hai bisogno di aiuto per vincere la gara?	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso aiutarti nella gara.	}
+{	204	}{	Bene. Fa' come se non avessi chiesto niente.	}{	Bene. Fa' come se non avessi chiesto niente.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Cosi' sia. Me ne vado.	}
+{	205	}{	E allora vaffanculo. Spero che tu perda.	}{	E allora vaffanculo. Spero che tu perda.	}{	0	}{		}{	G.Mira_Pissed = 1	}{		}{		}{		}{		}{		}{		}{	Allora ti dico che perderai!	}
+{	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	211	}{	A dire il vero...	}{	A dire il vero...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	212	}{	(Auto-Link)	}{	(Auto-Link)	}{	111	}{	G.Patch_Plus == 0 or pc.GetQuestState("Dirt") > 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	213	}{	(Auto-Link)	}{	(Auto-Link)	}{	121	}{	G.Patch_Plus == 1 and pc.GetQuestState("Dirt") == 0	}{	pc.SetQuest("Dirt",1)	}{	}{	}{	}{	}{	}{	}{	}
-{	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	Uncle Bruno.... Since I was a kid, he's been the patriarch of this family, except he hasn't aged a day. I met with a Senator from Massachusetts who asked me if I was related to Bruno Giovanni... said Uncle Bruno helped him with his first campaign... back in 1950. We've all heard the rumors.	}{	Uncle Bruno.... Since I was a kid, he's been the patriarch of this family, except he hasn't aged a day. I met with a Senator from Massachusetts who asked me if I was related to Bruno Giovanni... said Uncle Bruno helped him with his first campaign... back in 1950. We've all heard the rumors.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Bruno = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	(Auto-Link)	}{	(Auto-Link)	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	223	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	The core of our family, they never age. They're secretive... whispers of blood magic and a kiss. Whatever it is, they pick the very best of us for it. I'd do anything to be picked. I've made some errors in judgement, but I've lobbied hard for this family's interests.	}{	The core of our family, they never age. They're secretive... whispers of blood magic and a kiss. Whatever it is, they pick the very best of us for it. I'd do anything to be picked. I've made some errors in judgement, but I've lobbied hard for this family's interests.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	232	}{	Errors in judgement? For example?	}{	Errors in judgement? For example?	}{	241	}{	G.Mira_Confide == 0 and G.Mira_Secret == 0	}{	}{	}{	}{	}{	}{	}{	}{	What was faulty about your judgement?	}
-{	233	}{	You said you used to be impulsive. What changed you all of the sudden?	}{	You said you used to be impulsive. What changed you all of the sudden?	}{	71	}{	Persuasion 10 & G.Mira_Hidden == 1	}{	}{	}{	}{	}{	}{	}{	}{	Why have you slowed the pace of your life?	}
-{	234	}{	So what's this secret, Mira? You can tell me. I won't tell a soul.	}{	So what's this secret, Mira? You can tell me. I won't tell a soul.	}{	81	}{	G.Mira_Confide == 1	}{	}{	}{	}{	}{	}{	}{	}{	Keep your secrets in me, where they will be safe.	}
-{	235	}{	Anything I can do to help you out?	}{	Anything I can do to help you out?	}{	211	}{	G.Mira_Gossip == 0	}{	}{	}{	}{	}{	}{	}{	}{	Can I soothe the sore?	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	If I hear anything about your relatives, I'll fill you in.	}{	If I hear anything about your relatives, I'll fill you in.	}{	0	}{	G.Mira_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	I will discuss this with myself.	}
-{	240	}{	I don't know if I want to get involved with this. Excuse me.	}{	I don't know if I want to get involved with this. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm not curious enough for this, sorry.	}
-{	241	}{	What? Forget it, I'm not saying anything about that.	}{	What? Forget it, I'm not saying anything about that.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	Even the best of us make mistakes. It's obviously set you on this path.	}{	Even the best of us make mistakes. It's obviously set you on this path.	}{	71	}{	Persuasion 9	}{	}{	}{	}{	}{	}{	}{	}{	Mistakes are the bane of us all.	}
-{	243	}{	Is there anything I can do to help you out?	}{	Is there anything I can do to help you out?	}{	211	}{	G.Mira_Gossip == 0	}{	}{	}{	}{	}{	}{	}{	}{	Can I soothe the sore?	}
-{	244	}{	If I hear anything about your relatives, I'll fill you in.	}{	If I hear anything about your relatives, I'll fill you in.	}{	0	}{	G.Mira_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	I will discuss this with myself.	}
-{	245	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	Oh... hello again.	}{	Oh... hello again.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	I forgot to introduce myself. I'm Victor.	}{	I forgot to introduce myself. I'm Maria.	}{	11	}{	G.Mira_Introduce == 0	}{	}{	}{	}{	}{	}{	}{	}{	I'm also a family member. I'm... mmm-mmm ahem.... And you are?	}
-{	253	}{	I might have heard something about your family you might like to know.	}{	I might have heard something about your family you might like to know.	}{	271	}{	G.Mira_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	I may have closet bones to sell.	}
-{	254	}{	Tell me what you know about the sarcophagus.	}{	Tell me what you know about the sarcophagus.	}{	161	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	I don't want your story, I want the sarcophagus.	}
-{	255	}{	Excuse me. Thought you were someone else.	}{	Excuse me. Thought you were someone else.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	That it is. So long.	}
-{	256	}{	Hello. Goodbye.	}{	Hello. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hello. Goodbye.	}
-{	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	Go away.	}{	Go away.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	I'm really sorry about what I said. Tell me more about the contest you mentioned.	}{	I'm really sorry about what I said. Tell me more about the contest you mentioned.	}{	191	}{	Persuasion 10 & G.Mira_Hidden == 1	}{	}{	}{	}{	}{	}{	}{	}{	All my apologies are yours. Tell me the rules of that contest.	}
-{	263	}{	Fine.	}{	Fine.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can do that.	}
-{	264	}{	Sure thing... bitch.	}{	Sure thing... bitch.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sha-whore thing.	}
-{	265	}{	How about instead I beat your pretty little head into pasta sauce?	}{	How about instead I beat your pretty little head into pasta sauce?	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	How about instead I beat your pretty little head into pasta sauce?	}
-{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	Yes?	}{	Yes?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	272	}{	You'll be happy to know then, that Adam is completely broke.	}{	You'll be happy to know then, that Adam is completely broke.	}{	131	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Adam's bank is a chasm. Roll a penny and watch him chase it.	}
-{	273	}{	You'll like this: Chris isn't really a Giovanni. His mother had an affair.	}{	You'll like this: Chris isn't really a Giovanni. His mother had an affair.	}{	141	}{	G.Chris_Secret == 1 and G.Chris_Told == 0	}{	}{	}{	}{	}{	}{	}{	}{	Christopher's blood is not Giovanni. His mother is a harlot.	}
-{	274	}{	Nothing you could use. Excuse me.	}{	Nothing you could use. Excuse me.	}{	0	}{	G.Mira_Gossip == 1	}{	}{	}{	}{	}{	}{	}{	}{	I will pillage the minds of this party and return.	}
-{	275	}{	Hello. Goodbye.	}{	Hello. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hello. Goodbye.	}
-{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	For your assistance, you can be certain that, when I have my way, I'll bring you into the fold... if you wish. All I have to do is set the rumor mill in motion and I'm as good as in... excuse me.	}{	For your assistance, you can be certain that, when I have my way, I'll bring you into the fold... if you wish. All I have to do is set the rumor mill in motion and I'm as good as in... excuse me.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	282	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Fine with me.	}
-{	283	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	284	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	285	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	286	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	289	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	290	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	291	}{	Maledetto stronzo[Ma-lad-at-to straw-nzo]! If I have to spend the rest of my life doing so, I swear I'll ruin you, bastardo[bust-are-dow]!	}{	Maledetta stronza[Ma-lad-at-ta straw-nza]! If I spend the rest of my life doing so, I swear I'll ruin you, puttana[put-t-ana]!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	293	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	294	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	295	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	296	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	297	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	298	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	299	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	301	}{	You couldn't possibly understand.	}{	You couldn't possibly understand.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	302	}{	I smoked pot once. In church. While masturbating.	}{	I smoked pot once. In church. While masturbating.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	I set things on fire. And by things, I mean small mammals.	}
-{	303	}{	I'm under investigation by the FBI for embezzlement. It could ruin me.	}{	I'm under investigation by the FBI for embezzlement. It could ruin me.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm a corporate pirate and my crew's about to mutiny. Yarr!	}
-{	304	}{	I never told my father I loved him. Now it's... it's too late.	}{	I never told my father I loved him. Now it's... it's too late.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	I laughed at the kid in the helmet. NO! I was the kid in the helmet!	}
-{	305	}{	I hit a jogger once and I kept on driving. Couldn't let it ruin the family, right?	}{	I hit a jogger once and I kept on driving. Couldn't let it ruin the family, right?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	All I have on my conscience is a jogger. On my car too. But the family is safe.	}
-{	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	307	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	308	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	309	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	310	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	311	}{	You know, why don't we just forget this conversation altogether. I've had a little too much to drink and I've said... more than I wanted to.	}{	You know, why don't we just forget this conversation altogether. I've had a little too much to drink and I've said... more than I wanted to.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Bothered = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	312	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	If you wish.	}
-{	313	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	314	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	315	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	316	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	317	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	318	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	319	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	320	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	321	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	322	}{	(Starting Condition)	}{	}{	261	}{	G.Mira_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	323	}{	(Starting Condition)	}{	}{	281	}{	G.Mira_Win == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	324	}{	(Starting Condition)	}{	}{	291	}{	G.Mira_Secret == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	325	}{	(Starting Condition)	}{	}{	271	}{	G.Mira_Bothered == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	326	}{	(Starting Condition)	}{	}{	251	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	327	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	221	}{	Zio Bruno.... Da quando ero bambina, e' sempre stato lui il patriarca di questa famiglia, e non e' invecchiato di un giorno. Ho conosciuto un senatore del Massachusetts che mi ha chiesto se fossi imparentata con Bruno Giovanni... disse che zio Bruno lo aveva aiutato nella sua prima campagna... nel lontano 1950. Abbiamo tutti sentito delle voci..	}{	Zio Bruno.... Da quando ero bambina, e' sempre stato lui il patriarca di questa famiglia, e non e' invecchiato di un giorno. Ho conosciuto un senatore del Massachusetts che mi ha chiesto se fossi imparentata con Bruno Giovanni... disse che zio Bruno lo aveva aiutato nella sua prima campagna... nel lontano 1950. Abbiamo tutti sentito delle voci..	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Bruno = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	222	}{	(Auto-Link)	}{	(Auto-Link)	}{	231	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	223	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	225	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	226	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	227	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	228	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	231	}{	Il cuore della nostra famiglia, non invecchiano mai. Sono riservati... parlano di sangue magico e di un bacio. Qualunque cosa sia, a questo scopo prendono i migliori di noi. Farei di tutto per essere scelta. Ho fatto molti errori, ma ho anche esercitato certe pressioni politiche per il bene di questa famiglia.	}{	Il cuore della nostra famiglia, non invecchiano mai. Sono riservati... parlano di sangue magico e di un bacio. Qualunque cosa sia, a questo scopo prendono i migliori di noi. Farei di tutto per essere scelta. Ho fatto molti errori, ma ho anche esercitato certe pressioni politiche per il bene di questa famiglia.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	232	}{	Errori? Per esempio?	}{	Errori? Per esempio?	}{	241	}{	G.Mira_Confide == 0 and G.Mira_Secret == 0	}{		}{		}{		}{		}{		}{		}{		}{	Cos'hai fatto di sbagliato?	}
+{	233	}{	Hai detto di essere stata impulsiva. Cos'e' cambiato all'improvviso?	}{	Hai detto di essere stata impulsiva. Cos'e' cambiato all'improvviso?	}{	71	}{	Persuasion 10 & G.Mira_Hidden == 1	}{		}{		}{		}{		}{		}{		}{		}{	Perche' hai rallentato il passo della tua vita?	}
+{	234	}{	Allora, qual'e' questo segreto, Mira? Puoi dirmelo, non lo riferiro' ad anima viva.	}{	Allora, qual'e' questo segreto, Mira? Puoi dirmelo, non lo riferiro' ad anima viva.	}{	81	}{	G.Mira_Confide == 1	}{		}{		}{		}{		}{		}{		}{		}{	Dimmi il tuo segreto, in me sara' al sicuro.	}
+{	235	}{	C'e' qualcosa che posso fare per aiutarti?	}{	C'e' qualcosa che posso fare per aiutarti?	}{	211	}{	G.Mira_Gossip == 0	}{		}{		}{		}{		}{		}{		}{		}{	Posso sedare le tue preoccupazioni?	}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{	Se sento qualcosa sui tuoi parenti, vengo a dirtelo.	}{	Se sento qualcosa sui tuoi parenti, vengo a dirtelo.	}{	0	}{	G.Mira_Gossip == 1	}{		}{		}{		}{		}{		}{		}{		}{	Saccheggero' le menti di questa festa e tornero'.	}
+{	240	}{	Non so se voglio farmi coinvolgere. Scusami.	}{	Non so se voglio farmi coinvolgere. Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Riflettero' questa cosa su me stesso.	}
+{	241	}{	Cosa? Scordatelo, non diro' una parola a riguardo.	}{	Cosa? Scordatelo, non diro' una parola a riguardo.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	242	}{	Anche i migliori commettono errori. Evidentemente ti hanno portato fino a qui.	}{	Anche i migliori commettono errori. Evidentemente ti hanno portato fino a qui.	}{	71	}{	Persuasion 9	}{		}{		}{		}{		}{		}{		}{		}{	Gli errori sono una disgrazia per tutti.	}
+{	243	}{	C'e' qualcosa che posso fare per aiutarti?	}{	C'e' qualcosa che posso fare per aiutarti?	}{	211	}{	G.Mira_Gossip == 0	}{		}{		}{		}{		}{		}{		}{		}{	Posso sedare le tue preoccupazioni?	}
+{	244	}{	Se sento qualcosa sui tuoi parenti, vengo a dirtelo.	}{	Se sento qualcosa sui tuoi parenti, vengo a dirtelo.	}{	0	}{	G.Mira_Gossip == 1	}{		}{		}{		}{		}{		}{		}{		}{	Ne parlero' con me stesso.	}
+{	245	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	247	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	Oh... ciao di nuovo.	}{	Oh... ciao di nuovo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	Ho scordato di presentarmi. Sono Victor.	}{	Ho scordato di presentarmi. Sono Maria.	}{	11	}{	G.Mira_Introduce == 0	}{		}{		}{		}{		}{		}{		}{		}{	Anch'io faccio parte della famiglia. Sono... mmm-mmm ahem.... e tu?	}
+{	253	}{	Forse ho sentito qualcosa sulla tua famiglia che forse ti piacerebbe sapere.	}{	Forse ho sentito qualcosa sulla tua famiglia che forse ti piacerebbe sapere.	}{	271	}{	G.Mira_Gossip == 1	}{		}{		}{		}{		}{		}{		}{		}{	Forse ho qualche scheletro da armadio da vendere.	}
+{	254	}{	Dimmi cosa sai sul sarcofago.	}{	Dimmi cosa sai sul sarcofago.	}{	161	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{	Non voglio la tua storia, voglio il sarcofago.	}
+{	255	}{	Scusami. Credevo fossi un'altra persona.	}{	Scusami. Credevo fossi un'altra persona.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non se tu, eccola la'. Finalmente.	}
+{	256	}{	Salve. Arrivederci.	}{	Salve. Arrivederci.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Salve. Arrivederci.	}
+{	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	261	}{	Sparisci.	}{	Sparisci.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	262	}{	Mi dispiace veramente per cio' che ho detto. Dimmi di piu' sulla gara che hai accenato.	}{	Mi dispiace veramente per cio' che ho detto. Dimmi di piu' sulla gara che hai accenato.	}{	191	}{	Persuasion 10 & G.Mira_Hidden == 1	}{		}{		}{		}{		}{		}{		}{		}{	Mi scuso infinitamente. Dimmi le regole della gara.	}
+{	263	}{	Bene.	}{	Bene.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso farlo.	}
+{	264	}{	Certo... troia.	}{	Certo... troia.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ok, zoccola.	}
+{	265	}{	E se invece ti staccassi quella tua testolina e la schiacciassi insieme al sugo di pomodoro?	}{	E se invece ti staccassi quella tua testolina e la schiacciassi insieme al sugo di pomodoro?	}{	0	}{		}{	npc.SetRelationship("player D_FR 5")	}{		}{		}{		}{		}{		}{		}{	E se invece ti staccassi quella tua testolina e la schiacciassi insieme al sugo di pomodoro?	}
+{	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	Si'?	}{	Si'?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	272	}{	Ti fara' piacere sapere che quell'Adam e' completamente al verde.	}{	Ti fara' piacere sapere che quell'Adam e' completamente al verde.	}{	131	}{	G.Adam_Secret == 1 and G.Adam_Told == 0	}{		}{		}{		}{		}{		}{		}{		}{	La banca di Adam e' sull'orlo del baratro. Butta un penny a terra, e vedrai come si precipita.	}
+{	273	}{	Questa ti piacera': Chris non e' davvero un Giovanni. Sua madre ebbe un'avventura.	}{	Questa ti piacera': Chris non e' davvero un Giovanni. Sua madre ebbe un'avventura.	}{	141	}{	G.Chris_Secret == 1 and G.Chris_Told == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il sangue di Christopher non e' firmato Giovanni. Sua madre e' una prostituta.	}
+{	274	}{	Non c'e' niente che tu possa fare. Scusami.	}{	Non c'e' niente che tu possa fare. Scusami.	}{	0	}{	G.Mira_Gossip == 1	}{		}{		}{		}{		}{		}{		}{		}{	Saccheggero' le menti di questa festa e tornero'.	}
+{	275	}{	Salve. Arrivederci.	}{	Salve. Arrivederci.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Salve. Arrivederci.	}
+{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{	Per il tuo aiuto, puoi star certo che, quando trovero' la mia strada, faro' entrare anche te... se lo vorrai. Tutto cio' che devo fare e' mettere le voci in circolazione e sono brava quasi quanto a... scusami.	}{	Per il tuo aiuto, puoi star certa che, quando trovero' la mia strada, faro' entrare anche te... se lo vorrai. Tutto cio' che devo fare e' mettere le voci in circolazione e sono brava quasi quanto a... scusami.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	282	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Per me va bene.	}
+{	283	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	284	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	285	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	286	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	287	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	288	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	290	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	291	}{	Maledetto stronzo! Ti rovinero', anche se dovessi passare il resto della mia vita per riuscirci, bastardo!	}{	Maledetta stronza! Ti rovinero', anche se dovessi passare il resto della mia vita per riuscirci, puttana!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	293	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	294	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	295	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	296	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	297	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	298	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	299	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	301	}{	Non e' possibile che tu possa capire.	}{	Non e' possibile che tu possa capire.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	302	}{	Una volta mi sono fatto una canna. In chiesa. Mentre mi masturbavo.	}{	Una volta mi sono fatta una canna. In chiesa. Mentre mi masturbavo.	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi piace incendiare le cose. E per cose intendo, piccole bestiole.	}
+{	303	}{	L'FBI mi sta col fiato sul collo per appropriazione indebita. Potrebbe rovinarmi.	}{	L'FBI mi sta col fiato sul collo per appropriazione indebita. Potrebbe rovinarmi.	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un pirata d'azienda, e la mia ciurma sta per ammutinarsi. Yarr!	}
+{	304	}{	Non ho mai detto a mio padre che gli volevo bene. Ora e'... troppo tardi.	}{	Non ho mai detto a mio padre che gli volevo bene. Ora e'... troppo tardi.	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ridevo in faccia ai bambini col casco. NO! Io ero il bambino col casco!	}
+{	305	}{	Ho steso un tipo che correva una volta e sono scappato. Non rovinera' la famiglia, giusto?	}{	Ho steso un tipo che correva una volta e sono scappata. Non rovinera' la famiglia, giusto?	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tutto cio' che ho sulla coscienza e' un tipo che correva. E anche la mia macchina...correva. Ma la famiglia e' salva.	}
+{	306	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	307	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	308	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	310	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	311	}{	Senti, perche' non dimentichiamo completamente questa conversazione. Ho bevuto un po' troppo, e ho detto... piu' di quanto volessi fare.	}{	Senti, perche' non dimentichiamo completamente questa conversazione. Ho bevuto un po' troppo, e ho detto... piu' di quanto volessi fare.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Mira_Bothered = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	312	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Se lo desideri.	}
+{	313	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	314	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	315	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	316	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	317	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	318	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	319	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	320	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	321	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	322	}{	(Starting Condition)	}{		}{	261	}{	G.Mira_Pissed == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	323	}{	(Starting Condition)	}{		}{	281	}{	G.Mira_Win == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	324	}{	(Starting Condition)	}{		}{	291	}{	G.Mira_Secret == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	325	}{	(Starting Condition)	}{		}{	271	}{	G.Mira_Bothered == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	326	}{	(Starting Condition)	}{		}{	251	}{	npc.times_talked > 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	327	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
