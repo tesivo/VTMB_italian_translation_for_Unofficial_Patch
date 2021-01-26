@@ -1,5 +1,5 @@
-{	1	}{	[chewing, swallowing]More flatbread and olive oil. And take back this Chardonnay and open up a Chianti - let it breathe for twenty minutes, and then bring it out with the ziti, mm-kay?	}{	[chewing, swallowing]More flatbread and olive oil. And take back this Chardonnay and open up a Chianti - let it breathe for twenty minutes, and then bring it out with the ziti, mm-kay?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	I just wanted t-	}{	I just wanted t-	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am not the one who waits.... I wanted -	}
+{	1	}{	[chewing, swallowing]Altri crostini e olio d'oliva. E riporta questa Chardonnay e apri un Chianti - fallo respirare per venti minuti, poi portalo fuori con gli ziti, mm-kay?}{	[chewing, swallowing]Altri crostini e olio d'oliva. E riporta questa Chardonnay e apri un Chianti - fallo respirare per venti minuti, poi portalo fuori con gli ziti, mm-kay?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Volevo solo-	}{ Volevo solo-	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Io non aspetto... Volevo -	}
 {	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -8,9 +8,9 @@
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Wanted to [RM: ~know]know what? Interrupt me while I'm working! Do you understand that this is an important opening and I - emphasize I - am going to MAKE or possibly break this restaurant?!?	}{	Wanted to [RM: ~know]know what? Interrupt me while I'm working! Do you understand that this is an important opening and I - emphasize I - am going to MAKE or possibly break this restaurant?!?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	I just thought I'd say hi.	}{	I just thought I'd say hi.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Many greetings I babble forth to you, stomacher of multitudinous ethnic dishes.	}
-{	13	}{	Just exactly who are you to feel you have so much power?	}{	Just exactly who are you to feel you have so much power?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Justify your existence, devourer of soles!	}
+{	11	}{	Volevi sapere cosa? Volevi interrompermi mentre lavoro! Capisci che questa e' un apertura importante e io - sottolineo io - costruiro' o forse distruggero' questo ristorante?!? }{ Volevi sapere cosa? Volevi interrompermi mentre lavoro! Capisci che questa e' un apertura importante e io - sottolineo io - costruiro' o forse distruggero' questo ristorante?!?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Volevo solo salutarti. }{	Volevo solo salutarti.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Molti saluti balbetto verso di te, stomacatore di moltitudini di piatti etnici. }
+{	13	}{	Chi sei esattamente, per sentirti di avere cosi' tanto potere?	}{	Chi sei esattamente, per sentirti di avere cosi' tanto potere?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{ Giustifica la tua esistenza, divoratore di suole!	}
 {	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -18,8 +18,8 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Hello. Now go get yourself some ONION RINGS or HOT WINGS, or whatever it is you... eat. The refined palette of a true gourmand is, oh to put it in language you can relate to, trying to decide if this place is THUMBS UP or THUMBS DOWN.	}{	Hello. Now go get yourself some ONION RINGS or HOT WINGS, or whatever it is you... eat. The refined palette of a true gourmand is, oh to put it in language you can relate to, trying to decide if this place is THUMBS UP or THUMBS DOWN.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Who are you?	}{	Who are you?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Justify your existence, devourer of soles!	}
+{	21	}{	Ciao. Ora vai a prenderi degli ANELLI DI CIPOLLA o delle ALETTE DI POLLO, o qualsiasi cosa tu... mangi. Il palato raffinato di un vero buongustaio sta, oh come dirlo in una lingua che tu capisca, cercando di decidere se questo posto e' da POLLICE IN SU o POLLICE IN GIU'.	}{	Ciao. Ora vai a prenderi degli ANELLI DI CIPOLLA o delle ALETTE DI POLLO, o qualsiasi cosa tu... mangi. Il palato raffinato di un vero buongustaio sta, oh come dirlo in una lingua che tu capisca, cercando di decidere se questo posto e' da POLLICE IN SU o POLLICE IN GIU'.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Chi sei?	}{	Chi sei?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Giustifica la tua esistenza, divoratore di suole!	}
 {	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -27,18 +27,18 @@
 {	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	I better leave, or your thumb's going to make an appearance in your ass.	}{	I better leave, or your thumb's going to make an appearance in your ass.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have only one finger for you, and it is not my thumb.	}
-{	31	}{	Me? Tommy Flayton? THE food authority of Los Angeles? Food critic for the biggest paper on the West Coast? Radio personality for the KTLK... [sort of disgusted]Chow-er Hour? Maybe if I reviewed more Pancake Huts, you'd know me.	}{	Me? Tommy Flayton? THE food authority of Los Angeles? Food critic for the biggest paper on the West Coast? Radio personality for the KTLK... [sort of disgusted]Chow-er Hour? Maybe if I reviewed more Pancake Huts, you'd know me.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Tommy_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	I'm sorry, I haven't heard of you.	}{	I'm sorry, I haven't heard of you.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Yes! Yes! Yes! I have definitely never heard that name before.	}
-{	33	}{	Just the man I wanted to talk to.	}{	Just the man I wanted to talk to.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Flayton... that is a coincidence, I seek a man named Flayton.	}
+{	30	}{	Meglio se me ne vado, o il tuo pollice apparira' nel tuo culo.	}{	Meglio se me ne vado, o il tuo pollice apparira' nel tuo culo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ho solo un dito per te, e non e' il mio pollice.	}
+{	31	}{	Io? Tommy Flayton? LA autorita' sul cibo di Los Angeles? Critico culinario per la rivista più grande del West Coast? Conduttore radiofonico per la KTLK... Mangia-ore? Forse se avessi recensito piu' Pancake Huts, mi conosceresti. }{	Io? Tommy Flayton? LA autorita' sul cibo di Los Angeles? Critico culinario per la rivista più grande del West Coast? Conduttore radiofonico per la KTLK... Mangia-ore? Forse se avessi recensito piu' Pancake Huts, mi conosceresti.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Tommy_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Mi dispiace, non ho mai sentito parlare di te. }{	Mi dispiace, non ho mai sentito parlare di te.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Si'! Si'! Si'! Esatto, non ho mai sentito quel nome.	}
+{	33	}{	Proprio l'uomo con cui volevo parlare. 	}{	Proprio l'uomo con cui volevo parlare.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Flayton... che coincidenza, sono alla ricerca di un uomo chiamato Flayton. }
 {	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	I just love your work.	}{	I just love your work.	}{	191	}{	Seduction 5 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	THE Tommy Flayton! My heart has stopped beating.	}
-{	36	}{	I just love your work.	}{	I just love your work.	}{	181	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	If my womb wasn't a cold dead place, I'd fill it with our love children.	}
-{	37	}{	I just love your work.	}{	I just love your work.	}{	111	}{	Seduction -5	}{	}{	}{	}{	}{	}{	}{	}{	THE Tommy Flayton! My heart has stopped beating.	}
-{	38	}{	It'd be hard to eat with no teeth, wouldn't it?	}{	It'd be hard to eat with no teeth, wouldn't it?	}{	171	}{	Intimidate 4	}{	G.Tommy_Threat = 1	}{	}{	}{	}{	}{	}{	}{	Walk away from the trough, piggie, then tell the other piggies not to eat here.	}
+{	35	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	191	}{	Seduction 5 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	IL Tommy Flayton! Il mio cuore si e' fermato. }
+{	36	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	181	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{ Se il mio grembo non fosse un posto freddo e morto, l'avrei riempito con i nostri bambini. }
+{	37	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	111	}{	Seduction -5	}{	}{	}{	}{	}{	}{	}{	}{	IL Tommy Flayton! Il mio cuore si e' fermato.	}
+{	38	}{	Sarebbe difficile lavorare senza denti, vero? }{	Sarebbe difficile lavorare senza denti, vero?	}{	171	}{	Intimidate 4	}{	G.Tommy_Threat = 1	}{	}{	}{	}{	}{	}{	}{	Vattene dalla mangiatoia, maialino, e poi di' agli altri maialini di non mangiare qui. 	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	I don't have the patience for your ego. Goodbye.	}{	I don't have the patience for your ego. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	When your big giant head circles into orbit again, perhaps we'll talk.	}
-{	41	}{	You're wasting my time.	}{	You're wasting my time.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	40	}{	Non ho la pazienza per sopportare il tuo ego. Addio. 	}{	Non ho la pazienza per sopportare il tuo ego. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quando il tuo testone finisce il giro dell'orbita, forse riparleremo.	}
+{	41	}{	Stai sprecando il mio tempo. }{	Stai sprecando il mio tempo.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -47,19 +47,19 @@
 {	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	Fine, bye.	}{	Fine, bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your time is borrowed. Bye.	}
-{	51	}{	How so?	}{	How so?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	The food is bad. I mean, it's bad.	}{	The food is bad. I mean, it's bad.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	It's looking at me funny. Stab it again!	}
-{	53	}{	You're becoming the joke of the food world - you'll give anything a good review.	}{	You're becoming the joke of the food world - you'll give anything a good review.	}{	101	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	54	}{	I saw a chef in the bathroom. He didn't even look at the sink.	}{	I saw a chef in the bathroom. He didn't even look at the sink.	}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{	Take my opinion, I know food.	}{	Take my opinion, I know food.	}{	41	}{	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Because I said so.	}
+{	50	}{	Va bene, ciao.	}{	Va bene, ciao.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I tuoi giorni sono contati. Ciao.	}
+{	51	}{	In che senso?	}{	In che senso?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Il cibo e' pessimo. Voglio dire, e' pessimo.	}{	Il cibo e' pessimo. Voglio dire, e' pessimo.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mi sta guardando in modo strano. Accoltellalo di nuovo!	}
+{	53	}{	Stai diventando lo zimbello del mondo culinario - faresti di tutto per una buona recensione. 	}{	Stai diventando lo zimbello del mondo culinario - faresti di tutto per una buona recensione.	}{	101	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{	Ho visto uno chef in bagno. Non ha neppure guardato il lavandino.	}{	Ho visto uno chef in bagno. Non ha neppure guardato il lavandino.	}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{	Fidati di me, conosco il cibo.	}{	Fidati di me, conosco il cibo.	}{	41	}{	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Te lo dico io.	}
 {	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	What?	}{	What?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Maggots, you're eating maggots.	}{	Maggots, you're eating maggots.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Cosa?	}{	Cosa?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Vermi, stai mangiando vermi.	}{	Vermi, stai mangiando vermi.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -68,27 +68,27 @@
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	[Sounds like he's about to throw up]This place will pay for this! As sure as my name is Tommy Flayton, they'll never serve food in this town again!	}{	[Sounds like he's about to throw up]This place will pay for this! As sure as my name is Tommy Flayton, they'll never serve food in this town again!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	[Sounds like he's about to throw up]Questo posto paghera' per questo! Com'e' vero che mi chiamo Tommy Flayton, non cucineranno piu' cibo in questa citta'! 	}{	[Sounds like he's about to throw up]Questo posto paghera' per questo! Com'e' vero che mi chiamo Tommy Flayton, non cucineranno piu' cibo in questa citta'!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	74	}{	Give 'em hell, Tommy. Bye.	}{	Give 'em hell, Tommy. Bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	How could they do that to you? I bet they didn't get that idea from a movie.	}
-{	75	}{	That's what I'm saying.	}{	That's what I'm saying.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hee hee hee....	}
+{	74	}{	Fagliela pagare, Tommy. Ciao.	}{	Fagliela pagare, Tommy. Ciao.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Come hanno potuto farti questo? Scommetto che non hanno preso l'idea da un film. }
+{	75	}{	Sono d'accordo.	}{	Sono d'accordo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hee hee hee....	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	I'm not sure exactly what you mean.	}{	I'm not sure exactly what you mean.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	You will write a bad review. A terrible one.	}{	You will write a bad review. A terrible one.	}{	91	}{	Dominate 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	People like you should warn me about a bad restaurant like this.	}{	People like you should warn me about a bad restaurant like this.	}{	91	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	Are you enjoying your maggots?	}{	Are you enjoying your maggots?	}{	61	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	Are you enjoying your maggots?	}
-{	85	}{	Isn't it in your best interest to pan this place? You've got a reputation to keep.	}{	Isn't it in your best interest to pan this place? You've got a reputation to keep.	}{	51	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	This is a joke? You, review this place? I am laughing.	}
-{	86	}{	It would be in your best interest to write a bad review of this restaurant.	}{	It would be in your best interest to write a bad review of this restaurant.	}{	171	}{	Intimidate 4	}{	G.Tommy_Threat = 1	}{	}{	}{	}{	}{	}{	}{	Walk away from the trough, piggie, then tell the other piggies not to eat here.	}
-{	87	}{	I just love your work.	}{	I just love your work.	}{	191	}{	Seduction 5 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	THE Tommy Flayton! My heart has stopped beating.	}
-{	88	}{	I just love your work.	}{	I just love your work.	}{	181	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	If my womb wasn't a cold dead place, I'd fill it with our love children.	}
-{	89	}{	I just love your work.	}{	I just love your work.	}{	111	}{	Seduction -5	}{	}{	}{	}{	}{	}{	}{	}{	THE Tommy Flayton! My heart has stopped beating.	}
-{	90	}{	Uh... forget it then. Bye.	}{	Uh... forget it then. Bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm not exactly sure what I mean. I am gone.	}
-{	91	}{	Yes... I'm going to write a review that will destroy this restaurant.	}{	Yes... I'm going to write a review that will destroy this restaurant.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Non capisco che intendi.	}{	Non capisco che intendi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Scriverai una recensione pessima. Una terribile. }{	Scriverai una recensione pessima. Una terribile.	}{	91	}{	Dominate 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	Le persone come te dovrebbero avvisarmi di ristoranti pessimi come questo. }{	Le persone come te dovrebbero avvisarmi di ristoranti pessimi come questo.	}{	91	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	84	}{	Ti stanno piacendo i tuoi vermi?	}{	Ti stanno piacendo i tuoi vermi?	}{	61	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	Ti stanno piacendo i tuoi vermi?	}
+{	85	}{	Non dovresti distruggere questo posto? Devi mantenere una reputazione.	}{	Non dovresti distruggere questo posto? Devi mantenere una reputazione.	}{	51	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Questo e' uno scherzo? Tu, che recensisci questo posto? Sto ridendo. }
+{	86	}{	Faresti meglio a scrivere una brutta recensione di questo ristorante. }{	Faresti meglio a scrivere una brutta recensione di questo ristorante.	}{	171	}{	Intimidate 4	}{	G.Tommy_Threat = 1	}{	}{	}{	}{	}{	}{	}{	Vattene dalla mangiatoia, maialino, e poi di' agli altri maialini di non mangiare qui. 	}
+{	87	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	191	}{	Seduction 5 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	IL Tommy Flayton! Il mio cuore si e' fermato.	}
+{	88	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	181	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Se il mio grembo non fosse un posto freddo e morto, l'avrei riempito con i nostri bambini.	}
+{	89	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	111	}{	Seduction -5	}{	}{	}{	}{	}{	}{	}{	}{	IL Tommy Flayton! Il mio cuore si e' fermato.	}
+{	90	}{	Uh... allora lascia stare. Ciao.	}{	Uh... allora lascia stare. Ciao.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono sicuro neppure io. Me ne vado.	}
+{	91	}{	Si'... scrivero' una recensione che distruggera' questo ristorante. 	}{	Si'... scrivero' una recensione che distruggera' questo ristorante.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -97,8 +97,8 @@
 {	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	Good, good. I'll be leaving now that my work is done. Goodnight.	}{	Good, good. I'll be leaving now that my work is done. Goodnight.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	A 60-foot robot would be cooler, but that will do.	}
-{	101	}{	You know, now that you mention it, the gnocchi was a bit cold. And the ravioli might have been store-bought. Also, the decorum's a bit lacking, isn't it? This place is just an over-priced cafeteria! No stars!	}{	You know, now that you mention it, the gnocchi was a bit cold. And the ravioli might have been store-bought. Also, the decorum's a bit lacking, isn't it? This place is just an over-priced cafeteria! No stars!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	100	}{	Bene, bene. Ora che ho finito il mio compito, me ne vado. Buonanotte. 	}{	Bene, bene. Ora che ho finito il mio compito, me ne vado. Buonanotte. 	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Un robot alto 18 metri sarebbe stato piu' figo, ma va bene cosi'.	}
+{	101	}{	Sai, ora che me lo dici, gli gnocchi erano un po' freddi. E forse i ravoli erano comprati. Inoltre, le decorazioni sono un po' scadenti, vero? Questo posto e' solo un cafe' troppo costoso! Zero stelle!	}{	Sai, ora che me lo dici, gli gnocchi erano un po' freddi. E forse i ravoli erano comprati. Inoltre, le decorazioni sono un po' scadenti, vero? Questo posto e' solo un cafe' troppo costoso! Zero stelle!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
 {	102	}{	(Auto-Link)	}{	(Auto-Link)	}{	121	}{	G.Tommy_Flirt == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -108,37 +108,37 @@
 {	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	110	}{	(Auto-Link)	}{	(Auto-Link)	}{	91	}{	G.Tommy_Flirt == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	Always good to meet a fan. Can I sign a napkin or something for you?	}{	Always good to meet a fan. Can I sign a napkin or something for you?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	Sempre bello incontrare un fan. Posso farti un autografo su una tovaglietta o qualcosa del genere?	}{	Sempre bello incontrare una fan. Posso farti un autografo su una tovaglietta o qualcosa del genere?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	112	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	113	}{	Isn't it in your best interest to pan this place? You've got a reputation to keep.	}{	Isn't it in your best interest to pan this place? You've got a reputation to keep.	}{	51	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	This is a joke? You, review this place? I am laughing.	}
-{	114	}{	You will write a bad review. A terrible one.	}{	You will write a bad review. A terrible one.	}{	91	}{	Dominate 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	People like you should warn me about a bad restaurant like this.	}{	People like you should warn me about a bad restaurant like this.	}{	91	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	116	}{	Are you enjoying your maggots?	}{	Are you enjoying your maggots?	}{	61	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	Are you enjoying your maggots?	}
-{	117	}{	It would be in your best interest to write a bad review of this restaurant.	}{	It would be in your best interest to write a bad review of this restaurant.	}{	171	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Walk away from the trough, piggie, then tell the other piggies not to eat here.	}
-{	118	}{	I just love your work.	}{	I just love your work.	}{	191	}{	Seduction 5 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	THE Tommy Flayton! My heart has stopped beating.	}
-{	119	}{	I just love your work.	}{	I just love your work.	}{	181	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	If my womb wasn't a cold dead place, I'd fill it with our love children.	}
-{	120	}{	No thanks. Just thought I'd say hi, and I love your work. Bye.	}{	No thanks. Just thought I'd say hi, and I love your work. Bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	So, now that that business is out of the way, care to join me for a drink? I know this fabulous place over in We-Ho.	}{	So, now that that business is out of the way, care to join me for a drink? I know this fabulous place over in We-Ho.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	I'll take a raincheck on that. I'll, uh, call you. Bye, Tommy.	}{	I'll take a raincheck on that. I'll, uh, call you. Bye, Tommy.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm so flattered I'm going to spray-paint your face all over my room. Bye for now.	}
-{	123	}{	Oh, look at the time. I've got a meeting in the morning. Another time, maybe.	}{	Oh, look at the time. I've got a meeting in the morning. Another time, maybe.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am already there! I am gone.	}
-{	124	}{	I would rather join you for a drink right now.	}{	I would rather join you for a drink right now.	}{	0	}{	G.Patch_Plus == 1	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	No need to leave to get some tasty liquid.	}
+{	113	}{	Non dovresti distruggere questo posto? Devi mantenere una reputazione.	}{	Non dovresti distruggere questo posto? Devi mantenere una reputazione.	}{	51	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Questo e' uno scherzo? Tu, che recensisci questo posto? Sto ridendo.	}
+{	114	}{	Scriverai una recensione pessima. Una terribile.	}{	Scriverai una recensione pessima. Una terribile.	}{	91	}{	Dominate 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	Le persone come te dovrebbero avvisarmi di ristoranti pessimi come questo.	}{	Le persone come te dovrebbero avvisarmi di ristoranti pessimi come questo.	}{	91	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{	Ti stanno piacendo i tuoi vermi?	}{	Ti stanno piacendo i tuoi vermi?	}{	61	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	Ti stanno piacendo i tuoi vermi?	}
+{	117	}{	Faresti meglio a scrivere una brutta recensione di questo ristorante.	}{	Faresti meglio a scrivere una brutta recensione di questo ristorante.	}{	171	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Vattene dalla mangiatoia, maialino, e poi di' agli altri maialini di non mangiare qui.	}
+{	118	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	191	}{	Seduction 5 & pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	IL Tommy Flayton! Il mio cuore si e' fermato.	}
+{	119	}{	Amo il tuo lavoro.	}{	Amo il tuo lavoro.	}{	181	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Se il mio grembo non fosse un posto freddo e morto, l'avrei riempito con i nostri bambini.	}
+{	120	}{	No grazie. Volevo solo salutarti e dirti che amo il tuo lavoro. Ciao. 	}{	No grazie. Volevo solo salutarti e dirti che amo il tuo lavoro. Ciao.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Quindi, ora che quella faccenda e' stata completata, vuoi unirti a me per un drink?	Conosco un posto favoloso a We-Ho. }{	Quindi, ora che quella faccenda e' stata completata, vuoi unirti a me per un drink?	Conosco un posto favoloso a We-Ho.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Forse dopo. Ti, uh, chiamero' io. Ciao, Tommy.	}{	Forse dopo. Ti, uh, chiamero' io. Ciao, Tommy.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono cosi' lusingata che dipingero' la tua faccia su tutti i muri della mia stanza. Ciao per ora.	}
+{	123	}{	Oh, guarda che ora si e' fatta. Ho un meeting domani mattina. Forse un'altra volta. 	}{	Oh, guarda che ora si e' fatta. Ho un meeting domani mattina. Forse un'altra volta.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono gia' li' e me ne sono gia' andata.	}
+{	124	}{	Vorrei avere un drink proprio ora. 	}{	Vorrei avere un drink proprio ora.	}{	0	}{	G.Patch_Plus == 1	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Non c'e' bisogno di andarsere per bere del gustoso liquido.	}
 {	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Oh, hey, waiter! I asked for a Cabernet Sauvignon, not a Merlot! Next thing you know he'll bring sparkling grape juice, ugh.	}{	Oh, hey, waiter! I asked for a Cabernet Sauvignon, not a Merlot! Next thing you know he'll bring sparkling grape juice, ugh.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	Oh, hey, cameriere! Ho chiesto un Cabernet Sauvignon, non un Merlot! Il prossimo passo sara' portarmi del succo d'uva frizzante, ugh. }{	Oh, hey, cameriera! Ho chiesto un Cabernet Sauvignon, non un Merlot! Il prossimo passo sara' portarmi del succo d'uva frizzante, ugh.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	134	}{	I'm not the waiter, but you are just the man I wanted to talk to.	}{	I'm not the waiter, but you are just the man I wanted to talk to.	}{	81	}{	G.Tommy_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	You. Me. Talk.	}
-{	135	}{	Who are you?	}{	Who are you?	}{	31	}{	G.Tommy_Know == 0	}{	}{	}{	}{	}{	}{	}{	}{	You are not known to me. Should you be?	}
+{	134	}{	Non sono il cameriere, ma tu sei l'uomo con cui devo parlare.	}{	Non sono la cameriera, ma tu sei l'uomo con cui devo parlare.	}{	81	}{	G.Tommy_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	You. Me. Talk.	}
+{	135	}{	Chi sei?	}{	Chi sei?	}{	31	}{	G.Tommy_Know == 0	}{	}{	}{	}{	}{	}{	}{	}{	Non sei conosciuto a me. Dovresti esserlo?	}
 {	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	Excuse me. Bye.	}{	Excuse me. Bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am gone.	}
-{	141	}{	Leave me alone, pissant.	}{	Leave me alone, pissant.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	140	}{	Scusami. Arrivederci.	}{	Scusami. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Me ne vado.	}
+{	141	}{	Lasciami in pace, stronzo.	}{	Lasciami in pace, stronza.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	142	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -146,8 +146,8 @@
 {	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	That's it. Prepare for your beating.	}{	That's it. Prepare for your beating.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5"); G.Tommy_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	I'm going to live out every artist's dream and torture a critic.	}
-{	150	}{	I guess I'm leaving.	}{	I guess I'm leaving.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am gone.	}
+{	149	}{	Basta. Preparati ad essere picchiato.	}{	Basta. Preparati ad essere picchiato.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5"); G.Tommy_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Vivro' il sogno di tutti gli artisti e torturero' un critico.	}
+{	150	}{	Credo che me ne andro'.	}{	Credo che me ne andro'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Me ne vado.	}
 {	151	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -158,9 +158,9 @@
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	[Disgusted, suppressing urge to vomit]Oh, my.... Well, I've almost completely lost my appetite. I wasn't aware this restaurant had a burn ward.	}{	[Disgusted, suppressing urge to vomit]Oh, my.... Well, I've almost completely lost my appetite. I wasn't aware this restaurant had a burn ward.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	You the critic? I need a word with you.	}{	You the critic? I need a word with you.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	163	}{	Can you look at my back and tell me if my boil is still oozing?	}{	Can you look at my back and tell me if my boil is still oozing?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	[Disgusted, suppressing urge to vomit]Oh, mio...Beh, ho quasi completamente perso il mio appetito. Non sapevo che questo ristorante avesse un reparto ustionati.	}{	[Disgusted, suppressing urge to vomit]Oh, mio...Beh, ho quasi completamente perso il mio appetito. Non sapevo che questo ristorante avesse un reparto ustionati.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Sei il critico? Devo parlarti.	}{	Sei il critico? Devo parlarti.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	163	}{	Puoi guardarmi la schiena e dirmi se la bolla sta ancora perdendo pus? }{	Puoi guardarmi la schiena e dirmi se la bolla sta ancora perdendo pus?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -168,18 +168,18 @@
 {	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	Listen, jackass, I didn't become the biggest critic in LA without making a few powerful friends. Half the owners of these places are criminals and I eat at their table when I drop by.	}{	Listen, jackass, I didn't become the biggest critic in LA without making a few powerful friends. Half the owners of these places are criminals and I eat at their table when I drop by.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	171	}{	Senti, stronzo, non sono diventato il critico piu' famoso di LA senza farmi qualche amico potente. Meta' dei gestori di questi ristoranti sono criminali e mangio alla loro tavola quando sono nei paraggi. }{	Senti, stronza, non sono diventato il critico piu' famoso di LA senza farmi qualche amico potente. Meta' dei gestori di questi ristoranti sono criminali e mangio alla loro tavola quando sono nei paraggi.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	172	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	173	}{	You will write a bad review. A terrible one.	}{	You will write a bad review. A terrible one.	}{	91	}{	Dominate 2	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	174	}{	People like you should warn me about a bad restaurant like this.	}{	People like you should warn me about a bad restaurant like this.	}{	91	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	173	}{	Scriverai una recensione pessima. Una terribile.	}{	Scriverai una recensione pessima. Una terribile.	}{	91	}{	Dominate 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	174	}{	Le persone come te dovrebbero avvisarmi di ristoranti pessimi come questo.	}{	Le persone come te dovrebbero avvisarmi di ristoranti pessimi come questo.	}{	91	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	Are you enjoying your maggots?	}{	Are you enjoying your maggots?	}{	61	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	Are you enjoying your maggots?	}
+{	177	}{	Ti stanno piacendo i tuoi vermi?	}{	Ti stanno piacendo i tuoi vermi?	}{	61	}{	Dementation 2	}{	}{	}{	}{	}{	}{	}{	}{	Ti stanno piacendo i tuoi vermi?	}
 {	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	That's it. Prepare for your beating.	}{	That's it. Prepare for your beating.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5"); pc.SetQuest("Tommy",3); G.Tommy_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	I'm going to live out every artist's dream and torture a critic.	}
-{	180	}{	I'll let you keep them for now. Goodbye.	}{	I'll let you keep them for now. Goodbye.	}{	0	}{	}{	pc.SetQuest("Tommy",3); G.Tommy_Fail = 1	}{	}{	}{	}{	}{	}{	}{	I am gone.	}
-{	181	}{	[not flattered by the ladies]Oh, uh... thanks.	}{	[not flattered by the ladies]Oh, uh... thanks.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	This place is just horrible, don't you agree? We should go somewhere else.	}{	This place is just horrible, don't you agree? We should go somewhere else.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	I could never eat here. Escort me to a dark place.	}
+{	179	}{	Basta. Preparati ad essere picchiato.	}{	Basta. Preparati ad essere picchiato.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5"); pc.SetQuest("Tommy",3); G.Tommy_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Vivro' il sogno di tutti gli artisti e torturero' un critico.	}
+{	180	}{	Per ora te li tieni. Addio.	}{	Per ora te li tieni. Addio.	}{	0	}{	}{	pc.SetQuest("Tommy",3); G.Tommy_Fail = 1	}{	}{	}{	}{	}{	}{	}{ Me ne vado.	}
+{	181	}{	[not flattered by the ladies]Oh, uh... grazie	}.{	[not flattered by the ladies]Oh, uh... grazie.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non potrei mai mangiare qui. Portami in un posto oscuro. }
 {	183	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	184	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	185	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -188,9 +188,9 @@
 {	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	[Flattered by the fellas]Always good to meet someone with... similar tastes.	}{	[Flattered by the fellas]Always good to meet someone with... similar tastes.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	This place is just horrible, don't you agree? We should go somewhere else.	}{	This place is just horrible, don't you agree? We should go somewhere else.	}{	101	}{	}{	G.Tommy_Flirt = 1	}{	}{	}{	}{	}{	}{	}{	I could never eat here. Escort me to a dark place.	}
-{	193	}{	Uh... no, I can't go through with this.	}{	Uh... no, I can't go through with this.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	This is one masquerade I cannot keep up.	}
+{	191	}{	[Flattered by the fellas]Sempre bello incontrare qualcuno con... gusti simili. }{	[Flattered by the fellas]Sempre bello incontrare qualcuno con... gusti simili.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	101	}{	}{	G.Tommy_Flirt = 1	}{	}{	}{	}{	}{	}{	}{	Non potrei mai mangiare qui. Portami in un posto oscuro.	}
+{	193	}{	Uh... no, non posso continuare cosi'. }{	Uh... no, non posso continuare cosi'.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Questa e' una mascherata a cui non posso partecipare.	}
 {	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -198,9 +198,9 @@
 {	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	[Revolted]Please... the smell...!	}{	[Revolted]Please... the smell...!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	Funny, I don't smell anything.	}{	Funny, I don't smell anything.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	203	}{	Okay if I join you?	}{	Okay if I join you?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	[Revolted]Per favore... l'odore...!	}{	[Revolted]Per favore... l'odore...!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Strano, io non sento niente.	}{	Strano, io non sento niente.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	203	}{	Posso unirmi a te?	}{	Posso unirmi a te?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -208,7 +208,7 @@
 {	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	[Revolted, going to vomit]Oh...! I'll - I'll never [gagging noise]eat in this part of town again! Oh my -[gagging noises, runs off to puke]	}{	[Revolted, going to vomit]Oh...! I'll - I'll never [gagging noise]eat in this part of town again! Oh my -[gagging noises, runs off to puke]	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Tommy_Disgusted = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	211	}{	[Revolted, going to vomit]Oh...! Non- non mangero' [gagging noise]... mai piu' in questa zona della citta'! Oh mio - [gagging noises, runs off to puke]	}{	[Revolted, going to vomit]Oh...! Non- non mangero' [gagging noise]... mai piu' in questa zona della citta'! Oh mio - [gagging noises, runs off to puke]	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Tommy_Disgusted = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
 {	212	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	213	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -224,12 +224,12 @@
 {	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	[Chewing]Hmm... mmmm.... The veal... is a little chewy... mmmm... and this marsala sauce - I could go either way.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	228	}{	What they call Romano, I call asbestos!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	This bruschetta is to DIE for! See, that's what I WOULD be saying if it had been served yesterday, when the tomatoes were fresh!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	230	}{	Rigatoni...? More like Riga-don't-i!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	Oh, hey, waiter! I asked for a Cabernet Sauvignon, not a Merlot! Next thing you know he'll be bringing sparkling grape juice, ugh.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	232	}{	In my opinion, children should only be allowed in places with happy meals and grand slam breakfasts.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	227	}{	[Chewing]Hmm... mmmm.... Il vitello... e' un po' gommoso ... e questa salsa marsala - mi e' indifferente. }{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	228	}{	Quello che chiamano Romano, io lo chiamo amianto! }{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	229	}{	Questa bruschetta e' buona da MORIRE! Vedi, questo e' quello che AVREI detto se fosse stata servita ieri, quando i pomodori erano freschi!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	230	}{	Rigatoni...? Riga-te dritto, semmai.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	231	}{	Oh, hey, cameriere! Ho chiesto un Cabernet Sauvignon, non un Merlot! Il prossimo passo sara' portarmi del succo d'uva frizzante, ugh.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	Secondo me, i bambini dovrebbero essere ammessi solo nei luoghi con happy meal e le colazioni.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	233	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	235	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

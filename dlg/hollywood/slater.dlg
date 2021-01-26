@@ -1,25 +1,25 @@
-{	1	}{	S'up? ... Oh.... Welcome to Red Spot, home of the Monstro-Chug, 72 ounces of your favorite beverage for 89 cents, blah blah. You need help or something?	}{	S'up? ... Oh.... Welcome to Red Spot, home of the Monstro-Chug, 72 ounces of your favorite beverage for 89 cents, blah blah. You need help or something?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Slater_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Yeah. What's going on around here? Anything exciting or unusual?	}{	Yeah. What's going on around here? Anything exciting or unusual?	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	You hear anything new about the serial killer?	}{	You hear anything new about the serial killer?	}{	51	}{	G.Slater_Serial == 0 and not IsClan(pc,"Malkavian") and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	Maybe you can help - I'm looking for a tape.	}{	Maybe you can help - I'm looking for a tape.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	What is this city hiding from me?	}{	What is this city hiding from me?	}{	201	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	What is this city hiding from me?	}
-{	6	}{	I need weapons and Flynn told me you sell some.	}{	I need weapons and Flynn told me you sell some.	}{	91	}{	G.Flynn_Slater == 1	}{	}{	}{	}{	}{	}{	}{	}{	The Prince of Porn told me you sell boom-sticks.	}
+{	1	}{	Come butta? ...Oh... Benvenuto al Red Spot, casa del Mostro-Chug, 2 litri della tua bevanda preferita a 89 centesimi, bla bla. Hai bisogno di una mano?	}{	Come butta? ...Oh... Benvenuta al Red Spot, casa del Mostro-Chug, 2 litri della tua bevanda preferita a 89 centesimi, bla bla. Hai bisogno di una mano?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Slater_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and not IsClan(pc,"Malkavian") and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	Cosa mi sta nascondendo questa citta'?	}{	Cosa mi sta nascondendo questa citta'?	}{	201	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Cosa mi sta nascondendo questa citta'?	}
+{	6	}{	Ho bisogno di armi e Flynn mi ha detto che ne vendi.	}{	Ho bisogno di armi e Flynn mi ha detto che ne vendi.	}{	91	}{	G.Flynn_Slater == 1	}{	}{	}{	}{	}{	}{	}{	}{	Il Principe del Porno mi ha detto che vendi armi.	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	Nope, just looking around. Later.	}{	Nope, just looking around. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need no help... it is you that needs it. Farewell.	}
-{	11	}{	Always. You should come out and see my band Ebola Cereal - we're playing tomorrow night at the Crematorium. Five bucks, two drink min. We're gonna RUIN the place.	}{	Always. You should come out and see my band Ebola Cereal - we're playing tomorrow night at the Crematorium. No cover for chicks. We're gonna RUIN the place.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Exciting = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Listen, I'm looking for a tape.	}{	Listen, I'm looking for a tape.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0 }{	}{	}{	}{	}{	}{	}{	}{	I seek a tape full of nameless atrocity.	}
-{	13	}{	Interesting. Anything else I should know about?	}{	Interesting. Anything else I should know about?	}{	41	}{	G.Slater_Vesuvius == 0	}{	}{	}{	}{	}{	}{	}{	}{	Are there other situations I must place myself in?	}
-{	14	}{	You hear anything new about the serial killer?	}{	You hear anything new about the serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Has the killer that walks these streets bloodied his hands again?	}
+{	10	}{	No, sto solo guardando in giro. A dopo. }{	No, sto solo guardando in giro. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di aiuto... ne hai bisogno tu. Addio.	}
+{	11	}{	Sempre. Dovresti venire a vedere la mia band Ebola Cereal - suoniamo domani sera al Crematorium. 5 dollari, minimo due drink. DISTRUGGEREMO quel posto. }{	Sempre. Dovresti venire a vedere la mia band Ebola Cereal - suoniamo domani sera al Crematorium. 5 dollari, minimo due drink. DISTRUGGEREMO quel posto.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Exciting = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Listen, Sto cercando una videocassetta.	}{	Listen, Sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0 }{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
+{	13	}{	Interessante. C'e' altro che devo sapere?	}{	Interessante. C'e' altro che devo sapere?	}{	41	}{	G.Slater_Vesuvius == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ci sono altre situazioni in cui mi devo collocare?	}
+{	14	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
 {	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	I bet. I'll see you later. Goodbye.	}{	I bet. I'll see you later. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	You mean like hardcore girl-on-girl-on-kangaroo action and stuff? Yeah, yeah - my man Flynn at the Sin Bin hooks me and my crew up for all the stuff they don't even allow on the internet, man.	}{	You mean like hardcore girl-on-girl-on-kangaroo action and stuff? Yeah, yeah - my man Flynn at the Sin Bin hooks me and my crew up for all the stuff they don't even allow on the internet, man.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Actually, it's more of a horror snuff tape.	}{	Actually, it's more of a horror snuff tape.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	It smears the blood of the innocent in perverted eyes.	}
+{	20	}{	Ma certo. Ci vediamo dopo. Ciao.	}{	Ma certo. Ci vediamo dopo. Ciao.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Vuoi dire quella roba hardcore come 2 ragazze e un canguro e roba simile? Si', si' - il mio amico Flynn al Sin Bin da' a me e al mio gruppo tutta la roba che non lasciano neanche mettere su internet, bello. }{	Vuoi dire quella roba hardcore come 2 ragazze e un canguro e roba simile? Si', si' - il mio amico Flynn al Sin Bin da' a me e al mio gruppo tutta la roba che non lasciano neanche mettere su internet, bella.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	In realta', e' piu' una videocassetta snuff horror.	}{	In realta', e' piu' una videocassetta snuff horror.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dipinge il sangue degli innocenti sugli occhi dei perversi.	}
 {	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -28,8 +28,8 @@
 {	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Oh, that?!? Man, that's supposed to be some hardcore shit! I heard this one guy, like, died right after watching it!	}{	Oh, that?!? Man, that's supposed to be some hardcore shit! I heard this one guy, like, died right after watching it!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Know where I can get a copy?	}{	Know where I can get a copy?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where may my hands lay themselves on it?	}
+{	31	}{	Oh, quella?!? Bello, quella dovrebbe essere roba veramente da pazzi! So che uno, tipo, e' morto subito dopo averla vista! }{	Oh, quella?!? Bella, quella dovrebbe essere roba veramente da pazzi! So che uno, tipo, e' morto subito dopo averla vista!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Sai dove posso prenderne una copia? 	}{	Sai dove posso prenderne una copia?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where may my hands lay themselves on it?	}
 {	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,9 +38,9 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Yeah. The Vesuvius rocks! They don't let me in anymore, but damn, the girls in there, dude - it's like a midget smuggling ring in there.	}{	Yeah. The Vesuvius rocks! They don't let me in anymore, but damn, the girls in there, dude - it's like a midget smuggling ring in there, uh, if you're into that kind of thing, I mean.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Slater_Vesuvius = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Great - maybe I'll go check it out.	}{	Possibly.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will enter the volcano later.	}
-{	43	}{	No thanks, I'm not into that sort of thing.	}{	No thanks, I'm not into that sort of thing.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	The volcano blows....	}
+{	41	}{	Si'. Il Vesuvius e' bellissimo! Non mi fanno piu' entrare li', ma cazzo, le ragazze li' dentro, bello - 	e' come un traffico di nane li'. }{	Si'. Il Vesuvius e' bellissimo! Non mi fanno piu' entrare li', ma cazzo, le ragazze li' dentro, bella -	e' come un traffico di nane li', uh, se ti piace quella roba, voglio dire.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Slater_Vesuvius = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Bello - forse andro' a dare un'occhiata dopo.	}{	Forse.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Entrero' nel vulcano piu' tardi.	}
+{	43	}{	No, grazie, non mi piace quella roba.	}{	No, grazie, non mi piace quella roba.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Il vulcano fa schifo...	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -48,8 +48,8 @@
 {	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	Uh... this isn't going to turn out to be... ironic, is it? You're not, like, a serial killer, are you?	}{	Uh... this isn't going to turn out to be... ironic, is it? You're not, like, a serial killer, are you?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Slater_Serial = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	No.... What else goes on around here? Anything interesting?	}{	No.... What else goes on around here? Anything interesting?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Is the city of stars on fire?	}
+{	51	}{	Uh... questo non e' qualcosa di... ironico, vero? Non sei, tipo, un serial killer, giusto?	}{	Uh... questo non e' qualcosa di... ironico, vero? Non sei, tipo, una serial killer, giusto?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Slater_Serial = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	No... cos'altro succede qui? Qualcosa di interessante? }{	No... cos'altro succede qui? Qualcosa di interessante?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	La citta' delle stelle brucia?	}
 {	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -57,7 +57,7 @@
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	Exactly. Well, I'll be going now.	}{	Exactly. Well, I'll be going now.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You have nothing to fear except every other thing. Farewell.	}
+{	60	}{	Esattamente. Beh, me ne vado.}{	Exactly. Well, I'll be going now.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You have nothing to fear except every other thing. Farewell.	}
 {	61	}{	Like I said, Flynn's the man. You should talk to him.	}{	Like I said, Flynn's the man. You should talk to him.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Slater_Flynn = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	62	}{	Alright. Anything else I should know about?	}{	Alright. Anything else I should know about?	}{	41	}{	G.Slater_Vesuvius == 0	}{	}{	}{	}{	}{	}{	}{	}{	There are other situations I must place myself in.	}
 {	63	}{	Thanks. I'll ask him. Goodbye.	}{	Thanks. I'll ask him. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will ask this Flynn, after I am gone.	}
@@ -119,9 +119,9 @@
 {	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	120	}{	I'm outta here.	}{	I'm outta here.	}{	245	}{	}{	G.Slater_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
 {	121	}{	Yeah, what is it?	}{	Yeah, what is it?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	What's going on around here? Anything exciting or unusual?	}{	What's going on around here? Anything exciting or unusual?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
-{	123	}{	You hear anything new about the serial killer?	}{	You hear anything new about the serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Has the killer that walks these streets bloodied his hands again?	}
-{	124	}{	I'm looking for a tape.	}{	I'm looking for a tape.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	I seek a tape full of nameless atrocity.	}
+{	122	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	123	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
+{	124	}{	Sto cercando una videocassetta.	}{	Sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
 {	125	}{	What exactly is your special?	}{	What exactly is your special?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0 and G.Slater_Pissed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
 {	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -129,9 +129,9 @@
 {	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	130	}{	Nothing. Goodbye.	}{	Nothing. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
 {	131	}{	Hola.	}{	Hola.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	What's going on around here? Anything exciting or unusual?	}{	What's going on around here? Anything exciting or unusual?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
-{	133	}{	You hear anything new about the serial killer?	}{	You hear anything new about the serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Has the killer that walks these streets bloodied his hands again?	}
-{	134	}{	I'm looking for a tape.	}{	I'm looking for a tape.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	I seek a tape full of nameless atrocity.	}
+{	132	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	133	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
+{	134	}{	Sto cercando una videocassetta.	}{	Sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
 {	135	}{	What exactly is your special?	}{	What exactly is your special?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
 {	136	}{	I'd like the special.	}{	I'd like the special.	}{	0	}{	G.Slater_Weapons == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Special me.	}
 {	137	}{	Nothing much. How about you?	}{	Nothing much. How about you?	}{	71	}{	G.Slater_Exciting == 1 and G.Slater_Serial == 1 and G.Special_Heard == 0	}{	}{	}{	}{	}{	}{	}{	}{	The children are up, and soon the adults will put them to bed.	}
@@ -149,9 +149,9 @@
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	No, that'll have to wait until later. Goodbye.	}{	No, that'll have to wait until later. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am not back, I am gone.	}
 {	151	}{	Not a prob, bro.	}{	Not a prob, bro.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	What's going on around here? Anything exciting or unusual?	}{	What's going on around here? Anything exciting or unusual?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
-{	153	}{	You hear anything new about the serial killer?	}{	You hear anything new about the serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Has the killer that walks these streets bloodied his hands again?	}
-{	154	}{	I'm looking for a tape.	}{	I'm looking for a tape.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	I seek a tape full of nameless atrocity.	}
+{	152	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	153	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
+{	154	}{	Sto cercando una videocassetta.	}{	Sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
 {	155	}{	What exactly is your special?	}{	What exactly is your special?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
 {	156	}{	I'd like to look at your special inventory.	}{	I'd like to look at your special inventory.	}{	0	}{	G.Slater_Weapons == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Special me.	}
 {	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -169,9 +169,9 @@
 {	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	170	}{	I'm outta here. Later.	}{	I'm outta here. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	171	}{	So... you need face? I mean, uh, my bad - duh, uh, I mean, do you need anything?	}{	So... you need face? I mean, uh, my bad - duh, uh, I mean, do you need anything?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	Yeah. What's going on around here? Anything exciting or unusual?	}{	Yeah. What's going on around here? Anything exciting or unusual?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
-{	173	}{	You hear anything new about the serial killer?	}{	You hear anything new about the serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Has the killer that walks these streets bloodied his hands again?	}
-{	174	}{	Maybe you can help - I'm looking for a tape.	}{	Maybe you can help - I'm looking for a tape.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	I seek a tape full of nameless atrocity.	}
+{	172	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	173	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
+{	174	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
 {	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -179,9 +179,9 @@
 {	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	180	}{	Nope, just looking around. Later.	}{	Nope, just looking around. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
 {	181	}{	Dude, sorry bro. I did NOT mean to offend you, man. Totally my bad! You need something?	}{	Dude, sorry bro. I did NOT mean to offend you, man. Totally my bad! You need something?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	Yeah. What's going on around here? Anything exciting or unusual?	}{	Yeah. What's going on around here? Anything exciting or unusual?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	183	}{	You hear anything new about the serial killer?	}{	You hear anything new about the serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	184	}{	Maybe you can help - I'm looking for a tape.	}{	Maybe you can help - I'm looking for a tape.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	183	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	184	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	185	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -200,8 +200,8 @@
 {	200	}{	Fine. I'm leaving.	}{	Fine. I'm leaving.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then I am no longer here.	}
 {	201	}{	Um... humility? Seriously... you want some orange juice or somethin' to help you come down? Cuz, like, you're wiggin'.	}{	Um... humility? Seriously... you want some orange juice or somethin' to help you come down? Cuz, like, you're wiggin'.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	I seek only the blood of the living.	}{	I seek only the blood of the living.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	203	}{	I seek a tape full of nameless atrocity.	}{	I seek a tape full of nameless atrocity.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	204	}{	Has the killer that walks these streets bloodied his hands again?	}{	Has the killer that walks these streets bloodied his hands again?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	203	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	204	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -209,8 +209,8 @@
 {	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	211	}{	Oh... are you that lawyer? You're gonna have to talk to the manager, dude, because, like, that sexual harassment case... I, like, don't even know, okay - and, like, it wasn't my ass he grabbed.	}{	Oh... are you that lawyer? You're gonna have to talk to the manager, dude, because, like, that sexual harassment case... I, like, don't even know, okay - and, like, it wasn't my ass he grabbed.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	I seek a tape full of nameless atrocity.	}{	I seek a tape full of nameless atrocity.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	213	}{	Has the killer that walks these streets bloodied his hands again?	}{	Has the killer that walks these streets bloodied his hands again?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	213	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

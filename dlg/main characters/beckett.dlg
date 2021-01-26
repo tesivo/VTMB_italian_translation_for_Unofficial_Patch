@@ -70,9 +70,9 @@
 {	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	71	}{	Dimmi, hai avuto l'occasione di vedere o sentire qualcosa di strano dopo il tuo Abbraccio?	}{	Dimmi, hai avuto l'occasione di vedere o sentire qualcosa di strano dopo il tuo Abbraccio?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	72	}{	Ho visto un fantasma in un albergo della zona.	}{	Ho visto un fantasma in un albergo della zona.	}{	81	}{	G.Beckett_Ohouse == 0	}{		}{		}{		}{		}{		}{		}{		}{	VEDO LE PERSONE MORTE.	}
-{	73	}{	Ho incontrato alcuni Fratelli sulla spiaggia che non sembravano Fratelli.	}{	Ho incontrato alcuni Fratelli sulla spiaggia che non sembravano Fratelli.	}{	91	}{	G.E_Quest >= 1 and G.Beckett_Thin == 0	}{		}{		}{		}{		}{		}{		}{		}{	Sulla spiaggia, il loro sangue era piu' acquosa dell'acqua.	}
+{	73	}{	Ho incontrato alcuni Fratelli sulla spiaggia che non sembravano Fratelli.	}{	Ho incontrato alcuni Fratelli sulla spiaggia che non sembravano Fratelli.	}{	91	}{	G.E_Quest >= 1 and G.Beckett_Thin == 0	}{		}{		}{		}{		}{		}{		}{		}{	Sulla spiaggia, il loro sangue era piu' acquoso dell'acqua.	}
 {	74	}{	La baronessa di Santa Monica ha una doppia personalita'.	}{	La baronessa di Santa Monica ha una doppia personalita'.	}{	101	}{	G.Beckett_Baron == 0	}{		}{		}{		}{		}{		}{		}{		}{	Le sorelle baronesse sono identiche. Due menti, una faccia.	}
-{	75	}{	Realmente non ho visto nulla al di fuori dell'ordinario.	}{	Realmente non ho visto nulla al di fuori dell'ordinario.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Strano? Hah hah hah aha hah... no.	}
+{	75	}{	In realta' non ho visto nulla al di fuori dell'ordinario.	}{	In realta' non ho visto nulla al di fuori dell'ordinario.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Strano? Hah hah hah aha hah... no.	}
 {	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
