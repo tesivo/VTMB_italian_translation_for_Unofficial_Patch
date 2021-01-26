@@ -1,4 +1,4 @@
-{	1	}{	[chewing, swallowing]Altri crostini e olio d'oliva. E riporta questa Chardonnay e apri un Chianti - fallo respirare per venti minuti, poi portalo fuori con gli ziti, mm-kay?}{	[chewing, swallowing]Altri crostini e olio d'oliva. E riporta questa Chardonnay e apri un Chianti - fallo respirare per venti minuti, poi portalo fuori con gli ziti, mm-kay?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	[masticando, deglutendo]Altri crostini e olio d'oliva. E riporta questa Chardonnay e apri un Chianti - fallo respirare per venti minuti, poi portalo fuori con gli ziti, mm-kay?}{	[masticando, deglutendo]Altri crostini e olio d'oliva. E riporta questa Chardonnay e apri un Chianti - fallo respirare per venti minuti, poi portalo fuori con gli ziti, mm-kay?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Volevo solo-	}{ Volevo solo-	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Io non aspetto... Volevo -	}
 {	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -68,7 +68,7 @@
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	[Sounds like he's about to throw up]Questo posto paghera' per questo! Com'e' vero che mi chiamo Tommy Flayton, non cucineranno piu' cibo in questa citta'! 	}{	[Sounds like he's about to throw up]Questo posto paghera' per questo! Com'e' vero che mi chiamo Tommy Flayton, non cucineranno piu' cibo in questa citta'!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	[Sembra che stia per vomitare]Questo posto paghera' per questo! Com'e' vero che mi chiamo Tommy Flayton, non cucineranno piu' cibo in questa citta'! 	}{	[Sembra che stia per vomitare]Questo posto paghera' per questo! Com'e' vero che mi chiamo Tommy Flayton, non cucineranno piu' cibo in questa citta'!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	G.Tommy_Review = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	74	}{	Fagliela pagare, Tommy. Ciao.	}{	Fagliela pagare, Tommy. Ciao.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Come hanno potuto farti questo? Scommetto che non hanno preso l'idea da un film. }
@@ -158,7 +158,7 @@
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	[Disgusted, suppressing urge to vomit]Oh, mio...Beh, ho quasi completamente perso il mio appetito. Non sapevo che questo ristorante avesse un reparto ustionati.	}{	[Disgusted, suppressing urge to vomit]Oh, mio...Beh, ho quasi completamente perso il mio appetito. Non sapevo che questo ristorante avesse un reparto ustionati.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	[Disgustato, sopprimendo l'impulso di vomitare]Oh, mio...Beh, ho quasi completamente perso il mio appetito. Non sapevo che questo ristorante avesse un reparto ustionati.	}{	[Disgustato, sopprimendo l'impulso di vomitare]Oh, mio...Beh, ho quasi completamente perso il mio appetito. Non sapevo che questo ristorante avesse un reparto ustionati.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	162	}{	Sei il critico? Devo parlarti.	}{	Sei il critico? Devo parlarti.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	163	}{	Puoi guardarmi la schiena e dirmi se la bolla sta ancora perdendo pus? }{	Puoi guardarmi la schiena e dirmi se la bolla sta ancora perdendo pus?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -178,7 +178,7 @@
 {	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	179	}{	Basta. Preparati ad essere picchiato.	}{	Basta. Preparati ad essere picchiato.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5"); pc.SetQuest("Tommy",3); G.Tommy_Hostile = 1	}{	}{	}{	}{	}{	}{	}{	Vivro' il sogno di tutti gli artisti e torturero' un critico.	}
 {	180	}{	Per ora te li tieni. Addio.	}{	Per ora te li tieni. Addio.	}{	0	}{	}{	pc.SetQuest("Tommy",3); G.Tommy_Fail = 1	}{	}{	}{	}{	}{	}{	}{ Me ne vado.	}
-{	181	}{	[not flattered by the ladies]Oh, uh... grazie	}.{	[not flattered by the ladies]Oh, uh... grazie.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	[non lusingato dalle signore]Oh, uh... grazie	}.{	[non lusingato dalle signore]Oh, uh... grazie.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tommy_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	182	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non potrei mai mangiare qui. Portami in un posto oscuro. }
 {	183	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	184	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -188,7 +188,7 @@
 {	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	[Flattered by the fellas]Sempre bello incontrare qualcuno con... gusti simili. }{	[Flattered by the fellas]Sempre bello incontrare qualcuno con... gusti simili.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	191	}{	[Lusingato dai ragazzi]Sempre bello incontrare qualcuno con... gusti simili. }{	[Lusingato dai ragazzi]Sempre bello incontrare qualcuno con... gusti simili.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	192	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	Questo posto e' proprio orribile, non trovi? Dovremmo andare da un'altra parte.	}{	101	}{	}{	G.Tommy_Flirt = 1	}{	}{	}{	}{	}{	}{	}{	Non potrei mai mangiare qui. Portami in un posto oscuro.	}
 {	193	}{	Uh... no, non posso continuare cosi'. }{	Uh... no, non posso continuare cosi'.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Questa e' una mascherata a cui non posso partecipare.	}
 {	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -198,7 +198,7 @@
 {	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	[Revolted]Per favore... l'odore...!	}{	[Revolted]Per favore... l'odore...!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	[Rivoltato]Per favore... l'odore...!	}{	[Rivoltata]Per favore... l'odore...!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Strano, io non sento niente.	}{	Strano, io non sento niente.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	203	}{	Posso unirmi a te?	}{	Posso unirmi a te?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -208,7 +208,7 @@
 {	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	[Revolted, going to vomit]Oh...! Non- non mangero' [gagging noise]... mai piu' in questa zona della citta'! Oh mio - [gagging noises, runs off to puke]	}{	[Revolted, going to vomit]Oh...! Non- non mangero' [gagging noise]... mai piu' in questa zona della citta'! Oh mio - [gagging noises, runs off to puke]	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Tommy_Disgusted = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	211	}{	[Rivoltato, andando a vomitare]Oh...! Non- non mangero' [rumore di conati di vomito]... mai piu' in questa zona della citta'! Oh mio - [rumori di conati di vomito, corre a vomitare]	}{	[Rivoltata, andando a vomitare]Oh...! Non- non mangero' [rumore di conati di vomito]... mai piu' in questa zona della citta'! Oh mio - [rumori di conati di vomito, corre a vomitare]	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Tommy_Disgusted = 1; pc.SetQuest("Tommy",2)	}{	}{	}{	}{	}{	}{	}{	}
 {	212	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	213	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -224,7 +224,7 @@
 {	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	[Chewing]Hmm... mmmm.... Il vitello... e' un po' gommoso ... e questa salsa marsala - mi e' indifferente. }{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	227	}{	[Masticando]Hmm... mmmm.... Il vitello... e' un po' gommoso ... e questa salsa marsala - mi e' indifferente. }{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	228	}{	Quello che chiamano Romano, io lo chiamo amianto! }{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	229	}{	Questa bruschetta e' buona da MORIRE! Vedi, questo e' quello che AVREI detto se fosse stata servita ieri, quando i pomodori erano freschi!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	230	}{	Rigatoni...? Riga-te dritto, semmai.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
