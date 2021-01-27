@@ -1,651 +1,651 @@
-{	1	}{	Hi. I don't think we've met before.	}{	Hi. I don't think we've met before.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Victor Rossellini. And you are?	}{	Maria Rossellini. And you are?	}{	21	}{	Persuasion 5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	3	}{	It said "Victor Rossellini" on my invitation.	}{	It said "Maria Rossellini" on my invitation.	}{	571	}{	Persuasion 5 & (IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	Nope.	}{	Nope.	}{	81	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	5	}{	Sure we did. When we were kids, at that party, you crapped your pants.	}{	Sure we did. When we were kids, at that party, you crapped your pants.	}{	101	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	So? Are you trying to say I snuck in here?	}{	So? Are you trying to say I snuck in here?	}{	111	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	7	}{	One down, millions to go.	}{	One down, millions to go.	}{	81	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	This one knows, perhaps they all know... I am a meatball at a fork party.	}{	This one knows, perhaps they all know... I am a meatball at a fork party.	}{	111	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	[Shy, infatuated]Uh... hi. I'm... uh - heh....	}{	[Shy, infatuated]Uh... hi. I'm... uh - heh....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Beautiful, I know.	}{	Beautiful, I know.	}{	61	}{	M_Seduction 8 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	13	}{	Beautiful, I know.	}{	Beautiful, I know.	}{	561	}{	F_Seduction 8 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	The pearl in this rancid oyster.	}{	The pearl in this rancid oyster.	}{	61	}{	M_Seduction 8 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	15	}{	The pearl in this rancid oyster.	}{	The pearl in this rancid oyster.	}{	561	}{	F_Seduction 8 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	I'm Victor Rossellini. And you are?	}{	I'm Maria Rossellini. And you are?	}{	21	}{	not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	It said "Victor Rossellini" on my invitation.	}{	It said "Maria Rossellini" on my invitation.	}{	571	}{	IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	Retarded?	}{	Retarded?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	Never mind.	}{	Never mind.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	I, um, I'm... uh gone.	}{	I, um, I'm... uh gone.	}{	0	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	Nadia Milliner. It's a pleasure to meet you, Victor. Are you from the Chicago Rossellinis?	}{	Nadia Milliner. It's a pleasure to meet you, Maria. Are you from the Chicago Rossellinis?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Yeah, that's right.	}{	Yeah, that's right.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	It's a helluva town.	}
-{	23	}{	No, I'm not.	}{	No, I'm not.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Middle America and me are like propellers and manatees.	}
-{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Oh, you must give my regards to Great Aunt Francis when you get back. I stayed with her last time I was out that way. She was very sweet to me.	}{	Oh, you must give my regards to Great Aunt Francis when you get back. I stayed with her last time I was out that way. She was very sweet to me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	I will. So what do you do?	}{	I will. So what do you do?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	It will be revealed to Aunt Francis. Tell me of Nadia.	}
-{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Oh, I'm from back east myself. I'm working on my Master's out here though. The Giovannis have been nice enough to let me stay here while I finish up my studies. I've learned a great deal from them - like you wouldn't believe.	}{	Oh, I'm from back east myself. I'm working on my Master's out here though. The Giovannis have been nice enough to let me stay here while I finish up my studies. I've learned a great deal from them - like you wouldn't believe.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	For example?	}{	For example?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{	}{	}{	}{	}{	}{	}{	}{	What sights have your young eyes witnessed?	}
-{	43	}{	Say, Nadia, you know anything about a sarcophagus?	}{	Say, Nadia, you know anything about a sarcophagus?	}{	211	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Do you believe in the sarcophagus?	}
-{	44	}{	Enjoy the party, Nadia. Excuse me.	}{	Enjoy the party, Nadia. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I fade back into the party.	}
-{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	I'm working on my Master's out here - I'm from back east. The Giovannis have been nice enough to let me stay here while I finish up my studies. I've learned a great deal from them - like you wouldn't believe.	}{	I'm working on my Master's out here - I'm from back east. The Giovannis have been nice enough to let me stay here while I finish up my studies. I've learned a great deal from them - like you wouldn't believe.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	For example?	}{	For example?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{	}{	}{	}{	}{	}{	}{	}{	What sights have your young eyes witnessed?	}
-{	53	}{	Say, Nadia, you know anything about a sarcophagus?	}{	Say, Nadia, you know anything about a sarcophagus?	}{	211	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Do you believe in the sarcophagus?	}
-{	54	}{	Enjoy the party, Nadia. Excuse me.	}{	Enjoy the party, Nadia. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I fade back into the party.	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	[Pause, flattered, bites lip]Nadia. Nadia Milliner.	}{	[Pause, flattered, bites lip]Nadia. Nadia Milliner.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	You look hot, Nadia. I want to know more about you. There a closet nearby?	}{	You look hot, Nadia. I want to know more about you. There a closet nearby?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want to crawl into your beautiful head and make love to your innocent mind.	}
-{	63	}{	Nadia... a name as beautiful as a wild orchid in bloom.	}{	Nadia... a name as beautiful as a wild orchid in bloom.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nadia... the sound of a sunny river flowing into a tranquil sea.	}
-{	64	}{	You looked lonely over here, Nadia. I hope I'm not disturbing you.	}{	You looked lonely over here, Nadia. I hope I'm not disturbing you.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	You looked as though you could hear no voice but your own. Is mine a bother?	}
-{	65	}{	I can see you're from the stacked side of the family. Want to take a bath?	}{	I can see you're from the stacked side of the family. Want to take a bath?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	If I could trace your body with my finger, I'd never wash the digit again.	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	[Attractive guy has just burned her, hurt her feelings, she's embarrassed]Oh my god... excuse me.	}{	[Attractive guy has just burned her, hurt her feelings, she's embarrassed]Oh my god... excuse me.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Nadia_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	gio2_nadiaLeave()	}{	}{	}{	}{	}{	}{	}{	}
-{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	Um - you are...?	}{	Um - you are...?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Victor Rossellini. And you are?	}{	Maria Rossellini. And you are?	}{	21	}{	Persuasion 5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	83	}{	It said "Victor Rossellini" on my invitation.	}{	It said "Maria Rossellini" on my invitation.	}{	571	}{	Persuasion 5 & (IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	Victor Rose-sell-lenny.	}{	Maria Rose-sell-lenny.	}{	91	}{	Persuasion -5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	Yes, indeed I am.	}{	Yes, indeed I am.	}{	111	}{	Persuasion -5 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	Enjoy the party. Excuse me.	}{	Enjoy the party. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I fade back into the party.	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	Don't you mean Rossellini?	}{	Don't you mean Rossellini?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	I think I know my own name.	}{	I think I know my own name.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	What's it to you?	}{	What's it to you?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	94	}{	Yes, that's right. Excuse me.	}{	Yes, that's right. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	[Embarrassed]I-I don't remember that.	}{	[Embarrassed]I-I don't remember that.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Whatever, Crap Pants. Still running the fudge factory?	}{	Whatever, Crap Pants. Still running the fudge factory?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	103	}{	I'm just having some fun with you.	}{	I'm just having some fun with you.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	104	}{	Don't you remember me? I'm Victor Rossellini, your cousin! From back east!	}{	Don't you remember me? I'm Maria Rossellini, your cousin! From back east!	}{	121	}{	Persuasion 5 & (G.Victor_Know == 1 or G.Maria_Know == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	Um, I just remembered something I have to do. Excuse me.	}{	Um, I just remembered something I have to do. Excuse me.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Nadia_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	gio2_nadiaLeave()	}{	}{	}{	}{	}{	}{	}{	}
-{	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	Uh, yeah, cousin Victor. I'm Nadia, I don't know if you remember, I've been staying with the Giovannis while I work on my Master's degree out here. They've provided such a rich supplement to my education.	}{	Uh, yeah, cousin Maria. I'm Nadia. I don't know if you remember, I've been staying with the Giovannis while I work on my Master's degree out here. They've provided such a rich supplement to my education.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	For example?	}{	For example?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	123	}{	Say, Nadia, you know anything about a sarcophagus?	}{	Say, Nadia, you know anything about a sarcophagus?	}{	211	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	Enjoy the party, Nadia. Excuse me.	}{	Enjoy the party, Nadia. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Um....	}{	Um....	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	Of all this family's accomplishments, you're the most impressive I've seen.	}{	Of all this family's accomplishments, you're the most impressive I've seen.	}{	141	}{	G.Nadia_Amazing == 0 and pc.IsMale()	}{	G.Nadia_Amazing = 1	}{	}{	}{	}{	}{	}{	}{	Money, power, prestige, they pale to the name Nadia.	}
-{	133	}{	Of all this family's accomplishments, you're the most impressive I've seen.	}{	Of all this family's accomplishments, you're the most impressive I've seen.	}{	111	}{	G.Nadia_Amazing == 0 and not pc.IsMale()	}{	G.Nadia_Amazing = 1	}{	}{	}{	}{	}{	}{	}{	Money, power, prestige, they pale to the name Nadia.	}
-{	134	}{	I'm kidding. So, Nadia, enjoying the party?	}{	I'm kidding. So, Nadia, enjoying the party?	}{	141	}{	G.Nadia_Party == 0 and pc.IsMale()	}{	G.Nadia_Party = 1	}{	}{	}{	}{	}{	}{	}{	Joking. Hee hee. Do you find this party... amusing?	}
-{	135	}{	I'm kidding. So, Nadia, enjoying the party?	}{	I'm kidding. So, Nadia, enjoying the party?	}{	81	}{	G.Nadia_Party == 0 and not pc.IsMale()	}{	G.Nadia_Party = 1	}{	}{	}{	}{	}{	}{	}{	Joking. Hee hee. Do you find this party... amusing?	}
-{	136	}{	What?	}{	What?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Should I rewind myself and say it again?	}
-{	137	}{	I mean you're absolutely smoking. Is everything on you real? I'd like to find out.	}{	I mean you're absolutely smoking. Is everything on you real? I'd like to find out.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are those flesh, or are they ocean water?	}
-{	138	}{	No better place to make a love connection than a family reunion. Am I right?	}{	No better place to make a love connection than a family reunion. Am I right?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's you and I explore the union in family reunion.	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	[Sighs, lovestruck]A-Hmm....	}{	[Sighs, lovestruck]A-Hmm....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	Am I making you uncomfortable?	}{	Am I making you uncomfortable?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	Am I spooking you?	}
-{	143	}{	You should pose nude. Say, don't you have a room here?	}{	You should pose nude. Say, don't you have a room here?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want to take photos of you with my tongue.	}
-{	144	}{	This party seems a little... lifeless. Know somewhere we can talk?	}{	This party seems a little... lifeless. Know somewhere we can talk?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	I think there are corpses at this party. Let's go somewhere more alive.	}
-{	145	}{	Why don't we go somewhere where no one will hear us... you know.	}{	Why don't we go somewhere where no one will hear us... you know.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	It will be hard with all the eyes on me, let's go somewhere to reveal each other.	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	Uh- Not at all.	}{	Uh- Not at all.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	Why don't we go somewhere where no one will hear us... you know.	}{	Why don't we go somewhere where no one will hear us... you know.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	It will be hard with all the eyes on me, let's go somewhere to reveal each other.	}
-{	153	}{	This party seems a little... lifeless. Know somewhere we can talk?	}{	This party seems a little... lifeless. Know somewhere we can talk?	}{	161	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	I think there are corpses at this party. Let's go somewhere more alive.	}
-{	154	}{	I'm not quite an exhibitionist. Know somewhere private we can steam up?	}{	I'm not quite an exhibitionist. Know somewhere private we can steam up?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Do you have a special place here? I'd like to see your special place.	}
-{	155	}{	With a body like that, you should pose nude. Say, don't you have a room here?	}{	With a body like that, you should pose nude. Say, don't you have a room here?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Is your room near? I'd like to admire you in private, in the dark.	}
-{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	I know a perfect place for us to... talk. No one will ever find us there. Follow me.	}{	I know a perfect place for us to... talk. No one will ever find us there. Follow me.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Nadia_Seduce = 1; G.gio_2_nadia_pt = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	}
-{	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	I, um... I really can't say much about that.	}{	I, um... I really can't say much about that.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Nadia_Secret = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	Oh, c'mon, you can tell me. We're all family, aren't we?	}{	Oh, c'mon, you can tell me. We're all family, aren't we?	}{	181	}{	Persuasion 6	}{	}{	}{	}{	}{	}{	}{	}{	But we are flesh and blood, and so are you.	}
-{	173	}{	I know a little about our family's secrets... the dead tell you tales too?	}{	I know a little about our family's secrets... the dead tell you tales too?	}{	191	}{	Persuasion 8	}{	}{	}{	}{	}{	}{	}{	}{	Things do not die here, they become servile.	}
-{	174	}{	Just tell me for chrissakes.	}{	Just tell me for chrissakes.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can see your tongue from here.	}
-{	175	}{	Why don't we go talk privately about it somewhere.	}{	Why don't we go talk privately about it somewhere.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then take me to somewhere more suited to loose lips.	}
-{	176	}{	Have they told you anything about a sarcophagus?	}{	Have they told you anything about a sarcophagus?	}{	211	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Then tell me where a sarcophagus may hide in this house.	}
-{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	Oh, forget about it, really, i-it's nothing.	}{	Oh, forget about it, really, i-it's nothing.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	What? C'mon, just tell me! What's the big deal? Geez!	}{	What? C'mon, just tell me! What's the big deal? Geez!	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then I will continue to ask until your will is bent to my own.	}
-{	183	}{	How old are you? You act like you're in high school.	}{	How old are you? You act like you're in high school.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	You look so grown, but act so illegal.	}
-{	184	}{	You know you want to tell me.	}{	You know you want to tell me.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	It is a nothing that makes your eyes scream denial.	}
-{	185	}{	Fine, be that way. There's a lot of other people here I can talk to.	}{	Fine, be that way. There's a lot of other people here I can talk to.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then I will leave you alone with your nothing.	}
-{	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	There's something I want to show you. But you absolutely can't tell anyone - even other people here, okay? Follow me.	}{	There's something I want to show you. But you absolutely can't tell anyone - even other people here, okay? Follow me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_Persuade = 1; G.gio_2_nadia_pt = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	Okay, go ahead.	}{	Okay, go ahead.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	I will be right behind me.	}
-{	193	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	Okay. I'll show you something but you can't tell anyone. Promise? Follow me.	}{	Okay. I'll show you something but you can't tell anyone. Promise? Follow me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_Persuade = 1; G.gio_2_nadia_pt = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	Okay, go ahead.	}{	Okay, go ahead.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	I will be right behind me.	}
-{	203	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	Sarcophagus? I don't know if I ever heard anything about that.	}{	Sarcophagus? I don't know if I ever heard anything about that.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	Are you sure? Think hard. It's important!	}{	Are you sure? Think hard. It's important!	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want to believe you but... don't.	}
-{	213	}{	I bet a broken wrist would refresh your memory.	}{	I bet a broken wrist would refresh your memory.	}{	111	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	Why don't I tear off an ear and interrogate it?	}
-{	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	215	}{	You were saying you've learned some interesting things here. Care to share?	}{	You were saying you've learned some interesting things here. Care to share?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of your life in this mortuary.	}
-{	216	}{	Forget it then. Enjoy the party.	}{	Forget it then. Enjoy the party.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I fade back into the party.	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	This way....	}{	This way....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Ciao. Non credo che ci siamo mai incontrati prima.	}{	Ciao. Non credo che ci siamo mai incontrati prima.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Victor Rossellini. E tu sei?	}{	Maria Rossellini. E tu sei?	}{	21	}{	Persuasion 5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	3	}{	Il mio invito dice "Victor Rossellini".	}{	Il mio invito dice Maria Rossellini.	}{	571	}{	Persuasion 5 & (IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	4	}{	No.	}{	No.	}{	81	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	5	}{	Ma certo. Quando eravamo bambini, a quella festa, te la facesti addosso.	}{	Ma certo. Quando eravamo bambine, a quella festa, te la facesti addosso.	}{	101	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{	E allora? Stai insinuando che mi sono imbucato?	}{	E allora? Stai insinuando che mi sono imbucata?	}{	111	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	7	}{	Persa un'occasione, se ne presentano milioni.	}{	Persa un'occasione, se ne presentano milioni.	}{	81	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	8	}{	Costei sa...forse tutti loro sanno... Sono come una polpetta di carne ad una sagra del cibo.	}{	Costei sa...forse tutti loro sanno... Sono come una polpetta di carne ad una sagra del cibo.	}{	111	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	[Timido, infatuato]Uh... ciao. Sono... uh - heh....	}{	[Timida, infatuata]Uh... ciao. Sono... uh - heh....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Bellissima? Si' lo so.	}{	Bellissima? Si' lo so.	}{	61	}{	M_Seduction 8 & not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	13	}{	Bellissima? Si' lo so.	}{	Bellissima? Si' lo so.	}{	561	}{	F_Seduction 8 & not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	14	}{	Una perla in un'ostrica rancida.	}{	Una perla in un'ostrica rancida.	}{	61	}{	M_Seduction 8 & IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	15	}{	Una perla in un'ostrica rancida.	}{	Una perla in un'ostrica rancida.	}{	561	}{	F_Seduction 8 & IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	16	}{	Io sono Victor Rossellini. E tu sei?	}{	Io sono Maria Rossellini. E tu sei?	}{	21	}{	not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{	Il mio invito dice "Victor Rossellini".	}{	Il mio invito dice Maria Rossellini.	}{	571	}{	IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{	In ritardo?	}{	In ritardo?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{	Non importa.	}{	In ritardo?	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{	Io, um, sono... uh andata.	}{	Io, um, sono... uh andata.	}{	0	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	Nadia Milliner. E' un piacere conoscerti, Victor. Appartieni ai Rossellini di Chicago?	}{	Nadia Milliner. E' un piacere conoscerti, Maria. Appartieni ai Rossellini di Chicago?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Si', esatto.	}{	Si', esatto.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Che citta' del cavolo.	}
+{	23	}{	No.	}{	No.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Io e il Centro America siamo come i politici e la politica.	}
+{	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Oh, allora quando torni devi portare i miei saluti alla prozia Francis. Mi ha ospitata da lei quando non sapevo dove andare da quelle parti. E' stata molto affettuosa.	}{	Oh, allora quando torni devi portare i miei saluti alla prozia Francis. Mi ha ospitata da lei quando non sapevo dove andare da quelle parti. E' stata molto affettuosa.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	Lo faro'. Allora, che fai di bello?	}{	Lo faro'. Allora, che fai di bello?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Portero' questo messaggio alla prozia Francis. Ora parlami un po' di Nadia.	}
+{	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Oh, io vengo dalla costa orientale. Pero' sto seguendo un Master qui. I Giovanni sono stati molto carini ad ospitarmi finche' non finisco i miei studi. Da loro ho ricevuto una grande lezione - di quelle che non ti aspetteresti.	}{	Oh, io vengo dalla costa orientale. Pero' sto seguendo un Master qui. I Giovanni sono stati molto carini ad ospitarmi finche' non finisco i miei studi. Da loro ho ricevuto una grande lezione - di quelle che non ti aspetteresti.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Per esempio?	}{	Per esempio?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{		}{		}{		}{		}{		}{		}{		}{	A cosa hanno assistito i tuoi giovani occhi?	}
+{	43	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	211	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{	Cosa sai del sarcofago?	}
+{	44	}{	Divertiti, Nadia. Scusami.	}{	Divertiti, Nadia. Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Torno al party.	}
+{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Sto frequentando un Master qui, ma vengo dalla costa orientale. I Giovanni sono stati molto carini ad ospitarmi finche' non finisco i miei studi. Da loro ho ricevuto una grande lezione - di quelle che non ti aspetteresti.	}{	Sto frequentando un Master qui, ma vengo dalla costa orientale. I Giovanni sono stati molto carini ad ospitarmi finche' non finisco i miei studi. Da loro ho ricevuto una grande lezione - di quelle che non ti aspetteresti.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Per esempio?	}{	Per esempio?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{		}{		}{		}{		}{		}{		}{		}{	A cosa hanno assistito i tuoi giovani occhi?	}
+{	53	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	211	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{	Cosa sai del sarcofago?	}
+{	54	}{	Divertiti, Nadia. Scusami.	}{	Divertiti, Nadia. Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Torno al party.	}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	[Pausa, lusingato, si morde il labbro]Nadia. Nadia Milliner.	}{	[Pausa, lusingata, si morde il labbro]Nadia. Nadia Milliner.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Sembri una ragazza interessante, Nadia. Voglio sapere di piu' sul tuo conto. C'e' una saletta privata da queste parti?	}{	Sembri una ragazza interessante, Nadia. Voglio sapere di piu' sul tuo conto. C'e' una saletta privata da queste parti?	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vorrei strisciare nella tua bellissima testa per far l'amore con la tua mente innocente.	}
+{	63	}{	Nadia... un nome bello come un'orchidea selvaggia in fiore.	}{	Nadia... un nome bello come un'orchidea selvaggia in fiore.	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Nadia... il suono di un caldo torrente che si getta in un mare di pace.	}
+{	64	}{	Mi sembravi tutta sola, Nadia. Spero di non disturbarti.	}{	Mi sembravi tutta sola, Nadia. Spero di non disturbarti.	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sembrava che non volessi sentire nient'altro che la tua stessa voce. Ti sto seccando?	}
+{	65	}{	Mi pare che tu faccia parte della parte numerosa della famiglia. Ti va un bagno?	}{	Mi pare che tu faccia parte della parte numerosa della famiglia. Ti va un bagno?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se potessi scoprire il tuo corpo con le mie dita, non laverei mai piu' i mie polpastrelli.	}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	[Un ragazzo attraente l'ha appena tradita, ha ferito i suoi sentimenti, è imbarazzata]Oh mio dio... perdonami.	}{	[Un ragazzo attraente l'ha appena tradita, ha ferito i suoi sentimenti, è imbarazzata]Oh mio dio... perdonami.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Nadia_Pissed = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	gio2_nadiaLeave()	}{		}{		}{		}{		}{		}{		}{		}
+{	73	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	Um - tu sei...?	}{	Um - tu sei...?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	Victor Rossellini. E tu chi sei?	}{	Maria Rossellini. E tu chi sei?	}{	21	}{	Persuasion 5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{	Il mio invito dice "Victor Rossellini".	}{	Il mio invito dice "Maria Rossellini".	}{	571	}{	Persuasion 5 & (IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{	Victor Rose-vendi-lenny.	}{	Maria Rose-vendi-lenny.	}{	91	}{	Persuasion -5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{	Si', esatto, io sono.	}{	Si', esatto, io sono.	}{	111	}{	Persuasion -5 & IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{	Goditi la festa. Con permesso.	}{	Goditi la festa. Con permesso.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Io rientro nella festa.	}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	Vuoi dire Rossellini?	}{	Vuoi dire Rossellini?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Credo di conoscere il mio nome.	}{	Credo di conoscere il mio nome.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	93	}{	Che ne dici?	}{	Che ne dici?	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	94	}{	Si', hai ragione. Scusa.	}{	Si', hai ragione. Scusa.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	101	}{	[Imbarazzato]I-Io non me lo ricordo.	}{	[Imbarazzata]I-Io non me lo ricordo.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Non fa niente. La fabbrica delle stronzate funziona ancora?	}{	Non fa niente. La fabbrica delle stronzate funziona ancora?	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	103	}{	Volevo solo divertirmi un po' con te.	}{	Volevo solo divertirmi un po' con te.	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	104	}{	Non ti ricordi di me? Sono Victor Rossellini, tuo cugino! Dall'est!	}{	Non ti ricordi di me? Sono Maria Rossellini, tua cugina! Dall'est!	}{	121	}{	Persuasion 5 & (G.Victor_Know == 1 or G.Maria_Know == 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	Um, mi sono appena ricordata che ho da fare. Perdonami.	}{	Um, mi sono appena ricordata che ho da fare. Perdonami.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Nadia_Pissed = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	gio2_nadiaLeave()	}{		}{		}{		}{		}{		}{		}{		}
+{	113	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	114	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Uh, si', il cugino Victor. Sono Nadia, non so se ti ricordi, sono ospite dei Giovanni mentre lavoro al mio dottorato. Hanno contribuito alla mia educazione con il loro denaro.	}{	Uh, si', la cugina MAria. Sono Nadia, non so se ti ricordi, sono ospite dei Giovanni mentre lavoro al mio dottorato. Hanno contribuito alla mia educazione con il loro denaro.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Per esempio?	}{	Per esempio?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	123	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	211	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	124	}{	Divertiti, Nadia. Scusami.	}{	Divertiti, Nadia. Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Um....	}{	Um....	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	132	}{	Ho visto che tra tutti quelli della famiglia, tu sei quella che suscita piu' interesse.	}{	Ho visto che tra tutti quelli della famiglia, tu sei quella che suscita piu' interesse.	}{	141	}{	G.Nadia_Amazing == 0 and pc.IsMale()	}{	G.Nadia_Amazing = 1	}{		}{		}{		}{		}{		}{		}{	Denaro, potere, prestigio, impallidiscono davanti al tuo nome, Nadia.	}
+{	133	}{	Ho visto che tra tutti quelli della famiglia, tu sei quella che suscita piu' interesse.	}{	Ho visto che tra tutti quelli della famiglia, tu sei quella che suscita piu' interesse.	}{	111	}{	G.Nadia_Amazing == 0 and not pc.IsMale()	}{	G.Nadia_Amazing = 1	}{		}{		}{		}{		}{		}{		}{	Denaro, potere, prestigio, impallidiscono davanti al tuo nome, Nadia.	}
+{	134	}{	Sto scherzando. Allora, Nadia, ti stai divertendo?	}{	Sto scherzando. Allora, Nadia, ti stai divertendo?	}{	141	}{	G.Nadia_Party == 0 and pc.IsMale()	}{	G.Nadia_Party = 1	}{		}{		}{		}{		}{		}{		}{	Scherzavo. Hee hee. Trovi che il party sia... divertente?	}
+{	135	}{	Sto scherzando. Allora, Nadia, ti stai divertendo?	}{	Sto scherzando. Allora, Nadia, ti stai divertendo?	}{	81	}{	G.Nadia_Party == 0 and not pc.IsMale()	}{	G.Nadia_Party = 1	}{		}{		}{		}{		}{		}{		}{	Scherzavo. Hee hee. Trovi che il party sia... divertente?	}
+{	136	}{	Cosa?	}{	Cosa?	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo riavvolgermi e ripetermi?	}
+{	137	}{	Voglio dire che sei assolutamente intrigante. Sei autentica? Mi piacerebbe scoprirlo.	}{	Voglio dire che sei assolutamente intrigante. Sei autentica? Mi piacerebbe scoprirlo.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sei tutto fumo, o c'e' anche po' d'arrosto?	}
+{	138	}{	Non c'e' posto migliore che una riunione di famiglia per tentare un approccio amoroso...Dico bene?	}{	Non c'e' posto migliore che una riunione di famiglia per tentare un approccio amoroso...Dico bene?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Esploriamo il significato di unione visto che siamo in un contesto di riunione.	}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{	[Sospira, innamorato]A-Hmm....	}{	[Sospira, innamorata]A-Hmm....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{	Ti sto mettendo a disagio?	}{	Ti sto mettendo a disagio?	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti sto spaventando?	}
+{	143	}{	Dovresti posare nuda. Dimmi, non hai una stanza qui?	}{	Dovresti posare nuda. Dimmi, non hai una stanza qui?	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vorrei fare qualche scatto di te con la mia lingua.	}
+{	144	}{	Questa festa sembra un po'... morta. Conosci qualche posto dove possiamo parlare?	}{	Questa festa sembra un po'... morta. Conosci qualche posto dove possiamo parlare?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	A questa festa ci sono solo dei cadaveri. Andiamo dove ci sia un po' di vita.	}
+{	145	}{	Perche' non andiamo da qualche parte dove nessuno possa sentirci....mi capisci.	}{	Perche' non andiamo da qualche parte dove nessuno possa sentirci....mi capisci.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Qui e' difficile scoprirsi con tutti gli occhi puntati addosso.	}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	151	}{	Uh- Non direi.	}{	Uh- Non direi.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	152	}{	Perche' non andiamo da qualche parte dove nessuno possa sentirci....mi capisci.	}{	Perche' non andiamo da qualche parte dove nessuno possa sentirci....mi capisci.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Qui e' difficile scoprirsi con tutti gli occhi puntati addosso.	}
+{	153	}{	Questa festa sembra un po'... morta. Conosci qualche posto dove possiamo parlare?	}{	Questa festa sembra un po'... morta. Conosci qualche posto dove possiamo parlare?	}{	161	}{	pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{	A questa festa ci sono solo dei cadaveri. Andiamo dove ci sia un po' di vita.	}
+{	154	}{	Non sono un esibizionista. Conosci un posto appartato dove possiamo sudare senza problemi?	}{	Non sono un'esibizionista. Conosci un posto appartato dove possiamo sudare senza problemi?	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	C'e' una specie di rifugio segreto qui? Mi piacerebbe che tu mi mostrassi i tuoi segreti.	}
+{	155	}{	Con un corpo come il tuo, potresti posare nuda. Dimmi, non hai una stanza qui?	}{	Con un corpo come il tuo, potresti posare nuda. Dimmi, non hai una stanza qui?	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua stanza e' vicina? Vorrei ammirarti in privato, al buio.	}
+{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	161	}{	Conosco un posto perfetto per... parlare. Nessuno verra' mai a cercarci li'. Seguimi.	}{	Conosco un posto perfetto per... parlare. Nessuno verra' mai a cercarci li'. Seguimi.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Nadia_Seduce = 1; G.gio_2_nadia_pt = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	162	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	gio2_nadiaLead()	}{		}{		}{		}{		}{		}{		}{		}
+{	163	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	164	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	165	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	Io, um... non posso dirti granche' a riguardo.	}{	Io, um... non posso dirti granche' a riguardo.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Nadia_Secret = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	172	}{	Oh, andiamo, si' che puoi parlarmene. Siamo tutti una famiglia, no?	}{	Oh, andiamo, si' che puoi parlarmene. Siamo tutti una famiglia, no?	}{	181	}{	Persuasion 6	}{		}{		}{		}{		}{		}{		}{		}{	Andiamo, abbiamo lo stesso sangue.	}
+{	173	}{	So poco sui segreti della nostra famiglia... te li raccontano i morti?	}{	So poco sui segreti della nostra famiglia... te li raccontano i morti?	}{	191	}{	Persuasion 8	}{		}{		}{		}{		}{		}{		}{		}{	Qui le cose non muoiono, si asservono.	}
+{	174	}{	Dimmelo, per il bene della comunita' cristiana.	}{	Dimmelo, per il bene della comunita' cristiana.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Da qui riesco a vedere che hai una lingua.	}
+{	175	}{	Perche' non ne parliamo in privato da qualche parte.	}{	Perche' non ne parliamo in privato da qualche parte.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Avanti, portami in un posto dove ti senti piu' a tuo agio.	}
+{	176	}{	Ti hanno parlato di un sarcofago?	}{	Ti hanno parlato di un sarcofago?	}{	211	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{	Allora dimmi dove potrebbero nascondere un sarcofago in questa casa.	}
+{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	181	}{	Oh, lascia perdere, davvero, n-non e' niente.	}{	Oh, lascia perdere, davvero, n-non e' niente.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{	Cosa? Andiamo, dai dimmelo! Qual'e' questa grande lezione? Idiota!	}{	Cosa? Andiamo, dai dimmelo! Qual'e' questa grande lezione? Idiota!	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Allora continuero' a chiedertelo finche' la tua volonta' non si pieghera' a me.	}
+{	183	}{	Ma quanti anni hai? Mi sembri una liceale.	}{	Ma quanti anni hai? Mi sembri una liceale.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Da fuori sembri grande, ma ti comporti da bimbetta.	}
+{	184	}{	So che vuoi dirmelo.	}{	So che vuoi dirmelo.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Qualunque cosa sia i tuoi occhi urlano il contrario.	}
+{	185	}{	Bene, fa' pure. Ci sono tante altre persone, qui, con cui parlare.	}{	Bene, fa' pure. Ci sono tante altre persone, qui, con cui parlare.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vorra' dire che ti lascero' qui da sola, col tuo niente.	}
+{	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	C'e' qualcosa che voglio mostrarti. Ma non devi assolutamente raccontarlo a nessuno - neanche agli altri invitati, okay? Seguimi.	}{	C'e' qualcosa che voglio mostrarti. Ma non devi assolutamente raccontarlo a nessuno - neanche agli altri invitati, okay? Seguimi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_Persuade = 1; G.gio_2_nadia_pt = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{	Ok, continua.	}{	Ok, continua.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	Sarò subito dietro di me.	}
+{	193	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	201	}{	Okay. Ti mostrero' una cosa ma non devi dirlo a nessuno. Promesso? Seguimi.	}{	Okay. Ti mostrero' una cosa ma non devi dirlo a nessuno. Promesso? Seguimi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_Persuade = 1; G.gio_2_nadia_pt = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	Ok, continua.	}{	Ok, continua.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	Sarò subito dietro di me.	}
+{	203	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	204	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	211	}{	Un sarcofago? Non mi pare di aver mai sentito qualcosa a riguardo.	}{	Un sarcofago? Non mi pare di aver mai sentito qualcosa a riguardo.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	212	}{	Sei sicura? Pensaci bene. E' importante!	}{	Sei sicura? Pensaci bene. E' importante!	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vorrei crederti ma... non riesco.	}
+{	213	}{	Scommetto che se ti spezzassi un polso ti rinfrescherebbe la memoria.	}{	Scommetto che se ti spezzassi un polso ti rinfrescherebbe la memoria.	}{	111	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Perche' non provo a staccarti un orecchio e a parlare con lui? Magari mi ascolta di piu'...	}
+{	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	215	}{	Hai detto che stando qui hai imparato alcune cose interessanti. Vuoi dirmele?	}{	Hai detto che stando qui hai imparato alcune cose interessanti. Vuoi dirmele?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{		}{		}{		}{		}{		}{		}{		}{	Parlami un po' della tua vita in quest'obitorio.	}
+{	216	}{	Allora lascia perdere. Divertiti.	}{	Allora lascia perdere. Divertiti.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Torno al party.	}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	221	}{	Da questa parte....	}{	Da questa parte....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	222	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	223	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	You know what they do in this room?	}{	You know what they do in this room?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	232	}{	Looks like an embalming room in a funeral parlor.	}{	Looks like an embalming room in a funeral parlor.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Slurp out the cold red sauce.	}
-{	233	}{	I know what I'd like to do in this room... now that we're alone.	}{	I know what I'd like to do in this room... now that we're alone.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want to say... Nadia.	}
-{	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	235	}{	No idea. Pretty creepy though.	}{	No idea. Pretty creepy though.	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	Scare the children during the holidays.	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	Mmm-hmm. Know what they do with the corpses?	}{	Mmm-hmm. Know what they do with the corpses?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	No idea.	}{	No idea.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	???	}
-{	243	}{	Please don't say "sex".	}{	Please don't say "sex".	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Is there a web page?	}
-{	244	}{	Fast food hamburger meat?	}{	Fast food hamburger meat?	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hot dogs, armoire hot dogs, what kind of kids like armoire hot dogs...?	}
-{	245	}{	Dress them up like Vikings, freeze them in ice, and drop them in the ocean?	}{	Dress them up like Vikings, freeze them in ice, and drop them in the ocean?	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cut off the hands and sew them on a really big ball of hands?	}
-{	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	Mmm. I think we better go.	}{	Mmm... I'm not - I mean I like guys. Maybe we'd better go.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	I'm really sorry. I just thought.... Never mind. Tell me about this room.	}{	I'm really sorry. I just thought.... Never mind. Tell me about this room.	}{	291	}{	Persuasion 8	}{	}{	}{	}{	}{	}{	}{	}{	Wait... did we just die? This room... not for the living.	}
-{	253	}{	You sure? Not doing anything for you?	}{	You sure? Not doing anything for you?	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	The only place I want to go is under your clothes.	}
-{	254	}{	I think you better show me the rest of the place before I lose my goddamn nerve.	}{	I think you better show me the rest of the place before I lose my goddamn nerve.	}{	271	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	There's nowhere to go except where I tell you to take me.	}
-{	255	}{	I think I'll stay. You can leave if you want.	}{	I think I'll stay. You can leave if you want.	}{	281	}{	}{	}{	}{	}{	}{	}{	}{	}{	You exit, I'll keep entering.	}
-{	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	Um, you can find your own way out.	}{	Um, you can find your own way out.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Nadia_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	223	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	225	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	226	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	227	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	228	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	231	}{	Sai cosa fanno in questa stanza?	}{	Sai cosa fanno in questa stanza?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	232	}{	Sembra una sala per le imbalsamazioni in un salotto da funerale.	}{	Sembra una sala per le imbalsamazioni in un salotto da funerale.	}{	241	}{		}{		}{		}{		}{		}{		}{		}{		}{	Da berci la calda salsa rossa.	}
+{	233	}{	No... So cosa mi piacerebbe fare in questa stanza... ora che siamo soli.	}{	No... So cosa mi piacerebbe fare in questa stanza... ora che siamo sole.	}{	251	}{		}{		}{		}{		}{		}{		}{		}{		}{	Voglio dire... Nadia.	}
+{	234	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	235	}{	Non ne ho idea. Ma sicuramente qualcosa di viscido.	}{	Non ne ho idea. Ma sicuramente qualcosa di viscido.	}{	291	}{		}{		}{		}{		}{		}{		}{		}{		}{	Spaventano i bambini durante le vacanze.	}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	241	}{	Mmm-hmm. Sai cosa fanno con i cadaveri?	}{	Mmm-hmm. Sai cosa fanno con i cadaveri?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	242	}{	Non ne ho idea.	}{	Non ne ho idea.	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	???	}
+{	243	}{	Ti prego non dirmi "sesso".	}{	Ti prego non dirmi "sesso".	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	Lo trovo su internet?	}
+{	244	}{	Carne per gli hamburger da fast food?	}{	Carne per gli hamburger da fast food?	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hot dog, hot dog imbalsamati, che razza di bambini mangia hot dog imbalsamati...?	}
+{	245	}{	Li indossano come facevano i Vichingi, li congelano, e li buttano nell'oceano?	}{	Li indossano come facevano i Vichingi, li congelano, e li buttano nell'oceano?	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Gli tagliano le mani e le mettono in una grande boccia di vetro?	}
+{	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	247	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	Mmm. Meglio se andiamo.	}{	Mmm. Meglio se andiamo.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	Spiacente, davvero. Pensavo solo che... Non importa, parlami di questa stanza.	}{	Spiacente, davvero. Pensavo solo che... Non importa, parlami di questa stanza.	}{	291	}{	Persuasion 8	}{		}{		}{		}{		}{		}{		}{		}{	Aspetta... dobbiamo morire? Questa stanza... non e' fatta per vivere.	}
+{	253	}{	Sei sicura? Non c'e' niente che possa fare per te?	}{	Sei sicura? Non c'e' niente che possa fare per te?	}{	261	}{		}{		}{		}{		}{		}{		}{		}{		}{	L'unico posto che vorrei esplorare si trova sotto i tuoi vestiti.	}
+{	254	}{	Credo sia meglio che tu mi mostri il resto del posto prima che perda la mia fottutissima pazienza.	}{	Credo sia meglio che tu mi mostri il resto del posto prima che perda la mia fottutissima pazienza.	}{	271	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{	Non voglio andare da nessun'altra parte che non sia il luogo dove ti ho chiesto di portarmi.	}
+{	255	}{	Credo che restero' qui. Tu, se vuoi, puoi andare.	}{	Credo che restero' qui. Tu, se vuoi, puoi andare.	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tu vai, io resto.	}
+{	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	261	}{	Um, sai dov'e' l'uscita.	}{	Um, sai dov'e' l'uscita.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Nadia_Leave = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	262	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	263	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	264	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	265	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	[Scared]What? Don't you come near me![Screams]	}{	[Scared]What? Don't you come near me![Screams]	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Nadia_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	263	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	264	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	265	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	[Spaventato]Cosa? Stammi lontano![Urla]	}{	[Spaventata]Cosa? Stammi lontana![Urla]	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Nadia_Leave = 1		}{		}{		}{		}{		}{		}{		}{		}
 {	272	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	273	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	274	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	275	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	I can't leave you here. If anyone finds out...	}{	I can't leave you here. If anyone finds out...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	282	}{	Leave.	}{	Leave.	}{	261	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	283	}{	But I'm a corpse. There are only dead things down here.	}{	But I'm a corpse. There are only dead things down here.	}{	581	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	But I'm a corpse. There are only dead things down here.	}
-{	284	}{	Wait, I want to see the rest... I promise, no more funny business.	}{	Wait, I want to see the rest... I promise, no more funny business.	}{	301	}{	Persuasion 6	}{	}{	}{	}{	}{	}{	}{	}{	I will keep my tentacles to myself. Please, let's creep around this crypt.	}
-{	285	}{	No one will find out if you're not alive to tell them.	}{	No one will find out if you're not alive to tell them.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Walk through the door like you saw death himself.	}
-{	286	}{	There can be one more corpse down here if you'd like.	}{	There can be one more corpse down here if you'd like.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can show you something scarier than any punishment.	}
-{	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	289	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	290	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	291	}{	It is pretty disturbing... but you've heard the rumors about the family, haven't you? This is an embalming room. Know what they do with the corpses?	}{	It is pretty disturbing... but you've heard the rumors about the family, haven't you? This is an embalming room. Know what they do with the corpses?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	292	}{	No idea.	}{	No idea.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	???	}
-{	293	}{	Please don't say "sex".	}{	Please don't say "sex".	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Is there a web page?	}
-{	294	}{	Fast food meat?	}{	Fast food meat?	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hot dogs, armoire hot dogs, what kind of kids like armoire hot dogs...?	}
-{	295	}{	Dress them up like Vikings, freeze them in ice, and drop them in the ocean?	}{	Dress them up like Vikings, freeze them in ice, and drop them in the ocean?	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cut off the hands and sew them on a really big ball of hands?	}
-{	296	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	297	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	298	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	299	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	301	}{	Uh....	}{	Uh....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	302	}{	(Auto-Link)	}{	(Auto-Link)	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	303	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	304	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	305	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	307	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	308	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	309	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	310	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	311	}{	I shouldn't do this but... why don't I show you. Gets pretty weird from here - don't say I didn't warn you. Oh, and be ready to run. You'll understand when it happens. Follow me.	}{	I shouldn't do this but... why don't I show you. Gets pretty weird from here - don't say I didn't warn you. Oh, and be ready to run. You'll understand when it happens. Follow me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_DThree = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	312	}{	I'm coming.	}{	I'm coming.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	I'm still behind me.	}
-{	313	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	314	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	315	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	316	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	317	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	318	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	319	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	320	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	321	}{	Here we are.	}{	Here we are.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	322	}{	This is an embalming room, isn't it?	}{	This is an embalming room, isn't it?	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nice and out of the way, doesn't seem like anyone lives around here.	}
-{	323	}{	At last, we can be alone.	}{	At last, we can be alone.	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	We are, aren't we?	}
-{	324	}{	This place seems a bit morbid, don't you think?	}{	This place seems a bit morbid, don't you think?	}{	341	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can I get the name of your decorator?	}
-{	325	}{	Good. Now, why don't you get out of here.	}{	Good. Now, why don't you get out of here.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	This is a room for the dead. I think you should go.	}
-{	326	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	327	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	328	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	329	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	330	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	331	}{	What? But I thought...	}{	What? But I thought...	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	332	}{	Leave.	}{	Leave.	}{	261	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	333	}{	But I'm a corpse. There are only dead things down here.	}{	But I'm a corpse. There are only dead things down here.	}{	581	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	But I'm a corpse. There are only dead things down here.	}
-{	334	}{	Get out of here. Now.	}{	Get out of here. Now.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Walk through the door like you saw death himself.	}
-{	335	}{	If you know what's good for you, you'll leave.	}{	If you know what's good for you, you'll leave.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can show you something scarier than any punishment.	}
-{	336	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	337	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	338	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	339	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	340	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	341	}{	[Morose, sad]They prepare the dead here. It's so cold and lifeless... death just hangs over this whole place. It makes me so...	}{	[Morose, sad]They prepare the dead here. It's so cold and lifeless... death just hangs over this whole place. It makes me so...	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	342	}{	What is it, Nadia?	}{	What is it, Nadia?	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	???	}
-{	343	}{	It's sad, isn't it? The fragile composition of mortality.	}{	It's sad, isn't it? The fragile composition of mortality.	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cold, lifeless, as is the universe, the final state of everything.	}
-{	344	}{	Amorous?	}{	Amorous?	}{	351	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pointy.	}
-{	345	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	346	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	347	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	348	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	349	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	350	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	351	}{	[Quickly, sexy-naughty tone]Let's bring some life to this place. Let's do it here - in the very spot the dead have laid - the ultimate exhibition of living right here. It would be... cathartic.	}{	[Quickly, sexy-naughty tone]Let's bring some life to this place. Let's do it here - in the very spot the dead have laid - the ultimate exhibition of living right here. It would be... cathartic.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	352	}{	Um... that's seriously messed up.	}{	Um... that's seriously messed up.	}{	361	}{	}{	}{	}{	}{	}{	}{	}{	}{	It would be... necrophilia.	}
-{	353	}{	Come here, Nadia. I'll treat you to an ecstasy unlike any before.	}{	Come here, Nadia. I'll treat you to an ecstasy unlike any before.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	I could not think of a better place to start a romance. Share yourself with me.	}
-{	354	}{	I'd love to, later... but first, why don't you show me the rest of this place?	}{	I'd love to, later... but first, why don't you show me the rest of this place?	}{	371	}{	}{	}{	}{	}{	}{	}{	}{	}{	Take me further into the crypt, then into you.	}
-{	355	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	356	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	357	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	358	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	359	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	360	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	361	}{	What? I thought you wanted to... hmmph....	}{	What? I thought you wanted to... hmmph....	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	362	}{	(Auto-Link)	}{	(Auto-Link)	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	363	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	364	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	365	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	366	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	367	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	368	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	369	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	370	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	371	}{	Alright, I suppose. Well, follow me... but it gets a little weird from here. Oh, and be ready to run. You'll understand when it happens. Follow me.	}{	Alright, I suppose. Well, follow me... but it gets a little weird from here. Oh, and be ready to run. You'll understand when it happens. Follow me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_DThree = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	372	}{	I'm coming.	}{	I'm coming.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	I'm still behind me.	}
-{	373	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	374	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	375	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	376	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	377	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	378	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	379	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	380	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	381	}{	Shh.... They don't usually attack, just don't provoke them!	}{	Shh.... They don't usually attack, just don't provoke them!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_Provoke = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	382	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	383	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	384	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	385	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	386	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	387	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	388	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	389	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	390	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	391	}{	What's happening? They're coming to get us! Oh my gosh, we've got to get out here!	}{	What's happening? They're coming to get us! Oh my gosh, we've got to get out here!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	392	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	393	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	394	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	395	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	396	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	397	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	398	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	399	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	400	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	401	}{	I don't know what happened back there... but I know a way through this next part. Can you believe all this? This is like something out of a horror movie.... Oh, here it is. We should be safe from here on. This way.	}{	I don't know what happened back there... but I know a way through this next part. Can you believe all this? This is like something out of a horror movie.... Oh, here it is. We should be safe from here on. This way.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	nadiaTo2b()	}{	}{	}{	}{	}{	}{	}{	}
-{	402	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I haven't caught up with me yet.	}
-{	403	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	404	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	405	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	406	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	407	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	408	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	409	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	410	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	411	}{	Come on.	}{	Come on.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	412	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	413	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	414	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	415	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	416	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	417	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	418	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	419	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	420	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	421	}{	In here.	}{	In here.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	422	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	423	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	424	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	425	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	426	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	427	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	428	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	429	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	430	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	431	}{	This way.	}{	This way.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	432	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	433	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	434	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	435	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	436	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	437	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	438	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	439	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	440	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	441	}{	[Scared]What was that?	}{	[Scared]What was that?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	442	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	443	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	444	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	445	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	446	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	447	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	448	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	449	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	450	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	451	}{	Did you hear that?	}{	Did you hear that?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	452	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	453	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	454	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	455	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	456	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	457	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	458	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	459	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	460	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	461	}{	This is all too much. I'm going back upstairs! You do what you want!	}{	This is all too much. I'm going back upstairs! You do what you want!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	462	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	463	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	464	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	465	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	466	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	467	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	468	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	469	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	470	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	471	}{	[Pissed]Just leave me alone.	}{	[Pissed]Just leave me alone.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	472	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	473	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	474	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	475	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	476	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	477	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	478	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	479	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	480	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	481	}{	Go away.	}{	Go away.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	482	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	483	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	484	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	485	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	486	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	487	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	488	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	489	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	490	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	491	}{	Stop bugging me, god!	}{	Stop bugging me, god!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	492	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	493	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	494	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	495	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	496	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	497	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	498	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	499	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	500	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	501	}{	Hi.	}{	Hi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	502	}{	So... learned anything interesting about the Giovanni while you've been here?	}{	So... learned anything interesting about the Giovanni while you've been here?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{	}{	}{	}{	}{	}{	}{	}{	What sights have your young eyes witnessed in this house?	}
-{	503	}{	Say, you know anything about a sarcophagus?	}{	Say, you know anything about a sarcophagus?	}{	211	}{	G.Story_State < 60	}{	}{	}{	}{	}{	}{	}{	}{	Do you believe in the sarcophagus?	}
-{	504	}{	Enjoy the party. Excuse me.	}{	Enjoy the party. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I fade back into the party.	}
-{	505	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	506	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	507	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	508	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	509	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	510	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	511	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	512	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	513	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	514	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	515	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	516	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	517	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	518	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	519	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	520	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	521	}{	[Scream]Aaah!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	522	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	523	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	524	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	525	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	526	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	527	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	528	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	529	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	530	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	531	}{	[Get hit sound]Ugh!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	532	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	533	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	534	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	535	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	536	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	537	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	538	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	539	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	540	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	541	}{	[Get hurt sound]Ahh!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	542	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	543	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	544	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	545	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	546	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	547	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	548	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	549	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	550	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	551	}{	[Dies]UhAAaahhh... uh... ahhhh.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	552	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	553	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	554	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	555	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	556	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	557	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	558	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	559	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	560	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	561	}{	[girl flirted with her, not interested]Um... thanks?	}{	[girl flirted with her, not interested]Um... thanks?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	562	}{	Victor Rossellini. And you are?	}{	Maria Rossellini. And you are?	}{	21	}{	Persuasion 5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	563	}{	It said "Victor Rossellini" on my invitation.	}{	It said "Maria Rossellini" on my invitation.	}{	571	}{	Persuasion 5 & (IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	564	}{	Victor Rose-sell-lenny.	}{	Maria Rose-sell-lenny.	}{	91	}{	Persuasion -5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	565	}{	Yes, indeed I am.	}{	Yes, indeed I am.	}{	111	}{	Persuasion -5 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	566	}{	Enjoy the party. Excuse me.	}{	Enjoy the party. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I fade back into the party.	}
-{	567	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	568	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	569	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	570	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	571	}{	[Giggles]That's pretty funny! Everyone here's so serious.	}{	[Giggles]That's pretty funny! Everyone here's so serious.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	572	}{	(Auto-Link)	}{	(Auto-Link)	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	573	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	574	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	575	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	576	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	577	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	578	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	579	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	580	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	581	}{	Why did I come in here? I hate to be alone down here. And I think I had a conversation with a dead body. God, Nadia, you need to make some friends.	}{	Why did I come in here? I hate to be alone down here. And I think I had a conversation with a dead body. God, Nadia, you need to make some friends.	}{	#	}{	npc.SetDisposition("Confused", 2)	}{	G.Nadia_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	582	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	583	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	584	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	585	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	586	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	587	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	588	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	589	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	590	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	591	}{	Turn right.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	592	}{	Turn left.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	593	}{	Go straight.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	594	}{	Through there.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	595	}{	After you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	596	}{	In there.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	597	}{	Not that way.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	598	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	599	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	600	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	601	}{	JDA im pissed JDA	}{	}{	#	}{	}{	Sequence_pull_lever_Nadia()	}{	}{	}{	}{	}{	}{	}{	}
-{	602	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	603	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	604	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	605	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	606	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	607	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	608	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	609	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	610	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	611	}{	JDA im seduced JDA	}{	}{	#	}{	}{	Sequence_pull_lever_Nadia()	}{	}{	}{	}{	}{	}{	}{	}
-{	612	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	613	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	614	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	615	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	616	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	617	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	618	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	619	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	620	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	621	}{	JDA im persuaded JDA	}{	}{	#	}{	}{	Sequence_pull_lever_Nadia()	}{	}{	}{	}{	}{	}{	}{	}
-{	622	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	623	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	624	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	625	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	626	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	627	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	628	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	629	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	630	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	631	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	632	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	633	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	634	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	635	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	636	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	637	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	638	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	639	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	640	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	641	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	642	}{	(Starting Condition)	}{	}{	401	}{	G.Nadia_Fright == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	643	}{	(Starting Condition)	}{	}{	391	}{	G.Nadia_Provoke == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	644	}{	(Starting Condition)	}{	}{	381	}{	G.Nadia_DThree == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	645	}{	(Starting Condition)	}{	}{	261	}{	G.Nadia_Leave == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	646	}{	(Starting Condition)	}{	}{	471	}{	G.Nadia_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	647	}{	(Starting Condition)	}{	}{	321	}{	G.Nadia_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	648	}{	(Starting Condition)	}{	}{	231	}{	G.Nadia_Persuade == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	273	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	274	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	275	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{	Non posso lasciarti qui. Se qualcuno ti trovasse...	}{	Non posso lasciarti qui. Se qualcuno ti trovasse...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	282	}{	Vai.	}{	Vai.	}{	261	}{	Dominate 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	283	}{	Ma io sono un cadavere. E quaggiu' ci sono solo cose morte.	}{	Ma io sono un cadavere. E quaggiu' ci sono solo cose morte.	}{	581	}{	Dementation 3	}{		}{		}{		}{		}{		}{		}{		}{	Ma io sono un cadavere. E quaggiu' ci sono solo cose morte.	}
+{	284	}{	Aspetta, voglio vedere il resto... Prometto di non fare pazzie.	}{	Aspetta, voglio vedere il resto... Prometto di non fare pazzie.	}{	301	}{	Persuasion 6	}{		}{		}{		}{		}{		}{		}{		}{	Terro' i tentacoli al loro posto. Per favore, continuamo ad esplorare questo luogo.	}
+{	285	}{	Nessuno mi trovera' se non vivrai abbastanza da raccontare qualcosa.	}{	Nessuno mi trovera' se non vivrai abbastanza da raccontare qualcosa.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vattene come se avessi visto la morte in persona.	}
+{	286	}{	Potrebbe esserci un cadavere in piu', da ora, se vuoi.	}{	Potrebbe esserci un cadavere in piu', da ora, se vuoi.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso mostrarti una cosa piu' spaventosa di qualunque punizione esistente.	}
+{	287	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	288	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	290	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	291	}{	E' un po' inquietante... ma hai sentito le voci che girano sulla famiglia? Questa e' una stanza per le imbalsamazioni. Sai cosa fanno con i cadaveri?	}{	E' un po' inquietante... ma hai sentito le voci che girano sulla famiglia? Questa e' una stanza per le imbalsamazioni. Sai cosa fanno con i cadaveri?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	292	}{	Non ne ho idea.	}{	Non ne ho idea.	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	???	}
+{	293	}{	Ti prego non dirmi "sesso".	}{	Ti prego non dirmi "sesso".	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	Lo trovo su internet?	}
+{	294	}{	Carne da fast food?	}{	Carne da fast food?	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hot dog, hot dog imbalsamati, che razza di bambini mangia hot dog imbalsamati...?	}
+{	295	}{	Li indossano come facevano i Vichingi, li congelano, e li buttano nell'oceano?	}{	Li indossano come facevano i Vichingi, li congelano, e li buttano nell'oceano?	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Gli tagliano le mani e le mettono in una grande boccia di vetro?	}
+{	296	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	297	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	298	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	299	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	301	}{	Uh....	}{	Uh....	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	302	}{	(Auto-Link)	}{	(Auto-Link)	}{	311	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	303	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	304	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	305	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	306	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	307	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	308	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	310	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	311	}{	Non dovrei farlo... ma perche' no. E' un luogo bizzarro - non dire che non ti avevo avvertito. Oh, e tieniti pronto a correre. Capirai quando ce ne sara' bisogno. Seguimi.	}{	Non dovrei farlo... ma perche' no. E' un luogo bizzarro - non dire che non ti avevo avvertita. Oh, e tieniti pronta a correre. Capirai quando ce ne sara' bisogno. Seguimi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_DThree = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	312	}{	Arrivo.	}{	Arrivo.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	Sono ancora dietro di me.	}
+{	313	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	314	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	315	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	316	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	317	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	318	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	319	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	320	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	321	}{	Eccoci.	}{	Eccoci.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	322	}{	Questa e' una stanza per le imbalsamazioni, non e' vero?	}{	Questa e' una stanza per le imbalsamazioni, non e' vero?	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Bel posto, fuori dall'ordinario. Sembra che non ci abiti nessuno qui.	}
+{	323	}{	Almeno possiamo stare da soli.	}{	Almeno possiamo stare da sole.	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ci siamo, vero?	}
+{	324	}{	Questo posto sembra un po' macabro, non credi?	}{	Questo posto sembra un po' macabro, non credi?	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso avere il nome dell'arredatore?	}
+{	325	}{	Bene. Ora perche' non ti levi dai piedi.	}{	Bene. Ora perche' non ti levi dai piedi.	}{	331	}{		}{		}{		}{		}{		}{		}{		}{		}{	Questa stanza e' adatta ai morti. Credo che dovresti andare.	}
+{	326	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	327	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	328	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	329	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	331	}{	Cosa? Ma io credevo che...	}{	Cosa? Ma io credevo che...	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	332	}{	Vai.	}{	Vai.	}{	261	}{	Dominate 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	333	}{	Ma io sono un cadavere. E quaggiu' ci sono solo cose morte.	}{	Ma io sono un cadavere. E quaggiu' ci sono solo cose morte.	}{	581	}{	Dementation 3	}{		}{		}{		}{		}{		}{		}{		}{	Ma io sono un cadavere. E quaggiu' ci sono solo cose morte.	}
+{	334	}{	Levati dai piedi. Ora.	}{	Levati dai piedi. Ora.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vattene come se avessi visto la morte in persona.	}
+{	335	}{	Se capissi cosa e' meglio per te, te ne andresti.	}{	Se capissi cosa e' meglio per te, te ne andresti.	}{	271	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso mostrarti una cosa piu' spaventosa di qualunque punizione esistente.	}
+{	336	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	337	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	341	}{	[Moroso, triste]Qui preparano i morti. E' cosi' freddo, e senza vita... la morte qui e' dappertutto. Mi rende cosi'...	}{	[Morosa, triste]Qui preparano i morti. E' cosi' freddo, e senza vita... la morte qui e' dappertutto. Mi rende cosi'...	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	342	}{	Che c'e' Nadia?	}{	Che c'e' Nadia?	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	???	}
+{	343	}{	E' triste, non e' vero? La fragilita' dei mortali.	}{	E' triste, non e' vero? La fragilita' dei mortali.	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Freddo, senza vita...come l'universo, lo stadio finale di ogni cosa.	}
+{	344	}{	Romantica?	}{	Romantica?	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Eccitata.	}
+{	345	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	346	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	347	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	348	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	349	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	350	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	351	}{	[Velocemente, con tono sexy e cattivo]Portiamo un po' di vita in questo posto. Facciamolo qui - proprio dove vengono adagiati i morti - l'ultima dimostrazione di vita. Sarebbe... catartico.	}{	[Velocemente, con tono sexy e cattivo]Portiamo un po' di vita in questo posto. Facciamolo qui - proprio dove vengono adagiati i morti - l'ultima dimostrazione di vita. Sarebbe... catartico.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	352	}{	Um... tu sei completamente fuori di testa.	}{	Um... tu sei completamente fuori di testa.	}{	361	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sarebbe... necrofilia.	}
+{	353	}{	Vieni qui, Nadia. Ti concedero' un'eccitazione mai provata prima.	}{	Vieni qui, Nadia. Ti concedero' un'eccitazione mai provata prima.	}{	0	}{		}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Non avrei potuto immaginare un posto migliore per cominciare una storia d'amore. Concediti a me.	}
+{	354	}{	Mi piacerebbe, piu' tardi... ma prima perche' non mi mostri il resto del posto?	}{	Mi piacerebbe, piu' tardi... ma prima perche' non mi mostri il resto del posto?	}{	371	}{		}{		}{		}{		}{		}{		}{		}{		}{	Prima vorrei addentrarmi ancora in questo posto, poi magari dentro di te.	}
+{	355	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	356	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	357	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	358	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	359	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	360	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	361	}{	Cosa? Credevo che volessi... hmmph....	}{	Cosa? Credevo che volessi... hmmph....	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	362	}{	(Auto-Link)	}{	(Auto-Link)	}{	261	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	363	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	364	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	365	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	366	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	367	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	368	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	369	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	370	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	371	}{	Okay, lo immaginavo. Va bene, seguimi... ma da qui in poi diventa un po' strano. Oh, e tieniti pronto a correre. Capirai quando ce ne sara' bisogno. Seguimi.	}{	Okay, lo immaginavo. Va bene, seguimi... ma da qui in poi diventa un po' strano. Oh, e tieniti pronta a correre. Capirai quando ce ne sara' bisogno. Seguimi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_DThree = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	372	}{	Arrivo.	}{	Arrivo.	}{	0	}{	}{	gio2_nadiaLead()	}{	}{	}{	}{	}{	}{	}{	Sono ancora dietro di me.	}
+{	373	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	374	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	375	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	376	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	377	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	378	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	379	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	380	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	381	}{	Shh.... Di solito non attaccano, ma non devi provocarli!	}{	Shh.... Di solito non attaccano, ma non devi provocarli!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Nadia_Provoke = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	382	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	383	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	384	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	385	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	386	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	387	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	388	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	389	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	390	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	391	}{	Cosa sta succedendo? Vengono verso di noi! Oh cazzo, dobbiamo uscire di qua!	}{	Cosa sta succedendo? Vengono verso di noi! Oh cazzo, dobbiamo uscire di qua!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	392	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	393	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	394	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	395	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	396	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	397	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	398	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	399	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	400	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	401	}{	Non so cosa sia successo... ma conosco un passaggio per andarcene. Ci pensi? Sembra un film horror... Oh, eccolo. Qui saremo al sicuro. Da questa parte.	}{	Non so cosa sia successo... ma conosco un passaggio per andarcene. Ci pensi? Sembra un film horror... Oh, eccolo. Qui saremo al sicuro. Da questa parte.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	nadiaTo2b()	}{		}{		}{		}{		}{		}{		}{		}
+{	402	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non mi hanno ancora raggiunto.	}
+{	403	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	404	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	405	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	406	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	407	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	408	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	409	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	410	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	411	}{	Andiamo.	}{	Andiamo.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	412	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	413	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	414	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	415	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	416	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	417	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	418	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	419	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	420	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	421	}{	Qui dentro.	}{	Qui dentro.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	422	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	423	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	424	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	425	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	426	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	427	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	428	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	429	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	430	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	431	}{	Da questa parte.	}{	Da questa parte.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	432	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	433	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	434	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	435	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	436	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	437	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	438	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	439	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	440	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	441	}{	[Spaventato]Cos'e' stato?	}{	[Spaventata]Cos'e' stato?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	442	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	443	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	444	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	445	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	446	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	447	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	448	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	449	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	450	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	451	}{	L'hai sentito?	}{	L'hai sentito?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	452	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	453	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	454	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	455	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	456	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	457	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	458	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	459	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	460	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	461	}{	E' troppo. Torno di sopra. Tu fai quello che vuoi!	}{	E' troppo. Torno di sopra. Tu fai quello che vuoi!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	462	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	463	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	464	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	465	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	466	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	467	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	468	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	469	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	470	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	471	}{	[Incazzato]Lasciami in pace.	}{	[Incazzata]Lasciami in pace.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	472	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	473	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	474	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	475	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	476	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	477	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	478	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	479	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	480	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	481	}{	Vattene via.	}{	Vattene via.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	482	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	483	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	484	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	485	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	486	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	487	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	488	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	489	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	490	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	491	}{	Smettila di darmi fastidio, cristo!	}{	Smettila di darmi fastidio, cristo!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	492	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	493	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	494	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	495	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	496	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	497	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	498	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	499	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	500	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	501	}{	Ciao.	}{	Ciao.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	502	}{	Allora... hai saputo qualcosa di interessante sui Giovanni da quando sei qui?	}{	Allora... hai saputo qualcosa di interessante sui Giovanni da quando sei qui?	}{	171	}{	G.Nadia_Secret == 0 and G.ZombiesDead == 0	}{		}{		}{		}{		}{		}{		}{		}{	A cosa hanno assistito i tuoi giovani occhi da quando sei in questa casa?	}
+{	503	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	Dimmi, Nadia, hai sentito parlare di un sarcofago?	}{	211	}{	G.Story_State < 60	}{		}{		}{		}{		}{		}{		}{		}{	Cosa sai riguardo a un sarcofago?	}
+{	504	}{	Divertiti, Nadia. Scusami.	}{	Divertiti, Nadia. Scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Torno alla festa.	}
+{	505	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	506	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	507	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	508	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	509	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	510	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	511	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	512	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	513	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	514	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	515	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	517	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	518	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	519	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	520	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	521	}{	[Urla]Aaah!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	522	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	523	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	524	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	525	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	526	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	527	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	528	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	529	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	530	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	531	}{	[Suono dell'essere colpito]Ugh!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	532	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	533	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	534	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	535	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	536	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	537	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	538	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	539	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	540	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	541	}{	[Suono del farsi male]Ahh!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	542	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	543	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	544	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	545	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	546	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	547	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	548	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	549	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	551	}{	[Muore]UhAAaahhh... uh... ahhhh.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	552	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	553	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	556	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	557	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	558	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	559	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	560	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	561	}{	[la ragazza ha flirtato con lei, non interessata]Um... grazie?	}{	[la ragazza ha flirtato con lei, non interessata]Um... grazie?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	562	}{	Victor Rossellini. E lei è?	}{	Maria Rossellini. E lei è?	}{	21	}{	Persuasion 5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	563	}{	Sul mio invito c'era scritto "Victor Rossellini".	}{	Sul mio invito c'era scritto "Maria Rossellini".	}{	571	}{	Persuasion 5 & (IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	564	}{	Victor Rose-vende-Lenny.	}{	Maria Rose-vende-Lenny.	}{	91	}{	Persuasion -5 & (not IsClan(pc,"Malkavian") and (G.Victor_Know == 1 or G.Maria_Know == 1))	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	565	}{	Sì, in effetti lo sono.	}{	Sì, in effetti lo sono.	}{	111	}{	Persuasion -5 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	566	}{	Goditi la festa. Con permesso.	}{	Goditi la festa. Con permesso.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Io rientro nella festa.	}
+{	567	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	568	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	569	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	570	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	571	}{	[Ridacchia]Molto divertente! Sono tutti cosi' seri.	}{	[Ridacchia]Molto divertente! Sono tutti cosi' seri.	}{	#	}{	npc.SetDisposition("Joy", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	572	}{	(Auto-Link)	}{	(Auto-Link)	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	573	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	574	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	575	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	576	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	577	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	578	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	579	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	580	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	581	}{	Perche' sono venuta qui? Detesto essere sola quaggiu'. E credo di aver avuto una conversazione con un cadavere. Dio, Nadia, hai bisogno di fare nuove amicizie.	}{	Perche' sono venuta qui? Detesto essere sola quaggiu'. E credo di aver avuto una conversazione con un cadavere. Dio, Nadia, hai bisogno di fare nuove amicizie.	}{	#	}{	npc.SetDisposition("Confused", 2)	}{	G.Nadia_Leave = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	582	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	583	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	584	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	585	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	586	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	587	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	588	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	589	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	590	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	591	}{	Gira a destra.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	592	}{	Gira a sinistra.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	593	}{	Vai avanti.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	594	}{	Per di la'.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	595	}{	Dopo di te.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	596	}{	Li' dentro.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	597	}{	No, per di la' no.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	598	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	599	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	600	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	601	}{	Dottore, sono incazzata, dottore.	}{		}{	#	}{		}{	Sequence_pull_lever_Nadia()	}{		}{		}{		}{		}{		}{		}{		}
+{	602	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	603	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	604	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	605	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	606	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	607	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	608	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	609	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	610	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	611	}{	Dottore, sono sedotta, dottore.	}{		}{	#	}{		}{	Sequence_pull_lever_Nadia()	}{		}{		}{		}{		}{		}{		}{		}
+{	612	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	613	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	614	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	615	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	616	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	617	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	618	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	619	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	620	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	621	}{	Dottore, sono persuasa, dottore.	}{		}{	#	}{		}{	Sequence_pull_lever_Nadia()	}{		}{		}{		}{		}{		}{		}{		}
+{	622	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	623	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	624	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	625	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	626	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	627	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	628	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	629	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	630	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	631	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	632	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	633	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	634	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	635	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	636	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	637	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	638	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	639	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	640	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	641	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	642	}{	(Starting Condition)	}{		}{	401	}{	G.Nadia_Fright == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	643	}{	(Starting Condition)	}{		}{	391	}{	G.Nadia_Provoke == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	644	}{	(Starting Condition)	}{		}{	381	}{	G.Nadia_DThree == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	645	}{	(Starting Condition)	}{		}{	261	}{	G.Nadia_Leave == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	646	}{	(Starting Condition)	}{		}{	471	}{	G.Nadia_Pissed == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	647	}{	(Starting Condition)	}{		}{	321	}{	G.Nadia_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	648	}{	(Starting Condition)	}{		}{	231	}{	G.Nadia_Persuade == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	649	}{	(Starting Condition)	}{	}{	11	}{	Seduction 7	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	650	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	651	}{	(Starting Condition)	}{	}{	501	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	650	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	651	}{	(Starting Condition)	}{		}{	501	}{	npc.times_talked > 1	}{		}{		}{		}{		}{		}{		}{		}{		}
