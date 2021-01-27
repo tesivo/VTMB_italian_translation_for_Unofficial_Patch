@@ -57,10 +57,10 @@
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	Esattamente. Beh, me ne vado.}{	Exactly. Well, I'll be going now.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You have nothing to fear except every other thing. Farewell.	}
-{	61	}{	Like I said, Flynn's the man. You should talk to him.	}{	Like I said, Flynn's the man. You should talk to him.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Slater_Flynn = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	60	}{	Esattamente. Beh, me ne vado.}{	Esattamente. Beh, me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You have nothing to fear except every other thing. Farewell.	}
+{	61	}{	Come ho detto, Flynn e' l'uomo che cerchi. Dovresti parlare con lui.	}{	Come ho detto, Flynn e' l'uomo che cerchi. Dovresti parlare con lui.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Slater_Flynn = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	62	}{	Alright. Anything else I should know about?	}{	Alright. Anything else I should know about?	}{	41	}{	G.Slater_Vesuvius == 0	}{	}{	}{	}{	}{	}{	}{	}{	There are other situations I must place myself in.	}
-{	63	}{	Thanks. I'll ask him. Goodbye.	}{	Thanks. I'll ask him. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will ask this Flynn, after I am gone.	}
+{	63	}{	Grazie. Gli chiedero'. Arrivederci. 	}{	Grazie. Gli chiedero'. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will ask this Flynn, after I am gone.	}
 {	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -68,10 +68,10 @@
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	Uh, hey, y'know, you should REALLY ask me about the special, y'know.	}{	Uh, hey, y'know, you should REALLY ask me about the special, y'know.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Special_Heard = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Okay, I'll bite, what's the special?	}{	Okay, I'll bite, what's the special?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
-{	73	}{	I have no interest in your special.	}{	I have no interest in your special.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have no need for the jerkies and gin of the living.	}
-{	74	}{	No, but I have another question or two for you.	}{	No, but I have another question or two for you.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I seek other things.	}
+{	71	}{	Uh, hey, sai, dovresti VERAMENTE chiedermi dello speciale, sai.	}{	Uh, hey, sai, dovresti VERAMENTE chiedermi dello speciale, sai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Special_Heard = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Okay, va bene, qual e' lo speciale?	}{	Okay, va bene, qual e' lo speciale?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Speciale? Cosa c'e' di cosi' speciale?	}
+{	73	}{	Non mi interessa il tuo speciale.	}{	Non mi interessa il tuo speciale.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non mi interessa la carne secca e il gin dei mortali.	}
+{	74	}{	No, ma ho un'altra domanda o due per te. }{	No, ma ho un'altra domanda o due per te.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cerco altre cose.	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
