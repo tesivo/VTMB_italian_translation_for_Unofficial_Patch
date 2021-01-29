@@ -57,10 +57,10 @@
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	Esattamente. Beh, me ne vado.}{	Esattamente. Beh, me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You have nothing to fear except every other thing. Farewell.	}
+{	60	}{	Esattamente. Beh, me ne vado.}{	Esattamente. Beh, me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non hai nulla di cui aver paura, a parte tutto. Addio.}
 {	61	}{	Come ho detto, Flynn e' l'uomo che cerchi. Dovresti parlare con lui.	}{	Come ho detto, Flynn e' l'uomo che cerchi. Dovresti parlare con lui.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Slater_Flynn = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	Alright. Anything else I should know about?	}{	Alright. Anything else I should know about?	}{	41	}{	G.Slater_Vesuvius == 0	}{	}{	}{	}{	}{	}{	}{	}{	There are other situations I must place myself in.	}
-{	63	}{	Grazie. Gli chiedero'. Arrivederci. 	}{	Grazie. Gli chiedero'. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will ask this Flynn, after I am gone.	}
+{	62	}{	Va bene. Dovrei sapere altro?	}{	Va bene. Dovrei sapere altro?	}{	41	}{	G.Slater_Vesuvius == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ci sono altre situazioni dove devo recarmi.	}
+{	63	}{	Grazie. Gli chiedero'. Arrivederci. 	}{	Grazie. Gli chiedero'. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Chiedero' a questo Flynn, dopo che me ne sono andato.}
 {	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -68,48 +68,48 @@
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	Uh, hey, sai, dovresti VERAMENTE chiedermi dello speciale, sai.	}{	Uh, hey, sai, dovresti VERAMENTE chiedermi dello speciale, sai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Special_Heard = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	Okay, va bene, qual e' lo speciale?	}{	Okay, va bene, qual e' lo speciale?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Speciale? Cosa c'e' di cosi' speciale?	}
-{	73	}{	Non mi interessa il tuo speciale.	}{	Non mi interessa il tuo speciale.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non mi interessa la carne secca e il gin dei mortali.	}
+{	71	}{	Uh, hey, sai, dovresti VERAMENTE chiedermi dell'offerta speciale, sai.	}{	Uh, hey, sai, dovresti VERAMENTE chiedermi dell'offerta speciale, sai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Special_Heard = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Okay, va bene, qual e' l'offerta speciale?	}{	Okay, va bene, qual e' l'offerta speciale?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Speciale? Cosa c'e' di cosi' speciale?	}
+{	73	}{	Non mi interessa la tua offerta speciale.	}{	Non mi interessa la tua offerta speciale.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non mi interessa la carne secca e il gin dei mortali.	}
 {	74	}{	No, ma ho un'altra domanda o due per te. }{	No, ma ho un'altra domanda o due per te.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cerco altre cose.	}
 {	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	No. Actually, I'm no longer here. Goodbye.	}{	No. Actually, I'm no longer here. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	I'm glad you asked that, bro, seeing as how you look... trustworthy or something. I got this special where you buy some really expensive burrito-tots or Grapple juice, you get a free weapon of your choice, bro. You interested?	}{	I'm glad you asked that, baby, seeing as how you look... trustworthy or something. I got this special where you buy some really expensive burrito-tots or Grapple juice, you get a free weapon of your choice, bro. You interested?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Weapons = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Of course. Show me what you got.	}{	Of course. Show me what you got.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Here are my eyes, show them your courtesy.	}
-{	83	}{	Wait - you're selling weapons out of a convenience store?	}{	Wait - you're selling weapons out of a convenience store?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Jerky, snack cakes, vodka, bullets. One of these things is not like the other.	}
+{	80	}{	No. In realtà, devo andare. Addio.	}{	No. In realtà, devo andare. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Sono felice che tu l'abbia chiesto, bro, visto che sei... affidabile o qualcosa del genere. Ho questa offerta speciale dove se compri un burrito costoso o del succo Grapple, hai un'arma gratis, quella che vuoi, bro. Ti interessa?	}{	Sono felice che tu l'abbia chiesto, baby, visto che sei... affidabile o qualcosa del genere. Ho questa offerta speciale dove se compri un burrito costoso o del succo Grapple, hai un'arma gratis, quella che vuoi, bro. Ti interessa?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Weapons = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Ma certo, mostrami cos'hai.	}{	Ma certo, mostrami cos'hai.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Ecco i miei occhi, mostragli la merce.	}
+{	83	}{	Aspetta - stai vendendo armi in un minimarket?	}{	Aspetta - stai vendendo armi in un minimarket?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Carne secca, snacks, vodka, proiettili. Una di queste e' un intruso.	}
 {	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	Not at the moment, thanks. I'm outta here.	}{	Not at the moment, thanks. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can deal death quite readily at the moment. I am gone.	}
-{	91	}{	Yo, keep it down, shh. It's just my side gig, y'know. New amps and lap dances don't pay for themselves, dude.	}{	Yo, keep it down, shh. It's just my side gig, y'know. New amps and lap dances don't pay for themselves, dude.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Alright. Show me what you've got.	}{	Alright. Show me what you've got.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Here are my eyes, show them your courtesy.	}
-{	93	}{	I'll come back if I need anything.	}{	I'll come back if I need anything.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will return when my instruments of death need replenishing.	}
+{	90	}{	Per ora no, grazie. Me ne vado.	}{	Per ora no, grazie. Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Posso dare la morte abbastanza velocemente per ora. Me ne vado.	}
+{	91	}{	Yo, fai piano, shh. E' il mio secondo lavoro, sai. Gli amplificatori e le lap dance non si pagano da sole, bello.	}{	Yo, fai piano, shh. E' il mio secondo lavoro, sai. Gli amplificatori e le lap dance non si pagano da sole, bella.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Va bene, mostrami cos'hai.	}{	Va bene, mostrami cos'hai.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Ecco i miei occhi, mostragli la merce.	}
+{	93	}{	Tornero' se ho bisogno di qualcosa.	}{	Tornero' se ho bisogno di qualcosa.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tornero' quando i miei strumenti di morte hanno bisogno di munizioni.	}
 {	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	I think I'll be leaving. Goodbye.	}{	I think I'll be leaving. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
-{	101	}{	No, no, no, man, you should REALLY ask me about the special. You got that look about you.	}{	No, no, no, man, you should REALLY ask me about the special. You got that look about you.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Okay, I'll bite. What's the special?	}{	Okay, I'll bite. What's the special?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
-{	103	}{	Look, I don't want your special! Leave me alone!	}{	Look, I don't want your special! Leave me alone!	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	You pester forces beyond your comprehension!	}
+{	100	}{	Penso che me ne andro'. Ci vediamo.	}{	Penso che me ne andro'. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
+{	101	}{	No, no, no, bello, dovresti VERAMENTE chiedermi dell'offerta speciale. Hai quello sguardo negli occhi.	}{	No, no, no, bella, dovresti VERAMENTE chiedermi dell'offerta speciale. Hai quello sguardo negli occhi.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Okay, va bene, cos'e' questa offerta speciale?	}{	Okay, va bene, cos'e' questa offerta speciale?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Speciale? Cosa c'e' di cosi' speciale?	}
+{	103	}{	Senti, non voglio la tua offerta speciale! Lasciami in pace!	}{	Senti, non voglio la tua offerta speciale! Lasciami in pace!	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Stai irritando forze oltre la tua comprensione!	}
 {	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	I'm leaving. Goodbye.	}{	I'm leaving. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You may speak your specials, but I am gone.	}
-{	111	}{	Woah dude! Chill. Get over it! My mistake.	}{	Woah dude! Chill. Get over it! My mistake.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Okay, okay. Can I ask you a question?	}{	Okay, okay. Can I ask you a question?	}{	121	}{	}{	G.Slater_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	I seek other things.	}
+{	110	}{	Me ne vado. Ci vediamo.	}{	Me ne vado. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You may speak your specials, but I am gone.	}
+{	111	}{	Whoa bello, calmati! Non era nulla! Errore mio.	}{	Whoa bello, calmati! Non era nulla! Errore mio.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Okay, okay. Posso farti una domanda?	}{	Okay, okay. Posso farti una domanda?	}{	121	}{	}{	G.Slater_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Cerco altre cose.	}
 {	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -117,30 +117,30 @@
 {	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	I'm outta here.	}{	I'm outta here.	}{	245	}{	}{	G.Slater_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
-{	121	}{	Yeah, what is it?	}{	Yeah, what is it?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	120	}{	Me ne vado.	}{	Me ne vado.	}{	245	}{	}{	G.Slater_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
+{	121	}{	Si', che c'e'?	}{	Si', che c'e'?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Parlami della citta' delle stelle.	}
 {	123	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
 {	124	}{	Sto cercando una videocassetta.	}{	Sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
-{	125	}{	What exactly is your special?	}{	What exactly is your special?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0 and G.Slater_Pissed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
+{	125	}{	Cos'e' esattamente questa offerta speciale?	}{	Cos'e' esattamente questa offerta speciale?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0 and G.Slater_Pissed == 0	}{	}{	}{	}{	}{	}{	}{	}{	Speciale? Cosa c'e' di cosi' speciale?	}
 {	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	Nothing. Goodbye.	}{	Nothing. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
+{	130	}{	Niente. Ci vediamo.	}{	Niente. Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
 {	131	}{	Hola.	}{	Hola.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	132	}{	Che succede da queste parti? Qualcosa di figo o strano?	}{	Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Parlami della citta' delle stelle.	}
 {	133	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
 {	134	}{	Sto cercando una videocassetta.	}{	Sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
-{	135	}{	What exactly is your special?	}{	What exactly is your special?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
-{	136	}{	I'd like the special.	}{	I'd like the special.	}{	0	}{	G.Slater_Weapons == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Special me.	}
-{	137	}{	Nothing much. How about you?	}{	Nothing much. How about you?	}{	71	}{	G.Slater_Exciting == 1 and G.Slater_Serial == 1 and G.Special_Heard == 0	}{	}{	}{	}{	}{	}{	}{	}{	The children are up, and soon the adults will put them to bed.	}
+{	135	}{	Cos'e' esattamente questa offerta speciale?	}{	Cos'e' esattamente questa offerta speciale?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0	}{	}{	}{	}{	}{	}{	}{	}{	Speciale? Cosa c'e' di cosi' speciale?	}
+{	136	}{	Vorrei l'offerta speciale.	}{	Vorrei l'offerta speciale.	}{	0	}{	G.Slater_Weapons == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Specialami.	}
+{	137	}{	Come va?	}{	Come va?	}{	71	}{	G.Slater_Exciting == 1 and G.Slater_Serial == 1 and G.Special_Heard == 0	}{	}{	}{	}{	}{	}{	}{	}{	I bambini sono svegli, e presto i genitori li metteranno a letto.	}
 {	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	Nothing. I'm gone. Later.	}{	Nothing. I'm gone. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
-{	141	}{	You're back, huh? [Sincerely]They pull that sea urchin out of your butt?	}{	[Sincerely]So, uh, you take that pill to combat Aunt Flow, right?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	I'm sorry about that. I get a little testy at times.	}{	I'm sorry about that. I get a little testy at times.	}{	151	}{	}{	G.Slater_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	My mood was swinging, but now it slides. My apologies.	}
-{	143	}{	Why, you got something to say about it?	}{	Why, you got something to say about it?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	You wish matters to go beyond meager words?	}
+{	140	}{	Niente, me ne vado. A piu' tardi.	}{	Niente, me ne vado. A piu' tardi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
+{	141	}{	Sei tornato, huh? Te l'hanno tirato fuori quel riccio dal sedere?	}{	[Sincerely]So, uh, you take that pill to combat Aunt Flow, right?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Scusami. Ogni tanto mi arrabbio.	}{	Scusami. Ogni tanto mi arrabbio.	}{	151	}{	}{	G.Slater_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	La luna mi stava influenzando, ma ora si e' calmata. Le mie scuse.	}
+{	143	}{	Come mai, hai qualcosa da dire a riguardo?	}{	Come mai, hai qualcosa da dire a riguardo?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	You wish matters to go beyond meager words?	}
 {	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -148,18 +148,18 @@
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	No, that'll have to wait until later. Goodbye.	}{	No, that'll have to wait until later. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am not back, I am gone.	}
-{	151	}{	Not a prob, bro.	}{	Not a prob, bro.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	151	}{	Nessun problema, bro.	}{	Nessun problema, bro.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Che succede da queste parti? Qualcosa di figo o strano?	}{	Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	G.Slater_Exciting == 0	}{	}{	}{	}{	}{	}{	}{	}{	Parlami della citta' delle stelle.	}
 {	153	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
 {	154	}{	Sto cercando una videocassetta.	}{	Sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
-{	155	}{	What exactly is your special?	}{	What exactly is your special?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0	}{	}{	}{	}{	}{	}{	}{	}{	Special? What is so special?	}
-{	156	}{	I'd like to look at your special inventory.	}{	I'd like to look at your special inventory.	}{	0	}{	G.Slater_Weapons == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Special me.	}
+{	155	}{	Cos'e' esattamente questa offerta speciale?	}{	Cos'e' esattamente questa offerta speciale?	}{	81	}{	G.Special_Heard == 1 and G.Slater_Weapons == 0	}{	}{	}{	}{	}{	}{	}{	}{	Speciale? Cosa c'e' di cosi' speciale?	}
+{	156	}{	Vorrei vedere il tuo inventario speciale.	}{	Vorrei vedere il tuo inventario speciale.	}{	0	}{	G.Slater_Weapons == 1	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Specialami.	}
 {	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	Nothing. I'm gone. Later.	}{	Nothing. I'm gone. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
-{	161	}{	[Somewhat shocked]Oh, uh, welcome to Red Spot, home of the Monstro-face, I mean, he he, Monstro-chug, 72 ounces of your favorite beverage for 89.... Dude, I'm sorry, but WHAT is the deal with your mug?!?	}{	[Somewhat shocked]Oh... hoh! Uh, welcome to Red Spot, home of the Monstro-face, I mean, uh, Monstro-chug, 72 ounces of your favorite beverage for... 89.... Damn! I'm sorry, I just can't get over your face, dude!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	It's alright, I get that all the time.	}{	It's alright, I get that all the time.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	160	}{	Niente, me ne vado. A piu' tardi.	}{	Niente, me ne vado. A piu' tardi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
+{	161	}{	Oh, uh, benvenuto al Red Spot, casa della faccia da Mostro, voglio dire, he he, Mostro-chug, 2 litri della tua bevanda preferita per 89.... Fratello, scusami, ma che CAZZO ti e' successo alla faccia?!?	}{	[Somewhat shocked]Oh... hoh! Uh, benvenuta al Red Spot, casa della faccia da Mostro, voglio dire, uh, Mostro-chug, 2 litri della tua bevanda preferita per 89... 89.... Cazzo! Scusa, ma non riesco a non guardare la tua faccia, sorella!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Tranquillo, mi succede sempre.	}{	Tranquillo, mi succede sempre.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	163	}{	I get into a lot of fights, with people who ask me about my face.	}{	I get into a lot of fights, with people who ask me about my face.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -167,9 +167,9 @@
 {	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	I'm outta here. Later.	}{	I'm outta here. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	170	}{	Me ne vado. A piu' tardi.	}{	Me ne vado. A piu' tardi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	171	}{	So... you need face? I mean, uh, my bad - duh, uh, I mean, do you need anything?	}{	So... you need face? I mean, uh, my bad - duh, uh, I mean, do you need anything?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of the city of stars.	}
+{	172	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Parlami della citta' delle stelle.	}
 {	173	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}
 {	174	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	Forse puoi darmi una mano - sto cercando una videocassetta.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	Cerco una videocassetta piena di atrocita' innominabili.	}
 {	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -177,7 +177,7 @@
 {	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	Nope, just looking around. Later.	}{	Nope, just looking around. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need nothing you have. I am gone.	}
+{	180	}{	Nope, just looking around. Later.	}{	Nope, just looking around. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
 {	181	}{	Dude, sorry bro. I did NOT mean to offend you, man. Totally my bad! You need something?	}{	Dude, sorry bro. I did NOT mean to offend you, man. Totally my bad! You need something?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	182	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	Yeah. Si'. Che succede da queste parti? Qualcosa di figo o strano?	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	183	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	Hai sentito qualcosa riguardo a quel serial killer?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -197,9 +197,9 @@
 {	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	Fine. I'm leaving.	}{	Fine. I'm leaving.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then I am no longer here.	}
+{	200	}{	Va bene. Me ne vado.	}{	Va bene. Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then I am no longer here.	}
 {	201	}{	Um... humility? Seriously... you want some orange juice or somethin' to help you come down? Cuz, like, you're wiggin'.	}{	Um... humility? Seriously... you want some orange juice or somethin' to help you come down? Cuz, like, you're wiggin'.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	I seek only the blood of the living.	}{	I seek only the blood of the living.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Cerco solo il sangue dei mortali.	}{	Cerco solo il sangue dei mortali.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	203	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	204	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}{	Il serial killer che cammina per queste strade si e' di nuovo sporcato le mani di sangue?	}{	51	}{	G.Slater_Serial == 0 and pc.GetQuestState("Serial") > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
