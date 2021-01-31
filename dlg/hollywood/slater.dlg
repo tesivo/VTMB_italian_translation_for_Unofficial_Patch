@@ -138,7 +138,7 @@
 {	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	140	}{	Niente, me ne vado. A piu' tardi.	}{	Niente, me ne vado. A piu' tardi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
-{	141	}{	Sei tornato, huh? Te l'hanno tirato fuori quel riccio dal sedere?	}{	Quindi, uh, hai preso quella pillola per combattere il Marchese, giusto?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	Sei tornato, huh? [Sinceramente]Te l'hanno tirato fuori quel riccio dal sedere?	}{	[Sinceramente]Quindi, uh, hai preso quella pillola per combattere il Marchese, giusto?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	142	}{	Scusami. Ogni tanto mi arrabbio.	}{	Scusami. Ogni tanto mi arrabbio.	}{	151	}{	}{	G.Slater_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	La luna mi stava influenzando, ma ora si e' calmata. Le mie scuse.	}
 {	143	}{	Come mai, hai qualcosa da dire a riguardo?	}{	Come mai, hai qualcosa da dire a riguardo?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vuoi che andiamo oltre le mere parole?	}
 {	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -158,7 +158,7 @@
 {	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	Niente, me ne vado. A piu' tardi.	}{	Niente, me ne vado. A piu' tardi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di niente da te. Me ne vado.	}
-{	161	}{	Oh, uh, benvenuto al Red Spot, casa della faccia da Mostro, voglio dire, he he, Mostro-chug, 2 litri della tua bevanda preferita per 89.... Fratello, scusami, ma che CAZZO ti e' successo alla faccia?!?	}{	Oh... hoh! Uh, benvenuta al Red Spot, casa della faccia da Mostro, voglio dire, uh, Mostro-chug, 2 litri della tua bevanda preferita per 89... 89.... Cazzo! Scusa, ma non riesco a non guardare la tua faccia, sorella!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	[Un po' scioccato]Oh, uh, benvenuto al Red Spot, casa della faccia da Mostro, voglio dire, he he, Mostro-chug, 2 litri della tua bevanda preferita per 89.... Fratello, scusami, ma che CAZZO ti e' successo alla faccia?!?	}{	[Un po' scioccato]Oh... hoh! Uh, benvenuta al Red Spot, casa della faccia da Mostro, voglio dire, uh, Mostro-chug, 2 litri della tua bevanda preferita per 89... 89.... Cazzo! Scusa, ma non riesco a non guardare la tua faccia, sorella!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	162	}{	Tranquillo, mi succede sempre.	}{	Tranquillo, mi succede sempre.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	163	}{	Prendo a pugni la gente che mi chiede della mia faccia.	}{	Prendo a pugni la gente che mi chiede della mia faccia.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -219,7 +219,7 @@
 {	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	221	}{	Si'?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	Cosa, bello?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	[Un po' incazzato]Cosa, bello?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	223	}{	Si'.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	224	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	225	}{	Grazie.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -249,9 +249,9 @@
 {	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	251	}{	Vuoi comprare qualcosa? Questa non e' la casa della tua mammina, okay, non diamo via le robe gratis, va bene?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	Lamette, fragole, scorpioni, marshmallow, cianide, impasto dei biscotti - FORMINA DELLA GELATINA DELL'INFERNO!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	253	}{	Ti sculaccio il culo, ti taglio col vetro rotto, ti strozzo finche' non sussulti. Avremo un bambinooooo.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	254	}{	Morte, morte, morte. Spendere, spendere, spendere. Sesso, sesso, sesso. Buona Festa della Mamma!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	[Cantando, death metal]Lamette, fragole, scorpioni, marshmallow, cianide, impasto dei biscotti - FORMINA DELLA GELATINA DELL'INFERNO!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	253	}{	[Cantando, death metal]Ti sculaccio il culo, ti taglio col vetro rotto, ti strozzo finche' non sussulti.[fa suoni di chitarra] Avremo un bambinooooo.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	254	}{	[Cantando, death metal]Morte, morte, morte. Spendere, spendere, spendere. Sesso, sesso, sesso. Buona Festa della Mamma!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	255	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
