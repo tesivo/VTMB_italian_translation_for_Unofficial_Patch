@@ -128,7 +128,7 @@
 {	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Si'. Scusa. Errore mio.	}{	Si'. Scusa. Errore mio.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Samantha_Persuaded = 1; FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	[Triste]Si'. Scusa. Errore mio.[Inizia ad agitarsi, come se stesse per piangere]	}{	[Triste]Si'. Scusa. Errore mio.[Inizia ad agitarsi, come se stesse per piangere]	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	G.Samantha_Persuaded = 1; FindPlayer().ChangeMasqueradeLevel( -1 )	}{	}{	}{	}{	}{	}{	}{	}
 {	132	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
