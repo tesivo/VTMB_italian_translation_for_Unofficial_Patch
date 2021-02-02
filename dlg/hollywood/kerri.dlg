@@ -97,9 +97,9 @@
 {	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	I don't have that kind of green. I'm outta here.	}{	I don't have that kind of green. I'm outta here.	}{	0	}{	}{	G.Kerri_NoBiz = 1	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
-{	101	}{	[frightened]Uh... yeah. Sorry. I don't - I-I-I-I-I-I-I-I-I don't do your kind of... I mean, uh, I-I - yeah... I really n-nnn- I really need to get out of here.... Not feeling too well... maybe Chastity... bye.	}{	[frightened]Uh... yeah. Sorry. I don't - I-I-I-I-I-I-I-I-I don't do your kind of... I mean, uh, I-I - yeah... I really n-nnn- I really need to get out of here.... Not feeling too well... maybe Chastity... bye.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Chastity_Attack = 1 ; G.Kerri_Nos = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	Nobody loves me...	}{	Nobody loves me...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	100	}{	Non ho cosi' tanti soldi. Me ne vado.	}{	Non ho cosi' tanti soldi. Me ne vado.	}{	0	}{	}{	G.Kerri_NoBiz = 1	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
+{	101	}{	[spaventata]Uh...Si'. Scusa. Io non - io - io - io - io - io - io - io - io - io	non faccio quel... Voglio dire, uh, io - io - si'... Veramente, n-non- Devo andarmente da qui... Non mi sento bene... forse Chastity... ciao.}{	[spaventata]Uh...Si'. Scusa. Io non - io - io - io - io - io - io - io - io - io	non faccio quel... Voglio dire, uh, io - io - si'... Veramente, n-non- Devo andarmente da qui... Non mi sento bene... forse Chastity... ciao. }{	#	}{	npc.SetDisposition("Fear", 1)	}{	G.Chastity_Attack = 1 ; G.Kerri_Nos = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Nessuno mi ama...	}{	Nessuno mi ama...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -118,21 +118,21 @@
 {	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	Hey, how ya doin'?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	Yeah?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	123	}{	What do you want?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	Get out of my face.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Ehi, come va?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Si'.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	123	}{	Che vuoi?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{	Vattene da qui.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	125	}{	Mm-hmm.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	Nope.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	Uh, thanks.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	What?!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	What'd you just say to me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	I dunno.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Sorry, can't help you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	Oh. That's cool.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	133	}{	By the way...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	134	}{	Here.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	135	}{	I'll send you an email about it.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	126	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	127	}{	Uh, grazie.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	128	}{	Cosa?!?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	129	}{	Che hai detto?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	130	}{	Non lo so.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	Scusa, non ti posso aiutare.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Oh. Figo.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{	Comunque...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{	Ecco.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	Ti inviero' una email a riguardo.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
