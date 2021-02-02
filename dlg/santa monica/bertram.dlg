@@ -18,7 +18,7 @@
 {	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	21	}{	Sono diventato bravo a capire quando sono ricercato.	}{	Sono diventata brava a capire quando sono ricercato.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Sono diventato bravo a capire quando sono ricercato.	}{	Sono diventata bravo a capire quando sono ricercato.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Sei Bertram Tung?	}{	Tu devi essere Bertram Tung.	}{	11	}{	not IsClan(pc,"Malkavian") and IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	23	}{	Vostra Orripilanza!	}{	Vostra Orripilanza!	}{	811	}{	IsClan(pc,"Malkavian") and IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{	(Auto-Link)	}{	(Auto-Link)	}{	111	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
@@ -38,7 +38,7 @@
 {	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	41	}{	Si e' trattato solo di una stupida relazione politica fra vampiri, novellino, niente di piu'. Ci farai l'abitudine a questo genere di cose.	}{	Si e' trattato solo di una stupida relazione politica fra vampiri, novellino, niente di piu'. Ci farai l'abitudine a questo genere di cose.	}{	#	}{	npc.SetDisposition("apathy",1)	}{	G.Bertram_Feud = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Si e' trattato solo di una stupida relazione politica fra vampiri, novellino, niente di piu'. Ci farai l'abitudine a questo genere di cose.	}{	Si e' trattato solo di una stupida relazione politica fra vampiri, novellina, niente di piu'. Ci farai l'abitudine a questo genere di cose.	}{	#	}{	npc.SetDisposition("apathy",1)	}{	G.Bertram_Feud = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	A me e' sembrata alquanto spietata.	}{	A me e' sembrata alquanto spietata.	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ai miei occhi e' sembrato un diabolico combattimento tra cani.	}
 {	43	}{	Credo che Therese ti voglia morto.	}{	Credo che Therese ti voglia morto.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	La figlia cattiva ti vuole morto.	}
 {	44	}{	Sapevi che Jeanette e Therese fossero la stessa persona?	}{	Sapevi che Jeanette e Therese fossero la stessa persona?	}{	91	}{	G.Bertram_Therette == 0	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che le figlie di Giano condividevano lo stesso corpo?	}
@@ -88,7 +88,7 @@
 {	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	91	}{	[colto alla sprovvista]Uh - avevo i miei sospetti. Che esemplare interessante... ma di certo una spina nel culo.	}{	[colta alla sprovvista]Uh - avevo i miei sospetti. Che esemplare interessante... ma di certo una spina nel culo.	}{	#	}{	npc.SetDisposition("apathy",1)	}{	G.Bertram_Therette = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	[colto alla sprovvista]Uh - avevo i miei sospetti. Che esemplare interessante... ma di certo una spina nel culo.	}{	[colto alla sprovvista]Uh - avevo i miei sospetti. Che esemplare interessante... ma di certo una spina nel culo.	}{	#	}{	npc.SetDisposition("apathy",1)	}{	G.Bertram_Therette = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	92	}{	Sembra piu' essere pericoloso di una spina nel culo.	}{	Sembra piu' essere pericoloso di una spina nel culo.	}{	51	}{	G.Bertram_Vicious == 0	}{		}{		}{		}{		}{		}{		}{		}{	Ai miei occhi e' sembrato un diabolico combattimento tra cani.	}
 {	93	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -278,7 +278,7 @@
 {	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	280	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti lascio ai tuoi bagni di liquami. Addio.	}
-{	281	}{	Hmph. Non interagisco molto con i succhisangue fighettini, ma li ho visti manovrare le persone come burattinai e questo e' formidabile. Pero' potrebbero anche smetterla di impotarsi le chiappe, e usare il loro talento per qualcosa di piu' utile, invece che nutrire costantemente il loro ego.	}{	Hmph. Non interagisco molto con i succhisangue fighettini, ma li ho visti manovrare le persone come burattinai e questo e' formidabile. Pero' potrebbero anche smetterla di impotarsi le chiappe, e usare il loro talento per qualcosa di piu' utile, invece che nutrire costantemente il loro ego.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	281	}{	Hmph. Non interagisco molto con i succhisangue fighettini, ma li ho visti manovrare le persone come burattinai e questo e' formidabile. Pero' potrebbero anche smetterla di impomatarsi le chiappe, e usare il loro talento per qualcosa di piu' utile, invece che nutrire costantemente il loro ego.	}{	Hmph. Non interagisco molto con i succhisangue fighettini, ma li ho visti manovrare le persone come burattinai e questo e' formidabile. Pero' potrebbero anche smetterla di impomatarsi le chiappe, e usare il loro talento per qualcosa di piu' utile, invece che nutrire costantemente il loro ego.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	282	}{	Astute osservazioni, ringrazia che ti trovi in una tana per topi.	}{	Astute osservazioni, ringrazia che ti trovi in una tana per topi.	}{	291	}{	IsClan(pc,"Toreador")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	283	}{	Volevo chiederti una cosa su un altro clan.	}{	Volevo chiederti una cosa su un altro clan.	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Schiariscimi le idee sui clan.	}
 {	284	}{	Volevo chiederti anche qualcosa sulle fazioni.	}{	Volevo chiederti anche qualcosa sulle fazioni.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Puoi aprirmi gli occhi sulle fazioni?	}
@@ -288,7 +288,7 @@
 {	288	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	290	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti lascio ai tuoi bagni di liquami. Addio.	}
-{	291	}{	Risparmiati le minacce Don Giovanni, la tua lingua d'argento potrebbe diventare nera a furio di parlare in questo buco.	}{	Risparmiati le minacce Cleopatra, la tua lingua d'argento potrebbe diventare nera a furio di parlare in questo buco.	}{	#	}{	npc.SetDisposition("anger",3)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	291	}{	Risparmiati le minacce Don Giovanni, la tua lingua d'argento potrebbe diventare nera a furia di parlare in questo buco.	}{	Risparmiati le minacce Cleopatra, la tua lingua d'argento potrebbe diventare nera a furia di parlare in questo buco.	}{	#	}{	npc.SetDisposition("anger",3)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	292	}{	Muoviti. Verme ributtante....	}{	Muoviti. Verme ributtante....	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	293	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	294	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -428,7 +428,7 @@
 {	428	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	429	}{	Ho qualche altra domanda.	}{	Ho qualche altra domanda.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	430	}{	Pace.	}{	Pace.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	431	}{	I cacciatori sono umani che cacciano vampiri. La maggior parte di loro sono dei mezzi bifolchi poveracci, che raccontano anche di essere stati rapiti dagli UFO. I veri cacciatori vengono addestrati dalle societa' segrete, gli ordini sacri della Chiesa esistenti fin dal Medio Evo. Temili.	}{	Hunters: humans who hunt vampires. Most are half-cocked yokels who also say they've been abducted by UFOs. The real hunters are trained by secret societies, holy orders of the church that have existed since the Middle Ages. Fear - them.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	431	}{	I cacciatori sono umani che cacciano vampiri. La maggior parte di loro sono dei mezzi bifolchi poveracci, che raccontano anche di essere stati rapiti dagli UFO. I veri cacciatori vengono addestrati dalle societa' segrete, gli ordini sacri della Chiesa esistenti fin dal Medio Evo. Temili.	}{	I cacciatori sono umani che cacciano vampiri. La maggior parte di loro sono dei mezzi bifolchi poveracci, che raccontano anche di essere stati rapiti dagli UFO. I veri cacciatori vengono addestrati dalle societa' segrete, gli ordini sacri della Chiesa esistenti fin dal Medio Evo. Temili.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	432	}{	Frena... prima hai detto Gehenna?	}{	Frena... prima hai detto Gehenna?	}{	411	}{	not IsClan(pc,"Malkavian") and G.Bertram_Thin == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	433	}{	Pieta' per coloro dal sangue debole e dall'anima mal designata.	}{	Pieta' per coloro dal sangue debole e dall'anima mal designata.	}{	881	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	434	}{	Chi e' Caino?	}{	Chi e' Caino?	}{	421	}{	not IsClan(pc,"Malkavian") and G.Bertram_Generation == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -480,7 +480,7 @@
 {	480	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	481	}{	Cosa dovrei dire? Ora e' lui il capo.	}{	Cosa dovrei dire? Ora e' lui il capo.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	482	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	483	}{	Ah si'? E sul tipo che ha decapitato il mio genitore?	}{	Ah si'? E sul tipo che ha decapitato il mio genitore?	}{	671	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	483	}{	Ah si'? E sul tipo che ha decapitato il mio sire?	}{	Ah si'? E sul tipo che ha decapitato il mio sire?	}{	671	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	484	}{	Vorrei farti una domanda su qualcun altro.	}{	Vorrei farti una domanda su qualcun altro.	}{	691	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	485	}{	Ho qualche altra domanda.	}{	Ho qualche altra domanda.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	486	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -539,7 +539,7 @@
 {	539	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	540	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	541	}{	Sto cercando un CD di dati. Suppongo che sia andato perduto laggiu'. Trovalo per me e ti insegnero' una cosa, o magari due, roba che potrebbe davvero tornarti utile, che te ne pare.	}{	Sto cercando un CD di dati. Suppongo che sia andato perduto laggiu'. Trovalo per me e ti insegnero' una cosa, o magari due, roba che potrebbe davvero tornarti utile, che te ne pare.	}{	#	}{	npc.SetDisposition("neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	542	}{	Mi pare buono.	}{	Mi pare buono.	}{	561	}{		}{		}{		}{		}{		}{		}{		}{		}{	CDvertiremo.	}
+{	542	}{	Per me va bene.	}{	Per me va bene.	}{	561	}{		}{		}{		}{		}{		}{		}{		}{		}{	CDvertiremo.	}
 {	543	}{	Non ho tempo, mi dispiace.	}{	Non ho tempo, mi dispiace.	}{	551	}{		}{		}{		}{		}{		}{		}{		}{		}{	No. Ho meno tempo che cervello.	}
 {	544	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	545	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -680,7 +680,7 @@
 {	680	}{	Me ne vado.	}{	Me ne vado.	}{	661	}{	G.Story_State < 10 and G.Bertram_Ready == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	681	}{	Quegli omicidi sono certamente roba dei Fratelli. Probabilmente qualche Caitiff si e' preso una rivincita su qualcuno che si e' preso gioco di lui al liceo. Appena lo sceriffo lo trovera', gli fara' passare le pene dell'inferno, per dargli una lezione.	}{	Quegli omicidi sono certamente roba dei Fratelli. Probabilmente qualche Caitiff si e' preso una rivincita su qualcuno che si e' preso gioco di lui al liceo. Appena lo sceriffo lo trovera', gli fara' passare le pene dell'inferno, per dargli una lezione.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	682	}{	Caitiff?	}{	Caitiff?	}{	381	}{	not IsClan(pc,"Malkavian")	}{	G.Bertram_Outbound = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	683	}{	Sceriffo? Oh. Intendi quel decerebrato che ha decapitato il mio genitore.	}{	Sceriffo? Oh. Intendi quel decerebrato che ha decapitato il mio genitore.	}{	671	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	683	}{	Sceriffo? Oh. Intendi quel decerebrato che ha decapitato il mio sire.	}{	Sceriffo? Oh. Intendi quel decerebrato che ha decapitato il mio sire.	}{	671	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	684	}{	Caitiff, i cani bastardi.	}{	Caitiff, i cani bastardi.	}{	871	}{	IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	685	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	686	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -748,7 +748,7 @@
 {	748	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	749	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{	G.Story_State >= 10 or G.Bertram_Ready < 2	}{		}{		}{		}{		}{		}{		}{		}{	Stai parlando con qualcuno che non e' piu' qui.	}
 {	750	}{	Me ne vado.	}{	Me ne vado.	}{	661	}{	G.Story_State < 10 and G.Bertram_Ready == 2	}{		}{		}{		}{		}{		}{		}{		}{	Me ne sono gia' andato.	}
-{	751	}{	[disorientato]Oh merda!	}{	[disorientata]Oh merda!	}{	#	}{	npc.SetDisposition("confused",1)	}{	G.Bertram_Pissed = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	751	}{	[disorientato]Oh merda!	}{	[disorientato]Oh merda!	}{	#	}{	npc.SetDisposition("confused",1)	}{	G.Bertram_Pissed = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	752	}{	So tutto del piano che tu e Knox avevate preparato per me.	}{	So tutto del piano che tu e Knox avevate preparato per me.	}{	758	}{	IsClan(pc,"Ventrue")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	753	}{	So tutto del piano che tu e Knox avevate preparato per me.	}{	So tutto del piano che tu e Knox avevate preparato per me.	}{	761	}{	IsClan(pc,"Tremere")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	754	}{	So tutto del piano che tu e Knox avevate preparato per me.	}{	So tutto del piano che tu e Knox avevate preparato per me.	}{	764	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -764,7 +764,7 @@
 {	764	}{	Questo e' parlare! Il clan sara' fiero di te, fratello.	}{	Questo e' parlare! Il clan sara' fiero di te, sorella.	}{	#	}{	npc.SetDisposition("joy",3)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	765	}{	Ho ucciso il vampiro asiatico.	}{	Ho ucciso il vampiro asiatico.	}{	771	}{	G.Knox_Quest > 5	}{	pc.SetQuest("Knox Asian", 6)	}{		}{		}{		}{		}{		}{		}{		}
 {	766	}{	Volevo farti un'altra domanda.	}{	Volevo farti un'altra domanda.	}{	161	}{	G.Knox_Quest < 6	}{	pc.SetQuest("Knox Asian", 5)	}{		}{		}{		}{		}{		}{		}{		}
-{	767	}{	[arrabbiato, era solo una botta e via]Huh. Beh, goditi il momento, pivello.	}{	[arrabbiata, era solo una botta e via]Huh. Beh, goditi il momento, bimba.	}{	#	}{	npc.SetDisposition("anger",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	767	}{	[arrabbiato, era solo una botta e via]Huh. Beh, goditi il momento, pivello.	}{	[arrabbiato, era solo una botta e via]Huh. Beh, goditi il momento, bimba.	}{	#	}{	npc.SetDisposition("anger",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	768	}{	Non ti preoccupare, l'ho fatto comunque.	}{	Non ti preoccupare, l'ho fatto comunque.	}{	771	}{	G.Knox_Quest > 5	}{	pc.SetQuest("Knox Asian", 6)	}{		}{		}{		}{		}{		}{		}{	Ho terminato la mia missione nonostante il tuo brutto tiro.	}
 {	769	}{	Non preoccuparti, non raccontero' a nessuno che sei stato gabbato.	}{	Non preoccuparti, non raccontero' a nessuno che sei stato gabbato.	}{	781	}{	G.Knox_Quest < 6	}{	pc.SetQuest("Knox Asian", 5)	}{		}{		}{		}{		}{		}{		}{	Le mie labbra non proferiranno parola circa la superiorita' della mia mente rispetto alla tua.	}
 {	770	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
