@@ -18,7 +18,7 @@
 {	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	21	}{	Sono diventato bravo a capire quando sono ricercato.	}{	Sono diventata bravo a capire quando sono ricercato.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Sono diventato bravo a capire quando sono ricercato.	}{	Sono diventato bravo a capire quando sono ricercato.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Sei Bertram Tung?	}{	Tu devi essere Bertram Tung.	}{	11	}{	not IsClan(pc,"Malkavian") and IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	23	}{	Vostra Orripilanza!	}{	Vostra Orripilanza!	}{	811	}{	IsClan(pc,"Malkavian") and IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{	(Auto-Link)	}{	(Auto-Link)	}{	111	}{	not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}

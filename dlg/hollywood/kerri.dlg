@@ -20,7 +20,7 @@
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	21	}{	Okay, 200 dollari per 10 minuti. Quello che vuoi - basta che fai in fretta, va bene?	}{	Okay, 200 dollari per 10 minuti. Quello che vuoi - basta che fai in fretta, va bene?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	200 dollari? Per un cliente abituale come me? Che ne dici di un omaggio?	}{	200 dollari? Per una cliente abituale come me? Che ne dici di un omaggio?	}{	11	}{	Persuasion 6	}{	G.Chastity_Attack = 1	}{	}{	}{	}{	}{	}{	}{	Che ne dici di un omaggio per una vecchia conoscenza?	}
-{	23	}{ Che ne dici di 150? Sono tempi duri, sai.	}{	Che ne dici di 150? Sono tempi duri, sai.	}{	31	}{	Haggle 6 & pc.CurrentMoney() >= 150	}{	pc.MoneyRemove( 150 )	}{	}{	}{	}{	}{	}{	}{	Il numero 150 mi suona meglio.	}
+{	23	}{  Che ne dici di 150? Sono tempi duri, sai.	}{	Che ne dici di 150? Sono tempi duri, sai.	}{	31	}{	Haggle 6 & pc.CurrentMoney() >= 150	}{	pc.MoneyRemove( 150 )	}{	}{	}{	}{	}{	}{	}{	Il numero 150 mi suona meglio.	}
 {	24	}{	Va bene. Ecco qui i soldi.	}{	Va bene. Ecco qui i soldi.	}{	31	}{	pc.CurrentMoney() >= 200	}{	pc.MoneyRemove( 200 )	}{	}{	}{	}{	}{	}{	}{	Prendi il tuo verde.	}
 {	25	}{	Non ho abbastanza soldi ora.	}{	Non ho abbastanza soldi ora.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Le mie tasche sono vuote come la mia testa.	}
 {	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
