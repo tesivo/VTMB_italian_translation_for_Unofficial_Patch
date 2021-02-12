@@ -180,7 +180,7 @@
 {	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	181	}{	Potrei uscire fuori, ora, un bagliore di gloria. La fine. E sai cosa? Sapendolo... non mi importa. E credo che l'unica ragione per cui non sono ancora uscito e' perche' sto cercando di capire il perche' questo non mi importa!	}{	Potrei uscire fuori, ora, un bagliore di gloria. La fine. E sai cosa? Sapendolo... non mi importa. E credo che l'unica ragione per cui non sono ancora uscito e' perche' sto cercando di capire il perche' questo non mi importa!	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Ash_Hunters = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	182	}{	Forse posso aiutarti.	}{	Forse posso aiutarti.	}{	261	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi stai chiedendo aiuto, anche se non capisco bene.	}
-{	183	}{	Non sei preoccupato su cosa ne penserebbe Isaac?	}{	Non sei preoccupato su cosa ne penserebbe Isaac?	}{	191	}{	G.Isaac_Ash >= 1 or G.Velvet_Ash >= 1	}{		}{		}{		}{		}{		}{		}{		}{	Ah, vuoi danneggiare il tuo signore facendo uscire il suo sangue dentro di te?	}
+{	183	}{	Non sei preoccupato su cosa ne penserebbe Isaac?	}{	Non sei preoccupato su cosa ne penserebbe Isaac?	}{	191	}{	G.Isaac_Ash >= 1 or G.Velvet_Ash >= 1	}{	G.Isaac_Worry = 1	}{		}{		}{		}{		}{		}{		}{		}{	Ah, vuoi danneggiare il tuo signore facendo uscire il suo sangue dentro di te?	}
 {	184	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	185	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
