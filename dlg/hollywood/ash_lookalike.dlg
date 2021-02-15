@@ -1,253 +1,253 @@
-{	1	}{	Do I know you?	}{	Hey there! Haven't I seen you in here before?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Hey, aren't you Ash?!?	}{	Hey, aren't you Ash?!?	}{	11	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	You're a star - I could see you burning bright from across the bar.	}
-{	3	}{	Hey, aren't you Ash?!?	}{	Hey, aren't you Ash?!?	}{	21	}{	Seduction -5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	You're a star - I could see you burning bright from across the bar.	}
-{	4	}{	Hey, aren't you Ash?!? You are so hot!	}{	Hey, aren't you Ash?!? You are so hot!	}{	21	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Oh, it's Ash! I just want to climb your stature and funny touch your talent.	}
-{	5	}{	I need your clothes.	}{	I need your clothes.	}{	231	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	You are a snake. Shed your skin.	}{	You are a snake. Shed your skin.	}{	231	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	You are a snake. Shed your skin.	}
-{	7	}{	I'm doing this new game show where we give people cash for doing crazy things.	}{	I'm doing this new game show where we give people cash for doing crazy things.	}{	191	}{	Persuasion 4 & G.Al_Persuade == 0	}{	}{	}{	}{	}{	}{	}{	}{	Big money! Big prizes! All yours if you take my challenge. Look at the camera!	}
-{	8	}{	I work for a game show. If you give me your clothes, I'll give you... uh, a prize?	}{	I work for a game show. If you give me your clothes, I'll give you... uh, a prize?	}{	201	}{	Persuasion -4 & G.Al_Persuade == 0	}{	}{	}{	}{	}{	}{	}{	}{	For your clothes, I shall give you money... it's a game!	}
-{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	10	}{	Sorry to bother you. Goodbye.	}{	Sorry to bother you. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Uh... yeah, I'm Ash, I'm just trying to keep a low profile. Fans, you know.	}{	Uh... yeah, I'm Ash, I'm just trying to keep a low profile. Fans, you know.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	Can I have your autograph?	}{	Can I have your autograph?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sign my face!	}
-{	13	}{	Do that line from Negative Zero.... Oh, I love that line. You know which one.	}{	Do that line from Negative Zero.... Oh, I love that line. You know which one.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want to hear the words you said to me on the silver screen... please.	}
-{	14	}{	Oh... I am such a big fan of yours. Oh, my gosh!	}{	Oh... I am such a big fan of yours. Oh, my gosh!	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	You are the only reason I exist anymore. Oh... MY... GOSH!	}
-{	15	}{	I got the results of the paternity test back and, well... congratulations, Daddy!	}{	I got the results of the paternity test back and, well... congratulations, Daddy!	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am the proud vehicle of your love baby!	}
-{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	[Disgusted]Uh... no. Sorry, I-I think you've confused me for someone else.	}{	[Disgusted]Uh... no. Sorry, I-I think you've confused me for someone else.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Al_Offend = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	You look just like him. Would you mind taking off your clothes for me?	}{	You look just like him. Would you mind taking off your clothes for me?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shed your skin, he who is not Ash, but is.	}
-{	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	27	}{	My mistake. Goodbye.	}{	My mistake. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am confused, more so than usual. I am no longer here.	}
-{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	[Utterly disgusted]Aww... eww... I'm not that drunk. Yikes!	}{	[Utterly disgusted]Aww... eww... I'm not that drunk. Yikes!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Al_Offend = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	...	}{	...	}{	0	}{	G.Ash_Switch == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	33	}{	I need your clothes. Give them to me.	}{	I need your clothes. Give them to me.	}{	41	}{	Intimidate -3	}{	}{	}{	}{	}{	}{	}{	}{	Become as the day you were born and give me what you shed.	}
-{	34	}{	I need your clothes. Give them to me.	}{	I need your clothes. Give them to me.	}{	61	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	Become as the day you were born and give me what you shed.	}
-{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Get lost, fun-boy. What kind of place do you think this is?	}{	Beat it, skank. I don't get sweaty with bar trash.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	Alright, alright. I'm going. Bye.	}{	Alright, alright. I'm going. Bye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will leave you with yourself. I am no longer here.	}
-{	43	}{	You'll be begging for a piece of this after two more shots of Jager. See you later.	}{	You'll be begging for a piece of this after two more shots of Jager. See you later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will haunt you as soon as I leave your sight. You will see. I am gone.	}
-{	44	}{	What'd you call me?	}{	What'd you call me?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	I take offense like a pauper's worth - poor.	}
-{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	51	}{	You heard me. Just walk on that way and don't even think of hitting me - I will sue you so fast, it'll be like ninja lawsuit, HOO-HAH!	}{	You heard me. Just walk on that way and don't even think of hitting me - I will sue you so fast, it'll be like ninja lawsuit, HOO-HAH!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	That's it.... YOU'RE DEAD!	}{	That's it.... YOU'RE DEAD!	}{	0	}{	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}
-{	53	}{	You're lucky I don't feel like getting my clothes bloody. Goodbye.	}{	You're lucky I don't feel like getting my clothes bloody. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I do not feel like wearing your blood today. Lucky. I am gone.	}
-{	54	}{	Did you enjoy life? You've got a few seconds left to get your kicks.	}{	Did you enjoy life? You've got a few seconds left to get your kicks.	}{	0	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	I eat lawyers for breakfast. Also doctors, firemen, and schoolchildren. Bye.	}
-{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	61	}{	Whoa, back up! What the hell do you want my clothes for?	}{	Whoa, back up! What the hell do you want my clothes for?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	62	}{	I want you to give your clothes to the real Ash.	}{	I want you to give your clothes to the real Ash.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	You must really become Ash and he you.	}
-{	63	}{	Either you take them off or I will.	}{	Either you take them off or I will.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will make you shed with fear, snake.	}
-{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	What am I supposed to wear?	}{	What am I supposed to wear?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	72	}{	You see that guy over there? You get to wear his clothes.	}{	You see that guy over there? You get to wear his clothes.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	You will become Ash and no longer be a pretender.	}
-{	73	}{	You'll be wearing a black eye if you don't do what I say.	}{	You'll be wearing a black eye if you don't do what I say.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	You will wear the scars of my impatience if you don't do my bidding.	}
-{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	This is crazy... this is... this is.... Aw, I knew I should've gone to Glaze tonight. [Scared]Alright, I'll do it. What do you want me to do?	}{	This is crazy... this is... this is.... Aw, I knew I should've gone to Glaze tonight. [Scared]Alright, I'll do it. What do you want me to do?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Ash_Switch = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Go wait in the men's bathroom. Change clothes with the guy who looks like you.	}{	Go wait in the men's bathroom. Change clothes with the guy who looks like you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Enter the men's bathroom. Become the man who is your twin.	}
-{	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	Sorry, doll. No autographs.	}{	Sorry, doll. No autographs.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Will you buy me a few drinks? I mean, it IS your bar.	}{	Will you buy me a few drinks? I mean, it IS your bar.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shower me with imported spirits to show you care.	}
-{	93	}{	Ash, I'm such a big fan.	}{	Ash, I'm such a big fan.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am a big, big, big, big, big fan of yours.	}
-{	94	}{	Do that line... you know, from Negative Zero. I love that line.	}{	Do that line... you know, from Negative Zero. I love that line.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want to hear the words you said to me on the silver screen... please!	}
-{	95	}{	Who are you calling doll, I'm really a guy.	}{	Who are you calling doll, I'm really a guy.	}{	31	}{	}{	G.Ash_Switch = 4	}{	}{	}{	}{	}{	}{	}{	Doll? You should play doctor and examine me, I think you're in for a surprise.	}
-{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	Oh, do you? [Nervous, fumbling]Umm.... Every time... y-you come in here... uh, you look... uh wai- wai- wait wait, I got it, you look at that picture on the wall and you say, "I gotta go there sometime". Every time! But you never go. And every time, I gotta hear it.	}{	Oh, do you? [Nervous, fumbling]Umm.... Every time... y-you come in here... uh, you look... uh wai- wai- wait wait, I got it, you look at that picture on the wall and you say, "I gotta go there sometime". Every time! But you never go. And every time, I gotta hear it.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	That sounds a lot different than the way you did it in the movie.	}{	That sounds a lot different than the way you did it in the movie.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	You sounded differently on the screen. And you were much taller, too.	}
-{	103	}{	Go on... that scene always turns me on.	}{	Go on... that scene always turns me on.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	If you stop now, I will cease to exist.	}
-{	104	}{	Wow, you totally suck in person. What a turnoff.	}{	Wow, you totally suck in person. What a turnoff.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are you part machete? Hack, hack, hack....	}
-{	105	}{	Oh, Ash. I'm one of your biggest fans.	}{	Oh, Ash. I'm one of your biggest fans.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am a big, big, big, big, big fan of yours.	}
-{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	111	}{	Really? How big?	}{	Really? How big?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	I have all your posters, and your movies and clippings of your hair. I love you.	}{	I have all your posters, and your movies and clippings of your hair. I love you.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want you to crawl inside my eye so that I'm always looking at you.	}
-{	113	}{	I love Negative Zero. Do that line, from the end. I love that line.	}{	I love Negative Zero. Do that line, from the end. I love that line.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	I want to hear the words you said to me on the silver screen... please!	}
-{	114	}{	I tattooed your face on my back... and other places.	}{	I tattooed your face on my back... and other places.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have tattooed your face all over my secret places.	}
-{	115	}{	I named my first six kids Ash.	}{	I named my first six kids Ash.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	All my many offspring answer to Ash.	}
-{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	121	}{	What?!? Oh, no, sorry... when I said I was Ash, that was like a... what do you call it... lie. I'm not him. I'm definitely not Ash. Hit the road, psycho-bitch.	}{	What?!? Oh, no, sorry... when I said I was Ash, that was like a... what do you call it... lie. I'm not him. I'm definitely not Ash. Hit the road, psycho-bitch.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Ash_Switch = 4	}{	}{	}{	}{	}{	}{	}{	}
-{	122	}{	I'll do.	}{	I'll do.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am gone.	}
-{	123	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	124	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	131	}{	Why don't you just say, "the hell with all of this" and just get on a ship someday, some big ocean liner and... uh, go there. A- th- you know, I was just thinking, maybe I could do a private show back at your place.	}{	Why don't you just say, "the hell with all of this" and just get on a ship someday, some big ocean liner and... uh, go there. A- th- you know, I was just thinking, maybe I could do a private show back at your place.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	If it's going to be that bad, forget it.	}{	If it's going to be that bad, forget it.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Please, no more.... I've done nothing to you!	}
-{	133	}{	Okay. But first I need you to do something for me.	}{	Okay. But first I need you to do something for me.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have a favor you must say "yes" to.	}
-{	134	}{	My old man's going to be so excited. We've never had a threesome with a star.	}{	My old man's going to be so excited. We've never had a threesome with a star.	}{	31	}{	}{	G.Ash_Switch = 4	}{	}{	}{	}{	}{	}{	}{	I'll start boiling the wax and laying out the scalpels.	}
-{	135	}{	Cool. But try not to wake my parents. They're still mad at me for getting expelled.	}{	Cool. But try not to wake my parents. They're still mad at me for getting expelled.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will save the fluids of our love in a plastic bag.	}
-{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	141	}{	Maybe I'd be a little better some place less noisy... like your apartment, for instance.	}{	Maybe I'd be a little better some place less noisy... like your apartment, for instance.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	142	}{	The bus station? It's really noisy there.	}{	The bus station? It's really noisy there.	}{	41	}{	}{	G.Ash_Switch = 4	}{	}{	}{	}{	}{	}{	}{	It's quiet as a ghost in the abandoned building I call home.	}
-{	143	}{	Well, as long as we don't wake my kids, it should be quiet.	}{	Well, as long as we don't wake my kids, it should be quiet.	}{	41	}{	}{	G.Ash_Switch = 4	}{	}{	}{	}{	}{	}{	}{	I'll give the babies cough syrup to secure our silence.	}
-{	144	}{	Okay. But first I need you to do something for me.	}{	Okay. But first I need you to do something for me.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have a favor you must say "yes" to first.	}
-{	145	}{	I can't believe I'm dating Ash. Finally, a man who can pay off my college loans.	}{	I can't believe I'm dating Ash. Finally, a man who can pay off my college loans.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Our love will know no boundaries, once you've settled my credit card debts.	}
-{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	And what would that be?	}{	And what would that be?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	I need you to exchange clothes with someone.	}{	I need you to exchange clothes with someone.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	You must become someone else for me.	}
-{	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	161	}{	What?!? Why?	}{	What?!? Why?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	162	}{	Do you want to go home with me or not?	}{	Do you want to go home with me or not?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can satisfy myself just as easily alone....	}
-{	163	}{	I didn't tell you to talk, slave.	}{	I didn't tell you to talk, slave.	}{	41	}{	}{	G.Ash_Switch = 4	}{	}{	}{	}{	}{	}{	}{	Now that we are as one, you will be the ears and I will be the mouth.	}
-{	164	}{	Look, if we're going to be dating, you're going to have to do what I tell you.	}{	Look, if we're going to be dating, you're going to have to do what I tell you.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I couldn't hear you - I was listening to the voices in my head.	}
-{	165	}{	It would just make me so hot if you were dressed like my brother.	}{	It would just make me so hot if you were dressed like my brother.	}{	31	}{	}{	G.Ash_Switch = 4	}{	}{	}{	}{	}{	}{	}{	I want to dress you up like the pretty plaything you are.	}
-{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	171	}{	Okay, okay. Where should we do this?	}{	Okay, okay. Where should we do this?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	172	}{	Wait in the men's bathroom. Change clothes with the guy who looks like you.	}{	Wait in the men's bathroom. Change clothes with the guy who looks like you.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Enter the men's bathroom. Become the man who is your twin.	}
-{	173	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	174	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	That's pretty kinky... but hey, whatever gets you going.	}{	That's pretty kinky... but hey, whatever gets you going.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	182	}{	Oh, just you wait. Bye for now.	}{	Oh, just you wait. Bye for now.	}{	0	}{	}{	G.Ash_Switch = 2	}{	}{	}{	}{	}{	}{	}{	Kinky is for later, where I'll see you.	}
-{	183	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	184	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	185	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	191	}{	Cash? What do I have to do?	}{	Cash? What do I have to do?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Al_Persuade = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	192	}{	Have you ever taken any art photographs?	}{	Have you ever taken any art photographs?	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will bind your eyes and you must swallow what I place in your mouth.	}
-{	193	}{	Just switch clothes with one of our celebrity contestants.	}{	Just switch clothes with one of our celebrity contestants.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	You will become a celebrity for a night, and they you.	}
-{	194	}{	You lend us your car for one hour and we'll give you $500.	}{	You lend us your car for one hour and we'll give you $500.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Give me your car keys and I will give you one hundred Mr. Lincolns.	}
-{	195	}{	We drop you off in a remote part of the world and you find your way back.	}{	We drop you off in a remote part of the world and you find your way back.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will give you objects and you will tell me if they are hot or not.	}
-{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	O-ho-oh, no. Fool me once, shame on you; fool me twice, shame on me.	}{	O-ho-oh, no. Fool me once, shame on you; fool me twice, shame on me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	202	}{	Hey, aren't you Ash?!?	}{	Hey, aren't you Ash?!?	}{	11	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	You are a star! I saw you burning brightly across the bar.	}
-{	203	}{	Hey, aren't you Ash?!?	}{	Hey, aren't you Ash?!?	}{	21	}{	Seduction -5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	You are a star! I saw you burning brightly across the bar.	}
-{	204	}{	Hey, aren't you Ash?!? You are so hot!	}{	Hey, aren't you Ash?!? You are so hot!	}{	21	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	Oh, it's Ash! I just want to climb your stature and funny touch your talent.	}
-{	205	}{	I need your clothes.	}{	I need your clothes.	}{	231	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	206	}{	You are a snake. Shed your skin.	}{	You are a snake. Shed your skin.	}{	231	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	You are a snake. Shed your skin.	}
-{	207	}{	I need your clothes. Give them to me.	}{	I need your clothes. Give them to me.	}{	41	}{	Intimidate -3	}{	}{	}{	}{	}{	}{	}{	}{	Become as the day you were born and give me what you shed.	}
-{	208	}{	I need your clothes. Give them to me.	}{	I need your clothes. Give them to me.	}{	61	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	Become as the day you were born and give me what you shed.	}
-{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	211	}{	Sure, I can do that. I thought you were going to make me eat a tarantula or stick a worm up my nose.	}{	Sure, I can do that. I thought you were going to make me eat a tarantula or stick a worm up my nose.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	Go to the bathroom and switch clothes with our celebrity Ash. He'll pay you.	}{	Go to the bathroom and switch clothes with our celebrity Ash. He'll pay you.	}{	0	}{	}{	G.Ash_Switch = 2	}{	}{	}{	}{	}{	}{	}{	Enter the men's bathroom. Become the man who is your twin. Ask for his wallet.	}
-{	213	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	221	}{	[Disgusted]Yikes! Is there a carnival in town?	}{	[Disgusted]Yikes! Is there a carnival in town?	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	222	}{	Hey, aren't you Ash?!?	}{	Hey, aren't you Ash?!?	}{	11	}{	Seduction 5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	223	}{	Hey, aren't you Ash?!?	}{	Hey, aren't you Ash?!?	}{	21	}{	Seduction -5 & not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	224	}{	Hey, aren't you Ash?!? You are so hot!	}{	Hey, aren't you Ash?!? You are so hot!	}{	21	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	225	}{	I need your clothes.	}{	I need your clothes.	}{	231	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	226	}{	You are a snake. Shed your skin.	}{	You are a snake. Shed your skin.	}{	231	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	227	}{	I'm doing this new game show where we give people cash for doing crazy things.	}{	I'm doing this new game show where we give people cash for doing crazy things.	}{	191	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	228	}{	I work for a game show. If you give me your clothes, I'll give you... uh, a prize?	}{	I work for a game show. If you give me your clothes, I'll give you... uh, a prize?	}{	201	}{	Persuasion -4	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	230	}{	Sorry to bother you. Goodbye.	}{	Sorry to bother you. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	Okay, here you go.	}{	Okay, here you go.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	232	}{	Wait. Not here. Go to the bathroom. Change clothes with Ash. Walk out.	}{	Wait. Not here. Go to the bathroom. Change clothes with Ash. Walk out.	}{	0	}{	}{	G.Ash_Switch = 2	}{	}{	}{	}{	}{	}{	}{	Enter the men's bathroom. Become the man who is your twin.	}
-{	233	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	235	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	240	}{	Yeah?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	Stewardess! One more for the thirsty gentleman in seat 3B!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	242	}{	Maybe you're familiar with my work - the crowd shot in that commercial for Friggin' Chicken? Background zombie in Zombie Montessori? I'm tellin' you, any day - boom! - I'm big.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	243	}{	Who keeps playing this song? Damn, man, get a new CD.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	244	}{	I'm a lock to play Chris Flint's sidekick's mechanic in the new Lieutenant Von Vengeance movie.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	245	}{	Hypothetical question time: Do you think it would be... okay to sleep with a producer... if he would give you a part in his next movie?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	246	}{	[Scream of pain, throes of death]AAAHHH! Ah... ah... ah....	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	250	}{	(Starting Condition)	}{	}{	41	}{	G.Al_Offend == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	(Starting Condition)	}{	}{	41	}{	G.Ash_Switch == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	(Starting Condition)	}{	}{	221	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	253	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Ti conosco per caso?	}{	Hey ciao! Non ti ho gia' vista qui prima di ora?	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	2	}{	Hey, non sei Ash?!?	}{	Hey, non sei Ash?!?	}{	11	}{	Seduction 5 & not pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{	Sei una stella - posso vederlo dalla tua scia luminosa.	}
+{	3	}{	Hey, non sei Ash?!?	}{	Hey, non sei Ash?!?	}{	21	}{	Seduction -5 & not pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{	Sei una stella - posso vederlo dalla tua scia luminosa.	}
+{	4	}{	Hey, non sei Ash?!? Sei cosi' bono!	}{	Hey, non sei Ash?!? Sei cosi' bono!	}{	21	}{	pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{	Oh, e' Ash! Voglio arrivare a te e toccarti dappertutto!	}
+{	5	}{	Ho bisogno dei tuoi panni.	}{	Ho bisogno dei tuoi panni.	}{	231	}{	Dominate 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	6	}{	Sei un serpente. Cambia pelle.	}{	Sei un serpente. Cambia pelle.	}{	231	}{	Dementation 3	}{		}{		}{		}{		}{		}{		}{		}{	Sei un serpente. Cambia pelle.	}
+{	7	}{	Sto facendo questo nuovo show dove diamo alle persone dei soldi per fare cose pazze.	}{	Sto facendo questo nuovo show dove diamo alle persone dei soldi per fare cose pazze.	}{	191	}{	Persuasion 4 & G.Al_Persuade == 0	}{		}{		}{		}{		}{		}{		}{		}{	Tanti soldi! Grandi premi! Tutti tuoi se accetti la mia sfida. Guarda la telecamera!	}
+{	8	}{	Lavoro per un nuvo show. Se mi dai i tuoi panni, ti daro'... uh, un premio?	}{	Lavoro per un nuvo show. Se mi dai i tuoi panni, ti daro'... uh, un premio?	}{	201	}{	Persuasion -4 & G.Al_Persuade == 0	}{		}{		}{		}{		}{		}{		}{		}{	Per i tuoi panni, ti daro' dei soldi... e' un gioco!	}
+{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	10	}{	Scusa di averti disturbato. Addio.	}{	Scusa di averti disturbato. Addio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	Uh... si, sono Ash, sto cercando di tenere un profilo basso. Fan, lo sai.	}{	Uh... si, sono Ash, sto cercando di tenere un profilo basso. Fan, lo sai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Posso avere un tuo autografo?	}{	Posso avere un tuo autografo?	}{	91	}{		}{		}{		}{		}{		}{		}{		}{		}{	Autografa la mia faccia!	}
+{	13	}{	Fai quella scena in Negative Zero.... Oh, adoro quella scena. Tu sai quale!	}{	Fai quella scena in Negative Zero.... Oh, adoro quella scena. Tu sai quale!	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Voglio ascoltare le parole che mi hai detto sul schermo... ti prego.	}
+{	14	}{	Oh... sono un tuo grande fan. Oh, mio dio!	}{	Oh... sono una tua grande fan. Oh, mio dio!	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sei l'unica ragione per cui esisto. Oh... MIO... DIO!	}
+{	15	}{	Ho i risultato del test di paternita' e, beh... congratulazioni, Papa'!	}{	Ho i risultato del test di paternita' e, beh... congratulazioni, Papa'!	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un degno mezzo del tuo amore baby!	}
+{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	[Disgustato]Uh...no. Mi dispiace, Io-Io penso che mi hai confuso con qualcun'altro.	}{	[Disgustato]Uh...no. Mi dispiace, Io-Io penso che mi hai confuso con qualcun'altro.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Al_Offend = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	22	}{	Ma somigli molto a lui. Ti dispiacerebbe toglierti i vestiti per me?	}{	Ma somigli molto a lui. Ti dispiacerebbe toglierti i vestiti per me?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Cambia pelle, chi non e' Ash, ma lo e'.	}
+{	23	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	27	}{	Errore mio. Addio.	}{	Errore mio. Addio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono confuso, piu' del normale. Vado via.	}
+{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	[Completamente disgustato]Aww... eww... non sono cosi' ubriaco. Yikes!	}{	[Completamente disgustato]Aww... eww... non sono cosi' ubriaco. Yikes!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Al_Offend = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	32	}{	...	}{	...	}{	0	}{	G.Ash_Switch == 4	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	33	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	41	}{	Intimidate -3	}{		}{		}{		}{		}{		}{		}{		}{	Diventa come il giorno in cui sei nato e dammi la tua pelle.	}
+{	34	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	61	}{	Intimidate 3	}{		}{		}{		}{		}{		}{		}{		}{	Diventa come il giorno in cui sei nato e dammi la tua pelle.	}
+{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Fanculo, frocio. Che tipo di posto pensi che sia?	}{	Fanculo, lesbia. Non mi ubriaco per un po' di spazzatura del bar.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	42	}{	Ok, ok. Vado. Addio.	}{	Ok, ok. Vado. Addio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti lascio da solo. Vado via.	}
+{	43	}{	Implorerai per un pezzo di questo dopo due o piu' bicchieri di Jager. Ci vediamo dopo.	}{	Implorerai per un pezzo di questo dopo due o piu' bicchieri di Jager. Ci vediamo dopo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti daro' la caccia appena ti perdero' di vista. Mi vedrai. Ora vado.	}
+{	44	}{	Come mi chiameresti?	}{	Come mi chiameresti?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi offendo come i beni di un povero - stronzo.	}
+{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Mi hai sentito. Cammina lungo quella via e non pensare di colpirmi - ti citero' in causa cosi' velocemente, sara' come un avvocato ninja, HOO-HAH!	}{	Mi hai sentito. Cammina lungo quella via e non pensare di colpirmi - ti citero' in causa cosi' velocemente, sara' come un avvocato ninja, HOO-HAH!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	52	}{	Va bene.... SEI MORTO!	}{	Va bene.... SEI MORTO!	}{	0	}{		}{	npc.SetDisposition("Fear", 1)	}{		}{		}{		}{		}{		}{		}{		}
+{	53	}{	Sei fortunato non voglio sporcarmi i panni di sangue. Addio.	}{	Sei fortunato non voglio sporcarmi i panni di sangue. Addio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non voglio vestirmi del tuo sangue oggi. Sei fortunato. Vado via.	}
+{	54	}{	Ti sei divertito nella vita? Ti rimangono solo un paio di secondi.	}{	Ti sei divertito nella vita? Ti rimangono solo un paio di secondi.	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Mangio avvocati a colazione. Anche dottori, vigili del fuoco e scolaretti. Addio.	}
+{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	Whoa, aspetta! A cosa diavolo ti servono i miei panni?	}{	Whoa, aspetta! A cosa diavolo ti servono i miei panni?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	62	}{	Voglio dare i tuoi panni al vero Ash.	}{	Voglio dare i tuoi panni al vero Ash.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devi diventare Ash e lui te.	}
+{	63	}{	O lo farai tu o lo faro' io.	}{	O lo farai tu o lo faro' io.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti faro' cambiare pelle con la paura, serpente.	}
+{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	71	}{	E cosa dovrei indossare?	}{	E cosa dovrei indossare?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	72	}{	Vedi quel ragazzi li' in fondo? Vestirai i suoi panni.	}{	Vedi quel ragazzi li' in fondo? Vestirai i suoi panni.	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Diventerai Ash e non sarai piu' un fantoccio.	}
+{	73	}{	Indosserai un occhio nero se non fai cio' che ti dico.	}{	Indosserai un occhio nero se non fai cio' che ti dico.	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Indosserai le cicatrici della mia impazienza se non fai quello che ti dico.	}
+{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	Questa cosa e' strana... e'... e'.... Aw, lo sapevo che dovevo andare al Glaze stanotte. [Spaventato]Va bene, lo faro'. Cosa vuoi che faccia?	}{	Questa cosa e' strana... e'... e'.... Aw, lo sapevo che dovevo andare al Glaze stanotte. [Spaventato]Va bene, lo faro'. Cosa vuoi che faccia?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Ash_Switch = 2	}{		}{		}{		}{		}{		}{		}{		}
+{	82	}{	Vai e aspetta nel bagno degli uomini. Cambiati i panni con il ragazzo che ti assomiglia.	}{	Vai e aspetta nel bagno degli uomini. Cambiati i panni con il ragazzo che ti assomiglia.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vai nel bagno degli uomini. Diventa l'uomo che ti e' gemello.	}
+{	83	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	85	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	91	}{	Scusa, bambola. Niente autografi.	}{	Scusa, bambola. Niente autografi.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	92	}{	Mi pagheresti un paio di drink? Intendo, questo E' il tuo bar.	}{	Mi pagheresti un paio di drink? Intendo, questo E' il tuo bar.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mostra che ci tieni a me.	}
+{	93	}{	Ash, sono un tuo grande fan!	}{	Ash, sono una tua grande fan!	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un tuo grande, grande, grande, grande, grande fan.	}
+{	94	}{	Fai quella scena in Negative Zero.... Oh, adoro quella scena. Tu sai quale!	}{	Fai quella scena in Negative Zero.... Oh, adoro quella scena. Tu sai quale!	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Voglio ascoltare le parole che mi hai detto sul schermo... ti prego.	}
+{	95	}{	A chi stai chiamando bambola, sono un ragazzo veramente.	}{	A chi stai chiamando bambola, sono un ragazzo veramente.	}{	31	}{		}{	G.Ash_Switch = 4	}{		}{		}{		}{		}{		}{		}{	Bambola? Dovresti giocare al dottore ed esaminarmi, penso che riceverai una sorpresa.	}
+{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	101	}{	Oh, tu? [Nervoso, annaspando]Umm... Ogni volta... che tu vieni qui... uh, sembri... uh asp- asp- aspetta aspetta, me la ricordo ora, guardi quel ritratto sul muro e dici, "Devo andare li' qualche volta". Ogni volta! Ma non ci vai mai. E ogni volta, devo sentirlo.	}{	Oh, tu? [Nervoso, annaspando]Umm... Ogni volta... che tu vieni qui... uh, sembri... uh asp- asp- aspetta aspetta, me la ricordo ora, guardi quel ritratto sul muro e dici, "Devo andare li' qualche volta". Ogni volta! Ma non ci vai mai. E ogni volta, devo sentirlo.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	102	}{	Suona molto differente dal modo in cui lo facevi nel film.	}{	Suona molto differente dal modo in cui lo facevi nel film.	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Era molto differente dal film. Ed eri anche piu' alto.	}
+{	103	}{	Vai avanti... quella scena mi fa sempre eccitare.	}{	Vai avanti... quella scena mi fa sempre eccitare.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se ti fermi ora, cessero' di esistere.	}
+{	104	}{	Wow, fai veramente schifo di persona. Che delusione.	}{	Wow, fai veramente schifo di persona. Che delusione.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Stai facendo la parte di un machete? ...	}
+{	105	}{	Oh, Ash. Sono un tuo grandissimo fan.	}{	Oh, Ash. Sono un tuo grandissimo fan.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un tuo grande, grande, grande, grande, grande fan.	}
+{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	111	}{	Veramente? Quanto grande?	}{	Veramente? Quanto grande?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	112	}{	Ho tutti i tuoi poster, e i tuoi film e ho anche una ciocca dei tuoi capelli. Ti amo.	}{	Ho tutti i tuoi poster, e i tuoi film e ho anche una ciocca dei tuoi capelli. Ti amo.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	I want you to crawl inside my eye so that I'm always looking at you.	}
+{	113	}{	Adoro Negative Zero. Fai quella scena, dalla fine. Adoro quella scena.	}{	Adoro Negative Zero. Fai quella scena, dalla fine. Adoro quella scena.	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Voglio ascoltare le parole che mi hai detto sul schermo... ti prego.	}
+{	114	}{	Ho tatuato la tua faccia sul mio culo...  e in altri posti.	}{	Ho tatuato la tua faccia sul mio culo...  e in altri posti.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho tatuato la tua faccia in tutti i miei posti segreti.	}
+{	115	}{	Ho chiamato i miei primi sei figli Ash.	}{	Ho chiamato i miei primi sei figli Ash.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tutti i miei piccolini si chiamano Ash.	}
+{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	121	}{	Cosa?!? Oh, no, scusa... quando ho detto che ero Ash, era un... come lo chiameresti... una bugia. Non sono lui. Non sono assolutamente Ash. Vai per la tua strada, psycho-puttana.	}{	Cosa?!? Oh, no, scusa... quando ho detto che ero Ash, era un... come lo chiameresti... una bugia. Non sono lui. Non sono assolutamente Ash. Vai per la tua strada, psycho-puttana.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Ash_Switch = 4	}{		}{		}{		}{		}{		}{		}{		}
+{	122	}{	Lo faro'.	}{	Lo faro'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono andato via.	}
+{	123	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	124	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	131	}{	Perche' semplicemente non lo dici, "l'inferno con tutto questo" e sali a bordo di una nave un giorno, una nave da crociera e... uh, vai li'. A- C- lo sai, stavo pensando che, forse potrei fare uno show privato a casa tua.	}{	Perche' semplicemente non lo dici, "l'inferno con tutto questo" e sali a bordo di una nave un giorno, una nave da crociera e... uh, vai li'. A- C- lo sai, stavo pensando che, forse potrei fare uno show privato a casa tua.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	132	}{	Se fa cosi' schifo, scordatelo.	}{	Se fa cosi' schifo, scordatelo.	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti prego, basta.... non ti ho fatto nulla!	}
+{	133	}{	Okay, ma prima devi fare una cosa per me.	}{	Okay, ma prima devi fare una cosa per me.	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho una favore alla quale dovrai dire di si.	}
+{	134	}{	Il mio vecchio sara' eccitato. Non abbiamo fatto una cosa a tre con una star.	}{	Il mio vecchio sara' eccitato. Non abbiamo fatto una cosa a tre con una star.	}{	31	}{		}{	G.Ash_Switch = 4	}{		}{		}{		}{		}{		}{		}{	Incomincero' a bollire la cera e a prendere i bisturi.	}
+{	135	}{	Bene. Ma cerca di non svegliare i miei genitori. Sono ancora arrabbiati per essermi fatto espellere.	}{	Bene. Ma cerca di non svegliare i miei genitori. Sono ancora arrabbiati per essermi fatta espellere.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Salvero' i fluidi del tuo amore in una sacca di plastica.	}
+{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	141	}{	Forse sarei un pochino meglio in qualche posto meno rumoroso... come il tuo appartamento, per esempio.	}{	Forse sarei un pochino meglio in qualche posto meno rumoroso... come il tuo appartamento, per esempio.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{	La stazione del bus? E' molto rumorosa!	}{	La stazione del bus? E' molto rumorosa!	}{	41	}{		}{	G.Ash_Switch = 4	}{		}{		}{		}{		}{		}{		}{	E' tranquilla come un fantasma nella costruzione abbandonata che chiamo casa.	}
+{	143	}{	Beh, affinche' non svegliamo i bambini, dovrebbe essere tranquillo.	}{	Beh, affinche' non svegliamo i bambini, dovrebbe essere tranquillo.	}{	41	}{		}{	G.Ash_Switch = 4	}{		}{		}{		}{		}{		}{		}{	Daro' qualche sostanza per assicurarmi che i bambini non facciano casino.	}
+{	144	}{	Okay, ma prima devi fare una cosa per me.	}{	Okay, ma prima devi fare una cosa per me.	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho una favore alla quale dovrai dire di si.	}
+{	145	}{	Non ci posso credere esco con Ash. Finalmente, un uomo che puo' pagare i miei prestiti per il college.	}{	Non ci posso credere esco con Ash. Finalmente, un uomo che puo' pagare i miei prestiti per il college.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il nostro amore non avra' confini, una volta che avrai ripagato i debiti della mia carta di credito.	}
+{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	151	}{	E cosa sarebbe?	}{	E cosa sarebbe?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	152	}{	Devi scambiare i tuoi vestiti con qualcuno.	}{	Devi scambiare i tuoi vestiti con qualcuno.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devi diventare qualcun'altro per me.	}
+{	153	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	154	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	155	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	161	}{	Cosa?!? Perche'?	}{	Cosa?!? Perche'?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	162	}{	Vuoi andare a casa con me o no?	}{	Vuoi andare a casa con me o no?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso soddisfarmi anche da solo....	}
+{	163	}{	Non ti ho detto di parlare, schiavo.	}{	Non ti ho detto di parlare, schiavo.	}{	41	}{		}{	G.Ash_Switch = 4	}{		}{		}{		}{		}{		}{		}{	Ora che siamo un'unica cosa, tu sarai le orecchie e io la bocca.	}
+{	164	}{	Guarda, se vogliamo concludere questo appuntamento, dovrai fare quello che ti dico.	}{	Guarda, se vogliamo concludere questo appuntamento, dovrai fare quello che ti dico.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non potevo sentirti - stavo ascoltando le voci nella mia testa.	}
+{	165	}{	Mi farebbe eccitare se ti vestissi come mio fratello.	}{	Mi farebbe eccitare se ti vestissi come mio fratello.	}{	31	}{		}{	G.Ash_Switch = 4	}{		}{		}{		}{		}{		}{		}{	Voglio vestirti come il giocattolino che sei.	}
+{	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	Okay, okay. Dove dovremmo farlo?	}{	Okay, okay. Dove dovremmo farlo?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	172	}{	Vai e aspetta nel bagno degli uomini. Cambiati i panni con il ragazzo che ti assomiglia.	}{	Vai e aspetta nel bagno degli uomini. Cambiati i panni con il ragazzo che ti assomiglia.	}{	181	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vai nel bagno degli uomini. Diventa l'uomo che ti e' gemello.	}
+{	173	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	174	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	175	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	181	}{	E' una cosa un po' strana... ma hey, qualunque cosa per te.	}{	E' una cosa un po' strana... ma hey, qualunque cosa per te.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	182	}{	Oh, tu aspetta soltanto. Ciao per ora.	}{	Oh, tu aspetta soltanto. Ciao per ora.	}{	0	}{		}{	G.Ash_Switch = 2	}{		}{		}{		}{		}{		}{		}{	Strano e' per dopo, dove ti vedro'.	}
+{	183	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	184	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	185	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	Denaro? Cosa devo fare?	}{	Denaro? Cosa devo fare?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Al_Persuade = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	192	}{	Ti hanno mai fatto delle foto artistiche?	}{	Ti hanno mai fatto delle foto artistiche?	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti bendero' gli occhi e dovrai ingoiare cio' che ti mettero' in bocca.	}
+{	193	}{	Scambia i panni con una delle nostre celebrita' concorrenti.	}{	Scambia i panni con una delle nostre celebrita' concorrenti.	}{	211	}{		}{		}{		}{		}{		}{		}{		}{		}{	Diventeranno una celebrita' per una notte, e loro te.	}
+{	194	}{	Dacci in prestito la tua macchina per un'ora e ti daremo $500.	}{	Dacci in prestito la tua macchina per un'ora e ti daremo $500.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dammi le chiavi della tua auto e ti daro' un centone.	}
+{	195	}{	Ti catapultiamo in una sperduta parte del mondo e dovrai trovare la strada di ritorno.	}{	Ti catapultiamo in una sperduta parte del mondo e dovrai trovare la strada di ritorno.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti daro' degli oggetti e mi dirai se sono caldi o no.	}
+{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	197	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	201	}{	O-ho-oh, no. Fregami una volta, vergogna su di te; fregami due volte, vergogna su di me.	}{	O-ho-oh, no. Fregami una volta, vergogna su di te; fregami due volte, vergogna su di me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	202	}{	Hey, non sei Ash?!?	}{	Hey, non sei Ash?!?	}{	11	}{	Seduction 5 & not pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{	Sei una stella! Ho visto la tua luminosita' da fuori il bar.	}
+{	203	}{	Hey, non sei Ash?!?	}{	Hey, non sei Ash?!?	}{	21	}{	Seduction -5 & not pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{	Sei una stella! Ho visto la tua luminosita' da fuori il bar.	}
+{	204	}{	Hey, non sei Ash?!? Sei cosi' bono!	}{	Hey, non sei Ash?!? Sei cosi' bono!	}{	21	}{	pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{	Oh, e' Ash! Voglio arrivare a te e toccarti dappertutto!	}
+{	205	}{	Ho bisogno dei tuoi vestiti.	}{	Ho bisogno dei tuoi vestiti.	}{	231	}{	Dominate 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	206	}{	Sei un serpente. Togliti la pelle.	}{	Sei un serpente. Togliti la pelle.	}{	231	}{	Dementation 3	}{		}{		}{		}{		}{		}{		}{		}{	Sei un serpente. Togliti la pelle.	}
+{	207	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	41	}{	Intimidate -3	}{		}{		}{		}{		}{		}{		}{		}{	Diventa come il giorno in cui sei nato e dammi la tua pelle.	}
+{	208	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	Ho bisogno dei tuoi vestiti. Dammeli.	}{	61	}{	Intimidate 3	}{		}{		}{		}{		}{		}{		}{		}{	Diventa come il giorno in cui sei nato e dammi la tua pelle.	}
+{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	211	}{	Sicuro, posso farlo. Pensavo che stavi per farmi mangiare una tarantola o darmi un pugno sul naso.	}{	Sicuro, posso farlo. Pensavo che stavi per farmi mangiare una tarantola o darmi un pugno sul naso.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	212	}{	Vai in bagno e scambia i panni con la nostra celebrita' Ash. Ti paghera'.	}{	Vai in bagno e scambia i panni con la nostra celebrita' Ash. Ti paghera'.	}{	0	}{		}{	G.Ash_Switch = 2	}{		}{		}{		}{		}{		}{		}{	Entra nel bagno degli uomini. Diventa l'uomo che ti e' gemello. Chiedi il suo portafogli.	}
+{	213	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	214	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	215	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	221	}{	[Disgustato]Yikes! E' un carnevale in citta'?	}{	[Disgustato]Yikes! E' un carnevale in citta'?	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	222	}{	Hey, non sei Ash?!?	}{	Hey, non sei Ash?!?	}{	11	}{	Seduction 5 & not pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	223	}{	Hey, non sei Ash?!?	}{	Hey, non sei Ash?!?	}{	21	}{	Seduction -5 & not pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	224	}{	Hey, non sei Ash?!? Sei cosi' bono!	}{	Hey, non sei Ash?!? Sei cosi' bono!	}{	21	}{	pc.IsMale()	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	225	}{	Ho bisogno dei tuoi vestiti.	}{	Ho bisogno dei tuoi vestiti.	}{	231	}{	Dominate 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	226	}{	Sei un serpente. Muta la pelle.	}{	Sei un serpente. Muta la pelle.	}{	231	}{	Dementation 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	227	}{	Sto facendo questo nuovo show dove diamo alle persone dei soldi per fare cose pazze.	}{	Sto facendo questo nuovo show dove diamo alle persone dei soldi per fare cose pazze.	}{	191	}{	Persuasion 4	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	228	}{	Lavoro per un nuvo show. Se mi dai i tuoi panni, ti daro'... uh, un premio?	}{	Lavoro per un nuvo show. Se mi dai i tuoi panni, ti daro'... uh, un premio?	}{	201	}{	Persuasion -4	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	230	}{	Scusa di averti disturbato. Addio.	}{	Scusa di averti disturbato. Addio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	231	}{	Okay, vai.	}{	Okay, vai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	232	}{	Aspetta. Non qui. Vai in bagno. Scambi i panni con Ash. Cammina.	}{	Aspetta. Non qui. Vai in bagno. Scambi i panni con Ash. Cammina.	}{	0	}{		}{	G.Ash_Switch = 2	}{		}{		}{		}{		}{		}{		}{	Entra nel bagno degli uomini. Diventa l'uomo che ti e' gemello.	}
+{	233	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	234	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	235	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	240	}{	Si?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	241	}{	Cameriera! Un altro per quel signore seduto al 3B!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	242	}{	Forse tu sei familiare con il mio lavoro - la folla si butta in quel commerciale per Friggin' Chicken? Sfondo di Zombie Montessori? Ti sto dicendo, qualunque giorno - boom! Sono un grande.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	243	}{	Chi continua a suonare questa canzone? Dannazione, amico, compra un nuovo CD.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	244	}{	Sono una certezza assoluta per interpretare il ruolo del miglior amico del meccanico Chris Flint nel nuovo film del luogotenente Von Vengeance.	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	245	}{	Ecco un'ipotetica domanda: Pensi che sarebbe... okay andare a dormire con un produttore... se ti darebbe una parte nel suo prossimo film?	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	246	}{	[Urla di dolore, morte in arrivo]AAAHHH! Ah... ah... ah....	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	247	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	250	}{	(Starting Condition)	}{		}{	41	}{	G.Al_Offend == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	(Starting Condition)	}{		}{	41	}{	G.Ash_Switch == 4	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	(Starting Condition)	}{		}{	221	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	253	}{	(Starting Condition)	}{		}{	1	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
