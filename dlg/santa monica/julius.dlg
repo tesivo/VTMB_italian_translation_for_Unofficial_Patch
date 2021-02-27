@@ -30,7 +30,7 @@
 {	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	31	}{	C-c-c-c-cosa v-v-v-vuoi?	}{	C-c-c-c-cosa v-v-v-vuoi?	}{	#	}{	npc.SetDisposition("Fear", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Sei Julius?	}{	Sei Julius?	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sei Cesare?	}
-{	33	}{	Conosci un certo David Hatter?	}{	Conosci un certo David Hatter?	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Conosci il Cappellaio Matto?	}
+{	33	}{	Conosci un certo David Hatter?	}{	Conosci un certo David Hatter?	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Conosci il Pazzo Hatter?	}
 {	34	}{	Fottutto traditore!	}{	Maledetto traditore!	}{	41	}{	Humanity -8	}{		}{		}{		}{		}{		}{		}{		}{	Ti porto nell'oscurita' perenne della morte!	}
 {	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

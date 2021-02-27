@@ -36,5 +36,5 @@ Si prega di uscire dal gioco e trovarlo nella directory principale del gioco. Mo
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
 		"Font"		"Trebuchet"
-}
+	}
 }

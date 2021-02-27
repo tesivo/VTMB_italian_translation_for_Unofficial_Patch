@@ -49,7 +49,6 @@ L'uso dell'Animalita' e' una violazione della Masquerade se vista in azione."
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
-
 		"Font"		"Trebuchet"
 	}
 }

@@ -33,7 +33,6 @@ Lo Scarabeo Scavatore invia un mistico scarabeo che mangia la carne dei tuoi nem
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
-
 		"Font"		"Trebuchet"
 	}
 }

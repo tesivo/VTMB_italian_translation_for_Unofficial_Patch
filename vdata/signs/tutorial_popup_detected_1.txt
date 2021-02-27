@@ -33,7 +33,6 @@ Fatti strada lungo le zone scure e sotto copertura."
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
-
 		"Font"		"Trebuchet"
 	}
 }

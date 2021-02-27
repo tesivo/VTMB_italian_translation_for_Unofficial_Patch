@@ -34,7 +34,6 @@ La guardia sara' distratta da uno stormo di mistici corvi. Quindi puoi camminare
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
-
 		"Font"		"Trebuchet"
 	}
 }
