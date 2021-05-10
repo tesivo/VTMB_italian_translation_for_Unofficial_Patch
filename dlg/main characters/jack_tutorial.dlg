@@ -548,7 +548,7 @@
 {	548	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	549	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	550	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	551	}{	[lentamente si trasformano in risate]S'i succhia-topi. [ride]Ehi, non mi importa cosa fai, ma - giusto che tu lo sappia - i fratelli "civili" ti guardano dall'alto quando fai queste cose.	}{	[lentamente si trasformano in risate]S'i succhia-topi. [ride]Ehi, non mi importa cosa fai, ma - giusto che tu lo sappia - i fratelli "civili" ti guardano dall'alto quando fai queste cose.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	551	}{	[lentamente si trasformano in risate]Si' succhia-topi. [ride]Ehi, non mi importa cosa fai, ma - giusto che tu lo sappia - i fratelli "civili" ti guardano dall'alto quando fai queste cose.	}{	[lentamente si trasformano in risate]Si' succhia-topi. [ride]Ehi, non mi importa cosa fai, ma - giusto che tu lo sappia - i fratelli "civili" ti guardano dall'alto quando fai queste cose.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	552	}{	Pfft. Possono essere civili e passarmi il sale per i ratti!	}{	Pfft. Possono essere civili e passarmi il sale per i ratti!	}{	571	}{		}{		}{	}{	}{	}{	}{	}{	}{	L'etichetta richiede che loro mi passino il sale per la festa dei roditori!	}
 {	553	}{	Dopo averne assaggiato uno, non li biasimo.	}{	Dopo averne assaggiato uno, non li biasimo.	}{	571	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	554	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -898,7 +898,7 @@
 {	898	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	899	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	900	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	901	}{	Primo, la Masquerade: sentirai un sacco di cose su di lei, quindi te lo spieghero' molto brevemente. Sicuro, sei un vampiro. Grande. Ma tienitelo per te, ok? E' piu' facile cosi', fidati. Quella e' la Masquerade� tenere segreti i segreti dei vampiri. Facile, no? Facile un cazzo.	}{	Primo, la Masquerade: sentirai un sacco di cose su di lei, quindi te lo spieghero' molto brevemente. Sicuro, sei un vampiro. Grande. Ma tienitelo per te, ok? E' piu' facile cosi', fidati. Quella e' la Masquerade� tenere segreti i segreti dei vampiri. Facile, no? Facile un cazzo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	901	}{	Primo, la Masquerade: sentirai un sacco di cose su di lei, quindi te lo spieghero' molto brevemente. Sicuro, sei un vampiro. Grande. Ma tienitelo per te, ok? E' piu' facile cosi', fidati. Quella e' la Masquerade, tenere segreti i segreti dei vampiri. Facile, no? Facile un cazzo.	}{	Primo, la Masquerade: sentirai un sacco di cose su di lei, quindi te lo spieghero' molto brevemente. Sicuro, sei un vampiro. Grande. Ma tienitelo per te, ok? E' piu' facile cosi', fidati. Quella e' la Masquerade, tenere segreti i segreti dei vampiri. Facile, no? Facile un cazzo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	902	}{	(Auto-Link)	}{	(Auto-Link)	}{	906	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	903	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	904	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
