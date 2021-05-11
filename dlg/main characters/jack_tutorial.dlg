@@ -288,7 +288,7 @@
 {	288	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	289	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	290	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Stai indietro.	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
+{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attenzione. Stai indietro.	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attenzione. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
 {	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	293	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	294	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
