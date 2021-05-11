@@ -4,9 +4,9 @@
 {	4	}{	Questa traduzione e' opera del gruppo amatoriale "Tir Evolution" formato da: Marino "Rz3zN1k" Pezzatini, Simona "*|$imona|* " Maiorano, Giovanna "Lolacorre" e Kelvan.	}{	Questa traduzione e' opera del gruppo amatoriale "Tir Evolution" formato da: Marino "Rz3zN1k" Pezzatini, Simona "*|$imona|* " Maiorano, Giovanna "Lolacorre" e Kelvan.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	5	}{	Rendo grazie al team e al suo enorme sforzo!!!	}{	Rendo grazie al team e al suo enorme sforzo!!!	}{	7	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	6	}{	Grazie, ma si poteva fare in meno tempo.	}{	Grazie, ma si poteva fare in meno tempo.	}{	7	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	7	}{	Questa traduzione e' stata revisionata da tesivo, se incontri dei bug nella traduzione, segnalameli!	}{	Questa traduzione e' stata revisionata da tesivo, se incontri dei bug nella traduzione, segnalameli!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	7	}{	Questa traduzione e' stata revisionata da tesivo, se incontri dei bug nella traduzione, segnalali!	}{	Questa traduzione e' stata revisionata da tesivo, se incontri dei bug nella traduzione, segnalali!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	8	}{	Grazie per aver aggiornato la traduzione della unofficial patch.	}{	Grazie per aver aggiornato la traduzione della unofficial patch.	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	9	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	9	}{	Grazie, ma si poteva fare in meno tempo.	}{	Grazie, ma si poteva fare in meno tempo.	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	10	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	11	}{	[ride di qualcosa che nessun altro pensa sia divertente]Che spettacolo, amico! Ti hanno buttato qui proprio come un bambino nudo nella foresta. Non e' vero? Senti, ragazzo, probabilmente e' troppo per te, quindi perche' non lasci che ti spieghi come funziona. Cosa ne dici?	}{	[ride di qualcosa che nessun altro pensa sia divertente]Che spettacolo, amica! Ti hanno buttato qui proprio come una bambina nuda nella foresta. Non e' vero? Senti, ragazza, probabilmente e' troppo per te, quindi perche' non lasci che ti spieghi come funziona. Cosa ne dici?	}{	#	}{	G.Story_State = -3	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	12	}{	Chi sei?	}{	Chi sei?	}{	21	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -258,7 +258,7 @@
 {	258	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	259	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	260	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	261	}{	Oh... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, Cristo, speravo di sparagnarti questa merda per dopo. Uh, i Sabbat... bhe, eh, sono gli stronzi piu' pazzi tra i succhiasangue - questo e' tutto cio' che hai bisogno di sapere per ora, ok?	}{	Oh... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, Cristo, speravo di sparagnarti questa merda per dopo. Uh, i Sabbat... bhe, eh, sono gli stronzi piu' pazzi tra i succhiasangue - questo e' tutto cio' che hai bisogno di sapere per ora, ok?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	261	}{	Oh... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, Cristo, speravo di tenerti questa merda per dopo. Uh, i Sabbat... bhe, eh, sono gli stronzi piu' pazzi tra i succhiasangue - questo e' tutto cio' che hai bisogno di sapere per ora, ok?	}{	Oh... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, Cristo, speravo di tenerti questa merda per dopo. Uh, i Sabbat... bhe, eh, sono gli stronzi piu' pazzi tra i succhiasangue - questo e' tutto cio' che hai bisogno di sapere per ora, ok?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	262	}{	Quindi cosa succede?	}{	Quindi cosa succede?	}{	271	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dove conduce questo passaggio?	}
 {	263	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	264	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -288,7 +288,7 @@
 {	288	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	289	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	290	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Stai indietro.	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
+{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attento. Stai indietro.	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attenta. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
 {	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	293	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	294	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
