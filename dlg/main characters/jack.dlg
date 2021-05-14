@@ -699,7 +699,7 @@
 {	699	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	700	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	701	}{	[miscredente, tieni l'enfasi su toro]Ahh cazzate, amico. Tu credi di aver visto Nines.	}{	[miscredente, tieni l'enfasi su toro]Ahh cazzate. Tu credi di aver visto Nines.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	702	}{	Forse gli somigliava soltanto! Non lo so.   }{	Forse gli somigliava soltanto! Non lo so.	}{	721	}{		}{	G.Jack_Faction = G.Jack_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Il velo della pazzia e' spesso misterioso.	}
+{	702	}{	Forse gli somigliava soltanto! Non lo so.	}{	Forse gli somigliava soltanto! Non lo so.	}{	721	}{		}{	G.Jack_Faction = G.Jack_Faction + 1	}{		}{		}{		}{		}{		}{		}{	Il velo della pazzia e' spesso misterioso.	}
 {	703	}{	So cio' che ho visto!	}{	So cio' che ho visto!	}{	721	}{		}{	G.Jack_Faction = G.Jack_Faction - 1	}{		}{		}{		}{		}{		}{		}{	I miei occhi non raccontano menzogne.	}
 {	704	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	705	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

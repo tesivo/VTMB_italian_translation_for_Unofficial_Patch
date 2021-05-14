@@ -33,7 +33,7 @@
 {	33	}{	Posso convincerti ad aiutarmi? Mi hanno rubato il portafogli.	}{	Posso convincerti ad aiutarmi? Mi hanno rubato il portafogli.	}{	41	}{	Persuasion -4	}{		}{		}{		}{		}{		}{		}{		}{	Posso convincerti a fornirmi i fondi che recentemente mi hanno rubato?	}
 {	34	}{	Pensi di potermi prestare qualche spicciolo? Al momento sono un po' a terra.	}{	Pensi di potermi prestare qualche spicciolo? Al momento sono un po' a terra.	}{	71	}{	Intimidate 3	}{		}{		}{		}{		}{		}{		}{		}{	La fortuna ti sorride. Dividerai le tue ricompense. ORA.	}
 {	35	}{	Cerchi un po' di compagnia?	}{	Cerchi un po' di compagnia?	}{	61	}{	Seduction 4	}{	G.Smblue_Seduced = 1	}{		}{		}{		}{		}{		}{		}{	Forse possiamo fare una dolce passeggiata cittadina.	}
-{	36	}{	Cerchi un po' di compagnia?	}{	Cerchi un po' di compagnia?	}{	131	}{	Seduction -4	}{		}{		}{		}{		}{		}{		}{		}{	Forse possiamo fare una dolce passeggiata cittadina.    }
+{	36	}{	Cerchi un po' di compagnia?	}{	Cerchi un po' di compagnia?	}{	131	}{	Seduction -4	}{		}{		}{		}{		}{		}{		}{		}{	Forse possiamo fare una dolce passeggiata cittadina.	}
 {	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
