@@ -1012,10 +1012,10 @@
 {	1012	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1013	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1014	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo - vuoi un aiuto o cosa?    }{    Non preoccuparti, ragazzo, ti abituerai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo, vuoi una mano o no?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1016	}{	Ok. Mi farebbe comodo un po' d'aiuto.    }{    Ok. Mi farebbe comodo un po' d'aiuto.	}{	81	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Mi sottoporro' alla vostra oscura tutela.	}
+{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo - vuoi un aiuto o cosa?   }{	Non preoccuparti, ragazzo, ti abituerai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo, vuoi una mano o no?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1016	}{	Ok. Mi farebbe comodo un po' d'aiuto.   }{	Ok. Mi farebbe comodo un po' d'aiuto.	}{	81	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Mi sottoporro' alla vostra oscura tutela.	}
 {	1017	}{	Non ho molto tempo... dammi solo le basi.	}{	Non ho molto tempo... dammi solo le basi.	}{	891	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Spiegami le basi.	}
-{	1018	}{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.    }{    Non ho bisogno dell'aiuto di nessuno. Me ne vado.	}{	1023	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida per questo sentiero oscuro. Lasciatemi.	}
+{	1018	}{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.   }{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.	}{	1023	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida per questo sentiero oscuro. Lasciatemi.	}
 {	1019	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1020	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1021	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1030,7 +1030,7 @@
 {	1030	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1031	}{	Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuto, ragazzo!	}{	Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuta, ragazza!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1032	}{	Che divertente. Ci vediamo.	}{	Che divertente. Ci vediamo.	}{	0	}{		}{	LeaveTutorialShort()	}{	}{	}{	}{	}{	}{	}{	Il tuo humor e' di merda. Vado via.	}
-{	1033	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.    }{    E' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' buffo. Non sono piu' qui perche' chiudero' gli occhi quando il sole splende.	}
+{	1033	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	E' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' buffo. Non sono piu' qui perche' chiudero' gli occhi quando il sole splende.	}
 {	1034	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1035	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1036	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}

@@ -78,7 +78,7 @@
 {	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	81	}{	Lo comprero', lo comprero'! Devo procurarmi i soldi. Torna tra un po'.	}{	Lo comprero', lo comprero'! Devo procurarmi i soldi. Torna tra un po'.	}{	#	}{	npc.SetDisposition("Neutral",  1)	}{	G.Copper_Quest = 1		}{		}{		}{		}{		}{		}{		}{		}
+{	81	}{	Lo comprero', lo comprero'! Devo procurarmi i soldi. Torna tra un po'.	}{	Lo comprero', lo comprero'! Devo procurarmi i soldi. Torna tra un po'.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Copper_Quest = 1		}{		}{		}{		}{		}{		}{		}{		}
 {	82	}{	Si', potrei anche trovare delle gomme da masticare speciali per erodere le zanne.	}{	Si', potrei anche trovare delle gomme da masticare speciali per erodere le zanne.	}{	0	}{	G.Patch_Plus == 1	}{ pc.SetQuest("Copper", 1)	}{	}{	}{	}{	}{	}{	}{	Potrei anche produrre della gomma speciale per abbattere i denti.	}
 {	83	}{	Lo faro'.	}{	Lo faro'.	}{	0	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Andata e ritorno.	}
 {	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

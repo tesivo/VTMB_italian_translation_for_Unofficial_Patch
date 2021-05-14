@@ -1,7 +1,7 @@
 {	1	}{	Buonasera, neonato... Isaac Abrams. Ti stavo aspettando. Sembra che i soldatini della Camarilla si spostano un po’ troppo queste notti. Quel principe infantile e doppia-faccia di LaCroix deve dirmi qualcosa?	}{	Buonasera, neonata... Isaac Abrams. Ti stavo aspettando. Sembra che i soldatini della Camarilla si spostano un po’ troppo queste notti. Quel principe infantile e doppia-faccia di LaCroix deve dirmi qualcosa?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Dillo tu a me. Uno dei tuoi scagnozzi mi ha portato qui.	}{	Dillo tu a me. Uno dei tuoi scagnozzi mi ha portato qui.	}{	11	}{	not IsDead("Sweeper") and G.Sweeper_Met == 1	}{	}{	}{	}{	}{	}{	}{	}{	Il tuo messaggero mi ha portato nella tua direzione.	}
 {	3	}{	Sto cercando il Nosferatu.	}{	Sto cercando il Nosferatu.	}{	361	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	4	}{	Io sono la sua bocca.	}{	Io sono la sua bocca.	}{	11	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{   Io sono la sua bocca.	}
+{	4	}{	Io sono la sua bocca.	}{	Io sono la sua bocca.	}{	11	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Io sono la sua bocca.	}
 {	5	}{	Il principe LaCroix mi ha mandato qui....e questo e’ tutto cio’ che devi sapere.	}{	Il principe LaCroix mi ha mandato qui....e questo e’ tutto cio’ che devi sapere.	}{	91	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	6	}{	Dillo tu a me. Uno dei tuoi scagnozzi mi ha portato qui, poi l’ho ucciso.	}{	Dillo tu a me. Uno dei tuoi scagnozzi mi ha portato qui, poi l’ho ucciso.	}{	131	}{	IsDead("Sweeper") and G.Sweeper_Met == 1	}{	}{	}{	}{	}{	}{	}{	}{	Il tuo messaggero mi ha portato nella tua direzione, poi e’ morto.	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -32,7 +32,7 @@
 {	32	}{	Parole dure. Mi chiedo se hai i muscoli per sostenerle.	}{	Parole dure. Mi chiedo se hai i muscoli per sostenerle.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	Le tue parole incutono timore, ma sono dette dalla paura?	}
 {	33	}{	La tua politica non mi interessa. Voglio solo sbrigare i miei affari.	}{	La tua politica non mi interessa. Voglio solo sbrigare i miei affari.	}{	81	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	34	}{	Va bene. Beh, meglio se me ne vado ora.	}{	Va bene. Beh, meglio se me ne vado ora.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tu hai rilasciato le tue parole, e ora io rilascio me stesso.	}
-{	35	}{       Dove sono fuggiti tutti i ratti di fogna?	}{       Dove sono fuggiti tutti i ratti di fogna?	}{	931	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Dove sono fuggiti tutti i ratti di fogna?	}
+{	35	}{	Dove sono fuggiti tutti i ratti di fogna?	}{	Dove sono fuggiti tutti i ratti di fogna?	}{	931	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Dove sono fuggiti tutti i ratti di fogna?	}
 {	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -53,7 +53,7 @@
 {	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	54	}{	Sono qui per vedere il paesaggio.	}{	Sono qui per vedere il paesaggio.	}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	55	}{	Diciamo che sono qui per affari.	}{	Diciamo che sono qui per affari.	}{	81	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{       Dove sono fuggiti tutti i ratti di fogna?	}{       Dove sono fuggiti tutti i ratti di fogna?	}{	931	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	Dove sono fuggiti tutti i ratti di fogna?	}{	Dove sono fuggiti tutti i ratti di fogna?	}{	931	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -120,7 +120,7 @@
 {	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	121	}{	Di’ pure che sono vecchio stile, ma questo e’ il mio baronato, e come da tradizione, bisogna pagare un simbolo di rispetto.	}{	Di’ pure che sono vecchio stile, ma questo e’ il mio baronato, e come da tradizione, bisogna pagare un simbolo di rispetto.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	Capisco. Quindi cosa vuoi?	}{	Capisco. Quindi cosa vuoi?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ti sto ascoltando...	}
-{	123	}{	Scordatelo. Non ti pago un cazzo.	}{	Scordatelo. Non ti pago un cazzo.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ti daro’ tutto quello che c’e’ nelle mie tasche.  Nulla.	}
+{	123	}{	Scordatelo. Non ti pago un cazzo.	}{	Scordatelo. Non ti pago un cazzo.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ti daro’ tutto quello che c’e’ nelle mie tasche. Nulla.	}
 {	124	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -211,7 +211,7 @@
 {	211	}{	Vai al cafe’ internet Ground Zero, cerca una cartella chiamata “Josefk” e inserisci la password “Kafka”. Troverai un’email che ti specifichera’ un luogo vicino. Incontra il contatto, prendi l’oggetto, e torna. Non e’ troppo difficile, vero?	}{	Vai al cafe’ internet Ground Zero, cerca una cartella chiamata “Josefk” e inserisci la password “Kafka”. Troverai un’email che ti specifichera’ un luogo vicino. Incontra il contatto, prendi l’oggetto, e torna. Non e’ troppo difficile, vero?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Tribute = 1; pc.SetQuest("Courier",1)	}{	}{	}{	}{	}{	}{	}{	}
 {	212	}{	I'll head over immediately. Poi parleremo del mio problema.	}{	I'll head over immediately. Poi parleremo del mio problema.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	Spariro’ e riappariro’ con l’oggetto in mano. Poi, le mie domanda avranno una risposta.	}
 {	213	}{	Lo faro’. Ma prima ho delle domande.	}{	Lo faro’. Ma prima ho delle domande.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lo faro’. Ma prima, la mia mente ha delle domande.	}
-{      214     }{	Ti piace, non e’ vero? Trattare le persone come burattini.	}{	Ti piace, non e’ vero? Trattare le persone come burattini.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	A voi anziani piacciono i guinzagli, vero?	}
+{	214 }{	Ti piace, non e’ vero? Trattare le persone come burattini.	}{	Ti piace, non e’ vero? Trattare le persone come burattini.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	A voi anziani piacciono i guinzagli, vero?	}
 {	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -240,9 +240,9 @@
 {	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	241	}{	Ci sara’ tempo dopo per le domande. Ti spieghero’ tutto quando tornerai.	}{	Ci sara’ tempo dopo per le domande. Ti spieghero’ tutto quando tornerai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Question = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	243	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	331	}{	G.Isaac_Leave == 0     }{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
+{	243	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	331	}{	G.Isaac_Leave == 0	}{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
 {	244	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	245	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	0	}{	G.Isaac_Leave == 1     }{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
+{	245	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	0	}{	G.Isaac_Leave == 1	}{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
 {	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

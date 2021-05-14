@@ -100,6 +100,6 @@
 {	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	101	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	102	}{	(Starting Condition)	}{	}{	51	}{	IsClan(pc,"Nosferatu") and G.TinCanBill_Nos == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	103	}{	(Starting Condition)	}{	    }{	76	}{	IsClan(pc,"Nosferatu") and G.TinCanBill_Nos == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	104	}{	(Starting Condition)	}{		}{	71	}{	G.TinCanBill_Know == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	105	}{	(Starting Condition)	}{	    }{	81	}{	G.TinCanBill_Heard_F == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	103	}{	(Starting Condition)	}{	}{	76	}{	IsClan(pc,"Nosferatu") and G.TinCanBill_Nos == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	104	}{	(Starting Condition)	}{	}{	71	}{	G.TinCanBill_Know == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	105	}{	(Starting Condition)	}{	}{	81	}{	G.TinCanBill_Heard_F == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -58,7 +58,7 @@
 {	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	61	}{	Si, si, okay... qualunque cosa, lasciami uscire da queste caverne e andare lontano da questi pazzi.  Mi sta venendo un attacco.	}{	Si, si, okay... qualunque cosa, lasciami uscire da queste caverne e andare lontano da questi pazzi.  Mi sta venendo un attacco.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	61	}{	Si, si, okay... qualunque cosa, lasciami uscire da queste caverne e andare lontano da questi pazzi. Mi sta venendo un attacco.	}{	Si, si, okay... qualunque cosa, lasciami uscire da queste caverne e andare lontano da questi pazzi. Mi sta venendo un attacco.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	62	}{	Dimmi cosa sai del Sarcofago Ankaran.	}{	Dimmi cosa sai del Sarcofago Ankaran.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Raccontami una storia del Sarcofago Ankaran.	}
 {	63	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

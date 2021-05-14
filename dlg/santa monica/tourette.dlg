@@ -510,7 +510,7 @@
 {	510	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	511	}{	[Jeanette]Certo. Tu sei l'unica che puo' procurarsi i permessi edilizi e stringere le mani. Io non ne sarei in grado!	}{	[Jeanette]Certo. Tu sei l'unica che puo' procurarsi i permessi edilizi e stringere le mani. Io non ne sarei in grado!	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("joy",3)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	512	}{	Jeanette, smettila di sabotare i piani di tua sorella.	}{	Jeanette, smettila di sabotare i piani di tua sorella.	}{	521	}{	G.Tourette_Sabotage == 0	}{		}{		}{		}{		}{		}{		}{		}{	Bianca signora, non metterti sulla strada dei piani dell'oscura.	}
-{	513	}{	Se fate pace e dirigete insieme questo posto, non ci sara'  bisogno di scannarvi.	}{	Se fate pace e dirigete insieme questo posto, non ci sara'  bisogno di scannarvi.	}{	551	}{	G.Tourette_Sabotage == 1	}{		}{		}{		}{		}{		}{		}{		}{	Dirigete questa casa come una famiglia, ed entrambe potrete non-vivere un altro giorno.	}
+{	513	}{	Se fate pace e dirigete insieme questo posto, non ci sara' bisogno di scannarvi.	}{	Se fate pace e dirigete insieme questo posto, non ci sara' bisogno di scannarvi.	}{	551	}{	G.Tourette_Sabotage == 1	}{		}{		}{		}{		}{		}{		}{		}{	Dirigete questa casa come una famiglia, ed entrambe potrete non-vivere un altro giorno.	}
 {	514	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	515	}{	Oh, continuate a scannarvi a vicenda.	}{	Oh, continuate a scannarvi a vicenda.	}{	271	}{		}{	G.Tourette_Side = G.Tourette_Side - 1	}{		}{		}{		}{		}{		}{		}{	Distruggetevi a vicenda, figlie di Giano!	}
 {	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -540,7 +540,7 @@
 {	540	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	541	}{	[Jeanette]E te lo meriti!	}{	[Jeanette]E te lo meriti!	}{	#	}{	pc.SetCamera("tJeanette") or npc.SetDisposition("anger",2)	}{	G.Tourette_Sabotage = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	542	}{	Therese, lascia che Jeanette si assuma le sue responsabilita'.	}{	Therese, lascia che Jeanette si assuma le sue responsabilita'.	}{	501	}{	G.Tourette_Power == 0	}{		}{		}{		}{		}{		}{		}{		}{	Oscura signora, lascia che la luce si carichi piu' fardelli.	}
-{	543	}{	Se fate pace e dirigete insieme questo posto, non ci sara'  bisogno di scannarvi.	}{	Se fate pace e dirigete insieme questo posto, non ci sara'  bisogno di scannarvi.	}{	551	}{	G.Tourette_Power == 1	}{		}{		}{		}{		}{		}{		}{		}{	Dirigete questa casa come una famiglia, ed entrambe potrete non-vivere un altro giorno.	}
+{	543	}{	Se fate pace e dirigete insieme questo posto, non ci sara' bisogno di scannarvi.	}{	Se fate pace e dirigete insieme questo posto, non ci sara' bisogno di scannarvi.	}{	551	}{	G.Tourette_Power == 1	}{		}{		}{		}{		}{		}{		}{		}{	Dirigete questa casa come una famiglia, ed entrambe potrete non-vivere un altro giorno.	}
 {	544	}{	Oh, continuate a scannarvi a vicenda.	}{	Oh, continuate a scannarvi a vicenda.	}{	271	}{		}{	G.Tourette_Side = G.Tourette_Side - 1	}{		}{		}{		}{		}{		}{		}{	Distruggetevi a vicenda, figlie di Giano!	}
 {	545	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	546	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

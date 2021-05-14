@@ -30,7 +30,7 @@
 {	30	}{	Niente, scusami.	}{	Niente, scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le voci non dicono nulla. Devo andare.	}
 {	31	}{	Mmm-hmm?	}{	Mmm-hmm?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	151	}{	Seduction 4 & OneOfSet(1,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia pelle impallidisce alla tua vista.	}
-{	33	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.  }{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	181	}{	Seduction 4 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia pelle impallidisce alla tua vista.	}
+{	33	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	181	}{	Seduction 4 & OneOfSet(2,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia pelle impallidisce alla tua vista.	}
 {	34	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	211	}{	Seduction 4 & OneOfSet(3,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia pelle impallidisce alla tua vista.	}
 {	35	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	Wow... Pensavo ci fosse un raduno di grassoni oggi. Poi ho visto te.	}{	241	}{	Seduction 4 & OneOfSet(4,4)	}{		}{		}{		}{		}{		}{		}{		}{	La mia pelle impallidisce alla tua vista.	}
 {	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

@@ -180,7 +180,7 @@
 {	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	181	}{	Mi riducono lo stipendio ogni due settimane. Fine della discussione	}{	Mi riducono lo stipendio ogni due settimane. Fine della discussione	}{	#	}{	npc.SetDisposition("Bartender", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	182	}{	Ho solo bisogno di qualcuno con cui parlare.	}{	Ho solo bisogno di qualcuno con cui parlare.	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	183	}{	Cerco un tipo di nome Knox - un pezzo grosso, capelli piuttosto lunghi....	}{	Cerco un tipo di nome Knox - un pezzo grosso, capelli piuttosto lunghi....	}{	241	}{	G.Extra_Lines == 1 and G.Knox_Vamp == 3  and G.Mercurio_Quest >= 2 and G.Cal_Knox == 0	}{	G.Cal_Knox = 1	}{		}{		}{		}{		}{		}{		}{		Posso trovare Knox alla sua porta?	}
+{	183	}{	Cerco un tipo di nome Knox - un pezzo grosso, capelli piuttosto lunghi....	}{	Cerco un tipo di nome Knox - un pezzo grosso, capelli piuttosto lunghi....	}{	241	}{	G.Extra_Lines == 1 and G.Knox_Vamp == 3 and G.Mercurio_Quest >= 2 and G.Cal_Knox == 0	}{	G.Cal_Knox = 1	}{		}{		}{		}{		}{		}{		}{		Posso trovare Knox alla sua porta?	}
 {	184	}{	Capito. Ci vediamo.	}{	Capito. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	185	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

@@ -48,7 +48,7 @@
 {	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	50	}{	Interessante. Bhe, me ne vado.	}{	Interessante. Bhe, me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	51	}{	Io? Io... sto cercando di ridefinire i film sui vampiri, okay. Ad esempio, molte persone fanno film sui vampiri, personaggi popolari - ma io, faro' una cosa seria, ad esempio, non solo sara' spaventoso,  ma sara' - sara' credibile.	}{	Io? Io... sto cercando di ridefinire i film sui vampiri, okay. Ad esempio, molte persone fanno film sui vampiri, personaggi popolari - ma io, faro' una cosa seria, ad esempio, non solo sara' spaventoso,  ma sara' - sara' credibile.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.David_Manuscript = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Io? Io... sto cercando di ridefinire i film sui vampiri, okay. Ad esempio, molte persone fanno film sui vampiri, personaggi popolari - ma io, faro' una cosa seria, ad esempio, non solo sara' spaventoso, ma sara' - sara' credibile.	}{	Io? Io... sto cercando di ridefinire i film sui vampiri, okay. Ad esempio, molte persone fanno film sui vampiri, personaggi popolari - ma io, faro' una cosa seria, ad esempio, non solo sara' spaventoso, ma sara' - sara' credibile.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.David_Manuscript = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	52	}{	Hai una copia del tuo script qui?	}{	Hai una copia del tuo script qui?	}{	71	}{	G.Velvet_Quest == 3	}{		}{		}{		}{		}{		}{		}{		}{	Mi piacerebbe noleggiare il progetto del tuo film. Ne hai uno per me?	}
 {	53	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	54	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

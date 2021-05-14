@@ -1,6 +1,6 @@
 {	1	}{	[Provocatorio]Uhh! Guarda chi e' appena entrato. Non riesco a immaginare il tuo Vesuvio alzarsi... essendo quello che sei. Forse con te avro' piu' fortuna io.	}{	[Provocatorio]Uhh! Guarda chi e' appena entrato. Non riesco a immaginare il tuo Vesuvio alzarsi... essendo quello che sei. Forse con te avro' piu' fortuna io.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	Whisper("Ambiguous"); G.Velvet_Know = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	2	}{	Andiamo in un posto un un po' piu'... in disparte?	}{	Andiamo in un posto un un po' piu'... in disparte?	}{	21	}{	Seduction 5	}{	G.Velvet_Like = G.Velvet_Like +1	}{		}{		}{		}{		}{		}{		}{	Nascondi i tuoi segreti in segreto.	}
-{	3	}{	Chi sei?	}{	Chi sei?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Riesco quasi a sentire la tua  consistenza - che roba e'?	}
+{	3	}{	Chi sei?	}{	Chi sei?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Riesco quasi a sentire la tua consistenza - che roba e'?	}
 {	4	}{	Che vuoi dire?	}{	Che vuoi dire?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hah hah hah, la seduzione, dovresti conoscerla meglio tu.	}
 {	5	}{	Non perdere tempo. Non hai piu' niente che m'interessi.	}{	Non perdere tempo. Non hai piu' niente che m'interessi.	}{	41	}{		}{	G.Velvet_Like = G.Velvet_Like -1	}{		}{		}{		}{		}{		}{		}{	La tua fortuna con me e' gia' finita.	}
 {	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -730,7 +730,7 @@
 {	730	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	731	}{	Hmm... Credo che per finirlo lo chiedero' a qualcun'altro. Isaac non ha pensato ad una punizione, ma io, come te, non sono un boia.	}{	Hmm... Credo che per finirlo lo chiedero' a qualcun'altro. Isaac ha tralasciato la punizione, ma io, come te, non sono un boia.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Velvet_Quest = 5; pc.SetQuest("Writer",7); FindPlayer().ChangeMasqueradeLevel( -1 )	}{		}{		}{		}{		}{		}{		}{		}
 {	732	}{	Ecco la sceneggiatura.	}{	Ecco la sceneggiatura.	}{	661	}{	pc.HasItem("item_g_Hatters_Screenplay")	}{		}{		}{		}{		}{		}{		}{		}{	Le parole di Hatter, per te.	}
-{	733	}{	A proposito, devo uccidere Hatter.	}{	A proposito, devo uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{		}{		}{		}{		}{		}{		}{		}{	Oh, e la testa di  Hatter si e' staccata.	}
+{	733	}{	A proposito, devo uccidere Hatter.	}{	A proposito, devo uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{		}{		}{		}{		}{		}{		}{		}{	Oh, e la testa di Hatter si e' staccata.	}
 {	734	}{	E cosi' hai capito. Ho un'altra domanda.	}{	E cosi' hai capito. Ho un'altra domanda.	}{	791	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ah... la bambola ha capito. Dimmi un'altra cosa.	}
 {	735	}{	E' un peccato. Addio, Velvet.	}{	E' un peccato. Addio, Velvet.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dilemma. Addio, bambola.	}
 {	736	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -771,7 +771,7 @@
 {	771	}{	Tieni. Non e' molto, ma... dovrebbe essere abbastanza per qualcosa di piu' appropriato per conoscere meglio Velvet Velour.	}{	Tieni. Non e' molto, ma... dovrebbe essere abbastanza per qualcosa di piu' appropriato per conoscere meglio Velvet Velour.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd( 400 )	}{		}{		}{		}{		}{		}{		}{		}
 {	772	}{	Come sei generosa. Ho un'altra domanda.	}{	Come sei generosa. Ho un'altra domanda.	}{	791	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' poesia per me. Dimmi qualcos'altro.	}
 {	773	}{	Ecco la sceneggiatura, almeno.	}{	Ecco la sceneggiatura, almeno.	}{	661	}{	pc.HasItem("item_g_Hatters_Screenplay")	}{	}{	}{	}{	}{	}{	}{	}{	Ecco le parole di Hatter per te.	}
-{	774	}{	Comunque, ho dovuto uccidere Hatter.	}{	Comunque, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di  Hatter si è staccata.	}
+{	774	}{	Comunque, ho dovuto uccidere Hatter.	}{	Comunque, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si è staccata.	}
 {	775	}{	Bene. Ci vediamo in giro, VV.	}{	Bene. Ci vediamo in giro, VV.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi piace il modo in cui si accartoccia nel mio palmo. Andro' ad esplorare questa sensazione.	}
 {	776	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	777	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

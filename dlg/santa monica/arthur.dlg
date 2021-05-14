@@ -37,7 +37,7 @@
 {	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	40	}{	Ho capito. Credo che me ne andro'....	}{	Ho capito. Credo che me ne andro'....	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	I'm no longer here.	}
+{	40	}{	Ho capito. Credo che me ne andro'....	}{	Ho capito. Credo che me ne andro'....	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
 {	41	}{	Bah, ti diro', i miei affari non vanno male. Santa Monica sta colando a picco. Immagino che dovesse essere piu' carina. Ora abbiamo un volume di affari maggiore di quello che avevamo anni fa, ma dobbiamo fare affari con molti piu' pazzi e rompi palle.	}{	Bah, ti diro', i miei affari non vanno male. Santa Monica sta colando a picco. Immagino che dovesse essere piu' carina. Ora abbiamo un volume di affari maggiore di quello che avevamo anni fa, ma dobbiamo fare affari con molti piu' pazzi e rompi palle.	}{	#	}{	npc.SetDisposition("Neutral",1); G.Arthur_BJ = 1	}{		}{		}{		}{		}{		}{		}{		}{  }
 {	42	}{	A quanto pare Santa Monica ha conosciuto giorni migliori.	}{	A quanto pare Santa Monica ha conosciuto giorni migliori.	}{	61	}{	G.Arthur_SM == 0	}{		}{		}{		}{		}{		}{		}{		}{	La bellezza della signora e' svanita?	}
 {	43	}{	Sono in molti a scappare?	}{	Sono in molti a scappare?	}{	71	}{	G.Arthur_BH == 0	}{		}{		}{		}{		}{		}{		}{		}{	Si trovano molte persone a cui dare la caccia?	}
@@ -268,7 +268,7 @@
 {	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	271	}{	C'e' un tizio con una fedina penale lunga un chilometro. La sua ragazza aveva pagato la cauzione e ora non si presentera'  in tribunale. Non riesco a mettermi in contatto con nessuno dei due. Vuoi un lavoro?	}{	C'e' un tizio con una fedina penale lunga un chilometro. La sua ragazza aveva pagato la cauzione e ora non si presentera'  in tribunale. Non riesco a mettermi in contatto con nessuno dei due. Vuoi un lavoro?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	271	}{	C'e' un tizio con una fedina penale lunga un chilometro. La sua ragazza aveva pagato la cauzione e ora non si presentera' in tribunale. Non riesco a mettermi in contatto con nessuno dei due. Vuoi un lavoro?	}{	C'e' un tizio con una fedina penale lunga un chilometro. La sua ragazza aveva pagato la cauzione e ora non si presentera' in tribunale. Non riesco a mettermi in contatto con nessuno dei due. Vuoi un lavoro?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	272	}{	Potrei essere interessato.	}{	Potrei essere interessata.	}{	281	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Canta, ciccio-boy.	}
 {	273	}{	Non so, cosa dovrei fare?	}{	Non so, cosa dovrei fare?	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	Forse... le mie personalita' stanno discutendo.	}
 {	274	}{	Non mi hai ancora pagato per aver trovato Knox.	}{	Non mi hai ancora pagato per aver trovato Knox.	}{	301	}{	G.Arthur_Knoxpay == 0	}{	G.Arthur_Knoxpay = 3	}{		}{		}{		}{		}{		}{		}{	Mi serve un po' di grana.	}
@@ -338,7 +338,7 @@
 {	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	341	}{	Proprio cosi'. In quel  fetido buco sul banco dei pegni. Scopri dove cazzo si trova Muddy, o dov'e che sta andando, qualunque cosa. Ma fai attenzione. Non hai la licenza e se qualcosa va storto, io non ti conosco, capito?	}{	Proprio cosi'. In quel  fetido buco sul banco dei pegni. Scopri dove cazzo si trova Muddy, o dov'e che sta andando, qualunque cosa. Ma fai attenzione. Non hai la licenza e se qualcosa va storto, io non ti conosco, capito?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	341	}{	Proprio cosi'. In quel fetido buco sul banco dei pegni. Scopri dove cazzo si trova Muddy, o dov'e che sta andando, qualunque cosa. Ma fai attenzione. Non hai la licenza e se qualcosa va storto, io non ti conosco, capito?	}{	Proprio cosi'. In quel fetido buco sul banco dei pegni. Scopri dove cazzo si trova Muddy, o dov'e che sta andando, qualunque cosa. Ma fai attenzione. Non hai la licenza e se qualcosa va storto, io non ti conosco, capito?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	342	}{	Capito. Ora che ne diresti di pagarmi per il lavoro su Knox?	}{	Capito. Ora che ne diresti di pagarmi per il lavoro su Knox?	}{	301	}{	G.Arthur_Knoxpay == 0	}{	G.Arthur_Knoxpay = 5	}{		}{		}{		}{		}{		}{		}{	Mi devi del denaro per il cacciatore dalle palle di acciaio.	}
 {	343	}{	Si', ho capito.	}{	Si', ho capito.	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Almeno uno dei miei me ti ha capito.	}
 {	344	}{	Certo - ho anche un paio di domande da farti, Arthur.	}{	Certo - ho anche un paio di domande da farti, Arthur.	}{	81	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho ancora delle domande che esplodono nel cervello.	}

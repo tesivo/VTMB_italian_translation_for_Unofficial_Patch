@@ -295,7 +295,7 @@
 {	295	}{	Si', sono favoloso, ma mi lascerai comunque.	}{	Si', sono favoloso, ma mi lascerai lo stesso.	}{	301	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	296	}{	Potrai non capire ora, ma e' per la tua salvezza. Vai, Heather.	}{	Potrai non capire ora, ma e' per la tua salvezza. Vai, Heather.	}{	321	}{		}{		}{		}{		}{		}{		}{		}{		}{	Pensavo di volere un'animale, ma non voglio questa responsabilita'. Vai - sei libera.	}
 {	297	}{	Stupida ghoul. Vai fuori di qui! Ti ordino di andartene!	}{	Stupida ghoul. Vai fuori di qui! Ti ordino di andartene!	}{	321	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia Umanita' e' la tua via di fuga. Almeno sei ancora viva.	}
-{	298	}{	Qualunque cosa io faccia, non ascolteresti. Vieni vicino, voglio indietro il mio sangue.	}{	Qualunque cosa io faccia, non ascolteresti. Vieni vicino, voglio indietro il mio sangue.	}{	0	}{		}{	G.Heather_Kill =  1; G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Se non te ne vai, allora mi riprendero' il sangue dal tuo corpo.	}
+{	298	}{	Qualunque cosa io faccia, non ascolteresti. Vieni vicino, voglio indietro il mio sangue.	}{	Qualunque cosa io faccia, non ascolteresti. Vieni vicino, voglio indietro il mio sangue.	}{	0	}{		}{	G.Heather_Kill = 1; G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{		}{		}{		}{		}{		}{		}{	Se non te ne vai, allora mi riprendero' il sangue dal tuo corpo.	}
 {	299	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	301	}{	Io... devo andare. Ho lezione domani e... mia nonna si stara' sicuramente preoccupando per me.	}{	Io... devo andare. Ho lezione domani e... mia nonna si stara' sicuramente preoccupando per me.	}{	#	}{	npc.SetDisposition("Confused",1)	}{	G.Heather_Dominated = 1; G.Heather_Gone = 1; FindPlayer().HumanityAdd( 1 )	}{		}{		}{		}{		}{		}{		}{		}
@@ -879,7 +879,7 @@
 {	879	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	880	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	881	}{	Hai bisogno del mio sangue? Naturalmente!	}{	Hai bisogno del mio sangue? Naturalmente!	}{	#	}{	npc.SetDisposition("Flirt",1)	}{		}{		}{		}{		}{		}{		}{		}{	Aprimi!	}
-{	882	}{	Grazie.	}{	Grazie.	}{	0	}{	}{	G.Heather_Feed = 1; G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{  Dammi da mangiare.	}
+{	882	}{	Grazie.	}{	Grazie.	}{	0	}{	}{	G.Heather_Feed = 1; G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Dammi da mangiare.	}
 {	883	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	884	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	885	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

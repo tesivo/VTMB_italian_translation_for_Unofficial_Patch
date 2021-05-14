@@ -52,7 +52,7 @@
 {	52	}{	Sul serio? E' cosi' brutto? }{	Sul serio? E' cosi' brutto?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Vedo denti e paura, una ragazza persa in una tempesta di sangue}
 {	53	}{	Non essere codardo... e' solo una videocassetta. Non puo' essere cosi' tremendo.	}{	Non essere codardo... e' solo una videocassetta. Non puo' essere cosi' tremendo.	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	54	}{	So come ti senti. Ultimamente ho visto delle cose da non credere.	}{	So come ti senti. Ultimamente ho visto delle cose da non credere.	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	55	}{  Non mi importa. Dammi la cassetta e basta. 	}{	Non mi importa. Dammi la cassetta e basta.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Liberati della sua maledizione e dammi questo orrore. }
+{	55	}{	Non mi importa. Dammi la cassetta e basta. 	}{	Non mi importa. Dammi la cassetta e basta.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Liberati della sua maledizione e dammi questo orrore. }
 {	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -88,7 +88,7 @@
 {	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	Cosa? Barone sanguinario? Che cazzo? Chi sei?  Isaac non aveva mandato - agh, dio... Non sono chi cerchi. I-Io non so di cosa stai perlando. Vattene! }{	Cosa? Barone sanguinario? Che cazzo? Chi sei?  Isaac non aveva mandato - agh, dio... Non sono chi cerchi. I-Io non so di cosa stai perlando. Vattene!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Cosa? Barone sanguinario? Che cazzo? Chi sei? Isaac non aveva mandato - agh, dio... Non sono chi cerchi. I-Io non so di cosa stai perlando. Vattene! }{	Cosa? Barone sanguinario? Che cazzo? Chi sei? Isaac non aveva mandato - agh, dio... Non sono chi cerchi. I-Io non so di cosa stai perlando. Vattene!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{	Lanciami l'orribile videocassetta e puoi ritirarti.	}{	Lanciami l'orribile videocassetta e puoi ritirarti.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	93	}{	Le ombre si avvicinano a te, piccolo messaggero. Dimmi di cosa hai paura.	}{	Le ombre si avvicinano a te, piccolo messaggero. Dimmi di cosa hai paura.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	94	}{	Il barone sanguinario sara' infelice se le mie mani tornano da lui vuote.	}{	Il barone sanguinario sara' infelice se le mie mani tornano da lui vuote.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -432,7 +432,7 @@
 {	432	}{	Chi e' Wong Ho?	}{	Chi e' Wong Ho?	}{	441	}{	G.Ming_Barrabus == 0	}{	G.Ming_Barrabus = 1	}{		}{		}{		}{		}{		}{		}{	Chi e' questo Wong Ho?	}
 {	433	}{	Te lo ripeto, dov'e'?	}{	Te lo ripeto, dov'e'?	}{	441	}{	G.Ming_Barrabus > 0	}{		}{		}{		}{		}{		}{		}{		}{	Dove posso trovare questo Wong Ho?	}
 {	434	}{	Ho un altro paio di domande.	}{	Ho un altro paio di domande.	}{	281	}{	G.Ming_Barrabus > 0	}{		}{		}{		}{		}{		}{		}{		}{	Posso far mia la tua materia grigia?	}
-{	435	}{	Ok lo faro'. Ci vediamo.	}{	Ok lo faro'. Ci vediamo.	}{	491 }{	G.Ming_Barrabus > 0  and npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{	Vado via.	}
+{	435	}{	Ok lo faro'. Ci vediamo.	}{	Ok lo faro'. Ci vediamo.	}{	491 }{	G.Ming_Barrabus > 0 and npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{	Vado via.	}
 {	436	}{	Ok lo faro'. Ci vediamo.	}{	Ok lo faro'. Ci vediamo.	}{	0	}{	G.Ming_Barrabus > 0 and npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	437	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	438	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

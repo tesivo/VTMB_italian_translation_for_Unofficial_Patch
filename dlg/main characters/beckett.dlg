@@ -368,7 +368,7 @@
 {	368	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	369	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	370	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	371	}{	Verra' con l'esperienza. Il Maestro della disciplina della Mutazione  non, come la tua generazione potrebbe dire, si presenta in forma di pillola.	}{	Verra' con l'esperienza. Il Maestro della disciplina della Mutazione  non, come la tua generazione potrebbe dire, si presenta in forma di pillola.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	371	}{	Verra' con l'esperienza. Il Maestro della disciplina della Mutazione non, come la tua generazione potrebbe dire, si presenta in forma di pillola.	}{	Verra' con l'esperienza. Il Maestro della disciplina della Mutazione non, come la tua generazione potrebbe dire, si presenta in forma di pillola.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	372	}{	Chi sei e perche' mi segui?	}{	Chi sei e perche' mi segui?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	373	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	374	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -430,7 +430,7 @@
 {	430	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	431	}{	Hmm. Fortunatamente per noi conosco qualcuno che si e' distinto in questo campo.	}{	Hmm. Fortunatamente per noi conosco qualcuno che si e' distinto in questo campo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{	Si, abbastanza astuti. Fortunatamente per noi, conosco qualcuno che si e' distinto in questo campo.	}
 {	432	}{	Chi?	}{	Chi?	}{	461	}{		}{		}{		}{		}{		}{		}{		}{		}{	???	}
-{	433	}{	Il tipo sul canale di storia con l'elmetto da esploratore?  Imparare con lui e' divertente.	}{	Il tipo sul canale di storia con l'elmetto da esploratore?  Imparare con lui e' divertente.	}{	451	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tipo sul canale di storia con l'elmetto da esploratore?  Imparare con lui e' divertente.	}
+{	433	}{	Il tipo sul canale di storia con l'elmetto da esploratore? Imparare con lui e' divertente.	}{	Il tipo sul canale di storia con l'elmetto da esploratore? Imparare con lui e' divertente.	}{	451	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tipo sul canale di storia con l'elmetto da esploratore? Imparare con lui e' divertente.	}
 {	434	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	435	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	436	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -440,7 +440,7 @@
 {	440	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	441	}{	Impressionante - forse mi lascerai prendere in prestito la tua tessera della biblioteca. Ma onestamente, anche la mia esperienza archeologica non e' d'aiuto qui. Fortunatamente per noi, conosco qualcuno che si e' distinto in questo campo.	}{	Impressionante - forse mi lascerai prendere in prestito la tua tessera della biblioteca. Ma onestamente, anche la mia esperienza archeologica non e' d'aiuto qui. Fortunatamente per noi, conosco qualcuno che si e' distinto in questo campo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	442	}{	Chi?	}{	Chi?	}{	461	}{		}{		}{		}{		}{		}{		}{		}{		}{	???	}
-{	443	}{	Il tipo sul canale di storia con l'elmetto da esploratore?  Imparare con lui e' divertente.	}{	Il tipo sul canale di storia con l'elmetto da esploratore?  Imparare con lui e' divertente.	}{	451	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tipo sul canale di storia con l'elmetto da esploratore?  Imparare con lui e' divertente.	}
+{	443	}{	Il tipo sul canale di storia con l'elmetto da esploratore? Imparare con lui e' divertente.	}{	Il tipo sul canale di storia con l'elmetto da esploratore? Imparare con lui e' divertente.	}{	451	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tipo sul canale di storia con l'elmetto da esploratore? Imparare con lui e' divertente.	}
 {	444	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	445	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	446	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

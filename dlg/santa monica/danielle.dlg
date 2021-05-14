@@ -60,7 +60,7 @@
 {	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	61	}{	[Felice di vedere il giocatore]Ehi tu....	}{	[Felice di vedere il giocatore]Ehi tu....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	62	}{	Ho sentito di un party alla "banca del sangue".	}{	Ho sentito di un party alla "banca del sangue".	}{	121	}{	G.Vandal_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{	La banca del sangue possiede una delusione differente, mia amata.	}
-{	63	}{	Papa' e' qui per ricevere un altro po' di zucchero.	}{	Mamma e' qui per ricevere un altro po' di zucchero.	}{	 79   }{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 0	}{	G.Danielle_Drink = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	63	}{	Papa' e' qui per ricevere un altro po' di zucchero.	}{	Mamma e' qui per ricevere un altro po' di zucchero.	}{	 79     }{	G.Danielle_Seduced == 1 and G.Danielle_Drink == 0	}{	G.Danielle_Drink = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	64	}{	Non ho potuto smettere di pensare dall'ultima volta che abbiamo parlato.	}{	Non ho potuto smettere di pensare dall'ultima volta che abbiamo parlato.	}{	21	}{	Seduction 3 & G.Danielle_Seduced == 0 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	65	}{	La tua immagine sta creando dei vuoti infuocati nella mia mente.	}{	La tua immagine sta creando dei vuoti infuocati nella mia mente.	}{	91	}{	Seduction 3 & G.Danielle_Seduced == 0 and IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{	Ehi a te. Quindi devi essere una persona pratica, per essere stata al college.	}{	Ehi a te. Quindi devi essere una persona pratica, per essere stata al college.	}{	51	}{	G.Danielle_Seduced == 0	}{		}{		}{		}{		}{		}{		}{		}{	I tuoi occhi sono come... fettine di limone.	}

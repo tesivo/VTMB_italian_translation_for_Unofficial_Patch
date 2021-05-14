@@ -338,7 +338,7 @@
 {	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	341	}{	Pensavo che lo avessimo superato! Therese non e' qui.  Finche' Bertram non riceve istruzioni da lei, resta come un parabrezza nel profondo mare blu - invisibile.	}{	Pensavo che lo avessimo superato! Therese non e' qui.  Finche' Bertram non riceve istruzioni da lei, resta come un parabrezza nel profondo mare blu - invisibile.	}{	#	}{	npc.SetDisposition("anger",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	341	}{	Pensavo che lo avessimo superato! Therese non e' qui. Finche' Bertram non riceve istruzioni da lei, resta come un parabrezza nel profondo mare blu - invisibile.	}{	Pensavo che lo avessimo superato! Therese non e' qui. Finche' Bertram non riceve istruzioni da lei, resta come un parabrezza nel profondo mare blu - invisibile.	}{	#	}{	npc.SetDisposition("anger",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	342	}{	Bene. Cosa devo fare?	}{	Bene. Cosa devo fare?	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quali atti bisogna che compia?	}
 {	343	}{	Ti ascolto.	}{	Ti ascolto.	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le mie orecchie sono aperte.	}
 {	344	}{	E' l'ultima cosa che faccio per tutt'e due. Hai capito?	}{	E' l'ultima cosa che faccio per tutt'e due. Hai capito?	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Oltre non andro' non appena avro' finito cio'.	}
@@ -390,7 +390,7 @@
 {	390	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	391	}{	[Rapidamente, spaventato]Oh, sono contenta che tu sia salvo! Quando ho saputo che era una montatura volevo avvisarmi, ma Therese mi ha puntato una pistola contro e mi sono chiusa in bagno, e lei minacciava di uccidermi, e tu-tu devi aiutarmi!	}{	[Rapidamente, spaventata]Oh, sono contenta che tu sia salva! Quando ho saputo che era una montatura volevo avvisarmi, ma Therese mi ha puntato una pistola contro e mi sono chiusa in bagno, e lei minacciava di uccidermi, e tu-tu devi aiutarmi!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	392	}{	Calmati. Dimmi cos'e' successo.	}{	Calmati. Dimmi cos'e' successo.	}{	411	}{	G.Jeanette_Quest == 1	}{		}{		}{		}{		}{		}{		}{		}{	Calma, signora della luce. Raccontami cosa ti turba.	}
-{	393	}{	Certo, ti salvero'. Ma prima, dimmi cos'e' successo.	}{	Certo, ti salvero'. Ma prima, dimmi cos'e' successo.	}{	411	}{	Seduction 2  & G.Jeanette_Quest == 1}{	G.Jeanette_Seduce = G.Jeanette_Seduce + 1	}{		}{		}{		}{		}{		}{		}{	Saro' il tuo cavaliere bianco, dea d'avorio. Prima raccontami la tua storia.	}
+{	393	}{	Certo, ti salvero'. Ma prima, dimmi cos'e' successo.	}{	Certo, ti salvero'. Ma prima, dimmi cos'e' successo.	}{	411	}{	Seduction 2 & G.Jeanette_Quest == 1}{	G.Jeanette_Seduce = G.Jeanette_Seduce + 1	}{		}{		}{		}{		}{		}{		}{	Saro' il tuo cavaliere bianco, dea d'avorio. Prima raccontami la tua storia.	}
 {	394	}{	Perche' dovrei aiutarti?	}{	Perche' dovrei aiutarti?	}{	421	}{		}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{		}{		}{		}{		}{		}{		}{	Sei conosciuta ai piu' in maniera biblica. Chiama qualcun altro.	}
 {	395	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	396	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

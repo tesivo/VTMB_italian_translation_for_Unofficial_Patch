@@ -62,7 +62,7 @@
 {	62	}{	Piacere di conoscerti.	}{	Piacere di conoscerti.	}{	41	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	63	}{	Sai qualcosa su di un video snuff?	}{	Sai qualcosa su di un video snuff?	}{	101	}{	G.Isaac_Quest == 1 and G.Ash_Sinbin == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	64	}{	Non ho mai incontrato una celebrita' finora.	}{	Non ho mai incontrato una celebrita' finora.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	65	}{	Sono un tuo grande fan.	}{	Sono una tua grande fan.    }{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	65	}{	Sono un tuo grande fan.	}{	Sono una tua grande fan. }{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{	I tuoi film fanno schifo. Non riesci a recitare neanche come le palle di un cane.	}{	I tuoi film fanno schifo. Non riesci a recitare neanche come le palle di un cane.	}{	451	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

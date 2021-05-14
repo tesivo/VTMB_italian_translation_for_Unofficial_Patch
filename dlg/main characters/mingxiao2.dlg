@@ -168,7 +168,7 @@
 {	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	171	}{	LaCroix ha visto un'opportunita' di sbarazzarsi di due problemi - un duro leader ribelle e un problematico primogenito - in un sol colpo. E, come puoi vedere, facevo parte del suo piano.	}{	LaCroix ha visto un'opportunita' di sbarazzarsi di due problemi - un duro leader ribelle e un problematico primogenito - in un sol colpo. E, come puoi vedere, facevo parte del suo piano.	}{	#	}{	}{  ChangeMingXiaoToNines(); G.Story_State = 80	}{		}{		}{		}{		}{		}{		}{		}
+{	171	}{	LaCroix ha visto un'opportunita' di sbarazzarsi di due problemi - un duro leader ribelle e un problematico primogenito - in un sol colpo. E, come puoi vedere, facevo parte del suo piano.	}{	LaCroix ha visto un'opportunita' di sbarazzarsi di due problemi - un duro leader ribelle e un problematico primogenito - in un sol colpo. E, come puoi vedere, facevo parte del suo piano.	}{	#	}{	}{ ChangeMingXiaoToNines(); G.Story_State = 80	}{		}{		}{		}{		}{		}{		}{		}
 {	172	}{	Che diavolo? Come hai...? Non capisco.	}{	Che diavolo? Come hai...? Non capisco.	}{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ah! La demone mostra un'altra delle sue facce!	}
 {	173	}{	Affascinante. Ma perche' hai accettato a farlo?	}{	Affascinante. Ma perche' hai accettato a farlo?	}{	176	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	174	}{	Ah. Le cose stanno incominciando ad avere un senso.	}{	Ah. Le cose stanno incominciando ad avere un senso.	}{	176	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}

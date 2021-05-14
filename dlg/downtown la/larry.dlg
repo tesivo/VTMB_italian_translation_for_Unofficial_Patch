@@ -118,7 +118,7 @@
 {	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	121	}{	Si', ecco cosa volevo sentire. Ora, se sei il tipo da terminator spacco-tutto, ti suggerisco di acquistare qualche arma coi controcazzi prima di mettere il naso al parcheggio. Ti serve qualcosa?	}{	Si', ecco cosa volevo sentire. Ora, se sei il tipo da terminator spacco-tutto, ti suggerisco di acquistare qualche arma coi controcazzi prima di mettere il naso al parcheggio. Ti serve qualcosa? }{ #   }{	npc.SetDisposition("Joy", 1)	}{	G.Larry_Quest = 1; G.Larry_Action = 0; pc.SetQuest("Traffik",1)	}{	}{	}{	}{	}{	}{		}{		}
+{	121	}{	Si', ecco cosa volevo sentire. Ora, se sei il tipo da terminator spacco-tutto, ti suggerisco di acquistare qualche arma coi controcazzi prima di mettere il naso al parcheggio. Ti serve qualcosa?	}{	Si', ecco cosa volevo sentire. Ora, se sei il tipo da terminator spacco-tutto, ti suggerisco di acquistare qualche arma coi controcazzi prima di mettere il naso al parcheggio. Ti serve qualcosa? }{ #     }{	npc.SetDisposition("Joy", 1)	}{	G.Larry_Quest = 1; G.Larry_Action = 0; pc.SetQuest("Traffik",1)	}{	}{	}{	}{	}{	}{		}{		}
 {	122	}{	Vediamo cos'hai.	}{	Vediamo cos'hai.	}{	0	}{		}{	npc.StartBarter(G.Story_State, 0, G.Larry_Special)	}{		}{		}{		}{		}{		}{		}{	Il mio carrello della spesa e' vuoto.	}
 {	123	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	124	}{	Sono gia' pronto. Tornero' con la borsa dei documenti.	}{	Sono gia' pronto. Tornero' con la borsa dei documenti.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia arma piu' grande e' la conoscenza. E gli occhi al laser. Tornero' presto.	}
