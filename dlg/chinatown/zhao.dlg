@@ -28,7 +28,7 @@
 {	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	31	}{	Sono un uomo di parola ed ero in debito con  Wong Ho. Pagando cosi' il mio debito, sono diventato un nemico dei Tong, di cui una volta facevo parte.	}{	Sono un uomo di parola ed ero in debito con  Wong Ho. Pagando cosi' il mio debito, sono diventato un nemico dei Tong, di cui una volta facevo parte.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	31	}{	Sono un uomo di parola ed ero in debito con Wong Ho. Pagando cosi' il mio debito, sono diventato un nemico dei Tong, di cui una volta facevo parte.	}{	Sono un uomo di parola ed ero in debito con Wong Ho. Pagando cosi' il mio debito, sono diventato un nemico dei Tong, di cui una volta facevo parte.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Cosa farai ora?	}{	Cosa farai ora?	}{	41	}{		}{	tongEntrance()	}{		}{		}{		}{		}{		}{		}{	Aspetta... stanno arrivando!	}
 {	33	}{	Beh, grazie per il tuo aiuto.	}{	Beh, grazie per il tuo aiuto.	}{	41	}{		}{	tongEntrance()	}{		}{		}{		}{		}{		}{		}{	Il senso della tua vita ora e' chiaro... va' incontro al tuo destino.	}
 {	34	}{	Beh a quanto pare te li sei tolti di mezzo.	}{	Beh a quanto pare te li sei tolti di mezzo.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	tongEntrance()	}{		}{		}{		}{		}{		}{		}{		}

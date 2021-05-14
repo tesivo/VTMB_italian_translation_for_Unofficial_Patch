@@ -328,7 +328,7 @@
 {	328	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	329	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	331	}{	Okay, fammi prendere solo qualche precauzione....  Un paio di bombolette di spray al pepe dovrebbero bastare.	}{	Okay, fammi prendere solo qualche precauzione....  Un paio di bombolette di spray al pepe dovrebbero bastare.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	331	}{	Okay, fammi prendere solo qualche precauzione.... Un paio di bombolette di spray al pepe dovrebbero bastare.	}{	Okay, fammi prendere solo qualche precauzione.... Un paio di bombolette di spray al pepe dovrebbero bastare.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	332	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	333	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	334	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

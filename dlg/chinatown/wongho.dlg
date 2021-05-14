@@ -38,7 +38,7 @@
 {	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	41	}{	Sono un uomo che riveste una certa importanza qui a Chinatown. Ho molti alleati, ma ci sono anche molti altri che vorrebbero vedermi morto. I Tong  hanno scelto il sentiero dei codardi, usando mia figlia come leva contro di me.	}{	Sono un uomo che riveste una certa importanza qui a Chinatown. Ho molti alleati, ma ci sono anche molti altri che vorrebbero vedermi morto. I Tong  hanno scelto il sentiero dei codardi, usando mia figlia come leva contro di me.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Sono un uomo che riveste una certa importanza qui a Chinatown. Ho molti alleati, ma ci sono anche molti altri che vorrebbero vedermi morto. I Tong hanno scelto il sentiero dei codardi, usando mia figlia come leva contro di me.	}{	Sono un uomo che riveste una certa importanza qui a Chinatown. Ho molti alleati, ma ci sono anche molti altri che vorrebbero vedermi morto. I Tong hanno scelto il sentiero dei codardi, usando mia figlia come leva contro di me.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	Pare che dovro' buttare giu' un po' di legnate. Sai dove si trovano?	}{	Sembra che dovro' prendere a calci il culo di qualche Tong. Sai dove si trovano?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Forse e' il caso che mi travesta da morte. Dov'e' questo tesoro perduto?	}
 {	43	}{	Leva per cosa?	}{	Leva per cosa?	}{	51	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	44	}{	Cos'hai che i Tong vogliono?	}{	Cos'hai che i Tong vogliono?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hai qualche giocattolino per questi mocciosi?	}
@@ -289,7 +289,7 @@
 {	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	290	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	291	}{	Il suo nome e' Zhao. E' l'uomo che mi ha chiamato e mi ha detto dov'era tenuta Kiki. Zhao ha molte conoscenze. E' proprietario di un magazzino d'import-export a Chinatown. Vai e incontralo li'. Lo chiamero' e gli diro' di aspettarti.	}{	Il suo nome e' Zhao. E' l'uomo che mi ha chiamato e mi ha detto dov'era tenuta Kiki. Zhao ha molte conoscenze. E' proprietario di un magazzino d'import-export a Chinatown. Vai e incontralo li'. Lo chiamero' e gli diro' di aspettarti.	}{	#	}{		}{	G.WongHo_Info = 1; pc.SetQuest("Gangster",1)	}{		}{		}{		}{		}{		}{		}{		}
-{	292	}{	Ho qualche domanda per te su Chinatown.	}{	Ho qualche domanda per te su Chinatown.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fammi un quadro generale di  Chinatown.	}
+{	292	}{	Ho qualche domanda per te su Chinatown.	}{	Ho qualche domanda per te su Chinatown.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fammi un quadro generale di Chinatown.	}
 {	293	}{	Grazie, Wong Ho. Lo apprezzo.	}{	Grazie, Wong Ho. Lo apprezzo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi tolgo dai piedi. Addio.	}
 {	294	}{	Meglio per te che sappia dove e' Barabus, o mi rivedrai presto. Molto presto.	}{	Meglio per te che sappia dove e' Barabus, o mi rivedrai presto. Molto presto.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	295	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -303,7 +303,7 @@
 {	303	}{	Ho parlato con Zhao.	}{	Ho parlato con Zhao.	}{	321	}{	G.Zhao_Know == 1 and G.Zhao_Asked == 0	}{	G.Zhao_Asked = 1	}{		}{		}{		}{		}{		}{		}{	Ho parlato con l'importatore di informazioni.	}
 {	304	}{	Cosa mi puoi dire di un uomo dai capelli grigi?	}{	Cosa mi puoi dire di un uomo dai capelli grigi?	}{	491	}{	G.Silver_Know == 1 and G.WongHo_Silver == 0	}{	G.WongHo_Silver = 1	}{		}{		}{		}{		}{		}{		}{	Cerco un uomo dalla criniera color argento.	}
 {	305	}{	Ho trovato chi manovrava i Tong.	}{	Ho trovato chi manovrava i Tong.	}{	531	}{	IsDead("Mandarin") and G.Wong_Mandarin == 0 and pc.GetQuestState("Barabus") == 3	}{	G.Wong_Mandarin = 1	}{		}{		}{		}{		}{		}{		}{	Ho trovato il padre dei figli di puttana.	}
-{	306	}{	Ho qualche domanda per te su Chinatown.	}{	Ho qualche domanda per te su Chinatown.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fammi un quadro generale di  Chinatown.	}
+{	306	}{	Ho qualche domanda per te su Chinatown.	}{	Ho qualche domanda per te su Chinatown.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fammi un quadro generale di Chinatown.	}
 {	307	}{	Niente. Ci vediamo dopo.	}{	Niente. Ci vediamo dopo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Me ne sto gia' andando.	}
 {	308	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -330,7 +330,7 @@
 {	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	331	}{	Ah, capisco. Ha senso. I Tong devono aver capito che l'unica persona che mi ha potuto dire di Kiki era Zhao. Hmmm. Un uomo non riesce mai del tutto a sfuggire al proprio passato. Lo porta sempre con se', e a volte si rivela un fardello pesante.	}{	Ah, capisco. Ha senso. I Tong devono aver capito che l'unica persona che mi ha potuto dire di Kiki era Zhao. Hmmm. UN uomo non riesce mai del tutto a sfuggire al proprio passato. Lo porta sempre con se', e a volte si rivela un fardello pesante.	}{	#	}{		}{	G.Zhao_Past = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	332	}{	Cosa vuoi dire?	}{	Cosa vuoi dire?	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	Svela quest'indovinello.	}
-{	333	}{	Yeah, vabè, ho qualche altra domanda.	}{	Yeah, vabè, ho qualche altra domanda.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho bisogno di curiosare nel tuo cervello.	}
+{	333	}{	Yeah, vabï¿½, ho qualche altra domanda.	}{	Yeah, vabï¿½, ho qualche altra domanda.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho bisogno di curiosare nel tuo cervello.	}
 {	334	}{	Questione interessante, certo. Devo andare.	}{	Questione interessante, certo. Devo andare.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il mio cervello se n'e' andato. Il corpo lo segue.	}
 {	335	}{	Basta con la filosofia. Ci vediamo dopo, vecchio.	}{	Basta con la filosofia. Ci vediamo dopo, vecchio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non fo tempo per decifrare la tua debole filosofia. Arrivederci.	}
 {	336	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -400,7 +400,7 @@
 {	400	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	401	}{	Cosa vorresti sapere?	}{	Cosa vorresti sapere?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	402	}{	Parlami del Tempio della Virtu' Dorata.	}{	Parlami del Tempio della Virtu' Dorata.	}{	411	}{	G.WongHo_Secret == 0	}{		}{		}{		}{		}{		}{		}{		}{	Il Tempio dell'Oro Virtuoso!	}
-{	403	}{	Parlami del  "Glaze".	}{	Parlami del  "Glaze".	}{	461	}{	G.Glaze_Password == 1	}{		}{		}{		}{		}{		}{		}{		}{	Ho sentito parlare di un certo "Glaze".	}
+{	403	}{	Parlami del "Glaze".	}{	Parlami del "Glaze".	}{	461	}{	G.Glaze_Password == 1	}{		}{		}{		}{		}{		}{		}{		}{	Ho sentito parlare di un certo "Glaze".	}
 {	404	}{	Dove posso rimediare una pistola qui intorno?	}{	Dove posso rimediare una pistola qui intorno?	}{	471	}{	G.WongHo_Guns == 0	}{		}{		}{		}{		}{		}{		}{		}{	Dove trovo un cannone?	}
 {	405	}{	In realta' ho altre domande.	}{	In realta' ho altre domande.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho bisogno di curiosare nel tuo cervello.	}
 {	406	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -408,7 +408,7 @@
 {	408	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	409	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	410	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	411	}{	Il Tempio della Virtu' Dorata si trova qui a Chinatown da molto, molto tempo. Da prima che io stesso nascessi. Per alcuni anni fu abbandonato in rovina, ma Ming-Xiao lo compro'  e lo riporto' al suo antico splendore.	}{	Il Tempio della Virtu' Dorata si trova qui a Chinatown da molto, molto tempo. Da prima che io stesso nascessi. Per alcuni anni fu abbandonato in rovina, ma Ming-Xiao lo compro'  e lo riporto' al suo antico splendore.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	411	}{	Il Tempio della Virtu' Dorata si trova qui a Chinatown da molto, molto tempo. Da prima che io stesso nascessi. Per alcuni anni fu abbandonato in rovina, ma Ming-Xiao lo compro' e lo riporto' al suo antico splendore.	}{	Il Tempio della Virtu' Dorata si trova qui a Chinatown da molto, molto tempo. Da prima che io stesso nascessi. Per alcuni anni fu abbandonato in rovina, ma Ming-Xiao lo compro' e lo riporto' al suo antico splendore.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	412	}{	Davvero? Perche' lo fece?	}{	Davvero? Perche' lo fece?	}{	421	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' la signora espanse la sua ombra su questo tempio dorato?	}
 {	413	}{	Raccontami qualcos'altro su Ming-Xiao.	}{	Raccontami qualcos'altro su Ming-Xiao.	}{	421	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi di piu' sulla signora degli specchi.	}
 {	414	}{	Hmmm, interessante. Dimmi qualcosa su Chinatown.	}{	Hmmm, interessante. Dimmi qualcosa su Chinatown.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fammi un quadro generale di Chinatown.	}
@@ -512,7 +512,7 @@
 {	512	}{	Non c'e' motivo. Ho qualche altra domanda.	}{	Non c'e' motivo. Ho qualche altra domanda.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Niente... Ho bisogno di curiosare nel tuo cervello.	}
 {	513	}{	Potrebbe essere colui che manovra i Tong.	}{	Potrebbe essere colui che manovra i Tong.	}{	521	}{		}{		}{		}{		}{		}{		}{		}{		}{	Potrebbe essere il padre dei figli di puttana.	}
 {	514	}{	Non ne voglio proprio parlare. Ci vediamo.	}{	Non ne voglio proprio parlare. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non restero' qui ancora per molto.	}
-{	515	}{	Perche' ho scoperto che stava finanziando i Tong.	}{	Perche' ho scoperto che stava finanziando i Tong.	}{	531	}{	IsDead("Mandarin") and G.Wong_Mandarin == 0 and G.Patch_Plus == 1 and pc.GetQuestState("Barabus") == 3	}{	G.Wong_Mandarin = 1	}{		}{		}{		}{		}{		}{		}{	Perchè era il padre dei figli di puttana.	}
+{	515	}{	Perche' ho scoperto che stava finanziando i Tong.	}{	Perche' ho scoperto che stava finanziando i Tong.	}{	531	}{	IsDead("Mandarin") and G.Wong_Mandarin == 0 and G.Patch_Plus == 1 and pc.GetQuestState("Barabus") == 3	}{	G.Wong_Mandarin = 1	}{		}{		}{		}{		}{		}{		}{	Perchï¿½ era il padre dei figli di puttana.	}
 {	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	517	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	518	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

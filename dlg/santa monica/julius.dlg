@@ -124,7 +124,7 @@
 {	124	}{	Va bene, dammi quello che hai e lascia la citta'. Se ti rivedo e' finita.	}{	Va bene, dammi quello che hai e lascia la citta'. Se ti rivedo e' finita.	}{	111	}{	Humanity -8	}{	pc.MoneyAdd(100)	}{		}{		}{		}{		}{		}{		}{	Dammeli. Se le nostre ombre si incrociano di nuovo, prendero' la tua non-vita.	}
 {	125	}{	Cento dollari?! Non e' abbastanza! Spiacente, Julius, rischio troppo.	}{	Cento dollari?! Non e' abbastanza! Spiacente, Julius, rischio troppo.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Servono piu' soldi, Cesare.	}
 {	126	}{	Mi ricordero' di prenderli dal tuo cadavere.	}{	Mi ricordero' di prenderli dal tuo cadavere.	}{	131	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Setaccero' le tue ceneri in cerca del mio tesoro.	}
-{	127	}{	Va bene, dammi quello che hai e lascia la citta'. Se ti rivedo e' finita.	}{	Va bene, dammi quello che hai e lascia la citta'. Se ti rivedo e' finita.	}{	111	}{	Humanity 8  & G.Patch_Plus == 1	}{	pc.MoneyAdd(100)	}{		}{		}{		}{		}{		}{		}{	Accetto i tuoi meschini averi. Ora sparisci, prima che mi prenda il resto.	}
+{	127	}{	Va bene, dammi quello che hai e lascia la citta'. Se ti rivedo e' finita.	}{	Va bene, dammi quello che hai e lascia la citta'. Se ti rivedo e' finita.	}{	111	}{	Humanity 8 & G.Patch_Plus == 1	}{	pc.MoneyAdd(100)	}{		}{		}{		}{		}{		}{		}{	Accetto i tuoi meschini averi. Ora sparisci, prima che mi prenda il resto.	}
 {	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

@@ -72,7 +72,7 @@
 {	72	}{	Senti, ho ucciso le tue guardie. Credo che dovresti ascoltare le mie condizioni.	}{	Senti, ho ucciso le tue guardie. Credo che dovresti ascoltare le mie condizioni.	}{	81	}{	G.Dead_Russians >= 5	}{	G.Boris_Guardsdead = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	73	}{	Mi sono intrufolato fra le tue guardie, e so come acciuffarti, Compagno.	}{	Mi sono intrufolato fra le tue guardie, e so come acciuffarti, Compagno.	}{	81	}{	Intimidate 4	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	74	}{	Cosa staranno facendo le tue guardie? Sono stato uomo abbastanza da superarle.	}{	Cosa staranno facendo le tue guardie? Le ho superate.	}{	81	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	75	}{  Hai ragione. Sono una ragazzina, ma non faccio cosi' schifo...non ancora.	}{	81	}{	Seduction 4 & not IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{	Hai ragione. Sono una ragazzina, ma non faccio cosi' schifo...non ancora.	}{	81	}{	Seduction 4 & not IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	76	}{	Sono piu' uomo di quanto tu non lo sia mai stato!	}{	Non sai niente di me!	}{	101	}{	Intimidate -4	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	77	}{	Cedi la proprieta'!	}{	Cedi la proprieta'!	}{	101	}{	Persuasion -5	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	78	}{	Non m'importa cosa pensi.	}{		}{	101	}{	IsMale(pc)	}{		}{		}{		}{		}{		}{		}{		}{		}

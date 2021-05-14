@@ -20,7 +20,7 @@
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	21	}{	Lo e'. Sei... della famiglia?	}{	Lo e'. Sei... della famiglia? }{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Si', lo sono.	}{	Si', lo sono.	}{	61	}{	Persuasion 4	}{	}{	}{	}{	}{	}{	}{	}{	Sono dello stesso sangue.	}
-{	23	}{  No, ma vorrei partecipare comunque.	}{	No, ma vorrei partecipare comunque.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono della famiglia di qualcuno.	}
+{	23	}{	No, ma vorrei partecipare comunque.	}{	No, ma vorrei partecipare comunque.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono della famiglia di qualcuno.	}
 {	24	}{	Capisco. Addio.	}{	Capisco. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

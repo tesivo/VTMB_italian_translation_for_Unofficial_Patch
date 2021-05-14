@@ -120,7 +120,7 @@
 {	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	121	}{	Dovresti ancora provarmi che sei una risorsa preziosa. Ultimamente, la penuria di talento in questa organizzazione, e' sconcertante. Allora, che ne diresti di fare un po' di ricognizione per conto mio?	}{	Dovresti ancora provarmi che sei una risorsa preziosa. Ultimamente, la penuria di talento in questa organizzazione, e' sconcertante. Allora, che ne diresti di fare un po' di ricognizione per conto mio?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	122	}{	Immagino. Cosa devo fare esattamente?	}{	Immagino. Cosa devo fare esattamente?	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{	Chi devo spiare con i miei occhietti?	}
-{	123	}{	Direi, "Si', signore."	}{	Direi, "Si', signore."	}{	131	}{		}{	G.Prince_Reaction = G.Prince_Reaction +1	}{		}{		}{		}{		}{		}{		}{	Se tu mi dici "salta", io dico  "da quale baratro?"	}
+{	123	}{	Direi, "Si', signore."	}{	Direi, "Si', signore."	}{	131	}{		}{	G.Prince_Reaction = G.Prince_Reaction +1	}{		}{		}{		}{		}{		}{		}{	Se tu mi dici "salta", io dico "da quale baratro?"	}
 {	124	}{	Che cosa c'e' per me.	}{	Che cosa c'e' per me.	}{	141	}{		}{	G.Prince_Reaction = G.Prince_Reaction -1	}{		}{		}{		}{		}{		}{		}{	Qualcosa mi balena davanti.	}
 {	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -138,7 +138,7 @@
 {	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	141	}{	Non avere troppa fretta di spargere il tuo valore ai quattro venti. Una volta hai avuto successo - davvero ammirevole -  ma nel grandioso piano, e' stato solo il piccolo passo avanti di un infante. Se stai cercando di farti un nome, ascoltami attentamente.	}{	Non avere troppa fretta di spargere il tuo valore ai quattro venti. Una volta hai avuto successo - davvero ammirevole -  ma nel grandioso piano, e' stato solo il piccolo passo avanti di un infante. Se stai cercando di farti un nome, ascoltami attentamente.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{	Non avere troppa fretta di spargere il tuo valore ai quattro venti. Una volta hai avuto successo - davvero ammirevole - stai cercando di farti un nome, Ventrue, ascoltami attentamente.	}{		}
+{	141	}{	Non avere troppa fretta di spargere il tuo valore ai quattro venti. Una volta hai avuto successo - davvero ammirevole - ma nel grandioso piano, e' stato solo il piccolo passo avanti di un infante. Se stai cercando di farti un nome, ascoltami attentamente.	}{	Non avere troppa fretta di spargere il tuo valore ai quattro venti. Una volta hai avuto successo - davvero ammirevole - ma nel grandioso piano, e' stato solo il piccolo passo avanti di un infante. Se stai cercando di farti un nome, ascoltami attentamente.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{	Non avere troppa fretta di spargere il tuo valore ai quattro venti. Una volta hai avuto successo - davvero ammirevole - stai cercando di farti un nome, Ventrue, ascoltami attentamente.	}{		}
 {	142	}{	(Auto-Link)	}{	(Auto-Link)	}{	151	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	144	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -268,7 +268,7 @@
 {	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	271	}{	Capisco. Allora, dovresti andare a divertirti con quella sua puntigliosa retorica che cerca cosi' disperatamente di sputare. Oh per favore, va', prima che da quella bettola si diffonda lo slogan dell' "oppressore fascista", ostruendo l'aria e soffocando  la gente del luogo.	}{	Capisco. Allora, dovresti andare a divertirti con quella sua puntigliosa retorica che cerca cosi' disperatamente di sputare. Oh per favore, va', prima che da quella bettola si diffonda lo slogan dell' "oppressore fascista", ostruendo l'aria e soffocando  la gente del luogo.	}{	#	}{		}{	G.Prince_Nines = 1	}{		}{		}{		}{		}{		}{	Considera quello che sto per dirti una lezione. Vedi, noi Ventrue a volte dobbiamo accettare di frequentare le persone e ascoltarle fino in fondo con autentico interesse,  non importa quanto siano ridicole le loro informazioni.	}{		}
+{	271	}{	Capisco. Allora, dovresti andare a divertirti con quella sua puntigliosa retorica che cerca cosi' disperatamente di sputare. Oh per favore, va', prima che da quella bettola si diffonda lo slogan dell' "oppressore fascista", ostruendo l'aria e soffocando la gente del luogo.	}{	Capisco. Allora, dovresti andare a divertirti con quella sua puntigliosa retorica che cerca cosi' disperatamente di sputare. Oh per favore, va', prima che da quella bettola si diffonda lo slogan dell' "oppressore fascista", ostruendo l'aria e soffocando la gente del luogo.	}{	#	}{		}{	G.Prince_Nines = 1	}{		}{		}{		}{		}{		}{	Considera quello che sto per dirti una lezione. Vedi, noi Ventrue a volte dobbiamo accettare di frequentare le persone e ascoltarle fino in fondo con autentico interesse, non importa quanto siano ridicole le loro informazioni.	}{		}
 {	272	}{	Andro' da lui.	}{	Andro' da lui.	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado.	}
 {	273	}{	Bene.	}{	Bene.	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi piace divertirmi, andro' da lui.	}
 {	274	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -1054,7 +1054,7 @@
 {	1054	}{	Tornero'. Devo prepararmi per la missione al museo.	}{	Tornero'. Devo prepararmi per la missione al museo.	}{	931	}{		}{		}{		}{		}{		}{		}{		}{		}{	Questa missione puo' attendere. Vado.	}
 {	1055	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1056	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	1057	}{	Bene. C'e' una nave che ti aspetta sulla spiaggia di Santa Monica.	}{	Bene. C'e' una nave che ti aspetta sulla spiaggia di Santa Monica.	}{	#	}{	}{  pc.SetQuest("Dane",1)	}{		}{		}{		}{		}{		}{		}{		}
+{	1057	}{	Bene. C'e' una nave che ti aspetta sulla spiaggia di Santa Monica.	}{	Bene. C'e' una nave che ti aspetta sulla spiaggia di Santa Monica.	}{	#	}{	}{ pc.SetQuest("Dane",1)	}{		}{		}{		}{		}{		}{		}{		}
 {	1058	}{	(Auto-Link)	}{	(Auto-Link)	}{	991	}{	G.Prince_Lightwarn == 0 and pc.masquerade > 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1059	}{	(Auto-Link)	}{	(Auto-Link)	}{	1011	}{	G.Prince_Hardwarn == 0 and pc.masquerade == 4	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	1060	}{	Okay.	}{	Okay.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Si.	}

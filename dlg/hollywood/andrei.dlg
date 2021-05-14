@@ -303,7 +303,7 @@
 {	303	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	304	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	305	}{	...	}{	...	}{	#	}{	G.Kingsway_Open = 1; G.Andrei_Talked = 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	306	}{	Che diavolo sta succedendo qui? Questo posto è un manicomio!	}{	Che diavolo sta succedendo qui? Questo posto è un manicomio!  }{	21	}{	not IsClan(pc,"Malkavian") and not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	306	}{	Che diavolo sta succedendo qui? Questo posto è un manicomio!	}{	Che diavolo sta succedendo qui? Questo posto è un manicomio! }{	21	}{	not IsClan(pc,"Malkavian") and not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	307	}{	Terrificante? Dai un'occhiata a questa griglia, amico.	}{	Terrificante? Dai un'occhiata a questa griglia, amico.	}{	211	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	308	}{	Ah, la spada di Caine!	}{	Ah, la spada di Caine!	}{	221	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

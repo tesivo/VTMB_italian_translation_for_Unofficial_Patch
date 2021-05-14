@@ -179,7 +179,7 @@
 {	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	181	}{	Noi?	}{	Noi?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	182	}{	Io e questo ragazza.	}{	Io e questo ragazza.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Siamo io e questa ragazza...  Credo che ci sara' anche una rana gigante parlante.	}
+{	182	}{	Io e questo ragazza.	}{	Io e questo ragazza.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Siamo io e questa ragazza... Credo che ci sara' anche una rana gigante parlante.	}
 {	183	}{	Oh, noi ci riferiamo a noi stessi sempre al plurale. Ci dispiace.	}{	Oh, noi ci riferiamo a noi stessi sempre al plurale. Ci dispiace.	}{	191	}{	Persuasion 7	}{		}{		}{		}{		}{		}{		}{		}{	Oh, noi ci riferiamo a noi stessi sempre al plurale. Ci dispiace.	}
 {	184	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	185	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -188,7 +188,7 @@
 {	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	191	}{	Se vuoi parlarci, organizzero' un incontro. Vieni stanotte al mercato del pesce. Tu e lui potrete... parlare. E' un uomo pericoloso -  comportati in maniera adeguata.	}{	Se vuoi parlarci, organizzero' un incontro. Vieni stanotte al mercato del pesce. Tu e lui potrete... parlare. E' un uomo pericoloso -  comportati in maniera adeguata.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	Whisper("Ambiguous"); G.Zyg_Meet = 1; pc.SetQuest("Yukie",3)	}{		}{		}{		}{		}{		}{		}{		}
+{	191	}{	Se vuoi parlarci, organizzero' un incontro. Vieni stanotte al mercato del pesce. Tu e lui potrete... parlare. E' un uomo pericoloso - comportati in maniera adeguata.	}{	Se vuoi parlarci, organizzero' un incontro. Vieni stanotte al mercato del pesce. Tu e lui potrete... parlare. E' un uomo pericoloso - comportati in maniera adeguata.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	Whisper("Ambiguous"); G.Zyg_Meet = 1; pc.SetQuest("Yukie",3)	}{		}{		}{		}{		}{		}{		}{		}
 {	192	}{	Grazie.. Faro' del mio meglio. Ci vediamo.	}{	Grazie.. Faro' del mio meglio. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi stuzzica l'idea...Vado.	}
 {	193	}{	Apprezzo l'avvertimento. Hai la mia parola. Ciao.	}{	Apprezzo l'avvertimento. Hai la mia parola. Ciao.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso solo sperarci.	}
 {	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

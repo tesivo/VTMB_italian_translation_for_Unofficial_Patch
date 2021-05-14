@@ -38,12 +38,12 @@
 {	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	41	}{	Uh, stavano aspettando qualcuno. Stavano parlando di un certo lavoro da fare. Ma la persona che aspettavano, beh era in ritardo, cosi' - uno di loro e' andato a cercare un telefono per chiamarlo e l'altro e' rimasto. Beh, in quel momento il killer... beh, in quel momento è apparso.	}{	Uh, stavano aspettando qualcuno. Stavano parlando di un certo lavoro da fare. Ma la persona che aspettavano, beh era in ritardo, cosi' - uno di loro e' andato a cercare un telefono per chiamarlo e l'altro e' rimasto. Beh, in quel momento il killer... beh, in quel momento è apparso. }{	#	}{		}{	G.Bum_Story = 2	}{		}{		}{		}{		}{		}{		}{		}
+{	41	}{	Uh, stavano aspettando qualcuno. Stavano parlando di un certo lavoro da fare. Ma la persona che aspettavano, beh era in ritardo, cosi' - uno di loro e' andato a cercare un telefono per chiamarlo e l'altro e' rimasto. Beh, in quel momento il killer... beh, in quel momento ï¿½ apparso.	}{	Uh, stavano aspettando qualcuno. Stavano parlando di un certo lavoro da fare. Ma la persona che aspettavano, beh era in ritardo, cosi' - uno di loro e' andato a cercare un telefono per chiamarlo e l'altro e' rimasto. Beh, in quel momento il killer... beh, in quel momento ï¿½ apparso. }{	#	}{		}{	G.Bum_Story = 2	}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	Chi ha fatto la chiamata?	}{	Quale dei due ha fatto la chiamata? Hai sentito il suo nome?	}{	51	}{	G.Bum_Muddy == 0 and not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	43	}{	Hai sentito il nome dell'amico di Ichabod?	}{	Hai sentito il nome dell'amico di Ichabod?	}{	46	}{	G.Bum_Muddy == 0 and IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	44	}{	Scomparso?	}{	Scomparso?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ah! Il killer misterioso e' uscito dal suo regno oscuro!	}
 {	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	46	}{	Eh? Ichabod? Di che cazzo stai parlando?  Sei strafatto, amico?	}{	Eh? Ichabod? Di che cazzo stai parlando?  Sei strafatta, tesoro?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	46	}{	Eh? Ichabod? Di che cazzo stai parlando? Sei strafatto, amico?	}{	Eh? Ichabod? Di che cazzo stai parlando? Sei strafatta, tesoro?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	47	}{	Chi era l'amico di quello senza testa?	}{	Chi era l'amico di quello senza testa?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

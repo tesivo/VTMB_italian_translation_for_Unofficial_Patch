@@ -48,7 +48,7 @@
 {	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	51	}{	Hai dovuto ucciderlo, non e' cosi'? Fa parte del tuo codice di sopravvivenza -  coprire le tue tracce, per cosi' dire. E prima che cerchi di ingannarmi, dovresti sapere che sto monitorando la tua temperatura corporea... e' la stessa della stanza.	}{	Hai dovuto ucciderlo, non e' cosi'? Fa parte del tuo codice di sopravvivenza -  coprire le tue tracce, per cosi' dire. E prima che cerchi di ingannarmi, dovresti sapere che sto monitorando la tua temperatura corporea... e' la stessa della stanza.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Story_State = 50; G.Silver_Know = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	51	}{	Hai dovuto ucciderlo, non e' cosi'? Fa parte del tuo codice di sopravvivenza - coprire le tue tracce, per cosi' dire. E prima che cerchi di ingannarmi, dovresti sapere che sto monitorando la tua temperatura corporea... e' la stessa della stanza.	}{	Hai dovuto ucciderlo, non e' cosi'? Fa parte del tuo codice di sopravvivenza - coprire le tue tracce, per cosi' dire. E prima che cerchi di ingannarmi, dovresti sapere che sto monitorando la tua temperatura corporea... e' la stessa della stanza.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Story_State = 50; G.Silver_Know = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	52	}{	Chi sei?	}{	Chi sei?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Oh, no... Sono morto! A HA HA HA.... Qual'e' la tua natura?	}
 {	53	}{	Non sai con chi hai a che fare.	}{	Non sai con chi hai a che fare.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non puoi capire di cosa sei stato testimone.	}
 {	54	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -458,7 +458,7 @@
 {	458	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	459	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	460	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	461	}{	Solo le creature piu' semplici possono sopravvivere allo smembramento. Mi hanno detto che puoi rigenere alcune parti del tuo corpo; mi piacerebbe vedere come fai. Mi chiedo, quante membra puoi  perdere prima che il tuo corpo cessi di resistere?	}{	Solo le creature piu' semplici possono sopravvivere allo smembramento. Mi hanno detto che puoi rigenere alcune parti del tuo corpo; mi piacerebbe vedere come fai. Mi chiedo, quante membra puoi  perdere prima che il tuo corpo cessi di resistere?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	461	}{	Solo le creature piu' semplici possono sopravvivere allo smembramento. Mi hanno detto che puoi rigenere alcune parti del tuo corpo; mi piacerebbe vedere come fai. Mi chiedo, quante membra puoi perdere prima che il tuo corpo cessi di resistere?	}{	Solo le creature piu' semplici possono sopravvivere allo smembramento. Mi hanno detto che puoi rigenere alcune parti del tuo corpo; mi piacerebbe vedere come fai. Mi chiedo, quante membra puoi perdere prima che il tuo corpo cessi di resistere?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	462	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	463	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	464	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

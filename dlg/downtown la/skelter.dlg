@@ -285,7 +285,7 @@
 {	285	}{	Sto cercando qualcosa da fare.	}{	Sto cercando qualcosa da fare.	}{	191	}{	G.Skelter_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Hai qualcosa da farmi fare?	}
 {	286	}{	Stavo pensando al tuo problema Patty; credo di poterti dare una mano.	}{	Stavo pensando al tuo problema Patty; credo di poterti dare una mano.	}{	251	}{	G.Skelter_Quest == 2	}{		}{		}{		}{		}{		}{		}{		}{	Risolvero' il tuo imbarazzante problema di nome Patty.	}
 {	287	}{	Mi occupero' del problema Patty.	}{	Mi occupero' del problema Patty.	}{	271	}{	(G.Patty_Pisha == 1 or IsDead ("Patty") or G.Test_Patty == 1 or G.Patty_SM == 1) and G.Skelter_Quest == 3	}{	FindPlayer().ChangeMasqueradeLevel( -1 )	}{		}{		}{		}{		}{		}{		}{	Patty presto non rappresentera' piu' un problema.	}
-{	288	}{	Mi occupero' del problema Patty.	}{	Mi occupero' del problema Patty.	}{	271	}{	 G.Patty_SD == 1  and G.Skelter_Quest == 3	}{		}{		}{		}{		}{		}{		}{		}{	Patty presto non rappresentera' piu' un problema.	}
+{	288	}{	Mi occupero' del problema Patty.	}{	Mi occupero' del problema Patty.	}{	271	}{	 G.Patty_SD == 1 and G.Skelter_Quest == 3	}{		}{		}{		}{		}{		}{		}{		}{	Patty presto non rappresentera' piu' un problema.	}
 {	289	}{	Ho fatto quella cosa... Patty.	}{	Ho fatto quella cosa... Patty.	}{	576	}{	G.Patty_Alley > 0 and not IsDead ("Patty") and G.Test_Patty == 0 and G.Skelter_Quest == 3	}{		}{		}{		}{		}{		}{		}{		}{	Patty non rappresenta piu' un problema.	}
 {	290	}{	Ho qualche domanda per te.	}{	Ho qualche domanda per te.	}{	591	}{		}{	G.Skelter_Questions = 1	}{		}{		}{		}{		}{		}{		}{	Posso provare la tua materia grigia?	}
 {	291	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -687,7 +687,7 @@
 {	687	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	688	}{	Parlami del Padre Oscuro!	}{	Parlami del Padre Oscuro!	}{	611	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	689	}{	Posso provare la tua materia grigia?	}{	Posso provare la tua materia grigia?	}{	591	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	690	}{	Vado.	}{	Vado.	}{	0	}{	    }{		}{		}{		}{		}{		}{		}{		}{		}
+{	690	}{	Vado.	}{	Vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	691	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	692	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	693	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
