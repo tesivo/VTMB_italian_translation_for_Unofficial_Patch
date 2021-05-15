@@ -1012,7 +1012,7 @@
 {	1012	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1013	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1014	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo - vuoi un aiuto o cosa?   }{	Non preoccuparti, ragazzo, ti abituerai. Mi piacerebbe spiegarti tutto ma il tempo e' uno spreco di tempo, vuoi una mano o no?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegarti tutto, ma il tempo e' uno spreco di tempo - vuoi un aiuto o cosa?   }{	Non preoccuparti, ragazza, ti abituerai. Mi piacerebbe spiegarti tutto, ma il tempo e' uno spreco di tempo, vuoi una mano o no?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1016	}{	Ok. Mi farebbe comodo un po' d'aiuto.   }{	Ok. Mi farebbe comodo un po' d'aiuto.	}{	81	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Mi sottoporro' alla vostra oscura tutela.	}
 {	1017	}{	Non ho molto tempo... dammi solo le basi.	}{	Non ho molto tempo... dammi solo le basi.	}{	891	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Spiegami le basi.	}
 {	1018	}{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.   }{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.	}{	1023	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida per questo sentiero oscuro. Lasciatemi.	}
