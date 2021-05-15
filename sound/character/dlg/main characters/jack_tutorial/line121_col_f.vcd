@@ -5,20 +5,61 @@ actor "Jack"
   {
     event speak "NPC Line"
     {
-      time 2.395 4.969
-      param "Character\dlg\MAIN CHARACTERS\jack_tutorial\line121_col_e.mp3"
+      time 0.000000 5.032925
+      param "character/dlg/main characters/jack_tutorial/line121_col_e.wav"
       param2 "70dB"
       fixedlength
     }
   }
   channel "Gestures"
   {
+    event gesture "Smiling_Jack_line121_col_E"
+    {
+      time 0.000000 5.333333
+      param "Smiling_Jack_line121_col_E"
+      sequenceduration 5.333333
+    }
   }
   channel "Expressions"
   {
+    event expression "Laugh 01"
+    {
+      time 0.013333 1.446667
+      param "smiling_jack_expressions"
+      param2 "Laugh"
+      event_ramp
+      {
+        0.1397 0.9909
+        1.2405 0.9909
+      }
+    }
   }
-  channel "Speech Triggers"
+  channel "laugh"
   {
+    event expression "Joy 01"
+    {
+      time 1.306666 3.506667
+      param "smiling_jack_expressions"
+      param2 "Laugh_NoDeform"
+      event_ramp
+      {
+        0.2179 0.9589
+        1.9913 0.9680
+      }
+    }
+    event expression "Anger_No Deform  01"
+    {
+      time 3.660001 5.026667
+      param "smiling_jack_expressions"
+      param2 "Anger_No Deform "
+      event_ramp
+      {
+        0.1718 0.7009
+        0.2051 0.7009
+        1.1795 0.7009
+        1.2118 0.7009
+      }
+    }
   }
   bonerename "Bip01" "Bip01"
 }

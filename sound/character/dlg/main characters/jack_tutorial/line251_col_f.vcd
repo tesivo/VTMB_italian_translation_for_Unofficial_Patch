@@ -5,20 +5,51 @@ actor "Jack"
   {
     event speak "NPC Line"
     {
-      time 0.000 3.273
-      param "Character\dlg\MAIN CHARACTERS\jack_tutorial\line251_col_e.mp3"
+      time 0.000000 3.848707
+      param "character/dlg/main characters/jack_tutorial/line251_col_e.wav"
       param2 "70dB"
       fixedlength
     }
   }
   channel "Gestures"
   {
+    event gesture "Smiling_Jack_line251_col_E"
+    {
+      time 0.000000 3.833333
+      param "Smiling_Jack_line251_col_E"
+      sequenceduration 3.833333
+    }
   }
   channel "Expressions"
   {
   }
-  channel "Speech Triggers"
+  channel "brows down"
   {
+    event expression "Lowered Both"
+    {
+      time 0.006667 3.840000
+      param "smiling_jack_expressions"
+      param2 "Lowered Both"
+      event_ramp
+      {
+        0.1850 0.9859
+        3.6562 0.9977
+      }
+    }
+  }
+  channel "squint"
+  {
+    event expression "squint"
+    {
+      time 0.006667 3.833333
+      param "smiling_jack_expressions"
+      param2 "squint"
+      event_ramp
+      {
+        0.1625 0.9930
+        3.6563 0.9906
+      }
+    }
   }
   bonerename "Bip01" "Bip01"
 }

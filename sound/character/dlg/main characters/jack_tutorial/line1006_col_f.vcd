@@ -5,8 +5,8 @@ actor "Jack"
   {
     event speak "NPC Line"
     {
-      time  0.000 4.639
-      param "Character\dlg\MAIN CHARACTERS\jack_tutorial\line1006_col_e.mp3"
+      time 0.000000 4.712200
+      param "character/dlg/main characters/jack_tutorial/line1006_col_e.wav"
       param2 "70dB"
       fixedlength
     }
@@ -19,6 +19,21 @@ actor "Jack"
   }
   channel "Speech Triggers"
   {
+    event silence "Silence"
+    {
+      time 0.340000 0.620000
+      param "0.280"
+    }
+    event silence "Silence"
+    {
+      time 4.610000 4.730000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 0.090000 0.210000
+      param "0.120"
+    }
   }
   bonerename "Bip01" "Bip01"
 }

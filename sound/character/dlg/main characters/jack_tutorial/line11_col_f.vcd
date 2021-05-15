@@ -5,20 +5,143 @@ actor "Jack"
   {
     event speak "NPC Line"
     {
-      time 2.175 17.141
-      param "Character\dlg\MAIN CHARACTERS\jack_tutorial\line11_col_e.mp3"
+      time 0.000000 17.226303
+      param "character/dlg/main characters/jack_tutorial/line11_col_e.wav"
       param2 "70dB"
       fixedlength
     }
   }
   channel "Gestures"
   {
+    event gesture "Smiling_Jack_line11_col_E"
+    {
+      time 0.000000 18.333334
+      param "Smiling_Jack_line11_col_E"
+    }
   }
   channel "Expressions"
   {
+    event expression "Laugh_NoDeform 01"
+    {
+      time 2.106667 3.726667
+      param "smiling_jack_expressions"
+      param2 "Laugh_NoDeform"
+      event_ramp
+      {
+        0.1385 0.9817
+        1.5077 0.9909
+      }
+    }
   }
-  channel "Speech Triggers"
+  channel "laugh"
   {
+    event expression "Laugh 01"
+    {
+      time 0.013332 11.560001
+      param "smiling_jack_expressions"
+      param2 "Laugh"
+      event_ramp
+      {
+        0.0080 0.9932
+        2.0256 1.0000
+        2.2641 0.0000
+        3.4780 0.0000
+        3.7700 0.0000
+        3.7980 0.0000
+        4.2620 0.0000
+        4.2820 0.0000
+        4.5340 0.9954
+        5.6200 0.9977
+        5.9860 0.0000
+        6.0348 0.0000
+        8.4609 0.0000
+        8.5040 0.0000
+        8.8820 0.9977
+        9.1522 1.0000
+        9.4522 0.3927
+        9.9304 0.3927
+        10.3348 0.9977
+        10.7740 0.9589
+      }
+    }
+    event expression "Laugh 02"
+    {
+      time 16.600000 17.366665
+      param "smiling_jack_expressions"
+      param2 "Laugh"
+      event_ramp
+      {
+        0.4660 0.6895
+      }
+    }
+  }
+  channel "brows up"
+  {
+    event expression "Anger 01"
+    {
+      time 0.533333 2.173333
+      param "smiling_jack_expressions"
+      param2 "Anger"
+      event_ramp
+      {
+        0.0932 0.9909
+        1.5073 0.9932
+      }
+    }
+    event expression "Sad 01"
+    {
+      time 3.660000 4.373333
+      param "smiling_jack_expressions"
+      param2 "Sad"
+      event_ramp
+      {
+        0.0636 0.9909
+        0.6529 0.9840
+      }
+    }
+    event expression "Confused 01"
+    {
+      time 6.140000 8.706667
+      param "smiling_jack_expressions"
+      param2 "Sad"
+      event_ramp
+      {
+        0.1705 0.9589
+        2.3341 0.9589
+      }
+    }
+    event expression "Raised Both 01"
+    {
+      time 12.840000 15.020000
+      param "smiling_jack_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2136 0.9589
+        2.0068 0.9292
+      }
+    }
+    event expression "Raised Both 02"
+    {
+      time 16.620001 17.233335
+      param "smiling_jack_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.0968 0.9361
+      }
+    }
+    event expression "Sad 02"
+    {
+      time 15.220000 16.493336
+      param "smiling_jack_expressions"
+      param2 "Sad"
+      event_ramp
+      {
+        0.1694 0.9566
+        1.0403 0.9680
+      }
+    }
   }
   bonerename "Bip01" "Bip01"
 }
