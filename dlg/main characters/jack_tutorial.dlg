@@ -288,7 +288,7 @@
 {	288	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	289	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	290	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attenzione. Stai indietro.	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attenzione. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
+{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attento. Stai indietro.	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attenta. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
 {	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	293	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	294	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -414,7 +414,7 @@
 {	414	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	415	}{	Cosa? Ci rinunci? Guarda un po' in giro. Andiamo.	}{	Cosa? Ci rinunci? Guarda un po' in giro. Andiamo.	}{	#	}{		}{	G.Tut_Jackquip = 1	}{	}{	}{	}{	}{	}{	}{		}
 {	416	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	417	}{	Sto aspettando te, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	Ti sto aspettando, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	#	}{		}{	G.Tut_Jackquip = 0	}{	}{	}{	}{	}{	}{	}{		}
+{	417	}{	Ti sto aspettando, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	Ti sto aspettando, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	#	}{		}{	G.Tut_Jackquip = 0	}{	}{	}{	}{	}{	}{	}{		}
 {	418	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	419	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	420	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -488,7 +488,7 @@
 {	488	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	489	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	490	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	491	}{	L'unico modo per combattere la Bestia e' tenerti in stretto contatto con l'Umanita', e non finire affamato. Semplice e lineare.	}{	L'unico modo per combattere la Bestia e' tenerti in stretto contatto con l'Umanita', e non finire affamata. Semplice e lineare.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	491	}{	L'unico modo per combattere la Bestia e' tenerti in stretto contatto con l'Umanita', e non finire affamato. Semplice e lineare.	}{	L'unico modo per combattere la Bestia e' tenerti in stretto contatto con l'Umanita', e non finire affamato. Semplice e lineare.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	492	}{	Capito.	}{	Capito.	}{	501	}{		}{		}{	}{	}{	}{	}{	}{	}{	Simili linee dividono questo mondo dall'ultimo.	}
 {	493	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	494	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -578,7 +578,7 @@
 {	578	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	579	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	580	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	581	}{	L'edificio di fronte a noi, con la porta del garage, lo vedi? Ha un paio di porte all'estremita'. Ci incontreremo all'interno. Semplicemente stai basso e mantieniti nell'oscurita'. E non lasciarti vedere.	}{	L'edificio di fronte a noi, con la porta del garage, lo vedi? Ha un paio di porte all'estremita'. Ci incontreremo all'interno. Semplicemente stai bassa e mantieniti nell'oscurita'. E non lasciarti vedere.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	581	}{	L'edificio di fronte a noi, con la porta del garage, lo vedi? Ha un paio di porte all'estremita'. Ci incontreremo all'interno. Semplicemente stai giu' e mantieniti nell'oscurita'. E non lasciarti vedere.	}{	L'edificio di fronte a noi, con la porta del garage, lo vedi? Ha un paio di porte all'estremita'. Ci incontreremo all'interno. Semplicemente stai giu' e mantieniti nell'oscurita'. E non lasciarti vedere.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	582	}{	Faro' del mio meglio. Ci vediamo fra poco.	}{	Faro' del mio meglio. Ci vediamo fra poco.	}{	621	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
 {	583	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	584	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -623,7 +623,7 @@
 {	623	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	624	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	625	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	626	}{	Procedi, tieniti basso.	}{	Procedi, tieniti bassa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	626	}{	Procedi, stai giu'.	}{	Procedi, stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	627	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	628	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	629	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -658,7 +658,7 @@
 {	658	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	659	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	660	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	661	}{	Non fare il coglioncello. Vai da lui.	}{	Non fare la rammolita. Vai da lui.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	661	}{	Non fare la fighetta del cazzo. Vai a prenderlo.	}{	Non fare la fighetta del cazzo. Vai a prenderlo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	662	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	663	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	664	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -718,7 +718,7 @@
 {	718	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	719	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	720	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	721	}{	Vai avanti, tieniti basso.	}{	Vai avanti, tieniti bassa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	721	}{	Vai avanti, stai giu'.	}{	Vai avanti, stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	722	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	723	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	724	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -728,7 +728,7 @@
 {	728	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	729	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	730	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	731	}{	Non sono sicuro di cosa sta succedendo. Sembra che i Sabbat si stiano sparpagliando. Terro' un orecchio sul pavimento. Stai attento ora che procedi... potrebbe scatenarsi l'inferno.	}{	Non sono sicuro di cosa sta succedendo. Sembra che i Sabbat si stiano sparpagliando. Terro' un orecchio sul pavimento. Stai attenta ora che procedi... potrebbe scatenarsi l'inferno.	}{	#	}{		}{	G.Tut_Jack = 12	}{	}{	}{	}{	}{	}{	}{		}
+{	731	}{	Non sono sicuro di cosa stia succedendo. Sembra che i Sabbat si stiano sparpagliando. Terro' un orecchio sul pavimento. Stai attento ora che procedi... potrebbe scatenarsi l'inferno.	}{	Non sono sicuro di cosa stia succedendo. Sembra che i Sabbat si stiano sparpagliando. Terro' un orecchio sul pavimento. Stai attenta ora che procedi... potrebbe scatenarsi l'inferno.	}{	#	}{		}{	G.Tut_Jack = 12	}{	}{	}{	}{	}{	}{	}{		}
 {	732	}{	Piu' ce ne sono, piu' moriranno.	}{	Piu' ce ne sono, piu' moriranno.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
 {	733	}{	Grande. La mia solita fortuna.	}{	Grande. La mia solita fortuna.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	734	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -738,7 +738,7 @@
 {	738	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	739	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	740	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	741	}{	Vai avanti, tieniti basso.	}{	Vai avanti, tieniti bassa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	741	}{	Vai avanti, stai giu'.	}{	Vai avanti, stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	742	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	743	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	744	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -868,7 +868,7 @@
 {	868	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	869	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	870	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	871	}{	[Brontola]Oh, ragazzo. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da solo.	}{	[Brontola]Oh, ragazzo. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da solo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	871	}{	[Brontola]Oh, ragazzo. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da solo.	}{	[Brontola]Oh, ragazza. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da sola.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	872	}{	(Auto-Link)	}{	(Auto-Link)	}{	881	}{	G.Patch_Plus == 0 and pc.HasItem("item_w_thirtyeight")	}{	pc.RemoveItem("item_w_thirtyeight")	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	873	}{	Certo, ed ecco la tua pistola.	}{	Certo, ed ecco la tua pistola.	}{	881	}{	G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight")	}{	pc.RemoveItem("item_w_thirtyeight"); G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Lo faremo, ora riprenditi la tua spara-piselli.	}
 {	874	}{	Lo faro', ma vorrei tenere la pistola.	}{	Lo faro', ma vorrei tenere la pistola.	}{	881	}{	Persuasion 1 & (G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight"))	}{	}{	}{	}{	}{	}{	}{	}{	Si', si', si'. Ma ci servira' la spara-piselli.	}
@@ -913,7 +913,7 @@
 {	913	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	914	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	915	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	916	}{	Dopo un po', la Bestia puo' prendere il controllo su di te e diventerai pazzo e dovrai essere sedato come un cane rabbioso. Quindi, combattila - non essere un maniaco omicida. Questo aiutera' anche la Masquerade. Hai visto come tutto combacia? Non e' bello?	}{	Dopo un po', la Bestia puo' prendere il controllo su di te e diventerai pazza e dovrai essere sedato come un cane rabbioso. Quindi, combattila - non essere un maniaco omicida. Questo aiutera' anche la Masquerade. Hai visto come tutto combacia? Non e' bello?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	916	}{	Dopo un po', la Bestia puo' prendere il controllo su di te e diventerai pazzo e dovrai essere sedato come un cane rabbioso. Quindi, combattila - non essere un maniaco omicida. Questo aiutera' anche la Masquerade. Hai visto come tutto combacia? Non e' bello?	}{	Dopo un po', la Bestia puo' prendere il controllo su di te e diventerai pazza e dovrai essere sedata come un cane rabbioso. Quindi, combattila - non essere una maniaca omicida. Questo aiutera' anche la Masquerade. Hai visto come tutto combacia? Non e' bello?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	917	}{	Si'.	}{	Si'.	}{	921	}{		}{		}{	}{	}{	}{	}{	}{	}{	Bello come un cadavere ben conservato.	}
 {	918	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	919	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1003,7 +1003,7 @@
 {	1003	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	1006	}{	}{	}{	}{	}{	}{	}{	}{	}{	Un debole come me non puo' completare il gioco.	}
 {	1004	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1005	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1006	}{	Si'. Dovunque ti sia divertito, possiamo andare avanti	}{	Si'. Dovunque ti sia divertita, possiamo andare avanti	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1006	}{	Si'. Dovunque ti sia divertito, possiamo andare avanti.	}{	Si'. Dovunque ti sia divertita, possiamo andare avanti.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1007	}{	Mi dispiace, creero' un nuovo personaggio.	}{	Mi dispiace, creero' un nuovo personaggio.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono persa per sempre a contemplare l'infinito.	}
 {	1008	}{	Uso un mod o qualcosa di simile, per favore lasciatemi continuare.	}{	Uso un mod o qualcosa di simile, per favore lasciatemi continuare.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Modificato ho le budella del gioco, per favore fatemi passare.	}
 {	1009	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
