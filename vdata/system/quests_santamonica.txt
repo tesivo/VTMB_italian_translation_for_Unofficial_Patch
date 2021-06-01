@@ -1141,7 +1141,7 @@ Come find me where burns the mystical sun.\""
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"Trip wants drugs. The clinic will surely have a medical safe full of the stuff."
+			"Description"	"Trip likes drugs. The clinic will surely have a medical safe full of the stuff."
 			"Type"		"incomplete"
 		}
 
@@ -1155,7 +1155,7 @@ Come find me where burns the mystical sun.\""
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"You delivered the drug box to Trip and made some stiff fun of him."
+			"Description"	"You delivered the drug box to Trip and promised him some fun."
 			"Type"		"success"
 			"AwardXP"	"Trip01"
 		}

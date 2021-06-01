@@ -1800,7 +1800,7 @@ StatData
 			{
 				"Name"		"Obfuscate"
 				"InternalName"	"Obfuscate"
-				"HelpText"	"Vampiric invisibility. You may only enable Obfuscate if no one can see you. If you remain motionless, the timer will not run and Obfuscate can be maintained indefinitely. All levels of Obfuscate include the benefits of the lower levels and carry no risk of violating the Masquerade."	// changed by wesp
+				"HelpText"	"Vampiric invisibility. You may only enable Obfuscate if no one can see you. If you remain motionless, the timer will not run and Obfuscate can be maintained indefinitely. All levels of Obfuscate include the benefits of the lower levels and carry no risk of violating the Masquerade. During frenzy level limits are ignored."	// changed by wesp
 				"HelpTextH1"	"Level 1: Hide"
 				"HelpTextH2"	"Level 2: Limited Invisibility"
 				"HelpTextH3"	"Level 3: Hidden Killer"

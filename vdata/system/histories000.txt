@@ -1486,7 +1486,7 @@ Swap the priority order of your Attributes to Mental, Social, Physical."	// adde
 		Text
 		{
 			"Name"		"Subtly Insane"
-			"Description"	"Your insanity does not hinder your ability to interact with others too greatly. At first glance, most wouldn't even second-guess your mental stability.
+			"Description"	"Your insanity does not hinder your ability to interact with others too greatly. At first glance, most wouldn't even second-guess your mental stability and you don't experience some of the more weird things your clan members do.
 			Your unique form of dementia flares up more easily when provoked in combat but you can't ever raise your Dodge above three."	// changed by wesp
 			"ShortDescription"	"Advantage: +1 to Dementation."
 			"ShortPenaltyDescription"	"Penalty: Dodge maximum of 3."
@@ -1608,7 +1608,7 @@ Swap the priority order of your Attributes to Mental, Social, Physical."	// adde
 		{
 			"Name"		"Occult Nut"
 			"Description"	"Who would ever have thought that any of it could be real? You loved dark fantasies and considered yourself Occult-savvy. Now that you're among the Kindred, you find that you actually know some of this stuff and are really excited about learning more about your new state of unlife.
-			You gain a bonus to scholarship and earning experience, but others find you disdainful so your Charisma can't be raise above 3."	// changed by wesp
+			You gain a bonus to scholarship and earning experience, but others find you disdainful so your Charisma can't be raised above three."	// changed by wesp
 			"ShortDescription"		"Advantage: +1 to Scholarship, more experience gain."
 			"ShortPenaltyDescription"	"Penalty: Charisma maximum of 3."
 		}
@@ -1729,7 +1729,7 @@ Swap the priority order of your Attributes to Mental, Social, Physical."	// adde
 		{
 			"Name"		"Deaf"
 			"Description"	"You were born practically deaf. Not only did you overcome your disability, you enjoy helping others cope and get ahead in life.
-			You start with a Humanity of 8, but can't raise your Perception above three. Also, while you do not wish to be presumptuous, but you have a vague feeling that Lady Luck smiles upon you giving you a bonus to Dodge."
+			You start with a Humanity of eight, but can't raise your Perception above three. Also, while you do not wish to be presumptuous, but you have a vague feeling that Lady Luck smiles upon you giving you a bonus to Dodge."
 			"ShortDescription"		"Advantage: +1 to Humanity and Dodge."	// changed by wesp
 			"ShortPenaltyDescription"	"Penalty: Perception maximum of 3."
 		}

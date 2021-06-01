@@ -63,7 +63,7 @@
 {	63	}{	I need you to call off the feud with Bertram Tung.	}{	I need you to call off the feud with Bertram Tung.	}{	91	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	64	}{	Call off the feud.	}{	Call off the feud.	}{	181	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	65	}{	I thought Jeanette owned the club.	}{	I thought Jeanette owned the club.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Does not the white mistress own this asylum?	}
-{	66	}{	Call off the feud.	}{	Call off the feud.	}{	181	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	66	}{	Call off the feud.	}{	Call off the feud.	}{	181	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -73,7 +73,7 @@
 {	73	}{	I need you to call off the feud with Bertram Tung.	}{	I need you to call off the feud with Bertram Tung.	}{	91	}{	IsClan(pc,"Nosferatu") and G.Therese_Bother == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	74	}{	Call off the feud.	}{	Call off the feud.	}{	181	}{	Dominate 1 & G.Therese_Bother == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	75	}{	I've got a few more questions to bounce off you.	}{	I've got a few more questions to bounce off you.	}{	671	}{	G.Therese_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can I pull some answers from your mind?	}
-{	76	}{	Call off the feud.	}{	Call off the feud.	}{	181	}{	Thaumaturgy 1 & G.Patch_Plus == 1 and G.Therese_Bother == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	Call off the feud.	}{	Call off the feud.	}{	181	}{	Thaumaturgy 1 & G.Patch_Plus == 1 and G.Therese_Bother == 0	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	77	}{	I've got things to do. Later.	}{	I've got things to do. Later.	}{	0	}{	G.Therese_Questions == 1	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

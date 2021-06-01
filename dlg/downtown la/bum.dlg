@@ -92,7 +92,7 @@
 {	92	}{	Did you catch that guy's name?	}{	Did you catch that guy's name?	}{	51	}{	G.Bum_Muddy == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	93	}{	Did you hear the name of the Ichabod's buddy?	}{	Did you hear the name of the Ichabod's buddy?	}{	46	}{	G.Bum_Muddy == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	94	}{	You will forget what you saw here. Leave and do not return.	}{	You will forget what you saw here. Leave and do not return.	}{	101	}{	Dominate 1 & IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	95	}{	You will forget what you saw here. Leave and do not return.	}{	You will forget what you saw here. Leave and do not return.	}{	101	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	You will forget what you saw here. Leave and do not return.	}{	You will forget what you saw here. Leave and do not return.	}{	101	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	96	}{	Now be a good boy and forget everything you saw here.	}{	Now be a good boy and forget everything you saw here.	}{	101	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	97	}{	If you tell anyone that story they'll lock you up forever. You should leave now.	}{	If you tell anyone that story they'll lock you up forever. You should leave now.	}{	101	}{	Persuasion 5	}{	}{	}{	}{	}{	}{	}{	}{	This story will place you in a padded cell. Silence if you love your freedom.	}
 {	98	}{	I know you think you saw all this, but trust me, you didn't. Now leave.	}{	I know you think you saw all this, but trust me, you didn't. Now leave.	}{	101	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	Tell this tale again, and I will harvest YOUR head. Now leave.	}
