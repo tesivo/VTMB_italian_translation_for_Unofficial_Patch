@@ -1,5 +1,5 @@
 {	1	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	2	}{	[Frightened security guard]	}{	[Frightened security guard]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	[Guardia di sicurezza spaventata]	}{	[Guardia di sicurezza spaventata]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	3	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	4	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -8,7 +8,7 @@
 {	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	11	}{	[scared]Fermo! Tu - resta li'! Resta dove sei....	}{	[scared]Ferma! Tu - resta li'! Resta dove sei....	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	11	}{	[spaventato]Fermo! Tu - resta li'! Resta dove sei....	}{	[spaventato]Ferma! Tu - resta li'! Resta dove sei....	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	G.Tut_Secg = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	13	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -20,16 +20,16 @@
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	21	}{	Ora, chi cavolo sei? Sei coinvolto in tutto cio'? Perche' sto per comunicarlo via radio e la SWATpresto sara' dappertutto!	}{	Ora, chi cavolo sei? Sei coinvolto in tutto cio'? Perche' sto per comunicarlo via radio e la SWATpresto sara' dappertutto!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Mostrami la strada per uscire.	}{	Mostrami la strada per uscire.	}{	61	}{	Dominate 1 	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	23	}{	You will show me the way out.	}{	You will show me the way out.	}{	61	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	Tu mi mostrerai la via d'uscita.	}{	Tu mi mostrerai la via d'uscita.	}{	61	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	Fuggi! Fuggi dal terrore! Mostrami il sentiero di fuga!	}{	Fuggi! Fuggi dal terrore! Mostrami il sentiero di fuga!	}{	61	}{	Dementation 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	25	}{	Forse. E forse posso divertirmi a prenderti a calci...	}{	Forse. E forse posso divertirmi a prenderti a calci.	}{	61	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
-{	26	}{	No, ma se arriva la SWAT, piomberanno sull'uomo con la pistola. Vuoi che vada cosi'?	}{	No, ma se arriva la SWAT, piomberanno sull'uomo con la pistola. Vuoi che vada cosi'?	}{	31	}{	Persuasion 1	}{		}{		}{		}{		}{		}{		}{		}{	I did nothing, but the good guys will bring the bad guys down here.	}
-{	27	}{	Molti uomini fanno gli spavaldi con me, finche' non e' troppo tardi. Wow - astuto e sexy....	}{	Molti uomini fanno gli spavaldi con me, finche' non e' troppo tardi. Wow - astuto e sexy....	}{	51	}{	Seduction 1	}{		}{		}{		}{		}{		}{		}{		}{	Fearful men make me hot all over. My compliments!	}
-{	28	}{	Maybe I am. And maybe my fun isn't over just yet....	}{	Maybe I am. And maybe my fun isn't over just yet....	}{	41	}{	Intimidate 1	}{	}{	}{	}{	}{	}{	}{	}{	Yes, I'm behind all of it! And I will pull you in deeper.	}
+{	26	}{	No, ma se arriva la SWAT, piomberanno sull'uomo con la pistola. Vuoi che vada cosi'?	}{	No, ma se arriva la SWAT, piomberanno sull'uomo con la pistola. Vuoi che vada cosi'?	}{	31	}{	Persuasion 1	}{		}{		}{		}{		}{		}{		}{		}{	Io non ho fatto niente, ma i buoni porteranno qui i cattivi.	}
+{	27	}{	Molti uomini fanno gli spavaldi con me, finche' non e' troppo tardi. Wow - astuto e sexy....	}{	Molti uomini fanno gli spavaldi con me, finche' non e' troppo tardi. Wow - astuto e sexy....	}{	51	}{	Seduction 1	}{		}{		}{		}{		}{		}{		}{		}{	Gli uomini timorosi mi fanno eccitare dappertutto. I miei complimenti!	}
+{	28	}{	Forse lo sono. E forse il mio divertimento non e' ancora finito....	}{	Forse lo sono. E forse il mio divertimento non e' ancora finito....	}{	41	}{	Intimidate 1	}{	}{	}{	}{	}{	}{	}{	}{	Sì, ci sono io dietro a tutto questo! E ti trascinero' ancora più a fondo.	}
 {	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	31	}{	No. Beh, io uh - comunque ho lasciato la mia radio in macchina.	}{	No. Beh, io uh - comunque ho lasciato la mia radio in macchina.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	32	}{	Senti - sto solo cercando di scappare, c'e' un'altra via di uscita?	}{	Senti - sto solo cercando di scappare, c'e' un'altra via di uscita?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	So can we go now?	}
+{	32	}{	Senti - sto solo cercando di scappare, c'e' un'altra via di uscita?	}{	Senti - sto solo cercando di scappare, c'e' un'altra via di uscita?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Quindi possiamo andare ora?	}
 {	33	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -59,8 +59,8 @@
 {	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	61	}{	Si' OK, va bene - da questa parte. Ci condurra' proprio su nel deposito, magari possiamo svignarcela da li'.	}{	Si' OK, va bene - da questa parte. Ci condurra' proprio su nel deposito, magari possiamo svignarcela da li'.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	62	}{	Go ahead.	}{	Go ahead.	}{	0	}{	}{	G.Tut_Secg = 2	}{	}{	}{	}{	}{	}{	}{	You die first!	}
-{	63	}{	Better stay here, it is too dangerous for you.	}{	Better stay here, it is too dangerous for you.	}{	0	}{	}{	G.Tut_Secg = 3	}{	}{	}{	}{	}{	}{	}{	Follow me not, if you want to live.	}
+{	62	}{	Vai avanti.	}{	Vai avanti.	}{	0	}{	}{	G.Tut_Secg = 2	}{	}{	}{	}{	}{	}{	}{	Tu morirai per primo!	}
+{	63	}{	Meglio restare qui, e' troppo pericoloso per te.	}{	Meglio restare qui, e' troppo pericoloso per te.	}{	0	}{	}{	G.Tut_Secg = 3	}{	}{	}{	}{	}{	}{	}{	Non seguirmi, se vuoi vivere.	}
 {	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
