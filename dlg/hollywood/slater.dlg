@@ -77,7 +77,7 @@
 {	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	No. In realtà, devo andare. Addio.	}{	No. In realtà, devo andare. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{	No. In realta', devo andare. Addio.	}{	No. In realta', devo andare. Addio.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	81	}{	Sono felice che tu l'abbia chiesto, bro, visto che sei... affidabile o qualcosa del genere. Ho questa offerta speciale dove se compri un burrito costoso o del succo Grapple, hai un'arma gratis, quella che vuoi, bro. Ti interessa?	}{	Sono felice che tu l'abbia chiesto, baby, visto che sei... affidabile o qualcosa del genere. Ho questa offerta speciale dove se compri un burrito costoso o del succo Grapple, hai un'arma gratis, quella che vuoi, bro. Ti interessa?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Slater_Weapons = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{	Ma certo, mostrami cos'hai.	}{	Ma certo, mostrami cos'hai.	}{	0	}{	}{	npc.StartBarter(G.Story_State, 0)	}{	}{	}{	}{	}{	}{	}{	Ecco i miei occhi, mostragli la merce.	}
 {	83	}{	Aspetta - stai vendendo armi in un minimarket?	}{	Aspetta - stai vendendo armi in un minimarket?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Carne secca, snacks, vodka, proiettili. Una di queste e' un intruso.	}
@@ -197,7 +197,7 @@
 {	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	200	}{	Va bene. Me ne vado.	}{	Va bene. Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Allora non sono più qui.	}
+{	200	}{	Va bene. Me ne vado.	}{	Va bene. Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Allora non sono piu' qui.	}
 {	201	}{	Um...l'umilta'? Sul serio... vuoi del succo d'arancia o qualcosa per farti scendere la botta? Perche' stai sclerando.	}{	Um...l'umilta'? Sul serio... vuoi del succo d'arancia o qualcosa per farti scendere la botta? Perche' stai sclerando.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Cerco solo il sangue dei mortali.	}{	Cerco solo il sangue dei mortali.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	203	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	Cerco una videocassetta piena di atrocita' innominabili.	}{	21	}{	G.Isaac_Movie > 1 and G.Isaac_Show == 0 and G.Slater_Flynn == 0	}{	}{	}{	}{	}{	}{	}{	}{	}

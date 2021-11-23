@@ -49,7 +49,7 @@
 {	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	51	}{	Ma certo, fai pure. Ora dimmi... Cosa ti porta a Hollywood? E non dirmi che sei qui solo per passeggiare nella Walk of Fame. 	}{	Ma certo, fai pure. Ora dimmi... Cosa ti porta a Hollywood? E non dirmi che sei qui solo per passeggiare nella Walk of Fame.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	52	}{	In realtà, sono qui per trovare i Nosferatu.	}{	In realtà, sono qui per trovare i Nosferatu.	}{	361	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	In realta', sono qui per trovare i Nosferatu.	}{	In realta', sono qui per trovare i Nosferatu.	}{	361	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	54	}{	Sono qui per vedere il paesaggio.	}{	Sono qui per vedere il paesaggio.	}{	71	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	55	}{	Diciamo che sono qui per affari.	}{	Diciamo che sono qui per affari.	}{	81	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -79,7 +79,7 @@
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	81	}{	Ah, davvero? E di che affari si tratta?	}{	Ah, davvero? E di che affari si tratta?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	In realtà, sono qui per trovare i Nosferatu.	}{	In realtà, sono qui per trovare i Nosferatu.	{	361	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	In realta', sono qui per trovare i Nosferatu.	}{	In realta', sono qui per trovare i Nosferatu.	{	361	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	83	}{	Quelli che non ti riguardano.	}{	Quelli che non ti riguardano.	{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	84	}{	Potrei dirtelo... Ma poi devo ucciderti.	}{	Potrei dirtelo... Ma poi devo ucciderti.	{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -99,7 +99,7 @@
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	101	}{	Tieniti i tuoi piccoli segreti se ti fa sentire speciale. Ricordati, mentre sei nel mio dominio segui le mie regole. Tratta Hollywood come una signora, o ti riporto dal Principe in una latta di caffe’.	}{	Tieniti i tuoi piccoli segreti se ti fa sentire speciale. Ricordati, mentre sei nel mio dominio segui le mie regole. Tratta Hollywood come una signora, o ti riporto dal Principe in una latta di caffe’.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	102	}{	In realtà, sono qui per trovare i Nosferatu.	}{	In realtà, sono qui per trovare i Nosferatu.	{	361	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	In realta', sono qui per trovare i Nosferatu.	}{	In realta', sono qui per trovare i Nosferatu.	{	361	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	103	}{	Il TUO dominio? Strano, pensavo che LaCroix fosse il principe della citta’.	}{	Il TUO dominio? Strano, pensavo che LaCroix fosse il principe della citta’.	}{	21	}{	G.Isaac_LaCroix < 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	104	}{	Non mi importa. Posso andarmene ora?	}{	Non mi importa. Posso andarmene ora?	{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -240,9 +240,9 @@
 {	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	241	}{	Ci sara’ tempo dopo per le domande. Ti spieghero’ tutto quando tornerai.	}{	Ci sara’ tempo dopo per le domande. Ti spieghero’ tutto quando tornerai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Question = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	243	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	331	}{	G.Isaac_Leave == 0	}{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
+{	243	}{	Spero proprio di si'. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di si'. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	331	}{	G.Isaac_Leave == 0	}{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
 {	244	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	245	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di sì. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	0	}{	G.Isaac_Leave == 1	}{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
+{	245	}{	Spero proprio di si'. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	Spero proprio di si'. Consegnare pacchi - non l’ho mai fatto prima d’ora. Me ne vado.	}{	0	}{	G.Isaac_Leave == 1	}{	}{	}{	}{	}{	}{	}{	}{	Devo andare a prendere la tua posta.	}
 {	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

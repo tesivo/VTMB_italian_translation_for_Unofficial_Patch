@@ -124,7 +124,7 @@
 {	124	}{	Ecco la mia offerta. Ti tieni gli occhi se me lo dici.	}{	Ecco la mia offerta. Ti tieni gli occhi se me lo dici.	}{	131	}{	Intimidate 3	}{		}{		}{		}{		}{		}{		}{		}{	Ti piacciono i tuoi occhi? Sono il mio regalo per te in cambio del suo nome.	}
 {	125	}{	Tu mi dirai chi e'!	}{	Tu mi dirai chi e'!	}{	131	}{	Dominate 2	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	126	}{	La tua mente mi dira' il suo nome.	}{	La tua mente mi dira' il suo nome.	}{	141	}{	Dementation 2	}{		}{		}{		}{		}{		}{		}{		}{	La tua mente mi dira' il suo nome.	}
-{	127	}{	Gli piacerà incontrare un essere come me.	}{	Gli piacerà incontrare un essere come me.	}{	131	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
+{	127	}{	Gli piacera' incontrare un essere come me.	}{	Gli piacera' incontrare un essere come me.	}{	131	}{	Presence 2 & (G.Patch_Plus == 1 and IsClan(pc,"Toreador"))	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	128	}{	Cosa ti costa dirmi il suo nome?	}{	Cosa ti costa dirmi il suo nome?	}{	251	}{		}{		}{		}{		}{		}{		}{		}{		}{	Qual'e' la sua scusa per la privacy?	}
 {	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	130	}{	Okay allora. Addio.	}{	Okay allora. Addio.	}{	0	}{		}{	G.Money_Tapped = 1	}{		}{		}{		}{		}{		}{		}{	In futuro, aspettati un d�j� vu. Ritornero'.	}

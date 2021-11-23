@@ -19,7 +19,7 @@
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	21	}{	Pensavo proprio la stessa cosa.	}{	Pensavo proprio la stessa cosa.	}{	#	}{		}{	G.Velvet_Stairs = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	22	}{	Fai strada.	}{	Fai strada.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ti perseguiterò per ora.	}
+{	22	}{	Fai strada.	}{	Fai strada.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ti perseguitero' per ora.	}
 {	23	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -651,7 +651,7 @@
 {	651	}{	Danno collaterale, perdite accettabili... disgustosi eufemismi. I cacciatori sono soldati - sanno di essere in guerra - ma l'odio... le loro vite sono state bellissime - ma ora sono perduti.	}{	Danno collaterale, perdite accettabili... disgustosi eufemismi. I cacciatori sono soldati - sanno di essere in guerra - ma l'odio... le loro vite sono state bellissime - ma ora sono perduti.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	652	}{	Veramente, sono dispiaciuto. Ho un'altra domanda.	}{	Veramente, sono dispiaciuto. Ho un'altra domanda.	}{	791	}{		}{		}{		}{		}{		}{		}{		}{		}{	Si', capisco la tua ironia. Dimmi qualcos'altro.	}
 {	653	}{	Sono sicuro che erano solo dei miserabili bastardi. Ho una domanda.	}{	Sono sicuro che erano solo dei miserabili bastardi. Ho una domanda.	}{	791	}{		}{		}{		}{		}{		}{		}{		}{		}{	Gia', erano tutti dei... suicidi. Ora, dimmi qualcos'altro.	}
-{	654	}{	Sono sicuro che vuoi che me ne vada. Tornero' più tardi.	}{	Sono sicuro che vuoi che me ne vada. Tornero' più tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Lascero' che la bambola pianga e che ricompaia quando sara' asciutta.	}
+{	654	}{	Sono sicuro che vuoi che me ne vada. Tornero' piu' tardi.	}{	Sono sicuro che vuoi che me ne vada. Tornero' piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Lascero' che la bambola pianga e che ricompaia quando sara' asciutta.	}
 {	655	}{	Non posso continuare a sentire questo - non mi chiedere altri favori.	}{	Non posso continuare a sentire questo - non mi chiedere altri favori.	}{	0	}{		}{	G.Velvet_Pissed = 1	}{		}{		}{		}{		}{		}{		}{	Siediti e fatti bella bambola. Prima o poi ti vedro' cadere a pezzi e io mi sbellichero' dalle risate. HA!	}
 {	656	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	657	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -752,7 +752,7 @@
 {	752	}{	Ed ecco la sceneggiatura.	}{	Ed ecco la sceneggiatura.	}{	661	}{	pc.HasItem("item_g_Hatters_Screenplay")	}{	}{	}{	}{	}{	}{	}{	}{	Le parole di Hatter, anche per te.	}
 {	753	}{	A proposito, ho dovuto uccidere Hatter.	}{	A proposito, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si e' staccata.	}
 {	754	}{	Grazie, ma non avevi detto qualcosa sul fatto di darmi uno spettacolo privato?	}{	Grazie, ma non avevi detto qualcosa sul fatto di darmi uno spettacolo privato?	}{	911	}{	G.Velvet_Dance == 1 and G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Bello, ma non volevi far battere di nuovo anche il mio cuore?	}
-{	755	}{	Piacere mio, grazie.	}{	Piacere mio, grazie.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Terrò te nel mio cuore e la foto nella mia tasca.	}
+{	755	}{	Piacere mio, grazie.	}{	Piacere mio, grazie.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Terro' te nel mio cuore e la foto nella mia tasca.	}
 {	756	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	757	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	758	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -910,7 +910,7 @@
 {	910	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	911	}{	Mmm, sta diventando interessante.	}{	Mmm, sta diventando interessante.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	912	}{	(Auto-Link)	}{	(Auto-Link)	}{	171	}{	G.Velvet_Dance == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	913	}{	Lo spero davvero.	}{	Lo spero davvero.	}{	0	}{	G.Velvet_Dance == 1	}{	G.Velvet_Dance = 0; Find("vv_lapdance_cut").Trigger()	}{	}{	}{	}{	}{	}{	}{	Lo amo già.	}
+{	913	}{	Lo spero davvero.	}{	Lo spero davvero.	}{	0	}{	G.Velvet_Dance == 1	}{	G.Velvet_Dance = 0; Find("vv_lapdance_cut").Trigger()	}{	}{	}{	}{	}{	}{	}{	Lo amo gia'.	}
 {	914	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	915	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	916	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

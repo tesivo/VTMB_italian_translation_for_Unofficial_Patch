@@ -13,7 +13,7 @@
 {	13	}{	100 dollari? Ma dai. Che ne dici di 75?	}{	100 dollari? Ma dai. Che ne dici di 75?	}{	41	}{	Haggle 6 & pc.CurrentMoney() >= 75	}{	pc.MoneyRemove( 75 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Settantacinque simoleons e non uno in piu'.	}
 {	14	}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 60?}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 60?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 60 and not IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 60 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Sessanta e' un prezzo migliore per una persona spezzata come me.	}
 {	15	}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 40?	}{	Cosi' tanto? Perfino per me? Dolcezza, dai... che ne dici di 40?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 40 and IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 40 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	In realtà ho pochi soldi, tesoro.}{	In realtà ho pochi soldi, tesoro.	}{	71	}{	}{	G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Le mie tasche sono vuote come la mia testa.	}
+{	16	}{	In realta' ho pochi soldi, tesoro.}{	In realta' ho pochi soldi, tesoro.	}{	71	}{	}{	G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Le mie tasche sono vuote come la mia testa.	}
 {	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -67,7 +67,7 @@
 {	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	70	}{	A dir la verità, dovrei andarmene. Ci vediamo.	}{	A dir la verità, dovrei andarmene. Ci vediamo.	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	Ho dimenticato chi siamo. Addio.	}
+{	70	}{	A dir la verita', dovrei andarmene. Ci vediamo.	}{	A dir la verita', dovrei andarmene. Ci vediamo.	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	Ho dimenticato chi siamo. Addio.	}
 {	71	}{	Cosa? E allora io non ho tempo, tesoro. Scusa, ma non regalo queste due bellezze.	}{	Cosa? E allora io non ho tempo, bellezza. Scusa, ma non regalo queste due bellezze.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	Capisco. Tornero' quando avro' i soldi.	}{	Capisco. Tornero' quando avro' i soldi.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Quando trovero' del verde, tornero' per fissarti.	}
 {	73	}{	Perche' dovrei pagare per loro? L'hai gia' fatto tu. E ti hanno truffata, comunque.	}{	Perche' dovrei pagare per loro? L'hai gia' fatto tu. E ti hanno truffata, comunque.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dovrei essere pagato io per sopportare quella che chiami danza.	}

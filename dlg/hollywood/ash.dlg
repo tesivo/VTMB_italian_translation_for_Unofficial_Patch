@@ -439,7 +439,7 @@
 {	439	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	440	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	441	}{	E' meglio se speri che questi cacciatori provengano da un'agenzia che da' lavoro temporaneamente, perche' tutto cio' che un adetto alle pubbliche relazioni fara' e' ridere. Se funziona, sono fuori da questa citta'. Ecco, un mio ringraziamento.	}{	E' meglio se speri che questi cacciatori provengano da un'agenzia che da' lavoro temporaneamente, perche' tutto cio' che un adetto alle pubbliche relazioni fara' e' ridere. Se funziona, sono fuori da questa citta'. Ecco, un mio ringraziamento.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd( 250 ); G.Ash_Leave = 1; pc.SetQuest("Hunters",3)	}{		}{		}{		}{		}{		}{		}{		}
-{	442	}{	Sarà speso bene.	}{	Sarà speso bene.	}{	0	}{	}{	G.Ash_Fake = 1	}{	}{	}{	}{	}{	}{	}{	Oro per il bene!	}
+{	442	}{	Sara' speso bene.	}{	Sara' speso bene.	}{	0	}{	}{	G.Ash_Fake = 1	}{	}{	}{	}{	}{	}{	}{	Oro per il bene!	}
 {	443	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	444	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	445	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

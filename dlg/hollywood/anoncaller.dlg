@@ -13,14 +13,14 @@
 {	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	15	}{	...	}{	...	}{	#	}{	}{	G.No_Idle = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	16	}{	Pronto?	}{	Pronto?	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sì?	}
+{	16	}{	Pronto?	}{	Pronto?	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	Si'?	}
 {	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	21	}{	Il motel Luckee Star. Stanza 2. Non fare tardi.	}{	Il motel Luckee Star. Stanza 2. Non fare tardi.	}{	#	}{	}{	G.Lucky_Blood = 1; pc.SetQuest("Tape",6)	}{	}{	}{	}{	}{	}{	}{	}
-{	22	}{	Sarò lì.	}{	Sarò lì.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Basta che la mia libidine non mi trattenga.	}
-{	23	}{	Non mi importa.	}{	Non mi importa.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Questa stella dovrà essere fortunata un po' più a lungo.	}
-{	24	}{	Addio.	}{	Addio.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
+{	22	}{	Saro' li'.	}{	Saro' li'.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Basta che la mia libidine non mi trattenga.	}
+{	23	}{	Non mi importa.	}{	Non mi importa.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Questa stella dovra' essere fortunata un po' piu' a lungo.	}
+{	24	}{	Addio.	}{	Addio.	}{	0	}{	}{	G.No_Idle = 0	}{	}{	}{	}{	}{	}{	}{	Non sono piu' qui.	}
 {	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	26	}{	(Starting Condition)	}{	}{	15	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
