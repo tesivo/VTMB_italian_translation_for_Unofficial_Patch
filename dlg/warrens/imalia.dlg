@@ -219,7 +219,7 @@
 {	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	221	}{	Yeah. la lezione e', "la vita e' una puttana dal cuore di pietra, e ora lo sono anch'io". Afferrato il concetto? Vuoi che te lo scriva?	}{	Yeah. la lezione e', "la vita e' una puttana dal cuore di pietra, e ora lo sono anch'io". Afferrato il concetto? Vuoi che te lo scriva?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	222	}{	Torniamo a Tawni Sessions.	}{	Torniamo a Tawni Sessions.	}{	91	}{	G.Imalia_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Let us trade words about Tawni.	}
+{	222	}{	Torniamo a Tawni Sessions.	}{	Torniamo a Tawni Sessions.	}{	91	}{	G.Imalia_Quest == 0	}{		}{		}{		}{		}{		}{		}{		}{	Scambiamoci due parole su Tawni.	}
 {	223	}{	Perfettamente. Posso farti qualche domanda?	}{	Perfettamente. Posso farti qualche domanda?	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso interpellare la tua materia grigia?	}
 {	224	}{	Scrivi questo... "PROCURARSI UNA CREMA PER LA PELLE."	}{	Scrivi questo... "PROCURARSI UNA CREMA PER LA PELLE."	}{	341	}{	G.Imalia_Pissed < 1 and G.Imalia_Gotmag == 0 and G.Imalia_Quest < 2	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	225	}{	Oppure, nel tuo caso, "La vita e' una puttana RIPUGNANTE dal cuore di pietra...."	}{	Oppure, nel tuo caso, "La vita e' una puttana RIPUGNANTE dal cuore di pietra...."	}{	351	}{	G.Imalia_Pissed == 1 and G.Imalia_Gotmag == 0 and G.Imalia_Quest < 2	}{		}{		}{		}{		}{		}{		}{		}{		}
