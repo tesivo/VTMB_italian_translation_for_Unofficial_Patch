@@ -139,7 +139,7 @@
 {	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	141	}{	Ti assicuro che il tuo compagno e' ancora vivo. Se vuoi che lo rilasci, devi fare come ti dico.	}{	Ti assicuro che il tuo compagno e' ancora vivo. Se vuoi che lo rilasci, devi fare come ti dico.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	142	}{	Vieni fuori... fatti vedere!	}{	Vieni fuori... fatti vedere!	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	You step through the doors!	}
+{	142	}{	Vieni fuori... fatti vedere!	}{	Vieni fuori... fatti vedere!	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Attraversa le porte!	}
 {	143	}{	... Va bene.	}{	... Va bene.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	... Deal!	}
 {	144	}{	Sto arrivando.	}{	Sto arrivando.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sto arrivando.	}
 {	145	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -448,7 +448,7 @@
 {	448	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	449	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	450	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	451	}{	Hai dimostrato un acume mentale e fisico considerevole. E sono piuttosto perplesso sul come possa una creatura morta mostrare abilita' di sopravvivenza cosi' forti. Che abbia inizio il test finale. Muoviti nella prossima stanza.	}{	You have demonstrated considerable mental and physical acumen. And I'm quite perplexed how something that should be dead can display such strong survival skills. Let's begin the final test. Step into the next room.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	451	}{	Hai dimostrato un acume mentale e fisico considerevole. E sono piuttosto perplesso sul come possa una creatura morta mostrare abilita' di sopravvivenza cosi' forti. Che abbia inizio il test finale. Muoviti nella prossima stanza.	}{	Hai dimostrato un acume mentale e fisico considerevole. E sono piuttosto perplesso sul come possa una creatura morta mostrare abilita' di sopravvivenza cosi' forti. Che abbia inizio il test finale. Muoviti nella prossima stanza.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	452	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	453	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	454	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

@@ -600,7 +600,7 @@
 {	600	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	601	}{	Mi dispiace, ma confrontarmi con Ming-Xiao a riguardo, e' un dovere. Sono sicuro che c'e' stato un malinteso. Ancora una volta, ti ringrazio per l'aiuto che hai dato. Addio.	}{	Mi dispiace, ma confrontarmi con Ming-Xiao a riguardo, e' un dovere. Sono sicuro che c'e' stato un malinteso. Ancora una volta, ti ringrazio per l'aiuto che hai dato. Addio.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	602	}{	Spero che cambi idea. Ci vediamo.	}{	Spero che cambi idea. Ci vediamo.	}{	0	}{		}{	G.WongHo_Dead = 1; G.WongHo_End = 1	}{		}{		}{		}{		}{		}{		}{	Le orecchie dei sordi spesso diventano orecchie dei morti. Addio.	}
-{	603	}{	Better get some insurance before you do. Later.	}{	Better get some insurance before you do. Later.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.WongHo_Dead = 1; G.WongHo_End = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	603	}{	Meglio assicurarsi prima di farlo. A dopo.	}{	Meglio assicurarsi prima di farlo. A dopo.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	G.WongHo_Dead = 1; G.WongHo_End = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	604	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	605	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	606	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

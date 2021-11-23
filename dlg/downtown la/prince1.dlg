@@ -608,7 +608,7 @@
 {	608	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	609	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	610	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	611	}{	Ti daro' qualcosa che non potrai rifiutare. E' la tua occasione per ricevere un piccolo, ma significativo assaggio dei miei beni. [leggermente irritato]Ti prego vivamente di accettare.	}{	I'm assigning you something that can't be screwed up. Charitably. This is your chance to gain a small, but significant amount of my good graces back. [slightly angry]I strongly urge you to accept.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	611	}{	Ti daro' qualcosa che non potrai rifiutare. E' la tua occasione per ricevere un piccolo, ma significativo assaggio dei miei beni. [leggermente irritato]Ti prego vivamente di accettare.	}{	Ti daro' qualcosa che non potrai rifiutare. E' la tua occasione per ricevere un piccolo, ma significativo assaggio dei miei beni. [leggermente irritato]Ti prego vivamente di accettare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	612	}{	Okay, cosa devo fare?	}{	Okay, cosa devo fare?	}{	651	}{		}{		}{		}{		}{		}{		}{		}{		}{	Cosa deve fare questo mio corpo?	}
 {	613	}{	E io prego vivamente te di andare a farti fottere. Addio!	}{	E io prego vivamente te di andare a farti fottere. Addio!	}{	631	}{		}{	G.Prince_Reaction = G.Prince_Reaction -1	}{		}{		}{		}{		}{		}{		}{	Hah hah hah. Davvero DIVERTENTE. La mia gioia fa eco alle tue parole.	}
 {	614	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

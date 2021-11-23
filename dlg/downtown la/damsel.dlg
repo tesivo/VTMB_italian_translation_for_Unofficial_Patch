@@ -9,7 +9,7 @@
 {	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	11	}{	Ho sentito che Nines ti salvato di nuovo il culo. Credi che LaCroix avrebbe smesso di contare i suoi soldi per correre in tuo aiuto?	}{	Ho sentito che Nines ti salvato di nuovo il culo. Credi che LaCroix avrebbe smesso di contare i suoi soldi per correre in tuo aiuto?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	12	}{	Cosa intendi con "di nuovo"?	}{	What do you mean "again"?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	12	}{	Cosa intendi con "di nuovo"?	}{	Cosa intendi con "di nuovo"?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	13	}{	Avrei potuto cavarmela da solo.	}{	Avrei potuto cavarmela da sola.	}{	51	}{	IsClan(pc,"Brujah")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	14	}{	Avrei potuto cavarmela da solo.	}{	Avrei potuto cavarmela da sola.	}{	41	}{	not IsClan(pc,"Brujah")	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	15	}{	Hai qualche cazzo di problema?	}{	Hai qualche cazzo di problema?	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -479,7 +479,7 @@
 {	479	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	480	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	481	}{	Va bene, forse non sei una perfetta merda di vacca.	}{	Va bene, forse non sei una perfetta merda di vacca.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	482	}{	Il capo degli stregoni dice che voi bambini diffondete il contagio.	}{	The warlock chief says you children spread disease.	}{	511	}{	G.Regent_Pestilence >= 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	482	}{	Il capo degli stregoni dice che voi bambini diffondete il contagio.	}{	Il capo degli stregoni dice che voi bambini diffondete il contagio.	}{	511	}{	G.Regent_Pestilence >= 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	483	}{	C'e' qualcosa che non ti da' pace.	}{	C'e' qualcosa che non ti da' pace.	}{	501	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	484	}{	Peste, vaiolo, influenza, sifilide, colera...	}{	Peste, vaiolo, influenza, sifilide, colera...	}{	501	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	485	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

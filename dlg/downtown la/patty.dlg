@@ -18,7 +18,7 @@
 {	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	21	}{	No, andiamo. Va benissimo cosi'. Io sono Patty. Seriamente; mi conoscono tutti. A parte questo, volevo solo chiederti se hai visto una persona.	}{	No, come on. [dismissive]It's totally cool. I'm Patty. Seriously; everyone knows me. Besides, I just wanted to ask you if you've seen someone.	}{	#	}{		}{	G.Patty_Known = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	No, andiamo. [sprezzante]Va benissimo cosi'. Io sono Patty. Seriamente; mi conoscono tutti. A parte questo, volevo solo chiederti se hai visto una persona.	}{	No, andiamo. [sprezzante]Va benissimo cosi'. Io sono Patty. Seriamente; mi conoscono tutti. A parte questo, volevo solo chiederti se hai visto una persona.	}{	#	}{		}{	G.Patty_Known = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Bene. Chi?	}{	Bene. Chi?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Persona? Sempre...tante.... dovunque, con nomi sconosciuti.	}
 {	23	}{	Chi e' il fortunato?	}{	Chi e' il fortunato?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Rifila questo gioco bizzarro a qualcun altro. La mia mente si chiede chi.	}
 {	24	}{	Ohhh... kay.	}{	Ohhh... kay.	}{	31	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}

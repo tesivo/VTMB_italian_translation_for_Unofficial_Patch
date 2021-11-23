@@ -111,7 +111,7 @@
 {	111	}{	Mmm... Lo sapevo che ti saresti fatto sentire. Empire hotel: di' loro che sono fuori. Sai correre, giusto? Fallo, non importa... solo, non cominciare alcun tipo di combattimento da strada, chiaro. Questi tizi hanno delle conoscenze. Ad ogni modo, anche altre persone hanno qualcosa da confessare alla sacerdotezza del beat. A dopo, tesoro.	}{	Mmm... Lo sapevo che ti saresti fatta sentire. Empire hotel: di' loro che sono fuori. Sai correre, giusto? Fallo, non importa... solo, non cominciare alcun tipo di combattimento da strada, chiaro. Questi tizi hanno delle conoscenze. Ad ogni modo, anche altre persone hanno qualcosa da confessare alla sacerdotezza del beat. A dopo, tesoro.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Venus_Quest = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	112	}{	Tornero' tra un minuto.	}{	Tornero' tra un minuto.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Saro' come il vento.	}
 {	113	}{	Spero solo che qualcuno faccia una mossa sbagliata.	}{	Spero solo che qualcuno faccia una mossa sbagliata.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Riesco difficilmente a trattenere il tuo messaggio nella mia bocca.	}
-{	114	}{	Oh, and get rid of that annoying turnstile, will you?	}{	Oh, and get rid of that annoying turnstile, will you?	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	I will be gone like the stupid fan in your door.	}
+{	114	}{	Oh, e sbarazzati di quel fastidioso tornello, va bene?	}{	Oh, e sbarazzati di quel fastidioso tornello, va bene?	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Me ne andrò come lo stupido fantasma nella tua porta.	}
 {	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -201,7 +201,7 @@
 {	201	}{	E' all'Empire Hotel. Ci sono sempre un pugno di bulletti feroci che gironzolano intorno. Ha un caratteraccio, e molto probabilmente avra' bevuto per quattro ore di fila. Tieni - e' la chiave per il piano dell'attico.	}{	E' all'Empire Hotel. Ci sono sempre un pugno di bulletti feroci che gironzolano intorno. Ha un caratteraccio, e molto probabilmente avra' bevuto per quattro ore di fila. Tieni - e' la chiave per il piano dell'attico.	}{	#	}{	npc.SetDisposition("Neutral", 1 )	}{	G.Venus_Quest = 3; pc.GiveItem("item_k_empire_mafia_key"); pc.SetQuest("Venus",1)	}{		}{		}{		}{		}{		}{		}{		}
 {	202	}{	Tornero' quando non respirera' piu'.	}{	Tornero' quando non respirera' piu'.	}{	0	}{	G.Extra_Lines == 1	}{		}{		}{		}{		}{		}{		}{		}{	Si'... l'impero dello zar presto finira'.	}
 {	203	}{	Quando tornero', discuteremo del nostro club.	}{	Quando tornero', discuteremo del nostro club.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tornero' per dare inizio alla mia carica di violento generale del beat.	}
-{	204	}{	Thanks. And get rid of that annoying turnstile, will you?	}{	Thanks. And get rid of that annoying turnstile, will you?	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	I will be gone like the stupid fan in your door.	}
+{	204	}{	Grazie. E sbarazzati di quel fastidioso tornello, va bene?	}{	Grazie. E sbarazzati di quel fastidioso tornello, va bene?	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	I will be gone like the stupid fan in your door.	}
 {	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -251,7 +251,7 @@
 {	251	}{	Ho un po' di soldi da fare. Ti daro' la tua parte dei profitti. Non dimenticare di passare a prenderli di tanto in tanto, hmm.	}{	Ho un po' di soldi da fare. Ti daro' la tua parte dei profitti. Non dimenticare di passare a prenderli di tanto in tanto, hmm.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	252	}{	Mi vedrai ancora e spesso, non ti preoccupare. Arrivederci Venus.	}{	Mi vedrai ancora e spesso, non ti preoccupare. Arrivederci Venus.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Tornero' ogni notte come le stelle, o dea.	}
 {	253	}{	A dire il vero ho qualche consiglio per il club....	}{	A dire il vero ho qualche consiglio per il club....	}{	261	}{		}{		}{		}{		}{		}{		}{		}{		}{	I frutti dei miei sogni eccitanti potrebbero dipingere queste pareti in maniera sublime.	}
-{	254	}{	I'll do. And get rid of that annoying turnstile, will you?	}{	I'll do. And get rid of that annoying turnstile, will you?	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	I will be gone like the stupid fan in your door.	}
+{	254	}{	Lo farò. E sbarazzati di quel fastidioso tornello, va bene?	}{	Lo farò. E sbarazzati di quel fastidioso tornello, va bene?	}{	0	}{	G.Patch_Plus == 1 and G.Turnstile_Gone == 0	}{	G.Turnstile_Gone = 1	}{	}{	}{	}{	}{	}{	}{	Me ne andrò come lo stupido fantasma nella tua porta.	}
 {	255	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
