@@ -2,7 +2,7 @@
 {	2	}{	Hai visto qualche delinquente armato di mazza uscire da qui?	}{	Hai visto qualche delinquente armato di mazza uscire da qui?	}{	191	}{	G.Mercurio_Quest == 1 and not IsClan(pc,"Malkavian") and G.Beachhouse == 0 and G.E_Demons == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	3	}{	Hai visto dei demoni da spiaggia armati di mazze?	}{	Hai visto dei demoni da spiaggia armati di mazze?	}{	301	}{	G.Mercurio_Quest == 1 and IsClan(pc,"Malkavian") and G.Beachhouse == 0 and G.E_Demons == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	4	}{	Di che cosa stai parlando?	}{	Di che cosa stai parlando?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non gettero' alcuna ombra sulla tua fiamma, piccolo falciatore.	}
-{	5	}{	Bene. Posso scambiare due chiacchiere con te?	}{	Bene. Posso scambiare due chiacchiere con te?	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Let us trade words here under the moribund moon.	}
+{	5	}{	Bene. Posso scambiare due chiacchiere con te?	}{	Bene. Posso scambiare due chiacchiere con te?	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Scambiamoci due chiacchiere qui sotto la luna moribonda.	}
 {	6	}{	Questa e' la MIA spiaggia. Ora sparisci.	}{	Questa e' la MIA spiaggia. Ora sparisci.	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora vattene, o dovro' indossare una veste nera e una falce.	}
 {	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
