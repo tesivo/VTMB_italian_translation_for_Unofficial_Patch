@@ -60,7 +60,7 @@
 {	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	61	}{	Heh, heh... eccezionale. Torna tra un po’, dovrei avere qualcosa per te. 	}{	Heh, heh... eccezionale. Torna tra un po’, dovrei avere qualcosa per te.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Gift = 1; pc.SetQuest("Kings Way",3)	}{	}{	}{	}{	}{	}{	}{	}
 {	62	}{	Grazie, Isaac. Molto apprezzato. Avevo un’altra domanda. 	}{	Grazie, Isaac. Molto apprezzato. Avevo un’altra domanda.	}{	491	}{	G.Player_Anarch == 1	}{	}{	}{	}{	}{	}{	}{	}{	Mi stavo facendo una domanda.	}
-{	63	}{	Questo non è un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	Questo non è un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	491	}{	G.Player_Anarch == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mi stavo facendo una domanda.	}
+{	63	}{	Questo non e' un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	Questo non e' un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	491	}{	G.Player_Anarch == 0	}{	}{	}{	}{	}{	}{	}{	}{	Mi stavo facendo una domanda.	}
 {	64	}{	Poi verro’ a prenderlo. Grazie, Isaac.	}{	Poi verro’ a prenderlo. Grazie, Isaac.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ricevero’ il tuo regalo in un tempo futuro.	}
 {	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -840,7 +840,7 @@
 {	840	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	841	}{	I'm glad to see the blood of my clan has found its way into the right people. Hopefully, you won't spill it foolishly in some pointless display of fealty for that damned LaCroix. Torna tra un po’, dovrei avere qualcosa per te.	}{	I'm glad to see the blood of my clan has found its way into the right people. Hopefully, you won't spill it foolishly in some pointless display of fealty for that damned LaCroix. Torna tra un po’, dovrei avere qualcosa per te.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Gift = 1; pc.SetQuest("Kings Way",3)	}{	}{	}{	}{	}{	}{	}{	}
 {	842	}{	Grazie, Isaac. Molto apprezzato. Avevo un’altra domanda.	}{	Grazie, Isaac. Molto apprezzato. Avevo un’altra domanda.	}{	491	}{	G.Player_Anarch == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	843	}{	Questo non è un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	Questo non è un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	491	}{	G.Player_Anarch == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	843	}{	Questo non e' un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	Questo non e' un tentativo di corruzione, vero? Avevo un’altra domanda.	}{	491	}{	G.Player_Anarch == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	844	}{	Poi verro’ a prenderlo. Grazie, Isaac.	}{	Poi verro’ a prenderlo. Grazie, Isaac.	{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	845	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	846	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

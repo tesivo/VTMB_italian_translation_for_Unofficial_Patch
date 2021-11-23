@@ -149,7 +149,7 @@
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	Sto avendo tante idee, ma ho poco tempo. Ci vediamo. }{	Sto avendo tante idee, ma ho poco tempo. Ci vediamo. 	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ora non ho tempo, diavoletto. Addio.	}
 {	151	}{	Ti manda VV? Oh, giusto. Ha pagato in anticipo per la tua danza. Mi ha detto di darti tutto quel che vuoi. Andiamo nelle stanze private? }{	VTi manda VV? Oh, giusto. Ha pagato in anticipo per la tua danza. Mi ha detto di darti tutto quel che vuoi. Andiamo nelle stanze private?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	Mi sembra una buona idea.	}{	Mi sembra una buona idea.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mi piace stare nel privè.	}
+{	152	}{	Mi sembra una buona idea.	}{	Mi sembra una buona idea.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mi piace stare nel prive'.	}
 {	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

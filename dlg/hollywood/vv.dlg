@@ -709,7 +709,7 @@
 {	709	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	710	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	711	}{	[Sobrio, freddo e avvilito]Sparisci. Assassino! Hai ucciso il mio dolce e caro artista. Non ti potro' mai perdonare.	}{	[Sobrio, freddo e avvilito]Sparisci. Assassina! Hai ucciso il mio dolce e caro artista. Non ti potro' mai perdonare.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	712	}{	Scusa.	}{	Scusa.	}{	0	}{	Humanity > 5	}{	}{	}{	}{	}{	}{	}{	}{	È solo colpa mia.	}
+{	712	}{	Scusa.	}{	Scusa.	}{	0	}{	Humanity > 5	}{	}{	}{	}{	}{	}{	}{	}{	E' solo colpa mia.	}
 {	713	}{	Qualunque cosa.	}{	Qualunque cosa.	}{	0	}{	Humanity < 6	}{	}{	}{	}{	}{	}{	}{	}{	Non ci interessa.	}
 {	714	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	715	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -750,7 +750,7 @@
 {	750	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	751	}{	Non lo puoi dire? Ti adoro - sei cosi' dolce, che mi protegga. Peccato non ti abbia incontrato prima. Oh, perche' non possono essere tutti come te? Il mondo potrebbe essere cosi'... cosi', bello. Ecco, Prendi questo, un ricordo della bellissima ragazza a cui hai rubato il cuore.	}{	Non lo puoi dire? Ti adoro - sei cosi' dolce, che mi protegga. Peccato non ti abbia incontrato prima. Oh, perche' non possono essere tutti come te? Il mondo potrebbe essere cosi'... cosi', bello. Ecco, Prendi questo, un ricordo della bellissima ragazza a cui hai rubato il cuore.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	pc.GiveItem("item_g_vv_photo"); G.Velvet_Email = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	752	}{	Ed ecco la sceneggiatura.	}{	Ed ecco la sceneggiatura.	}{	661	}{	pc.HasItem("item_g_Hatters_Screenplay")	}{	}{	}{	}{	}{	}{	}{	}{	Le parole di Hatter, anche per te.	}
-{	753	}{	A proposito, ho dovuto uccidere Hatter.	}{	A proposito, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si è staccata.	}
+{	753	}{	A proposito, ho dovuto uccidere Hatter.	}{	A proposito, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si e' staccata.	}
 {	754	}{	Grazie, ma non avevi detto qualcosa sul fatto di darmi uno spettacolo privato?	}{	Grazie, ma non avevi detto qualcosa sul fatto di darmi uno spettacolo privato?	}{	911	}{	G.Velvet_Dance == 1 and G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Bello, ma non volevi far battere di nuovo anche il mio cuore?	}
 {	755	}{	Piacere mio, grazie.	}{	Piacere mio, grazie.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Terrò te nel mio cuore e la foto nella mia tasca.	}
 {	756	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -761,7 +761,7 @@
 {	761	}{	Sei abbastanza bravo ad infastidire le persone. Adesso devi usare un po' di trucchetti. L'intelligenza di Hatter purtroppo ci rende il compito difficile. Hai provato a offrirgli dei soldi? Il poveraccio e' costretto a una dieta di ramen e cola, sono sicura che li accettera'.	}{	Sei abbastanza brava ad infastidire le persone. Adesso devi usare un po' di trucchetti. L'intelligenza di Hatter purtroppo ci rende il compito difficile. Hai provato a offrirgli dei soldi? Il poveraccio e' costretto a una dieta di ramen e cola, sono sicura che li accettera'.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	762	}{	Ho detto infastidito, volevo dire morto.	}{	Ho detto infastidito, volevo dire morto.	}{	701	}{	IsDead("DHatter")	}{	pc.SetQuest("Writer",3)	}{		}{		}{		}{		}{		}{		}{	Hatter non puo' parlare visto che gli e' caduta la testa.	}
 {	763	}{	Ecco la sceneggiatura, alla fine.	}{	Ecco la sceneggiatura, alla fine.	}{	661	}{	pc.HasItem("item_g_Hatters_Screenplay")	}{		}{		}{		}{		}{		}{		}{		}{	Ecco le parole di Hatter per te.	}
-{	764	}{	A proposito, ho dovuto uccidere Hatter.	}{	A proposito, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si è staccata.	}
+{	764	}{	A proposito, ho dovuto uccidere Hatter.	}{	A proposito, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si e' staccata.	}
 {	765	}{	Ci provero'. Alla prossima	}{	Ci provero'. Alla prossima	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Lo faro' mangiare per una settiamna. Vado.	}
 {	766	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	767	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -771,7 +771,7 @@
 {	771	}{	Tieni. Non e' molto, ma... dovrebbe essere abbastanza per qualcosa di piu' appropriato per conoscere meglio Velvet Velour.	}{	Tieni. Non e' molto, ma... dovrebbe essere abbastanza per qualcosa di piu' appropriato per conoscere meglio Velvet Velour.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.MoneyAdd( 400 )	}{		}{		}{		}{		}{		}{		}{		}
 {	772	}{	Come sei generosa. Ho un'altra domanda.	}{	Come sei generosa. Ho un'altra domanda.	}{	791	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' poesia per me. Dimmi qualcos'altro.	}
 {	773	}{	Ecco la sceneggiatura, almeno.	}{	Ecco la sceneggiatura, almeno.	}{	661	}{	pc.HasItem("item_g_Hatters_Screenplay")	}{	}{	}{	}{	}{	}{	}{	}{	Ecco le parole di Hatter per te.	}
-{	774	}{	Comunque, ho dovuto uccidere Hatter.	}{	Comunque, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si è staccata.	}
+{	774	}{	Comunque, ho dovuto uccidere Hatter.	}{	Comunque, ho dovuto uccidere Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si e' staccata.	}
 {	775	}{	Bene. Ci vediamo in giro, VV.	}{	Bene. Ci vediamo in giro, VV.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi piace il modo in cui si accartoccia nel mio palmo. Andro' ad esplorare questa sensazione.	}
 {	776	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	777	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -781,7 +781,7 @@
 {	781	}{	Tentero' di ignorare quanto tu sia stronzo.	}{	Tentero' di ignorare quanto tu sia una stronza.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	782	}{	Grandioso. Ho un'altra domanda.	}{	Grandioso. Ho un'altra domanda.	}{	791	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fai come vuoi. Dimmi qualcos'altro.	}
 {	783	}{	Ecco la sceneggiatura, almeno.	}{	Ecco la sceneggiatura, almeno.	}{	661	}{	pc.HasItem("item_g_Hatters_Screenplay")	}{	}{	}{	}{	}{	}{	}{	}{	Ecco le parole di Hatter per te.	}
-{	784	}{	A proposito, ho dovuto uccidere Hatter.	}{	A proposito, ho dovuto uccidere il Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si è staccata.	}
+{	784	}{	A proposito, ho dovuto uccidere Hatter.	}{	A proposito, ho dovuto uccidere il Hatter.	}{	701	}{	IsDead("DHatter")	}{	}{	}{	}{	}{	}{	}{	}{	Oh, e la testa di Hatter si e' staccata.	}
 {	785	}{	Tutto qui? Dimentica questo.... Me ne vado.	}{	Tutto qui? Dimentica questo.... Me ne vado.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	SONO STANCO DI COME TI COMPORTI! ME NE VADO, BAMBOLA PARLANTE!	}
 {	786	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	787	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

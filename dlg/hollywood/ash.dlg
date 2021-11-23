@@ -248,7 +248,7 @@
 {	248	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	251	}{	Isaac mi aiuta? Questa è buona. Non si farebbe beccare a meno di 150 metri da questo posto, non con i cacciatori in giro. Il solo pensiero di chiedergli aiuto, quell'arricciatura compiaciuta delle sue labbra velenose... non in questa vita.	}{	Isaac mi aiuta? Questa è buona. Non si farebbe beccare a meno di 150 metri da questo posto, non con i cacciatori in giro. Il solo pensiero di chiedergli aiuto, quell'arricciatura compiaciuta delle sue labbra velenose... non in questa vita.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	251	}{	Isaac mi aiuta? Questa e' buona. Non si farebbe beccare a meno di 150 metri da questo posto, non con i cacciatori in giro. Il solo pensiero di chiedergli aiuto, quell'arricciatura compiaciuta delle sue labbra velenose... non in questa vita.	}{	Isaac mi aiuta? Questa e' buona. Non si farebbe beccare a meno di 150 metri da questo posto, non con i cacciatori in giro. Il solo pensiero di chiedergli aiuto, quell'arricciatura compiaciuta delle sue labbra velenose... non in questa vita.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	252	}{	Forse posso aiutarti.	}{	Forse posso aiutarti.	}{	261	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi stai chiedendo aiuto, anche se non capisco bene.	}
 {	253	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	254	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}

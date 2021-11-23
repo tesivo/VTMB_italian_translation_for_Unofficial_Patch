@@ -1,5 +1,5 @@
-{	1	}{	La luna è una signora misteriosa...	}{	La luna è una signora misteriosa...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Uh... lo è?	}{	Uh... lo è?	}{	11	}{	G.Flynn_Message == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ah! Sei come me!	}
+{	1	}{	La luna e' una signora misteriosa...	}{	La luna e' una signora misteriosa...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Uh... lo e'?	}{	Uh... lo e'?	}{	11	}{	G.Flynn_Message == 0	}{	}{	}{	}{	}{	}{	}{	}{	Ah! Sei come me!	}
 {	3	}{	Cosa? Credo di aver letto quel libro una volta.	}{	Cosa? Credo di aver letto quel libro una volta.	}{	11	}{	G.Flynn_Message == 0	}{	}{	}{	}{	}{	}{	}{	}{	Non parlare della mia signora in quel modo.	}
 {	4	}{	Strambo.	}{	Strambo.	}{	11	}{	G.Flynn_Message == 0	}{	}{	}{	}{	}{	}{	}{	}{	Nessuno lo sa meglio di me.	}
 {	5	}{	Credo che tu abbia sbagliato numero.	}{	Credo che tu abbia sbagliato numero.	}{	11	}{	G.Flynn_Message == 0	}{	}{	}{	}{	}{	}{	}{	}{	Hai confuso i tuoi numeri.	}
