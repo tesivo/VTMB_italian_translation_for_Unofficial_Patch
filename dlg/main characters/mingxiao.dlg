@@ -404,7 +404,7 @@
 {	404	}{	Bene. Sai chi ha il sarcofago?	}{	Bene. Sai chi ha il sarcofago?	}{	391	}{	G.Ming_Sarcophagus == 2 and G.Ming_Bros == 0	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	405	}{	Ho un altro paio di domande.	}{	Ho un altro paio di domande.	}{	281	}{		}{		}{		}{		}{		}{		}{		}{		}{	Posso far mia la tua materia grigia?	}
 {	406	}{	Troppo tardi. Ci vediamo.	}{	Troppo tardi. Ci vediamo.	}{	491	}{	npc.times_talked == 1	}{		}{		}{		}{		}{		}{		}{		}{	Vado via.	}
-{	407	}{	Troppo tardi. Ci vediamo.	}{	Troppo tardi. Ci vediamo.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
+{	407	}{	Troppo tardi. Ci vediamo.	}{	Troppo tardi. Ci vediamo.	}{	0	}{	npc.times_talked > 1	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
 {	408	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	409	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	410	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -517,7 +517,7 @@
 {	517	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	518	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	519	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	520	}{	Non importa. Arrivederci.	}{	Non importa. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
+{	520	}{	Non importa. Arrivederci.	}{	Non importa. Arrivederci.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non sono più qui.	}
 {	521	}{	Io fornisco una guida spirituale a tutti coloro che la cercano.	}{	Io fornisco una guida spirituale a tutti coloro che la cercano.	}{	#	}{	}{	G.Ming_Kindred = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	522	}{	E questo serve bene ai vostri scopi, non e' vero?	}{	E questo serve bene ai vostri scopi, non e' vero?	}{	531	}{	pc.perception >= 4 or pc.wits >= 4	}{	}{	}{	}{	}{	}{	}{	}{	La vostra guida indica un percorso pericoloso.	}
 {	523	}{	Sua figlia e' stata rapita. Vuole che la riporti indietro.	}{	Sua figlia e' stata rapita. Vuole che la riporti indietro.	}{	561	}{	G.WongHo_Kiki == 1 and G.Kiki_Rescued == 0	}{	}{	}{	}{	}{	}{	}{	}{	Il suo tesoro e' stato preso, e io cerco di restituirlo.	}

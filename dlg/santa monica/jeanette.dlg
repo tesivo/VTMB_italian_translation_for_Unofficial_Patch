@@ -11,7 +11,7 @@
 {	11	}{	Sono le dita che scivolano giu' lungo la tua schiena quando le luci si effievoliscono. Sono il nome inciso sulle pareti delle stanze da letto di tutti gli uomini. Quando sono triste, il mondo intero cerca di farmi sorridere. E tutti si chiedono sempre, chi... e'... quella ragazza?	}{	Sono le dita che scivolano giu' lungo la tua schiena quando le luci si effievoliscono. Sono il nome inciso sulle pareti delle stanze da letto di tutti gli uomini. Quando sono triste, il mondo intero cerca di farmi sorridere. E tutti si chiedono sempre, chi... e'... quella ragazza?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	12	}{	Hai un nome?	}{	Hai un nome?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi il tuo nome.	}
 {	13	}{	Ah non sei l'animatrice? Hai un nome con cui posso ricordarti?	}{	Ah non sei l'animatrice? Hai un nome con cui posso ricordarti?	}{	71	}{		}{	G.Jeanette_Seduce = G.Jeanette_Seduce + 1	}{		}{		}{		}{		}{		}{		}{	Il mio cuore batte come mille tamburi primitivi. Fammi dono di sapere il tuo nome.	}
-{	14	}{	Sai una cosa - lascia stare - non mi importa.	}{	Sai una cosa - lascia stare - non mi importa.	}{	51	}{	G.Jeanette_Curious == 0	}{		}{		}{		}{		}{		}{		}{		}{	Your games give me cold willies.	}
+{	14	}{	Sai una cosa - lascia stare - non mi importa.	}{	Sai una cosa - lascia stare - non mi importa.	}{	51	}{	G.Jeanette_Curious == 0	}{		}{		}{		}{		}{		}{		}{		}{	I tuoi giochetti mi fanno venire i brividi.	}
 {	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
