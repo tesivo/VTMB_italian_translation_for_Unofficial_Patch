@@ -1,15 +1,15 @@
-{	1	}{	Hey! How ya doin'?	}{	Hey! How ya doin'?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	I guess smoking isn't enough for you, handsome.	}{	I guess smoking isn't enough for you, handsome.	}{	11	}{	Seduction 5 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	You need more than to puff, my beauty.	}
-{	3	}{	Would you like to suck on something else than a cigar?	}{	Would you like to suck on something else than a cigar?	}{	11	}{	Seduction 5 & IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Do you want to polish my pipe?	}
-{	4	}{	Can I interest you in something else besides smoking?	}{	Can I interest you in something else besides smoking?	}{	21	}{	Seduction -5	}{	}{	}{	}{	}{	}{	}{	}{	Are you looking for more than blowing smoke?	}
-{	5	}{	Sorry, I don't want to disturb you.	}{	Sorry, I don't want to disturb you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I don't want to intrude in your boredom.	}
+{	1	}{	Ehi, come va?	}{	Ehi, come va?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Immagino che fumare non sia abbastanza per te, bello.	}{	Immagino che fumare non sia abbastanza per te, bello.	}{	11	}{	Seduction 5 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Hai bisogno di qualcosa di più che sbuffare, bellezza mia.	}
+{	3	}{	Vorresti succhiare qualcosa di diverso da un sigaro?	}{	Vorresti succhiare qualcosa di diverso da un sigaro?	}{	11	}{	Seduction 5 & IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Vuoi lucidare la mia pipa?	}
+{	4	}{	Posso farti interessare a qualcos'altro oltre al fumo?	}{	Posso farti interessare a qualcos'altro oltre al fumo?	}{	21	}{	Seduction -5	}{	}{	}{	}{	}{	}{	}{	}{	Stai cercando qualcosa di più che soffiare fumo?	}
+{	5	}{	Scusa, non voglio disturbarti.	}{	Scusa, non voglio disturbarti.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non voglio intromettermi nella tua noia.	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	You got it.	}{	You got it.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll6_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	I hope you don't taste too strong of tobacco. Come here!	}{	I hope you don't taste too strong of tobacco. Come here!	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	I'll suck on you as if you were a cigar!	}
+{	11	}{	Ci siamo capiti.	}{	Ci siamo capiti.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll6_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Spero che non abbia un sapore troppo forte di tabacco. Vieni qui!	}{	Spero che non abbia un sapore troppo forte di tabacco. Vieni qui!	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Ti succhio come se fossi un sigaro!	}
 {	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -18,7 +18,7 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	That's a negative.	}{	That's a negative.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Questo e' negativo.	}{	Questo e' negativo.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -28,8 +28,8 @@
 {	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Can't help you with that, I'm afraid.	}{	Can't help you with that, I'm afraid.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	I didn't even... oh, I see, the usual reaction.	}{	I didn't even... oh, I see, the usual reaction.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Temo di non poterti aiutare in questo.	}{	Temo di non poterti aiutare in questo.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Non ho nemmeno... oh, capisco, la solita reazione.	}{	Non ho nemmeno... oh, capisco, la solita reazione.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,8 +38,8 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Well ain't that somethin'!	}{	Well ain't that somethin'!	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	I am back.	}{	I am back.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Here we are again.	}
+{	41	}{	Beh, non è una cosa da poco!	}{	Beh, non è una cosa da poco!	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Sono tornato.	}{	Sono tornato.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Eccoci di nuovo qui.	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	(Starting Condition)	}{	}{	31	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	45	}{	(Starting Condition)	}{	}{	41	}{	G.Doll6_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
