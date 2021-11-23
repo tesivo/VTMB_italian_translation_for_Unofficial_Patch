@@ -1,15 +1,15 @@
-{	1	}{	Yeah?	}{	Yeah?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Finally a masculine fighter just after my taste!	}{	Finally a masculine fighter just after my taste!	}{	11	}{	Seduction 4 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	I see your scary scar and I really like it.	}
-{	3	}{	Hello brother, want to get some man on man action?	}{	Hello brother, want to get some man on man action?	}{	11	}{	Seduction 4 & IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Does the brother want to hit it with this one?	}
-{	4	}{	Hi Tong, are you lonely tonight?	}{	Hi Tong, are you lonely tonight?	}{	21	}{	Seduction -4	}{	}{	}{	}{	}{	}{	}{	}{	Will the lonely Tong join our multitude?	}
-{	5	}{	Sorry, mistook you for someone else.	}{	Sorry, mistook you for someone else.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	My voices told me they know you, but they don't.	}
+{	1	}{	Si'?	}{	Si'?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Finalmente un combattente maschile che soddisfa i miei gusti!	}{	Finalmente un combattente maschile che soddisfa i miei gusti!	}{	11	}{	Seduction 4 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Vedo la tua spaventosa cicatrice e mi piace un sacco.	}
+{	3	}{	Ciao fratello, vuoi un po' di azione uomo contro uomo?	}{	Ciao fratello, vuoi un po' di azione uomo contro uomo?	}{	11	}{	Seduction 4 & IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Il fratello vuole colpire con questo?	}
+{	4	}{	Ciao Tong, ti senti solo stasera?	}{	Ciao Tong, ti senti solo stasera?	}{	21	}{	Seduction -4	}{	}{	}{	}{	}{	}{	}{	}{	Il solitario Tong si unirà alla nostra moltitudine?	}
+{	5	}{	Scusa, ti ho scambiato per qualcun altro.	}{	Scusa, ti ho scambiato per qualcun altro.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Le mie voci mi hanno detto che ti conoscono, ma non è così.	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Yeah.	}{	Yeah.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll5_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	12	}{	I love the strong silent types. Come here!	}{	I love the strong silent types. Come here!	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Silent but lovely. Let us rub our bodies together in a special way!	}
+{	11	}{	Si'.	}{	Si'.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Doll5_Seduce = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Amo i tipi forti e silenziosi. Vieni qui!	}{	Amo i tipi forti e silenziosi. Vieni qui!	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Silenzioso ma adorabile. Strofiniamo i nostri corpi insieme in modo speciale!	}
 {	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -18,7 +18,7 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	The hell I care.	}{	The hell I care.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Che diavolo me ne frega!	}{	Che diavolo me ne frega!	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -28,8 +28,8 @@
 {	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	I'm crazy, you don't want to know what I'll do to you!	}{	I'm crazy, you don't want to know what I'll do to you!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	32	}{	Oh, it can't be worse than what already happened to me!	}{	Oh, it can't be worse than what already happened to me!	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Sono pazzo, non vuoi sapere cosa ti farò!	}{	Sono pazzo, non vuoi sapere cosa ti farò!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Oh, non può essere peggio di quello che mi è già successo!	}{	Oh, non può essere peggio di quello che mi è già successo!	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -38,8 +38,8 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Yeah?	}{	Yeah?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	42	}{	I am back.	}{	I am back.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Here we are again.	}
+{	41	}{	Si'?	}{	Si'?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Sono tornato.	}{	Sono tornato.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Eccoci di nuovo qui.	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	(Starting Condition)	}{	}{	31	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	45	}{	(Starting Condition)	}{	}{	41	}{	G.Doll5_Seduce == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
