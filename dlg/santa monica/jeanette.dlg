@@ -18,9 +18,9 @@
 {	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	21	}{	Ti diro', presto dovremo procurarci deIle manichette.	}{	Ti diro', presto dovremo procurarci deIle manichette.	}{	#	}{	npc.SetDisposition("Flirt",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	21	}{	[Ridacchia]Ti diro', presto dovremo procurarci le manichette.	}{	[Ridacchia]Ti diro', presto dovremo procurarci le manichette.	}{	#	}{	npc.SetDisposition("Flirt",1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Manichette?	}{	Manichette?	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vuoi dire che quelle cose arrotolate e attorcigliate?	}
-{	23	}{	Vabe', chi sei?	}{	Vabe', chi sei?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi solo il tuo nome, niente stupidaggini.	}
+{	23	}{	Vabbe', chi sei?	}{	Vabbe', chi sei?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Dimmi solo il tuo nome, niente stupidaggini.	}
 {	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
