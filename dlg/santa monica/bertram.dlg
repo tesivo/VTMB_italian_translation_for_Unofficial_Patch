@@ -72,7 +72,7 @@
 {	72	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	73	}{	Sapevi che lei e Jeanette sono la stessa persona?	}{	Sapevi che lei e Jeanette sono la stessa persona?	}{	91	}{	G.Bertram_Therette == 0	}{		}{		}{		}{		}{		}{		}{		}{	Sapevi che le figlie di Giano condividevano lo stesso corpo?	}
 {	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	75	}{	Divertente. Volevo chiederti una cosa.	}{	That is funny. I wanted to ask you about something.	}{	161	}{	G.Bertram_Ready > 0	}{	G.Bertram_Feud = 2	}{		}{		}{		}{		}{		}{		}{	Voglio estrarre informazioni dalla tua zucca parlante.	}
+{	75	}{	Divertente. Volevo chiederti una cosa.	}{	Divertente. Volevo chiederti una cosa.	}{	161	}{	G.Bertram_Ready > 0	}{	G.Bertram_Feud = 2	}{		}{		}{		}{		}{		}{		}{	Voglio estrarre informazioni dalla tua zucca parlante.	}
 {	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
@@ -489,7 +489,7 @@
 {	489	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	490	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	491	}{	Poco. Hanno invaso la California un po' di anni fa. I ribelli le presero di santa ragione. Fortuna per loro che insieme ai Kuei-jin venne anche la Camarilla. Un giorno ci uniremo tutti e i Kuei-jin faranno i bagagli.	}{	Poco. Hanno invaso la California un po' di anni fa. I ribelli le presero di santa ragione. Fortuna per loro che insieme ai Kuei-jin venne anche la Camarilla. Un giorno ci uniremo tutti e i Kuei-jin faranno i bagagli.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	492	}{	Ho capito. Volevo chiederti qualcosa sulle fazioni.	}{	I see what you're saying. I wanted to ask you about the clans.	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Schiariscimi le idee sui clan.	}
+{	492	}{	Ho capito. Volevo chiederti qualcosa sulle fazioni.	}{	Ho capito. Volevo chiederti qualcosa sulle fazioni.	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Schiariscimi le idee sui clan.	}
 {	493	}{	Va bene. E delle altre fazioni che mi dici?	}{	Va bene. E delle altre fazioni che mi dici?	}{	191	}{		}{		}{		}{		}{		}{		}{		}{		}{	Puoi aprirmi gli occhi sulle fazioni?	}
 {	494	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	495	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
