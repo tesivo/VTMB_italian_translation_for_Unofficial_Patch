@@ -19,8 +19,8 @@ SignData	// added by wesp
 	TextBlock
 	{
 		"Text"		"
-WE  ARE  MOVING!
-C.  Moore's  coffee  shop  will  be  moving  to  a  new  location  on  the  main  boulevard  of  Hollywood.  Dear  customers,  please  visit  us  there  soon!"
+CI TRASFERIAMO!
+C.  Moore's coffee shop si trasferirà in una nuova sede sul viale principale di Hollywood.  Cari clienti, venite a trovarci lì presto!"
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"
