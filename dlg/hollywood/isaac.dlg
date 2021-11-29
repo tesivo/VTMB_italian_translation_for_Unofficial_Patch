@@ -209,7 +209,7 @@
 {	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	211	}{	Vai al cafe’ internet Ground Zero, cerca una cartella chiamata “Josefk” e inserisci la password “Kafka”. Troverai un’email che ti specifichera’ un luogo vicino. Incontra il contatto, prendi l’oggetto, e torna. Non e’ troppo difficile, vero?	}{	Vai al cafe’ internet Ground Zero, cerca una cartella chiamata “Josefk” e inserisci la password “Kafka”. Troverai un’email che ti specifichera’ un luogo vicino. Incontra il contatto, prendi l’oggetto, e torna. Non e’ troppo difficile, vero?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Tribute = 1; pc.SetQuest("Courier",1)	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	I'll head over immediately. Poi parleremo del mio problema.	}{	I'll head over immediately. Poi parleremo del mio problema.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	Spariro’ e riappariro’ con l’oggetto in mano. Poi, le mie domanda avranno una risposta.	}
+{	212	}{	Andro' li' immediatamente. Poi parleremo del mio problema.	}{	Andro' li' immediatamente. Poi parleremo del mio problema.	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	Spariro’ e riappariro’ con l’oggetto in mano. Poi, le mie domanda avranno una risposta.	}
 {	213	}{	Lo faro’. Ma prima ho delle domande.	}{	Lo faro’. Ma prima ho delle domande.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	Lo faro’. Ma prima, la mia mente ha delle domande.	}
 {	214 }{	Ti piace, non e’ vero? Trattare le persone come burattini.	}{	Ti piace, non e’ vero? Trattare le persone come burattini.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	A voi anziani piacciono i guinzagli, vero?	}
 {	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -228,7 +228,7 @@
 {	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	231	}{	Tough. But I guarantee you - if you do this I'll go against all my better judgment and assist you in return, even if you are working for LaCroix.	}{	Tough. But I guarantee you - if you do this I'll go against all my better judgment and assist you in return, even if you are working for LaCroix.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	231	}{	Peccato. Ma ti assicuro - se fai questo seppelliro' l'ascia di guerra e ti aiutero', anche se stai lavorando per Lacroix.	}{	Peccato. Ma ti assicuro - se fai questo seppelliro' l'ascia di guerra e ti aiutero', anche se stai lavorando per Lacroix.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	232	}{	(Auto-Link)	}{	(Auto-Link)	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	233	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	234	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -248,7 +248,7 @@
 {	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	251	}{	Speaking of paranoia - no, simple pickup's all that's involved.	}{	Speaking of paranoia - no, simple pickup's all that's involved.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	251	}{	Parlando di paranoia - no, e' solo un semplice ritiro. }{	Parlando di paranoia - no, e' solo un semplice ritiro.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	252	}{	(Auto-Link)	}{	(Auto-Link)	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	253	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	254	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -258,39 +258,39 @@
 {	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	261	}{	You made good time! Hand me the item.	}{	You made good time! Hand me the item.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Item = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	Here.	}{	Here.	}{	401	}{	pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	It is already in your hand.	}
-{	263	}{	He didn't have it.	}{	He didn't have it.	}{	281	}{	G.Scared_Meet == 1 and G.Isaac_Swan == 0 and not pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	It did not travel with him.	}
-{	264	}{	Didn't get it yet. I'll come back when I have it.	}{	Didn't get it yet. I'll come back when I have it.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It is not with me. I will reappear with it.	}
-{	265	}{	Oh, right. Almost forgot. Let me go get that.	}{	Oh, right. Almost forgot. Let me go get that.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I forgot it in an event which has not yet occurred. Me ne vado.	}
+{	261	}{	Ce l'hai fatta! Dammi l'oggetto.	}{	Ce l'hai fatta! Dammi l'oggetto.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Item = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	Ecco qui.	}{	Ecco qui.	}{	401	}{	pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	E' gia' nelle tue mani.	}
+{	263	}{	Lui non lo aveva.	}{	Lui non lo aveva.	}{	281	}{	G.Scared_Meet == 1 and G.Isaac_Swan == 0 and not pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	Non ha viaggiato con lui.	}
+{	264	}{	Non l'ho ancora preso. Tornero' quando lo avro'.	}{	Non l'ho ancora preso. Tornero' quando lo avro'.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non e' con me. Riappariro' quando lo avro'.	}
+{	265	}{	Oh, giusto. Quasi me ne dimenticavo. Vado a prenderlo.	}{	Oh, giusto. Quasi me ne dimenticavo. Vado a prenderlo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	L'ho dimenticato in un evento non ancora accaduto. Me ne vado.	}
 {	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	271	}{	Don't have it, do you?	}{	You still don't have it, do you?	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	271	}{	Non ce l'hai ancora, vero?	}{	Non ce l'hai ancora, vero?	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	272	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	273	}{	All this for a tape? They have this thing called online shopping now.	}{	All this for a tape? They have this thing called online shopping now.	}{	401	}{	pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	I fetched a rental for you? Hee, hee.... Good joke.	}
-{	274	}{	He didn't have it.	}{	He didn't have it.	}{	281	}{	G.Scared_Meet == 1 and G.Isaac_Swan == 0	}{	}{	}{	}{	}{	}{	}{	}{	It did not travel with him.	}
-{	275	}{	Didn't get it yet. I'll come back when I have it.	}{	Didn't get it yet. I'll come back when I have it.	}{	0	}{	not pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	I forgot it in an event which has not yet occurred. Me ne vado.	}
+{	273	}{	Tutto questo per una cassetta? Esiste una cosa chiamata shopping online oggi.	}{	Tutto questo per una cassetta? Esiste una cosa chiamata shopping online oggi.	}{	401	}{	pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	L'ho noleggiata per te? Hee, hee... bella battuta.	}
+{	274	}{	Lui non lo aveva.	}{	Lui non lo aveva.	}{	281	}{	G.Scared_Meet == 1 and G.Isaac_Swan == 0	}{	}{	}{	}{	}{	}{	}{	}{	Non ha viaggiato con lui.	}
+{	275	}{	Non l'ho ancora preso. Tornero' quando lo avro'.	}{	Non l'ho ancora preso. Tornero' quando lo avro'.	}{	0	}{	not pc.HasItem("item_g_horrortape_1")	}{	}{	}{	}{	}{	}{	}{	}{	L'ho dimenticato in un evento non ancora accaduto. Me ne vado.	}
 {	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	281	}{	Hmm... did he at least make a good excuse?	}{	Hmm... did he at least make a good excuse?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	281	}{	Hmm... aveva perlomeno una giustificazione? }{	Hmm... aveva perlomeno una giustificazione?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	282	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	283	}{	He muttered something about a "ginger swan". Mean anything to you?	}{	He muttered something about a "ginger swan". Mean anything to you?	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	On what lakes can I find ginger swans?	}
-{	284	}{	Said his life was in danger. Turned out he was right.	}{	Said his life was in danger. Turned out he was right.	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	His excuse was that he was a dead man.	}
+{	283	}{	Ha borbottato qualcosa riguardo a un "cigno rosso". Ti dice qualcosa? }{	Ha borbottato qualcosa riguardo a un "cigno rosso". Ti dice qualcosa?	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	In quali laghi posso trovare cigni rossi?	}
+{	284	}{	Ha detto che la sua vita era in pericolo. Aveva ragione.	}{	Ha detto che la sua vita era in pericolo. Aveva ragione.	}{	291	}{	}{	}{	}{	}{	}{	}{	}{	}{	La sua giustificazione era: sono un uomo morto.	}
 {	285	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	286	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	289	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	290	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	291	}{	You didn't...	}{	You didn't...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	292	}{	No. Before he died he was saying something about "ginger swans".	}{	No. Before he died he was saying something about "ginger swans".	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	No. On what lakes can I find ginger swans?	}
-{	293	}{	Wasn't me this time. "Ginger swans" mean anything to you?	}{	Wasn't me this time. "Ginger swans" mean anything to you?	}{	301	}{	Humanity -5 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Wasn't me this time. Ginger swan mean anything to you?	}
+{	291	}{	Non dirmi che...	}{	Non dirmi che...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	292	}{	No. Prima di morire ha detto qualcosa, "cigni rossi".	}{	No. Prima di morire ha detto qualcosa, "cigni rossi".	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	No. In quali laghi posso trovare cigni rossi?	}
+{	293	}{	Non sono stato io stavolta. "Cigni rossi" ti dice qualcosa? }{	Non sono stata io stavolta. "Cigni rossi" ti dice qualcosa?	}{	301	}{	Humanity -5 & not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Non sono stato io stavolta. "Cigni rossi" ti dice qualcosa?	}
 {	294	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	295	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	296	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -298,9 +298,9 @@
 {	298	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	299	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	301	}{	Ginger Swan! Swan... hmm. Not an animal, a name. Brings back a lot of memories. Seventy years ago, wasn't a man in this city that wouldn't have given up his family, career, or anything else for one night with her.	}{	Ginger Swan! Swan... hmm. Not an animal, a name. Brings back a lot of memories. Seventy years ago, wasn't a man in this city that wouldn't have given up his family, career, or anything else for one night with her.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Swan = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	302	}{	Well, where do I find her?	}{	Well, where do I find her?	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where is her lake?	}
-{	303	}{	So where can I go meet this old bat?	}{	So where can I go meet this old bat?	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Where may I view this fossil?	}
+{	301	}{	Cigno rosso! Cigno, Swan... hmm. Non e' un animale, ma un nome. Mi porta alla mente molti ricordi. Settant'anni fa, non c'era un uomo in questa citta' che non avrebbe dato la sua famiglia, il lavoro, o qualsiasi altra cosa per una notte con lei.	}{	Cigno rosso! Cigno, Swan... hmm. Non e' un animale, ma un nome. Mi porta alla mente molti ricordi. Settant'anni fa, non c'era un uomo in questa citta' che non avrebbe dato la sua famiglia, il lavoro, o qualsiasi altra cosa per una notte con lei.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Swan = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	302	}{	Beh, dove la posso trovare?	}{	Beh, dove la posso trovare?	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dov'e' il suo lago? 	}
+{	303	}{	Dove posso incontrare questa vecchia?	}{	Dove posso incontrare questa vecchia?	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	Dove posso vedere questo fossile?	}
 {	304	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	305	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -308,18 +308,18 @@
 {	308	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	309	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	310	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	311	}{	That depends... you believe in an afterlife? Ginger Swan's been dead since the fifties. Twenty years after there were still grown men weeping at her grave. I don't know how she's relevant, but I have faith you'll figure it out.	}{	That depends... you believe in an afterlife? Ginger Swan's been dead since the fifties. Twenty years after there were still grown men weeping at her grave. I don't know how she's relevant, but I have faith you'll figure it out.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.SetQuest("Courier",4)	}{	}{	}{	}{	}{	}{	}{	}
-{	312	}{	I'll see what I can do.	}{	I'll see what I can do.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will seek this name.	}
-{	313	}{	A dead actress... right. This makes complete sense.	}{	A dead actress... right. This makes complete sense.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	This makes no sense.... Perfect! I am gone.	}
-{	314	}{	This is a pain in the ass! You said this was going to be easy!	}{	This is a pain in the ass! You said this was going to be easy!	}{	321	}{	}{	}{	}{	}{	}{	}{	}{	}{	You said this would be like silk, not sandpaper.	}
+{	311	}{	Dipende... credi nell'aldila'? Cigno Rosso e' morta negli anni Cinquanta. Vent'anni dopo c'erano ancora uomini che piangevano sulla sua tomba. Non so come c'entri lei in questa storia, ma sono sicuro che ci arriverai.	}{	Dipende... credi nell'aldila'? Cigno Rosso e' morta negli anni Cinquanta. Vent'anni dopo c'erano ancora uomini che piangevano sulla sua tomba. Non so come c'entri lei in questa storia, ma sono sicuro che ci arriverai.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	pc.SetQuest("Courier",4)	}{	}{	}{	}{	}{	}{	}{	}
+{	312	}{	Vedro' quello che posso fare.	}{	Vedro' quello che posso fare.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Cerchero' questo nome.	}
+{	313	}{	Un'attrice morta... certo. Questo ha totalmente senso.	}{	Un'attrice morta... certo. Questo ha totalmente senso.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Questo non ha senso... Perfetto! Me ne vado. }
+{	314	}{	Ma che coglioni! Hai detto che questo sarebbe stato facile!	}{	Ma che coglioni! Hai detto che questo sarebbe stato facile!	}{	321	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hai detto che questo sarebbe stato come seta, non carta vetrata.	}
 {	315	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	316	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	317	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	318	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	319	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	320	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	321	}{	I did, didn't I? Let me know when you find the item, neonate. Excuse me.	}{	I did, didn't I? Let me know when you find the item, neonate. Excuse me.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	322	}{	Va bene. Later.	}{	Va bene. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am gone.	}
+{	321	}{	L'ho detto, non e' vero? Fammi sapere quando trovi l'oggetto, neonato. Arrivederci. }{	L'ho detto, non e' vero? Fammi sapere quando trovi l'oggetto, neonato. Arrivederci.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	322	}{	Va bene. A dopo.	}{	Va bene. A dopo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Me ne vado.	}
 {	323	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	324	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	325	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -328,8 +328,8 @@
 {	328	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	329	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	330	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	331	}{	Excellent. In the meantime, consider yourself a welcome guest in my barony. Welcome to Hollywood.	}{	Excellent. In the meantime, consider yourself a welcome guest in my barony. Welcome to Hollywood.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	332	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm home!	}
+{	331	}{	Eccellente. E nel frattempo, sei un gradito ospite nel mio baronato. Benvenuto ad Hollywood.	}{	Eccellente. E nel frattempo, sei una gradita ospite nel mio baronato. Benvenuta ad Hollywood.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Leave = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	332	}{	Grazie.	}{	Grazie.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono a casa!	}
 {	333	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	334	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	335	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -338,8 +338,8 @@
 {	338	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	339	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	340	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	341	}{	[This line is for something not connected to Hollywood][Irritated]A kangaroo court....	}{	[This line is for something not connected to Hollywood][Irritated]A kangaroo court....	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	342	}{	HA HA HA! What?	}{	HA HA HA! What?	{	951	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	341	}{	[Questa linea di dialogo non e' connessa ad Hollywood][Irritato] Corte di canguri...	}{	[Questa linea di dialogo non e' connessa ad Hollywood][Irritato] Corte di canguri...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	342	}{	HA HA HA! Cosa?	}{	HA HA HA! Cosa?	{	951	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	343	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	344	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	345	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -348,27 +348,27 @@
 {	348	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	349	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	350	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	351	}{	It gives me the opportunity to personally welcome visitors to my domain. It also helps to establish an understanding in advance, so that there are no unfortunate accidents while they are in town.	}{	It gives me the opportunity to personally welcome visitors to my domain. It also helps to establish an understanding in advance, so that there are no unfortunate accidents while they are in town.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	352	}{	So, what sort of "understanding" is there going to be between us?	}{	So, what sort of "understanding" is there going to be between us?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	This one is puzzled....	}
-{	353	}{	Isn't LaCroix Prince of Los Angeles? Why do you keep calling it YOUR domain?	}{	Isn't LaCroix Prince of Los Angeles? Why do you keep calling it YOUR domain?	}{	21	}{	G.Isaac_LaCroix < 1	}{	}{	}{	}{	}{	}{	}{	}{	Does the ell-ay in LaCroix not stand for LA?	}
-{	354	}{	Well, I'll try to avoid any accidents while I'm in town. See ya.	}{	Well, I'll try to avoid any accidents while I'm in town. See ya.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	I accidentally walked in here. I will leave you to your age.	}
+{	351	}{	Mi da' l'opportunita' di accogliere personalmente gli ospiti del mio dominio. Inoltre mi permette di creare un accordo fin'ora, cosicche' non ci sono sfortunati incidenti mentre sono nella citta'. }{	Mi da' l'opportunita' di accogliere personalmente gli ospiti del mio dominio. Inoltre mi permette di creare un accordo fin'ora, cosicche' non ci sono sfortunati incidenti mentre sono nella citta'.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	352	}{	Quindi, che tipo di "accordo" ci sara' tra di noi? }{	Quindi, che tipo di "accordo" ci sara' tra di noi?	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	Che confusione...	}
+{	353	}{	Non e' Lacroix il Principe di Los Angeles? Perche' lo continui a chiamare il TUO dominio?	}{	Non e' Lacroix il Principe di Los Angeles? Perche' lo continui a chiamare il TUO dominio?	}{	21	}{	G.Isaac_LaCroix < 1	}{	}{	}{	}{	}{	}{	}{	}{	La in LaCroix non corrisponde a Los Angeles?	}
+{	354	}{	Beh, cerchero' di non fare incidenti mentre sono in citta'. Ci si vede.	}{	Beh, cerchero' di non fare incidenti mentre sono in citta'. Ci si vede.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono entrato qui per sbaglio. Ti lascio alla tua anzianita'.	}
 {	355	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	356	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	357	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	358	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	359	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	360	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	361	}{	So, you've come to barter information with the Sewer Rats? LaCroix must really be desperate if he's stooped to consorting with their kind - [amused]and asking for my help, of all people's!	}{	So, you've come to barter information with the Sewer Rats? LaCroix must really be desperate if he's stooped to consorting with their kind - [amused]and asking for my help, of all people's!	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Isaac_Nos = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	362	}{	Any idea where I can find them?	}{	Any idea where I can find them?	}{	371	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	363	}{	I'm gonna pretend I didn't hear that bit about the rats... but can you help me find them?	}{	I'm gonna pretend I didn't hear that bit about the rats... but can you help me find them?	}{	371	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	364	}{	Tell me about it. Well, I'd better get going.	}{	Tell me about it. Well, I'd better get going.	{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	361	}{	Percio' sei venuto per scambiare informazioni con i Ratti? LaCroix deve essere davvero disperato se si e' abbassato a fare affari con loro - [divertito] e a chiedere il mio aiuto, tra tutti!	}{	Percio' sei venuta per scambiare informazioni con i Ratti? LaCroix deve essere davvero disperato se si e' abbassato a fare affari con loro - [divertito] e a chiedere il mio aiuto, tra tutti!	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	G.Isaac_Nos = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	362	}{	Dove posso trovarli?	}{	Dove posso trovarli?	}{	371	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	363	}{	Faro' finta di non aver sentito la parte sui ratti... ma puoi darmi una mano a trovarli?	}{	Faro' finta di non aver sentito la parte sui ratti... ma puoi darmi una mano a trovarli?	}{	371	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	364	}{	Non dirlo a me. Beh, meglio se me ne vado.	}{	Non dirlo a me. Beh, meglio se me ne vado.	{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	365	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	366	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	367	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	368	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	369	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	370	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	371	}{	Perhaps. However, before we discuss how I might help you, there is the matter of tribute.	}{	Perhaps. However, before we discuss how I might help you, there is the matter of tribute.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	371	}{	Forse, Pero', prima di discutere di come ti posso aiutare, dobbiamo parlare di tributo.	}{	Forse, Pero', prima di discutere di come ti posso aiutare, dobbiamo parlare di tributo.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	372	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	373	}{	Non mi piace la piega che questo discorso sta prendendo.	}{	Non mi piace la piega che questo discorso sta prendendo.	{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	374	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -378,7 +378,7 @@
 {	378	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	379	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	380	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	381	}{	... this tape. I'm in a hurry to find out what's behind all the hype, so... get comfortable. I do have a feeling that whatever's here may be of use to both of us, however.	}{	... this tape. I'm in a hurry to find out what's behind all the hype, so... get comfortable. I do have a feeling that whatever's here may be of use to both of us, however.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Movie = 1; pc.SetQuest("Courier",6)	}{	}{	}{	}{	}{	}{	}{	}
+{	381	}{	...questa cassetta. Voglio proprio sapere cosa si cela dietro a tutto questo clamore, quindi... mettiti comodo. Penso proprio che quello che e' li' dentro servira' ad entrambi, comunque. }{	...questa cassetta. Voglio proprio sapere cosa si cela dietro a tutto questo clamore, quindi... mettiti comoda. Penso proprio che quello che e' li' dentro servira' ad entrambi, comunque.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Movie = 1; pc.SetQuest("Courier",6)	}{	}{	}{	}{	}{	}{	}{	}
 {	382	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	383	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	384	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -388,10 +388,10 @@
 {	388	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	389	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	390	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	391	}{	It's more disturbing than I was led to believe. You can understand my concern now, can't you?	}{	It's more disturbing than I was led to believe. You can understand my concern now, can't you?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Movie = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	391	}{	E' piu' sgradevole di quello che pensavo. Capisci la mia preoccupazione ora, vero?	}{	E' piu' sgradevole di quello che pensavo. Capisci la mia preoccupazione ora, vero?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_Movie = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	392	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	393	}{	Fun stuff. Why is this important to me?	}{	Fun stuff. Why is this important to me?	}{	411	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Bravo.... Why did I watch this?	}
-{	394	}{	That was sick... why the hell did I need to see that?	}{	That was sick... why the hell did I need to see that?	}{	411	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	... I don't get it.	}
+{	393	}{	Che forte. Perche' mi riguarda? 	}{	Che forte. Perche' mi riguarda?	}{	411	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Che bello... perche' l'ho guardata?	}
+{	394	}{	Che roba da malati... che bisogno avevo di vederla?	}{	Che roba da malati... che bisogno avevo di vederla?	}{	411	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	... Non capisco.	}
 {	395	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	396	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	397	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
