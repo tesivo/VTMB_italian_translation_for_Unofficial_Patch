@@ -338,7 +338,7 @@
 {	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	341	}{	Non posso esserne sicuro, nessuno puo'. Ma ti prometto, sicuramente e' riempito con un... ah... Orsacchiotti Gommosi piuttosto che vampiri. Forse, forse, una mummia - ma non il tipo che va acciuffando Abbot e Costello.	}{	Non posso esserne sicuro, nessuno puo'. Ma ti prometto, sicuramente e' riempito con un... ah... Orsacchiotti Gommosi piuttosto che vampiri. Forse, forse, una mummia - ma non il tipo che va acciuffando Abbot e Costello.	}{	#	}{		}{	G.Prof_Mess = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	341	}{	Di questo non posso essere sicuro, e nessuno puo' esserlo. Ma vi assicuro che e' piu' probabile che sia pieno di... ah... Orsetti Gommosi, che di vampiri. Forse una mummia - ma non del tipo da inseguire gli Abbott e Costello.	}{	Di questo non posso essere sicuro, e nessuno puo' esserlo. Ma vi assicuro che e' piu' probabile che sia pieno di... ah... Orsetti Gommosi, che di vampiri. Forse una mummia - ma non del tipo da inseguire gli Abbott e Costello.	}{	#	}{		}{	G.Prof_Mess = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	342	}{	Come hai trovato il Sarcofago Ankaran?	}{	Come hai trovato il Sarcofago Ankaran?	}{	381	}{	G.Prof_Find == 0	}{		}{		}{		}{		}{		}{		}{		}{	Come lo hai SCOPERTO?	}
 {	343	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	344	}{	Cos'altro sai sui vampiri?	}{	Cos'altro sai sui vampiri?	}{	351	}{	G.Prof_Vamp == 0	}{		}{		}{		}{		}{		}{		}{		}{	Puoi dirmi qualcos'altro sui vampiri?	}

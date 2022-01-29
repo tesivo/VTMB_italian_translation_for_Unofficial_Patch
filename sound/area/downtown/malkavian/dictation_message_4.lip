@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Grout's Message 4
+}
+WORDS
+{
+WORD blah 0.100 23.000
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 358 "I miei studi procedono a un ritmo languido. Sono impantanato in una noia ripugnante mentre la malattia di mia moglie avanza. I miei soggetti diventano irrequieti senza un'adeguata supervisione... ma non posso tirarmi indietro da questa nera depressione. Quante notti ho sprecato a fissare il cammino della torre, riflettendo sulla fragilità dell'esistenza." 0.100 23.000
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Grout
+}

@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Grout's Message 3
+}
+WORDS
+{
+WORD blah 0.100 51.000
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 871 "Spesso rifletto con grande rammarico sull'opportunita' mancata che fu il mio infettore. Se fossi stato cosciente dopo l'attacco... avrei potuto impedire agli inservienti di chiuderla nel cortile. Cosa darei per una sola intervista, qualche semplice domanda... della donna appestata che incontro' la sua fine quell'alba. Naturalmente non c'e' alcuna garanzia che sarebbe stata ancora piu' utile... del mio attuale gruppo di soggetti di prova - miserabili piagnucoloni! Pochi potrebbero essere definiti "entusiasti". Data la natura dei test... non posso aspettarmi lo stesso fervore da tutti... ma un minimo di cooperazione sarebbe apprezzato. Animali! Quello chiamato 'John' e' arrivato al punto di rosicchiarsi il braccio... e di infilarsi nelle assi del pavimento come un roditore selvaggio. Lo sento ancora sgambettare di notte, deve fare un casino atroce la' dentro." 0.100 51.000
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Grout
+}
