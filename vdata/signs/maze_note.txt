@@ -18,8 +18,8 @@ SignData	// added by wesp
 
 	TextBlock
 	{
-		"Text"		"The  mind  is  a  maze  and  mazes  inspire  minds!
-In  the  labyrinth  beyond  this  door,  reactions  of  test  subjects  to  the  weirdest  environments  can  be  studied  easily  with  that  vampiric  invisibility  power  of  mine."
+		"Text"		"La mente è un labirinto e i labirinti ispirano le menti!
+Nel labirinto oltre questa porta, le reazioni dei soggetti di prova agli ambienti più strani possono essere studiate facilmente con quel mio potere di invisibilità vampirica."
 		"Font"		"Vamp_Handwriting1"
 		"XPos"		"103"
 		"YPos"		"120"

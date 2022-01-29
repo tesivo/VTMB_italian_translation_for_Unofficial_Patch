@@ -12,8 +12,12 @@ SignData	// added by wesp
 
 	TextBlock
 	{
-		"Text"		"Combat is not the only solution for sticky situations.
-You can also use your feats and Disciplines in dialogue. When you are able to do this, your responses will show up in the different colors, and when using higher resolutions different fonts, that are indicated below."	// changed by wesp
+		"Text"		"Il combattimento non e' l'unica soluzione per situazioni complicate.
+Puoi anche usare le tue Imprese e Discipline nel dialogo. Quando sarai in grado di farlo, le tue risposte verranno mostrate in differenti colori e font, come puoi vedere nel riquadro in basso.
+1_In Rosso, indica una risposta Dominativa (Costa Sangue).
+2_In Blu, Risposta Persuasiva.
+3_In Viola, Risposta Seduttiva.
+4_In Verde, Risposta Intimidativa."	// changed by wesp
 		"Font"		"ParagraphText"
 		"XPos"		"844"	//332, ws-fix
 		"YPos"		"181"	//53, ws-fix
@@ -25,10 +29,10 @@ You can also use your feats and Disciplines in dialogue. When you are able to do
 
 	TextBlock
 	{
-		"Text"		"left-click to continue"
-		"XPos"		"920"	//407, ws-fix
+		"Text"		"cliccare per continuare"
+		"XPos"		"910"	//407, ws-fix
 		"YPos"		"567"	//439, ws-fix
-		"Wide"		"215"
+		"Wide"		"245"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"

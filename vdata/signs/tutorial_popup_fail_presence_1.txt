@@ -26,9 +26,9 @@ Riprova. Ricorda di scorrere la rotellina del mouse finche' non appare Ascendent
 	TextBlock
 	{
 		"Text"		"Cliccare per continuare"
-		"XPos"		"922"	//410, ws-fix
+		"XPos"		"910"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
-		"Wide"		"215"
+		"Wide"		"245"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"

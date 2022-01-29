@@ -19,7 +19,7 @@ SignData
 	TextBlock
 	{
 		"Text"		"Tom,
-if  somebody  needs  a  spare  keycard  check  the  computer  for  the  name  of  the  suite  first.  Use  the  password  \"wealth\".  Have  a  good  night  shift,
+se qualcuno ha bisogno di una chiave magnetica di riserva, controlla prima il computer per il nome della suite.  Usa la password  \"wealth\".  Buon turno di notte,
 Peter"
 
 		"Font"		"Vamp_Handwriting1"

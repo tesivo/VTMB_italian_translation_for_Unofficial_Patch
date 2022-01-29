@@ -26,9 +26,9 @@ Certi rischi, come il fuoco o attacchi soprannaturali, causano danno aggravato. 
 	TextBlock
 	{
 		"Text"		"Cliccare per continuare"
-		"XPos"		"922"	//410, ws-fix
-		"YPos"		"706"	//572, ws-fix
-		"Wide"		"215"
+		"XPos"		"400"	//410, ws-fix
+		"YPos"		"578"	//572, ws-fix
+		"Wide"		"245"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"

@@ -14,7 +14,10 @@ SignData
 	{
 		"Text"		"Usa il mouse per guardarti intorno.
 Usa i tasti W, A, S e D (di default) per muoverti.
-Usa il tasto per cambiare la telecamera dalla 1ma alla 3za persona (default Z)."
+Usa il tasto (default Z) per cambiare la visuale dalla prima alla terza persona.
+Usa i tasti di avanzamento automatico e di camminata/corsa (definibili) per alternare 
+movimento automatico e camminata/corsa.
+Usa i tasti Camera (definibili) per muovere la camera nella visuale in terza persona."
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
 		"Wide"		"375"
@@ -29,10 +32,10 @@ Usa il tasto per cambiare la telecamera dalla 1ma alla 3za persona (default Z)."
 	TextBlock
 	{
 		"Text"		"Cliccare per continuare"
-		"XPos"		"922"	//410, ws-fix
+		"XPos"		"910"	//410, ws-fix
 		"YPos"		"706"	//572, ws-fix
-		"Wide"		"215"
-		"Tall"		"28"
+		"Wide"		"445"
+		"Tall"		"88"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
 		"Font"		"Trebuchet"

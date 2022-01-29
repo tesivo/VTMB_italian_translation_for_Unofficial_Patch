@@ -12,8 +12,12 @@ SignData
 
 	TextBlock
 	{
-		"Text"		"Il combattimento non e' l'unica una soluzione per situazioni complicate.
-Puoi anche usare le tue Imprese e Discipline nel dialogo. Quando sarai in grado di farlo, le tue risposte verranno mostrate in differenti colori e font."
+		"Text"		"Il combattimento non e' l'unica soluzione per situazioni complicate.
+Puoi anche usare le tue Imprese e Discipline nel dialogo. Quando sarai in grado di farlo, le tue risposte verranno mostrate in differenti colori e font, come puoi vedere nel riquadro in basso.
+1_In Rosso, indica una risposta Dominativa (Costa Sangue).
+2_In Blu, Risposta Persuasiva.
+3_In Viola, Risposta Seduttiva.
+4_In Verde, Risposta Intimidativa."
 		"Font"		"ParagraphText"
 		"XPos"		"844"	//332, ws-fix
 		"YPos"		"181"	//53, ws-fix
@@ -26,9 +30,9 @@ Puoi anche usare le tue Imprese e Discipline nel dialogo. Quando sarai in grado 
 	TextBlock
 	{
 		"Text"		"Cliccare per continuare"
-		"XPos"		"922"	//410, ws-fix
-		"YPos"		"706"	//572, ws-fix
-		"Wide"		"215"
+		"XPos"		"910"	//410, ws-fix
+		"YPos"		"567"	//572, ws-fix
+		"Wide"		"245"
 		"Tall"		"28"
 		"TextRGBA"		"[245, 245, 245, 200]"
 		"BackgroundRGBA"		"[0, 0, 0, 0]"
