@@ -46,7 +46,7 @@ CLOSECAPTION
 {
 english
 {
-PHRASE char 33 "Shh shh. Attenta. Stai indietro." 0.032 2.976
+PHRASE char 36 "Shh shh. Attenzione. Stai indietro." 0.032 2.976
 }
 }
 OPTIONS

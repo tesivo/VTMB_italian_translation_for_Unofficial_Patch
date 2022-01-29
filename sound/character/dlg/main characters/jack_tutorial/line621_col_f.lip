@@ -1,0 +1,37 @@
+VERSION 1.2
+PLAINTEXT
+{
+"Alright go." 
+}
+WORDS
+{
+WORD "Alright 0.000 0.459
+{
+596 ao 0.000 0.150 1.000 0
+108 l 0.150 0.218 1.000 0
+633 r 0.218 0.287 1.000 0
+593 ay 0.287 0.343 1.000 0
+105 iy 0.343 0.403 1.000 0
+116 t 0.403 0.489 1.000 0
+}
+WORD go." 0.459 0.758
+{
+103 g 0.489 0.579 1.000 0
+111 ow 0.579 0.758 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 11 "Bene, vai." 0.000 0.758
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Jack
+}
