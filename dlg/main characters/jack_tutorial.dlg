@@ -1,16 +1,16 @@
 {	1	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	2	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	3	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	4	}{	Questa traduzione e' opera del gruppo amatoriale "Tir Evolution" formato da: Marino "Rz3zN1k" Pezzatini, Simona "*|$imona|* " Maiorano, Giovanna "Lolacorre" e Kelvan.	}{	Questa traduzione e' opera del gruppo amatoriale "Tir Evolution" formato da: Marino "Rz3zN1k" Pezzatini, Simona "*|$imona|* " Maiorano, Giovanna "Lolacorre" e Kelvan.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	5	}{	Rendo grazie al team e al suo enorme sforzo!!!	}{	Rendo grazie al team e al suo enorme sforzo!!!	}{	7	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	6	}{	Grazie, ma si poteva fare in meno tempo.	}{	Grazie, ma si poteva fare in meno tempo.	}{	7	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	7	}{	Questa traduzione e' stata revisionata da tesivo, se incontri dei bug nella traduzione, segnalali!	}{	Questa traduzione e' stata revisionata da tesivo, se incontri dei bug nella traduzione, segnalali!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	8	}{	Grazie per aver aggiornato la traduzione della unofficial patch.	}{	Grazie per aver aggiornato la traduzione della unofficial patch.	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	9	}{	Grazie, ma si poteva fare in meno tempo.	}{	Grazie, ma si poteva fare in meno tempo.	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	4	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	5	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	6	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	7	}{	Traduzione by crazyLillo	}{	Traduzione by crazyLillo	}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	8	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	9	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	10	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	11	}{	[ride di qualcosa che nessun altro pensa sia divertente]Che spettacolo, amico! Ti hanno buttato qui proprio come un bambino nudo nella foresta. Non e' vero? Senti, ragazzo, probabilmente e' troppo per te, quindi perche' non lasci che ti spieghi come funziona. Cosa ne dici?	}{	[ride di qualcosa che nessun altro pensa sia divertente]Che spettacolo, amica! Ti hanno buttato qui proprio come una bambina nuda nella foresta. Non e' vero? Senti, ragazza, probabilmente e' troppo per te, quindi perche' non lasci che ti spieghi come funziona. Cosa ne dici?	}{	#	}{	G.Story_State = -3	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	12	}{	Chi sei?	}{	Chi sei?	}{	21	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	13	}{	La pioggia dei secoli complotta ancora di spazzare via la rivelazione.	}{	La pioggia dei secoli complotta ancora di spazzare via la rivelazione.	}{	1011	}{	IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	11	}{	[ride di qualcosa che nessun altro pensa sia divertente] Haa ha ha haa ha Che scena amico! Hoo-wee! ha ha ha Cosi' ti hanno scaricato qui' fuori come un bimbo nudo nel bosco. [risatina beffarda] he he, Che ne pensi? Ahhh....guarda, ragazzo, questo e' probabilmente troppo per te da assorbire, quindi eeh, perche' non lasci che ti mostri le cose. Che ne dici?	}{	Haa ha ha haa ha Che scena amica! Hoo-wee! ha ha ha Cosi' ti hanno scaricato qui' fuori come una bimba nuda nel bosco. he he, Che ne pensi? Ahhh....guarda, ragazza, questo e' probabilmente troppo per te da assorbire, quindi eeh, perche' non lasci che ti mostri le cose. Che ne dici?	}{	#	}{	G.Story_State = -3	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	12	}{	Chi sei?	}{	Chi sei tu?	}{	21	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	13	}{	La pioggia dei secoli complotta ancora di spazzare via la rivelazione.	}{	Le pioggie dei secoli complottano ancora di spazzare via la rivelazione.	}{	1011	}{	IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	14	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	15	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	16	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -18,12 +18,12 @@
 {	18	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	19	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	20	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	21	}{	Sono Jack. E la cosa importante e' che ti sto offrendo il mio aiuto. Ce la farai a tornare da Santa Monica con la tua pelle e condividerai le tue storie, okay? Fino ad allora, ho molto.... ho molto tempo. Sei dentro o fuori?	}{	Sono Jack. E la cosa importante e' che ti sto offrendo il mio aiuto. Ce la farai a tornare da Santa Monica con la tua pelle e condividerai le tue storie, okay? Fino ad allora, ho molto.... ho molto tempo. Sei dentro o fuori?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	22	}{	Okay. Approfittero' della tua offerta.	}{	Okay. Approfittero' della tua offerta.	}{	81	}{	G.Patch_Plus == 0	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Sopportero' il tuo oscuro tutoraggio.	}
-{	23	}{	Okay. Approfittero' della tua offerta.	}{	Okay. Approfittero' della tua offerta.	}{	81	}{	G.Patch_Plus == 1	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Sopportero' il tuo oscuro tutoraggio.	}
-{	24	}{	Non ho molto tempo... spiegami solo le basi.	}{	Non ho molto tempo... spiegami solo le basi.	}{	891	}{		}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Smettila e spiegami solo le basi.	}
-{	25	}{	Cosa e' successo li' dentro?	}{	Cosa e' successo li' dentro?	}{	1015	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho capito il loro gioco.	}
-{	26	}{	Non ho bisogno del tuo aiuto. Vado via.	}{	Non ho bisogno del tuo aiuto. Vado via.	}{	1023	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida in questo oscuro percorso. Lasciami in pace.	}
+{	21	}{	Sono Jack. L'importante e', che ti sto offrendo aiuto. Ritorna da Santa Monica con la tua pelle e ci scambieremo le nostre storie, ok? Fino ad allora, ho all'incirca... cosi' tanto tempo. Sei dentro o fuori?	}{	Sono Jack. L'importante e', che ti sto offrendo aiuto. Se riesci a ritornare da Santa Monica con la tua pelle e ci scambieremo le nostre storie, ok? Fino ad allora, ho piu' o meno... cosi' tanto tempo. Sei dentro o fuori?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	22	}{	Okay. Potrei usare l'aiuto.	}{	Bene. Potrei usare l'aiuto.	}{	81	}{	G.Patch_Plus == 0	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Intraprendero' la tua oscura tutela..	}
+{	23	}{	Okay. Potrei usare l'aiuto.	}{	Bene. Potrei usare l'aiuto.	}{	81	}{	G.Patch_Plus == 1	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Intraprendero' la tua oscura tutela.	}
+{	24	}{	Non ho molto tempo... spiegami solo le basi.	}{	Non e' che abbia molto tempo... spiegami solo le basi.	}{	891	}{		}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Dammi solo le basi essenziali.	}
+{	25	}{	Cosa e' successo li' dentro?	}{	Che cosa  e' successo li' dentro?	}{	1015	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non ho capito il loro gioco.	}
+{	26	}{	Non ho bisogno dell'aiuto di nessuno. Sono fuori.	}{	Non mi serve dell'aiuto di nessuno. Sono fuori.	}{	1023	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida su questo sentiero oscuro. Lasciami.	}
 {	27	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	28	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	29	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -78,39 +78,39 @@
 {	78	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	79	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	80	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	81	}{	[come Fonzie]Ok.	}{	[come Fonzie]Ok.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	82	}{	(Auto-Link)	}{	(Auto-Link)	}{	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
-{	83	}{	[guardando gli altri vampiri nella stanza]Uhh... perche' non usciamo di qui.	}{	[guardando gli altri vampiri nella stanza]Uhh... perche' non usciamo di qui.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	84	}{	Si'. Va bene.	}{	Si'. Va bene.	}{	0	}{		}{	G.Tut_Jack = 1	}{	}{	}{	}{	}{	}{	}{	Andiamo.    }
-{	85	}{	Cristo, si soffoca li' dentro, vero? Ora va molto meglio.	}{	Cristo, si soffoca li' dentro, vero? Ora va molto meglio.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	86	}{	(Auto-Link)	}{	(Auto-Link)	}{	87	}{	}{	G.Tut_Patch = 2	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
-{	87	}{	Non abbiamo molto tempo, ma conosco qualcuno che potrebbe insegnarti le cose fondamentali. Potrebbero salvarti la pelle.	}{	Non abbiamo molto tempo, ma conosco qualcuno che potrebbe insegnarti le cose fondamentali. Potrebbero salvarti la pelle.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	81	}{	[come Fonzie]Ok.	}{	Okay.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	82	}{	(Auto-Link)	}{	(Auto-Link)	}{	83	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
+{	83	}{	[guardando gli altri vampiri nella stanza]Uhh... perche' non, ci spostiamo da qui.	}{	Uhh... perche' non, ci spostiamo un po' da qui.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	84	}{	Si', andiamo via da quel posto orribile.	}{	Si', andiamocene via da quel posto terribile.	}{	0	}{		}{	G.Tut_Jack = 1	}{	}{	}{	}{	}{	}{	}{	Si'. Lasciamo indietro il teatro degli orrori.	}
+{	85	}{	Cristo, e' soffocante li' dentro, vero? Qui e' molto meglio.	}{	Cristo, e' soffocante li' dentro, vero? Qui va' molto meglio.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	86	}{	(Auto-Link)	}{	(Auto-Link)	}{	87	}{		}{	G.Tut_Patch = 2	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
+{	87	}{	Ora, non abbiamo molto tempo, ma immagino che qualcuno dovrebbe aggiornarti sulle cose essenziali almeno, sai. Potrebbero salvarti la pelle.	}{	Adesso, non abbiamo tutto questo tempo, ma immagino che qualcuno dovrebbe aggiornarti sulle cose essenziali almeno, sai. Ti potrebbero salvare la pelle.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	88	}{	(Auto-Link)	}{	(Auto-Link)	}{	91	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	89	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	90	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	91	}{	Hai l'aria sciupata... non hai ancora bevuto?	}{	Hai l'aria sciupata... non hai ancora bevuto?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	92	}{	Bere cosa?	}{	Bere cosa?	}{	101	}{		}{		}{	}{	}{	}{	}{	}{	}{	Di che bevanda blateri?	}
-{	93	}{	Non ricordo.	}{	Non ricordo.	}{	101	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia mente sembra non ricordare.	}
-{	94	}{	No.	}{	No.	}{	101	}{		}{		}{	}{	}{	}{	}{	}{	}{	Sciupata come le pareti della mia mente!	}
+{	91	}{	Sembri traballante... non hai ancora bevuto?	}{	Sembri  un po' traballante... non hai ancora bevuto?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	92	}{	Bere cosa?	}{	Bere che cosa?	}{	101	}{		}{		}{	}{	}{	}{	}{	}{	}{	Di che bevanda blateri?	}
+{	93	}{	Non ricordo.	}{	Non mi ricordo.	}{	101	}{		}{		}{	}{	}{	}{	}{	}{	}{	Alle mie menti sembra non ricordare.	}
+{	94	}{	No.	}{	No. No.	}{	101	}{		}{		}{	}{	}{	}{	}{	}{	}{	Traballante come le pareti della mia mente!	}
 {	95	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	96	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	97	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	98	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	99	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	100	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	101	}{	Andiamo, stai per avere la tua prima notte! Ha ha ha! [risata]Ah, ti piacera'! Bene, ascolta. Sangue: e' il tuo nuovo tormento, il tuo nuovo champagne - il sangue e' la tua fottuta eroina, ragazzo. Ha ha! Preparati, perche', hey, non sara' mai dolce come la prima volta.	}{	Andiamo, stai per avere la tua prima notte! Ha ha ha! [risata]Ah, ti piacera'! Bene, ascolta. Sangue: e' il tuo nuovo tormento, il tuo nuovo champagne - il sangue e' la tua fottuta eroina, ragazza. Ha ha! Preparati, perche', hey, non sara' mai dolce come la prima volta.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	102	}{	Cosa devo fare?	}{	Cosa devo fare?	}{	106	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dolce come un appuntamento al ballo scolastico?	}
+{	101	}{	Oh amico, stiamo stappando uno cherry qui! Ha ha ha! [risatina beffarda] Ah, lo adorerai! Va bene, guarda. Sangue : e' il tuo nuovo carre' d'agnello, il tuo nuovo champagne - il sangue e' la tua nuova fottuta eroina, ragazzo. Ha ha! Preparati pero', perche', Ehi, non e' mai cosi' dolce come la prima volta.	}{	Oh amica, stiamo stappando uno cherry qui! Ha ha ha! Ah, lo adorerai! Va bene, guarda. Sangue : e' il tuo nuovo carre' d'agnello, il tuo nuovo champagne - il sangue e' la tua nuova fottuta eroina, ragazza. Ha ha! Preparati pero', perche', Ehi, non e' mai cosi' dolce come la prima volta.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	102	}{	Cosa devo fare?	}{	Cosa dovrei fare?	}{	106	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dolce come un appuntamento al ballo di fine anno?	}
 {	103	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	104	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	105	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	106	}{	Bene, dietro l'angolo li', ho visto un umano. Il povero stronzo non riesce a trovare la sua auto... hehehehe.	}{	Bene, dietro l'angolo li', ho visto un umano. Il povero stronzo non riesce a trovare la sua auto... hehehehe.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	107	}{	Quindi... cosa faccio... intendo, uh...	}{	Quindi... cosa faccio... intendo, uh...	}{	111	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cosa faccio con questo povero fallito?	}
+{	106	}{	Beh, laggiu' dietro l'angolo, Ho visto questo umano. Il povero figlio di puttana non riesce a trovare la sua macchina... hehehehe.	}{	Ascolta, la in fondo dietro l'angolo, Ho visto questo umano. Il povero figlio di puttana non riesce a trovare la sua macchina... hehehehe.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	107	}{	Quindi... cosa faccio... intendo, uh...	}{	Allora... cosa faccio... cioe', uh...	}{	111	}{		}{		}{	}{	}{	}{	}{	}{	}{	Come posso fare questo atto terribile?	}
 {	108	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	109	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	110	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	111	}{	Bene, vai li', in modo tranquillo - avvicinati di soppiatto, quindi tira fuori quei piccoli canini e nutriti. E non ti preoccupare se non eri il capitano della squadra di wrestling o qualcosa del genere, perche' sara' cosi' naturale che penserai di averlo fatto gia' altre volte.	}{	Bene, vai li', in modo tranquillo - avvicinati di soppiatto, quindi tira fuori quei piccoli canini e nutriti. E non ti preoccupare se non eri il capitano della squadra di wrestling o qualcosa del genere, perche' sara' cosi' naturale che penserai di averlo fatto gia' altre volte.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	112	}{	Ma cosi' non diventera' un vampiro?	}{	Ma cosi' non diventera' un vampiro?	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ma cosi' non avra' anche lui la maledizione nelle vene?	}
-{	113	}{	Berrei volentieri qualcosa.	}{	Berrei volentieri qualcosa.	}{	131	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cuore freddo, una sete che brucia, e canini da cacciatore!	}
+{	111	}{	Va bene, vai laggiu' indifferente, ti avvicini lentamente, avventati su di lui, quindi tira fuori quelle piccole zanne e nutriti. E non ti preoccupare se non eri il capitano della squadra di wrestling o qualcosa del genere, perche' ti verra' cosi' naturale che penserai di averlo gia' fatto mille volte.	}{	Okay, vai laggiu' indifferente, ti avvicini lentamente, avventati su di lui, quindi tira fuori quelle piccole zanne e nutriti. E non ti preoccupare se non eri la capitana della squadra di karate o qualcosa del genere, perche' ti verra' cosi' naturale che penserai di averlo gia' fatto mille volte.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	112	}{	Ma cosi' non diventera' un vampiro?	}{	Ma cosi' non si trasformera' in un vampiro?	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ma cosi' non avra' anche lui la maledizione nelle vene?	}
+{	113	}{	e' stata una di quelle notti. mi servirebbe un drink.	}{	e' stata una nottataccia. mi servirebbe un drink.	}{	131	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cuore freddo, una sete che brucia, e zanne da predatore!	}
 {	114	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	115	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	116	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -118,7 +118,7 @@
 {	118	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	119	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	120	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	121	}{	[risate sentimentali]Dimentica quelle stronzate dei fumetti, ragazzo. Non funziona in quel modo.	}{	[risate sentimentali]Dimentica quelle stronzate dei fumetti, ragazza. Non funziona in quel modo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	121	}{	[risate di cuore]Dimentica quella merda da fumetto, ragazzo. Non funziona in quel modo.	}{	Dimentica quelle stronzate da fumetto, ragazza. Non funziona in quel modo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	122	}{	(Auto-Link)	}{	(Auto-Link)	}{	131	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	123	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	124	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -128,19 +128,19 @@
 {	128	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	129	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	130	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	131	}{	Ora vai. Non esitare e - fa' attenzione - assicurati di non svuotarlo completamente, okay? Potrebbe essere difficile resistere, ma non ucciderlo.	}{	Ora vai. Non esitare e - fa' attenzione - assicurati di non svuotarlo completamente, okay? Potrebbe essere difficile resistere, ma non ucciderlo.	}{	#	}{		}{	pc.SetQuest("Tutorial",3)	}{	}{	}{	}{	}{	}{	}{		}
-{	132	}{	Va bene.	}{	Va bene.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vado ad estrarre il liquido.	}
+{	131	}{	Ora fallo. Sii sicuro pero' - e questo e' importante quindi ascolta - assicurati di non prosciugarli, okay? Potrebbe essere difficile resistere, ma non ucciderli.	}{	Ora vai. Sii sicura pero' - e questo e' importante quindi ascolta - assicurati di non prosciugarli, okay? Potrebbe essere difficile resistere, ma non ucciderli.	}{	#	}{		}{	pc.SetQuest("Tutorial",3)	}{	}{	}{	}{	}{	}{	}{		}
+{	132	}{	Va bene.	}{	Okay.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vado a succhiare il delizioso liquido.	}
 {	133	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	134	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	135	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	136	}{	Vai, aspettero' qui.	}{	Vai, aspettero' qui.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	136	}{	Vai, aspettero' qui.	}{	Vai, ti aspettero' qui.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	137	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	138	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	139	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	140	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	141	}{	Si. Ah si. Cazzo si, lo senti. Lo vedo nei tuoi occhi - sei un predatore rinato. Senti quel sangue sprizzare dentro te. Ecco fatto, ragazzo, questo e' tutto.	}{	Si. Ah si. Cazzo si, lo senti. Lo vedo nei tuoi occhi - sei una predatrice rinata. Senti quel sangue sprizzare dentro te. Ecco fatto, ragazza questo e' tutto.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	142	}{	Ottimo! Quando posso avere il mio mantello? Scelgo anche il colore?	}{	Ottimo! Quando posso avere il mio mantello? Scelgo anche il colore?	}{	151	}{		}{		}{	}{	}{	}{	}{	}{	}{	Terrificante! E quando scelgo il colore del mio mantello?	}
-{	143	}{	Non so come mi sento, ma va bene.	}{	Non so come mi sento, ma va bene.	}{	151	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	141	}{	[lento e salace, come uno spacciatore con un drogato che si e' appena fatto una dose.]Si'. Ah si'. Diavolo si',  lo stai sentendo. Lo vedo nei tuoi occhi - sei un predatore rinato. Sentendo quel sangue ribollire dentro di te, tirandoti su'. Questo e' tutto, ragazzo, ecco di cosa si tratta.	}{	Si'. Ah si'. Diavolo si',  lo stai sentendo. Lo vedo nei tuoi occhi - sei una predatrice rinata. Sentendo quel sangue ribollire dentro di te, tirandoti su'. Questo e' tutto, ragazza, ecco di cosa si tratta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	142	}{	Grande! Quando posso avere il mio mantello? Posso sceglierne il colore?	}{	Woaw! Quando posso avere il mio mantello? Posso sceglierne il colore?	}{	151	}{		}{		}{	}{	}{	}{	}{	}{	}{	Inquietante! E quando scelgo il colore del mio mantello?	}
+{	143	}{	Non so come mi sento, ma ti fa sentire bene.	}{	Non so come mi fa sentire, ma mi fa sentire bene.	}{	151	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	144	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	145	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	146	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -148,8 +148,8 @@
 {	148	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	149	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	150	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	151	}{	Bene, ora hai il sangue, ti senti tutto su di giri, ti senti meglio della giornata piu' bella della tua vita passata - ma aspetta! Sara' sempre meglio! Tutti i Fratelli... Fratelli, e' uh, la nostra parola per definirci... tutti i Fratelli hanno un paio di cose in comune, cose che ti piazzano appena sopra gli umani nella catena alimentare.	}{	Bene, ora hai il sangue, ti senti tutta su di giri, ti senti meglio della giornata piu' bella della tua vita passata - ma aspetta! Sara' sempre meglio! Tutti i Fratelli... Fratelli, e' uh, la nostra parola per definirci... tutti i Fratelli hanno un paio di cose in comune, cose che ti piazzano appena sopra gli umani nella catena alimentare.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	152	}{	Si'? Come?	}{	Si'? Come?	}{	161	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dimmi questa storia.	}
+{	151	}{	Va bene, ora hai avuto il sangue, ti senti tutto su di giri, ti senti meglio della giornata piu' bella della tua vita passata - ma aspetta! C'e' di meglio! Tutti i Fratelli... Fratelli, e' uh, la nostra parola per definirci... tutti i Fratelli hanno  alcune cose in comune, cose che li collocano esattamente al di sopra degli umani nella catena alimentare.	}{	Okay, ora hai avuto il sangue, ti senti tutta su di giri, ti senti meglio della giornata piu' bella della tua vita passata - ma aspetta! C'e' di meglio! Tutti i Fratelli... Fratelli, e' uh, la nostra parola per definirci... tutti i Fratelli hanno  alcune cose in comune, cose che li collocano esattamente al di sopra degli umani nella catena alimentare..	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	152	}{	Si'? Tipo cosa?	}{	Si'? Tipo che cosa?	}{	161	}{		}{		}{	}{	}{	}{	}{	}{	}{	Raccontami questa favola.	}
 {	153	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	154	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	155	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -158,8 +158,8 @@
 {	158	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	159	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	160	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	161	}{	Sensi piu' acuti, maggior resistenza fisica, e, se giochi bene le tue carte, vita eterna. Non vai a colpo sicuro, ma almeno hai una possibilita', che non e' una cattiva cosa. Almeno per i nuovi arrivati... Goditi i benefici per esserti unito al club.	}{	Sensi piu' acuti, maggior resistenza fisica, e, se giochi bene le tue carte, vita eterna. Non vai a colpo sicuro, ma almeno hai una possibilita', che non e' una cattiva cosa. Almeno per i nuovi arrivati... Goditi i benefici per esserti unito al club.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	162	}{	Quindi vivro' per sempre?	}{	Quindi vivro' per sempre?	}{	171	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia vita non finira' mai?	}
+{	161	}{	Sensi piu' acuti, maggior resistenza fisica, e, se giochi bene le tue carte, vita eterna. Non vai a colpo sicuro, ma almeno hai una possibilita', che non e' un cattivo affare. E' questo e' solo l'antipasto, benefici accessori per esserti unito al club.	}{	Sensi piu' acuti, maggiore resistenza fisica, e, se giochi bene tutte le tue carte, anche vita eterna. Non vai proprio a colpo sicuro, ma almeno hai una chance, che non e' un cattivo affare. E' questo e' solo l'antipasto, benefici accessori per esserti unita al club.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	162	}{	Quindi vivro' per sempre?	}{	Cosi' vivro' per sempre?	}{	171	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia vita non finira' mai?	}
 {	163	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	164	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	165	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -168,7 +168,7 @@
 {	168	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	169	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	170	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	171	}{	Beh, puoi ancora essere distrutto, ma dimentica i libri e i film. Aglio? E' inutile. Una croce? Pfft... Mettigliela su per il culo. Un paletto? Solo se te lo conficcano nel cuore e ti paralizza. Correre sull'acqua? Ah, non e' un problema. Io mi lavo... a volte, eh.	}{	Beh, puoi ancora essere distrutta, ma dimentica i libri e i film. Aglio? E' inutile. Una croce? Pfft... Mettigliela su per il culo. Un paletto? Solo se te lo conficcano nel cuore e ti paralizza. Correre sull'acqua? Ah, non e' un problema. Io mi lavo... a volte, eh.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	171	}{	Beh, puoi ancora essere distrutto, ma dimentica i libri e i film. Aglio? E' inutile. Una croce? Pfft... Ficcagliela su per il culo. Un paletto? Solo se te lo conficcano nel cuore ti paralizza. Acqua corrente? Ah, non e' un problema. Mi lavo...eh, a volte.	}{	Beh, puoi ancora essere distrutta, ma dimentica i libri e i film. Aglio? E' inutile. Una croce? Pfft... Mettigliela su per il culo. Un paletto? Solo se te lo conficcano nel cuore ti paralizza.  Acqua corrente? Ah, non e' un problema. Mi lavo...eh, a volte.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	172	}{	(Auto-Link)	}{	(Auto-Link)	}{	181	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	173	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	174	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -178,8 +178,8 @@
 {	178	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	179	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	180	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	181	}{	Poniamo il caso che ti ritrovi un colpo di fucile in testa: beh, questo e' un problema, ragazzo. Il fuoco e' un dannato problema. La luce del sole? Beh, vedi un'alba ed e' tutto finito - capito?	}{	Poniamo il caso che ti ritrovi un colpo di fucile in testa: beh, questo e' un problema, ragazza. Il fuoco e' un dannato problema. La luce del sole? Beh, vedi un'alba ed e' tutto finito - capito?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	182	}{	Capito.	}{	Capito.	}{	191	}{		}{		}{	}{	}{	}{	}{	}{	}{	Chiaro come un eritema solare.	}
+{	181	}{	Ora un colpo di fucile a pompa alla testa: oh,questo e' un problema, ragazzo. Il fuoco? Questo e' un vero problema. La luce del sole? Bene, vedi un'alba ed e' tutto finito ragazzo - Chiaro?	}{	Ora un colpo di fucile alla testa: oh,questo e' un problema, ragazza. Il fuoco? Questo e' un vero problema. La luce del sole? Bene, vedi un'alba ed e' tutto finito ragazza - Chiaro?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	182	}{	Chiaro.	}{	Si, chiaro.	}{	191	}{		}{		}{	}{	}{	}{	}{	}{	}{	Chiaro come una brutta scottatura solare.	}
 {	183	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	184	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	185	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -188,7 +188,7 @@
 {	188	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	189	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	190	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	191	}{	Okay, ora...[interrotto, sibilo, zanne nude] Che cazzo e' questo?	}{	Okay, ora...[interrotto, sibilo, zanne nude] Che cazzo e' questo?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	191	}{	Okay, ora...[interrotto, sibilo, mostra le zanne] Che cazzo e' questo?	}{	Okay, adesso...Che cazzo e' questo?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	192	}{	...	}{	...	}{	201	}{		}{		}{	}{	}{	}{	}{	}{	}{	...	}
 {	193	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	194	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -198,8 +198,8 @@
 {	198	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	199	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	200	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	201	}{	Ascolta, vai dentro e raggiungi il piano superiore. Ci incontreremo tra un po'. Io vado a vedere che sta succedendo.	}{	Ascolta, vai dentro e raggiungi il piano superiore. Ci incontreremo tra un po'. Io vado a vedere che sta succedendo.	}{	#	}{		npc.SetDisposition("Neutral", 1)	}{	G.Tut_Jack = 2; pc.SetQuest("Tutorial",4)	}{	}{	}{	}{	}{	}{		}{		}
-{	202	}{	Fallo tu.	}{	Fallo tu.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Io entro!	}
+{	201	}{	Ascolta, entra qui e vai di sopra. Ci vediamo tra un po'. Vado solo a vedere cos'e' questo putiferio.	}{	Senti, entra qui e vai su'. Ci vediamo tra un po'. Vado solo a vedere cos'e' questo putiferio.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tut_Jack = 2; pc.SetQuest("Tutorial",4)	}{	}{	}{	}{	}{	}{	}{		}
+{	202	}{	vado.	}{	Okay.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Io entro!	}
 {	203	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	204	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	205	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -243,12 +243,12 @@
 {	243	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	244	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	245	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	246	}{	Vai, ci incontreremo li'.	}{	Vai, ci incontreremo li'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	246	}{	Vai, ci incontreremo li'.	}{	Vai, ci incontriamo li'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	247	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	248	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	249	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	250	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	251	}{	[Sussurro forte. Indirizzare il giocatore da 20-30 piedi di distanza.]Vieni qui giu'! Stai lontano dalle finestre.	}{	[Sussurro forte. Indirizzare il giocatore da 20-30 piedi di distanza.]Vieni qui giu'! Stai lontana dalle finestre.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	251	}{	[Sussurra forte. Rivolgendosi al giocatore da 20-30 piedi di distanza.]Vieni qui giu'! Stai lontano dalle finestre.	}{	Vieni quaggiu'! Stai lontana dalle finestre.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	252	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	253	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	254	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -258,8 +258,8 @@
 {	258	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	259	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	260	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	261	}{	Oh... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, Cristo, speravo di tenerti questa merda per dopo. [sigh]Uh, i Sabbat... bhe, eh, sono gli stronzi piu' pazzi tra i succhiasangue - questo e' tutto cio' che hai bisogno di sapere per ora, ok?	}{	Oh... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, Cristo, speravo di tenerti questa merda per dopo. [sigh]Uh, i Sabbat... bhe, eh, sono gli stronzi piu' pazzi tra i succhiasangue - questo e' tutto cio' che hai bisogno di sapere per ora, ok?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	262	}{	Quindi cosa succede?	}{	Quindi cosa succede?	}{	271	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dove conduce questo passaggio?	}
+{	261	}{	Oh... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, che cazzo, speravo di tenerti questa merda per dopo. [sigh]Uh, i Sabbat... bhe, eh, sono per lo piu' stronzi assetati di sangue senza cervello - e' tutto quello che devi sapere per ora, ok?	}{	Ah... e' un blitz dei Sabbat. I Sabbat, sono uh... Eh, Cristo, pensavo di tenerti questa merda per dopo. Uh, i Sabbat... bhe, eh, sono per lo piu' stronzi assetati di sangue senza cervello - e' tutto quello che dovrai sapere per ora, ok?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	262	}{	e allora?	}{	Quindi?	}{	271	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dove porta questa strada?	}
 {	263	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	264	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	265	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -268,8 +268,8 @@
 {	268	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	269	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	270	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	271	}{	I Sabbat sapevano del nostro incontro, quindi hanno pensato bene di fare un po' di casino e fare incazzare un po' il nuovo [sgradevolmente]"principe".	}{	I Sabbat sapevano del nostro incontro, quindi hanno pensato bene di fare un po' di casino e fare incazzare un po' il nuovo [sgradevolmente]"principe".	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	272	}{	Di cosa e' principe il principe?	}{	Di cosa e' principe il principe?	}{	281	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dimmi del puppo-principe!	}
+{	271	}{	I Sabbat hanno avuto il sentore del raduno qui, cosi' hanno pensato che avrebbero sollevato un piccolo inferno mettendo un po' di pressione sul nuovo [ripugnante] "principe".	}{	I Sabbat hanno avuto il sentore del raduno qui, cosi' hanno pensato di sollevare un piccolo inferno mettendo un po' di pressione sul nuovo "principe".	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	272	}{	Di cosa e' principe il principe?	}{	Di che cosa e' principe il principe?	}{	281	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dimmi del principe buffone!	}
 {	273	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	274	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	275	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -278,8 +278,8 @@
 {	278	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	279	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	280	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	281	}{	Non e' tempo per sintesi politiche. Il tuo lavoro? Uscire vivo di qui. I Sabbat possono essere innocui, ma colpiscono come un camion della Mack, come animali selvaggi - nulla con cui vorresti mai avere a che fare.	}{	Non e' tempo per sintesi politiche. Il tuo lavoro? Uscire vivo di qui. I Sabbat possono essere innocui, ma colpiscono come un camion della Mack, come animali selvaggi - nulla con cui vorresti mai avere a che fare.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	282	}{	Cosa dovrei fare?	}{	Cosa dovrei fare?	}{	291	}{		}{		}{	}{	}{	}{	}{	}{	}{	Se non la spada...?	}
+{	281	}{	Non c'e' tempo per il degrado politico. La tua missione? Esci di qui vivo. I Sabbat potrebbero essere senza cervello, ma colpiscono come un camion della Mack, come selvaggi inferociti - niente con cui un principiante come te vuole scherzare.	}{	Non c'e' tempo per il degrado politico. La tua missione? Esci di qui viva. I Sabbat potrebbero essere senza cervello, ma colpiscono come un camion della Mack, come selvaggi inferociti - niente con cui una principiante come te vuole scherzare.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	282	}{	Cosa dovrei fare?	}{	Cosa devo fare?	}{	291	}{		}{		}{	}{	}{	}{	}{	}{	}{	Se non la spada...?	}
 {	283	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	284	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	285	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -288,7 +288,7 @@
 {	288	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	289	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	290	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attento. Stai indietro.	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attenta. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
+{	291	}{	[guarda fuori dalla finestra e nota qualcosa, tace]Shh shh. Attento. Stai indietro.	}{	Shh shh. Attenta. Stai indietro.	}{	#	}{		}{	G.Tut_Jack = 3	}{	}{	}{	}{	}{	}{	}{		}
 {	292	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	293	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	294	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -298,8 +298,8 @@
 {	298	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	299	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	300	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	301	}{	Stupidi e frenetici Sabbat bastardi. Bene. Dobbiamo uscire dal retro, veloce. Io restero' qui e terro' d'occhio la situazione; tu raggiungi l'ufficio. La porta e' dietro l'angolo.	}{	Stupidi e frenetici Sabbat bastardi. Bene. Dobbiamo uscire dal retro, veloce. Io restero' qui e terro' d'occhio la situazione; tu raggiungi l'ufficio. La porta e' dietro l'angolo.	}{	#	}{		}{	G.Tut_Jack = 4; pc.SetQuest("Tutorial",5)	}{	}{	}{	}{	}{	}{	}{		}
-{	302	}{	Vado.	}{	Vado.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dovrei invadere questa orifizio.	}
+{	301	}{	Stupidi frenetici bastardi Sabbat. Bene. Dobbiamo uscire dal retro, presto. Rimarro' indietro e staro' attento; tu fai strada fino all'ufficio. La porta e' qui dietro l'angolo.	}{	Folli frenetici bastardi Sabbat. Okay. Dobbiamo uscire dal retro, presto. Rimarro' indietro e staro' attento; tu prosegui fino all'ufficio. La porta e' qui dietro l'angolo.	}{	#	}{		}{	G.Tut_Jack = 4; pc.SetQuest("Tutorial",5)	}{	}{	}{	}{	}{	}{	}{		}
+{	302	}{	Vado.	}{	Okay.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dovrei invadere questo orifizio.	}
 {	303	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	304	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	305	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -308,7 +308,7 @@
 {	308	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	309	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	310	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	311	}{	Vai, ma stai giu'.	}{	Vai, ma stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	311	}{	Vai avanti, tieniti giu'.	}{	Vai avanti, e stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	312	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	313	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	314	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -338,9 +338,9 @@
 {	338	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	339	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	340	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	341	}{	[pecorosamente]Ahh... scorciatoia. Beh, ben fatto. Non eri esattamente un angelo in vita, vero?	}{	[pecorosamente]Ahh... scorciatoia. Beh, ben fatto. Non eri esattamente un angelo in vita, vero?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	342	}{	So cavarmela.	}{	So cavarmela.	}{	351	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia aura era cosi' macchiata.	}
-{	343	}{	Ho avuto i miei momenti.	}{	Ho avuto i miei momenti.	}{	351	}{		}{		}{	}{	}{	}{	}{	}{	}{	Sapevo utilizzare i miei demoni.	}
+{	341	}{	[timidamente]Ehm... scorciatoia. Bene, comunque ben fatto Non eri esattamente un angelo da vivo, vero?	}{	Ehm... scorciatoia. Bene, comunque ben fatto Non eri esattamente un angelo da viva, vero?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	342	}{	So cavarmela.	}{	So badare a me stessa.	}{	351	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia aura era terribilmente sbiadita.	}
+{	343	}{	Ho avuto i miei momenti.	}{	Ho avuto i miei periodi.	}{	351	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ne ho avuto abbastanza di demoni.	}
 {	344	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	345	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	346	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -348,8 +348,8 @@
 {	348	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	349	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	350	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	351	}{	Bene. Ora se vuoi una lezione su come non si deve agire, prendi nota da quei coglioni dei Sabbat. Sei un grande e cattivo vampiro... si, grande, congratulazioni.... ora tienitelo per te. Ruggisci e colpisci il tuo corpo e... questo e' quello che ti aspetta.	}{	Bene. Ora se vuoi una lezione su come non si deve agire, prendi nota da quei coglioni dei Sabbat. Sei un grande e cattivo vampiro... si, grande, congratulazioni.... ora tienitelo per te. Ruggisci e colpisci il tuo corpo e... questo e' quello che ti aspetta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	352	}{	Aspetta! Ho ancora quella lista di persone del liceo! Perche' no?	}{	Aspetta! Ho ancora quella lista di persone del liceo! Perche' no?	}{	361	}{		}{		}{	}{	}{	}{	}{	}{	}{	Perche' dobbiamo nascondere la nostra natura?	}
+{	351	}{	Bene.Ora, se vuoi una lezione su come davvero non agire, prendi appunti da quegli stronzi dei Sabbat. Sei un grande vampiro cattivo...si, ottimo, complimenti...ora tienilo per te. Se vai Ruggendo battendoti il petto...questo e' quello che ti aspetta.	}{	Okay. Ora, se vuoi una lezione su come davvero non agire, prendi appunti da quegli stronzi dei Sabbat. Sei una grande vampira cattiva...si, ottimo, complimenti...ora tienilo per te. Se vai Ruggendo battendoti il petto...questo e' quello che ti aspetta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	352	}{	Aspetta! Ho ancora quella lista di persone del liceo! Perche' no?	}{	Aspetta! dovrei ancora avere quella lista di persone del liceo! Perche' no?	}{	361	}{		}{		}{	}{	}{	}{	}{	}{	}{	Perche' dobbiamo nascondere la nostra natura?	}
 {	353	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	354	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	355	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -358,18 +358,18 @@
 {	358	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	359	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	360	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	361	}{	Per la stessa ragione per la quale non lasci che gli umani ti vedano mentre ti nutri. E' per la stessa ragione per la quale i lupi non vogliono che le pecore sappiano che sono li'.	}{	Per la stessa ragione per la quale non lasci che gli umani ti vedano mentre ti nutri. E' per la stessa ragione per la quale i lupi non vogliono che le pecore sappiano che sono li'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	361	}{	Per la stessa ragione per cui non lasci che gli umani ti vedano mentre ti nutri. Ecco perche' il lupo non vuole che le pecore sappiano che e' li'.	}{	Per lo stesso motivo per cui non lasci che gli umani ti vedano mentre ti nutri. Ecco perche' il lupo non vuole che le pecore sappiano che e' li'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	362	}{	(Auto-Link)	}{	(Auto-Link)	}{	365	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	363	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	364	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	365	}{	Per la stessa ragione per cui non vai in giro a frugare nell'immondizia alle otto del mattino, ed e'... e' anche il motivo per cui non ne sapevi nulla quando ti sei svegliato questa mattina.	}{	Per la stessa ragione per cui non vai in giro a frugare nell'immondizia alle otto del mattino, ed e'... e' anche il motivo per cui non ne sapevi nulla quando ti sei svegliata questa mattina.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	366	}{	Ah. Ho capito.	}{	Ah. Ho capito.	}{	371	}{		}{		}{	}{	}{	}{	}{	}{	}{	I miei occhi stanno incominciando ad aprirsi.	}
+{	365	}{	e' anche il motivo per cui non vai a frugare nei cassonetti o scappi via da sacramento prima delle 8:15, ed e'... ed e' per questo che non sapevi nulla di questo quando ti sei svegliato stamattina.	}{	e' anche la ragione per cui non vai a frugare nei cassonetti o scappi via da sacramento prima delle 8:15, ed e'... ed e' per questo che non sapevi nulla di questo quando ti sei svegliata stamattina.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	366	}{	Ah. Ho capito.	}{	Ah. Ora ho capito.	}{	371	}{		}{		}{	}{	}{	}{	}{	}{	}{	I miei occhi iniziano ad aprirsi.	}
 {	367	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	368	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	369	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	370	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	371	}{	Mantieni segreto il nostro segreto e ci renderai le cose molto piu' facili. Viviamo nell'era dei cellulari con fotocamere... le stronzate non sono tollerate. Ha abbastanza senso? Ad un giovane come te potrebbe capitare.	}{	Mantieni segreto il nostro segreto e ci renderai le cose molto piu' facili. Viviamo nell'era dei cellulari con fotocamere... le stronzate non sono tollerate. Ha abbastanza senso? Ad un giovane come te potrebbe capitare.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	372	}{	Cosa vuoi dire? Cosa potrebbe accadere?	}{	Cosa vuoi dire? Cosa potrebbe accadere?	}{	381	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia mente sta incominciando ad oscurarsi. Fa' luce e spiegati.	}
+{	371	}{	Mantieni segreto il nostro segreto e renderai le cose piu' facili a tutti noi. Viviamo nell'era dei cellulari con fotocamere... le cazzate non sono tollerate. Ha abbastanza senso, giusto? Beh, non e' una cosa casuale per uno alle prime armi come te.	}{	Tieni segreto il nostro segreto e renderai le cose piu' facili a tutti noi. Viviamo nell'era dei cellulari con fotocamere... le cazzate non sono tollerate. Ha abbastanza senso, giusto? Beh, non e' una cosa casuale per una alle prime armi come te.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	372	}{	Cosa vuoi dire? Cosa potrebbe accadere?	}{	Che cosa vuoi dire? Cosa mi potrebbe accadere?	}{	381	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia mente inizia a rannuvolarsi. Fai brillare una luce e spiega.	}
 {	373	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	374	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	375	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -378,19 +378,19 @@
 {	378	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	379	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	380	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	381	}{	Quella festa li', il ragazzo col vestito e il Magilla Gorilla - gli stronzi che mettono il tuo signore a morte? Questa e' la Camarilla. Hmph. Fanno affari per rinforzare le "leggi dei vampiri" come questa.	}{	Quella festa li', il ragazzo col vestito e il Magilla Gorilla - gli stronzi che mettono il tuo signore a morte? Questa e' la Camarilla. Hmph. Fanno affari per rinforzare le "leggi dei vampiri" come questa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	382	}{	Capisco.	}{	Capisco.	}{	391	}{	IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	383	}{	Capisco.	}{	Capisco.	}{	401	}{	not IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{	Ah.	}
-{	384	}{	Camarilla? Quindi loro sono tipo i "vampiri buoni"?	}{	Camarilla? Quindi loro sono tipo i "vampiri buoni"?	}{	386	}{		}{		}{	}{	}{	}{	}{	}{	}{	Questi Camarilla sono miei amici?	}
+{	381	}{	Quella festa li', il ragazzo col vestito e il Magilla Gorilla - gli stronzi che mettono il tuo sire a morte? Questa e' la [con disprezzo]Camarilla. Hmph. Fanno affari puliti per far rispettare le "leggi sui vampiri" come questa.	}{	Quella specie di festa li', il ragazzo col vestito e il Magilla Gorilla - gli stronzi che mettono il tuo sire a morte? Questa e' la Camarilla. Hmph. Fanno affari accurati per far rispettare le "leggi sui vampiri" come questa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	382	}{	Vedo.	}{	Ho visto.	}{	391	}{	IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	383	}{	Vedo.	}{	Ho visto.	}{	401	}{	not IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{	Ah.	}
+{	384	}{	Camarilla? Quindi sono come i "bravi ragazzi" dei vampiri?	}{	Camarilla? Quindi loro sono come i "bravi ragazzi" dei vampiri?	}{	386	}{		}{		}{	}{	}{	}{	}{	}{	}{	Questi Camarilla sono i miei compagni?	}
 {	385	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	386	}{	[grugnito sprezzante]Mmph. Si. Ti diro' cosa ne penso un'altra volta, forse. Mi piace lasciare le persone libere di pensare cio' che vogliono.	}{	[grugnito sprezzante]Mmph. Si. Ti diro' cosa ne penso un'altra volta, forse. Mi piace lasciare le persone libere di pensare cio' che vogliono.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	387	}{	Bene. E ora?	}{	Bene. E ora?	}{	391	}{	IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	388	}{	Bene. E ora?	}{	Bene. E ora?	}{	401	}{	not IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{	Le mie menti hanno molte opinioni.	}
+{	386	}{	[grugnito sprezzante]Mmph. Si. Ti diro' quello che penso un'altra volta, forse. Mi piace lasciare che le persone si facciano le proprie opinioni.	}{	Mmph. Si. Ti raccontero' quello che penso un'altra volta, forse. Mi piace lasciare che le persone si facciano le proprie opinioni.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	387	}{	Bene. E ora?	}{	Okay. E ora?	}{	391	}{	IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	388	}{	Bene. E ora?	}{	Okay. E ora?	}{	401	}{	not IsClan(pc,"Nosferatu")	}{		}{	}{	}{	}{	}{	}{	}{	Le mie menti hanno molte opinioni.	}
 {	389	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	390	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	391	}{	Per te, amico, sara' piu' difficile. Solo un piccolo sforzo, e tutti quanti noi ti approveremo. Sbatti il tuo culo su Internet ed e' tutto finito. C'e' una ragione per la quale i Nosferatu puzzano come le fogne... immagina.	}{	Per te, tesoro, sara' piu' difficile. Solo un piccolo sforzo, e tutti quanti noi ti approveremo. Sbatti il tuo culo su Internet ed e' tutto finito. C'e' una ragione per la quale i Nosferatu puzzano come le fogne... immagina.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	392	}{	Sembra piuttosto chiaro, Jack.	}{	Sembra piuttosto chiaro, Jack.	}{	401	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	393	}{	Grande. Le mie notti si fanno interessanti.	}{	Grande. Le mie notti si fanno interessanti.	}{	401	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	391	}{	E per te, mio sfuggevole amico, sara' molto dura.  Un piccolo sforzo e il resto di noi puo' mimetizzarsi bene; un segno del tuo orribile culo su Internet ed e' tutto finito. C'e' un motivo per cui la maggior parte dei Nosferatu puzza di fogna... capiscilo.	}{	E per te, mia sfuggevole amica, sara' molto dura. Un piccolo sforzo e il resto di noi puo' mimetizzarsi bene; un segno del tuo bel culo su Internet ed e' tutto finito. C'e' un motivo per cui la maggior parte dei Nosferatu puzza di fogna... capiscilo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	392	}{	Sembra piuttosto chiaro, Jack.	}{	Sembra abbastanza chiaro, Jack.	}{	401	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	393	}{	Grande. Le mie notti si fanno interessanti.	}{	Woaw. Le mie notti si fanno interessanti.	}{	401	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	394	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	395	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	396	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -398,48 +398,48 @@
 {	398	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	399	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	400	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	401	}{	Bene ora, non ti preoccupare, perche' conosco un po' la zona - e sai cosa? Sono contento di essere in questa situazione, te ed io. Ti dico un segreto... sfrutta l'ambiente circostante.	}{	Bene ora, non ti preoccupare, perche' conosco un po' la zona - e sai cosa? Sono contento di essere in questa situazione, te ed io. Ti dico un segreto... sfrutta l'ambiente circostante.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	402	}{	Okay. Ma cosa significa esattamente?	}{	Okay. Ma cosa significa esattamente?	}{	406	}{		}{		}{	}{	}{	}{	}{	}{	}{	Fammi un disegno.	}
+{	401	}{	Bene ora, non ti preoccupare, perche' conosco un po' la zona - e sai cosa? Sono contento che siamo in questa situazione, io e te. Ti dico un segreto... sfrutta l'ambiente circostante.	}{	Okay adesso, non ti preoccupare, perche' conosco un po' la zona - e sai cosa? Sono contento che siamo in questa situazione, io e te. Ti dico un segreto... sfrutta l'ambiente circostante.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	402	}{	Okay. Ma cosa significa esattamente?	}{	Va bene. Ma cosa significa esattamente?	}{	406	}{		}{		}{	}{	}{	}{	}{	}{	}{	Fammi un disegno.	}
 {	403	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	404	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	405	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	406	}{	Devi fare cio' che va fatto. Furto, distruzione di proprieta', infrangere la legge e violazione di domicilio. Saranno questi i tuoi peccati al termine di ogni notte.	}{	Devi fare cio' che va fatto. Furto, distruzione di proprieta', infrangere la legge e violazione di domicilio. Saranno questi i tuoi peccati al termine di ogni notte.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	406	}{	Fai quello che devi fare. Furto, distruzione di proprieta', effrazione. Heh. Questi saranno gli ultimi dei tuoi peccati prima che finisca la notte.	}{	Fai quello che dovresti fare. Furto, distruzione di proprieta', effrazione. Heh. Questi saranno gli ultimi dei tuoi peccatucci prima che finisca la notte.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	407	}{	(Auto-Link)	}{	(Auto-Link)	}{	411	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	408	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	409	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	410	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	411	}{	Quindi guarda qui. Dobbiamo passare per il retro attraverso quella porta a serratura elettronica. Ci deve essere una chiave da qualche parte.	}{	Quindi guarda qui. Dobbiamo passare per il retro attraverso quella porta a serratura elettronica. Ci deve essere una chiave da qualche parte.	}{	#	}{		}{	G.Tut_Jack = 5; pc.SetQuest("Tutorial",6)	}{	}{	}{	}{	}{	}{	}{		}
-{	412	}{	La trovero'.	}{	La trovero'.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cerchero' questa chiave.	}
+{	411	}{	Quindi guarda qui intorno. Dobbiamo uscire dal retro attraverso quella porta sigillata con serratura magnetica. Dev'esserci una chiave da qualche parte.	}{	Cosi' guarda qui intorno. Dobbiamo uscire dal retro attraverso quella porta sigillata con serratura magnetica. Dovrebbe esserci una chiave da qualche parte.	}{	#	}{		}{	G.Tut_Jack = 5; pc.SetQuest("Tutorial",6)	}{	}{	}{	}{	}{	}{	}{		}
+{	412	}{	La trovero'.	}{	La scovero'.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Devo cercare questa chiave.	}
 {	413	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	414	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	415	}{	Cosa? Ci rinunci? Guarda un po' in giro. Andiamo.	}{	Cosa? Ci rinunci? Guarda un po' in giro. Andiamo.	}{	#	}{		}{	G.Tut_Jackquip = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	415	}{	Che cosa? Ti arrendi? Guardati un po' intorno. Andiamo, dai.	}{	Che cosa? Gia' ti arrendi? Guardati un po' intorno. Andiamo, dai.	}{	#	}{		}{	G.Tut_Jackquip = 1	}{	}{	}{	}{	}{	}{	}{		}
 {	416	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	417	}{	Ti sto aspettando, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	Ti sto aspettando, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	#	}{		}{	G.Tut_Jackquip = 0	}{	}{	}{	}{	}{	}{	}{		}
+{	417	}{	Ti sto aspettando, principessa. Ad essere sincero, non sono preoccupato. Tu, invece, dovresti esserlo.	}{	Ti aspettavo, principessa. Ad essere sincero, non sono preoccupato. Tu, invece, dovresti esserlo.	}{	#	}{		}{	G.Tut_Jackquip = 0	}{	}{	}{	}{	}{	}{	}{		}
 {	418	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	419	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	420	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	421	}{	Andiamo. Ora prendi quella chiave magnetica e dirigiti sul retro. Ci incontreremo fuori nel vicolo. Vado a controllare le cose dal piano superiore.	}{	Andiamo. Ora prendi quella chiave magnetica e dirigiti sul retro. Ci incontreremo fuori nel vicolo. Vado a controllare le cose dal piano superiore.	}{	#	}{		}{	G.Tut_Jack = 18; pc.SetQuest("Tutorial",7)	}{	}{	}{	}{	}{	}{	}{		}
-{	422	}{	Capito.	}{	Capito.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Adempiro' quest'incombenza.	}
+{	421	}{	Ci siamo. Ora prendi quella chiave magnetica ed esci dal retro. Ci vediamo la' fuori nel vicolo. Controllero' le cose dall'alto.	}{	Okay. Ora prendi quella chiave magnetica ed esci dal retro. Ci vediamo la' fuori nel vicolo. Controllero' le cose dall'alto.	}{	#	}{		}{	G.Tut_Jack = 18; pc.SetQuest("Tutorial",7)	}{	}{	}{	}{	}{	}{	}{		}
+{	422	}{	Fatto.	}{	Ecco.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Adempiro' quest'incombenza.	}
 {	423	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	424	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	425	}{	Ti sto aspettando, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	Ti sto aspettando, principessa. Ad essere onesto, non sono preoccupato. Tu, comunque, dovresti esserlo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	425	}{	Ti sto aspettando, principessa. Ad essere sincero, non sono preoccupato. Tu, invece, dovresti esserlo.	}{	Ti stavo aspettando, principessa. Ad essere sincero, non sono preoccupato. Tu, invece, dovresti esserlo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	426	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	427	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	428	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	429	}{	Che inutile spreco di vita, questi Sabbat di merda. Sei stato ferito?	}{	Che inutile spreco di vita, questi Sabbat di merda. Sei stata ferita?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	429	}{	[casualmente, ripulendosi dopo aver appena fatto fuori un paio di vampiri]Fottuto spreco di non vita, questi pazzi dei Sabbat. Sei stato ferito?	}{	Fottuto spreco di non vita, questi pazzi dei Sabbat. Sei stata ferita?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	430	}{	(Auto-Link)	}{	(Auto-Link)	}{	431	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
-{	431	}{	Ehi ehi! Guarda che buchi! Si chiuderanno abbastanza presto - anche se e' meglio nutrirsi.	}{	Ehi ehi! Guarda che buchi! Si chiuderanno abbastanza presto - anche se e' meglio nutrirsi.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	431	}{	[gioviale] Ehi ehi! Guarda che buchi! Quelli si chiuderanno abbastanza presto, meglio nutrirsi pero'.	}{	Ehi ehi! Guarda che ferite! Quelle si chiuderanno abbastanza presto, meglio nutrirsi pero'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	432	}{	(Auto-Link)	}{	(Auto-Link)	}{	435	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	433	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	434	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	435	}{	C'e' qualcuno giu' nelle scale. Non e' proprio il miglior nutrimento ma ne ricaverai qualcosa.	}{	C'e' qualcuno giu' nelle scale. Non e' proprio il miglior nutrimento ma ne ricaverai qualcosa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	436	}{	Che differenza fa? Il sangue e' sangue, giusto?	}{	Che differenza fa? Il sangue e' sangue, giusto?	}{	441	}{		}{		}{	}{	}{	}{	}{	}{	}{	Il sangue ha vintage e bouquet?	}
+{	435	}{	[sniffs the air, peers into the darkness(pause)]C'e' qualcuno giu' nelle scale. Non e' di prima scelta, ma andra' bene.	}{	Sento qualcuno giu' nelle scale. Non e' di prima scelta, ma andra' bene.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	436	}{	Che differenza fa? Il sangue e' sangue, giusto?	}{	Quale e' la differenza? Il sangue e' sangue, giusto?	}{	441	}{		}{		}{	}{	}{	}{	}{	}{	}{	C'e' il sangue invecchiato e il sangue novello?	}
 {	437	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	438	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	439	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	440	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	441	}{	Beh, quando c'e' da nutrirsi, cerchi la qualita' del sangue, non la quantita'. Vagabondi e stronzi non hanno la stessa qualita' di un uomo ben nutrito. Drink di sangue puro: quella e' roba buona. Ma devi prendere cio' che riesci ad ottenere. Hai mai avuto un Ph.D., ragazzo? Oh, quella si che e' roba ottima.	}{	Beh, quando c'e' da nutrirsi, cerchi la qualita' del sangue, non la quantita'. Vagabondi e stronzi non hanno la stessa qualita' di un uomo ben nutrito. Drink di sangue puro: quella e' roba buona. Ma devi prendere cio' che riesci ad ottenere. Hai mai avuto un Ph.D., ragazza? Oh, quella si che e' roba ottima.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	442	}{	Se lo dici tu.	}{	Se lo dici tu.	}{	451	}{		}{		}{	}{	}{	}{	}{	}{	}{	Il moribondo disidratato raramente evita un'oasi.	}
+{	441	}{	Beh, quando si tratta di nutrirsi, quello che cerchi e' sangue di qualita', non la quantita'. I barboni e i delinquenti non danno lo stesso vigore di un umano, sano ben allevato. Succhi di frutta con pedigree: questa e' roba buona.. Ma devi prendere quello che puoi ottenere. Hai mai provato un dottore ricercatore, ragazzo? Oh, quella si che e' roba buona.	}{	Allora, quando si tratta di nutrirsi, quello che cerchi e' sangue di qualita', non la quantita'. I barboni e i delinquenti non danno lo stesso vigore di un umano, sano ben allevato. Succhi di frutta con pedigree: questa e' roba buona.. Ma devi prendere quello che puoi ottenere. Hai mai provato un dottore ricercatore, ragazza? Oh, quella si che e' roba buona.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	442	}{	Se lo dici tu..	}{	Se tu lo dici.	}{	451	}{		}{		}{	}{	}{	}{	}{	}{	}{	L'assetato raramente evita un'oasi.	}
 {	443	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	444	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	445	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -448,8 +448,8 @@
 {	448	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	449	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	450	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	451	}{	Comunque ricorda cio' che ti ho detto, non ucciderli - almeno non gli innocenti. Sei un mostro ora, non fare errori - uno dei Dannati e dei caduti. Dovrai conservare ogni straccio di Umanita' che hai.	}{	Comunque ricorda cio' che ti ho detto, non ucciderli - almeno non gli innocenti. Sei un mostro ora, non fare errori - uno dei Dannati e dei caduti. Dovrai conservare ogni straccio di Umanita' che hai.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	452	}{	Fammi essere un po' zelante... cosa succede dopo?	}{	Fammi essere un po' zelante... cosa succede dopo?	}{	461	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cosa succede se lo prosciugo?	}
+{	451	}{	Comunque ricorda cio' che ti ho detto, non ucciderli - almeno non gli innocenti. Sei un mostro ora, non fare errori - uno dei Dannati e dei caduti. Dovrai conservare ogni straccio di Umanita' che hai.	}{	Ad ogni modo ricorda cio' che ti ho detto, non ucciderli - almeno non gli innocenti. Sei un mostro ora, non fare errori - una dei Dannati e dei caduti. Dovrai conservare ogni straccio di Umanita' che hai.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	452	}{	Diciamo che divento un po' troppo zelante... cosa succede dopo?	}{	E se divento un po' troppo zelante... cosa succede dopo?	}{	461	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cosa succede se lo prosciugo?	}
 {	453	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	454	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	455	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -458,9 +458,9 @@
 {	458	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	459	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	460	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	461	}{	Un innocente e' un innocente. Uccidine uno, anche il piu' inutile stronzo, anche per sbaglio, e ti costera' un pezzo della tua Umanita', ti portera' sempre piu' vicino alla Bestia che e' al tuo interno.	}{	Un innocente e' un innocente. Uccidine uno, anche il piu' inutile stronzo, anche per sbaglio, e ti costera' un pezzo della tua Umanita', ti portera' sempre piu' vicino alla Bestia che e' al tuo interno.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	462	}{	La "Bestia"? Cosa intendi esattamente?	}{	La "Bestia"? Cosa intendi esattamente?	}{	471	}{		}{		}{	}{	}{	}{	}{	}{	}{	Si'! La buia Bestia che si muove a spirale sotto la superficie!	}
-{	463	}{	Sono stanco di questo sermone. Vado a farmi un drink.	}{	Sono stanca di questo sermone. Vado a farmi un drink.	}{	501	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ferma questo sermone! Vado a bere nell'oscurita'.	}
+{	461	}{	Un innocente e' un innocente. Uccidine uno, anche il piu' inutile stronzo, anche per sbaglio, e ti costera' un pezzo della tua Umanita', ti portera' sempre piu' vicino alla Bestia che e' al tuo interno.	}{	Un innocente e' un innocente. Uccidine uno, anche il piu' inutile barbone, anche per sbaglio, e ti costera' un pezzo della tua Umanita', ti portera' sempre piu' vicina alla Bestia che e' al tuo interno.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	462	}{	La "Bestia"? Cosa intendi esattamente?	}{	La "Bestia"? Cosa intendi dire esattamente?	}{	471	}{		}{		}{	}{	}{	}{	}{	}{	}{	Si'! La Bestia oscura che si e' avvolta sotto la superficie!	}
+{	463	}{	Sono stanco di questo sermone. Vado giu' a farmi un drink.	}{	Sono stanca di questo sermone. Vado giu' a farmi una bevuta.	}{	501	}{		}{		}{	}{	}{	}{	}{	}{	}{	Metti a tacere questo sermone! Vado ad abbeverarmi d'oscurita'.	}
 {	464	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	465	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	466	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -468,8 +468,8 @@
 {	468	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	469	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	470	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	471	}{	[terribile]La Bestia - e' sempre li', aspetta di prenderti. Quando lo fa, e' come un animale selvaggio che indossa la tua pelle... disperato, spaventato, scatenato. Fara' di tutto per sopravvivere e tu ne pagherai le consequenze.	}{	[terribile]La Bestia - e' sempre li', aspetta di prenderti. Quando lo fa, e' come un animale selvaggio che indossa la tua pelle... disperato, spaventato, scatenato. Fara' di tutto per sopravvivere e tu ne pagherai le consequenze.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	472	}{	Quindi non posso uccidere chiunque? Sembra un po', uh, restrittivo.	}{	Quindi non posso uccidere chiunque? Sembra un po', uh, restrittivo.	}{	481	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cosa succede se un umano prova a farmi del male?	}
+{	471	}{	[cupo]La Bestia - e' sempre li', in attesa di prendere il sopravvento. Quando lo fa, e' come un animale selvatico che indossa la tua pelle... disperato, spaventato, incoscente. Fara' di tutto per sopravvivere e sei tu che devi affrontarne le conseguenze.	}{	La Bestia - e' sempre li', in attesa di prendere il sopravvento. Quando lo fa, e' come un animale selvatico che indossa la tua pelle... disperata, spaventata, incoscente. Fara' di tutto per sopravvivere e sei tu quella che deve affrontarne le conseguenze.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	472	}{	Quindi non posso uccidere chiunque? Sembra un po', uh, restrittivo.	}{	Cosi' non posso uccidere chiunque? Sembra un po', uh, riduttivo.	}{	481	}{		}{		}{	}{	}{	}{	}{	}{	}{	Cosa succede se un umano prova a farmi del male?	}
 {	473	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	474	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	475	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -478,8 +478,8 @@
 {	478	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	479	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	480	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	481	}{	Ah ah ah! Ho detto umani innocenti. Se qualche rotto in culo vuole colpirti con un crick, prosciugalo, scuoialo e spacca il suo cranio. Dopotutto la sopravvivenza e' una parte vitale dell'Umanita'. La mia parte preferita, infatti.	}{	Ah ah ah! Ho detto umani innocenti. Se qualche rotto in culo vuole colpirti con un crick, prosciugalo, scuoialo e spacca il suo cranio. Dopotutto la sopravvivenza e' una parte vitale dell'Umanita'. La mia parte preferita, infatti.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	482	}{	Molto utile.	}{	Molto utile.	}{	491	}{		}{		}{	}{	}{	}{	}{	}{	}{	Prosciugare, tagliuzzarlo, colpirlo violentemente e terrorizzarlo.	}
+{	481	}{	Ah ah ah! Ho detto umani innocenti. Se qualche stronzo ti punta un calibro dodici verso di te, prosciugalo, scuoialo e spaccagli il cranio. Dopotutto, l'autoconservazione e' una parte vitale dell'Umanita'. La mia parte preferita, infatti.[risata]	}{	Ah ah ah! Ti ho detto umani innocenti. Se qualche testa di cazzo ti punta un calibro dodici verso di te, prosciugalo, scuoialo e spaccagli il cranio. Dopotutto, l'autoconservazione e' una parte vitale dell'Umanita'. La mia parte preferita, infatti.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	482	}{	Penso di seguirti.	}{	ok, ti seguo.	}{	491	}{		}{		}{	}{	}{	}{	}{	}{	}{	Prosciugare, scuoiare,  spaccare e scagliare	}
 {	483	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	484	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	485	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -488,8 +488,8 @@
 {	488	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	489	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	490	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	491	}{	L'unico modo per combattere la Bestia e' tenerti in stretto contatto con l'Umanita', e non finire affamato. Semplice e lineare.	}{	L'unico modo per combattere la Bestia e' tenerti in stretto contatto con l'Umanita', e non finire affamato. Semplice e lineare.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	492	}{	Capito.	}{	Capito.	}{	501	}{		}{		}{	}{	}{	}{	}{	}{	}{	Simili linee dividono questo mondo dall'ultimo.	}
+{	491	}{	L'unico modo per combattere la Bestia e' restare in contatto con la tua Umanita', e non soffrire la fame. E' una linea sottile.	}{	C'e' un unico modo per combattere la Bestia ed e' restare in contatto con la tua Umanita', e non soffrire la fame. E' una linea sottile.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	492	}{	Capito.	}{	Ho capito.	}{	501	}{		}{		}{	}{	}{	}{	}{	}{	}{	Tali linee dividono questo mondo dall'ultimo.	}
 {	493	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	494	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	495	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -498,12 +498,12 @@
 {	498	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	499	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	500	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	501	}{	Bene, ora vai a nutrirti. Comunque stai attento, si prosciughera' presto.	}{	Bene, ora vai a nutrirti. Comunque stai attenta, si prosciughera' presto.	}{	#	}{		}{	G.Tut_Jack = 6; pc.SetQuest("Tutorial",8)	}{	}{	}{	}{	}{	}{	}{		}
-{	502	}{	Ritorno in un minuto.	}{	Ritorno in un minuto.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compimento.	}
+{	501	}{	Bene, ora vai a nutrirti. Attento, pero'... si prosciughera' presto.	}{	Okay, ora vai a nutrirti. Attenta, pero'... si prosciughera' in fretta.	}{	#	}{		}{	G.Tut_Jack = 6; pc.SetQuest("Tutorial",8)	}{	}{	}{	}{	}{	}{	}{		}
+{	502	}{	Ritorno in un minuto.	}{	Ritorno subito.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Sissignore.	}
 {	503	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	504	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	505	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	506	}{	Bene, ora vai a nutrirti. Comunque stai attento, si prosciughera' presto.	}{	Bene, ora vai a nutrirti. Comunque stai attenta, si prosciughera' presto.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	506	}{	Bene, ora vai a nutrirti. Attento, pero'... si prosciughera' presto.	}{	Okay, ora vai a nutrirti. Attenta, pero'... si prosciughera' in fretta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	507	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	508	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	509	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -518,18 +518,18 @@
 {	518	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	519	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	520	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	521	}{	Buono, vero? Eh, potevi trovare di peggio. Ci sono un paio di topi in quella strada. Pensi che stia scherzando? Puoi sopravvivere nutrendoti sugli animali, se hai stomaco per fare una cosa simile. Bleah	}{	Buono, vero? Eh, potevi trovare di peggio. Ci sono un paio di topi in quella strada. Pensi che stia scherzando? Puoi sopravvivere nutrendoti sugli animali, se hai stomaco per fare una cosa simile. Bleah	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	522	}{	Peggio del collo di un vagabondo? Quell'individuo sapeva di vecchi calzini.	}{	Peggio del collo di un vagabondo? Quell'individuo sapeva di vecchi calzini.	}{	531	}{	not IsClan(pc,"Ventrue")	}{		}{	}{	}{	}{	}{	}{	}{	Uggh! Il suo collo sapeva come il tuo alito.	}
-{	523	}{	Penso di avere ancora dei fili tra i denti.	}{	Penso di avere ancora dei fili tra i denti.	}{	531	}{	not IsClan(pc,"Malkavian") and not IsClan(pc,"Ventrue")	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	524	}{	Il sangue di quel barbone era gia' abbastanza brutto, non mi nutriro' di un topo!	}{	Il sangue di quel barbone era gia' abbastanza brutto, non mi nutriro' di un topo!	}{	541	}{	IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	521	}{	Non altrettanto buono, eh? E potresti fare di peggio. Ci sono dei topi lungo la strada. Pensi che stia scherzando? Puoi sopravvivere nutrendoti di animali, se il tuo stomaco lo sopporta. Bleah.	}{	Non era altrettanto buono, eh? E potresti fare di peggio. Ci sono dei topi lungo la strada. Pensi che stia scherzando? Puoi riuscire a sopravvivere nutrendoti di animali, se il tuo stomaco lo sopporta. Bleah.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	522	}{	Peggio del collo di un barbone? Quell' involucro sapeva di vecchi calzini da ginnastica.	}{	Peggiore del collo di un barbone? Quell' involucro sapeva di vecchi calzini da ginnastica.	}{	531	}{	not IsClan(pc,"Ventrue")	}{		}{	}{	}{	}{	}{	}{	}{	Uggh! Il suo collo sapeva come il tuo alito.	}
+{	523	}{	Penso di avere ancora dei pezzi tra i denti.	}{	Devo avere ancora dei pezzi tra i denti.	}{	531	}{	not IsClan(pc,"Malkavian") and not IsClan(pc,"Ventrue")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	524	}{	Il sangue di quel barbone era gia' abbastanza brutto, non mi nutriro' di un ratto!	}{	Il sangue di quel barbone era gia' abbastanza schifoso, non mi nutriro' di un ratto!	}{	541	}{	IsClan(pc,"Ventrue")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	525	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	526	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	527	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	528	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	529	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	530	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	531	}{	Beh, provaci almeno.	}{	Beh, provaci almeno.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tut_Jack = 7; pc.SetQuest("Tutorial",9)	}{	}{	}{	}{	}{	}{	}{		}
-{	532	}{	Ci pensero'.	}{	Ci pensero'.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Devo usare il filo interdentale per rimuovere il tessuto tra i miei denti.	}
+{	531	}{	Beh, provaci almeno.	}{	Beh, almeno prova.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Tut_Jack = 7; pc.SetQuest("Tutorial",9)	}{	}{	}{	}{	}{	}{	}{		}
+{	532	}{	Ci pensero'.	}{	Ci pensero' su'.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Devo usare il filo interdentale per rimuovere i pezzi tra le mie zanne.	}
 {	533	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	534	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	535	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -538,8 +538,8 @@
 {	538	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	539	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	540	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	541	}{	[ride]Non potevi sopportarlo, eh? Va bene. I Fratelli "Civili" ti guardano dall'alto quando fai queste cose.	}{	[ride]Non potevi sopportarlo, eh? Va bene. I Fratelli "Civili" ti guardano dall'alto quando fai queste cose.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	542	}{	Posso capire il perche'. Non sono come i roditori.	}{	Posso capire il perche'. Non sono come i roditori.	}{	571	}{		}{		}{	}{	}{	}{	}{	}{	}{	Posso vedere la verita' in questi taboo.	}
+{	541	}{	[ride]Non lo sopportavi, eh? Va bene. La societa' dei Fratelli "cortesi" guarda comunque dall'alto in basso quel genere di cose.	}{	Non riuscivi a sopportarlo, eh? Okay. La societa' dei Fratelli "cortesi" guarda comunque dall'alto in basso quel genere di cose.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	542	}{	Posso capire perche'. Io stesso non sono d'accordo con i ratti.	}{	Capisco perche'. Io stessa non sono d'accordo con i roditori.	}{	571	}{		}{		}{	}{	}{	}{	}{	}{	}{	Riesco a vedere la verita' in questo tabu' sui roditori.	}
 {	543	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	544	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	545	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -548,9 +548,9 @@
 {	548	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	549	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	550	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	551	}{	[lentamente si trasformano in risate]Si' succhia-topi. [ride]Ehi, non mi importa cosa fai, ma - giusto che tu lo sappia - i fratelli "civili" ti guardano dall'alto quando fai queste cose.	}{	[lentamente si trasformano in risate]Si' succhia-topi. [ride]Ehi, non mi importa cosa fai, ma - giusto che tu lo sappia - i fratelli "civili" ti guardano dall'alto quando fai queste cose.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	552	}{	Pfft. Possono essere civili e passarmi il sale per i ratti!	}{	Pfft. Possono essere civili e passarmi il sale per i ratti!	}{	571	}{		}{		}{	}{	}{	}{	}{	}{	}{	L'etichetta richiede che loro mi passino il sale per la festa dei roditori!	}
-{	553	}{	Dopo averne assaggiato uno, non li biasimo.	}{	Dopo averne assaggiato uno, non li biasimo.	}{	571	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	551	}{	[slowly cracking into laughter]Si' succhia-ratti. [ride]Ehi, non mi importa cosa fai, ma - giusto che tu lo sappia - La societa' dei Fratelli "cortesi" guarda comunque dall'alto in basso quel genere di cose.	}{	Si' succhiatrice di ratti. Ehi, non mi importa cosa fai, ma - ma giusto che tu lo sappia - La societa' dei Fratelli "cortesi" guarda comunque dall'alto in basso quel genere di cose.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	552	}{	Pfft. Possono essere cortesi e passarmi il sale per i ratti!	}{	Pfft. Potrebbero essere cortesi e passarmi il sale per i roditori!	}{	571	}{		}{		}{	}{	}{	}{	}{	}{	}{	L'etichetta richiede che loro mi passino il sale per il mio festino di ratti!	}
+{	553	}{	Dopo averne assaggiato uno, non li biasimo.	}{	Dopo averne succhiato uno, non li biasimo.	}{	571	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	554	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	555	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	556	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -558,8 +558,8 @@
 {	558	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	559	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	560	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	561	}{	Ragazzo, l'hai fatto, vero? Credo che per un Nos, mangiare ratti e' naturale come l'eczema.	}{	Ragazza, l'hai fatto, vero? Credo che per un Nos, mangiare ratti e' naturale come l'eczema.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	562	}{	Si. Continua a ridere...	}{	Si. Continua a ridere...	}{	571	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	561	}{	Ragazzo, hai capito bene, eh? Immagino che per un nosferatu, mangiare i topi sia naturale come l'eczema.	}{	Ragazza, hai capito bene, eh? Immagino che per un nosferatu, succhiare topi sia naturale come l'eczema.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	562	}{	Si. Continua a ridere....	}{	Si. Si. Continua a ridere Jack....	}{	571	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	563	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	564	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	565	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -568,18 +568,18 @@
 {	568	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	569	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	570	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	571	}{	Stai giu'. C'e' qualcuno qui intorno.	}{	Stai giu'. C'e' qualcuno qui intorno.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	572	}{	Soltanto un ragazzo?	}{	Soltanto un ragazzo?	}{	575	}{		}{		}{	}{	}{	}{	}{	}{	}{	Solo uno?	}
+{	571	}{	Stai giu'. C'e' qualcuno qui intorno.	}{	Stai bassa. C'e' qualcuno qui intorno.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	572	}{	Soltanto un ragazzo?	}{	Solo un ragazzo?	}{	575	}{		}{		}{	}{	}{	}{	}{	}{	}{	solo uno?	}
 {	573	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	574	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	575	}{	Non e' una vera minaccia, ma non sai mai se c'e' qualcun altro in zona. Devi passare furtivamente.	}{	Non e' una vera minaccia, ma non sai mai se c'e' qualcun altro in zona. Devi passare furtivamente.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	576	}{	Dove vado?	}{	Dove vado?	}{	581	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dove dovrei andare?	}
+{	575	}{	Non e' una vera minaccia, ma non sai mai se c'e' qualcun altro in zona. Devi passare furtivamente.	}{	Non e' proprio una vera minaccia, ma non sai mai se c'e' qualcun altro in zona. Devi passare di soppiatto.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	576	}{	Furtivamente dove?	}{	Di soppiatto dove?	}{	581	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dove dovrei sgaiattolare?	}
 {	577	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	578	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	579	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	580	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	581	}{	L'edificio di fronte a noi, con la porta del garage, lo vedi? Ha un paio di porte all'estremita'. Ci incontreremo all'interno. Semplicemente stai giu' e mantieniti nell'oscurita'. E non lasciarti vedere.	}{	L'edificio di fronte a noi, con la porta del garage, lo vedi? Ha un paio di porte all'estremita'. Ci incontreremo all'interno. Semplicemente stai giu' e mantieniti nell'oscurita'. E non lasciarti vedere.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	582	}{	Faro' del mio meglio. Ci vediamo fra poco.	}{	Faro' del mio meglio. Ci vediamo fra poco.	}{	621	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
+{	581	}{	L'edificio di fronte a noi, con la porta del garage? Ci sono alcune doppie porte sul lato opposto. Ci incontreremo all'interno. Stai solo basso e sfrutta l'oscurita'. E non lasciarti vedere.	}{	L'edificio di fronte a noi, con la porta del garage? Ci sono alcune doppie porte sul lato opposto. Ci rivedremo all'interno. Stai solo bassa e sfrutta il buio. E non lasciarti vedere.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	582	}{	Faro' del mio meglio. Ci vediamo fra poco.	}{	Faro' del mio meglio. Ci incontreremo fra poco.	}{	621	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ora mi vedi... poi non mi vedi piu'.	}
 {	583	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	584	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	585	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -618,19 +618,19 @@
 {	618	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	619	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	620	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	621	}{	Bene, vai.	}{	Bene, vai.	}{	#	}{		}{	G.Tut_Jack = 8; pc.SetQuest("Tutorial",10)	}{	}{	}{	}{	}{	}{	}{		}
-{	622	}{	Vado.	}{	Vado.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vado.	}
+{	621	}{	Bene, vai.	}{	Okay, vai.	}{	#	}{		}{	G.Tut_Jack = 8; pc.SetQuest("Tutorial",10)	}{	}{	}{	}{	}{	}{	}{		}
+{	622	}{	Vado.	}{	okay vado.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vado.	}
 {	623	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	624	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	625	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	626	}{	Procedi, stai giu'.	}{	Procedi, stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	626	}{	Procedi, stai giu'.	}{	Procedi, stai bassa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	627	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	628	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	629	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	630	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	631	}{	Non fare casino, sono all'interno. Sembra che quella testa di cazzo fuori si sia separato dal suo branco. E' anche ferito. Prenditi cura di lui. Non ti preoccupare... probabilmente e' piu' docile di te.	}{	Non fare casino, sono all'interno. Sembra che quella testa di cazzo fuori si sia separato dal suo branco. E' anche ferito. Prenditi cura di lui. Non ti preoccupare... probabilmente e' piu' docile di te.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	632	}{	Cosa te lo fa pensare?	}{	Cosa te lo fa pensare?	}{	641	}{		}{		}{	}{	}{	}{	}{	}{	}{	Come puoi vedere la sua ombra da qui?	}
-{	633	}{	E' abbastanza inesperto.	}{	E' abbastanza inesperto.	}{	641	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	631	}{	Stai zitto, sono qui dentro. Sembra che quella testa di cazzo li fuori si sia separato dal suo branco. E' anche ferito. Prenditi cura di lui. Non ti preoccupare... probabilmente e' piu' inesperto di te.	}{	Stai zitta, sono qui dentro. Sembra che quel cretino li fuori si sia separato dal suo branco. E' anche ferito. Prenditi cura di lui. Non ti preoccupare... probabilmente e' piu' inesperto di te.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	632	}{	Cosa te lo fa pensare?	}{	Che cosa te lo fa pensare?	}{	641	}{		}{		}{	}{	}{	}{	}{	}{	}{	Come puoi vedere la sua ombra da qui?	}
+{	633	}{	E' abbastanza inesperto.	}{	E' molto inesperto.	}{	641	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	634	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	635	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	636	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -638,19 +638,19 @@
 {	638	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	639	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	640	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	641	}{	Vedi, i sabbat non hanno un allenamento rigoroso. Infatti, quel povero sodomita e' fortunato se sa cos'e' un vampiro.	}{	Vedi, i sabbat non hanno un allenamento rigoroso. Infatti, quel povero sodomita e' fortunato se sa cos'e' un vampiro.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	642	}{	Come puo' essere possibile?	}{	Come puo' essere possibile?	}{	646	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia pittura verde e' ancora fresca.	}
+{	641	}{	I Sabbat, vedi, non hanno il piu' rigoroso programma di addestramento. In effetti, quel povero diavolo e' fortunato se sa di essere un vampiro.	}{	Guarda, i Sabbat, non hanno il piu' rigoroso programma di addestramento. In effetti, quel povero diavolo e' fortunato se sa di essere un vampiro.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	642	}{	Come puo' essere?	}{	Come questo puo' essere?	}{	646	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia vernice verde e' ancora abbastanza fresca.	}
 {	643	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	644	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	645	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	646	}{	Ah, probabilmente e' gia' stato picchiato. A loro piace farlo... creare shock tra le truppe. Portalo fuori dalla miseria.	}{	Ah, probabilmente e' gia' stato picchiato. A loro piace farlo... creare shock tra le truppe. Portalo fuori dalla miseria.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	647	}{	Faro' del mio meglio.	}{	Faro' del mio meglio.	}{	651	}{	not IsClan(pc,"Malkavian") and G.Tut_Aggfeed == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
-{	648	}{	Suona bene. Ho un po' di frustrazione che devo buttare via.	}{	Suona bene. Ho un po' di frustrazione che devo buttare via.	}{	651	}{	G.Tut_Aggfeed == 0	}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
-{	649	}{	L'ho gia' ucciso.	}{	L'ho gia' ucciso.	}{	691	}{	G.Tut_Aggfeed == 1	}{	}{	}{	}{	}{	}{	}{	}{	L'ho gia' ridotto in cenere.	}
+{	646	}{	Ah, probabilmente e' stato "abbracciato" da poco e picchiato in testa. A loro piace farlo... scioccare le truppe, carne da macello. Portalo fuori dalla sua miseria.	}{	Ah, e' probabile che sia stato "abbracciato" da poco e picchiato in testa. A loro piace farlo... scioccare le truppe, carne da macello. Portalo fuori dalla sua miseria.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	647	}{	Faro' del mio meglio.	}{	Faro' il meglio che posso.	}{	651	}{	not IsClan(pc,"Malkavian") and G.Tut_Aggfeed == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	648	}{	Suona bene. Ho un po' di frustrazione che devo elaborare.	}{	Mi suona bene. Ho un po' di frustrazione che volevo elaborare.	}{	651	}{	G.Tut_Aggfeed == 0	}{		}{	}{	}{	}{	}{	}{	}{	Polvere alla polvere, cenere alla cenere.	}
+{	649	}{	E' gia' morto.	}{	L'ho gia' ucciso.	}{	691	}{	G.Tut_Aggfeed == 1	}{		}{	}{	}{	}{	}{	}{	}{	L'ho gia' ridotto in cenere.	}
 {	650	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	651	}{	E' un vampiro, quindi sii pronto.	}{	E' un vampiro, quindi sii pronta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	651	}{	E' un vampiro, quindi sii pronto.	}{	E' un vampiro, quindi stai pronta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	652	}{	Sono nato pronto.	}{	Sono nata pronta.	}{	681	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vampiro o no, incontra il suo creatore.	}
-{	653	}{	Lo terro' a mente. Ci vediamo.	}{	Lo terro' a mente. Ci vediamo.	}{	681	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	653	}{	Lo terro' a mente. Ci vediamo.	}{	Lo terro' presente. Ci vediamo.	}{	681	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	654	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	655	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	656	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -658,7 +658,7 @@
 {	658	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	659	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	660	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	661	}{	Non fare la fighetta del cazzo. Vai a prenderlo.	}{	Non fare la fighetta del cazzo. Vai a prenderlo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	661	}{	Non fare la fottuta femminella.. Vai a prenderlo.	}{	Non essere una fottuta fighetta.. Vai a prenderlo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	662	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	663	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	664	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -678,8 +678,8 @@
 {	678	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	679	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	680	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	681	}{	Vai da lui.	}{	Vai da lui.	}{	#	}{		}{	G.Tut_Jack = 9; pc.SetQuest("Tutorial",11)	}{	}{	}{	}{	}{	}{	}{		}
-{	682	}{	Ci sono.	}{	Ci sono.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Sto andando....	}
+{	681	}{	Vai a prenderlo.	}{	Vai..	}{	#	}{		}{	G.Tut_Jack = 9; pc.SetQuest("Tutorial",11)	}{	}{	}{	}{	}{	}{	}{		}
+{	682	}{	Ci sono.	}{	Vado.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Sto andando...	}
 {	683	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	684	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	685	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -688,9 +688,9 @@
 {	688	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	689	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	690	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	691	}{	Bene questo e' tutto. Sembra che abbiamo altre visite. I sabbat stanno uscendo. E' meglio se ti dirigi verso lo scantinato per evitare la pallottole.	}{	Bene questo e' tutto. Sembra che abbiamo altre visite. I sabbat stanno uscendo. E' meglio se ti dirigi verso lo scantinato per evitare la pallottole.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	692	}{	Sembra una buona strategia.	}{	Sembra una buona strategia.	}{	711	}{	pc.HasItem("item_w_tire_iron")	}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
-{	693	}{	Sembra una buona strategia.	}{	Sembra una buona strategia.	}{	701	}{	not pc.HasItem("item_w_tire_iron")	}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
+{	691	}{	Bene, questo e' quanto. Sembra che abbiamo un altro branco in arrivo Anche se. I Sabbat stanno uscendo tutti fuori. Faresti meglio a dirigerti nel sotterraneo, evita i proiettili vaganti.	}{	Okay, questo e' quanto. Sembra che abbiamo un altro branco in arrivo,  Anche se. I Sabbat stanno uscendo tutti fuori. Faresti meglio a dirigerti nel sotterraneo, evitando i proiettili vaganti.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	692	}{	Sembra una buona strategia.	}{	Mi sembra una strategia ottima.	}{	711	}{	pc.HasItem("item_w_tire_iron")	}{		}{	}{	}{	}{	}{	}{	}{	Questo piano mi va bene.	}
+{	693	}{	Sembra una buona strategia.	}{	Mi sembra una strategia ottima.	}{	701	}{	not pc.HasItem("item_w_tire_iron")	}{		}{	}{	}{	}{	}{	}{	}{	Questo piano mi va bene.	}
 {	694	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	695	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	696	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -698,18 +698,18 @@
 {	698	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	699	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	700	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	701	}{	Vai a prendere la mazza di ferro che quella testa di cazzo ha fatto cadere; non ne avra' piu' bisogno.	}{	Vai a prendere la mazza di ferro che quella testa di cazzo ha fatto cadere; non ne avra' piu' bisogno.	}{	#	}{		}{	G.Tut_Jack = 10	}{	}{	}{	}{	}{	}{	}{		}
-{	702	}{	Okay.	}{	Okay.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Mi serve.	}
+{	701	}{	Vai a prendere l'attrezzo di ferro che la testa di cazzo ha fatto cadere; non ne avra' bisogno.	}{	Vai e prendi l'attrezzo di ferro che quel testa di cazzo ha fatto cadere; non ne avra' piu' bisogno.	}{	#	}{		}{	G.Tut_Jack = 10	}{	}{	}{	}{	}{	}{	}{		}
+{	702	}{	Okay.	}{	va bene.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Mi serve.	}
 {	703	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	704	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	705	}{	Vai a prenderla.	}{	Vai a prenderla.	}{	#	}{		}{	G.Tut_Jackquip = 1	}{	}{	}{	}{	}{	}{	}{		}
+{	705	}{	Vai a prenderlo.	}{	Vai e prendilo.	}{	#	}{		}{	G.Tut_Jackquip = 1	}{	}{	}{	}{	}{	}{	}{		}
 {	706	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	707	}{	Finiscila di cazzeggiare. Prendi quella cazzo di mazza.	}{	Finiscila di cazzeggiare. Prendi quella cazzo di mazza.	}{	#	}{		}{	G.Tut_Jackquip = 0	}{	}{	}{	}{	}{	}{	}{		}
+{	707	}{	Finiscila di cazzeggiare. Prendi quel cazzo di attrezzo.	}{	Finiscila di giocare. Prendi quel cazzo di attrezzo.	}{	#	}{		}{	G.Tut_Jackquip = 0	}{	}{	}{	}{	}{	}{	}{		}
 {	708	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	709	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	710	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	711	}{	Bene, vai nello scantinato, attraverso la grata. Tieni in mano la mazza. Saro' li' in un minuto.	}{	Bene, vai nello scantinato, attraverso la grata. Tieni in mano la mazza. Saro' li' in un minuto.	}{	#	}{		}{	G.Tut_Jack = 11; pc.SetQuest("Tutorial",12)	}{	}{	}{	}{	}{	}{	}{		}
-{	712	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ti aspettero'.	}
+{	711	}{	Bene, vai nello scantinato, attraverso la grata. Tieni in mano l'attrezzo. Saro' li' in un minuto.	}{	Okay, vai nello scantinato, attraversa la grata. Tieni in mano l'attrezzo. Saro' li' in un minuto.	}{	#	}{		}{	G.Tut_Jack = 11; pc.SetQuest("Tutorial",12)	}{	}{	}{	}{	}{	}{	}{		}
+{	712	}{	Ci vediamo.	}{	Ok, ci vediamo.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non ti aspettero'.	}
 {	713	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	714	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	715	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -718,7 +718,7 @@
 {	718	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	719	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	720	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	721	}{	Vai avanti, stai giu'.	}{	Vai avanti, stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	721	}{	Vai avanti, stai giu'.	}{	Vai avanti, stai bassa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	722	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	723	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	724	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -728,9 +728,9 @@
 {	728	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	729	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	730	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	731	}{	Non sono sicuro di cosa stia succedendo. Sembra che i Sabbat si stiano sparpagliando. Terro' un orecchio sul pavimento. Stai attento ora che procedi... potrebbe scatenarsi l'inferno.	}{	Non sono sicuro di cosa stia succedendo. Sembra che i Sabbat si stiano sparpagliando. Terro' un orecchio sul pavimento. Stai attenta ora che procedi... potrebbe scatenarsi l'inferno.	}{	#	}{		}{	G.Tut_Jack = 12	}{	}{	}{	}{	}{	}{	}{		}
-{	732	}{	Piu' ce ne sono, piu' moriranno.	}{	Piu' ce ne sono, piu' moriranno.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
-{	733	}{	Grande. La mia solita fortuna.	}{	Grande. La mia solita fortuna.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	731	}{	Non sono sicuro di cosa stia succedendo.Sembra che i Sabbat si stiano disperdendo.Terro' l'orecchio all'erta. Stai attento ad andare avanti qui... potrebbe essere un casino totale se stanno rintanati.	}{	Non sono sicuro di cosa sta succedendo. Sembra che i Sabbat si stiano disperdendo.Terro' l'orecchio all'erta. Stai attenta ad andare avanti qui... potrebbe essere un casino totale se stanno rintanati.	}{	#	}{		}{	G.Tut_Jack = 12	}{	}{	}{	}{	}{	}{	}{		}
+{	732	}{	Piu' ce ne sono, meglio e'.	}{	Piu' sono, meglio e'.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Piu' divertimento allora.	}
+{	733	}{	Grande. La mia solita fortuna.	}{	Woaw. La mia solita fortuna.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	734	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	735	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	736	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -738,7 +738,7 @@
 {	738	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	739	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	740	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	741	}{	Vai avanti, stai giu'.	}{	Vai avanti, stai giu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	741	}{	Vai avanti, stai giu'.	}{	Vai avanti, stai bassa.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	742	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	743	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	744	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -748,8 +748,8 @@
 {	748	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	749	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	750	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	751	}{	Penso stiano sgomberando. Non c'e' bisogno di andare ad agitare il nido dei calabroni finche' non sappiamo cosa ci aspetta. Vai da questa parte arriverai ad un ascensore.	}{	Penso stiano sgomberando. Non c'e' bisogno di andare ad agitare il nido dei calabroni finche' non sappiamo cosa ci aspetta. Vai da questa parte arriverai ad un ascensore.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	752	}{	Ci incontreremo li'.	}{	Ci incontreremo li'.	}{	761	}{		}{		}{	}{	}{	}{	}{	}{	}{	Al prossimo incontro all'ascensore.	}
+{	751	}{	Penso che stiano sloggiando.Non c'e' bisogno di agitare il nido dei calabroni finche' non conosciamo lo spartito, pero'. Passa di qui...arriverai a un ascensore lungo la strada.	}{	Penso che stiano sloggiando. Non c'e' bisogno di agitare il nido delle vespe finche' non conosciamo lo spartito, pero'. Passa da questa parte...arriverai a un ascensore lungo la strada.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	752	}{	Ci incontreremo li'.	}{	Ci rivedremo li'.	}{	761	}{		}{		}{	}{	}{	}{	}{	}{	}{	Al prossimo incontro all'ascensore.	}
 {	753	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	754	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	755	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -758,9 +758,9 @@
 {	758	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	759	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	760	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	761	}{	Ci vediamo li'. Non farti prendere.	}{	Ci vediamo li'. Non farti prendere.	}{	#	}{		}{	G.Tut_Jack = 13; pc.SetQuest("Tutorial",13)	}{	}{	}{	}{	}{	}{	}{		}
-{	762	}{	Nessun problema.	}{	Nessun problema.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo compito.	}
-{	763	}{	Se non sono li' fra 10 minuti, chiama il presidente.	}{	Se non sono li' fra 10 minuti, chiama il presidente.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	761	}{	Ci vediamo li'. Non lasciare che ti prendano.	}{	Ci incontriamo li'. Non farti prendere.	}{	#	}{		}{	G.Tut_Jack = 13; pc.SetQuest("Tutorial",13)	}{	}{	}{	}{	}{	}{	}{		}
+{	762	}{	Nessun problema.	}{	Non ho problemi.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' la pesca.	}
+{	763	}{	Se non sono li' fra 10 minuti, chiama il presidente.	}{	Se non staro' li' fra 10 minuti, allora chiama il presidente.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	764	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	765	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	766	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -768,8 +768,8 @@
 {	768	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	769	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	770	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	771	}{	Fottuti umani. Stronzi che "proteggono la loro erba". Ah amico, credo che i Sabbat stiano venendo proprio in questa direzione.	}{	Fottuti umani. Stronzi che "proteggono la loro erba". Ah tesoro, credo che i Sabbat stiano venendo proprio in questa direzione.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	772	}{	Quindi cosa facciamo?	}{	Quindi cosa facciamo?	}{	781	}{		}{		}{	}{	}{	}{	}{	}{	}{	Quindi cosa facciamo?	}
+{	771	}{	[lente risate crescenti. Incredulo:]Umani del cazzo. Criminali "protettori del loro territorio".Ah amico, pensavo che i Sabbat arrivassero quassu'. ecco... sono i fottuti locali del posto che stanno portando uno nella foresta.	}{	Umani del cazzo. Criminali "protettori del loro territorio".Ah amica, pensavo che i Sabbat arrivassero quassu'. ecco... sono i fottuti locali del posto che stanno portando qualcuno nella foresta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	772	}{	Quindi cosa facciamo?	}{	Allora cosa facciamo?	}{	781	}{		}{		}{	}{	}{	}{	}{	}{	}{	Possiamo leccare questi locali?	}
 {	773	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	774	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	775	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -778,8 +778,8 @@
 {	778	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	779	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	780	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	781	}{	Ah, hanno molto probabilmente visto troppo. Ecco... prendi questa pistola del cazzo, ci sono un paio di colpi.	}{	Ah, hanno molto probabilmente visto troppo. Ecco... prendi questa pistola del cazzo, ci sono un paio di colpi.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	782	}{	Grazie.	}{	Grazie.	}{	791	}{		}{	pc.GiveItem("item_w_thirtyeight")	}{	}{	}{	}{	}{	}{	}{	Questi regali del cazzo sono indubbiamente letali.	}
+{	781	}{	Ah, probabilmente hanno visto troppo. Ecco... prendi questa trentotto.Una sparapiselli del cazzo, ma pochi colpi e abbattera' un umano.	}{	Ah, e' probabile che hanno visto troppo. Ecco... prendi questa trentotto. Una sparapiselli del cazzo, ma pochi colpi e abbattera' un umano.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	782	}{	Grazie.	}{	Oh, grazie.	}{	791	}{		}{	pc.GiveItem("item_w_thirtyeight")	}{	}{	}{	}{	}{	}{	}{	Questo tipo di piselli sono senza dubbio letali.	}
 {	783	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	784	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	785	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -788,8 +788,8 @@
 {	788	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	789	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	790	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	791	}{	Beh, la rivoglio indietro quindi non morire e non perderla. Non uso molto le armi. Sono rumorose, goffe, praticamente inutili contro i vampiri. Ma un Fratello deve tenersi aggiornato con i tempi, e ai giorni nostri, ad L.A., significa avere una pistola.	}{	Beh, la rivoglio indietro quindi non morire e non perderla. Non uso molto le armi. Sono rumorose, goffe, praticamente inutili contro i vampiri. Ma un Fratello deve tenersi aggiornato con i tempi, e ai giorni nostri, ad L.A., significa avere una pistola.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	792	}{	Inutile contro i vampiri?	}{	Inutile contro i vampiri?	}{	801	}{		}{		}{	}{	}{	}{	}{	}{	}{	Le armi da fuoco sembrano inutili.	}
+{	791	}{	Bene, la rivorro' indietro, quindi non morire e non perderla. Non uso molto le armi da fuoco. Sono rumorose, sono fatte male, praticamente inutili contro i vampiri. Ma comunque, un Fratello deve stare al passo con i tempi, e nella moderna Los Angeles, questo significa essere armati.	}{	Okay, la rivorro' indietro, quindi non farti ammazzare e non perderla. Non uso molto le armi da fuoco. Sono rumorose, sono scomode, praticamente inutili contro i vampiri. Ma comunque, un Fratello deve stare al passo con i tempi, e nella moderna Los Angeles, questo significa essere armati.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	792	}{	Inutile contro i vampiri?	}{	Non servono contro i vampiri?	}{	801	}{		}{		}{	}{	}{	}{	}{	}{	}{	Le armi da fuoco sembrano schiocche e fragili.	}
 {	793	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	794	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	795	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -798,8 +798,8 @@
 {	798	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	799	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	800	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	801	}{	Beh, si, alcune sono piu' letali di altre, naturalmente. Stai attento ai fucili a pompa - ouch - quelle cose possono farti male, davvero.	}{	Beh, si, alcune sono piu' letali di altre, naturalmente. Stai attenta ai fucili a pompa - ouch - quelle cose possono farti male, davvero.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	802	}{	Ti ascolto.	}{	Ti ascolto.	}{	811	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' si di bypassare qualunque proiettile.	}
+{	801	}{	Beh, si, alcune sono piu' letali di altre, naturalmente. Fai attenzione a quei fucili  a pompa - Ahia - quelle cose possono fulminarti,Te lo dico.	}{	Certo, alcune sono piu' letali di altre, naturalmente. Fai attenzione a quei fucili  a pallettoni - Ahia - quelle cose possono fulminarti,Te lo dico.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	802	}{	Ti ascolto.	}{	Ti sento.	}{	811	}{		}{		}{	}{	}{	}{	}{	}{	}{	Mi assicurero' di evitare qualsiasi bastone-di-fuoco.	}
 {	803	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	804	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	805	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -808,8 +808,8 @@
 {	808	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	809	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	810	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	811	}{	Vai e uccidi i rimanenti. Non farli scappare via. Faro' si che non ci sia nessuno fuori.	}{	Vai e uccidi i rimanenti. Non farli scappare via. Faro' si che non ci sia nessuno fuori.	}{	#	}{		}{	G.Tut_Jack = 14; pc.SetQuest("Tutorial",14)	}{	}{	}{	}{	}{	}{	}{		}
-{	812	}{	Okay.	}{	Okay.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vado.	}
+{	811	}{	Vai su e ripulisci cio' che e' rimasto di loro. Non possiamo farli andare in giro a mettere in moto la bocca su niente di tutto questo. Mi assicurero' che non ci siano ritardatari in giro qui fuori.	}{	Vai sopra e fai pulizia di cio' che e' rimasto di loro. Non possiamo farli andare in giro a mettere in moto la bocca su niente di tutto questo. Mi assicurero' che non ci siano ritardatari in giro qui fuori.	}{	#	}{		}{	G.Tut_Jack = 14; pc.SetQuest("Tutorial",14)	}{	}{	}{	}{	}{	}{	}{		}
+{	812	}{	Okay.	}{	Va bene.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Faro' questo gesto.	}
 {	813	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	814	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	815	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -818,9 +818,9 @@
 {	818	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	819	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	820	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	821	}{	Vai. Ci vedremo li'.	}{	Vai. Ci vedremo li'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	821	}{	Vai su'. Ci vedremo li'.	}{	Vai sopra. Ci vediamo li'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	822	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	pc.HasItem("item_w_thirtyeight") and pc.AmmoCount("item_w_thirtyeight") == 0	}{	pc.GiveAmmo("item_w_thirtyeight", 6)	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	823	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	not pc.HasItem("item_w_thirtyeight") or pc.AmmoCount("item_w_thirtyeight") > 0	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	823	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	not pc.HasItem("item_w_thirtyeight") or pc.AmmoCount("item_w_thirtyeight") > 0	}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	824	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	825	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	826	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -828,9 +828,9 @@
 {	828	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	829	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	830	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	831	}{	E questo e' tutto. Ora e' tutto finito. Sono tutti ritornati nei loro angoli della citta' per la notte.	}{	E questo e' tutto. Ora e' tutto finito. Sono tutti ritornati nei loro angoli della citta' per la notte.	}{	#	}{		}{	pc.SetQuest("Tutorial",2)	}{	}{	}{	}{	}{	}{	}{		}
-{	832	}{	Questo e' tutto? E' tutto finito?	}{	Questo e' tutto? E' tutto finito?	}{	841	}{		G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{ }{	Sicuramente questo dramma continua.	}
-{	833	}{	Questo e' tutto? E' tutto finito?	}{	Questo e' tutto? E' tutto finito?	}{	841	}{		G.Patch_Plus == 1	}{	pc.AwardExperience("Tutor01")}{	}{	}{	}{	}{	}{ }{	Sicuramente questo dramma continua.	}
+{	831	}{	Questo e' tutto, ragazzo. Proprio cosi' ed e' tutto finito. Tutti si rintanano nei loro angoli della citta' per la notte.	}{	Questo e' quanto, ragazza. Proprio cosi' ed e' tutto finito. Tutti si rintanano nei loro angoli della citta' per la notte.	}{	#	}{		}{	pc.SetQuest("Tutorial",2)	}{	}{	}{	}{	}{	}{	}{		}
+{	832	}{	Questo e' tutto? E' tutto finito?	}{	Quindi questo e' tutto? E' finisce cosi'?	}{	841	}{	G.Patch_Plus == 0	}{		}{	}{	}{	}{	}{	}{	}{	Sicuramente, questo dramma di sangue continuera'.	}
+{	833	}{	Questo e' tutto? E' tutto finito?	}{	Quindi questo e' tutto? E' finisce cosi'?	}{	841	}{	G.Patch_Plus == 1	}{	pc.AwardExperience("Tutor01")	}{	}{	}{	}{	}{	}{	}{	Sicuramente, questo dramma di sangue continuera'.	}
 {	834	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	835	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	836	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -838,9 +838,9 @@
 {	838	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	839	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	840	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	841	}{	Fino alla prossima notte, quando la Camarilla trova nuovi modi per rispedirli indietro. Evita, colpisci..gira tutto cosi'.	}{	Fino alla prossima notte, quando la Camarilla trova nuovi modi per rispedirli indietro. Evita, colpisci..gira tutto cosi'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	842	}{	Ed e' tutto normale?	}{	Ed e' tutto normale?	}{	851	}{		}{		}{	}{	}{	}{	}{	}{	}{	Queste sono le notti di battaglie di questo vecchio gioco?	}
-{	843	}{	Mi sta venendo mal di testa.	}{	Mi sta venendo mal di testa.	}{	851	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	841	}{	Fino alla prossima notte, quando la Camarilla trovera' un modo per contrattaccare. Para, schiva, rotea e tutto il resto. E cosi' via, e cosi' via, e cosi' via...	}{	Certo, ricomincia la prossima notte, quando la Camarilla trovera' un modo per contrattaccare. Para, schiva, rotea e tutto il resto. E cosi' via, e cosi' via, e cosi' via...	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	842	}{	Quindi questo e' normale?	}{	Cosi' questo e' normale?	}{	851	}{		}{		}{	}{	}{	}{	}{	}{	}{	Queste sono le battaglie notturne di questo gioco antico?	}
+{	843	}{	Avevo gia' mal di testa.	}{	Ho gia' mal di testa.	}{	851	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	844	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	845	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	846	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -848,7 +848,7 @@
 {	848	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	849	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	850	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	851	}{	Beh, ad essere onesto, sei venuto in un, beh, in un momento interessante, fattelo dire. La Camarilla, i Sabbat... bene, in LA questi sono i nuovi bambini sul palco Ci sono gia' stati un sacco di Fratelli che hanno fatto i loro interessi in California.	}{	Beh, ad essere onesto, sei venuta in un, beh, in un momento interessante, fattelo dire. La Camarilla, i Sabbat... bene, in LA questi sono i nuovi bambini sul palco. Ci sono gia' stati un sacco di Fratelli che hanno fatto i loro interessi in California.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	851	}{	Bene, ad essere onesti, sei arrivato in un, beh, momento interessante, diciamo. La Camarilla, i Sabbat...beh, a Los Angeles questi sono i nuovi ragazzi nei paraggi. Ci sono gia' molti dei Fratelli che avevano le mani in pasta in California molto prima di loro.	}{	Okay, ad essere onesti, sei arrivata in un, beh, momento interessante, diciamo. La Camarilla, i Sabbat...beh, a Los Angeles questi sono i nuovi ragazzi nei paraggi. Ci sono gia' molti dei Fratelli che avevano le mani in pasta in California molto prima di loro.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	852	}{	(Auto-Link)	}{	(Auto-Link)	}{	861	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	853	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	854	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -858,9 +858,9 @@
 {	858	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	859	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	860	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	861	}{	Ora, ogni anziano Fratello rivale gironzola per la citta'. C'e' un sacco di tensione. Un sacco di paura. Un sacco di nervosismo, i predatori cercano il loro piccolo pezzo di eternita'.	}{	Ora, ogni anziano Fratello rivale gironzola per la citta'. C'e' un sacco di tensione. Un sacco di paura. Un sacco di nervosismo, i predatori cercano il loro piccolo pezzo di eternita'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	862	}{	Hmmm....	}{	Hmmm....	}{	871	}{		}{		}{	}{	}{	}{	}{	}{	}{	L'inferno e' la mia eterna pazzia.	}
-{	863	}{	Mi stai perdendo qui, Jack.	}{	Mi stai perdendo qui, Jack.	}{	871	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	861	}{	Ora, abbiamo tutte le antiche rivalita' tra Fratelli che si stanno mettendo in atto in tutta la citta'. C'e' molta tensione la' fuori. [cupo]Tanta paura.Tanto nervosismo, predatori molto irrequieti che si aggrappano ai loro piccoli pezzi di eternita'.	}{	Adesso, abbiamo tutte le antiche rivalita' tra Fratelli che si stanno mettendo in atto in tutta la citta'. C'e' molta tensione la' fuori. Tanta paura., nervi a fior di pelle, predatori molto irrequieti che si aggrappano ai loro piccoli pezzi di eternita'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	862	}{	Hmmm....	}{	Hmmmmm....	}{	871	}{		}{		}{	}{	}{	}{	}{	}{	}{	L'inferno e' la mia eterna pazzia.	}
+{	863	}{	Mi stai perdendo qui, Jack.	}{	Mi sono persa qui, Jack.	}{	871	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	864	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	865	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	866	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -868,19 +868,19 @@
 {	868	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	869	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	870	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	871	}{	[Brontola]Oh, ragazzo. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da solo.	}{	[Brontola]Oh, ragazza. Bene, penso che ti stiano cercando fuori; hai un taxi da prendere. Speravo di poterti dire di piu' ma... ah al diavolo, scopritelo da sola.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	871	}{	[brontolante, irritato]Oh ragazzo. Beh, penso che fuori ti stiano cercando; immagino tu abbia un taxi da prendere. Speravo di aggiornarti un po' di piu' ma...al diavolo, capirai tutto.	}{	Oh ragazza. Beh, penso che li' fuori ti stiano attendendo; immagino tu abbia un taxi da prendere. Speravo di aggiornarti un po' di piu' ma...al diavolo, capirai tutto.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	872	}{	(Auto-Link)	}{	(Auto-Link)	}{	881	}{	G.Patch_Plus == 0 and pc.HasItem("item_w_thirtyeight")	}{	pc.RemoveItem("item_w_thirtyeight")	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
-{	873	}{	Certo, ed ecco la tua pistola.	}{	Certo, ed ecco la tua pistola.	}{	881	}{	G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight")	}{	pc.RemoveItem("item_w_thirtyeight"); G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Lo faremo, ora riprenditi la tua spara-piselli.	}
-{	874	}{	Lo faro', ma vorrei tenere la pistola.	}{	Lo faro', ma vorrei tenere la pistola.	}{	881	}{	Persuasion 1 & (G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight"))	}{	}{	}{	}{	}{	}{	}{	}{	Si', si', si'. Ma ci servira' la spara-piselli.	}
-{	875	}{	(Auto-Link)	}{	(Auto-Link)	}{	881	}{	not pc.HasItem("item_w_thirtyeight")	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
+{	873	}{	Certo, ed ecco la tua pistola.	}{	Va bene, ed eccoti  la  pistola.	}{	881	}{	G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight")	}{	pc.RemoveItem("item_w_thirtyeight"); G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Lo faremo, ora riprenditi la tua spara-piselli.	}
+{	874	}{	Lo faro', ma vorrei tenere la pistola.	}{	Ok, lo faro', ma vorrei tanto tenere la pistola.	}{	881	}{	Persuasion 1 & (G.Patch_Plus == 1 and pc.HasItem("item_w_thirtyeight"))	}{		}{	}{	}{	}{	}{	}{	}{	Si', si', si'. Ma ci servira' la spara-piselli.	}
+{	875	}{	(Auto-Link)	}{	(Auto-Link)	}{	881	}{	not pc.HasItem("item_w_thirtyeight")	}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	876	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	877	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	878	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	879	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	880	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	881	}{	Se ce la fai a tornare indietro, fermata al Last Round - e' il bar a downtown - ti diro' di piu' sulla politica. Ora anche questa roba puo' ucciderti. Buona fortuna.	}{	Se ce la fai a tornare indietro, fermata al Last Round - e' il bar a downtown - ti diro' di piu' sulla politica. Ora anche questa roba puo' ucciderti. Buona fortuna.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	882	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Patch_Plus == 0	}{	G.Tut_Jack = 15	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
-{	883	}{	Ci vediamo li' dopo aver dormito bene.	}{	Ci vediamo li' dopo aver dormito bene.	}{	0	}{	G.Patch_Plus == 1	}{	G.Tut_Jack = 15	}{	}{	}{	}{	}{	}{	}{	Saremo li' dopo aver chiuso gli occhi durante il giorno.	}
+{	881	}{	Se torni indietro, fermati al Last Round - e' quel bar in centro qui - Ti aggiornero' sulla politica.[ridacchia]Ora quella e' la roba che ti uccidera'.[risata] Buona fortuna.	}{	Se ripassi da queste parti, fermati al Last Round - e' quel bar in centro qui - Ti aggiornero' sulla politica. Ora quella, si' che e' roba che ti uccidera'. Buona fortuna.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	882	}{	Ci vediamo li'.	}{	Ci vedremo li'.	}{	0	}{	G.Patch_Plus == 0	}{	G.Tut_Jack = 15	}{	}{	}{	}{	}{	}{	}{	Saremo li' presto.	}
+{	883	}{	Ci vediamo li' dopo che Mi faccio una giornata di sonno.	}{	Ci vedremo li' dopo che Mi faro' una giornata di sonno.	}{	0	}{	G.Patch_Plus == 1	}{	G.Tut_Jack = 15	}{	}{	}{	}{	}{	}{	}{	Saremo li' dopo aver chiuso gli occhi durante il giorno.	}
 {	884	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	885	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	886	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -888,8 +888,8 @@
 {	888	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	889	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	890	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	891	}{	Tsk tsk tsk. I giovani d'oggi. Bah, il funerale e' il tuo, ragazzo. Ma tieni un paio di cose in mente prima di andare. Queste lezioni non sono solo per il tuo beneficio, quindi ascolta.	}{	Tsk tsk tsk. I giovani d'oggi. Bah, il funerale e' il tuo, ragazza. Ma tieni un paio di cose in mente prima di andare. Queste lezioni non sono solo per il tuo beneficio, quindi ascolta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	892	}{	Okay.	}{	Okay.	}{	901	}{		}{		}{	}{	}{	}{	}{	}{	}{	Le mie orecchie sono tutte tue.	}
+{	891	}{	Tsk tsk tsk. I giovani d'oggi. Bene, il tuo funerale, ragazzo. Ma tieni a mente un paio di cose prima di andare. Ora, queste lezioni non sono solo a tuo vantaggio, quindi ascolta.	}{	Tsk tsk tsk. Le ragazze d'oggi. Bene, il tuo funerale, ragazza. Ma tieni presente un paio di cose prima di andare. Ora, queste lezioni non sono solo a tuo vantaggio, quindi ascolta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	892	}{	Okay.	}{	Va bene.	}{	901	}{		}{		}{	}{	}{	}{	}{	}{	}{	Le mie orecchie sono tutte tue.	}
 {	893	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	894	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	895	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -898,39 +898,39 @@
 {	898	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	899	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	900	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	901	}{	Primo, la Masquerade: sentirai un sacco di cose su di lei, quindi te lo spieghero' molto brevemente. Sicuro, sei un vampiro. Grande. Ma tienitelo per te, ok? E' piu' facile cosi', fidati. Quella e' la Masquerade, tenere segreti i segreti dei vampiri. Facile, no? Facile un cazzo.	}{	Primo, la Masquerade: sentirai un sacco di cose su di lei, quindi te lo spieghero' molto brevemente. Sicuro, sei un vampiro. Grande. Ma tienitelo per te, ok? E' piu' facile cosi', fidati. Quella e' la Masquerade, tenere segreti i segreti dei vampiri. Facile, no? Facile un cazzo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	901	}{	Primo, la Masquerade: ne sentirai parlare molto, quindi lascia che ti riassuma molto velocemente.Certo, sei un vampiro. Grande. Tienilo per te, ok? e' piu' facile cosi', fidati. Questa e' la Masquerade... mantenere segreti i segreti dei vampiri. Facile, vero? liscio e tranquillo.	}{	Per prima cosa, la Masquerade: ne sentirai parlare molto, quindi lascia che ti riassuma tutto in modo veloce. Certo, sei una vampira. Woaw. Tienilo per te stessa, ok? e' piu' facile cosi', fidati. Questa e' la Masquerade... mantieni segreti i segreti dei vampiri. Facile, vero? liscio come l'olio.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	902	}{	(Auto-Link)	}{	(Auto-Link)	}{	906	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	903	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	904	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	905	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	906	}{	Ora, se violi la Masquerade, se vai in giro azzannando umani o qualunque altra cosa, ci rendi le cose piu' difficili. Allora tutti saremmo scocciati e ti verremo a cercare, e finirai come il tuo sire, acciuffato e decapitato. Comprendi, ragazzo?	}{	Ora, se violi la Masquerade, se vai in giro azzannando umani o qualunque altra cosa, ci rendi le cose piu' difficili. Allora tutti saremmo scocciati e ti verremo a cercare, e finirai come il tuo sire, acciuffato e decapitato. Comprendi, ragazza?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	907	}{	Sto ascoltando.	}{	Sto ascoltando.	}{	911	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dipende da quale della mia personalita' stai parlando.	}
+{	906	}{	Ora, se violi la Masquerade, se vai in giro a spaventare gli umani o altro, rendi le cose piu' difficili per tutti noi. Cosi' tutti ci incazziamo e ti inseguiamo, e finisci come il tuo sire li', impalato e cotto. Comprende, ragazzo?	}{	Adesso, se trasgredisci la Masquerade, se vai in giro a spaventare gli umani o altro, rendi le cose piu' difficili per tutti noi. Cosi' tutti ci incazziamo e ti inseguiamo, e finisci come il tuo sire li', impalato e arrostito. Comprende, ragazza?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	907	}{	Sto ascoltando.	}{	Ti ascolto.	}{	911	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dipende a quale delle mie entita' stai parlando.	}
 {	908	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	909	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	910	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	911	}{	D'accordo. Avanti: Umanita'. Essere un vampiro non e' la fine della strada. Pensi che la vita fosse difficile, ma aspetta. Ora sei una mezza-Bestia, mezzo-uomo e non e' facile conviverci. Combatterai quella Bestia per il resto dei tuoi giorni. Ogni volta che ti arrendi, ogni volta che uccidi un civile innocente, nutri la Bestia sempre di piu'.	}{	D'accordo. Avanti: Umanita'. Essere un vampiro non e' la fine della strada. Pensi che la vita fosse difficile, ma aspetta. Ora sei una mezza-Bestia, mezzo-uomo e non e' facile conviverci. Combatterai quella Bestia per il resto dei tuoi giorni. Ogni volta che ti arrendi, ogni volta che uccidi un civile innocente, nutri la Bestia sempre di piu'.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	911	}{	Esatto. In seguito: Umanita'. Essere un vampiro non e' la fine del percorso. Pensi che la vita sia stata dura, tu aspetta. Ora sei meta' bestia e meta' uomo e non e' abbastanza calzante. Combatterai quella Bestia per il resto dei tuoi giorni. Ogni volta che ti arrendi, ogni volta che uccidi un innocente, nutri la Bestia un po' di piu'', e crescera' un po' piu' forte.	}{	Giusto. In seguito: Umanita'. Essere una vampira non e' la fine del percorso. Pensi che la vita sia stata dura con te?, Tu aspetta. Ora sei meta' bestia e meta' donna e non e' abbastanza calzante. Combatterai quella Bestia per il resto dei tuoi giorni. Ogni volta che ti arrendi, ogni volta che uccidi un innocente, nutri la Bestia un po' di piu'', che crescera' un po' piu' forte.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	912	}{	(Auto-Link)	}{	(Auto-Link)	}{	916	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	913	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	914	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	915	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	916	}{	Dopo un po', la Bestia puo' prendere il controllo su di te e diventerai pazzo e dovrai essere sedato come un cane rabbioso. Quindi, combattila - non essere un maniaco omicida. Questo aiutera' anche la Masquerade. Hai visto come tutto combacia? Non e' bello?	}{	Dopo un po', la Bestia puo' prendere il controllo su di te e diventerai pazza e dovrai essere sedata come un cane rabbioso. Quindi, combattila - non essere una maniaca omicida. Questo aiutera' anche la Masquerade. Hai visto come tutto combacia? Non e' bello?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	917	}{	Si'.	}{	Si'.	}{	921	}{		}{		}{	}{	}{	}{	}{	}{	}{	Bello come un cadavere ben conservato.	}
+{	916	}{	Dopo un po', la Bestia puo' prendere il sopravvento e tu impazzirai e dovrai essere abbattuto come un cane rabbioso. Quindi, sai, combattilo, non essere un maniaco omicida. Questo aiutera' anche con la Masquerade. Vedi come tutto combacia? Non e' cosi' bello?	}{	Con il tempo, la Bestia puo' prendere il sopravvento e tu impazzirai e dovrai essere abbattuta come una cagna rabbiosa. Quindi, sai, combattilo, non essere una maniaca omicida. Questo aiutera' anche con la Masquerade. Vedi come tutto combacia? Non e' un cosa buona ?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	917	}{	Si'.	}{	Certo.	}{	921	}{		}{		}{	}{	}{	}{	}{	}{	}{	Buono come un cadavere ben conservato.	}
 {	918	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	919	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	920	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	921	}{	Ora, detto cio', devi ancora tenere il tuo culo al sicuro. Per quello, dovrai nutrirti. Come ti e' sembrato il sangue? Immagino che tu ti senta assetato anche ora, vero? Prendilo dove puoi, ricorda le prime due lezioni: non lasciare che nessuno ti veda... se ne accorgeranno e causeranno la rottura della Masquerade e cio' portera' l'arrivo di qualche vampiro piu' grande e cattivo.	}{	Ora, detto cio', devi ancora tenere il tuo culo al sicuro. Per quello, dovrai nutrirti. Come ti e' sembrato il sangue? Immagino che tu ti senta assetata anche ora, vero? Prendilo dove puoi, ricorda le prime due lezioni: non lasciare che nessuno ti veda... se ne accorgeranno e causeranno la rottura della Masquerade e cio' portera' l'arrivo di qualche vampiro piu' grande e cattivo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	921	}{	Ora, dopo tutto quello detto, devi ancora tenerti in vita.Per questo, dovrai nutrirti. Come ti suona un po' di sangue, ragazzo?Immagino che tu stia sentendo quella sete proprio ora, eh? Prendilo dove puoi, come puoi, ricorda solo le prime due lezioni: non permettere a nessun altro di vederti mentre ti nutri...si rivolteranno facendoti rompere la Masquerade e faranno venire un vampiro piu' grande e piu' cattivo a spaccarti il culo.	}{	Adesso, dopo tutto quello che ti ho detto, devi ancora tenerti in vita. Per questo, dovrai nutrirti. Come ti suona un po' di sangue, ragazza? Immagino che tu stia sentendo quella sete proprio ora, eh? Prendilo dove puoi, come puoi, ricorda solo le prime due lezioni: non permettere a nessun altro di vederti mentre ti nutri...si rivolteranno contro facendoti rompere la Masquerade e faranno venire un vampiro piu' grande e piu' cattivo a pestarti il culo per bene.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	922	}{	(Auto-Link)	}{	(Auto-Link)	}{	926	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
 {	923	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	924	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	925	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	926	}{	Quindi, bevi ma non prosciugare la vittima. Vedi, quello e' l'arrendersi alla Bestia. Lo fai, perderai un po' di Umanita', e perderai il controllo. Ed eccoci qui di nuovo, e' tutto collegato. Bee-llii-ssimo. Pensi di farcela?	}{	Quindi, bevi ma non prosciugare la vittima. Vedi, quello e' l'arrendersi alla Bestia. Lo fai, perderai un po' di Umanita', e perderai il controllo. Ed eccoci qui di nuovo, e' tutto collegato. Bee-llii-ssimo. Pensi di farcela?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	927	}{	Penso di si'.	}{	Penso di si'.	}{	931	}{		}{		}{	}{	}{	}{	}{	}{	}{	Lascero' un po' di succo nella frutta.	}
+{	926	}{	Inoltre, bevi a fondo ma non prosciugarli. Vedi, questo e' cedere alla Bestia. Facendo cosi', perdi la presa sulla tua umanita', e perdi il controllo. Ci risiamo, tutto combacia. Ben- issi-mo. Approvi?	}{	Innanzi tutto, bevi a fondo ma non prosciugarli. Vedi, questo e' cedere alla Bestia. Comportandoti  cosi', perdi la presa sulla tua umanita', e perdi il controllo. Ci risiamo, tutto combacia. Ben- issi-mo. Approvi?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	927	}{	Penso di si'.	}{	Certo che si'.	}{	931	}{		}{		}{	}{	}{	}{	}{	}{	}{	Lascero' un po' di succo nella frutta.	}
 {	928	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	929	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	930	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	931	}{	Giusto. Ora, vai via come un bravo soldato. Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuto, ragazzo!	}{	Giusto. Ora, vai via come un bravo soldato. Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuta, ragazza!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	932	}{	Ci vediamo.	}{	Ci vediamo.	}{	0	}{	G.Patch_Plus == 0	}{	LeaveTutorialShort()	}{	}{	}{	}{	}{	}{	}{	La mia ombre oscura le altre. Addio.	}
-{	933	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' buffo. Non sono piu' qui perche' ho bisogno di chiudere gli occhi quando il sole splende.	}
+{	931	}{	Giusto. Ora, sparisci come un bravo soldatino. Se ce la fai, vieni in centro al Last Round e ti diro' quanto e' incasinata tutta questa situazione. Fino ad allora,[ridacchia]buona fortuna! O forse dovrei solo dire, uh... piacere di conoscerti, ragazzino![ride alla sua battuta]	}{	Esatto. Adesso, sparisci come una brava bambolina. Se ce la fai, vieni in centro al Last Round e ti diro' quanto e' incasinata tutta questa situazione. Fino ad allora, buona fortuna! O forse dovrei solo dire, uh... piacere di conoscerti, ragazzina!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	932	}{	Ci vediamo.	}{	Ciao ciao.	}{	0	}{	G.Patch_Plus == 0	}{	LeaveTutorialShort()	}{	}{	}{	}{	}{	}{	}{	La mia ombra oscurera' altri domini. Addio.	}
+{	933	}{	Divertente. Dormiro' tutto il giorno e ridero' piu' tardi. Ci vediamo	}{	Che spasso. Libera di dormire tutto il giorno e ridero' piu' tardi. Ciao ciao.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' assurdo. Non rimarro' piu' qui perche' ho bisogno di chiudere gli occhi quando splende il sole.	}
 {	934	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	935	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	936	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -938,7 +938,7 @@
 {	938	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	939	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	940	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	941	}{	Ora non e' una bella cosa? Hey, Messerach, ragazzo, sto parlando a te!	}{	Ora non e' una bella cosa? Hey, Messerach, ragazza, sto parlando a te!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	941	}{	Ora non e' una bella cosa? Hey, Messerach, amico, sto parlando a te!	}{	Adesso non e' una cosa buona? Hey, Messerach, amico, sto parlando a te!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	942	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
 {	943	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	944	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -948,7 +948,7 @@
 {	948	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	949	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	950	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	951	}{	Non parli molto, vero?	}{	Non parli molto, vero?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	951	}{	Non parli molto, vero?	}{	Non sei molto loquace, vero?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	952	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	953	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	954	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -958,7 +958,7 @@
 {	958	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	959	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	960	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	961	}{	Hey, e' accaduto proprio come ti ho detto. Non sanno neanche cosa li ha colpiti.	}{	Hey, e' accaduto proprio come ti ho detto. Non sanno neanche cosa li ha colpiti.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	961	}{	Ehi, e' successo proprio come hai detto. [Jack ride]Non hanno nemmeno mai saputo cosa li ha colpiti.	}{	Ehi, e' successo proprio come avevi detto. Non hanno nemmeno mai immaginato cosa li ha colpiti.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	962	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	963	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	964	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -968,7 +968,7 @@
 {	968	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	969	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	970	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	971	}{	Porta quel sarcofago fuori di qui e si uccideranno a vicenda per provare a prenderlo.	}{	Porta quel sarcofago fuori di qui e si uccideranno a vicenda per provare a prenderlo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	971	}{	Getta quel sarcofago la' fuori e si faranno a pezzi a vicenda cercando di arrivare ad esso	}{	Getta quel sarcofago la' fuori e si faranno a pezzi a vicenda cercando di raggiungerlo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	972	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	973	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	974	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -978,7 +978,7 @@
 {	978	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	979	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	980	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	981	}{	Non prendertela troppo. Ah beh, non puoi chiamarli tutti.	}{	Non prendertela troppo. Ah beh, non puoi chiamarli tutti.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	981	}{	Peccato per il ragazzo. Ah beh, non puoi chiamarli tutti.	}{	Che peccato per il ragazzo. Ah beh, non si possono chiamare tutti.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	982	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	983	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	984	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -988,7 +988,7 @@
 {	988	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	989	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	990	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	991	}{	E il ragazzo... ha gia' risolto, huh?	}{	E la ragazza... ha gia' risolto, huh?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	991	}{	E il ragazzo... ha funzionato bene, eh?	}{	Il ragazzo?... ha funzionato allora, eh?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	992	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	993	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	994	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -998,39 +998,39 @@
 {	998	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	999	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1000	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1001	}{	Sarei scocciato se non fosse cosi' bello guardarti mentre ci provi con tutto te stesso; e' assolutamente magnifico!	}{	Sarei scocciato se non fosse cosi' bello guardarti mentre ci provi con tutta te stessa; e' assolutamente magnifico!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1002	}{	Che cosa intendi dire? Come ho ottenuto queste statistiche incredibili?	}{	Che cosa intendi dire? Come ho ottenuto queste statistiche incredibili?	}{	1006	}{	}{	}{	}{	}{	}{	}{	}{	}{	Malkav mi ha dato le mie super statistiche!	}
-{	1003	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	1006	}{	}{	}{	}{	}{	}{	}{	}{	}{	Un debole come me non puo' completare il gioco.	}
+{	1001	}{	Sarei incazzato se non fosse cosi' affascinante. Guardarti che ci provi cosi' tanto; e' assolutamente apprezzabile!	}{	Sarei arrabbiato se non fosse cosi' ammirevole. Guardarti che ci provi cosi' con tutta te stessa; e' assolutamente prezioso!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1002	}{	Che cosa intendi dire? Come ho ottenuto queste statistiche incredibili?	}{	Cosa intenderesti dire? Come ho ottenuto queste statistiche incredibili?	}{	1006	}{		}{		}{	}{	}{	}{	}{	}{	}{	Malkav mi ha dato le mie super statistiche!	}
+{	1003	}{	Sono troppo debole per giocare la partita come doveva essere giocata.	}{	Sono troppo deboluccia per giocare la partita come doveva essere giocata.	}{	1006	}{		}{		}{	}{	}{	}{	}{	}{	}{	Un debole come me non puo' completare il gioco.	}
 {	1004	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1005	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1006	}{	Si'. Dovunque ti sia divertito, possiamo andare avanti.	}{	Si'. Dovunque ti sia divertita, possiamo andare avanti.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1007	}{	Mi dispiace, creero' un nuovo personaggio.	}{	Mi dispiace, creero' un nuovo personaggio.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	Sono persa per sempre a contemplare l'infinito.	}
-{	1008	}{	Uso un mod o qualcosa di simile, per favore lasciatemi continuare.	}{	Uso un mod o qualcosa di simile, per favore lasciatemi continuare.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Modificato ho le budella del gioco, per favore fatemi passare.	}
+{	1006	}{	Si'. Quando hai finito, biscottino, possiamo continuare questo show.	}{	Certo. Quando hai finito, dolcezza, possiamo proseguire questo spettacolo.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1007	}{	Mi dispiace, creero' un nuovo personaggio.	}{	Me ne dolgo, creero' un nuovo personaggio.	}{	1001	}{		}{		}{	}{	}{	}{	}{	}{	}{	Sono perso per sempre a contemplare l'infinito.	}
+{	1008	}{	Uso un mod o qualcosa di simile, per favore lasciatemi continuare.	}{	Sto usando una specie di mod o qualcosa di simile, per favore permettetemi di continuare.	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ho modificato, le viscere del gioco, per favore fatemi passare.	}
 {	1009	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1010	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1011	}{	[sorpreso, ride]Cosa? Oh, amico. E saresti anche tu un fottuto Malkavian? Wow, sei davvero nei guai.	}{	[sorpreso, ride]Cosa? Oh, tesoro. E saresti anche tu una fottuta Malkavian? Wow, sei davvero nei guai.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1012	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	Chi e' l'oscuro demone che ho visto prima di me?	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1011	}{	[sorpreso, ride]Che cosa? Oh, amico. E sei anche un maledetto Malkavian? Wow, sei davvero fottuto.	}{	Che cosa? Oh, amica. E sei anche una maledetta Malkavian? Wow, sei davvero fottuta.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1012	}{	Chi e' questo oscuro demone che vedo davanti a me?	}{	Chi sarebbe questo demone oscuro che vedo dinnanzi a me?	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1013	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1014	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegarti tutto, ma il tempo e' uno spreco di tempo - vuoi un aiuto o cosa?   }{	Non preoccuparti, ragazza, ti abituerai. Mi piacerebbe spiegarti tutto, ma il tempo e' uno spreco di tempo, vuoi una mano o no?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1016	}{	Ok. Mi farebbe comodo un po' d'aiuto.   }{	Ok. Mi farebbe comodo un po' d'aiuto.	}{	81	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Mi sottoporro' alla vostra oscura tutela.	}
-{	1017	}{	Non ho molto tempo... dammi solo le basi.	}{	Non ho molto tempo... dammi solo le basi.	}{	891	}{	}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Spiegami le basi.	}
-{	1018	}{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.   }{	Non ho bisogno dell'aiuto di nessuno. Me ne vado.	}{	1023	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida per questo sentiero oscuro. Lasciatemi.	}
+{	1015	}{	Non preoccuparti, ragazzo, ti adatterai. Mi piacerebbe spiegare tutto, ma e' uno spreco di tempo - vuoi un po' di aiuto o cosa?	}{	Non ti preoccupare, ragazza, comunque ti adatterai. Mi piacerebbe spiegarti tutto, ma e' uno spreco di tempo - vuoi un po' di aiuto o cosa?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1016	}{	Bene. Potrei usare l'aiuto.	}{	Okay. Potrei usare l'aiuto.	}{	81	}{		}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Dovrei intraprendere la tua oscura tutela.	}
+{	1017	}{	Non ho molto tempo... spiegami solo le basi.	}{	Non e' che ho molto tempo... spiegami soltanto le basi.	}{	891	}{		}{	G.Jack_Faction = G.Jack_Faction + 1	}{	}{	}{	}{	}{	}{	}{	Dammi le basi essenziali.	}
+{	1018	}{	Non ho bisogno dell'aiuto di nessuno. Sono fuori.	}{	Non mi serve l'aiuto di nessuno. Sono fuori.	}{	1023	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non ho bisogno di una guida su questo sentiero oscuro. Lasciami.	}
 {	1019	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1020	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1021	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1022	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1023	}{	Tsk tsk tsk. I giovani d'occhi. Bah, il funerale e' il tuo, ragazzo.	}{	Tsk tsk tsk. I giovani d'occhi. Bah, il funerale e' il tuo, ragazza.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1024	}{	Bene. Aiutami.	}{	Bene. Aiutami.	}{	81	}{		}{		}{	}{	}{	}{	}{	}{	}{	Forse sfruttero' questo tutoraggio.	}
-{	1025	}{	Dimmi le basi.	}{	Dimmi le basi.	}{	901	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dammi le prime basi.	}
-{	1026	}{	Come vuoi. Avro' cura di me.	}{	Come vuoi. Avro' cura di me.	}{	1031	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia strada e' unica. Addio.	}
-{	1027	}{	Non ti ho detto di lasciarmi solo?	}{	Non ti ho detto di lasciarmi sola?	}{	1031	}{		}{		}{	}{	}{	}{	}{	}{	}{	Lasciami solo, Jack-delle-scatole.	}
+{	1023	}{	Tsk tsk tsk. I giovani d'oggi. Bene, il tuo funerale, ragazzo.	}{	Tsk tsk tsk. Le ragazze d'oggi. Okay, il tuo funerale, ragazza.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1024	}{	Bene. Aiutami.	}{	Okay. Aiutami.	}{	81	}{		}{		}{	}{	}{	}{	}{	}{	}{	Forse intraprendero' la tua oscura tutela.	}
+{	1025	}{	Dimmi le basi.	}{	Dammi solo le basi.	}{	901	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dammi le basi essenziali.	}
+{	1026	}{	Comunque. Posso prendermi cura di me stesso.	}{	Ad ogni modo. Posso prendermi cura di me stessa.	}{	1031	}{		}{		}{	}{	}{	}{	}{	}{	}{	La mia strada e' a senso unico. Addio.	}
+{	1027	}{	Non ti ho detto di lasciarmi solo?	}{	Non ti avevo detto di lasciarmi sola?	}{	1031	}{		}{		}{	}{	}{	}{	}{	}{	}{	Lasciami solo, Jack-pupazzo-nella-scatola.	}
 {	1028	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1029	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1030	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1031	}{	Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuto, ragazzo!	}{	Se ce la fai, vieni al Last Round a downtown e ti diro' come funziona questa situazione. Fino ad allora, buona fortuna! O forse dovrei semplicemente dire, uh... felice di averti conosciuta, ragazza!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1032	}{	Che divertente. Ci vediamo.	}{	Che divertente. Ci vediamo.	}{	0	}{		}{	LeaveTutorialShort()	}{	}{	}{	}{	}{	}{	}{	Il tuo humor e' di merda. Vado via.	}
-{	1033	}{	e' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	E' divertente. Dormiro' il giorno libero e ridero' piu' tardi. Ci vediamo.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' buffo. Non sono piu' qui perche' chiudero' gli occhi quando il sole splende.	}
+{	1031	}{	Se fai questo, vieni in centro al Last Round e ti diro' quanto e' incasinata tutta questa situazione. Fino ad allora,[ridacchia]buona fortuna! O forse dovrei solo dire, uh... piacere di conoscerti, ragazzino![ride alla sua battuta]	}{	Se fai questa cosa, vieni in centro al Last Round e ti aggiornero' su quanto e' incasinata tutta questa situazione. Fino ad allora, buona fortuna! O forse dovrei solo dire, uh... piacere di conoscerti, ragazzina!	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1032	}{	Divertente. Ci vediamo.	}{	Che spasso. Ci si vede.	}{	0	}{	G.Patch_Plus == 0	}{	LeaveTutorialShort()	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' assurdo. Non rimango a lungo qui.	}
+{	1033	}{	Divertente. Dormiro' tutto il giorno e ridero' piu' tardi. Ci vediamo.	}{	Che spasso. Libera di dormire tutto il giorno e ridero' piu' tardi. Ci si vede.	}{	0	}{	G.Patch_Plus == 1	}{	LeaveTutorialShort(); pc.Bloodloss(1)	}{	}{	}{	}{	}{	}{	}{	Il tuo umorismo e' assurdo. Non rimarro' piu' qui perche' ho bisogno di chiudere gli occhi quando splende il sole.	}
 {	1034	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1035	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1036	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1038,8 +1038,8 @@
 {	1038	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1039	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1040	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1041	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1042	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1041	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1042	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1043	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1044	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1045	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1048,8 +1048,8 @@
 {	1048	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1049	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1050	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1051	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1052	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1051	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1052	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1053	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1054	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1055	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
@@ -1075,12 +1075,12 @@
 {	1075	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1076	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1077	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
-{	1078	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.strength + pc.dexterity + pc.stamina + pc.charisma + pc.manipulation + pc.appearance + pc.perception + pc.intelligence + pc.wits) > 15	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1079	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.brawl + pc.dodge + pc.intimidate + pc.subterfuge + pc.firearms + pc.melee + pc.security + pc.stealth + pc.computers + pc.finance + pc.investigation + pc.academics) > 10	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1080	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.animalism + pc.auspex + pc.celerity + pc.dementation + pc.dominate + pc.fortitude + pc.obfuscate + pc.potence + pc.presence + pc.protean + pc.thaumaturgy) > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1081	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.base_animalism + pc.base_auspex + pc.base_celerity + pc.base_dementation + pc.base_dominate + pc.base_fortitude + pc.base_obfuscate + pc.base_potence + pc.base_presence + pc.base_protean + pc.base_thaumaturgy) > -4	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1082	}{	(Starting Condition)	}{	(Starting Condition)	}{	11	}{	G.Tut_Jack == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1083	}{	(Starting Condition)	}{	(Starting Condition)	}{	85	}{	G.Tut_Jack == 1 and G.Tut_Patch == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1078	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.strength + pc.dexterity + pc.stamina + pc.charisma + pc.manipulation + pc.appearance + pc.perception + pc.intelligence + pc.wits) > 15	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1079	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.brawl + pc.dodge + pc.intimidate + pc.subterfuge + pc.firearms + pc.melee + pc.security + pc.stealth + pc.computers + pc.finance + pc.investigation + pc.academics) > 10	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1080	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.animalism + pc.auspex + pc.celerity + pc.dementation + pc.dominate + pc.fortitude + pc.obfuscate + pc.potence + pc.presence + pc.protean + pc.thaumaturgy) > 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1081	}{	(Starting Condition)	}{	(Starting Condition)	}{	1001	}{	G.Tut_Jack == 0 and (pc.base_animalism + pc.base_auspex + pc.base_celerity + pc.base_dementation + pc.base_dominate + pc.base_fortitude + pc.base_obfuscate + pc.base_potence + pc.base_presence + pc.base_protean + pc.base_thaumaturgy) > -4	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1082	}{	(Starting Condition)	}{	(Starting Condition)	}{	11	}{	G.Tut_Jack == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	1083	}{	(Starting Condition)	}{	(Starting Condition)	}{	85	}{	G.Tut_Jack == 1 and G.Tut_Patch == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1084	}{	(Starting Condition)	}{	(Starting Condition)	}{	136	}{	G.Tut_Jack == 1 and G.Tutorial_Blueblood == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1085	}{	(Starting Condition)	}{	(Starting Condition)	}{	141	}{	G.Tut_Jack == 1 and G.Tutorial_Blueblood == 1	}{		}{	}{	}{	}{	}{	}{	}{		}
 {	1086	}{	(Starting Condition)	}{	(Starting Condition)	}{	246	}{	G.Tut_Jack == 2 and G.Tut_Chopshop == 0	}{		}{	}{	}{	}{	}{	}{	}{		}
