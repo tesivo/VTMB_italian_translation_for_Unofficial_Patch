@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+«Think I broke my ring while I was beating on that Mercurio guy». «Your ring? You wear rings»? «Lots of people wear rings»! «Yeah, lot of girls wear rings». «Not just girls». «Man, there are only two kind of guys that wear rings and I don't remember you winning a Superbowl». «I'm just saying, dude from the beach could take a beating»! «Yeah, I don't think I've ever seen a guy get worked like that and not fall apart. Honestly, I-I don't like it. I-I don't care if someone was coming, I think we should've wasted that good fellow looking mother when we had the chance». «Why? We got his money». «I got a bad feeling. And we should've heard ambulances, someone must have found him». «Ey, you've seen me tonight? I was all like Wootah, did that Karate kick on him like Miyagi sensei and shit». «Yeah? And what you're gonna do if that Mercurio dude or somebody comes back for his money? Should've killed him». «Chill, man. Never seen you so damned scared before». «Ey, watch yourself, man, right! I ain't scared, I'm sensible. We don't know who this mother was running with, could be the mob or something, I don't know». «The mob? You do know that this is southern California, right»? «Look, all I'm saying is I'd sleep a whole lot better if we'd had flushed that guy. You just deal me some damned cards, alright»?
+}
+WORDS
+{
+WORD blah 0.100 65.000
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 1438 "«Penso che ho rotto il mio anello mentre picchiavo quel Mercurio». «Il tuo anello? Indossi gli anelli»? «Molte persone indossano anelli»! «Si', molte ragazze indossano gli anelli». «Non solo ragazze». «Amico, ci sono solo due tipi di ragazzi che portano gli anelli e non mi ricordo che tu abbia vinto un Superbowl». «Dico solo che il tizio della spiaggia potrebbe prendere una batosta»! «Si', Non credo di aver mai visto un ragazzo lavorare in quel modo e non cadere a pezzi. Sinceramente non mi piace. Non m'importa se sarebbe venuto qualcuno, credo che avremmo dovuto devastare quel figlio di puttana dall'aspetto di bravo ragazzo quando ne avevamo la possibilita'». "Perche'? Abbiamo i suoi soldi». «Ho una brutta sensazione. E avremmo dovuto sentire le ambulanze, qualcuno deve averlo trovato». «Ehi, mi hai visto stasera? Mi sentivo tutto Orgoglioso, gli ho dato quel calcio di karate come sensei Miyagi e merda». "Si'? E cosa farai se quel Mercurio o qualcun'altro torna per i suoi soldi? Avrei dovuto ucciderlo». «Rilassati, amico. Non ti ho mai visto cosi' dannatamente spaventato prima». «Attento a te, amico.ok! Non ho paura, sono sensato. Non sappiamo con chi correva questa madre, potrebbe essere la mafia o qualcosa del genere, non lo so». "La Mafia? Lo sai che questa e' la California del sud, vero»? «Senti, dico solo che dormirei molto meglio se avessimo snidato quel ragazzo. Dammi solo delle maledette carte, va bene»?" 0.100 65.000
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Thugs
+}
