@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Mister Milton. You know who this is, and I do hope you realize that we're still on for tonight. Meet me at the agreed upon location across from the bar by the underpass. Bring your associate, Mister Durbin, as it is a two-man job that I am proposing. With any luck, the two of you are already on your way and I shall see you soon. Goodbye.
+}
+WORDS
+{
+WORD blah 0.000 19.394
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 354 "Mister Milton. Sai chi e' questo, e spero che si renda conto che siamo ancora d'accordo per stasera. Incontriamoci al punto concordato di fronte al bar del sottopassaggio. Porti il ​​suo socio, Mister Durbin, perche' e' un lavoro per due quello che Sto proponendo. Con un po' di fortuna, voi due sarete gia' in viaggio e ci vedremo presto. Arrivederci." 0.000 19.394
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Answering Machine
+}
