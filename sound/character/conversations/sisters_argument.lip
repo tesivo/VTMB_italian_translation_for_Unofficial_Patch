@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+«Your city? Last time I looked, it was called 'Santa Monica', not 'Stuck-up Bitch'». «So vulgar! I can't even look at you sometimes, you Jezebel»! «Oh Therese, you really do paint a flattering portrait of me with your turn-of-the-century barbs. I always assumed you could do nothing but look down on me». «Just the sight of you! The sight of that wicked, tainted pout concealing that dirty, diseased mind. Sin! You have no shame». «Let she who is without sin cast the fierce tone. Go ahead and mock me. You pull your pranks, make fun of my ways, it suits you». «You're just one big joke». «Don't you call me that»! «Should I start calling a duck a pig as well»? «I'm your sister! How can you treat me like this»? «That's it Jeanette, run away from the truth. I'll take care of everything, as always».
+}
+WORDS
+{
+WORD blah 0.000 52.448
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 873 "«La tua citta'? L'ultima volta che ho guardato, si chiamava 'Santa Monica', non 'Puttana arrogante'». «Cosi' volgare! Non riesco nemmeno a guardarti a volte, arpia»! «Oh Therese, mi fai davvero un ritratto lusinghiero con le tue barbe di inizio secolo. Ho sempre pensato che tu non potessi far altro che guardarmi dall'alto in basso». «Solo a vederti! La vista di quel broncio malvagio e contaminato che nasconde quella sporca, mente malata. Peccato! Non hai vergogna». «Lasciamo colei che e' senza peccato lanciare il suo tono fiero. Vai avanti e prendimi in giro. Fai i tuoi scherzi, prendi in giro i miei modi, ti conviene». «Sei solo un grande scherzo». «Non chiamarmi cosi'»! «Dovrei cominciare a chiamare un'anatra anche maiale»? «Sono tua sorella! Come puoi trattarmi cosi'»? «Ecco qua Jeanette, che scappa dalla verita'. Mi prendero' cura di tutto, come sempre»." 0.000 52.448
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Muffled Voices
+}
