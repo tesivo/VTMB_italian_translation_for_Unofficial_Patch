@@ -13,7 +13,7 @@
 ### Per questo ho deciso di intraprendere un progetto di revisione della traduzione italiana, che non viene più aggiornata da anni, per portarla ad essere compatibile con la versione 10.7.
 ### Non è un progetto di ritraduzione completa, per ora una buona parte della vecchia traduzione è stata mantenuta, completata e corretta.
 ---
-### Collaboratori: Katerine73(Root78), NarakuITA
+### Collaboratori: Katerine73(Root78), crazyLillo e NarakuITA
 
 ### Ogni suggerimento e feedback è ben accetto. https://github.com/tesivo/tesivo_s_VTMB_italian_translation_for_Unofficial_Patch/issues
 ### Chiunque volesse collaborare mi contatti.
