@@ -1,0 +1,23 @@
+VERSION 1.2
+PLAINTEXT
+{
+Huh... ahhhh!
+}
+WORDS
+{
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 15 "Huh... ahhhh!" 0.000 0.000
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name male
+}
