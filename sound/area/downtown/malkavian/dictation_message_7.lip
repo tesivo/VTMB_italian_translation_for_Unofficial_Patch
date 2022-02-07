@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Grout's Message 7
+}
+WORDS
+{
+WORD blah 0.100 66.000
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 1120 "Mentre espando i miei rapporti con il governo dei vampiri... Ho incontrato un nuovo inquietante sintomo di questa afflizione. Spesso, durante una conversazione, Ascoltero' voci emananti da altri vampiri. Voci che non sono le loro, ma che sembrano avere una visione profonda delle loro vite al di la' di cio' che potrei dedurre da una semplice conversazione. Queste voci sembrano echeggiare dal profondo dei miei compagni vampiri... e non posso essere certo se questo sintomo appartenga alla mia deformazione della malattia o alla loro... poiche' le voci sono varie e incoerenti. Non oso menzionare questo sintomo ai miei colleghi vampiri, perche' si sono dimostrati veri predatori... al quale potrei essere restio a rivelare qualsiasi segno di debolezza. In verita', queste voci mi hanno sconsigliato di confessare la loro presenza... e finche' non posso confermare la loro fonte, Ascoltero'. Le informazioni che le voci mi hanno dato vanno dal curioso allo spaventoso. Quest'ultimo caso e' particolarmente vero per un potente vampiro il cui nome... Non mi impegnero' a ricordare nell'interesse dell'autoconservazione." 0.100 66.000
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Grout
+}

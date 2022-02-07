@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Grout's Message 6
+}
+WORDS
+{
+WORD blah 0.100 91.000
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 1577 "Ho accettato il ruolo di 'primogenito' per il clan 'Malkavian'... l'etichetta terribilmente accattivante applicata al particolare ceppo di vampirismo che io soffro. Cosi' chiamato per una presunta figura del padre vampiro di un tempo... piu' folle cresciuto in una cultura rurale che sembra interminabilmente disegnata... ai racconti per bambini e alla narrativa del romanticismo vittoriano... quando dovrebbe interessarsi... della scienza dietro la loro sofferenza. Non importa, perche' ho assunto questo incarico non per una ragione maggiore che per far progredire la mia ricerca. Devo ricordare, tuttavia, che anche tra i miei aspiranti colleghi in questo corpo direttivo di vampiri... il livello di paranoia e superstizione e' spaventoso! La loro intelligenza non e' il problema, no, anzi, poiche' mi hanno corteggiato per questo appuntamento... Ho sospettato che la loro apertura fosse fatte su misura... a quella che deve essere la mia ovvia infatuazione per la ragione... per il diavolo farebbe bene ad avere tali tentatori dalla lingua di miele. Anche cosi' non ho potuto fare a meno di notare il condimento del linguaggio... questi capi vampiri li hanno scelti per il loro canto delle sirene. Sia che nasca dall'abitudine, nell'affrontare i loro sudditi non lavati e male istruiti... o dalle proprie convinzioni profonde... i loro svolazzi linguistici smentiscono una fede nella superstizione... sulla provvidenza della ragione empirica che deve essere... un tema pervasivo in questa societa' della notte piu' buia. Accidenti a tutto adesso, lo sto facendo anche io!" 0.100 91.000
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Grout
+}

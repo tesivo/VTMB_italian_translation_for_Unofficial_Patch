@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Grout's Message 9
+}
+WORDS
+{
+WORD blah 0.100 70.000
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 1070 "Non sono piu' al sicuro - Lo so! Le voci si sono dimostrate autentiche, e mi sono ritirato completamente dalla societa' dei vampiri. La mia assenza attirera' senza dubbio l'attenzione, ma non riuscivo piu' a reggere la mia fragile compostezza... intorno gli occhi famelici dei miei colleghi vampiri, soprattutto non attorno a lui! Le voci mi hanno costretto a fare quello che temo sia un contratto Faustiano. Ma dovevo, perche' le loro richieste sono costanti e spietate. Mi sono isolato all'interno del palazzo. So che mi colpira'. Fara' di tutto per realizzare le sue ambizioni, e lui sa che io lo so! Ho preso precauzioni per proteggere la mia amata moglie. Una cura dovra' aspettare fino a quando la nostra immediata sicurezza sara' garantita. Il palazzo e' stato costruito pensando alla sicurezza, ma a quel tempo... Non ero a conoscenza dell'intera varieta' delle capacita' dei vampiri! Le voci echeggiano nei corridoi contorti della mia psiche... sussurri oscuri di una macabra e informe minaccia il cui approccio fa presagire una fine, una fine a tutto questo!" 0.100 70.000
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Grout
+}

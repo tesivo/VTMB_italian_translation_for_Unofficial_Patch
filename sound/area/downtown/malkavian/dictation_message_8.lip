@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Grout's Message 8
+}
+WORDS
+{
+WORD blah 0.100 47.000
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 794 "Le voci sono aumentate in frequenza e direzione negli ultimi tempi. Hanno cominciato a rimanere con me molto tempo dopo che la conversazione e' cessata e servono come una bella distrazione. Temo che gli altri stiano cominciando a notare la mia preoccupazione alle riunioni di vampiri. Sto pensando di nuovo al particolare vampiro di cui ho parlato prima... che non oso nominare per la mia crescente paura. Se dobbiamo credere alle voci, allora la mia cautela e' giustificata... poiche' parlano dei suoi crimini piu' oscuri passati e futuri. Piu' di una volta ho visto il sospetto nei suoi occhi... e ho sentito la sfiducia nella sua voce quando parlava con me! La paura deve palesarsi sul mio viso perche' e' tutto cio' che posso fare in questi momenti per non gridare... in coro con le voci!" 0.100 47.000
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Grout
+}
