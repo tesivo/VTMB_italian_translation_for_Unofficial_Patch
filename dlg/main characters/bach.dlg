@@ -1,155 +1,155 @@
-{	1	}{	Sapevo che Johansen avrebbe adescato i servi di Satana. Ma ho creato questa trappola per il diavolo in persona - dov'e' LaCroix?!?	}{	Sapevo che Johansen avrebbe adescato i servi di Satana. Ma ho creato questa trappola per il diavolo in persona - dov'e' LaCroix?!?	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	2	}{	Dammi Johansen e ti lascero' vivere.	}{	Dammi Johansen e ti lascero' vivere.	}{	21	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non puoi trattenere qui il professore - aveva un ruolo importante!	}
-{	3	}{	LaCroix? Pensi che LaCroix verrebbe da solo?	}{	LaCroix? Pensi che LaCroix verrebbe da solo?	}{	11	}{		}{		}{		}{		}{		}{		}{		}{		}{	Oh, quel ragazzo. Lui manda il suo amante.	}
-{	4	}{	Stai sprecando il tuo fiato, mortale - dissanguero' il tuo corpo fino all'ultima goccia.	}{	Stai sprecando il tuo fiato, mortale - dissanguero' il tuo corpo fino all'ultima goccia.	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{	Odio quando il cibo ha un nome.	}
-{	5	}{	Andiamo direttamente alla parte dove ti uccido.	}{	Andiamo direttamente alla parte dove ti uccido.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non qui. Sono venuto io.	}
-{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	11	}{	Forse quando LaCroix non avra' piu' schiavi, si mostrera' a me. E Dio guidera' i miei colpi su di lui. Prima che ti mandi all'eterna dannazione, hai qualcosa da dire?	}{	Forse quando LaCroix non ha piu' schiavi, si mostrera' a me. E Dio guidera' i miei colpi su di lui. Prima che ti mandi all'eterna dannazione, hai qualcosa da dire?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	12	}{	No. Incominciamo.	}{	No. Incominciamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	... Immagino di no.	}
-{	13	}{	Tu sarai l'unico a dire le ultime parole!	}{	Tu sarai l'unico a dire le ultime parole!	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Le sto salvando per la Morte Finale.	}
-{	14	}{	Conosci il tuo posto, mortale, e vieni ad inchinarti di fronte a me.	}{	Conosci il tuo posto, mortale, e vieni ad inchinarti di fronte a me.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vieni bevi il mio sangue e assapora la vera divinita'.	}
-{	15	}{	Quando avro' finito con te, neanche S. Pietro ti riconoscera'.	}{	Quando avro' finito con te, neanche S. Pietro ti riconoscera'.	}{	31	}{		}{		}{		}{		}{		}{		}{		}{		}{	Spero ti sia lavato il collo.	}
-{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	21	}{	E' sotto protezione divina. Se lo vuoi, vieni a prenderlo, se ci riesci.	}{	E' sotto protezione divina. Se lo vuoi, [suono di un colpo che entra nel caricatore del fucile di precisione]vieni a prenderlo, se ci riesci.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	22	}{	E' praticamente mio.	}{	E' praticamente mio.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Idiota.	}
-{	23	}{	Non hai idea di quanto sia stupido mettersi sulla mia strada. E' tempo di fartelo capire.	}{	Non hai idea di quanto sia stupido mettersi sulla mia strada. E' tempo di fartelo capire.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se solo leggessero le vecchie storie ormai perse, tutti saprebbero che e' meglio non mettersi sulla mia strada.	}
-{	24	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	31	}{	Devi aver implorato la misericordia di Dio - io non ne mostero'.	}{	Devi aver implorato la misericordia di Dio - io non ne mostero'.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	32	}{	Neanche io su di te.	}{	Neanche io su di te.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Potresti formare una squadra con Gesu' e perderesti ancora.	}
-{	33	}{	Mi supplicherai di ucciderti dopo che ti tagliero' la gola. Andiamo!	}{	Mi supplicherai di ucciderti dopo che ti tagliero' la gola. Andiamo!	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti mostrero' pezzi di te che non hai mai visto. Non vedo l'ora.	}
-{	34	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	41	}{	L'ingordigia e' un peccato! Fai un passo e riceverai la giusta condanna. Non fare resistenza e forse il Signore sara' misericordioso.	}{	L'ingordigia e' un peccato! Fai un passo e riceverai la giusta condanna. Non fare resistenza e forse il Signore sara' misericordioso.	}{	#	}{		}{	Whisper("Gibberish")	}{		}{		}{		}{		}{		}{		}{		}
-{	42	}{	Ha mai funzionato? Bene, andiamo, bravo ragazzo.	}{	Ha mai funzionato? Bene, andiamo, bravo ragazzo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il mio sangue mi giudica... il tuo colorera' questi muri.	}
-{	43	}{	Se ti piace cosi' tanto il Signore, permittimi di comprarti un biglietto prima classe per incontrarlo.	}{	Se ti piace cosi' tanto il Signore, permittimi di comprarti un biglietto prima classe per incontrarlo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se il Signore fosse dalla tua parte, io non sarei qui stanotte.	}
-{	44	}{	Quindi e' uccisione... mettilo nel mio conto.	}{	Quindi e' uccisione... mettilo nel mio conto.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sono un golosone di peccati. Omicidio, per esempio, suona delizioso.	}
-{	45	}{	Assaporero' il tuo sangue sulle mie labbra... mentre lo lecco direttamente dal muro.	}{	Assaporero' il tuo sangue sulle mie labbra... mentre lo lecco direttamente dal muro.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	51	}{	Essere immondo!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	52	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	53	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	54	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	55	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	56	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	61	}{	La fede mi proteggera'!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	62	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	63	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	71	}{	Fatti vedere!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	72	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	73	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	74	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	81	}{	Vieni fuori, demonio!	}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	82	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	83	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	84	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	85	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	91	}{	La tua ora e' arrivata.	}{	La tua ora e' arrivata.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	93	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	101	}{	[rabbia, denti stretti]Grout, inginocchiati! Lasciati purificare dalle fiamme!	}{	[rabbia, denti stretti]Grout, inginocchiati! Lasciati purificare dalle fiamme!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	102	}{	Non sono Grout! Lo hai gia' ucciso!	}{	Non sono Grout! Lo hai gia' ucciso!	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Grout non ha piu' un corpo - lui e' cenere.	}
-{	103	}{	Grout e' morto. Chi diavolo sei tu?	}{	Grout e' morto. Chi diavolo sei tu?	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il killer di Grout? Non il mio.	}
-{	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	111	}{	Grout e' morto? Peccato che non possa essere stata opera mia! Non importa - presto i tuoi autoincoronati re e falsi profeti, e tutti coloro che indossano il marchio della bestia, saranno spazzati dalla terra, per la venuta del Signore!	}{	Grout e' morto? Un peccatao potrebbe non essere stata opera mia! Non importa - presto i tuoi autoincoronati re e falsi profeti, e tutti coloro che indossano il marchio della bestia, saranno spazzati dalla terra, per la venuta del Signore!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	112	}{	Chi diavolo sei tu?	}{	Chi diavolo sei tu?	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non hai imparato le buone maniere? Che ne dici di presentarti?	}
-{	113	}{	Aspetta, aspetta, aspetta... parliamone.	}{	Aspetta, aspetta, aspetta... parliamone.	}{	141	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hai una frazione di tempo?	}
-{	114	}{	Ora stai iniziando a stancharmi. Aspetta che vengo li'.	}{	Ora stai iniziando a stancharmi. Aspetta che vengo li'.	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Aspetta li', ho qualcosa che vorrei mostrarti - il tuo cuore.	}
-{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	121	}{	Mentre bruci, digli che e' stato Grunfeld Bach a mandare la tua anima dannata in quel lago di fuoco! Tutti gli agenti di Satana ritorneranno da dove sono venuti!	}{	Mentre bruci, digli che e' stato Grunfeld Bach a mandare la tua anima dannata in quel lago di fuoco! Tutti gli agenti di Satana ritorneranno da dove sono venuti!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	122	}{	(Auto-Link)	}{	(Auto-Link)	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	123	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	124	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	131	}{	Che questa giusta esposizione serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Per il potere del Signore, purifichero' la tua anima nera!	}{	Che questa giusta esposizione serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Per il potere del Signore, purifichero' la tua anima nera!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Story_State = 20	}{	}{	}{	}{	}{	}{	}{	}
-{	132	}{	Si', come vuoi.	}{	Si', come vuoi.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tante parole, poco senso.	}
-{	133	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	134	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	141	}{	Balbetta la tua lingua madre nelle buche degli abissi! Non la sentiro' piu'!	}{	Balbetta la tua lingua madre nelle buche degli abissi! Non la sentiro' piu'!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	142	}{	Ma...	}{	Ma...	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	MA PERCHe'?	}
-{	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	144	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	145	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	146	}{	L'hai mancato!	}{	L'hai mancato!	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}{	Non mi hanno sparato!	}
-{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	151	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	152	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	153	}{	(Starting Condition)	}{		}{	91	}{	G.Story_State == 70	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	154	}{	(Starting Condition)	}{	}{	145	}{	G.Story_State == 65	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	155	}{	(Starting Condition)	}{		}{	101	}{	G.Story_State < 20	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	1	}{	Sapevo che Johansen avrebbe richiamato i servi di Satana. Ma ho impostato questa trappola per l'arcidemone in persona - dov'e' La Croix?!	}{	Sapevo che Johansen avrebbe richiamato i servi di Satana. Ma ho impostato questa trappola per l'arcidemone in persona - dov'e' La Croix?!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	2	}{	Dammi Johansen e ti lascero' vivere.	}{	Dammi Johansen e ti lascero' vivere.	}{	21	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non puoi trattenere qui il professore - aveva un ruolo importante!	}
+{	3	}{	LaCroix? Pensi che LaCroix verrebbe qui da solo?	}{	LaCroix? Pensi che LaCroix verrebbe qui da solo?	}{	11	}{		}{		}{	}{	}{	}{	}{	}{	}{	Oh, quel ragazzo. Manda il suo  amore.	}
+{	4	}{	Stai sprecando il tuo fiato, mortale - prosciughero' il tuo corpo fino all'ultima goccia.	}{	Stai sprecando il tuo fiato, mortale - prosciughero' il tuo corpo fino all'ultima goccia.	}{	41	}{		}{		}{	}{	}{	}{	}{	}{	}{	Odio quando il nome del cibo invoca altro.	}
+{	5	}{	Andiamo solo alla parte in cui ti uccido.	}{	Andiamo solo alla parte in cui ti uccido.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non qui. Eccomi invece vengo.	}
+{	6	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	7	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	8	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	9	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	10	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	11	}{	Forse quando LaCroix esaurira' i servi, mi mostrera' la sua faccia. E Dio guidera' i miei colpi per attraversarla. Prima che ti mandi all'eterna dannazione, delle ultime parole?	}{	Forse quando LaCroix esaurira' i servi, mi mostrera' la sua faccia. E Dio guidera' i miei colpi per attraversarla. Prima che ti mandi all'eterna dannazione, delle ultime parole?	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	12	}{	No. Facciamolo.	}{	No. Facciamolo.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	... Non credo.	}
+{	13	}{	Sei tu quello che pronuncera' le ultime parole!	}{	Sei tu quello che pronuncera' le ultime parole!	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{	Li sto conservando per l'Ultima Notte.	}
+{	14	}{	Conosci il tuo posto, mortale, e vieni ad inchinarti davanti a me.	}{	Conosci il tuo posto, mortale, e vieni ad inchinarti davanti a me.	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{	Vieni a bere il mio sangue e assapora la vera divinita'.	}
+{	15	}{	Quando avro' finito con te, nemmeno San Pietro ti riconoscera'.	}{	Quando avro' finito con te, nemmeno San Pietro ti riconoscera'.	}{	31	}{		}{		}{	}{	}{	}{	}{	}{	}{	Spero ti sia lavato il collo.	}
+{	16	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	17	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	18	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	19	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	20	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	21	}{	e' sotto la protezione divina. Se lo vuoi, [rumore di un proiettile che entra nel caricatore del fucile di precisione] vieni a prenderlo, se puoi.	}{	e' sotto la protezione divina. Se lo vuoi, [rumore di un proiettile che entra nel caricatore del fucile di precisione] vieni a prenderlo, se puoi.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	22	}{	e' buono come il mio.	}{	e' buono come il mio.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ovviamente.	}
+{	23	}{	Non hai idea di quanto possa essere stupido ostacolarmi. Tempo di imparare.	}{	Non hai idea di quanto possa essere stupido ostacolarmi. Tempo di imparare.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Se solo i morti raccontassero storie, saprebbero tutti di non ostacolare il mio cammino.	}
+{	24	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	25	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	26	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	27	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	28	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	29	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	30	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	31	}{	Avresti dovuto implorare la misericordia di Dio - Io non te ne mostrero' nessuna.	}{	Avresti dovuto implorare la misericordia di Dio - Io non te ne mostrero' nessuna.	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	32	}{	Ne' io a te.	}{	Ne' io a te.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Potresti formare una squadra con Gesu' e staresti ancora perdendo.	}
+{	33	}{	Mi pregherai di ucciderti dopo che ti avro' strappato le budella. Andiamo, forza!	}{	Mi pregherai di ucciderti dopo che ti avro' strappato le budella. Andiamo, forza!	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ti mostrero' pezzi di te che non hai mai visto. Non vedo l'ora.	}
+{	34	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	35	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	36	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	37	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	38	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	39	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	40	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	41	}{	L'ingordigia e' un peccato! Fatti avanti e ricevi il tuo giudizio. Non opporre resistenza e forse il Signore sara' misericordioso.	}{	L'ingordigia e' un peccato! Fatti avanti e ricevi il tuo giudizio. Non opporre resistenza e forse il Signore sara' misericordioso.	}{	#	}{		}{	Whisper("Gibberish")	}{	}{	}{	}{	}{	}{	}{		}
+{	42	}{	Ha mai funzionato? Va bene, andiamo, ragazzo pio.	}{	Ha mai funzionato? Va bene, andiamo, ragazza pia.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Il mio sangue mi giudica... il tuo colorera' le pareti.	}
+{	43	}{	Se ti piace cosi' tanto il Signore, lascia che ti compri un biglietto di prima classe per incontrarlo.	}{	Se ti piace cosi' tanto il Signore, lascia che ti compri un biglietto di prima classe per incontrarlo.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Se il Signore fosse dalla tua parte, non sarei qui stasera.	}
+{	44	}{	Cosi' e' assassinio... mettilo sul mio conto.	}{	Cosi' e' assassinio... mettilo sul mio conto.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Sono un ghiottone di peccati. L'omicidio, per esempio, sembra delizioso.	}
+{	45	}{	Assaggero' il tuo sangue sulle mie labbra... mentre lo lecco dalle pareti.	}{	Assaggero' il tuo sangue sulle mie labbra... mentre lo lecco dalle pareti.	}{	0	}{	not IsClan(pc,"Malkavian")	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	46	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	47	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	48	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	49	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	50	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	51	}{	Sostieni la testimonianza!	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	52	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	53	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	54	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	55	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	56	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	57	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	58	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	59	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	60	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	61	}{	Fede, proteggimi!	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	62	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	63	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	64	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	65	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	66	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	67	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	68	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	69	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	70	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	71	}{	Mostrati!	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	72	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	73	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	74	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	75	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	76	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	77	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	78	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	79	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	80	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	81	}{	Fuori, demonio!	}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	82	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	83	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	84	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	85	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	86	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	87	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	88	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	89	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	90	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	91	}{	la tua ora del giudizio e' qui.	}{	la tua ora del giudizio e' qui.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	93	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	94	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	95	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	96	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	97	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	98	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	99	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	100	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	101	}{	[rabbia, denti serrati] Grout, inchinati e sarai purificato dalle fiamme!	}{	[rabbia, denti serrati] Grout, inchinati e sarai purificato dalle fiamme!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	102	}{	Non sono Grout! L'hai gia' ucciso!	}{	Non sono Grout! L'hai gia' ucciso!	}{	111	}{		}{		}{	}{	}{	}{	}{	}{	}{	Grout non e' piu' un cadavere - e' cenere.	}
+{	103	}{	Grout e' morto. Chi diavolo sei tu?	}{	Grout e' morto. Chi diavolo sei tu?	}{	111	}{		}{		}{	}{	}{	}{	}{	}{	}{	L'assassino di Grout? Non il mio.	}
+{	104	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	105	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	106	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	107	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	108	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	109	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	110	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	111	}{	Grout e' morto? Un peccato non lo sia per mano mia! Non importa: presto i tuoi autoproclamati re e i tuoi falsi profeti, e tutti coloro che portano il marchio della bestia, saranno mondati dalla terra, per la venuta del Signore!	}{	Grout e' morto? Un peccato non lo sia per mano mia! Non importa: presto i tuoi autoproclamati re e i tuoi falsi profeti, e tutti coloro che portano il marchio della bestia, saranno mondati dalla terra, per la venuta del Signore!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	112	}{	Chi diavolo sei tu?	}{	Chi diavolo sei tu?	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{	Dove sono le tue buone maniere? Che ne dici di una presentazione?	}
+{	113	}{	Aspetta, aspetta, aspetta... discutiamone.	}{	Aspetta, aspetta, aspetta... discutiamone.	}{	141	}{		}{		}{	}{	}{	}{	}{	}{	}{	Ho un po' di tempo su quello?	}
+{	114	}{	Ora stai iniziando a farmi incazzare. Aspetta finche' non arrivo laggiu'.	}{	Ora stai iniziando a farmi incazzare. Aspetta finche' non arrivo laggiu'.	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{	Resta li', ho qualcosa che voglio mostrarti: il tuo cuore.	}
+{	115	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	116	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	117	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	118	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	119	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	120	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	121	}{	Mentre bruci, di' loro che e' stato Grünfeld Bach a mandare la tua dannata anima in quel lago di fuoco! Tutti gli agenti di Satana ritorneranno da dove sono venuti!	}{	Mentre bruci, di' loro che e' stato Grünfeld Bach a mandare la tua dannata anima in quel lago di fuoco! Tutti gli agenti di Satana ritorneranno da dove sono venuti!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	122	}{	(Auto-Link)	}{	(Auto-Link)	}{	131	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	123	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	124	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	125	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	126	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	127	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	128	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	129	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	130	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	131	}{	Lascia che questa giusta dimostrazione di giustizia serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Con il potere del Signore, purifichero' la tua anima nera!	}{	Lascia che questa giusta dimostrazione di giustizia serva da promessa a tutti coloro che servono l'arcidemone LaCroix! Vengo a prenderti, LaCroix! Con il potere del Signore, purifichero' la tua anima nera!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	G.Story_State = 20	}{	}{	}{	}{	}{	}{	}{		}
+{	132	}{	Si', come vuoi.	}{	Si', come vuoi.	}{	0	}{		}{		}{	}{	}{	}{	}{	}{	}{	Molte chiacchiere, poco senso.	}
+{	133	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	134	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	135	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	136	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	137	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	138	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	139	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	140	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	141	}{	Balbetta nella tua lingua madre nelle fosse dell'abisso! non la sentiro' piu'!	}{	Balbetta nella tua lingua madre nelle fosse dell'abisso! non la sentiro' piu'!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	142	}{	Ma...	}{	Ma...	}{	121	}{		}{		}{	}{	}{	}{	}{	}{	}{	MA PERCHE'?	}
+{	143	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	144	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	145	}{	...	}{	...	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	146	}{	Mancato!	}{	Mancato!	}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	Non mi hanno sparato!	}
+{	147	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	148	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	149	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	150	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	151	}{		}{		}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	152	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{		}
+{	153	}{	(Starting Condition)	}{		}{	91	}{	G.Story_State == 70	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	154	}{	(Starting Condition)	}{		}{	145	}{	G.Story_State == 65	}{		}{	}{	}{	}{	}{	}{	}{		}
+{	155	}{	(Starting Condition)	}{		}{	101	}{	G.Story_State < 20	}{		}{	}{	}{	}{	}{	}{	}{		}
