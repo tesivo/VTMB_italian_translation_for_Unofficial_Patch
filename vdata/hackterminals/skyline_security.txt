@@ -81,9 +81,23 @@ Hannah Glazer. E' una miniera d'oro! Laggiu' succede sempre qualcosa di piccante
 
 	}
 
+	SubDir	// added by wesp
+	{
+		"name"			"Apt 3 Cassaforte"
+		"description"		"La cassaforte e' chiusa a chiave"
+		"dependency"		"G.PP == 1 and G.Safe_Unlocked == 0"
+	}
+
+	SubDir	// added by wesp
+	{
+		"name"			"Apt 3 Cassaforte"
+		"description"		"La cassaforte e' aperta"
+		"dependency"		"G.PP == 1 and G.Safe_Unlocked == 1"
+	}
+
 	Email
 	{
-		"subject"	"telecamere nascoste online"				
+		"subject"	"telecamere nascoste online"
 		"sender"	"Butch Rider"
 		"body"		"Ehi Tom, abbiamo un accordo. Continua ad inviarmi quei video, e ti paghero' la buona roba."
 	}
