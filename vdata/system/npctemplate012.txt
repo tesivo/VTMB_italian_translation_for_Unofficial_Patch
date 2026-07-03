@@ -11,7 +11,7 @@ ClanDataTables
 		{
 			"TemplateName"			"ChangBros"
 			"ParentTemplateName"	""	// changed by wesp
-			"Name"					"Blade Brother"
+			"Name"					"Fratello Lama"
 			"Description"			""
 		}
 
@@ -35,6 +35,7 @@ ClanDataTables
 			"SpecialMoveADamage"		"40.0"		// "united-hold-hands-and-attack" damage
 		        "HasTrueSight"			"1"
 			"TrueSightVisionDistance"	"250"
+			"Has_Burning_Death"		"0"	// added by wesp
 		}
 
 		Attributes
@@ -140,8 +141,8 @@ ClanDataTables
 		{
 			"TemplateName"			"ChangBrosClaw" //called specifically by dominate and dementate posession effects.
 			"ParentTemplateName"	"ChangBros" 
-			"Name"					"Claw Brother"
-			"Description"			"The one with the claws... and yes, the schlong."
+			"Name"					"Fratello Artigli"
+			"Description"			"Quello con gli artigli... e si', anche il pistolino."
 		}
 		General
 		{
@@ -156,7 +157,7 @@ ClanDataTables
 		{
 			"TemplateName"			"AsianVampire"
 			"ParentTemplateName"	""	// changed by wesp
-			"Name"					"The Cathayan"	// changed by wesp
+			"Name"					"Il Cathayano"	// changed by wesp
 			"Description"			""
 		}
 
@@ -287,7 +288,7 @@ ClanDataTables
 		{
 			"TemplateName"			"BloodGuardian"
 			"ParentTemplateName"	""	// changed by wesp
-			"Name"					"Blood Guardian"
+			"Name"					"Guardiano del Sangue"
 			"Description"			""
 
 		}
@@ -423,7 +424,7 @@ ClanDataTables
 		{
 			"TemplateName"			"Gargoyle"
 			"ParentTemplateName"	""	// changed by wesp
-			"Name"					"The Gargoyle"
+			"Name"					"Il Gargoyle"
 			"Description"			""
 		}
 
@@ -554,7 +555,7 @@ ClanDataTables
 		{
 			"TemplateName"			"Hengeyokai"
 			"ParentTemplateName"	""	// changed by wesp
-			"Name"					"Zygaena the Hengeyokai"	// changed by wesp
+			"Name"					"Zygaena l'Hengeyokai"	// changed by wesp
 			"Description"			""
 		}
 
@@ -781,7 +782,7 @@ ClanDataTables
 		{
 			"TemplateName"			"ManBat"
 			"ParentTemplateName"	""	// changed by wesp
-			"Name"				"Chiropteran Behemoth"
+			"Name"				"Behemoth Chirottero"
 			"Description"			""
 		}
 
@@ -910,7 +911,7 @@ ClanDataTables
 		{
 			"TemplateName"			"ManBatMinion"
 			"ParentTemplateName"	""	// changed by wesp
-			"Name"					"ManBatMinion"
+			"Name"					"Servo Uomo Pipistrello"
 			"Description"			""
 		}
 
