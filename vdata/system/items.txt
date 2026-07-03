@@ -8,7 +8,7 @@ ItemTypeData
 	InventorySections
 	{
 		"Name"		"Sezioni Inventario"
-		"InternalName"	"Inventory_Sections"
+	"InternalName"	"Inventory_Sections"
 
 		// Note that currently, if inventory sections are added or deleted, 2 minor code changes must occur (shareddefs.h and c_baseplayer.h)
 
@@ -42,8 +42,8 @@ ItemTypeData
 
 		InventorySection
 		{
-			"Name"		"Armi (Mischia)"
-			"InternalName"	"Weapon_Melee"
+			"Name"		"Weapon_Melee"
+	"InternalName"	"Weapon_Melee"
 
 			"IsDisplayed"	"1"
 		}
@@ -51,15 +51,15 @@ ItemTypeData
 		InventorySection
 		{
 			"Name"		"Armi (A Distanza)"
-			"InternalName"	"Weapon_Ranged"
+	"InternalName"	"Weapon_Ranged"
 
 			"IsDisplayed"	"1"
 		}
 
 		InventorySection
 		{
-			"Name"		"Armi (Da Lancio)"
-			"InternalName"	"Weapon_Thrown"
+			"Name"		"Weapon_Thrown"
+	"InternalName"	"Weapon_Thrown"
 
 			"IsDisplayed"	"1"
 		}
@@ -67,7 +67,7 @@ ItemTypeData
 		InventorySection
 		{
 			"Name"		"Armatura"
-			"InternalName"	"Armor"
+	"InternalName"	"Armor"
 
 			"IsDisplayed"	"1"
 		}
@@ -75,7 +75,7 @@ ItemTypeData
 		InventorySection
 		{
 			"Name"		"Generico"
-			"InternalName"	"Generic"
+	"InternalName"	"Generic"
 
 			"IsDisplayed"	"1"
 		}
@@ -83,7 +83,7 @@ ItemTypeData
 		InventorySection
 		{
 			"Name"		"Powerup"
-			"InternalName"	"Powerups"
+	"InternalName"	"Powerups"
 
 			"IsDisplayed"	"1"
 		}
@@ -91,7 +91,7 @@ ItemTypeData
 		InventorySection
 		{
 			"Name"		"Nascosto"
-			"InternalName"	"Hidden"
+	"InternalName"	"Hidden"
 
 			"IsDisplayed"	"0"
 		}
@@ -111,12 +111,12 @@ ItemTypeData
 	ItemTypes
 	{
 		"Name"		"Tipi D'Oggetti"
-		"InternalName"	"Item_Types"
+	"InternalName"	"Item_Types"
 
 		ItemType
 		{
 			"Name"			"Weapon_Melee"
-			"InternalName"		"Weapon_Melee"
+	"InternalName"	"Weapon_Melee"
 
 			"IsWielded"			"1"
 			"IsWorn"			"0"
@@ -128,7 +128,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Weapon_Firearm"
-			"InternalName"		"Weapon_Firearm"
+	"InternalName"	"Weapon_Firearm"
 
 			"IsWielded"			"1"
 			"IsWorn"			"0"
@@ -140,7 +140,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Weapon_Thrown"
-			"InternalName"		"Weapon_Thrown"
+	"InternalName"	"Weapon_Thrown"
 
 			"IsWielded"			"1"
 			"IsWorn"			"0"
@@ -152,7 +152,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Munizioni"
-			"InternalName"		"Ammo"
+	"InternalName"	"Ammo"
 
 			"IsWielded"			"0"
 			"IsWorn"			"0"
@@ -163,7 +163,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Armatura"
-			"InternalName"		"Armor"
+	"InternalName"	"Armor"
 
 			"IsWielded"			"0"
 			"IsWorn"			"1"
@@ -174,7 +174,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Denaro"
-			"InternalName"		"Money"
+	"InternalName"	"Money"
 
 			"IsWielded"			"0"
 			"IsWorn"			"0"
@@ -185,7 +185,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Gioielli"
-			"InternalName"		"Jewelry"
+	"InternalName"	"Jewelry"
 
 			"IsWielded"			"0"
 			"IsWorn"			"1"
@@ -196,7 +196,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Generico"
-			"InternalName"		"Generic"
+	"InternalName"	"Generic"
 
 			"IsWielded"			"0"
 			"IsWorn"			"0"
@@ -207,7 +207,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Powerup"
-			"InternalName"		"Powerup"
+	"InternalName"	"Powerup"
 
 			"IsWielded"			"0"
 			"IsWorn"			"0"
@@ -218,7 +218,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Sacca di Sangue"
-			"InternalName"		"Bloodpack"
+	"InternalName"	"Bloodpack"
 
 			"IsWielded"			"0"
 			"IsWorn"			"0"
@@ -229,7 +229,7 @@ ItemTypeData
 		ItemType
 		{
 			"Name"			"Nascosto"
-			"InternalName"		"Hidden"
+	"InternalName"	"Hidden"
 
 			"IsWielded"			"1"
 			"IsWorn"			"0"
@@ -243,7 +243,7 @@ ItemTypeData
 	BotchTypes
 	{
 		"Name"		"Botch Types"
-		"InternalName"	"Botch_Types"
+	"InternalName"	"Botch_Types"
 
 		BotchType
 		{
@@ -261,7 +261,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Breaks"
-			"InternalName"	"Breaks"
+	"InternalName"	"Breaks"
 
 			"OwnerDamage"	""
 			"AmmoLost"		"0"
@@ -274,7 +274,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Misfire"
-			"InternalName"	"Misfire"
+	"InternalName"	"Misfire"
 
 			"OwnerDamage"	""
 			"AmmoLost"		"1"
@@ -287,7 +287,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Cylinder Falls Open"
-			"InternalName"	"Cylinder_Falls_Open"
+	"InternalName"	"Cylinder_Falls_Open"
 
 			"OwnerDamage"	""
 			"AmmoLost"		"0"
@@ -300,7 +300,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Eject Magazine"
-			"InternalName"	"Eject_Magazine"
+	"InternalName"	"Eject_Magazine"
 
 			"OwnerDamage"	""
 			"AmmoLost"		"0"
@@ -313,7 +313,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Slide Flies Off"
-			"InternalName"	"Slide_Flies_Off"
+	"InternalName"	"Slide_Flies_Off"
 
 			"OwnerDamage"	"1 Bashing"
 			"AmmoLost"		"0"
@@ -326,7 +326,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Bolt Flies Off"
-			"InternalName"	"Bolt_Flies_Off"
+	"InternalName"	"Bolt_Flies_Off"
 
 			"OwnerDamage"	"2 Bashing"
 			"AmmoLost"		"0"
@@ -339,7 +339,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Chamber Explodes"
-			"InternalName"	"Chamber_Explodes"
+	"InternalName"	"Chamber_Explodes"
 
 			"OwnerDamage"	"1 Aggravated"
 			"AmmoLost"		"1"
@@ -352,7 +352,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"String Breaks"
-			"InternalName"	"String_Breaks"
+	"InternalName"	"String_Breaks"
 
 			"OwnerDamage"	""
 			"AmmoLost"		"1"
@@ -365,7 +365,7 @@ ItemTypeData
 		BotchType
 		{
 			"Name"		"Brawl Self Injury"
-			"InternalName"	"Brawl_Self_Injury"
+	"InternalName"	"Brawl_Self_Injury"
 
 			"OwnerDamage"	"1 Bashing"
 			"AmmoLost"		"0"
@@ -381,12 +381,12 @@ ItemTypeData
 	BotchTables
 	{
 		"Name"		"Botch Tables"
-		"InternalName"	"Botch_Tables"
+	"InternalName"	"Botch_Tables"
 
 		BotchTable
 		{
 			"Name"		"Fists/Claws/Bite"
-			"InternalName"	"Fists_Claws_Bite"
+	"InternalName"	"Fists_Claws_Bite"
 
 			"Botch1"		"None"
 			"Botch2"		"None"
@@ -396,7 +396,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Armi da Mischia"
-			"InternalName"	"Melee_Weapons"
+	"InternalName"	"Melee_Weapons"
 
 			"Botch1"		"None"
 			"Botch2"		"None"
@@ -406,7 +406,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Revolver"
-			"InternalName"	"Revolvers"
+	"InternalName"	"Revolvers"
 
 			"Botch1"		"None"
 			"Botch2"		"Misfire"
@@ -416,7 +416,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Pistole"
-			"InternalName"	"Pistols"
+	"InternalName"	"Pistols"
 
 			"Botch1"		"None"
 			"Botch2"		"Eject_Magazine"
@@ -426,7 +426,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Fucili Bolt"
-			"InternalName"	"Bolt_Rifles"
+	"InternalName"	"Bolt_Rifles"
 
 			"Botch1"		"None"
 			"Botch2"		"Misfire"
@@ -436,7 +436,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Fucili Auto/Semi"
-			"InternalName"	"Auto_Semi_Rifles"
+	"InternalName"	"Auto_Semi_Rifles"
 
 			"Botch1"		"None"
 			"Botch2"		"Eject_Magazine"
@@ -446,7 +446,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Fucili a Pompa"
-			"InternalName"	"Shotguns"
+	"InternalName"	"Shotguns"
 
 			"Botch1"		"None"
 			"Botch2"		"Misfire"
@@ -456,7 +456,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Balestra"
-			"InternalName"	"Crossbow"
+	"InternalName"	"Crossbow"
 
 			"Botch1"		"None"
 			"Botch2"		"None"
@@ -466,7 +466,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Grimaldelli"
-			"InternalName"	"Lockpicks"
+	"InternalName"	"Lockpicks"
 
 			"Botch1"		"None"
 			"Botch2"		"Breaks"
@@ -476,7 +476,7 @@ ItemTypeData
 		BotchTable
 		{
 			"Name"		"Rissa"
-			"InternalName"	"Brawl"
+	"InternalName"	"Brawl"
 
 			"Botch1"		"Brawl_Self_Injury"
 			"Botch2"		"Brawl_Self_Injury"
@@ -488,7 +488,7 @@ ItemTypeData
 	ActivationTypes
 	{
 		"Name"		"Tipi di Attivazione"
-		"InternalName"	"Activation_Types"
+	"InternalName"	"Activation_Types"
 
 		// Note that changing these requires associated code changes...
 		ActivationType
@@ -500,37 +500,37 @@ ItemTypeData
 		ActivationType
 		{
 			"Name"		"Attacco"
-			"InternalName"	"Attack"
+	"InternalName"	"Attack"
 		}
 
 		ActivationType
 		{
 			"Name"		"Attacco Secondario"
-			"InternalName"	"Secondary_Attack"
+	"InternalName"	"Secondary_Attack"
 		}
 
 		ActivationType
 		{
 			"Name"		"Zoom Out (Loop)"
-			"InternalName"	"Zoom_Out_Loop"
+	"InternalName"	"Zoom_Out_Loop"
 		}
 
 		ActivationType
 		{
 			"Name"		"Modalita' Primaria"
-			"InternalName"	"Toggle_Primary_Mode"
+	"InternalName"	"Toggle_Primary_Mode"
 		}
 
 		ActivationType
 		{
 			"Name"		"Usa"
-			"InternalName"	"Use"
+	"InternalName"	"Use"
 		}
 
 		ActivationType
 		{
 			"Name"		"Lancia"
-			"InternalName"	"Throw"
+	"InternalName"	"Throw"
 		}
 	}
 
@@ -538,12 +538,12 @@ ItemTypeData
 	StartingEquipTables
 	{
 		"Name"		"Starting Equipment Tables"
-		"InternalName"	"Starting_Equipment_Tables"
+	"InternalName"	"Starting_Equipment_Tables"
 
 		StartingEquip
 		{
 			"Name"		"Default"
-			"InternalName"	"Default"
+	"InternalName"	"Default"
 
 			"Money"		"0"
 			Items
@@ -556,7 +556,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Giocatore fratello"
-			"InternalName"	"Player_Kindred"
+	"InternalName"	"Player_Kindred"
 
 			"Money"		"0"
 			Items
@@ -573,7 +573,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Giocatore Fratello Ventrue"
-			"InternalName"	"Player_Kindred_Ventrue"
+	"InternalName"	"Player_Kindred_Ventrue"
 
 			"Money"		"0"
 			Items
@@ -590,7 +590,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Giocatore Chica"
-			"InternalName"	"Player_Chica"
+	"InternalName"	"Player_Chica"
 
 			"Money"		"0"
 			Items
@@ -608,7 +608,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Giocatore Chica"
-			"InternalName"	"Player_Drifter"
+	"InternalName"	"Player_Drifter"
 
 			"Money"		"0"
 			Items
@@ -626,7 +626,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Giocatore Artista Morto di Fame"
-			"InternalName"	"Player_Starving_Artist"
+	"InternalName"	"Player_Starving_Artist"
 
 			"Money"		"5"
 			Items
@@ -643,7 +643,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Giocatore Malvagio"
-			"InternalName"	"Player_Black_Hearted"
+	"InternalName"	"Player_Black_Hearted"
 
 			"Money"		"0"
 			Items
@@ -661,7 +661,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"			"Giocatore Leopold"
-			"InternalName"	"Player_Leopold"
+	"InternalName"	"Player_Leopold"
 
 			"Money"			"500"
 			Items
@@ -681,7 +681,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"			"Brujah"
-			"InternalName"	"Brujah"
+	"InternalName"	"Brujah"
 
 			"Money"			"500"
 			Items
@@ -692,19 +692,18 @@ ItemTypeData
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_sledgehammer"
-				"Item"	"item_w_glock_17c"
-				"Item"	"item_w_colt_anaconda"
-				"Item"	"item_w_uzi"
 				"Item"	"item_w_remington_m_700"
+				"Item"	"item_w_uzi"
+				"Item"	"item_w_colt_anaconda"
+				"Item"	"item_w_glock_17c"
+				"Item"	"item_w_sledgehammer"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"			"Gangrel"
-			"InternalName"	"Gangrel"
+	"InternalName"	"Gangrel"
 
 			"Money"			"500"
 			Items
@@ -715,19 +714,18 @@ ItemTypeData
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_bush_hook"
-				"Item"	"item_w_thirtyeight"
-				"Item"	"item_w_deserteagle"
-				"Item"	"item_w_mac_10"
 				"Item"	"item_w_remington_m_700"
+				"Item"	"item_w_mac_10"
+				"Item"	"item_w_deserteagle"
+				"Item"	"item_w_thirtyeight"
+				"Item"	"item_w_bush_hook"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"			"Malkavian"
-			"InternalName"	"Malkavian"
+	"InternalName"	"Malkavian"
 
 			"Money"			"500"
 			Items
@@ -738,19 +736,18 @@ ItemTypeData
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_severed_arm"
-				"Item"	"item_w_glock_17c"
-				"Item"	"item_w_colt_anaconda"
-				"Item"	"item_w_uzi"
 				"Item"	"item_w_crossbow"
+				"Item"	"item_w_uzi"
+				"Item"	"item_w_colt_anaconda"
+				"Item"	"item_w_glock_17c"
+				"Item"	"item_w_severed_arm"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"			"Nosferatu"
-			"InternalName"	"Nosferatu"
+	"InternalName"	"Nosferatu"
 
 			"Money"			"500"
 			Items
@@ -761,19 +758,18 @@ ItemTypeData
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_fireaxe"
-				"Item"	"item_w_thirtyeight"
-				"Item"	"item_w_deserteagle"
-				"Item"	"item_w_mac_10"
 				"Item"	"item_w_crossbow"
+				"Item"	"item_w_mac_10"
+				"Item"	"item_w_deserteagle"
+				"Item"	"item_w_thirtyeight"
+				"Item"	"item_w_fireaxe"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"			"Toreador"
-			"InternalName"	"Toreador"
+	"InternalName"	"Toreador"
 
 			"Money"			"500"
 			Items
@@ -784,19 +780,18 @@ ItemTypeData
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_baseball_bat"
-				"Item"	"item_w_glock_17c"
-				"Item"	"item_w_colt_anaconda"
-				"Item"	"item_w_crossbow_flaming"
 				"Item"	"item_w_steyr_aug"
+				"Item"	"item_w_crossbow_flaming"
+				"Item"	"item_w_colt_anaconda"
+				"Item"	"item_w_glock_17c"
+				"Item"	"item_w_baseball_bat"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"			"Tremere"
-			"InternalName"	"Tremere"
+	"InternalName"	"Tremere"
 
 			"Money"			"500"
 			Items
@@ -807,19 +802,18 @@ ItemTypeData
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_tire_iron"
-				"Item"	"item_w_thirtyeight"
-				"Item"	"item_w_deserteagle"
-				"Item"	"item_w_supershotgun"
 				"Item"	"item_w_remington_m_700"
+				"Item"	"item_w_supershotgun"
+				"Item"	"item_w_deserteagle"
+				"Item"	"item_w_thirtyeight"
+				"Item"	"item_w_tire_iron"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"			"Ventrue"
-			"InternalName"	"Ventrue"
+	"InternalName"	"Ventrue"
 
 			"Money"			"500"
 			Items
@@ -830,79 +824,75 @@ ItemTypeData
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_baton"
-				"Item"	"item_w_glock_17c"
-				"Item"	"item_w_colt_anaconda"
-				"Item"	"item_w_ithaca_m_37"
 				"Item"	"item_w_rem_m_700_bach"
+				"Item"	"item_w_ithaca_m_37"
+				"Item"	"item_w_colt_anaconda"
+				"Item"	"item_w_glock_17c"
+				"Item"	"item_w_baton"
 			}
 		}
 		StartingEquip
 		{
 			"Name"			"Condotierre"
-			"InternalName"	"Condotierre"
+	"InternalName"	"Condotierre"
 
 			"Money"			"500"
 			Items
 			{
 				"Item"	"item_w_unarmed"
-				"Item"	"item_a_lt_cloth"
+				"Item"	"item_a_hvy_cloth"
 				"Item"	"weapon_physcannon"
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_knife"
-				"Item"	"item_w_glock_17c"
-				"Item"	"item_w_colt_anaconda"
-				"Item"	"item_w_supershotgun"
 				"Item"	"item_w_remington_m_700"
+				"Item"	"item_w_mac_10"
+				"Item"	"item_w_supershotgun"
+				"Item"	"item_w_glock_17c"
+				"Item"	"item_w_knife"
 			}
 		}
 		StartingEquip
 		{
 			"Name"			"Inquisitor"
-			"InternalName"	"Inquisitor"
+	"InternalName"	"Inquisitor"
 
 			"Money"			"500"
 			Items
 			{
 				"Item"	"item_w_unarmed"
-				"Item"	"item_a_lt_cloth"
+				"Item"	"item_a_hvy_leather"
 				"Item"	"weapon_physcannon"
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_katana"
-				"Item"	"item_w_glock_17c"
-				"Item"	"item_w_colt_anaconda"
-				"Item"	"item_w_steyr_aug"
 				"Item"	"item_w_rem_m_700_bach"
+				"Item"	"item_w_steyr_aug"
+				"Item"	"item_w_colt_anaconda"
+				"Item"	"item_w_ithaca_m_37"
+				"Item"	"item_w_avamp_blade"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"			"Mercenary"
-			"InternalName"	"Mercenary"
+	"InternalName"	"Mercenary"
 
 			"Money"			"500"
 			Items
 			{
 				"Item"	"item_w_unarmed"
-				"Item"	"item_a_lt_cloth"
+				"Item"	"item_a_lt_leather"
 				"Item"	"weapon_physcannon"
 				"Item"	"item_g_keyring"
 				"Item"	"item_g_wallet"
 				"Item"	"item_g_lockpick"
-				"Item"	"item_w_fists"
-				"Item"	"item_w_torch"
-				"Item"	"item_w_thirtyeight"
-				"Item"	"item_w_deserteagle"
-				"Item"	"item_w_flamethrower"
 				"Item"	"item_w_crossbow"
+				"Item"	"item_w_deserteagle"
+				"Item"	"item_w_uzi"
+				"Item"	"item_w_thirtyeight"
+				"Item"	"item_w_torch"
 			}
 		}
 
@@ -911,7 +901,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"			"NPCGeneric"
-			"InternalName"	"NPCGeneric"
+	"InternalName"	"NPCGeneric"
 
 			"Money"		"0"
 			Items
@@ -922,7 +912,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"			"TzimisceCreation1"
-			"InternalName"	"TzimisceCreation1"
+	"InternalName"	"TzimisceCreation1"
 
 			"Money"		"0"
 			Items
@@ -934,7 +924,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"			"TzimisceCreation2"
-			"InternalName"	"TzimisceCreation2"
+	"InternalName"	"TzimisceCreation2"
 
 			"Money"		"0"
 			Items
@@ -947,7 +937,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"			"TzimisceCreation3"
-			"InternalName"	"TzimisceCreation3"
+	"InternalName"	"TzimisceCreation3"
 
 			"Money"		"0"
 			Items
@@ -959,19 +949,19 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"			"ChunkGuard"
-			"InternalName"	"ChunkGuard"
+	"InternalName"	"ChunkGuard"
 
 			"Money"		"0"
 			Items
 			{
-				"Item"	"item_w_colt_anaconda"
+// removed by wesp				"Item"	"item_w_colt_anaconda"
 			}
 		}
 
 		StartingEquip
 		{
 			"Name"		"Civile"
-			"InternalName"	"Civilian"
+	"InternalName"	"Civilian"
 
 			"Money"		"0"
 			Items
@@ -986,7 +976,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Gargoyle"
-			"InternalName"	"Gargoyle"
+	"InternalName"	"Gargoyle"
 
 			"Money"		"0"
 			Items
@@ -998,7 +988,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Hengeyokai"
-			"InternalName"	"Hengeyokai"
+	"InternalName"	"Hengeyokai"
 
 			"Money"		"0"
 			Items
@@ -1010,7 +1000,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"ManBat"
-			"InternalName"	"ManBat"
+	"InternalName"	"ManBat"
 
 			"Money"		"0"
 			Items
@@ -1022,7 +1012,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"ManBatMinion"
-			"InternalName"	"ManBatMinion"
+	"InternalName"	"ManBatMinion"
 
 			"Money"		"0"
 			Items
@@ -1034,7 +1024,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"MingXiao"
-			"InternalName"	"MingXiao"
+	"InternalName"	"MingXiao"
 
 			"Money"		"0"
 			Items
@@ -1047,7 +1037,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"MingXiaoTentacle"
-			"InternalName"	"MingXiaoTentacle"
+	"InternalName"	"MingXiaoTentacle"
 
 			"Money"		"0"
 			Items
@@ -1059,7 +1049,7 @@ ItemTypeData
 		StartingEquip
 		{
 			"Name"		"Yukie"
-			"InternalName"	"Yukie"
+	"InternalName"	"Yukie"
 
 			"Money"		"100"
 			Items
@@ -1073,12 +1063,12 @@ ItemTypeData
 	ExcludedEquipTables
 	{
 		"Name"		"Excluded Equipment Tables"
-		"InternalName"	"Excluded_Equipment_Tables"
+	"InternalName"	"Excluded_Equipment_Tables"
 
 		ExcludedEquip
 		{
 			"Name"		"Default"
-			"InternalName"	"Default"
+	"InternalName"	"Default"
 
 
 			"ExcludedFlag"	"ClawedForm"
@@ -1088,7 +1078,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"Toreador"
-			"InternalName"	"Toreador"
+	"InternalName"	"Toreador"
 
 
 			"ExcludedFlag"	"No_BlueBlood"
@@ -1097,7 +1087,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"Clawed_Form"
-			"InternalName"	"Clawed_Form"
+	"InternalName"	"Clawed_Form"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1107,7 +1097,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"Clawed_Form_Toreador"
-			"InternalName"	"Clawed_Form_Toreador"
+	"InternalName"	"Clawed_Form_Toreador"
 
 
 			"ExcludedFlag"	"No_BlueBlood"
@@ -1118,7 +1108,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"Wolf_Form"
-			"InternalName"	"Wolf_Form"
+	"InternalName"	"Wolf_Form"
 
 
 			"ExcludedFlag"	"ClawedForm"
@@ -1128,7 +1118,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"TzimisceCreation1"
-			"InternalName"	"TzimisceCreation1"
+	"InternalName"	"TzimisceCreation1"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1137,7 +1127,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"TzimisceCreation2"
-			"InternalName"	"TzimisceCreation2"
+	"InternalName"	"TzimisceCreation2"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1146,7 +1136,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"TzimisceCreation3"
-			"InternalName"	"TzimisceCreation3"
+	"InternalName"	"TzimisceCreation3"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1156,7 +1146,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"Gargoyle"
-			"InternalName"	"Gargoyle"
+	"InternalName"	"Gargoyle"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1165,7 +1155,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"Hengeyokai"
-			"InternalName"	"Hengeyokai"
+	"InternalName"	"Hengeyokai"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1174,7 +1164,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"ManBat"
-			"InternalName"	"ManBat"
+	"InternalName"	"ManBat"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1183,7 +1173,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"ManBatMinion"
-			"InternalName"	"ManBatMinion"
+	"InternalName"	"ManBatMinion"
 
 
 			"RequiredFlag"	"ClawedForm"
@@ -1192,7 +1182,7 @@ ItemTypeData
 		ExcludedEquip
 		{
 			"Name"		"ChunkGuard"
-			"InternalName"	"ChunkGuard"
+	"InternalName"	"ChunkGuard"
 
 			"ExcludedFlag"	"ClawedForm"
 			"ExcludedFlag"	"WolfForm"
@@ -1218,12 +1208,12 @@ ItemTypeData
 	MPEquipTables
 	{
 		"Name"		"MP Equipment Tables"
-		"InternalName"	"MP_Equipment_Tables"
+	"InternalName"	"MP_Equipment_Tables"
 
 		MPEquip
 		{
 			"Name"		"Default"
-			"InternalName"	"Default"
+	"InternalName"	"Default"
 
 //			"Money"		"0"
 			Equip
@@ -1299,7 +1289,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Brujah"
-			"InternalName"	"Brujah"
+	"InternalName"	"Brujah"
 
 			Equip
 			{
@@ -1374,7 +1364,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Gangrel"
-			"InternalName"	"Gangrel"
+	"InternalName"	"Gangrel"
 
 			Equip
 			{
@@ -1449,7 +1439,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Malkavian"
-			"InternalName"	"Malkavian"
+	"InternalName"	"Malkavian"
 
 			Equip
 			{
@@ -1524,7 +1514,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Nosferatu"
-			"InternalName"	"Nosferatu"
+	"InternalName"	"Nosferatu"
 
 			Equip
 			{
@@ -1599,7 +1589,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Toreador"
-			"InternalName"	"Toreador"
+	"InternalName"	"Toreador"
 
 			Equip
 			{
@@ -1674,7 +1664,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Tremere"
-			"InternalName"	"Tremere"
+	"InternalName"	"Tremere"
 
 			Equip
 			{
@@ -1749,7 +1739,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Ventrue"
-			"InternalName"	"Ventrue"
+	"InternalName"	"Ventrue"
 
 			Equip
 			{
@@ -1824,7 +1814,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Leopold1"
-			"InternalName"	"Leopold1"
+	"InternalName"	"Leopold1"
 
 			Equip
 			{
@@ -1905,7 +1895,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Leopold2"
-			"InternalName"	"Leopold2"
+	"InternalName"	"Leopold2"
 
 			Equip
 			{
@@ -1985,7 +1975,7 @@ ItemTypeData
 		MPEquip
 		{
 			"Name"		"Leopold3"
-			"InternalName"	"Leopold3"
+	"InternalName"	"Leopold3"
 
 			Equip
 			{
@@ -2063,3 +2053,4 @@ ItemTypeData
 		}
 	}
 }
+
