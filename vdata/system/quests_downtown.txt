@@ -914,10 +914,10 @@ QuestTable
 			"AwardXP"	"Sarc01"
 		}
 
-		CompletionState
+		CompletionState	// changed by wesp
 		{
 			"ID"		"3" // Gary 431
-			"Description"	"Gary ti ha informato che il sarcofago e' alla dimora di Giovanni. Ti ha anche disegnato una mappa. Che dolce."
+			"Description"	"Gary ti ha detto dove si trova il sarcofago. Ti ha anche disegnato una mappa. Che dolce."
 			"Type"		"incomplete"
 			"AwardXP"	"Sarc02"
 		}
@@ -930,12 +930,6 @@ QuestTable
 			"AwardXP"	"Sarc03"
 		}
 
-		CompletionState
-		{
-			"ID"		"5" // added by wesp
-			"Description"	"Hai ucciso Bruno Giovanni. Devi ancora consegnare il sarcofago al principe."
-			"Type"		"incomplete"
-		}
 	}
 
 	Quest
