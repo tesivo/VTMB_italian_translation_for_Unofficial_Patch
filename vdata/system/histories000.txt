@@ -7,6 +7,24 @@ HistoryDataTables
 	{
 		Text
 		{
+			"Name"				"Nessuna"
+			"Description"			"Non ricordi nulla di prima dell'Abbraccio."
+			"ShortDescription"		"Nessun cambiamento nelle statistiche."
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"InternalName"	"None"
+			"CritterScope"	"Kindred()"
+			"Effect"		""
+		}
+	}
+
+	HistoryData	// added by wesp
+	{
+		Text
+		{
 			"Name"				"Omosessuale"
 			"Description"			"Hai sempre trovato il tuo genere molto piu' attraente dell'altro sesso, anche se molte persone hanno ancora problemi ad affrontarlo. Forse la societa' vampirica e' diversa..."
 			"ShortDescription"		"Inizia come omosessuale."
