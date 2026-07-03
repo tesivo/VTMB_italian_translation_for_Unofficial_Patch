@@ -1,0 +1,61 @@
+TerminalDefinition	// added by wesp
+{
+	"screen saver"		"Societa' di Leopold"	// Bounces around on the screen when the terminal is not being used, changed by wesp
+	"brackets"		""				// these surround the command prompt (2 characters), changed by wesp
+	"difficulty"		"5"
+
+	LogonScreen	// displayed when the user first logs on
+	{
+		// Any number of lines are acceptable
+		"line0"		"Societa' di Leopold"
+	}
+
+	SubDir
+	{
+		"name"			"cariche"
+		"password"		"soc"
+		"description"		"Abilita o disabilita le cariche"
+
+		Function
+		{
+			"name"		"on"
+			"description"	"Cariche on"
+			"runtext"	"Cariche attivate."
+			"trigger"	"0"				// fires entity output 0 when this command is run
+		}
+
+		Function
+		{
+			"name"		"off"
+			"description"	"Cariche off"
+			"runtext"	"Cariche disattivate."
+			"trigger"	"1"				// fires entity output 0 when this command is run
+		}
+	}
+
+	SubDir
+	{
+		"name"			"heat sig"
+		"password"		"soc"
+		"description"		"Cambia il settaggio della segnatura termica"
+
+		Function
+		{
+			"name"		"umano"
+			"description"	"Setta la carica sulla segnatura termica umana"
+			"runtext"	"Cariche settate su umano."
+			"trigger"	"3"				// fires entity output 3 when this command is run
+		}
+
+		Function
+		{
+			"name"		"vampire"
+			"description"	"Setta la carica sulla segnatura termica vampirica"
+			"runtext"	"Cariche settate su vampiro."
+			"trigger"	"2"				// fires entity output 2 when this command is run
+			"runscript"	"vampireAttack()"
+		}
+
+
+	}
+}
