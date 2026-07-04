@@ -29,6 +29,7 @@ TerminalDefinition
 			"name"		"Queens Suite"
 			"description"	"Occupata"
 			"runtext"	"La Queens Suite e' OCCUPATA. Ospite: Ingvar Johansen. Prenotata fino: DA COMUNICARE"
+		"dependency"	"G.Patch_Plus == 1"		// added by wesp
 		}
 
 				Function
@@ -100,6 +101,7 @@ Bistecca e Aragosta: $80"
 			"name"		"Johansen, A"
 			"description"	"Transazioni"
 			"runtext"	"Nessuna"
+			"dependency"	"G.Patch_Plus == 1"		// added by wesp
 		}
 
 		Function
