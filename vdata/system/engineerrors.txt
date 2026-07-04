@@ -1,0 +1,12 @@
+// Error Messages
+//
+// -- The following are error messages, in the format of
+//    "EngineID"	"Translated Text"
+// DO NOT TRANSLATE the "EngineID" component
+
+ErrorMessages
+{
+	"ID_SaveFailed_0"	"Si e' verificato un errore durante il salvataggio della partita, i tuoi progressi NON sono stati salvati."
+	"ID_ChangeLevelFail_0"	"Errore di cambio mappa. Spazio su disco insufficiente. Il gioco verra' chiuso."
+	"ID_ChangeLevelFail_1"	"ERRORE DI SALVATAGGIO"
+}

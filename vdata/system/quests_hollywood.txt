@@ -690,7 +690,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"2" // "killing" Andrei, changed by wesp
-			"Description"	"Hai sconfitto Andrei nel suo rifugio al 609 di King's Way e ottenuto l'accesso alle fognature che ti guideranno dal Nosferatu."
+			"Description"	"Hai sconfitto Andrei nel suo rifugio al 609 di King's Way e ottenuto l'accesso alle fognature che, con un po' di fortuna, ti condurranno dai Nosferatu. Dovresti parlarne anche con Isaac piu' tardi."
 			"Type"		"incomplete"
 			"AwardXP"	"Kings01"
 		}
@@ -705,6 +705,13 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"4" // added by wesp
+			"Description"	"Hai detto a Isaac che hai sconfitto lo Tzimisce nella sua tana al 609 di King's Way, e lui ti ha fatto un regalo per il tuo aiuto. Dovrai comunque tornare nelle fognature per trovare i Nosferatu."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"5" // added by wesp
 			"Description"	"Hai detto a Isaac che hai sconfitto lo Tzimisce nella sua tana al 609 di King's Way, e lui ti ha fatto un regalo per il tuo aiuto."
 			"Type"		"success"
 		}

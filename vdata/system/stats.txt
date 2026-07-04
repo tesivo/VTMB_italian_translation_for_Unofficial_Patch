@@ -2103,19 +2103,19 @@ StatData
 			// These are the human ones
 			Stat
 			{
-				"Name"		"Scudo di Fede"
+				"Name"		"Scudo di Fede"	// changed by wesp
 				"InternalName"	"Shield_of_Faith"
-				"HelpText"	""
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Level1"
-				"HelpTextL2"	"Level2"
-				"HelpTextL3"	"Level3"
-				"HelpTextL4"	"Level4"
-				"HelpTextL5"	"Level5"
+				"HelpText"	"Lo scudo spirituale protegge il fedele da ogni danno fisico inflitto da creature non-morte e malvagie, e aumenta anche la possibilita' di resistere ai loro ripugnanti attacchi mentali."	// added by wesp
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL2"	"Aggiunge 2 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL3"	"Aggiunge 3 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL4"	"Aggiunge 4 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL5"	"Aggiunge 5 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
 				"ShownInFeedback"	"1"
 
 				"Min"			"-1"
@@ -2179,11 +2179,11 @@ StatData
 				"Name"		"Luce Santa"
 				"InternalName"	"Holy_Light"
 				"HelpText"	"Evoca la Luce Santa per portare la gloria di Dio tra i pagani non morti, rendendoli temporaneamente ciechi e facili prede."
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
 				"HelpTextL1"	"Costa 1 fede per ogni attivazione. Dura 4 secondi per ogni attivazione."	// added by wesp
 				"HelpTextL2"	"Costa 2 fede per ogni attivazione. Dura 6 secondi per ogni attivazione."	// added by wesp
 				"HelpTextL3"	"Costa 3 fede per ogni attivazione. Dura 8 secondi per ogni attivazione."	// added by wesp
@@ -2215,16 +2215,16 @@ StatData
 				"Name"		"Scudo Mentale"
 				"InternalName"	"Mind_Shield"
 				"HelpText"	""
-				"HelpTextH1"	"Level 1:"
-				"HelpTextH2"	"Level 2:"
-				"HelpTextH3"	"Level 3:"
-				"HelpTextH4"	"Level 4:"
-				"HelpTextH5"	"Level 5:"
-				"HelpTextL1"	"Level1"
-				"HelpTextL2"	"Level2"
-				"HelpTextL3"	"Level3"
-				"HelpTextL4"	"Level4"
-				"HelpTextL5"	"Level5"
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Livello1"
+				"HelpTextL2"	"Livello2"
+				"HelpTextL3"	"Livello3"
+				"HelpTextL4"	"Livello4"
+				"HelpTextL5"	"Livello5"
 
 				"ShownInFeedback"	"1"
 
@@ -3120,11 +3120,11 @@ StatData
 					"Effect"	"Discipline (Fortitude)"
 				}
 
-//				Action
-//				{
-// wesp				"Value"	">0"
-//					"Effect"	"Discipline (FortitudeFX)"
-//				}
+				Action
+				{
+					"Value"	">0"
+					"Effect"	"Discipline (FortitudeFX)"
+				}
 
 				Action
 				{
@@ -3210,6 +3210,7 @@ StatData
 				"IncPredependency"	"BloodPool > 0"
 				"IncPredependency"	"Health < Max_Health"
 				"IncPredependency"	"ObfuscateCanInc == 1"
+				"IncPredependency"	"Active_Protean < 5" // added by wesp
 
 				Action
 				{
@@ -3661,6 +3662,7 @@ StatData
 
 				"IncPredependency"	"BloodPool > 0"
 				"IncPredependency"	"Health < Max_Health"
+				"IncPredependency"	"Active_Obfuscate < 1" // added by wesp
 
 // Not Implemented Yet
 //				// OR:

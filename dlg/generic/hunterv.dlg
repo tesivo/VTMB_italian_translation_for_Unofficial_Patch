@@ -1,0 +1,30 @@
+{	1	}{	Salve, fratello, cosa ci fai qui da solo?	}{	Salve, sorella, cosa ci fai qui da sola?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Sto solo esplorando la nostra base. Bella scatola quella che hai lì, fratello.	}{	Sto solo esplorando la nostra base. Bella scatola quella che hai lì, fratello.	}{	11	}{	}{	G.Vendor_Talked = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	È la mia collezione personale di oggetti che potrebbero aiutarci nella guerra contro il male. Mi è costata parecchio denaro metterla insieme, ma ci sono articoli che potrei essere disposto a vendere, se ti interessa.	}{	È la mia collezione personale di oggetti che potrebbero aiutarci nella guerra contro il male. Mi è costata parecchio denaro metterla insieme, ma ci sono articoli che potrei essere disposto a vendere, se ti interessa.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Certo, mostrami cosa hai.	}{	Certo, mostrami cosa hai.	}{	0	}{	}{	npc.StartBarter(0, 0)	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	No grazie. Ho già tutto ciò di cui ho bisogno.	}{	No grazie. Ho già tutto ciò di cui ho bisogno.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Allora, vuoi comprare qualcosa adesso?	}{	Allora, vuoi comprare qualcosa adesso?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Forse, fammi dare un'occhiata.	}{	Forse, fammi dare un'occhiata.	}{	0	}{	}{	npc.StartBarter(0, 0)	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	No grazie.	}{	No grazie.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	(Starting Condition)	}{	}{	21	}{	G.Vendor_Talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

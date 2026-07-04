@@ -95,7 +95,18 @@ TerminalDefinition
 			"runtext"	"Finestra 1: MALFUNZIONANTE.
 					Finestra 2: Funzionante.
 					Finestra 3: Funzionante.
-					Note: Parti in ordine. -FB"
+					Note: Pezzi ordinati per la finestra 1. -FB"	// changed by wesp
+			"dependency"	"G.Sinbin_Hackwindow == 0"	// added by wesp
+		}
+
+		Function	// added by wesp
+		{
+			"name"		"Stato"
+			"description"	"LETTURA DATI DI SISTEMA"
+			"runtext"	"Finestra 1: MALFUNZIONANTE.
+					Finestra 2: Chiusa.
+					Finestra 3: Chiusa."
+	 		"dependency"	"G.Sinbin_Hackwindow == 1"
 		}
 
 		Function

@@ -57,5 +57,27 @@ WeaponData
 				"height"	"64"
 			}
 		}
+		"ammo"	// added by wesp
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/webcam_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+		"ammo2"	// added by wesp
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/webcam"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
 	}
 }

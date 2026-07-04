@@ -52,6 +52,7 @@ Explosive02 | Trovato Bertram Tung | 101
 Explosive03 | Fatto esplodere il magazzino | 401
 Explosive04 | Posizionato l'Astrolite senza uccidere nessuno | 201
 Explosive05 | Comunicato a LaCroix la distruzione del magazzino | 101
+Explosive06 | Installato l'Astrolite senza essere scoperti | 201
 
 >
 > Haunted Hotel
@@ -129,6 +130,7 @@ Wblood02 | Riportato con successo il sangue a LaCroix | 101
 > Total Experience Value: 2
 >
 Danielle01 | Convinto Danielle a visitare la Banca del Sangue | 201
+Danielle02 | Parlato con Vandal dopo la liberazione di Lily | 101
 
 >
 > Carnival of Death
@@ -165,7 +167,6 @@ Museum04 | Completato il caso del museo senza uccidere nessuno | 201
 Sarc01 | Trovato Gary | 201
 Sarc02 | Scoperta la posizione del sarcofago | 201
 Sarc03 | Riportato il sarcofago al principe | 201
-Sarc04 | Ucciso Bruno Giovanni | 101
 
 >
 > Talk to Professor at Society
@@ -177,7 +178,6 @@ Society01 | Ucciso Bach | 401
 Society02 | Parlato al professore | 201
 Society03 | Salvato il professore | 201
 Society04 | Scoperto il segreto riguardo il sarcofago dal professore | 201
-Society05 | Salvato Ash | 101
 
 >
 > Snuff Film
@@ -263,6 +263,7 @@ Gargoyle01 | Distrutto il Gargoyle | 201
 Gargoyle02 | Convinto il Gargoyle ad allearsi con Isaac | 301
 Gargoyle03 | Detto ad Isaac di Regent e del Gargoyle | 201
 Gargoyle04 | Detto ad Isaac del Gargoyle | 101
+Gargoyle05 | Scoperto la verita' sul Reggente e sul Gargoyle | 201
 
 >
 > Plague Bearer
@@ -336,6 +337,7 @@ Necro02 | Informato Pisha che hai patteggiato con Milligan | 101
 >
 Occult01 | Ritrovato un misterioso oggetto per Pisha | 101
 Occult02 | Barattato il misterioso oggetto con Pisha | 101
+Occult03 | Recuperato tutti gli oggetti occulti per Pisha | 101
 
 >
 > Strip to Hunt
@@ -360,6 +362,7 @@ Writer02 | Scopri il nome del collaboratore di Hatter | 101
 Writer03 | Hai ucciso Julius | 101
 Writer04 | Completata la quest di VV | 101
 Writer05 | Consegnato il manoscritto a VV | 101
+Writer06 | Fatto lasciare la citta' a Julius | 101
 
 >
 > Hunters Hunting
@@ -445,6 +448,7 @@ Mandarin03 | Liberato Barabus | 201
 Yukie01 | Ming-Xiao ti ha detto che il nome di hengeyokai e' Zygaena | 201
 Yukie02 | Stabilito l'incontro con Zygaena | 201
 Yukie03 | Ucciso Hengeyokai | 301
+Yukie04 | Ucciso l'Hengeyokai nella sua forma umana | 201
 
 >
 > Eye Gouge Hell
@@ -481,6 +485,7 @@ Web01    | Attivato l'hub di Santa Monica | 201
 Web02 	 | Attivato l'hub di Downtown | 201
 Web03 	 | Attivato l'hub di Hollywood | 201
 Web04 	 | Attivato l'hub di Chinatown | 201
+Web05    | Preso quello che c'era nella cassaforte | 101
 
 >
 > Muddy Hunt
@@ -529,3 +534,50 @@ Beckett02    | Scoperte nuove informazioni su Beckett | 101
 Gio01    | Aiutato uno dei Giovanni a cacciare nei guai gli altri | 101
 Gio02    | Aiutato uno dei Giovanni a cacciare nei guai gli altri | 101
 Gio03    | Aiutato uno dei Giovanni a cacciare nei guai gli altri | 101
+
+>
+> Ash
+> Total Experience Value: 2
+> added by wesp
+Ash01 | Salvato Ash | 201
+
+>
+> Heather
+> Total Experience Value: 1
+> added by wesp
+Heather01 | Salvato la ragazza della clinica | 101
+
+>
+> Poster
+> Total Experience Value: 1
+> added by wesp
+Poster01 | Ottenuto tutti i poster di Gary | 101
+
+>
+> Copper
+> Total Experience Value: 1
+> added by wesp
+Copper01 | Sfruttato il sangue chiaro | 101
+
+>
+> Trip
+> Total Experience Value: 1
+> added by wesp
+Trip01 | Ottenuto una scatola di medicine per Trip | 101
+
+>
+> Library
+> Total Experience Value: 3
+> added by wesp
+Library01 | Fermato il rituale dei Sabbat | 201
+Library02 | Non ucciso nessuna guardia nella biblioteca | 101
+
+>
+> Hunter
+> Total Experience Value: 25
+>
+Hunter01  | Ripulito il tempio di Chinatown | 501
+Hunter02  | Ripulito l'hotel Hallowbrook | 501
+Hunter03  | Ripulito la villa italiana | 501
+Hunter04  | Ripulito le strade di Santa Monica | 501
+Hunter05  | Difeso il monastero | 501

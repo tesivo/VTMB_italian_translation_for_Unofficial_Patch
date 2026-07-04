@@ -987,7 +987,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"6" // Kill Ming and take key for Nines or yourself
-			"Description"	"Hai ucciso Ming-Xiao e ritrovato la chiave per il principe. E' tempo per il principe di cadere.""	// changed by wesp
+			"Description"	"Hai ucciso Ming-Xiao e ritrovato la chiave per il principe. E' tempo per il principe di cadere."	// changed by wesp
 			"Type"		"success"
 			"AwardXP"	"Ming02"
 		}
@@ -1176,15 +1176,104 @@ Incontriamoci dove brucia il mistico sole.\""
 		CompletionState
 		{
 			"ID"		"2"
-			"Description"	"Consegna la chiave al principe e occupati di lui."
+			"Description"	"Hai dato una bella ripulita ai fantasmi del tempio."
+			"Type"		"success"
+			"AwardXP"	"Hunter01"
+		}
+
+	}
+
+	Quest	// added by wesp
+	{
+		"Title"		"Chasseur d'Hallowbrook"
+		"DisplayName"	"Servizio in Camera"
+
+		CompletionState
+		{
+			"ID"		"1"
+			"Description"	"Uccidi le forze del male all'interno dell'hotel Hallowbrook."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2"
+			"Description"	"Hai spazzato via l'hotel con la furia di Dio."
+			"Type"		"success"
+			"AwardXP"	"Hunter02"
+		}
+
+	}
+
+	Quest	// added by wesp
+	{
+		"Title"		"Chasseur de Giovanni"
+		"DisplayName"	"Villa Maniacale"
+
+		CompletionState
+		{
+			"ID"		"1"
+			"Description"	"Elimina i non-morti e gli altri nemici della villa italiana, avventurandoti nelle loro cripte piu' oscure."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2"
+			"Description"	"La villa italiana non e' altro che una graziosa casa di campagna, ormai."
+			"Type"		"success"
+			"AwardXP"	"Hunter03"
+		}
+
+	}
+
+	Quest	// added by wesp
+	{
+		"Title"		"Chasseur de chasse au sang"
+		"DisplayName"	"Festa di Strada"
+
+		CompletionState
+		{
+			"ID"		"1"
+			"Description"	"Elimina tutti i demoni che scatenano il caos a Santa Monica, poi esci dal passaggio sotterraneo vicino alle cauzioni di Kilpatrick."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2"
+			"Description"	"Santa Monica e' di nuovo un paradiso per i turisti."
+			"Type"		"success"
+			"AwardXP"	"Hunter04"
+		}
+
+	}
+
+	Quest	// added by wesp
+	{
+		"Title"		"Société du Chasseur"
+		"DisplayName"	"Difesa Interna"
+
+		CompletionState
+		{
+			"ID"		"1"
+			"Description"	"Arma la trappola esplosiva a guardia dell'ingresso principale del monastero. La password e' soc."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2"
+			"Description"	"Hai armato la trappola esplosiva, ora uccidi tutti i vampiri che attaccano la tua base e poi torna dal tuo capo una volta finito."
 			"Type"		"incomplete"
 		}
 
 		CompletionState
 		{
 			"ID"		"3"
-			"Description"	"Tratta con il principe per Ming-Xiao."
-			"Type"		"incomplete"
+			"Description"	"Sei riuscito a fermare l'assalto vampirico."
+			"Type"		"success"
+			"AwardXP"	"Hunter05"
 		}
 
 	}
