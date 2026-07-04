@@ -1,0 +1,76 @@
+
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	
+	"infomodel"	"models/items/Diary/Info/Info_Diari.mdl"	// changed by wesp
+	"playermodel"	"models/items/Diary/Ground/Diari.mdl"	// changed by wesp
+	
+	"anim_prefix"	" "
+
+	"printname"	"Diario"
+	"description"	"I resti bruciati di un diario:
+
+			05/30/1958 - Siamo appena arrivati qui, all'Ocean House. Faremo una vacanza di una settimana qui a Santa Monica, e Ed ha prenotato una stanza per la grande apertura dell'hotel. E' un posto meraviglioso, quasi magico. I bambini hanno nuotato per tutto il pomeriggio.
+
+			05/31/1958 - I primi due giorni sono stati quasi perfetti, eccetto per Ed che non smette di chiedermi del medaglione di mia madre. Pensa che sia stato inviato da qualche altro ammiratore. Ed e' cosi' dolce, ma quando e' geloso da' il peggio di se'. Spero che si senta meglio domani.
+
+			06/01/1958 - C'e' il sole oggi, nemmeno una nuvola nel cielo. Ed sembra un po' nervoso, continua a chiedermi chi sia il mio \"nuovo ragazzo\". Stupido Ed...
+
+			06/03/1958 - C'e' stato un rinfresco per gli ospiti dell'hotel questa mattina... una gran bella cosa. Ed e' di cattivo umore. Non so cosa fare per rassicurarlo che lui e' il mio unico amore. L'unico momento in cui l'ho visto riprendersi e' stato quando parlava col giardiniere. I ragazzi e i loro arnesi....
+
+			06/04/1958 - Mancano solo due giorni, e grazie a Dio ritorneremo a casa. Ed non vuole parlare con me o con i bambini e l'ho scoperto piu' di una volta nel bagno che teneva il medaglione e lo fissava. Temo che sia vittima di una specie di esaurimento. Gli ho detto che potevamo tornare a casa, ma ha risposto di no con la testa. Non mi guarda nemmeno. Voglio tornare a casa.
+
+			06/05/1958 - Ed si e' alzato presto questa mattina e da allora non l'ho piu' visto. Se non si fa vivo nelle prossime ore, chiamero' il direttore. Il piccolo Ed e' andato a cercarlo giu' senza il mio permesso. Mandero' Tiffany a prenderlo, se... aspetta... qualcuno sta bussando alla porta....
+
+			Oh mio Dio, Ed e' coperto di sangue... vuole uccidermi... sono chiusa nel bagno... e' diventato pazzo... continua ad urlare che staremo per sempre insieme e non mi lascera' andare... qualcuno venga a... (La scrittura si affievolisce alla fine della pagina.)"
+
+
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"is_wieldable"		"0"
+	"weight"		"1"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"-1"
+	"is_visible_in_hud"		"1"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Diari_SEL"	// changed by wesp
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Diari"	// changed by wesp
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}
