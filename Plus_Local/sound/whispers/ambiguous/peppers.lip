@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Try the corpse in the oven with peppers and fur.
+}
+WORDS
+{
+WORD blah 0.000 4.608
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 49 "Prova il cadavere in forno con peperoni e pelo." 0.000 4.608
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

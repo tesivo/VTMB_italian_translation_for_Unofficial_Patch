@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Deep of the Atlantic, dark, dreaming, sleeping...
+}
+WORDS
+{
+WORD blah 0.000 9.200
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 58 "Nel profondo dell'Atlantico, buio, sognando, dormendo..." 0.000 9.200
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

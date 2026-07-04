@@ -1,0 +1,170 @@
+VERSION 1.2
+PLAINTEXT
+{
+Radio Loop 1
+}
+WORDS
+{
+WORD talk-a 000 025
+{
+}
+WORD talk-b 025 068
+{
+}
+WORD talk-c 068 078
+{
+}
+WORD talk-d 078 103
+{
+}
+WORD talk-e 103 137
+{
+}
+WORD talk-f 137 169
+{
+}
+WORD comm-a 169 227
+{
+}
+WORD comm-b 227 282
+{
+}
+WORD comm-c 282 313
+{
+}
+WORD comm-d 313 370
+{
+}
+WORD comm-e 370 426
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 403 "
+Buonasera LA, siete ancora svegli a quest'ora, vero? Spero indossiate qualcosa di comodo, io l'ho gia' fatto. Se siete nuovi in citta' o alle prime armi con la radio, state ascoltando Deb della Notte, l'unica ragazza che passa la notte con voi e se ne va all'alba, garantito. Beh, sembra che il centralino si sia acceso! Non sono forse popolare? Vediamo, ambarabaccicicoco, chi sara' il fortunato...
+" 0 25
+
+PHRASE char 541 "
+Ascoltatore, stanotte hai il primo turno con Deb! Allora, con chi ho il piacere di parlare?
+- Ciao Deb, sono... ehm, Vigo.
+- Vigo. Allora... Vigo, perche' sei sveglio cosi' tardi?
+- Ehm, faccio il turno di notte qui al... ehm, circolo nautico.
+- Aha. Quante barche possiedi, Vigo?
+- Due, anzi tre. Ehm, una e'... dal meccanico.
+- Anch'io facevo un po' di vela, che tipo di barca hai?
+- Ehm... probabilmente non conosci la marca, le ho... ehm, comprate in Italia.
+- Ah, l'Italia bella. Parlate Italiano?
+- Ehm... si'.
+- Arrivederci, Vigo.
+" 25 68
+
+PHRASE char 146 "
+Ascoltatore due, sei in diretta con Deb della Notte. Vacci piano.
+- Ciao Deb.
+- Ciao ascoltatore.
+- Ciao Deb.
+- Stasera e' una replica?
+- Deb?
+" 68 78
+
+PHRASE char 503 "
+Ascoltatore numero tre, cosa ti tiene sveglio stanotte?
+- Deb, ascoltami Deb. Ci stanno riprovando e la gente deve saperlo. Deve saperlo perche' non lo sa, non lo mettono al telegiornale perche' sono loro i padroni del telegiornale!
+- Ciao Gomez, qual e' l'ultima cospirazione?
+- Cospirazione? Questo va oltre la cospirazione, okay? Non esiste una parola per qualcosa di cosi' subdolo e segreto, capisci? La gente deve sentire questo, deve conoscere la vera storia!
+- Hai tutta la nostra attenzione.
+" 78 103
+
+PHRASE char 719 "
+- Va bene, come tutti sappiamo gli americani hanno fondato una base sulla Luna gia' negli anni '70, questo non e' un segreto. Ma quello che la maggior parte della gente non sa e' che stanno facendo degli scavi. Non per le risorse, ma per manufatti.
+- Capisco.
+- Beh, non e' un caso che i cinesi abbiano iniziato missioni spaziali. Sai perche'? Te lo dico io perche'. Il motivo e' che i cinesi stanno cercando di impedire agli americani di trovare un'antica sonda spaziale inviata dai Beta-Centauriani. E perche'? Perche' i Beta-Centauriani stanno dando tecnologia spaziale ai cinesi per vendicarsi degli Andromediani - alias i Grigi - per aver dato tecnologia spaziale agli americani negli anni '50.
+- Affascinante.
+" 103 137
+
+PHRASE char 690 "
+- Il governo americano sta investendo sempre piu' soldi nello spazio. Non vedi cosa sta succedendo? Non posso credere di essere l'unico ad averlo capito! Sono l'unica persona viva che vede cosa sta succedendo? E' perche' gli Andromediani e i Beta combatteranno la loro guerra in questa galassia attraverso di noi, Deb. E il popolo americano, la gente della Terra, voi tutti, non potete permettere che accada! E' di nuovo Mu contro Atlantide!
+- Grazie Gomez, e con questo si conclude la parte di attualita' dello show.
+Beh, anche questa ragazza deve pagare le bollette, quindi e' ora di qualche pubblicita'. Ma non andate via, sto solo iniziando a scaldarmi, o... dovrei dire a scottare.
+" 137 169
+
+PHRASE char 983 "
+[Pubblicita' #1]
+Pollo Fritto ha recentemente sfidato diverse persone a caso a un test del gusto tra Pollo Fritto e gli altri prodotti al gusto pollo piu' rinomati. Ascoltiamo quale preferiscono.
+- Signora, le va di partecipare a un test del gusto? Ecco, provi questa marca di pollo tra le piu' vendute.
+- Oh, oh mio Dio! E' pesce di una settimana fa?
+- Ora provi questo!
+- Oh, oh! Questo si' che e' buon pollo del [BIP]! Cos'e'?
+- Signore. Vuole fare un test per me?
+- Certo. Ah, oh, ah, uff, sul serio, se l'e' messo su per il [BIP]?
+- Ecco, provi questo.
+- Hmmm, ehi, mmm, gran bel pollo del [BIP] questo! Cos'e'?
+- E' Pollo Fritto.
+- Questo e' gatto, vero? Mi state dando da mangiare gatto?
+- Provi questo.
+- Santo [BIP]! [BIP] che buono. Che [BIP] e' questo [BIP]?
+Nove persone su dieci hanno preferito Pollo Fritto alla concorrenza. Perche'?
+- Perche' e' un gran bel pollo del [BIP]! Cioe', Pollo Fritto.
+Pollo Fritto! Giurerete che e' il migliore che abbiate mai mangiato.
+" 169 227
+
+PHRASE char 967 "
+[Pubblicita' #2]
+Avete amato il film del bambino che parla. E il maiale che parla. E persino l'auto che parla in quello show, sapete quale intendo. Ma ora preparatevi all'oggetto normalmente muto piu' esilarante e parlante di sempre! Lui e' Steve Cash, un banchiere di New York, vedovo da poco e sfortunato.
+- E dieci fa cento. Ecco i suoi soldi, signora. Signora?
+- Ho un problema ghiandolare, guarda caso. Ecco fatto! Ritiro tutti i miei milioni da questa banca.
+- Cash!
+Lei e' un bancomat con l'anima di sua moglie defunta.
+- C'e' qualcosa di familiare in questo bancomat.
+- TI AMO.
+- Wow, quei pubblicitari sono dei geni!
+Insieme, stanno imparando a sfruttare al meglio la loro situazione speciale.
+- OGGI MI HA USATO QUELLA RAGAZZA DELLA CONTABILITA'.
+- Davvero?
+- NON ERA COME TUTTE LE ALTRE. QUANDO MI HA PREMUTO I TASTI E' STATA MOLTO DELICATA.
+- Oh tesoro, se non la smetti dovro' fare un versamento.
+Trasferimenti Cash. Il mercoledi' alle 20:30 sul BMC.
+" 227 282
+
+PHRASE char 619 "
+[Pubblicita' #3]
+Dite addio ai denti gialli e alle macchie sui piatti sporchi.
+- E' incredibile!
+- Guarda che lucentezza.
+- Il suo sorriso... o questi piatti da portata?
+Sfruttando i segreti dell'antico Egitto, ora esiste un detersivo per piatti cosi' potente che non si limita a lasciare i vostri piatti immacolati, ma sbianca anche i denti. Gli spiritoidi brevettati a rilascio prolungato rimuovono lo sporco incrostato e il grasso e restano sul piatto per essere assorbiti dal cibo che vi pulira' i denti mentre mangiate. Desetron, il detersivo per piatti del futuro, per piatti piu' puliti e denti piu' bianchi!
+" 282 313
+
+PHRASE char 1364 "
+[Pubblicita' #4]
+L'anno scorso il candidato democratico Michael Redmonds ha comprato un SUV. Tre mesi dopo ci sono stati due distinti episodi di pirateria stradale da parte di un SUV non identificato nella sua zona. E' colpa del candidato democratico Michael Redmonds? Potete permettervi di correre questo rischio? Se lo possono permettere i vostri figli? Votate il senatore repubblicano Robert Thorne, un candidato che non ha mai commesso un omicidio stradale. Il candidato democratico Michael Redmonds non ha mai dichiarato pubblicamente la sua opinione sulla pedopornografia. E' perche' nasconde qualcosa? Vorreste un pedopornografo che vota le leggi di questa nazione? Affidereste il futuro dei vostri figli a qualcuno cosi'? Votate il senatore repubblicano Robert Thorne, il candidato impegnato a sbattere in prigione i pedopornografi. Il candidato democratico Michael Redmonds ha recentemente denunciato il senatore Robert Thorne per averlo accusato di essere un pedopornografo assassino. Ma Redmonds aveva in precedenza dichiarato di essere contrario a intasare i tribunali con cause pretestuose. Questo non lo renderebbe un ipocrita? Vorreste un ipocrita come vostro prossimo parlamentare? Vorreste che i vostri figli diventassero ipocriti? Votate il senatore repubblicano Robert Thorne, un candidato non accusato di essere un pedopornografo assassino.
+" 313 370
+
+PHRASE char 777 "
+[Pubblicita' #5]
+In un mondo dove la gente vive e muore...
+- Pensi di riuscire ad andare li' dentro e sistemare tutto da solo?
+- Se e' quel che serve.
+Stava per incontrare il suo nemico piu' grande.
+- Uccideteli tutti, tutti quanti!
+E una ragazza.
+- Ciao!
+- Ciao.
+E una spalla comica, che non arrivera' al terzo atto.
+- Ho scelto il mese sbagliato per disdire l'assicurazione sulla vita.
+- No, non dirlo. Ce la farai.
+Con l'attore di quell'altro film abbastanza popolare, e quella tizia, di quella serie che ogni tanto guardate. In un film con due spettacolari sequenze di battaglia in CGI e una campagna pubblicitaria che non vi lascera' altra scelta che vederlo. Guardatelo, perche' e' un film e tutti i vostri amici ci andranno. Al cinema venerdi' e in DVD tra tre mesi.
+" 370 426
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Radio
+}

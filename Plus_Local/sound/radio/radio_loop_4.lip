@@ -1,0 +1,162 @@
+VERSION 1.2
+PLAINTEXT
+{
+Radio Loop 4
+}
+WORDS
+{
+WORD talk-a 000 020
+{
+}
+WORD talk-b 020 054
+{
+}
+WORD talk-c 054 089
+{
+}
+WORD talk-d 089 109
+{
+}
+WORD talk-e 109 134
+{
+}
+WORD talk-f 134 156
+{
+}
+WORD talk-g 156 184
+{
+}
+WORD comm-a 184 241
+{
+}
+WORD comm-b 241 296
+{
+}
+WORD comm-c 296 357
+{
+}
+WORD comm-d 357 413
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 378 "
+Deb e' tornata, con una tazza di caffe' fresco pronta per affrontare la notte fino all'alba. Nel caso non lo sapeste, siete sintonizzati su Deb della Notte su KTRK. Sono la vostra adorabile conduttrice, sentitevi liberi di fantasticare su di me quanto volete. Ma vi prego, basta mandarmi disegni. Le linee sono tutte occupate, quindi perche' non vi do io un po' di sollievo?
+" 0 20
+
+PHRASE char 471 "
+Linea tre, stai parlando con me.
+- Come va, Deb?
+- E cosa hai combinato stasera, ascoltatore? Occhiolino, occhiolino.
+- Ha, ha, ha, mi si rizza. Ha, sono carico Deb, uh!
+- Qual e' l'occasione?
+- E' un giorno feriale!
+- Touche.
+- Ehi Deb, ha, ha, ehi Deb, ha, ehi Deb!
+- Si', generale?
+- Ohoh, cattiva! Ho avuto quest'idea fantastica, pensavo. Sei pronta?
+- Tutta la notte.
+- L-lo sai tutti quei problemi che abbiamo in medio oriente?
+- Si'. Quei maledetti Virginiani.
+" 20 54
+
+PHRASE char 522 "
+- Okay, okay. Allora l'ho capita questa, giusto? Okay, okay. Se vogliamo la pace in medio oriente, pensaci. Cosa rende la gente pacifica? Fumarsi una bella canna. E cosa unisce le persone? La pizza. Allora pensaci su. Con tipo meta' del costo di una di quelle bombe da kolossal, possiamo tipo procurare una pizza ed erba a sufficienza per tipo tutti quanti laggiu'. E avere tipo, bam, amiconi all'istante, signora mia.
+- Di' semplicemente no, amico.
+- Ehm, e doppio salame piccante. Ehi, accettate le carte di credito?
+" 54 89
+
+PHRASE char 378 "
+Andiamo avanti, linea quattro, cosa ti tiene sveglio stanotte?
+- Deb. Sto per rivelare una cosa che... mi gioco la vita. Ma la gente, la gente di questa citta' e di questo paese e di questo pianeta, ha il diritto di saperlo, capisci?
+- Che si dice, Gomez.
+- E' una cosa seria. Ci sono un sacco di organizzazioni disposte a tutto pur di mantenere il segreto.
+- Non ne dubito.
+" 89 109
+
+PHRASE char 543 "
+- Deb, Deb, questa e' una cosa seria adesso, posso finire? Va bene. Tutti sanno che hanno telecamere a ogni semaforo cosi' il governo puo' tenere sotto controllo i nostri spostamenti. Ma lo sapevi che poi hanno venduto l'accesso ai loro database agli Illuminati, che hanno usato quelle informazioni per compilare una lista dei percorsi piu' frequentati e poi aprire nuove sedi della loro nota catena di caffetterie nelle location piu' redditizie? E lo sapevi anche che usano quei fondi per soffocare la fusione nucleare e l'energia solare?
+" 109 134
+
+PHRASE char 427 "
+- Ora ha tutto senso.
+- Beh loro, gli Illuminati, controllano tutta l'energia del mondo, e siccome monitorano tutti i nostri consumi energetici, possono capire chi non guarda la televisione, e quindi sapere chi non riceve i messaggi subliminali, che mandano per tenere le pecorelle, a mettere i loro soldi in banche lontane dal loro quartier generale segreto, alias il Wyoming?
+- Incredibile. Hai scoperto altro di recente?
+" 134 156
+
+PHRASE char 617 "
+- In effetti, e ripeto non dovrei parlarne, ma credo sia diritto di tutti sapere che il riciclaggio e' un mito. Tutto quello che fanno con quelle bottiglie e lattine e' raccogliere campioni di DNA dalla vostra saliva, per potervi clonare. E addestrare il vostro clone ad assassinarvi e assumere la vostra identita', se doveste ficcare il naso nella faccenda del riscaldamento globale.
+- Grazie Gomez.
+Mi dispiace interrompere questa conversazione mentalmente stimolante, ma le persone che mi tengono incatenata a questa consolle in questa radio, per giunta in mutande, vogliono che spendiate soldi su questa roba.
+" 156 184
+
+PHRASE char 1364 "
+[Pubblicita' #1]
+L'anno scorso il candidato democratico Michael Redmonds ha comprato un SUV. Tre mesi dopo ci sono stati due distinti episodi di pirateria stradale da parte di un SUV non identificato nella sua zona. E' colpa del candidato democratico Michael Redmonds? Potete permettervi di correre questo rischio? Se lo possono permettere i vostri figli? Votate il senatore repubblicano Robert Thorne, un candidato che non ha mai commesso un omicidio stradale. Il candidato democratico Michael Redmonds non ha mai dichiarato pubblicamente la sua opinione sulla pedopornografia. E' perche' nasconde qualcosa? Vorreste un pedopornografo che vota le leggi di questa nazione? Affidereste il futuro dei vostri figli a qualcuno cosi'? Votate il senatore repubblicano Robert Thorne, il candidato impegnato a sbattere in prigione i pedopornografi. Il candidato democratico Michael Redmonds ha recentemente denunciato il senatore Robert Thorne per averlo accusato di essere un pedopornografo assassino. Ma Redmonds aveva in precedenza dichiarato di essere contrario a intasare i tribunali con cause pretestuose. Questo non lo renderebbe un ipocrita? Vorreste un ipocrita come vostro prossimo parlamentare? Vorreste che i vostri figli diventassero ipocriti? Votate il senatore repubblicano Robert Thorne, un candidato non accusato di essere un pedopornografo assassino.
+" 184 241
+
+PHRASE char 1170 "
+[Pubblicita' #2]
+Vi state preparando per una presentazione di vendita ma non sapete come vendere le vostre idee? Provate Virtual Meeting!
+- Allora se spostiamo la pubblicita' dagli spot televisivi costosi e la distribuiamo su pagine intere nelle principali riviste maschili possiamo...
+- Non e' male come idea ma ecco quella che secondo me dovremmo fare.
+- Ma non avevo finito!
+- Si', e' un buon punto ma ascoltate tutti la mia idea.
+- Ma io penso...
+- E' vero, pero' non credo che il nostro target sara' disposto ad accettare un approccio cosi' radicale. Ascoltate cosa ho da dire in merito, siete pronti? Bene. Questa e' quella vincente.
+E, Virtual Meeting non aiuta solo con le riunioni. Puo' anche prepararvi a discutere le vostre idee su internet.
+- Allora, credo che se i Democratici vogliono avere una possibilita' alla presidenza dovranno abbracciare la corrente piu' liberale dell'elettorato.
+- Sta' zitto, stronzo.
+- Mi sono laureato in scienze politiche, credo di sapere di cosa parlo.
+- Blateri a vanvera, sei ridicolo.
+Virtual Meeting! L'unico strumento di preparazione riunioni da avere.
+- Quella era una buona idea ed era originariamente mia. Stronzo.
+" 241 296
+
+PHRASE char 895 "
+[Pubblicita' #3]
+Nel 1984 una generazione di bambini scopri' un giocattolo che divenne un classico istantaneo. Vent'anni dopo, quel giocattolo si trasforma per adattarsi a un ambiente tutto nuovo.
+- Ehi, Bob, giusto? Ti-ti spiace se prendo in prestito la tua cucitrice?
+- Vuoi delle graffette? Prenditi queste, Execucon!
+- Nooo!
+Prendete il controllo dei nobili Ufficiobot, mentre combattono la loro guerra segreta contro i malvagi Execucon.
+- Ehi, restero' qui fino a tardi. Ti spiace se mi prendo una tazza di quel caffe'?
+- Merdatron, trasformati! Il caffe' e' per chi chiude gli affari, Ufficiobot.
+Colleziona trenta diversi robot aziendali mentre combattono per la supremazia sul posto di lavoro!
+- Attento Mouse Ottico Prime, e' Cellularman!
+- Ho il vostro numero, dipendenti, e sarete tutti richiamati questo weekend.
+- Ufficiobot! Trasformatevi e timbrate il cartellino.
+Deformatori!
+" 296 357
+
+PHRASE char 637 "
+[Pubblicita' #4]
+Si vive... Si muore... E a volte si torna in vita...
+- Grrraaah, grrraaah!
+Questo autunno.
+- Temo di non vederci piu' troppo bene di questi tempi. Pensi di poter andare al villaggio piu' vicino a prendermi una pagnotta di pane?
+- Paaane! Buoono!
+Il nuovo GdR horror targato Troika games.
+- Paaane!
+- Oh, posso dirti dove sta il fornaio, straniero. Ma prima, ti spiacerebbe andare a riprendere la mia bambina al lago?
+Tu sei Il Mostro.
+- Ahhhh!
+O forse no?
+- Se vuoi entrare in questo forno, dovrai sconfiggermi!
+- E questa porta.
+Frankenstein: L'assalto al pane. Prossimamente su un PC vicino a te.
+- Giooco! Buoono.
+" 357 413
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Radio
+}

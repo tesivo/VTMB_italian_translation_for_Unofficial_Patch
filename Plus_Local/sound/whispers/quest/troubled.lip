@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Why is it troubled?
+}
+WORDS
+{
+WORD blah 0.000 2.416
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 27 "Perche' e' cosi' agitato?" 0.000 2.416
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

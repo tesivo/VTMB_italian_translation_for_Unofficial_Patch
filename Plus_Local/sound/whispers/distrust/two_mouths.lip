@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+It has two mouths to lick from.
+}
+WORDS
+{
+WORD blah 0.176 4.656
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 31 "Ha due bocche da cui leccare." 0.176 4.656
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

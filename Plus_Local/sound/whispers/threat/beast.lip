@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Blood brings the vicious beast.
+}
+WORDS
+{
+WORD blah 0.000 3.536
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 38 "Il sangue richiama la bestia feroce." 0.000 3.536
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

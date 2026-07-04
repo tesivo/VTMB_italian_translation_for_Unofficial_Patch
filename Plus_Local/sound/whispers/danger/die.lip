@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+DIE!
+}
+WORDS
+{
+WORD blah 0.028 1.741
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 8 "MUORI!" 0.028 1.741
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

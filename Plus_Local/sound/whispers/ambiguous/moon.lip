@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Mast lay shrouded and the moon is melting...
+}
+WORDS
+{
+WORD blah 0.144 2.864
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 57 "L'albero maestro giace avvolto e la luna si scioglie..." 0.144 2.864
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

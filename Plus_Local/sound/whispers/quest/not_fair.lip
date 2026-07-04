@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+It's not fair! I wanted too.
+}
+WORDS
+{
+WORD blah 0.048 3.456
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 35 "Non e' giusto! Lo volevo anch'io." 0.048 3.456
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

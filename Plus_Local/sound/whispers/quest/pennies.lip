@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Pennies for your eyes in its pockets...
+}
+WORDS
+{
+WORD blah 0.088 4.649
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 47 "Monetine per i tuoi occhi nelle sue tasche..." 0.088 4.649
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

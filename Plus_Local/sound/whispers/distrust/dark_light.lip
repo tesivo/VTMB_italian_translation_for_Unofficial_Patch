@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+A dark light from your death...
+}
+WORDS
+{
+WORD blah 0.080 4.999
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 36 "Una luce oscura dalla tua morte..." 0.080 4.999
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+I smell a rancid grave...
+}
+WORDS
+{
+WORD blah 0.000 3.387
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 37 "Sento odore di una tomba rancida..." 0.000 3.387
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

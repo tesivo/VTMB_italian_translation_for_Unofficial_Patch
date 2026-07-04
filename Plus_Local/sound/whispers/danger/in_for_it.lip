@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+You're in for it now.
+}
+WORDS
+{
+WORD blah 0.096 2.224
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 19 "Ora sei nei guai." 0.096 2.224
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

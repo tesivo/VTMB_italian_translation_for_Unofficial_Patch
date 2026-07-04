@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Heloise said you. Cranberry sauce. Hotel foxtrot.
+}
+WORDS
+{
+WORD blah 0.064 6.400
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 61 "Eloisa ha detto te. Salsa di mirtilli rossi. Hotel foxtrot." 0.064 6.400
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

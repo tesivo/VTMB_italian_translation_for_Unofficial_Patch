@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Elkabo, elkabo, pixy queen where all is green.
+}
+WORDS
+{
+WORD blah 0.048 7.008
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 50 "Elkabo, elkabo, regina fata dove tutto e' verde." 0.048 7.008
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

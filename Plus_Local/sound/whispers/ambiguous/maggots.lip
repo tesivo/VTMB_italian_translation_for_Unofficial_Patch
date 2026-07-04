@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Maggots love you. Trust me.
+}
+WORDS
+{
+WORD blah 0.064 4.800
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 33 "I vermi ti amano. Fidati di me." 0.064 4.800
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}
