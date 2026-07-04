@@ -1,0 +1,197 @@
+VERSION 1.2
+PLAINTEXT
+{
+Radio Loop 3
+}
+WORDS
+{
+WORD talk-a 000 022
+{
+}
+WORD talk-b 022 049
+{
+}
+WORD talk-c 049 074
+{
+}
+WORD talk-d 074 098
+{
+}
+WORD talk-e 098 129
+{
+}
+WORD talk-f 129 152
+{
+}
+WORD talk-g 152 176
+{
+}
+WORD talk-h 176 201
+{
+}
+WORD talk-i 201 223
+{
+}
+WORD talk-j 223 248
+{
+}
+WORD talk-k 248 273
+{
+}
+WORD comm-a 273 318
+{
+}
+WORD comm-b 318 363
+{
+}
+WORD comm-c 363 427
+{
+}
+WORD comm-d 427 445
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 364 "
+La luna e' uscita, sono tutti nel paese dei sogni e voi siete sintonizzati su Deb della Notte. Nessuno con cui addormentarvi stanotte? Forza, portatevi la radio a letto, sono qui apposta per questo. E, ehi, perche' non mi chiamate qualche volta? Prefisso 323, KL5-KTRK. Sembra che qualcuno stia aspettando in coda da un bel po' per parlare con la sottoscritta.
+" 0 22
+
+PHRASE char 462 "
+- Allora ascoltatore, perche' non dormi?
+- Ehm... eh, gli insetti.
+- Insetti... nel senso che hai un problema di insetti? O sono i grilli che frinendo ti tengono sveglio? O ci fai gli incubi? Aiutami a capire.
+- No, no, no. Ma non lo sai? Quando ti addormenti, possono strisciarti dentro la bocca o le orecchie, o... o il naso. Non-non puoi impedirlo se sei addormentato. Io-io voglio dire, tu... cosa puoi fare?
+- C'e' qualche scienziato in ascolto stasera?
+" 22 49
+
+PHRASE char 427 "
+- Ehm, io-io ho letto qualcosa, io-io non so dove, ma lo sai che la persona media mangia diversi chili di insetti all'anno? La maggior parte di quel peso e' composta da scarafaggi, formiche e ragni. Solo sapendo che appena chiudi gli occhi, un grosso millepiedi ti cadra' in bocca e ti strisciera' giu' per la gola, io-io-io non ce la faccio. Non dormo mai la notte!
+- Sai, in alcuni paesi mangiano insetti volontariamente.
+" 49 74
+
+PHRASE char 450 "
+- Si', beh, quei paesi probabilmente hanno bisogno di Gesu'.
+- Quindi non dormi mai la notte, immagino che dormirai comunque, giusto?
+- Io-io-io dormo al lavoro.
+- E cosa fai di preciso?
+- Insegno alle medie.
+- Questo spiegherebbe perche' mio nipote ha investito i venti euro che gli ho mandato per il compleanno in fagioli magici. Fa sempre piacere sapere che il futuro del nostro paese e' in buone mani, no? Oh mamma.
+Vediamo chi altro abbiamo.
+" 74 98
+
+PHRASE char 566 "
+- Ascoltatore, di cosa ti occupi nella vita?
+- Sono Roger.
+- Okay. E cosa fai, Roger?
+- Ehm, sono uno scrittore, Deb.
+- Quindi hai scritto qualche film che potrei aver visto?
+- Beh, in realta' non ho ancora finito nessuna sceneggiatura.
+- Capisco. Allora, hai fatto altri tipi di scrittura?
+- Beh, solo qualche scaletta per ora, ma ho delle idee davvero buone per delle storie che mi frullano in testa.
+- Quindi se non hai veramente scritto niente, come puoi definirti uno scrittore? Perche' se una volta ho aggiustato il water non divento mica un idraulico, no?
+" 98 129
+
+PHRASE char 416 "
+- Beh, vedi...
+- C'e' qualcuno in questa citta' che non si definisce scrittore, attore o regista? Non pensi di fare un torto a chi si guadagna davvero da vivere con quelle arti, definendoti qualcosa che non sei, o per cui non sei nemmeno preparato?
+- Ehm, beh, credo di essere bravo a distinguere la buona dalla cattiva scrittura.
+- Oh, questo non ti renderebbe un critico?
+Vediamo se qualcun altro e' d'accordo.
+" 129 152
+
+PHRASE char 467 "
+- Linea due, sei pronto per un menage a trois?
+- Certo, Deb.
+- E potresti dirci di cosa ti occupi nella vita?
+- Sono l'assistente personale di un produttore alla Parasite Studios.
+- Perfetto. Leggi molte sceneggiature?
+- Non farmi cominciare.
+- Bene, per il nostro scrittore al telefono, ecco la tua grande occasione per proporre la tua sceneggiatura. Va bene, linea due?
+- Convincimi, amico.
+- Beh, ehm... okay. Allora, ehm, la mia storia parla di questo tizio -
+" 152 176
+
+PHRASE char 413 "
+- Ma va'.
+- Okay, okay, allora questo tizio, e'... beh e' tipo un... agente dell'FBI, ma, sai, non lavora davvero per l'FBI principale. E, ehm, ha questa collega nuova e davvero carina, ma e' anche lei un'ottima agente. E vengono, tipo, assegnati a questo caso bizzarro dove la gente viene uccisa in modi davvero strani.
+- Uh-huh.
+- E poi, tipo, succede una cosa, e l'agente donna viene rapita dall'assassino.
+" 176 201
+
+PHRASE char 396 "
+- «Succede una cosa».
+- Si', beh, non l'ho ancora capito bene, ma, tipo, l'agente uomo nota, tipo, che l'assassino sembra sapere tutto quello che fa, tipo, un passo avanti a lui. E poi c'e' questa specie di... sai, strana scena d'inseguimento, e poi, tipo, scopriamo che il tizio ha due personalita'. E, tipo, alla fine scopre che l'assassino e' lui! E poi... ha rapito la sua stessa collega!
+" 201 223
+
+PHRASE char 456 "
+Allora linea due, che ne pensi? La opzioni o no?
+- Ehm, scrittore, come ti chiami?
+- Roger.
+- Ehm, Roger. Vuoi la mia opinione professionale?
+- Si'.
+- Di dove sei?
+- Ehm, Wisconsin.
+- Okay. Voglio che tu faccia le valigie, e poi voglio che te ne torni in Wisconsin.
+- E' un po' crudele, linea due.
+- Questa e' Hollywood, tesoro.
+- Forse e' semplicemente troppo bello per te.
+- Ehm, no amico, non e' vero.
+- Smettetela voi due. Pensieri finali, ragazzi?
+" 223 248
+
+PHRASE char 471 "
+- Wisconsin.
+- Sto lavorando anche ad altre cose. Ho delle idee piuttosto buone per dei videogiochi, credo. Se a qualcuno interessa assumermi, il mio numero e' 213-...
+- Scusa Roger, l'unica autorizzata a dare il proprio numero in questo show sono io.
+E se qualcuno si stesse chiedendo cosa indosso, quel numero e' di nuovo 323-KL5-KTRK. Ci prendiamo una breve pausa pubblicitaria, ma questo non significa che potete smettere di pensare a me. Non andate via, ragazzi.
+" 248 273
+
+PHRASE char 843 "
+[Pubblicita' #1]
+Il vostro pene sembra sempre mettersi in mezzo?
+- Ho preso l'ultima busta della spesa, tesoro. Devo solo chiudere il bagagliaio. Ahia!
+- Un altro chiodo e questa casetta per uccelli sara' come nuova! Ahia!!!
+- Mi dispiace, signore. Questo spogliatoio e' riservato alle donne.
+Non dovete permettere che vi succeda. Salve, sono il dottor Fred Tuck. Non lasciate piu' che il vostro pene interferisca con la qualita' della vostra vita. Ho eseguito oltre trecento cambi di sesso nella mia carriera, e nessuno dei miei pazienti ha mai chiesto indietro l'attrezzatura. Venite da Tuck's Sex Exchange entro il prossimo mese, e vi faro' un preventivo gratuito. Non lasciate che il vostro pezzo interferisca con la vostra pace interiore.
+Tuck's Sex Exchange: vicino a Beverly Drive. Cercate l'insegna con Dentino, la sega chirurgica.
+" 273 318
+
+PHRASE char 723 "
+[Pubblicita' #2]
+Stufi di una connessione internet lenta come una lumaca?
+- Mamma! Internet e' di nuovo lentissimo.
+- Non sono tua madre. Sono la creatura che si e' evoluta da tua madre.
+Stufi dello spam indesiderato?
+- Oh, oh... un'altra email dal mio vecchio compagno di universita', Rod Enormis. Oh- oh mio Dio!
+I problemi del computer rendono frustrante collegarsi?
+- Errore 432: tabella di valutazione dell'allocazione di memoria del server remoto di accesso alla rete superata. La riformattazione del disco rigido avra' ora inizio...
+- COSA?!
+Cercate qualcosa che non richieda accessi, niente email indesiderate, frasi di senso compiuto, e nessun problema tecnico? Leggete un libro. I libri: l'internet originale.
+" 318 363
+
+PHRASE char 833 "
+[Pubblicita' #3]
+I terroristi sono pronti a distruggere la piu' grande diga d'America... di nuovo.
+- Quando la bomba esplodera', questo Hoover sara' colto con le mutande calate!
+E solo questo poliziotto ribelle e la manicure della sua ex moglie si frappongono tra la distruzione e un amore inaspettato.
+- Ti archivio subito come cadavere.
+Quest'estate tutte le scommesse sono aperte, gli animi sono accesi, l'incontro e' truccato, i cani sono liberi, il gioco e' scoperto, le fiches sono al minimo, la posta e' alta, le quote sono basse, il pericolo e' enorme, la vincita e' magra, nasceranno amicizie, le regole saranno infrante, i torti saranno raddrizzati, e non si lascera' nulla di intentato... ehm... preparatevi a essere rivoltati come un calzino. Hoover 2: Boogaloo Idroelettrico. Il piu' bel film che vedrete quest'anno.
+" 363 427
+
+PHRASE char 367 "
+[Pubblicita' #4]
+Quando faccio grinding sul poindexter inverso 540 per poi tirare un ollie contromano sulla merce di contrabbando, non posso permettermi di sentirmi gonfio. Ecco perche' ogni mattina mi scolo un Pound Ground, la bevanda sportiva lassativa delicata ma estrema, perche' quando stai tirando un letale skull cross 720, non vuoi niente che ti rallenti.
+" 427 445
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Radio
+}

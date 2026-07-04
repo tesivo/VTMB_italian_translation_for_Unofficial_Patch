@@ -1,0 +1,384 @@
+// Feat Doc
+
+FeatData
+{
+	// WARNING WARNING WARNING:  Changing the MaxValue may not be safe, some Feats have
+	//   hard-coded "code" limits expecting it to be 10 (or 20, etc.).  Check with JLR first!
+
+	Feats
+	{
+		"Name"		"Imprese"
+		"InternalName"	"Feats"
+
+		//  "Base#" are the Traits that the Feat is based upon
+		//  "Weighting" is the dice-roll table to use when rolling this feat
+		Feat
+		{
+			"Name"		"Scassinamento"
+			"InternalName"	"Intrusion"
+			"HelpText"		"Misura l'abilita' del personaggio nell'irrompere in posti non autorizzati. L'attributo Destrezza e l'abilita' Sicurezza contribuiscono entrambi all'impresa Scassinamento."
+
+			"MaxValue"		"10"
+			"Base0"		"Dexterity"
+			"Base1"		"Security"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Spia"
+			"InternalName"	"Sneaking"
+			"HelpText"		"Misura l'abilita' del personaggio nell'evitare di essere scoperto. L'attributo Destrezza e l'abilita' Furtivita' contribuiscono entrambi all'impresa Spia."
+
+			"MaxValue"		"10"
+			"Base0"		"Dexterity"
+			"Base1"		"Stealth"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+
+		Feat
+		{
+			"Name"		"Hacking"
+			"InternalName"	"Hacking"
+			"HelpText"		"Misura l'abilita' del personaggio di entrare nei computer e altri strumenti elettronici. L'attributo Prontezza e l'abilita' Informatica contribuiscono entrambi all'impresa Hacking."
+
+			"MaxValue"		"20"
+			"Base0"		"Wits"
+			"Base1"		"Computer"
+//			"Base2"		"Hacking_Mod"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Ispezione"
+			"InternalName"	"Inspection"
+			"HelpText"		"Misura l'abilita' del personaggio nel notare dettagli nascosti. L'abilita' Percezione e l'abilita' Investigare contribuiscono entrambi all'impresa Ispezione."
+
+			"MaxValue"		"20"
+			"Base0"		"Perception"
+			"Base1"		"Investigation"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+
+			Table
+			{
+
+			// These are the artificial values assigned to npcs in WC
+			// in lieu of inspection derived from stats
+
+				"Name"				"Inspection_Vision_Distances"
+				"InternalName"		"Inspection_Vision_Distances"
+				"Clamping"			"1"
+				"TraitDependency"	"Inspection"
+
+			//	feat_value			vision_distance (in game units)
+				"0"					"60"		// Should never actually get this, but...
+				"1"					"290" // 
+	 			"2"					"380" // +90
+				"3"					"440" // +60
+		 		"4"					"480" // +40
+				"5"					"510" // +30
+	 			"6"					"540" // +30
+				"7"					"590" // +50
+		 		"8"					"660" // +70
+				"9"					"750" // +90
+	 			"10"					"2400" //"2400"
+			}
+
+			Table
+			{
+				"Name"				"Inspection_Hearing_Scalars"
+				"InternalName"		"Inspection_Hearing_Scalars"
+
+				"Clamping"			"1"
+
+				"TraitDependency"	"Inspection"
+
+			//	feat_value			hearing_scalar
+				"0"					"0.71"		// Should never actually get this, but...
+				"1"					"0.71"
+	 			"2"					"0.86"
+				"3"					"1.00"		// An average human has inspection of 3.
+		 		"4"					"1.14"
+				"5"					"1.29"
+	 			"6"					"1.43"
+				"7"					"1.57"
+		 		"8"					"1.71"
+				"9"					"1.86"
+	 			"10"				"2.00"
+			}
+
+		}
+
+		Feat
+		{
+			"Name"		"Ricerca"
+			"InternalName"	"Research"
+			"HelpText"		"Misura l'abilita' del personaggio nel leggere libri e imparare nuove abilita'. L'attributo Intelligenza e l'abilita' Accademica contribuiscono entrambi all'Impresa Ricerca."
+			"Disabled"		"1"
+
+			"MaxValue"		"10"
+			"Base0"		"Academics"
+			"Base1"		"Intelligence"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Negoziazione"
+			"InternalName"	"Haggle"
+			"HelpText"		"Misura l'abilita' del tuo personaggio di stimare il valore dei beni e negoziare per prezzi migliori. L'attributo Persuasione e l'abilita' Finanza contribuiscono entrambe all'Impresa Negoziazione."
+			"Disabled"		"1"
+
+			"MaxValue"		"10"
+			"Base0"		"Finance"
+			"Base1"		"Manipulation"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Minacciare"
+			"InternalName"	"Intimidate"
+			"HelpText"		"Misura l'abilita' del personaggio a suscitare paura in altri e forzarli a cooperare. L'attributo Intelligenza e l'abilita' Intimidire contribuiscono entrambe all'Impresa Minacciare."
+			"Disabled"		"1"
+
+			"MaxValue"		"10"
+			"Base0"		"Intelligence"
+			"Base1"		"Intimidation"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Convincimento"
+			"InternalName"	"Persuasion"
+			"HelpText"		"Misura l'abilita' del personaggio nel convincere le persone a fare cio' che desideri. L'attributo Carisma e l'abilita' Accademica contribuiscono entrambe all'Impresa Convincimento."
+			"Disabled"		"1"
+
+			"MaxValue"		"10"
+			"Base0"		"Charisma"
+			"Base1"		"Academics" //TJP internal name for Scholarship
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Seduzione"
+			"InternalName"	"Seduction"
+			"HelpText"		"Misura l'abilita' del personaggio nel sedurre gli altri per aiutarti. L'attributo Aspetto e l'abilita' Sotterfugio contribuiscono entrambe all'Impresa Seduzione."
+			"Disabled"		"1"
+
+			"MaxValue"		"10"
+			"Base0"		"Appearance"
+			"Base1"		"Subterfuge"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Disarmato"
+			"InternalName"	"Close_Combat_Brawl"
+			"HelpText"		"Misura l'abilita' del personaggio nel fare danni durante combattimenti disarmati e Nutrirsi di chi si oppone. L'attributo Forza e l'abilita' Rissa contribuiscono entrambe all'Impresa Combattimento Disarmato."
+
+			"MaxValue"		"20"
+			"Base0"		"Brawl"
+			"Base1"		"Strength"
+			"Automatic0"	"Automatic_Str_Successes"
+			"Display2nd0"	"Automatic_Str_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Lotta armata"
+			"InternalName"	"Close_Combat_Melee"
+			"HelpText"		"Misura l'abilita' del personaggio nel fare danni con armi da mischia come mazze e coltelli. L'attributo Forza e l'abilita' Mischia contribuiscono entrambe all'Impresa Combattimento"
+
+			"MaxValue"		"20"
+			"Base0"		"Melee"
+			"Base1"		"Strength"
+			"Automatic0"	"Automatic_Str_Successes"
+			"Display2nd0"	"Automatic_Str_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"A Distanza"
+			"InternalName"	"Ranged_Combat"
+			"HelpText"		"Misura la tua precisione e il danno che arrechi con armi da fuoco di ogni tipo. L'attributo Percezione e l'abilita' Armi da Fuoco contribuiscono entrambe all'Impresa Combattimento Con Armi Da Fuoco."
+
+			"MaxValue"		"20"
+			"Base0"		"Firearms"
+			"Base1"		"Perception"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Difesa"
+			"InternalName"	"Defensive_Maneuvers"
+			"HelpText"		"Misura l'abilita' del personaggio nell'evitare danni in qualsiasi tipo di combattimento. L'attributo Prontezza e l'abilita' Schivare contribuiscono entrambe all'Impresa Difesa."
+
+			"MaxValue"		"20"
+			"Base0"		"Dodge"
+			"Base1"		"Wits"
+//			"Base2"		"Defense_Mod"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Pestaggio"
+			"InternalName"	"Soak_vs_Bashing"
+			"HelpText"		"Il danno che un personaggio mortale puo' assorbire."
+
+			"MaxValue"		"20"
+			"Base0"		"Armor_Rating"
+			"Base1"		"Stamina"
+			"Base2"		"Soak_Pool"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Letale"
+			"InternalName"	"Soak_vs_Lethal"
+			"HelpText"		"Il danno letale che un personaggio mortale puo' assorbire."
+
+			"MaxValue"		"20"
+			"Base0"		"Armor_Rating"
+			"Base1"		"Soak_Pool"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Danno Critico"
+			"InternalName"	"Soak_vs_Lethal_Falling"
+			"HelpText"		"Il danno critico che un personaggio mortale puo' assorbire."
+
+			"MaxValue"		"20"
+			"Base0"		"Armor_Rating / 2"
+			"Base1"		"Soak_Pool"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Aggravato"
+			"InternalName"	"Soak_vs_Aggravated"
+			"HelpText"		"Il danno che aggravato un personaggio mortale puo' assorbire."
+
+			"MaxValue"		"20"
+			"Base0"		"Soak_Pool"
+//			"Base1"		"Armor_Rating"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Pestaggio"	//"Soak vs. Bashing (Kindred)"
+			"InternalName"	"Soak_vs_Bashing_Kindred"
+			"HelpText"	"La tua abilita' nel ridurre i danni subiti da proiettile e armi da mischia appuntite. La Costituzione, cosi' come i vestiti e armature contribuiscono all'Assorbimento dei Danni Mortali."
+
+			"MaxValue"		"20"
+			"Base0"		"Armor_Rating"
+			"Base1"		"Stamina"
+			"Base2"		"Soak_Pool"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Letale"	//"Soak vs. Lethal (Kindred)"
+			"InternalName"	"Soak_vs_Lethal_Kindred"
+			"HelpText"	"La tua abilita' nel ridurre i danni subiti da armi da mischia provviste di lama. Mentre i vampiri si possono difendere contro i danni letali tramite l'Impresa Difesa, ma non hanno nessun aiuto una volta che il colpo e' arrivato. I vestiti e le armature aggiungono l'Impresa dell'Assorbimento dei Danni Letali."
+
+			"MaxValue"		"20"
+			"Base0"		"Armor_Rating"
+			"Base1"		"Soak_Pool"
+//			"Base2"		"Stamina"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Danno Critico"
+			"InternalName"	"Soak_vs_Lethal_Falling_Kindred"
+			"HelpText"		"Il danno critico che un personaggio dei Fratelli puo' assorbire."
+
+			"MaxValue"		"20"
+			"Base0"		"Armor_Rating / 2"
+			"Base1"		"Soak_Pool"
+			"Base2"		"Stamina"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Aggravato"	//"Soak vs. Aggravated (Kindred)"
+			"InternalName"	"Soak_vs_Aggravated_Kindred"
+			"HelpText"	"La tua abilita' nel ridurre i danni subiti da artigli, zanne, fuoco ed elettricita'. I danni aggravati sono mortalmente pericolosi. I Vampiri possono difendersi contro artigli e zanne tramite l'Impresa Difesa, ma non hanno nessun aiuto contro fuoco ed elettricita'. I danni aggravati possono solo essere assorbiti attraverso mezzi soprannaturali."
+			"MaxValue"		"20"
+			"Base0"		"Soak_Pool"
+//			"Base1"		"Armor_Rating"
+			"Display2nd0"	"Automatic_Soak_Successes"
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Danno"
+			"InternalName"	"Damage"
+			"HelpText"		"Il danno che un personaggio puo' fare."
+
+			"MaxValue"		"9999"
+			// Not based off of stats, the value is instead dependent on the weapon in question...
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+
+		Feat
+		{
+			"Name"		"Impresa Pazzia"
+			"InternalName"	"Frenzy_Feat"
+			"HelpText"		"Un test Pazzo."
+
+			"MaxValue"		"10"
+			// Not based off of stats
+			"PCWeighting"	"Normal"
+			"NPCWeighting"	"Normal"
+		}
+	}
+}

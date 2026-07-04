@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+The very thought falls to the flame...
+}
+WORDS
+{
+WORD blah 0.048 2.880
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 39 "Il solo pensiero cade nella fiamma..." 0.048 2.880
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

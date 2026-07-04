@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+A trick with two tongues...
+}
+WORDS
+{
+WORD blah 0.064 2.416
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 29 "Un trucco con due lingue..." 0.064 2.416
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

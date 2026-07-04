@@ -1,0 +1,177 @@
+VERSION 1.2
+PLAINTEXT
+{
+Radio Loop 5
+}
+WORDS
+{
+WORD talk-a 000 028
+{
+}
+WORD talk-b 028 063
+{
+}
+WORD talk-c 063 092
+{
+}
+WORD talk-d 092 127
+{
+}
+WORD talk-e 127 162
+{
+}
+WORD talk-f 162 188
+{
+}
+WORD talk-g 188 216
+{
+}
+WORD talk-h 216 250
+{
+}
+WORD talk-i 250 272
+{
+}
+WORD talk-j 272 295
+{
+}
+WORD talk-k 295 324
+{
+}
+WORD talk-l 324 360
+{
+}
+WORD talk-m 360 390
+{
+}
+WORD song-a 390 395
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 446 "
+Ancora svegli? Avete qualcosa per la testa? Chiamatemi, 323-KL5-KTRK. Chiedete di parlare con quella carina. Ehi, nottambuli tutti! E' la razza umana che sta impazzendo o sono solo io? Sembra che ultimamente si sentano solo brutte notizie. Qualcuno la pensa come me? Vi sembra che il mondo si stia sfaldando? Perche' non ne facciamo l'argomento di stasera? E se non funziona, potete sempre tornare a chiamare con le solite cose da pervertiti.
+" 0 28
+
+PHRASE char 573 "
+Linea cinque, sei in diretta con Deb della Notte.
+- Allora dimmi, la societa' sta andando all'inferno oppure no?
+- Credo di si', Deb.
+- E perche' lo pensi?
+- Beh, tanto per cominciare ho perso il lavoro un mese fa e i nostri dirigenti si sono dati un bonus per l'occasione.
+- Mi dispiace sentirlo.
+- E proprio l'altra notte mi capita di guardare fuori dalla finestra qui a Santa Monica, che una volta era un bel quartiere, e vedo la tavola calda dove faccio colazione da anni ridotta a pezzi dai colpi di pistola. Ci credi? Sembra che a nessuno importi piu' di nessuno.
+" 28 63
+
+PHRASE char 522 "
+- Ti sento.
+- E il figlio del mio vicino. Accidenti, si fa di anfetamine dalle medie, ruba ai suoi genitori.
+- Che vergogna.
+- Si', si', sai c'era un tempo in cui queste cose semplicemente non succedevano. Sai perche'?
+- Perche' mai?
+- Beh, perche' un uomo poteva picchiare una donna e i bambini quando esageravano! Non dovevano nemmeno essere sangue del tuo sangue, potevi semplicemente schiaffeggiare il piccolo bastardo!
+- Ah, i bei vecchi tempi. Perche' non vai in sala ricreativa a rimuginare un altro po', nonno?
+" 63 92
+
+PHRASE char 604 "
+Qualcuno ha delle riflessioni che non finiscono in denunce per aggressione?
+- Si', ciao.
+- Wow, ecco un evento raro, un punto di vista femminile che non e' il mio! Vai pure, sorella.
+- Ehmmm, khm, volevo solo dire che sono d'accordo con te per lo piu'. Le cose sono davvero peggiorate negli ultimi anni.
+- Mm-hmmm.
+- Si', e' che... non mi vedo a portare un figlio in questo mondo, capisci?
+- Ti capisco.
+- A meno che non fosse, tipo, il bambino di Ash River. Oh, e' cosi' fantastico, Deb! Gli riempirei, tipo, un intero minivan di figli. Oh mio Dio!
+- Si', ma quante probabilita' ci sono che succeda?
+" 92 127
+
+PHRASE char 561 "
+- Non lo so. Ma sono, tipo, al suo locale ogni sera, ha.
+- Okay, ma torniamo all'argomento.
+- Oh, e quella volta che facevo la cameriera a quella premiazione e gli ho servito un drink e mi ha detto «Grazie, bella». E c'e' stato, tipo, un momento in cui sicuramente e' scattato qualcosa, capisci?
+- Certo, tesoro, ma l'argomento di stasera non e' Ash River.
+- Si', beh. Probabilmente e' un bene perche' voi altre femmine, fareste meglio a starne alla larga! Capito cosa intendo?
+- Sono lieta di offrire un forum pubblico agli squilibrati di entrambi i sessi.
+" 127 162
+
+PHRASE char 455 "
+Cerchiamo di restare in argomento, ok?
+- Deb della Notte?
+- Sono io.
+- Ho scoperto di recente di essere un vampiro.
+- Oh-oh, anch'io lo ero, una volta, poi e' arrivato il due novembre.
+- Non e' uno scherzo, sono davvero preoccupato per questo.
+- Aha.
+- Questa ragazza al locale mi ha portato in bagno e mi ha fatto qualcosa!
+- Ai miei tempi in discoteca lo chiamavamo un favore.
+Oh ascoltatore, puoi restare in linea, ho Frankenstein sull'altra linea.
+" 162 188
+
+PHRASE char 542 "
+- Frankenstein, hai qualcosa da aggiungere a questa conversazione?
+- Grrraaah!
+- Capisco.
+La tua replica, ascoltatore.
+- Non sto mentendo, mi e' successo davvero. Potrebbe succedere a chiunque.
+- Grrraaah! Grrraaah!
+- Ooh, ottima osservazione.
+Vuoi un consiglio? Lavati via l'eyeliner, mettiti qualcosa che non sia nero e vai a prenderti un'abbronzatura in spiaggia. Insomma, lo show di Deb della Notte non promuove lo stile di vita gotico e fidati di Deb, fingersi un vampiro impressiona solo persone con lo stesso schifo fisico addosso.
+" 188 216
+
+PHRASE char 661 "
+Prossimo ascoltatore.
+- Deb, credo che il mondo sia stato incasinato, sia incasinato, e continuera' a essere incasinato.
+- Oh, un ottimista.
+- Ora, abbi pazienza ma io so qual e' la causa di tutti i problemi del mondo.
+- I capezzoli in TV?
+- Esatto!
+- La nudita'?
+- Non troppa nudita', non abbastanza nudita'. I vestiti rendono una persona disonesta. Nascondono il loro vero io sotto di essi. I vestiti promuovono problemi, come le classi sociali e il senso di superiorita' e le armi nascoste. Perche'? Quanto pensi che spendiamo in vestiti come popolo? E se quei soldi andassero verso la scienza? Diamine, vivremmo gia' in un mondo tecnologico futuristico!
+" 216 250
+
+PHRASE char 434 "
+- Sei mai stato in una colonia nudista? Niente di attraente.
+- Il fatto che pensi che dovrebbe esserlo e' un effetto collaterale dei media morbosi. Non sei desensibilizzato alla nudita'. Pensaci. Se oggi l'uomo al bancone del cinema non indossasse i pantaloni, usciresti infuriato dal cinema! Ma nel mondo nuovo, sarebbe «Popcorn e una bibita media, per favore».
+- No, credo che quello che succederebbe e' che perderei l'appetito.
+" 250 272
+
+PHRASE char 503 "
+- E l'obesita' non e' uno dei problemi piu' grandi della nostra nazione? Un altro beneficio della nudita'. E che dire di tutto quel clamore che la gente fa quando qualcuno se ne va in giro come madre natura l'ha fatto in un frizzante pomeriggio primaverile? Arrestato per atti osceni in luogo pubblico? Beh, in un mondo nudista sarebbe normale. La gente ti chiederebbe, a quante persone ti sei mostrato oggi?
+- Per quanto sia fiero delle mie ragazze, credo che le limitero' alle apparizioni private.
+" 272 295
+
+PHRASE char 615 "
+Prossimo ascoltatore.
+- Deb, ci siamo! Questa volta mi sono imbattuto in qualcosa di piu' grande di qualunque cosa tu possa immaginare. Una minaccia all'esistenza dell'intera razza umana.
+- Ah, Gomez! Si capisce che e' stata una brutta nottata quando non vedevo l'ora della tua chiamata.
+- Deb, niente puo' preparare il mondo a questo. Questa e' la storia piu' grande nella storia dell'umanita' di sempre! Di sempre Deb, come l'ho scoperto non posso dirlo ma sto rischiando la vita per raccontarlo al mondo. Sei pronta?
+- C-certo.
+- Gente di Los Angeles, i vampiri camminano tra noi.
+- Uffa, di nuovo i vampiri.
+" 295 324
+
+PHRASE char 748 "
+- Ascoltami, Deb! I vampiri sono tra noi e lo sono dall'alba dei tempi. E Los Angeles. Beh, qui c'e' piu' densita' di vampiri pro capite che in qualunque altro posto al mondo. La gente viene uccisa dai vampiri di continuo ma la loro societa' segreta insabbia tutto. Chi ha fatto saltare in aria quel magazzino a Santa Monica? Vampiri! Cos'e' successo all'equipaggio dell'Elizabeth Dane? Vampiri! Vuoi sapere cos'e' successo a quel sarcofago scomparso? Se lo sono preso i vampiri. Il principe dei vampiri per essere precisi. Vuole usarlo contro una lega di altri vampiri che stanno cercando di mettere piede nella nostra citta'. E ascolta questa! Potrebbe esserci un vampiro ancora piu' antico dentro quel sarcofago. Un super vampiro ancestrale!
+" 324 360
+
+PHRASE char 610 "
+- Esatto, i vampiri, sono ovunque. Non puoi tirare un sasso in questa citta' senza colpire un vampiro.
+- E' la verita', Deb. I non-morti sono tutti intorno a noi. Dobbiamo sollevarci e distruggere i nostri malvagi signori vampiri prima che sia troppo tardi!
+- Avete sentito, gente. Procuratevi croci, aglio e collari cervicali. Oh, fratello.
+Beh, Deb non e' un non-morto ma il sole sorgera' presto ed e' stanca morta. Sta andando a casa a godersi un po' di meritato riposo. Ma non preoccupatevi. Sara' di ritorno stessa ora stessa stazione domani notte. Fino ad allora, fan, non fatevi mordere dai vampiri.
+" 360 390
+
+PHRASE char 10 "(Musica)" 390 395
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Radio
+}

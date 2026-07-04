@@ -1,0 +1,3581 @@
+CharCreateWizard
+{
+
+
+//
+//
+//	[Character Generation Wizard]
+//
+//
+//		LOCALIZATION:	Localize/Translate the "Name" and "Text" Fields ***ONLY***!!!
+//
+//
+
+
+
+//
+//
+//
+//	PopUp Section Description:	Note that not all fields may be used for a given PopUp.
+//						PopUps may share the same Internal Name, the system will randomly pick one.
+//						PopUps inherit Default information from their group.
+//
+//
+//		Popup
+//		{
+//			"Text"		The text to be displayed (must be localized!)
+//
+//			"InternalName"	The internal name by which this PopUp is referenced
+//
+//			"CharTemplate"	The internal name of a character template to change the player to
+//
+//			Trait_Prereq	An 'unlimited' number of traits to compare against
+//			{
+//				"Trait"	The trait (as in "Combat", "Social", etc.) to compare against
+//				"MinVal"	The value that the trait must be greater than or equal to in order to use this PopUp
+//				"MaxVal"	The value that the trait must be less than or equal to in order to use this PopUp
+//			}
+//
+//			"Order_Prereqs"	If set to '1', an Ordering validity test is done against the Traits listed in the 'Actions' (see below)
+//
+//			"Clan_Prereqs"	If set to '1', a Clan validity test is done against the Character Templates listed in the 'Actions' (see below)
+//
+//			"Bkg_Image"		The pathname to a hud material (as in "hud/CharGenWizard_Default")
+//
+//			Region		The location/bounds on the screen to display the given image
+//			{
+//				"X"		
+//				"Y"		
+//				"Width"	
+//				"Height"	
+//			}
+//
+//			TextRegion		The location on the screen in which the text will be displayed
+//			{
+//				"X"		
+//				"Y"		
+//				"Width"	
+//				"Height"	
+//			}
+//
+//			Action		An action is a button as well as the results that happen if it is clicked.
+//			{			Note: You may have up to 3 'Actions' for a given PopUp
+//				"Text"		Text to be displayed (must be localized!)
+//				"Next"		The internal name of the next PopUp to go to
+//				"SetGenderMale"	If set to '1', will set the player's gender to male (if not already)
+//				"SetGenderFemale"	If set to '1', will set the player's gender to female (if not already) 
+//				"CharTemplate"	Will change the player's character template/clan to the specified one.
+//				"IsCheckBox"	Makes this a checkbox button. The Action will only trigger if checked when the PopUp goes away.
+//				"EndCharGenWiz"	If set to '1', will close the Character Generation Wizard.
+//
+//				Region	The location & size of this button
+//				{
+//					"X"		
+//					"Y"		
+//					"Width"	
+//					"Height"	
+//				}
+//			}
+//		}
+//
+//
+//
+
+
+
+
+	Strings
+	{
+		// Don't use this...
+//		PointsStrs
+//		{
+//			"Name0"	"%d points"	// As in, "5 points"
+//			"Name1"	"%d point"	// As in, "1 point"
+//		}
+
+
+
+		// ***DO NOT LOCALIZE THESE***
+		// ***DO NOT LOCALIZE THESE***
+		// ***DO NOT LOCALIZE THESE***
+
+		// For Testing
+		PointsStrs
+		{
+			"Name0"	"%d points"	// As in, "5 points"
+			"Name1"	"%d point"	// As in, "1 point"
+		}
+
+		TraitOrderingStrs
+		{
+			"Name0"	"Primary"
+			"Name1"	"Secondary"
+			"Name2"	"Tertiary"
+		}
+
+		PopUpGroups
+		{
+			"Name0"	"Trait_Popups"
+			"Name1"	"Trait_Non_Combat_Winner_Popups"
+			"Name2"	"Trait_Combat_Winner_Popups"
+			"Name3"	"Clan_Popups"
+			"Name4"	"Help_Popups"
+			"Name5"	"Help1b_Popups"
+			"Name6"	"Help2_Popups"
+			"Name7"	"Help3_Popups"
+			"Name8"	"Help4_Popups"
+			"Name9"	"Misc_Popups"
+		}
+
+		SubPoolTables
+		{
+			"Name0"	"Subpool_Physical"
+			"Name1"	"Subpool_Social"
+			"Name2"	"Subpool_Mental"
+			"Name3"	"Subpool_Talents"
+			"Name4"	"Subpool_Skills"
+			"Name5"	"Subpool_Knowledges"
+			"Name6"	"Subpool_Disciplines"
+		}
+	}
+
+
+	// Localize/Translate the "Name", and "Text" Fields ONLY!!!
+	Traits
+	{
+		// The different traits that can be chosen
+
+
+		Trait
+		{
+                        "Name"          "Combat"
+			"InternalName"	"Combat"
+		}
+
+		Trait
+		{
+                        "Name"          "Non-Combat"
+			"InternalName"	"Non-Combat"
+		}
+
+		Trait
+		{
+			"Name"		"Sociale"
+			"InternalName"	"Social"
+		}
+
+		Trait
+		{
+			"Name"		"Furtivita'"
+			"InternalName"	"Stealth"
+		}
+
+		Trait
+		{
+			"Name"		"Intelletto"
+			"InternalName"	"Intellect"
+		}
+
+		Trait
+		{
+			"Name"		"Disarmato"
+			"InternalName"	"Unarmed"
+		}
+
+		Trait
+		{
+			"Name"		"Armato"
+			"InternalName"	"Armed"
+		}
+
+		Trait
+		{
+			"Name"		"A Distanza"
+			"InternalName"	"Ranged"
+		}
+
+
+
+		// How the traits group together
+		TraitCombinations
+		{
+			TraitCombination
+			{
+				"InternalName"	"TraitCombo_Combat_vs_Non-Combat"
+
+				"Trait"		"Combat"
+				"Trait"		"Non-Combat"
+			}
+
+			TraitCombination
+			{
+				"InternalName"	"TraitCombo_Combat"
+
+				"Trait"		"Unarmed"
+				"Trait"		"Armed"
+				"Trait"		"Ranged"
+			}
+
+			TraitCombination
+			{
+				"InternalName"	"TraitCombo_Non-Combat"
+
+				"Trait"		"Social"
+				"Trait"		"Stealth"
+				"Trait"		"Intellect"
+			}
+
+
+
+
+			// How the traits map into the final ordering
+			TraitOrderings
+			{
+				TraitOrdering
+				{
+					"TraitCombination"	"TraitCombo_Combat_vs_Non-Combat"
+					"Index"			"Primary"
+					"Trait"			"Combat"
+					Trait_Prereq
+					{
+						"Trait"	"Non-Combat"
+						"MinVal"	"1"
+					}
+
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Secondary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Secondary"
+					}
+				}
+
+				TraitOrdering
+				{
+					"TraitCombination"	"TraitCombo_Combat_vs_Non-Combat"
+					"Index"			"Primary"
+					"Trait"			"Non-Combat"
+					Trait_Prereq
+					{
+						"Trait"	"Combat"
+						"MinVal"	"1"
+					}
+
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Secondary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Secondary"
+					}
+				}
+
+				TraitOrdering
+				{
+					"TraitCombination"	"TraitCombo_Combat_vs_Non-Combat"
+					"Index"			"Primary"
+					"Trait"			"Combat"
+					Trait_Prereq
+					{
+						"Trait"	"Non-Combat"
+						"MaxVal"	"0"
+					}
+
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Secondary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Secondary"
+					}
+				}
+
+				TraitOrdering
+				{
+					"TraitCombination"	"TraitCombo_Combat_vs_Non-Combat"
+					"Index"			"Primary"
+					"Trait"			"Non-Combat"
+					Trait_Prereq
+					{
+						"Trait"	"Combat"
+						"MaxVal"	"0"
+					}
+
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Non-Combat"
+						"Index"			"Secondary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Primary"
+					}
+					Ordering
+					{
+						"TraitCombination"	"TraitCombo_Combat"
+						"Index"			"Secondary"
+					}
+				}
+			}
+		}
+	}
+
+
+	Clan_Tables
+	{
+		// This is the table of clans, and which traits they care about
+		// You are allowed to have up to two of each ordering (for example, 2 "Primary" traits)
+
+
+		ClanNode
+		{
+			"CharTemplate"	"Player_Brujah"
+			"Primary"		"Unarmed"
+			"Secondary"		"Armed"
+			"Tertiary"		"Ranged"
+		}
+
+		ClanNode
+		{
+			"CharTemplate"	"Player_Gangrel"
+			"Primary"		"Armed"
+			"Primary"		"Unarmed"
+			"Secondary"		"Stealth"
+		}
+
+		ClanNode
+		{
+			"CharTemplate"	"Player_Malkavian"
+			"Primary"		"Intellect"
+			"Secondary"		"Social"
+			"Tertiary"		"Ranged"
+		}
+
+		ClanNode
+		{
+			"CharTemplate"	"Player_Nosferatu"
+			"Primary"		"Stealth"
+			"Secondary"		"Ranged"
+			"Secondary"		"Armed"
+		}
+
+		ClanNode
+		{
+			"CharTemplate"	"Player_Toreador"
+			"Primary"		"Social"
+			"Secondary"		"Intellect"
+			"Tertiary"		"Ranged"
+		}
+
+		ClanNode
+		{
+			"CharTemplate"	"Player_Tremere"
+			"Primary"		"Intellect"
+			"Secondary"		"Armed"
+			"Tertiary"		"Social"
+		}
+
+		ClanNode
+		{
+			"CharTemplate"	"Player_Ventrue"
+			"Primary"		"Intellect"
+			"Secondary"		"Social"
+			"Tertiary"		"Ranged"
+		}
+
+
+		// This is the table of how much each selection ordering is worth
+		ConnectionScores
+		{
+			Selection	// 1
+			{
+				"Primary"		"3"
+				"Secondary"		"1"
+				"Tertiary"		"0"
+			}
+
+			Selection	// 2
+			{
+				"Primary"		"2"
+				"Secondary"		"3"
+				"Tertiary"		"1"
+			}
+
+			Selection	// 3
+			{
+				"Primary"		"1"
+				"Secondary"		"2"
+				"Tertiary"		"3"
+			}
+		}
+	}
+
+
+
+	// Popups for choosing Traits
+	Trait_Popups
+	{
+		"InternalName"	"Trait_Popups"
+
+		NextSection
+		{
+			"Next"	"Trait_Winner_Non-Combat"
+			"MinCount"	"6"
+			"MaxCount"	"8"
+		}
+
+		// Defaults:
+		Defaults
+		{
+			"Text"		""
+
+			"InternalName"	"Trait_Default"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"661"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			// Alternates
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+				"KeyLookup"			"0"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+				"KeyLookup"			"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Choose the gender for your character
+			"Text"		"Vuoi che il tuo personaggio sia..."
+
+			"InternalName"	"Trait_Male_vs_Female"
+
+			Action
+			{
+				"Text"		"1. Maschio?"
+				"SetGenderMale"	"1"
+				"Next"		"Trait_Combat_vs_Non-Combat"
+
+				Region
+				{
+					"X"		"446"	// 526 & Centered
+					"Y"		"515"
+					"Width"	"160"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"Text"		"2. Femmina?"
+				"SetGenderFemale"	"1"
+				"Next"		"Trait_Combat_vs_Non-Combat"
+
+				Region
+				{
+					"X"		"446"	// 526 & Centered
+					"Y"		"588"
+					"Width"	"160"
+					"Height"	"70"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Combat vs Non-Combat #1
+			"Text"		"Stai tornando a casa di notte, senti dei passi dietro di te e all'improvviso capisci che qualcuno ti sta seguendo. Cosa fai?"
+
+			"InternalName"	"Trait_Combat_vs_Non-Combat"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MaxVal"	"0"
+				}
+
+				"Text"	"1. Ti giri e li affronti?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			Action
+			{
+				"Text"	"2. Ti nascondi dietro un albero e aspetti che perdano le tue tracce?"
+				"Trait"	"Non-Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			// Alternates
+			Action
+			{
+				"KeyLookup"			"0"
+
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MinVal"	"1"
+				}
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+
+				"Text"	"1. Ti volti e li affronti?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup
+		{
+			// Combat vs Non-Combat #2
+			"Text"		"Mentre sei in un club, vedi un tuo vecchio compagno di stanza, quello che fuggi' con la tua roba lasciandoti un sacco di bollette da pagare. Sembra ubriaco fracido. Cosa fai?"
+
+			"InternalName"	"Trait_Combat_vs_Non-Combat"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MaxVal"	"0"
+				}
+
+				"Text"	"1. Lo prendi per la testa e gliela sbatti ripetutamente sul bancone del bar?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			Action
+			{
+				"Text"	"2. Chiami la polizia. Ci vediamo in tribunale, amico?" 
+				"Trait"	"Non-Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			// Alternates
+			Action
+			{
+				"KeyLookup"			"0"
+
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MinVal"	"1"
+				}
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+
+				"Text"	"1. Lo prendi per la testa e gliela sbatti ripetutamente sul bancone del bar?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup
+		{
+			// Combat vs Non-Combat #3
+			"Text"		"Sei in un discount, stai guardando il freezer dove e' contenuta la birra, quando tutto d'un tratto un uomo entra e punta un'arma contro il cassiere. Cosa fai?"
+
+			"InternalName"	"Trait_Combat_vs_Non-Combat"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MaxVal"	"0"
+				}
+
+				"Text"	"1. Scivoli di soppiatto alle sue spalle, lo disarmi, e continui a picchiarlo finche' non perde i sensi?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			Action
+			{
+				"Text"	"2. Piano piano ti fai strada fino al bagno e ti chiudi dentro?"
+				"Trait"	"Non-Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			// Alternates
+			Action
+			{
+				"KeyLookup"			"0"
+
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MinVal"	"1"
+				}
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+
+				"Text"	"1. Scivoli di soppiatto alle sue spalle, lo disarmi, e continui a picchiarlo finche' non perde i sensi?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup
+		{
+			// Combat vs Non-Combat #4
+			"Text"		"Sei imbottigliato nel traffico dopo un concerto e il ragazzo dietro di te si sta attaccando al clacson. I tuoi amici nella macchina ti esortano a parcheggiare e ad aiutarli a picchiare il ragazzo. Cosa fai?"
+
+			"InternalName"	"Trait_Combat_vs_Non-Combat"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MaxVal"	"0"
+				}
+
+				"Text"	"1. Esci, butti fuori dalla macchina il ragazzo e lo mandi all'ospedale?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			Action
+			{
+				"Text"	"2. Parli chiaro ai tuoi amici - non hai bisogno di una causa o della galera?"
+				"Trait"	"Non-Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			// Alternates
+			Action
+			{
+				"KeyLookup"			"0"
+
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MinVal"	"1"
+				}
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+
+				"Text"	"1. Esci, butti fuori dalla macchina il ragazzo e lo mandi all'ospedale?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup // restored by wesp
+		{
+			// Combat vs Non-Combat #5
+			"Text"		"Sei in un ospedale, cerchi il dottore che e' in ritardo per la tua dose di sangue. Si ferma un'infermiera davanti a te e dice, \"Non puoi stare qui! E' ammesso solo lo staff medico.\" Cosa fai?"
+
+			"InternalName"	"Trait_Combat_vs_Non-Combat"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MaxVal"	"0"
+				}
+
+				"Text"	"1. La sposti via come una bambola di pezza e prosegui?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			Action
+			{
+				"Text"	"2. Mostri il tuo dente avvelenato e la fai fuggire in prenda alla paura?"
+				"Trait"	"Non-Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			// Alternates
+			Action
+			{
+				"KeyLookup"			"0"
+
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MinVal"	"1"
+				}
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+
+				"Text"	"1. La sposti via come una bambola di pezza e prosegui?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup // restored by wesp
+		{
+			// Combat vs Non-Combat #6
+			"Text"		"Alcuni mortali ubriachi tentano di picchiarti in un bar. Cosa fai?"
+
+			"InternalName"	"Trait_Combat_vs_Non-Combat"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MaxVal"	"0"
+				}
+
+				"Text"	"1. Distruggi il locale con i corpi di quei poveri ubriachi?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			Action
+			{
+				"Text"	"2. Sistemi la cosa con una stretta di mano?"
+				"Trait"	"Non-Combat"
+				"Next"	"Trait_Social_vs_Stealth_vs_Intellect"
+			}
+
+			// Alternates
+			Action
+			{
+				"KeyLookup"			"0"
+
+				Trait_Prereq
+				{
+					"Trait"	"Combat"
+					"MinVal"	"1"
+				}
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+
+				"Text"	"1. Distruggi il locale con i corpi di quei poveri ubriachi?"
+				"Trait"	"Combat"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup
+		{
+			// Social vs Stealth vs Intellect #1
+			"Text"		"Sei in un nightclub, ti stai divertendo dannatamente, quando capisci che non hai soldi - niente soldi, niente divertimento. Cosa fai?"
+
+			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Seduci qualcuno e fai in modo che paghi i drink per te?"
+				"Trait"	"Social"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"2. Perdi tempo e appena il barista si volta rubi una bottiglia?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"3. Vai a casa e leggi un libro o ascolti musica - qualcosa di piu' intelletualmente stimolante di una vita sprecata in un club di merda, no?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup
+		{
+			// Social vs Stealth vs Intellect #2
+			"Text"		"Uno stronzo non ti lascia entrare all'ingresso di un esclusivo nightclub dove ci sono tutte le persone che contano. Cosa fai?"
+
+			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Lo convinci che lavori per quel direttore, tu sai chi - e lo porterai con te la prossima volta?"
+				"Trait"	"Social"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"2. Ti nascondi nell'uscita posteriore, aspetti che qualcuno esca, quindi entri senza farti notare?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"3. Lo corrompi - tutti hanno un prezzo, e tu vuoi conoscere le persone importanti, no?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup
+		{
+			// Social vs Stealth vs Intellect #3
+			"Text"		"Sei stato superato ad un'asta di un macabro pezzo d'arte che devi assolutamente avere. Conosci il collezionista che lo ha vinto - sei stato persino a casa sua. Cosa fai?"
+
+			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Ti vai a fare due bicchieri con lui e lo persuadi a vendertelo?"
+				"Trait"	"Social"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"2. Aspetti finche' non se ne va, trovi una chiave di scorta, e la fai sembrare una rapina?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"3. Scrivi una critica poco lusinghiera sull'artista, la pubblichi, e aspetti che il tuo amico provi a scaricarla?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup
+		{
+			// Social vs Stealth vs Intellect #4
+			"Text"		"Conosci qualcuno ad un club e ti porta a casa sua. Le cose iniziano a farsi interessanti quando tutto ad un tratto senti qualcuno venire dalla porta principale - il suo partner. Cosa fai?"
+
+			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Ti dirigi in cucina, lasci che ti guardi, quindi fingi di essere un cugino lontano e sono davvero gentili a farti stare sul divano?"
+				"Trait"	"Social"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"2. Raccogli i tuoi vestiti, ti nascondi dietro la porta e scappi dall'appartamento senza farti vedere?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"3. Gentilmente spieghi che non avevi idea che fossero sposati e che intendi andartene e non ritornare piu' - tenendo le dita sul telefono in caso avessi bisogno della polizia?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup // restored by wesp
+		{
+			// Social vs Stealth vs Intellect #5
+			"Text"		"Un cacciatore di vampiri ti ha scovato in una folla di mortali. Cosa fai?"
+
+			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Riveli la tua soprannaturale presenza, accecando tutti nelle vicinanze?"
+				"Trait"	"Social"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"2. Ti perdi nella folla e scompari dalla sua vista?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"3. Usi la tua abilita' di leggere la mente dei mortali e ti allontani da ogni sensazione di ostilita'?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+		Popup	// restored by wesp
+		{
+			// Social vs Stealth vs Intellect #6
+			"Text"		"You just started playing that new cool computer game but it is full of bugs. Do you..."
+
+			"InternalName"	"Trait_Social_vs_Stealth_vs_Intellect"
+
+			Trait_Prereq
+			{
+				"Trait"	"Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Get onto several forums and complain about the issues."
+				"Trait"	"Social"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"2. Email the developers themselves to get the game fixed."
+				"Trait"	"Stealth"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+
+			Action
+			{
+				"Text"	"3. Decide to look into the code yourself to patch it up."
+				"Trait"	"Intellect"
+				"Next"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+			}
+		}
+
+
+		Popup
+		{
+			// Unarmed vs Armed vs Ranged #1
+			"Text"		"Sei stato rapinato la scorsa notte. Non e' stato bello, ma vuoi prendere delle contromisure nel caso succeda di nuovo per non essere indifeso. Cosa fai?"
+
+			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Ti iscrivi ad un corso di arti marziali - cosi' la prossima volta che li incontri, gli spezzerai la spina dorsale?"
+				"Trait"	"Unarmed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Inizi a portare con te un coltello e lo metti nella cintura - la prossima persona che ci prova respirera' dal buco del culo?"
+				"Trait"	"Armed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"3. Compri un'arma - il prossimo rapinatore sara' carne per i topi?"
+				"Trait"	"Ranged"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+		}
+
+		Popup
+		{
+			// Unarmed vs Armed vs Ranged #2
+			"Text"		"Essendo una \"persona notturna\", guardi un sacco di film a tarda notte. Ci sono tre film - quali di questi guardi?"
+
+			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Fist of the Monkey King - un film di Kung Fu con qualche scena dove Wu batte venti uomini armati con le sole mani nude?"
+				"Trait"	"Unarmed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Sword of the Bushi - film Giapponese dove un samurai solitario si fa strada attraverso una gang  Yakuza?"
+				"Trait"	"Armed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"3. Sgt. Murderstein III - il poliziotto non gioca secondo le regole che impone il cartello che ha rapito sua figlia ed e' solo con la sua fidata .44, riuscira' a riportarla indietro?"
+				"Trait"	"Ranged"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+		}
+
+		Popup
+		{
+			// Unarmed vs Armed vs Ranged #3
+			"Text"		"E' tardi, sei al Red Spot, aspetti che si riscaldi il tuo burrito al microonde. Ci sono tre giochi arcade per buttare via un po' di tempo. A quale giocheresti?"
+
+			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Il gioco di combattimento - dai pugni a casaccio fino allo scadere del tempo?"
+				"Trait"	"Unarmed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Quel gioco beat'em'up dove puoi prendere a mazzate un'orda di teppisti?"
+				"Trait"	"Armed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"3. Quel gioco del cecchino con una vera arma per controller?"
+				"Trait"	"Ranged"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+		}
+
+		Popup
+		{
+			// Unarmed vs Armed vs Ranged #4
+			"Text"		"Un intruso e' entrato in casa tua e si e' intrufolato nella stanza da letto. Non hai altra scelta se non confrontarti con lui. Cosa fai?"
+
+			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Lotti e lo butti a terra rompendogli quante piu' ossa possibili?"
+				"Trait"	"Unarmed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Prendi la pesante lampada vicina al tuo letto e gliela spacchi in testa?"
+				"Trait"	"Armed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"3. Prendi la tua pistola e gli spari - ne tieni una vicino al letto per questa buona ragione?"
+				"Trait"	"Ranged"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+		}
+
+		Popup // restored by wesp
+		{
+			// Unarmed vs Armed vs Ranged #5
+			"Text"		"Ti stai dirigendo a downtown per incontrarti con alcuni Nosferatu nel vicolo dietro al ristorante Cinese. Ha un sacco di importanti informazioni da venderti. Non ti aspetti nessun pericolo, ma non puoi esserne certo. Cosa fai?"
+
+			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Non porti armi che potrebbero spaventare il tuo contatto, ti fidi della tua forza soprannaturale per risolvere il problema?"
+				"Trait"	"Unarmed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Nascondi un manganello nel tuo giubbotto in caso di pericolo?"
+				"Trait"	"Armed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"3. Metti una Smith & Wesson nella fodera, giusto per essere sicuro?"
+				"Trait"	"Ranged"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+		}
+
+		Popup // restored by wesp
+		{
+			// Unarmed vs Armed vs Ranged #6
+			"Text"		"Sei in un negozio aperto tutta la notte, senti di aver bisogno di protezione, ma non hai soldi. Puoi permetterti di comprare solo un oggetto. Quale scegli?"
+
+			"InternalName"	"Trait_Unarmed_vs_Armed_vs_Ranged"
+
+			Trait_Prereq
+			{
+				"Trait"	"Non-Combat"
+				"MaxVal"	"1"
+			}
+
+			Action
+			{
+				"Text"	"1. Un libro intitolato \"Kickboxing in Dieci Facili Lezioni\"?"
+				"Trait"	"Unarmed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Una bella mazza da baseball?"
+				"Trait"	"Armed"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+
+			Action
+			{
+				"Text"	"3. Un disco da quattro soldi, Saturday Night Special?"
+				"Trait"	"Ranged"
+				"Next"	"Trait_Combat_vs_Non-Combat"
+			}
+		}
+	}
+
+
+	// Popups for choosing the winner for 2 Non-Combat traits (if there are 2)
+	Trait_Non_Combat_Winner_Popups
+	{
+		"InternalName"	"Trait_Non_Combat_Winner_Popups"
+
+		NextSection
+		{
+			"Next"	"Trait_Winner_Combat"
+			"MaxCount"	"1"
+		}
+
+		// Defaults:
+		Defaults
+		{
+			"InternalName"	"Trait_Winner_Non-Combat"
+
+			"Order_Prereqs"	"1"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				"Next"	"Trait_Winner_Combat"
+
+				"MultiLineText"		"1"
+				"ProcessTraitChoices"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"Next"	"Trait_Winner_Combat"
+
+				"MultiLineText"		"1"
+				"ProcessTraitChoices"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"Next"	"Trait_Winner_Combat"
+
+				"MultiLineText"		"1"
+				"ProcessTraitChoices"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"661"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Social vs. Stealth #1
+			"Text"		"Se fossi stata una spia, quale saresti stata?"
+
+			Action
+			{
+				"Text"	"1. Il tipo di spia che affascina e seduce per ricevere informazioni?"
+				"Trait"	"Social"
+				"Next"	"Trait_Winner_Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Il tipo di spia che entra ed esce senza essere visto?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Winner_Combat"
+			}
+		}
+
+		Popup
+		{
+			// Social vs. Stealth #2
+			"Text"		"Un tuo collega di lavoro ha parlato male di te ai superiori e ti ha strappato una posizione di lavoro che era tua di diritto. Cosa fai?"
+
+			Action
+			{
+				"Text"	"1. Fai scomparire le mutande di uno dei tuoi superiori e, se non funzionasse, li fai scomparire in un altro modo?"
+				"Trait"	"Social"
+				"Next"	"Trait_Winner_Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Accedi al computer del collega di lavoro e accidentalmente scrivi una lettera con insulti al presidente della compagnia?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Winner_Combat"
+			}
+		}
+
+		Popup
+		{
+			// Social vs. Intellect #1
+			"Text"		"Vuoi fare in modo che la tua prima uscita si trasformi in una seconda. Come fai?"
+
+			Action
+			{
+				"Text"	"1. Guardami! Cioe' dico, chi non mi vorrebbe vedere di nuovo?"
+				"Trait"	"Social"
+				"Next"	"Trait_Winner_Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Conversazione intelligente, il giusto vino, ordinazione in un linguaggio tecnico?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Winner_Combat"
+			}
+		}
+
+		Popup
+		{
+			// Social vs. Intellect #2
+			"Text"		"Vuoi scoparti il tuo vicino. Come fai a convincerlo ad uscire con te?"
+
+			Action
+			{
+				"Text"	"1. Trascorri molto tempo vicino alla finestra senza mutande - verra' in poco tempo da te?"
+				"Trait"	"Social"
+				"Next"	"Trait_Winner_Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Probabilmente rimarra' colpito da come lavori duramente - la nuova vistosa macchina catturera' la sua attenzione?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Winner_Combat"
+			}
+		}
+
+		Popup
+		{
+			// Stealth vs Intellect #1
+			"Text"		"Il Venerdi' lasci un messaggio mentre sei ubriaco sulla segreteria del tuo capo. Al Sabato, sobrio, capisci di doverlo cancellarla. Cosa fai?"
+
+			Action
+			{
+				"Text"	"1. Sai che il dispositivo di lettura della carta magnetica e' rotto e puoi molto probabilmente hackerarla. Tutto cio' di cui hai bisogno e' di entrare, cancellare il messaggio, e uscire."
+				"Trait"	"Stealth"
+				"Next"	"Trait_Winner_Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Sfrutti la tua posizione di impiegato: semplicemente mostri il tuo cartellino alla guardia di sicurezza, gli chiedi di una squadra di calcio, ridi, entri dentro, cancelli il messaggio, dici \"buona giornata, ragazzo\" ed esci."
+				"Trait"	"Intellect"
+				"Next"	"Trait_Winner_Combat"
+			}
+		}
+
+		Popup
+		{
+			// Stealth vs Intellect #2
+			"Text"		"La nuova vicina e' bellissima e vorresti vedere molto di piu' da lei. Cosa fai?"
+
+			Action
+			{
+				"Text"	"1. Spegni la luce, metti un vestito scuro, monti la telecamera su un treppiede, e aspetti che incominci lo show?"
+				"Trait"	"Stealth"
+				"Next"	"Trait_Winner_Combat"
+			}
+
+			Action
+			{
+				"Text"	"2. Una romantica cena con musica leggera e qualche frecciatina - la natura fara' il suo corso?"
+				"Trait"	"Intellect"
+				"Next"	"Trait_Winner_Combat"
+			}
+		}
+	}
+
+
+	// Popups for choosing the winner for 2 Combat traits (if there are 2)
+	Trait_Combat_Winner_Popups
+	{
+		"InternalName"	"Trait_Combat_Winner_Popups"
+
+		NextSection
+		{
+			"Next"	"Clan_Chooser"
+			"MaxCount"	"1"
+		}
+
+		// Defaults:
+		Defaults
+		{
+			"InternalName"	"Trait_Winner_Combat"
+
+			"Order_Prereqs"	"1"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				"Next"	"Clan_Chooser"
+
+				"MultiLineText"		"1"
+				"ProcessTraitChoices"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"Next"	"Clan_Chooser"
+
+				"MultiLineText"		"1"
+				"ProcessTraitChoices"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"Next"	"Clan_Chooser"
+
+				"MultiLineText"		"1"
+				"ProcessTraitChoices"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"661"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Unarmed vs. Armed #1
+			"Text"		"Un ragazzo alla festa ha provato a lottare con te provocandoti per tutta la sera, quando si e' finalmente deciso a tirarti un pugno. Cosa fai?"
+
+			Action
+			{
+				"Text"	"1. Lo picchi in faccia - cosi' non si alzera' piu'?"
+				"Trait"	"Unarmed"
+				"Next"	"Clan_Chooser"
+			}
+
+			Action
+			{
+				"Text"	"2. Prendi una bottiglia di vetro vuota e gliela spacchi in testa?"
+				"Trait"	"Armed"
+				"Next"	"Clan_Chooser"
+			}
+		}
+
+		Popup
+		{
+			// Unarmed vs. Armed #2
+			"Text"		"Se potessi imparare una sola arte marziale quale sarebbe?"
+
+			Action
+			{
+				"Text"	"1. Karate?"
+				"Trait"	"Unarmed"
+				"Next"	"Clan_Chooser"
+			}
+
+			Action
+			{
+				"Text"	"2. Kendo (Scherma Giapponese)?"
+				"Trait"	"Armed"
+				"Next"	"Clan_Chooser"
+			}
+		}
+
+		Popup
+		{
+			// Unarmed vs. Ranged #1
+			"Text"		"Se ti trovassi in una rissa contro un avversario armato, cosa faresti?"
+
+			Action
+			{
+				"Text"	"1. Lo sconfiggi a mani nude - sarebbe piu' soddisfacente?"
+				"Trait"	"Unarmed"
+				"Next"	"Clan_Chooser"
+			}
+
+			Action
+			{
+				"Text"	"2. Spari per primo, le domande dopo?"
+				"Trait"	"Ranged"
+				"Next"	"Clan_Chooser"
+			}
+		}
+
+		Popup
+		{
+			// Unarmed vs. Ranged #2
+			"Text"		"Sei al cinema e un tizio blatera ad alta voce, quindi gli chiedi di fare silenzio, ma questo si alza e ti punta un dito in faccia. Cosa fai?"
+
+			Action
+			{
+				"Text"	"1. Giri il suo braccio e fai in modo che lecchi il pavimento?"
+				"Trait"	"Unarmed"
+				"Next"	"Clan_Chooser"
+			}
+
+			Action
+			{
+				"Text"	"2. Estrai un'arma giusto per fare l'osso duro e fargli bagnare le mutande?"
+				"Trait"	"Ranged"
+				"Next"	"Clan_Chooser"
+			}
+		}
+
+		Popup
+		{
+			// Armed vs. Ranged #1
+			"Text"		"Stai facendo una spedizione a piedi, e' ormai quasi buio quando vedi un puma sulla strada davanti a te. Cosa fai?"
+
+			Action
+			{
+				"Text"	"1. Prendi un ramo e gli corri dietro urlando?"
+				"Trait"	"Armed"
+				"Next"	"Clan_Chooser"
+			}
+
+			Action
+			{
+				"Text"	"2. Prendi un po' di pietre e gliele tiri addosso?"
+				"Trait"	"Ranged"
+				"Next"	"Clan_Chooser"
+			}
+		}
+
+		Popup
+		{
+			// Armed vs. Ranged #2
+			"Text"		"E' notte e senti un rumore improvviso, quindi decidi di controllare. Cosa prendi?"
+
+			Action
+			{
+				"Text"	"1. La mazza di ferro sotto il tuo letto?"
+				"Trait"	"Armed"
+				"Next"	"Clan_Chooser"
+			}
+
+			Action
+			{
+				"Text"	"2. L'arma nel comodino?"
+				"Trait"	"Ranged"
+				"Next"	"Clan_Chooser"
+			}
+		}
+	}
+
+
+	// Popups for choosing between 2 clans (if there are 2)
+	Clan_Popups
+	{
+		"InternalName"	"Clan_Popups"
+
+		// Note: For 7 clans, this makes for 21 possible combinations
+		NextSection
+		{
+			"Next"	"Help_Popup0b"
+			"MaxCount"	"1"
+		}
+
+		// Defaults:
+		Defaults
+		{
+			"InternalName"	"Clan_Chooser"
+
+			"Clan_Prereqs"	"1"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			Region
+			{
+
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				"Next"		"Help_Popup0b"
+				"MultiLineText"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"Next"		"Help_Popup0b"
+				"MultiLineText"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Brujah vs. Gangrel?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Se qualcuno mi intralcia la strada io gli rompo il culo. Ecco il perche'!"
+				"CharTemplate"	"Player_Brujah"
+			}
+
+			Action
+			{
+				"Text"		"2. Vivo da solo, non ho bisogno di nessuno. Solo io e il mio cane, al diavolo il resto."
+				"CharTemplate"	"Player_Gangrel"
+			}
+		}
+
+		Popup
+		{
+			// Brujah vs. Malkavian?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Se qualcuno mi intralcia la strada io gli rompo il culo. Ecco il perche'!"
+				"CharTemplate"	"Player_Brujah"
+			}
+
+			Action
+			{
+				"Text"		"2. Potrebbe essere crudele per te, ma per me e' DIVERTENTE."
+				"CharTemplate"	"Player_Malkavian"
+			}
+		}
+
+		Popup
+		{
+			// Brujah vs. Nosferatu?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Se qualcuno mi intralcia la strada io gli rompo il culo. Ecco il perche'!"
+				"CharTemplate"	"Player_Brujah"
+			}
+
+			Action
+			{
+				"Text"		"2. Resta nascosto e il mondo non sapra' nemmeno che tu sei li'."
+				"CharTemplate"	"Player_Nosferatu"
+			}
+		}
+
+		Popup
+		{
+			// Brujah vs. Toreador?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Se qualcuno mi intralcia la strada io gli rompo il culo. Ecco il perche'!"
+				"CharTemplate"	"Player_Brujah"
+			}
+
+			Action
+			{
+				"Text"		"2. Quando sei pieno di talento e affascinante come me, il mondo e' il tuo giocattolo."
+				"CharTemplate"	"Player_Toreador"
+			}
+		}
+
+		Popup
+		{
+			// Brujah vs. Tremere?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Se qualcuno mi intralcia la strada io gli rompo il culo. Ecco il perche'!"
+				"CharTemplate"	"Player_Brujah"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' io... e' un segreto. Non hai idea delle verita' che ho appreso."
+				"CharTemplate"	"Player_Tremere"
+			}
+		}
+
+		Popup
+		{
+			// Brujah vs. Ventrue?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Se qualcuno mi intralcia la strada io gli rompo il culo. Ecco il perche'!"
+				"CharTemplate"	"Player_Brujah"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' il mondo si piega alla mia volonta'."
+				"CharTemplate"	"Player_Ventrue"
+			}
+		}
+
+		Popup
+		{
+			// Gangrel vs. Malkavian?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Vivo da solo, non ho bisogno di nessuno. Solo io e il mio cane, al diavolo il resto."
+				"CharTemplate"	"Player_Gangrel"
+			}
+
+			Action
+			{
+				"Text"		"2. Potrebbe essere crudele per te, ma per me e' DIVERTENTE."
+				"CharTemplate"	"Player_Malkavian"
+			}
+		}
+
+		Popup
+		{
+			// Gangrel vs. Nosferatu?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Vivo da solo, non ho bisogno di nessuno. Solo io e il mio cane, al diavolo il resto."
+				"CharTemplate"	"Player_Gangrel"
+			}
+
+			Action
+			{
+				"Text"		"2. Resta nascosto e il mondo non sapra' nemmeno che tu sei li'."
+				"CharTemplate"	"Player_Nosferatu"
+			}
+		}
+
+		Popup
+		{
+			// Gangrel vs. Toreador?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia,ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Vivo da solo, non ho bisogno di nessuno. Solo io e il mio cane, al diavolo il resto."
+				"CharTemplate"	"Player_Gangrel"
+			}
+
+			Action
+			{
+				"Text"		"2. Quando sei pieno di talento e affascinante come me, il mondo e' il tuo giocattolo."
+				"CharTemplate"	"Player_Toreador"
+			}
+		}
+
+		Popup
+		{
+			// Gangrel vs. Tremere?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Vivo da solo, non ho bisogno di nessuno. Solo io e il mio cane, al diavolo il resto."
+				"CharTemplate"	"Player_Gangrel"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' io... lo tengo segreto. Non hai idea delle verita' che ho appreso."
+				"CharTemplate"	"Player_Tremere"
+			}
+		}
+
+		Popup
+		{
+			// Gangrel vs. Ventrue?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Vivo da solo, non ho bisogno di nessuno. Semplicemente io e il mio cane, al diavolo il resto."
+				"CharTemplate"	"Player_Gangrel"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' il mondo si piega alla mia volonta'."
+				"CharTemplate"	"Player_Ventrue"
+			}
+		}
+
+		Popup
+		{
+			// Malkavian vs. Nosferatu?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Potrebbe essere crudele per te, ma per me e' DIVERTENTE."
+				"CharTemplate"	"Player_Malkavian"
+			}
+
+			Action
+			{
+				"Text"		"2. Resta nascosto e il mondo non sapra' nemmeno che tu sei li'."
+				"CharTemplate"	"Player_Nosferatu"
+			}
+		}
+
+		Popup
+		{
+			// Malkavian vs. Toreador?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Potrebbe essere crudele per te, ma per me e' DIVERTENTE."
+				"CharTemplate"	"Player_Malkavian"
+			}
+
+			Action
+			{
+				"Text"		"2. Quando sei pieno di talento e affascinante come me, il mondo e' il tuo giocattolo."
+				"CharTemplate"	"Player_Toreador"
+			}
+		}
+
+		Popup
+		{
+			// Malkavian vs. Tremere?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Potrebbe essere crudele per te, ma per me e' DIVERTENTE."
+				"CharTemplate"	"Player_Malkavian"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' io... e' un segreto. Non hai idea delle verita' che ho appreso."
+				"CharTemplate"	"Player_Tremere"
+			}
+		}
+
+		Popup
+		{
+			// Malkavian vs. Ventrue?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Potrebbe essere crudele per te, ma per me e' DIVERTENTE."
+				"CharTemplate"	"Player_Malkavian"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' il mondo si piega alla mia volonta'."
+				"CharTemplate"	"Player_Ventrue"
+			}
+		}
+
+		Popup
+		{
+			// Nosferatu vs. Toreador?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu ce l'hai fatta finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Resta nascosto e il mondo non sapra' nemmeno che tu sei li'."
+				"CharTemplate"	"Player_Nosferatu"
+			}
+
+			Action
+			{
+				"Text"		"2. Quando sei pieno di talento e affascinante come me, il mondo e' il tuo giocattolo."
+				"CharTemplate"	"Player_Toreador"
+			}
+		}
+
+		Popup
+		{
+			// Nosferatu vs. Tremere?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu l'hai capito finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Resta nascosto e il mondo non sapra' nemmeno che tu sei li'."
+				"CharTemplate"	"Player_Nosferatu"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' io... e' un segreto. Non hai idea delle verita' che ho appreso."
+				"CharTemplate"	"Player_Tremere"
+			}
+		}
+
+		Popup
+		{
+			// Nosferatu vs. Ventrue?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu l'hai capito finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Resta nascosto e il mondo non sapra' nemmeno che tu sei li'."
+				"CharTemplate"	"Player_Nosferatu"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' il mondo si piega alla mia volonta'."
+				"CharTemplate"	"Player_Ventrue"
+			}
+		}
+
+		Popup
+		{
+			// Toreador vs. Tremere?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu l'hai capito finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Quando sei pieno di talento e affascinante come me, il mondo e' il tuo giocattolo."
+				"CharTemplate"	"Player_Toreador"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' io... e' un segreto. Non hai idea delle verita' che ho appreso."
+				"CharTemplate"	"Player_Tremere"
+			}
+		}
+
+		Popup
+		{
+			// Toreador vs. Ventrue?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu l'hai capito finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Quando sei pieno di talento e affascinante come me, il mondo e' il tuo giocattolo."
+				"CharTemplate"	"Player_Toreador"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' il mondo si piega alla mia volonta'."
+				"CharTemplate"	"Player_Ventrue"
+			}
+		}
+
+		Popup
+		{
+			// Tremere vs. Ventrue?
+			"Text"		"Il mondo e' un posto crudele e senza misericordia, ma tu l'hai capito finora. Perche'?"
+
+			Action
+			{
+				"Text"		"1. Perche' io... e' un segreto. Non hai idea delle verita' che ho appreso."
+				"CharTemplate"	"Player_Tremere"
+			}
+
+			Action
+			{
+				"Text"		"2. Perche' il mondo si piega alla mia volonta'."
+				"CharTemplate"	"Player_Ventrue"
+			}
+		}
+	}
+
+
+
+	// Popups for Help (primarily Character Editor Stats-page help after choosing your clan)
+	Help_Popups
+	{
+		"InternalName"	"Help_Popups"
+
+		NextSection
+		{
+//			"Next"	"Help_Popup0b"
+		}
+
+		// Defaults
+		Defaults
+		{
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			Action
+			{
+				// Okay
+				"UsesBorder"	"1"
+				"CenterText"	"1"
+				"Text"		"Okay"
+
+				Region
+				{
+//					"X"		"427"
+//					"Y"		"435"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				"Text"		"Disabilita suggerimenti."
+				"IsCheckBox"	"1"
+				"EndCharGenWiz"	"1"
+				"Font"		"Copperplate"
+				"Next"		""
+
+				Region
+				{
+//					"X"		"230"
+//					"Y"		"446"
+					"Width"	"250"		//"213"
+					"Height"	"50"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Sei stato Abbracciato dal clan dei Brujah. Noti come il clan della violenza bruta e dei teppisti, i Brujah sono conosciuti per la loro confusione, ma e' un clan fiero di lottare per la liberta' nella vita e nella morte mettendo a disposizione le loro abilita' combattive quando necessario."
+
+			"InternalName"	"Help_Popup0b"
+			"CharTemplate"	"Player_Brujah"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup1"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Sei stato Abbracciato dal clan Gangrel. Qualche volta chiamati nomadi, solitari e introversi, i Gangrel respingono le tradizioni della civilta' e preferiscono vagare in liberta' e in solitudine. Conosciuti per avere un misterioso legame con la Bestia Interna, molti imparano la potenza fino alla metamorfosi."
+
+			"InternalName"	"Help_Popup0b"
+			"CharTemplate"	"Player_Gangrel"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup1"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Sei stato Abbracciato dal clan Malkavian. Afflitti dalla pazzia, i Malkavian usano la loro follia per raggiungere una sorprendente e qualche volta raccapricciante perspicacia. La VOCE INTERNA potrebbe dire loro le vere intenzioni di qualcuno - o potrebbe ingannarli completamente."
+
+			"InternalName"	"Help_Popup0b"
+			"CharTemplate"	"Player_Malkavian"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup1"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Sei stato Abbracciato dal clan Nosferatu. L'Abbraccio da parte dei Nosferatu piega e deforma l'aspetto fisico rendendoli abominevoli agli occhi degli umani. I Nosferatu sono vagabondi che hanno perfezionato l'abilita' di sfumare nelle ombre e sono maestri dello spionaggio e nel raccogliere informazioni."
+
+			"InternalName"	"Help_Popup0b"
+			"CharTemplate"	"Player_Nosferatu"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup1"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Sei stato Abbracciato dal clan Toreador. Conosciuti come artisti, visionari e membri dell'alta societa', i Toreador hanno un grande legame col mondo mortale attraverso le arti e l'intrattenimento. Maestri della comunicazione e delle abilita' sociali, i Toreador si trovano perfettamente a loro agio tra gli umani i quali a loro volta li adorano."
+
+			"InternalName"	"Help_Popup0b"
+			"CharTemplate"	"Player_Toreador"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup1"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Sei stato Abbracciato dal clan Tremere. I Tremere sono professionisti e creatori della magia del sangue chiamata Taumaturgia. Non sono amati dagli altri clan, i Tremere sono avvolti nel mistero e mantengono segreti i loro motivi."
+
+			"InternalName"	"Help_Popup0b"
+			"CharTemplate"	"Player_Tremere"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup1"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Sei stato Abbracciato dal clan Ventrue. I Ventrue sono i nobili non morti, rappresentati da potenti intermediari e amministratori di varie aziende. I Ventrue sono conosciuti per la loro arroganza e la loro capacita' di dominare le conversazioni, ma possono essere anche carismatici leader dei non morti."
+
+			"InternalName"	"Help_Popup0b"
+			"CharTemplate"	"Player_Ventrue"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup1"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// General
+			"Text"		"Le tue Qualita' e Abilita' di Vampiro sono state assegnate e inserite nell'Editor del Personaggio, che vedrai successivamente. Dopo aver dato un'occhiata all'Editor del Personaggio, puoi fare cambiamenti al carattere o semplicemente giocarlo cosi' com'e'."
+
+			"InternalName"	"Help_Popup1"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup3"
+
+				Region
+				{
+					"X"		"427"
+					"Y"		"375"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"183"
+					"Y"		"386"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Feats
+			"Text"		"Le Imprese sono azioni che compi nel gioco. Queste sono derivate dalla somma di un Attributo e un'Abilita'. Un'esempio potrebbe essere l'impresa di scassinare, che deriva dall'Attributo della Destrezza e l'Abilita' di Sicurezza. Passando col puntatore del mouse sopra un'impresa ti mostrera' l'Attributo e l'Abilita' dalla quale dipende."
+
+			"InternalName"	"Help_Popup4b"	// WAS Help_Popup2
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_2"
+
+			TextRegion
+			{
+				"X"		"35"
+				"Y"		"155"
+				"Width"	"698"
+				"Height"	"333"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup5"	// WAS Help_Popup3
+
+				Region
+				{
+					"X"		"294"	// Centered
+					"Y"		"420"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"35"
+					"Y"		"420"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Humanity
+			"Text"		"Questa e' la tua Umanita'. Sette e' la norma. Dieci e' santo, e piu' in basso vai piu' ti avvicini alla Bestia, quindi, piu' bassa e' la tua Umanita', piu' alta e' la possibilita' di impazzire. Quando un vampiro impazzisce, perde il controllo e attacca chiunque lo circondi. Tuttavia, guadagnando esperienza, puoi spendere i tuoi punti esperienza incrementando la tua Umanita'."
+
+			"InternalName"	"Help_Popup6"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_6"
+
+			TextRegion
+			{
+				"X"		"141"
+				"Y"		"131"
+				"Width"	"692"
+				"Height"	"273"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup7"
+
+				Region
+				{
+					"X"		"407"	// Centered
+					"Y"		"334"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"141"
+					"Y"		"351"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Masquerade
+			"Text"		"Qui e' dove vengono mostrate le tue violazioni della Masquerade. La Masquerade e' un codice con il quale molti vampiri convivono. Ogni volta che un vampiro viene scoperto da un mortale a commettere un atto soprannaturale, viene considerata come una violazione della Masquerade. Hai cinque possibilita' dalle quali ogni volta scaturira' una conseguenza. Se commetterai cinque violazioni della Masquerade, verrai giudicato severamente."
+
+			"InternalName"	"Help_Popup7"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_7"
+
+			TextRegion
+			{
+				"X"		"129"
+				"Y"		"121"
+				"Width"	"619"
+				"Height"	"243"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup8"
+
+				Region
+				{
+					"X"		"370"	// 450 & Centered
+					"Y"		"293"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"129"
+					"Y"		"305"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Info Window
+			"Text"		"Qui e' dove vengono mostrate tutte le informazioni riguardo gli oggetti che trasporti."
+
+			"InternalName"	"Help_Popup8"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_8"
+
+			TextRegion
+			{
+				"X"		"175"
+				"Y"		"229"
+				"Width"	"734"
+				"Height"	"273"
+			}
+
+			Action
+			{
+				// Okay
+				"Next"		"Help_Popup9"
+
+				Region
+				{
+					"X"		"462"	// Centered
+					"Y"		"434"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				Region
+				{
+					"X"		"175"
+					"Y"		"451"
+				}
+			}
+		}
+	}
+
+
+
+	// Popups for Help (primarily Character Editor Stats-page help after choosing your clan)
+	Help1b_Popups
+	{
+		"InternalName"	"Help2_Popups"
+
+		NextSection
+		{
+		}
+
+		// Defaults
+		Defaults
+		{
+			"Text"		""
+
+			"InternalName"	"Trait_Default"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"661"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			// Alternates
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+				"KeyLookup"			"0"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"ProcessTraitChoices"	"1"
+				"MultiLineText"		"1"
+				"ShowSeparator"		"1"
+				"KeyLookup"			"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+		}
+	}
+
+
+	// Popups for Help (primarily Character Editor Stats-page help after choosing your clan)
+	Help2_Popups
+	{
+		"InternalName"	"Help2_Popups"
+
+		NextSection
+		{
+		}
+
+		// Defaults
+		Defaults
+		{
+			"InternalName"	"Help_Popup4"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_3"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"191"
+				"Y"		"497"
+				"Width"	"791"
+				"Height"	"254"
+			}
+
+			Action
+			{
+				// Okay
+				"UsesBorder"	"1"
+				"CenterText"	"1"
+				"Text"		"Okay"
+				"Next"		"Help_Popup4b"
+
+				Region
+				{
+					"X"		"506"	// Centered
+					"Y"		"681"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+
+			Action
+			{
+				// Do Not Show Help Text
+				"Text"		"Non mostrare messaggi d'aiuto."
+				"IsCheckBox"	"1"
+				"EndCharGenWiz"	"1"
+				"Font"		"Copperplate"
+				"Next"		""
+
+				Region
+				{
+					"X"		"191"
+					"Y"		"687"
+					"Width"	"250"		//"213"
+					"Height"	"50"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- General
+			"Text"		"Queste sono i tuoi Attributi e le tue Abilita' dalle quali derivano le imprese. Gli Attributi sono inerenti alle caratteristiche del personaggio e sono divisi in tre categorie: Fisiche, Sociali e Mentali. Le Abilita' vanno apprese, e anch'esse sono divise in tre categorie: Attitudini, Capacita' e Conoscenza."
+
+			"InternalName"	"Help_Popup3"
+
+			Action
+			{
+				"Next"		"Help_Popup4"
+			}
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- Detail
+			"Text"		"I membri del clan militarista Brujah sono indomabili guerrieri, quindi i tuoi attributi piu' importanti sono quelli fisici nei quali hai 2 punti da spendere. Hai anche 1 punto da spendere in quelli mentali e nessun punto in quelli sociali. Riguardo le Abilita', essere un Brujah ti da' un vantaggio grazie allla loro attitudine violenta e aggressiva, nella quale hai 3 punti da spendere. Pochi punti da spendere nelle capacita' (2 punti) e conoscenze scarse (1 punto)."
+
+			"InternalName"	"Help_Popup4"
+			"CharTemplate"	"Player_Brujah"
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- Detail
+			"Text"		"I membri del clan animalista Gangrel sono vicini alla Bestia Interna, quindi i tuoi attributi piu' importanti sono quelli fisici nei quali hai 2 punti da spendere. Hai anche 1 punto da spendere in quelli mentali e nessun punto in quelli Sociali. Riguardo le Abilita', essere un Gangrel ti da' 3 punti da spendere nelle capacita'. Hai attitudini mediocri (2 punti) e conoscenze scarse (1 punto)."
+
+			"InternalName"	"Help_Popup4"
+			"CharTemplate"	"Player_Gangrel"
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- Detail
+			"Text"		"I membri dell'insano clan Malkavian posseggono un oscuro intelletto, quindi i tuoi attributi piu' importanti sono quelli mentali nei quali hai 2 punti da spendere. Hai anche 1 punto da spendere in quelli sociali e nessun punto in quelli fisici. Riguardo le Abilita', essere un Malkavian ti da' un vantaggio nella tua perspicace conoscenza, nella quale hai 3 punti da spendere. Hai capacita' mediocri (2 punti) e attitudini scarse (1 punto)."
+
+			"InternalName"	"Help_Popup4"
+			"CharTemplate"	"Player_Malkavian"
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- Detail
+			"Text"		"I membri del temuto clan Nosferatu sono maestri nell'arte dell'origliare, quindi i tuoi attributi piu' forti sono quelli mentali, nei quali hai 2 punti da spendere. Hai anche 1 punto da spendere negli attributi fisici e nessun punto in quelli sociali. Riguardo le Abilita', essere un Nosferatu ti da' un vantaggio nella Capacita' di nasconderti, nella quale hai 3 punti da spendere. Hai solo mediocri conoscenze(2 punti) e scarse attitudini (1 punto)."
+
+			"InternalName"	"Help_Popup4"
+			"CharTemplate"	"Player_Nosferatu"
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- Detail
+			"Text"		"I membri del sofisticato clan Toreador hanno il dono della parlantina, quindi i tuoi attributi piu' forti sono quelli sociali, nei quali hai 2 punti da spendere. Hai anche 1 punto da spendere negli attributi mentali e nessun punto in quelli fisici. Riguardo le Abilita', essere un Toreador ti da' un vantaggio nella tua attitudine oratoria, nella quale hai 3 punti da spendere. Hai solo 2 punti per le conoscenze e 1 per le capacita'."
+
+			"InternalName"	"Help_Popup4"
+			"CharTemplate"	"Player_Toreador"
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- Detail
+			"Text"		"I membri del sinistro clan Tremere sono maestri nella magia vampirica, quindi i tuoi attributi piu' forti sono quelli mentali, nei quali hai 2 punti da spendere. Hai anche 1 punto da spendere negli attributi fisici e nessun punto in quelli sociali. Riguardo le Abilita', essere un Tremere ti da' un vantaggio nella conoscenza, specie quella arcana, nella quale hai 3 punti da spendere. Hai solo 2 punti per le attitudini e 1 punto per le capacita'."
+
+			"InternalName"	"Help_Popup4"
+			"CharTemplate"	"Player_Tremere"
+		}
+
+		Popup
+		{
+			// Attributes and Abilities -- Detail
+			"Text"		"I membri dell'aristocratico clan Ventrue sono i leader della societa' dei vampiri, quindi i tuoi attributi piu' forti sono quelli sociali, nei quali hai 2 punti da spendere. Hai anche 1 punto da spendere negli attributi Mentale e nessun punto in quelli Fisici. Riguardo le Abilita', essere un Ventrue ti da' un vantaggio nelle conoscenze, nella quale hai 3 punti da spendere. Hai solo 2 punti per le attitudini e un punto per le capacita'."
+
+			"InternalName"	"Help_Popup4"
+			"CharTemplate"	"Player_Ventrue"
+		}
+
+
+
+		__UNUSED__Popup
+		{
+			// Attributes and Abilities -- Detail
+// UNUSED UNUSED UNUSED -- ***DO NOT LOCALIZE THIS***!!! Only for TESTING!!!
+			"Text"		"---Being <Clan>, your strongest Attribute is <AttributeGroup1> therefore you have <AttributeGroup1_Points> you can spend in the category of <AttributeGroup1>. In <AttributeGroup2> you have <AttributeGroup2_Points> available and in your weakest attribute you have only <AttributeGroup3_Points> to spend. As for Abilities, being <Clan> gives you an advantage in your <AbilityGroup1> therefore you have <AbilityGroup1_Points> to spend in <AbilityGroup1>. You only have average abilities in <AbilityGroup2> therefore you have <AbilityGroup2_Points> to allocate to your <AbilityGroup2>. <Clan>s are not known for the <BLAH BLAH BLAH BLAH> thus <AbilityGroup3> is their weakest Ability. You will only receive <AbilityGroup3_Points> for <AbilityGroup3>."
+
+			"InternalName"	"Help_Popup4b"
+//			"CharTemplate"	"<XXXX>"
+		}
+	}
+
+
+
+	// Popups for Help (primarily Character Editor Stats-page help after choosing your clan)
+	Help3_Popups
+	{
+		"InternalName"	"Help3_Popups"
+
+		NextSection
+		{
+		}
+
+		// Defaults
+		Defaults
+		{
+			"InternalName"	"Help_Popup5"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_5"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"177"
+				"Y"		"84"
+				"Width"	"722"
+				"Height"	"332"
+			}
+
+			Action
+			{
+				// Okay
+				"UsesBorder"	"1"
+				"CenterText"	"1"
+				"Text"		"Okay"
+				"Next"		"Help_Popup6"
+
+				Region
+				{
+					"X"		"458"	// Centered
+					"Y"		"350"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+
+			Action
+			{
+				// Do not show help text
+				"Text"		"Non mostrare messaggi d'aiuto."
+				"IsCheckBox"	"1"
+				"EndCharGenWiz"	"1"
+				"Font"		"Copperplate"
+				"Next"		""
+
+				Region
+				{
+					"X"		"177"
+					"Y"		"356"
+					"Width"	"250"		//"213"
+					"Height"	"50"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Disciplines
+			"Text"		"Sei un membro del clan Brujah, rinomati per il loro coraggio. I Brujah sono ribelli che hanno a cuore i cambiamenti sociali, e i ranghi del clan vantano alcuni dei piu' violenti membri della societa' vampirica. Le loro Discipline sono Velocita' (velocita' vampirica), Potenza (forza vampirica) e Ascendente (fascino vampirico)."
+
+			"CharTemplate"	"Player_Brujah"
+		}
+
+		Popup
+		{
+			// Disciplines
+			"Text"		"Sei un membro del clan Gangrel, il piu' vicino di tutti i vampiri alla loro natura interna. I Gangrel hanno un'acuta comprensione della Bestia nelle loro anime e preferiscono trascorrere le loro notti in comunione con gli animali, che essi riescono ad emulare. Le loro Discipline sono Animalita' (comunione animale), Robustezza (resistenza vampirica) e Proteide (metamorfosi)."
+
+			"CharTemplate"	"Player_Gangrel"
+		}
+
+		Popup
+		{
+			// Disciplines
+			"Text"		"Sei un membro del clan Malkavian, maledetti e afflitti da una incurabile pazzia. I Malkavian sono liberi dai confini della razionalita', inoltre questa liberta' e' affiancata da una misteriosa perspicacia, una strana saggezza che non puo' essere percepita da un essere sano. Le loro Discipline sono Auspex (percezione dell'aura), Demenza (trasmissione di pazzia) e Oscurazione (invisibilita')."
+
+			"CharTemplate"	"Player_Malkavian"
+		}
+
+		Popup
+		{
+			// Disciplines
+			"Text"		"Sei un membro del clan Nosferatu, piegati e deformati dalla maledizione del vampirismo. I Nosferatu sono superstiti che hanno imparato a padroneggiare l'arte del muoversi silenziosamente. Poche creature, mortali o vampire, conoscono i vicoli di una citta' o gli angoli bui come i Nosferatu. Le loro Discipline sono Animalita' (comunione animale), Oscurazione (invisibilita'), e Potenza (forza vampirica)."
+
+			"CharTemplate"	"Player_Nosferatu"
+		}
+
+		Popup
+		{
+			// Disciplines
+			"Text"		"Sei un membro del clan Toreador, i vampiri piu' legati al mondo mortale. I Toreador scivolano graziosamente e senza sforzi attraverso la societa' umana, collezionando delizie artistiche di ogni epoca come un ingordo assapora rare golosita'. Le loro Discipline sono Auspex (percezione dell'aura), Velocita' (velocita' vampirica), e Ascenndente (carisma vampirico)."
+
+			"CharTemplate"	"Player_Toreador"
+		}
+
+		Popup
+		{
+			// Disciplines
+			"Text"		"Sei un membro del clan Tremere, maestri della magia del sangue. I Tremere sono temuti e diffidati dagli altri vampiri a causa dei loro rituali, mentre le loro formule magiche sono piu' potenti - se non altro - di qualsiasi altro potere vampirico. Le loro Discipline sono Auspex (percezione dell'aura), Dominazione (controllo della mente), e Taumaturgia (magia del sangue)."
+
+			"CharTemplate"	"Player_Tremere"
+		}
+
+		Popup
+		{
+			// Disciplines
+			"Text"		"Sei un membro del clan Ventrue, leader della societa' dei vampiri. I Ventrue si presentano come nobili nel significato piu' classico della parola, lottano per mantenere gli altri al di sotto di loro. Quando un altro vampiro chiede loro aiuto, i Ventrue possono spesso offrirlo - ad un prezzo. Le loro Discipline sono Dominazione (controllo della mente), Robustezza (resistenza vampirica) e Ascendente (carisma vampirico)."
+
+			"CharTemplate"	"Player_Ventrue"
+//			Action
+//			{
+//				"Text"			"Test"
+//				"PerformResetStats"	"1"
+//				"Next"			""
+// removed by wesp
+//				Region
+//				{
+//					"X"		"200"	// ? & Centered
+//					"Y"		"341"
+//					"Width"	"160"
+//					"Height"	"50"
+//				}
+//			}
+                                }
+
+		__UNUSED__Popup
+		{
+			// Disciplines
+// UNUSED UNUSED UNUSED -- ***DO NOT LOCALIZE THIS***!!! Only for TESTING!!!
+			"Text"		"These are your vampiric powers. Being a <Clan> you have the powers of <Discipline1>, <Discipline2> and <Discipline3>. <Discipline1> is <Discipline1_Description>. <Discipline3> is <Discipline2_Description>. <Discipline3> is <Discipline3_Description>."
+
+			"InternalName"	"Help_Popup5b"
+//			"CharTemplate"	"<XXXX>"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_5"
+		}
+	}
+
+
+
+	Help4_Popups
+	{
+		"InternalName"	"Help4_Popups"
+
+		NextSection
+		{
+		}
+
+		// Defaults:
+		Defaults
+		{
+			"Text"		""
+
+//			"InternalName"	"Trait_Default"
+
+//			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				Region
+				{
+					"X"		"30"
+					"Y"		"661"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Character Wizard Overview
+			"Text"		"Il gioco inizia con la creazione di un nuovo personaggio. Desideri..."
+
+			"InternalName"	"Help_Popup0"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_1"
+
+			TextRegion
+			{
+				"X"		"183"
+				"Y"		"161"
+				"Width"	"648"
+				"Height"	"282"
+			}
+
+			Action
+			{
+				"Text"		"1. Rispondere ad una serie di domande riguardo il tipo di vampiro con il quale desideri giocare e permettere al gioco di creartelo?"
+				"Next"		"Trait_Male_vs_Female"
+				"MultiLineText"	"1"
+				"ShowSeparator"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"515"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+
+			Action
+			{
+				"Text"		"2. Andare direttamente all'Editor del Personaggio e scegliere da solo il clan, gli Attributi e le Abilita' del tuo personaggio?"
+				"Next"		""
+				"MultiLineText"	"1"
+				"ShowSeparator"	"1"
+
+				Region
+				{
+					"X"		"30"
+					"Y"		"588"
+					"Width"	"965"
+					"Height"	"70"
+				}
+			}
+		}
+
+		Popup
+		{
+			// Info Window
+			"Text"		"Il pulsante dell'Autolivello ti permette di decidere se vuoi che il computer disponga i punti esperienza che guadagni nel gioco tra i tuoi Attributi, Abilita' e Discipline, o se desideri distribuirli tu. Il pulsante Azzera Statistiche ti permette di azzerare la disposizione dei punti cosi' da poter ricominciare, o ritornare all'ultimo collocamento. Il pulsante Annulla ti permette di ritornare all'ultimo punto di gioco senza modificare l'Editor del Personaggio. Una volta soddisfatto delle impostazioni del personaggio, clicca sul pulsante Accetta per giocare."
+
+			"InternalName"	"Help_Popup9"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_9"
+
+			TextRegion
+			{
+				"X"		"97"
+				"Y"		"450"
+				"Width"	"639"
+				"Height"	"273"
+			}
+
+			Action
+			{
+				// Okay
+				"Text"		"Okay"
+				"UsesBorder"	"1"
+				"CenterText"	"1"
+				"EndCharGenWiz"	"1"
+				"Next"		""
+
+				Region
+				{
+					"X"		"336"
+					"Y"		"656"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+		}
+	}
+
+
+	// Miscellaneous Popups
+	Misc_Popups
+	{
+		"InternalName"	"Misc_Popups"
+
+		NextSection
+		{
+		}
+
+		// Defaults:
+		Defaults
+		{
+			"Text"		""
+
+			"InternalName"	"Misc_Set_Name"
+
+			"Bkg_Image"		"Interface/Pop_Ups/Pop_Up_10"
+
+			Region
+			{
+				"X"		"0"
+				"Y"		"0"
+				"Width"	"1024"
+				"Height"	"768"
+			}
+
+			TextRegion
+			{
+				"X"		"27"
+				"Y"		"137"
+				"Width"	"637"
+				"Height"	"273"
+			}
+
+			Action
+			{
+				// Okay
+				"UsesBorder"	"1"
+				"CenterText"	"1"
+				"Text"		"Okay"
+
+				Region
+				{
+					"X"		"266"	// 246 & Centered
+					"Y"		"341"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+
+			Action
+			{
+				// Okay
+				"UsesBorder"	"1"
+				"CenterText"	"1"
+
+				Region
+				{
+					"X"		"366"	// 246 & Centered
+					"Y"		"341"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+
+			Action
+			{
+				// Okay
+				"UsesBorder"	"1"
+				"CenterText"	"1"
+
+				Region
+				{
+					"X"		"466"	// 246 & Centered
+					"Y"		"341"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+		}
+
+
+		Popup
+		{
+			// Warning: Choose the name for your character
+			"Text"		"Non hai ancora deciso un nome per il tuo personaggio. Scegli un nome."
+
+			"InternalName"	"Misc_Popup_NoName"
+
+			Action
+			{
+				"Text"		"Okay"
+				"EndCharGenWiz"	"1"
+				"Next"		""
+			}
+		}
+
+
+		Popup
+		{
+			// Warning: Resetting Stats
+			"Text"		"Ripristinando le statistiche perderai ogni modifica effettuata. Vuoi continuare?"
+
+			"InternalName"	"Misc_Popup_WarnResetStats"
+
+			Action
+			{
+				"Text"			"Si'"
+				"EndCharGenWiz"		"1"
+				"PerformResetStats"	"1"
+				"Next"			""
+
+				Region
+				{
+					"X"		"200"	// ? & Centered
+					"Y"		"341"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+
+			Action
+			{
+				"Text"		"No"
+				"EndCharGenWiz"	"1"
+				"Next"		""
+			}
+		}
+
+
+		Popup
+		{
+			// Warning: Cancelling Character Creation
+			"Text"		"Annullando la Creazione del Personaggio perderai ogni modifica effettuata. Vuoi continuare?"
+
+			"InternalName"	"Misc_Popup_WarnCancel"
+
+			Action
+			{
+				"Text"		"Si'"
+				"EndCharGenWiz"	"1"
+				"Next"		""
+				"PerformCancel"	"1"
+
+				Region
+				{
+					"X"		"200"	// ? & Centered
+					"Y"		"341"
+					"Width"	"160"
+					"Height"	"50"
+				}
+			}
+
+			Action
+			{
+				"Text"		"No"
+				"EndCharGenWiz"	"1"
+				"Next"		""
+			}
+		}
+	}
+}

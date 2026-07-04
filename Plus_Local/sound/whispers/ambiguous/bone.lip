@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Bone round in melody and word layed in rain.
+}
+WORDS
+{
+WORD blah 0.000 4.160
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 57 "Osso rotondo in melodia e parola distesa nella pioggia." 0.000 4.160
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

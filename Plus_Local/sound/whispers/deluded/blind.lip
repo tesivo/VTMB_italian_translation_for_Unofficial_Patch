@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+All are blind whose eyes are closed.
+}
+WORDS
+{
+WORD blah 0.048 4.208
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 54 "Sono ciechi tutti quelli che hanno gli occhi chiusi." 0.048 4.208
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

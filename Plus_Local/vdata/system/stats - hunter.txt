@@ -1,0 +1,4356 @@
+// Stat Doc
+
+StatData
+{
+	// For this file, Localize only the "Name*" fields (NOT the "InternalName" field or any others!)
+	// In other words, Localize "Name", "Name0", "Name1", etc.
+	General
+	{
+		// Strings have been moved to strings.txt and strings_internal.txt
+		// Tables have been moved to Rules_Tables.txt
+	}
+
+	//  "NameFunc" is the internal function to use to map trait values to for displaying the "name" of the value
+	//  "NameMapping" is the String Table (from the above lists) to map trait values to for displaying the "name" of the value
+
+	Attributes
+	{
+		"Name"		"Attributi"
+		"InternalName"	"Attributes"
+
+		Costs
+		{
+			"New"		"1"	// Hack for Nosferatu...to allow them to sell back Appearance 1 to 0, if they have History (Presentable)
+			"Raise"	"Current_Rating * 4"
+		}
+
+		Stat
+		{
+			"Name"		"Ordine Attributo"
+			"InternalName"	"Attrib_Order"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"6"
+			"Default"		"0"
+			"NameMapping"	"AttributeOrder"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+
+			Table
+			{
+				"Name"		"Attribute_Order_Lookups"
+				"InternalName"	"Attribute_Order_Lookups"
+
+				"Clamping"		"1"
+
+				// Physical_Social_Mental
+				"0"			"0"
+				"1"			"1"
+				"2"			"2"
+				// Physical_Mental_Social
+				"3"			"0"
+				"4"			"2"
+				"5"			"1"
+				// Social_Physical_Mental
+				"6"			"1"
+				"7"			"0"
+				"8"			"2"
+				// Social_Mental_Physical
+				"9"			"1"
+				"10"			"2"
+				"11"			"0"
+				// Mental_Social_Physical
+				"12"			"2"
+				"13"			"1"
+				"14"			"0"
+				// Mental_Physical_Social
+				"15"			"2"
+				"16"			"0"
+				"17"			"1"
+				// No_Order
+				"18"			"0"
+				"19"			"1"
+				"20"			"2"
+			}
+
+
+			// Attribute Point Pools
+			Table
+			{
+				"Name"		"Subpool_Attribute_Primary_Secondary_Tertiary"
+				"InternalName"	"Subpool_Attribute_Primary_Secondary_Tertiary"
+				"Clamping"		"1"
+
+				"0"				"2"
+				"1"				"1"
+				"2"				"0"
+			}
+
+
+			// Attribute Point Pools
+			Table
+			{
+				"Name"		"Subpool_Attribute_Primary_Secondary_Tertiary_Kine"
+				"InternalName"	"Subpool_Attribute_Primary_Secondary_Tertiary_Kine"
+				"Clamping"		"1"
+
+				"0"				"1"
+				"1"				"1"
+				"2"				"1"
+			}
+
+
+//			Table
+//			{
+//				"Name"		"Subpool_Attribute_No_Order"
+//				"InternalName"	"Subpool_Attribute_No_Order"
+//				"Clamping"		"1"
+//
+//				"0"				"2"
+//				"1"				"2"
+//				"2"				"2"
+//			}
+		}
+
+		Stat
+		{
+			"Name"		"Forza"
+			"InternalName"	"Strength"
+			"HelpText"		"La Forza e' una misura dell'abilita' fisica del tuo personaggio. E' cruciale per le imprese di combattimento Disarmato e Lotta armata."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Destrezza"
+			"InternalName"	"Dexterity"
+			"HelpText"		"Determina l'agilita' del tuo personaggio. Destrezza incrementera' le tue imprese Scassinamento e Furtivita'."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Resistenza"
+			"InternalName"	"Stamina"
+			"HelpText"		"Resistenza complessiva del tuo personaggio. Previene danni da proiettili, manganelli e mazze da baseball. Incrementa Assorbimento (Pestaggio)."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Carisma"
+			"InternalName"	"Charisma"
+			"HelpText"		"Misura l'abilita' del tuo personaggio di influenzare gli altri con la tua personalita'. Il carisma e' una parte importante dell'impresa Persuasione."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Disabled"		"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Persuasione"
+			"InternalName"	"Manipulation"
+			"HelpText"		"Misura l'abilita' del tuo personaggio di sfruttare le persone e gli eventi. La persuasione e' necessaria per l'impresa Negoziazione."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Disabled"		"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Aspetto"
+			"InternalName"	"Appearance"
+			"HelpText"		"Indica la bellezza fisica del tuo personaggio. L'apparenza e' la base dell'impresa Seduzione."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Disabled"		"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+
+			Table
+			{
+				"Name"		"Reazione Aspetto"
+				"InternalName"	"Appearance_Reaction"
+
+				"Clamping"		"1"
+
+				"0"			"-25"
+				"1"			"-10"
+				"2"			"0"
+				"3"			"5"
+				"4"			"15"
+				"5"			"25"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Percezione"
+			"InternalName"	"Perception"
+			"HelpText"		"Misura la consapevolezza dell'ambiente circostante il tuo personaggio. La percezione e' necessaria per le imprese Combattimento A Distanza e Ispezione."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Intelligenza"
+			"InternalName"	"Intelligence"
+			"HelpText"		"Indica la capacita' del tuo personaggio di imparare, pensare e ricordare. L'intelligenza e' essenziale per le imprese Ricerca e Ascendente."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Disabled"		"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Prontezza"
+			"InternalName"	"Wits"
+			"HelpText"		"Misura l'acume della mente del tuo personaggio e la sua capacita' di reagire prontamente. Prontezza migliora le imprese Difesa e Hacking."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"10"
+			"MinSell"		"1"
+			"MaxBuy"		"5"
+			"Default"		"1"
+			"NameMapping"	"AttributeLevel"
+		}
+
+//		Stat
+//		{
+//			"Name"		"Fattezze del Personaggio"
+//			"InternalName"	"CharTemplate"
+//			"HelpText"		""
+//
+//			"Min"			"0"
+//			"Max"			"999"
+//			"Default"		"0"
+//			"NameFunc"		"CharTemplateNameFunc"
+//
+//			Costs
+//			{
+//				"Raise"	"10000"
+//			}
+//		}
+
+		Stat
+		{
+			"Name"		"Clan"
+			"InternalName"	"Clan"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"9999"
+			"Default"		"0"
+			"NameFunc"		"ClanNameFunc"
+//"NameMapping"		"ClanNameFunc"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Sesso"
+			"InternalName"	"Gender"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"1"
+			"Default"		"1"
+			"NameMapping"	"Gender"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Riserva di Sangue"
+			"InternalName"	"BloodPool"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"15"
+//////			"Max"			"Generation_Blood_Pool_Max"
+//			"Max"			"BloodPool_Max"	//???
+			"Default"		"10"
+
+			Action
+			{
+				"Triggers"	"Dec"
+				"Value"	"0"
+				"Function"	"BloodPoolEmptyFunc"
+			}
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			// This is the Maximum (generally meaning the "starting" bloodpool for a critter)
+			"Name"		"Riserva max di Sangue"
+			"InternalName"	"BloodPool_Max"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"15"
+//////			"Max"			"Generation_Blood_Pool_Max"
+			"Default"		"10"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"PuntiFiducia"
+			"InternalName"	"FaithPoints"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"15"
+			"Default"		"15"
+
+//			Costs
+//			{
+//				"Raise"	"10000"
+//			}
+		}
+
+		Stat
+		{
+			"Name"		"Salute"
+			"InternalName"	"Health"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"Max_Health"
+			"Default"		"0"
+			"NameMapping"	"HealthLevel"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Salute Danno Aggravato"
+			"InternalName"	"Health_Aggravated_Dmg"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"Max_Health"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Max Salute"
+			"InternalName"	"Max_Health"
+			"HelpText"		""
+
+			"Min"			"1"
+			"Max"			"99999"
+			"Default"		"100"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Generazione"
+			"InternalName"	"Generation"
+			"HelpText"		""
+
+			"Min"			"Shield_of_Faith"	// changed by wesp, hunter
+			"Max"			"15"
+			"Default"		"1"	// changed by wesp, hunter
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+
+			Table
+			{
+				"Name"		"Rating Massimo Aspetto"
+				"InternalName"	"Generation_Max_Trait_Rating"
+
+				"Clamping"		"1"
+
+				"0"			"0"	// Not Valid
+				"1"			"10"	// Made Up Value
+				"2"			"10"	// Made Up Value
+				"3"			"10"
+				"4"			"9"
+				"5"			"8"	// changed by wesp
+				"6"			"7"
+				"7"			"6"
+				"8"			"5"
+				"9"			"5"
+				"10"			"5"
+				"11"			"5"
+				"12"			"5"
+				"13"			"5"
+			}
+
+			Table
+			{
+				"Name"		"Riserva max di Sangue"
+				"InternalName"	"Generation_Blood_Pool_Max"
+
+				"Clamping"		"1"
+
+				"0"			"10"	// (Human)
+				"1"			"500"	// Made up Value
+				"2"			"200"	// Made up Value
+				"3"			"100"	// Made up Value
+				"4"			"50"
+				"5"			"40"
+				"6"			"30"
+				"7"			"20"
+				"8"			"15"
+				"9"			"15" //"14"
+				"10"			"15" //"13"
+				"11"			"12"
+				"12"			"11"
+				"13"			"10"
+			}
+
+			Table
+			{
+				"Name"		"Punti Sangue/Turno"
+				"InternalName"	"Generation_Blood_Points_Turn"
+
+				"Clamping"		"1"
+
+				"0"			"0"	// Not Valid
+				"1"			"10"	// Made up Value
+				"2"			"10"	// Made up Value
+				"3"			"10"	// Made up Value
+				"4"			"10"
+				"5"			"8"
+				"6"			"6"
+				"7"			"4"
+				"8"			"3"
+				"9"			"2"
+				"10"			"1"
+				"11"			"1"
+				"12"			"1"
+				"13"			"1"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Rating Armatura"
+			"InternalName"	"Armor_Rating"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Livello"
+			"InternalName"	"Level"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"Divine_Vision"		// changed by wesp, hunter
+			"Max"			"3"
+			"Default"		"1"
+			"NameMapping"	"Level"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Modificatore di Controllo Pazzia"
+			"InternalName"	"Frenzy_Check_Mod"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"Holy_Light"		// changed by wesp, hunter
+			"Max"			"5"
+			"Default"		"1"				// changed by wesp, hunter
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+//		Stat
+//		{
+//			"Name"		"Modificatore Durata Pazzia"
+//			"InternalName"	"Frenzy_Duration_Mod"
+//			"HelpText"		""
+//
+//			"ShownInFeedback"	"1"
+//
+//			"Min"			"-25"
+//			"Max"			"60"
+//			"Default"		"0"
+//
+//			Costs
+//			{
+//				"Raise"	"10000"
+//			}
+//		}
+
+		Stat
+		{
+			"Name"		"Riserva Assorbita"
+			"InternalName"	"Soak_Pool"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"50"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Assorbimento Automatico Riuscito"
+			"InternalName"	"Automatic_Soak_Successes"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"50"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Forza Automatica Riusciuta"
+			"InternalName"	"Automatic_Str_Successes"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"HealthBuffer"
+			"InternalName"	"HealthBuffer"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"32000"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Ingombro"
+			"InternalName"	"Encumbrance"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"32000"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Umanita'"
+			"InternalName"	"Humanity"
+			"HelpText"	"Sebbene siano mostri per natura, la maggior parte dei vampiri si aggrappa all'Umanita' per sopravvivere nel mondo mortale. L'Umanita' e' l'abilita' di mettere un freno alla tua natura predatoria, ed e' la tua prima linea di difesa contro la pazzia. Se causi la morte di uninnocente perderai punti Umanita'. Perderai la ragione molto spesso se la tua Umanita' e' bassa."
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"				// changed by wesp, hunter
+			"Max"			"10"
+			"Default"		"10"				// changed by wesp, hunter
+			"NameMapping"	"HumanityLevel"
+
+			Costs
+			{
+				"Raise"	"Current_Rating * 2"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Masquerade"
+			"InternalName"	"Masquerade"
+			"HelpText"		"La Masquerade e' il codice della segretezza che nasconde l'esistenza dei vampiri agli umani. Le violazioni della Masquerade comporteranno attacchi da parte dei cacciatori di vampiri, il disprezzo, o peggio, il disonore da parte dei Fratelli. Se perdi tutti i punti Masquerade, perderai la partita."
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+//		Stat
+//		{
+//			"Name"		"Forza di Volonta'"
+//			"InternalName"	"Willpower"
+//			"HelpText"		""
+//
+//			"Min"			"0"
+//			"Max"			"5"
+//			"Default"		"1"
+//			"NameMapping"	"WillpowerLevel"
+//
+//			Costs
+//			{
+//				"Raise"	"Current_Rating * 1"
+//			}
+//		}
+
+		Stat
+		{
+			"Name"		"Modificatore di Esperienza"
+			"InternalName"	"Experience_Modifier"
+			"HelpText"		""
+
+			"Min"			"-10"
+			"Max"			"10"
+			"Default"		"0"
+
+			"ShownInFeedback"	"1"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Equipaggiamento di Partenza"
+			"InternalName"	"Starting_Equipment"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"9999"
+			"Default"		"0"
+			"NameFunc"		"StartingEquipFunc"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Equipaggiamento Escluso"
+			"InternalName"	"Excluded_Equipment"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"9999"
+			"Default"		"0"
+			"NameFunc"		"ExcludedEquipFunc"
+
+//			Action
+//			{
+//				"Triggers"	"Inc"
+//				"Value"	">0"
+//				"Function"	"ExcludedEquipFunc"
+//			}
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Livello di salute"
+			"InternalName"	"VampHeal_Type"
+			"HelpText"		"Template usato per Auto-Livello"
+
+			"Min"			"0"
+			"Max"			"2"
+			"Default"		"0"
+
+// Valid Values:
+//	VampHealPercent_t_MaxHealth : 0
+//	VampHealPercent_t_CurHealth : 1
+//	VampHealPercent_t_CurDamage : 2
+
+			"ShownInFeedback"	"1"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Template AutoLivello"
+			"InternalName"	"AutoLevel_Template"
+			"HelpText"		"Template usato per Auto-Livello"
+
+			"Min"			"-1"
+			"Max"			"99999"
+			"Default"		"-1"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+
+		Stat
+		{
+			"Name"		"Esperienza"
+			"InternalName"	"Experience"
+			"HelpText"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"999999"
+			"Default"		"0"
+
+			Action
+			{
+				// Note: Should this also be in the Auto-Level Stat!?!  (so when you change
+				//	levels, it fixes it) -- Not for now, because Player might change mind
+				//	in the middle of the character editor...
+				"Triggers"	"Set"
+				"Value"	">0"
+				"Function"	"ExperienceFunc"
+			}
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+		}
+	}
+
+	Abilities
+	{
+		"Name"		"Abilita'"
+		"InternalName"	"Abilities"
+
+		Costs
+		{
+			"New"		"3"
+			"Raise"	"Current_Rating * 3"
+		}
+
+		Stat
+		{
+			"Name"		"Ordine Abilita'"
+			"InternalName"	"Ability_Order"
+			"HelpText"		""
+
+			"Min"			"0"
+			"Max"			"6"
+			"Default"		"0"
+			"NameMapping"	"AbilityOrder"
+
+			Costs
+			{
+				"Raise"	"10000"
+			}
+
+			Table
+			{
+				"Name"		"Ability_Order_Lookups"
+				"InternalName"	"Ability_Order_Lookups"
+
+				"Clamping"		"1"
+
+				// Talents_Skills_Knowledges
+				"0"			"0"
+				"1"			"1"
+				"2"			"2"
+				// Talents_Knowledges_Skills
+				"3"			"0"
+				"4"			"2"
+				"5"			"1"
+				// Skills_Talents_Knowledges
+				"6"			"1"
+				"7"			"0"
+				"8"			"2"
+				// Skills_Knowledges_Talents
+				"9"			"1"
+				"10"			"2"
+				"11"			"0"
+				// Knowledges_Talents_Skills
+				"12"			"2"
+				"13"			"0"
+				"14"			"1"
+				// Knowledges_Skills_Talents
+				"15"			"2"
+				"16"			"1"
+				"17"			"0"
+				// No_Order
+				"18"			"0"
+				"19"			"1"
+				"20"			"2"
+			}
+
+
+			// Ability Point Pools
+			Table
+			{
+				"Name"		"Subpool_Ability_Primary_Secondary_Tertiary"
+				"InternalName"	"Subpool_Ability_Primary_Secondary_Tertiary"
+				"Clamping"		"1"
+
+				"0"				"3"
+				"1"				"2"
+				"2"				"1"
+			}
+
+			Table
+			{
+				"Name"		"Subpool_Ability_Primary_Secondary_Tertiary_Kine"
+				"InternalName"	"Subpool_Ability_Primary_Secondary_Tertiary_Kine"
+				"Clamping"		"1"
+
+				"0"				"1"
+				"1"				"1"
+				"2"				"1"
+			}
+
+
+//			Table
+//			{
+//				"Name"		"Subpool_Ability_No_Order"
+//				"InternalName"	"Subpool_Ability_No_Order"
+//				"Clamping"		"1"
+//
+//				"0"				"3"
+//				"1"				"3"
+//				"2"				"3"
+//			}
+		}
+
+//		Stat
+//		{
+//			"Name"		"Atletica"
+//			"InternalName"	"Athletics"
+//			"HelpText"		"La capacita' del corpo di correre piu' veloce, saltare piu' in alto, nuotare piu' a lungo o lanciare piu' lontano."
+//			"HelpText2"		"Aumenta il raggio e la precisione del salto o del lancio."
+//
+//			"Min"			"0"
+//			"Max"			"5"
+//			"Default"		"0"
+//			"NameMapping"	"AbilityLevel"
+//		}
+
+		Stat
+		{
+			"Name"		"Rissa"
+			"InternalName"	"Brawl"
+			"HelpText"		"L'abilita' di combattere a mani nude. Rissa e' importante per l'impresa Combattimento Disarmato, il quale rende anche piu' facile nutrirsi da coloro che non vogliono."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Schivare"
+			"InternalName"	"Dodge"
+			"HelpText"		"Determina la capacita' del tuo personaggio di evitare di subire danno in ogni forma di combattimento. Schivata incrementa l'impresa Difesa."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Intimidazione"
+			"InternalName"	"Intimidation"
+			"HelpText"		"Misura l'abilita' del personaggio di indurre paura e costringere gli altri a collaborare. Intimidazione, naturalmente, incrementa l'impresa Minacciare."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Disabled"		"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Sotterfugio"
+			"InternalName"	"Subterfuge"
+			"HelpText"		"Misura l'abilita' del personaggio di nascondere i suoi scopi e raggirare gli altri. Il Sotterfugio e' necessario per l'impresa della Seduzione."
+			"HelpText2"		""
+			"Disabled"		"1"
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+//		Stat
+//		{
+//			"Name"		"Addestrare Animali"
+//			"InternalName"	"Animal_Ken"
+//			"HelpText"		"Gli animali rifiutano per istinto i non-morti. Questa abilita' aiuta a calmare le bestie, rendendole meno soggette alla reazione negativa contro i vampiri."
+//			"HelpText2"		"L'addestramento rendera' gli animali piu' tolleranti alla presenza dei vampiri."
+//			"Disabled"		"1"
+//
+//			"ShownInFeedback"	"1"
+//
+//			"Min"			"0"
+//			"Max"			"5"
+//			"Default"		"0"
+//			"NameMapping"	"AbilityLevel"
+//		}
+
+		Stat
+		{
+			"Name"		"Armi da Fuoco"
+			"InternalName"	"Firearms"
+			"HelpText"		"Determina la mira del tuo personaggio, e il danno che puo' infliggere con armi di tutti i tipi. Armi da Fuoco e' una parte indispensabile del'impresa Combattimento A Distanza."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Mischia"
+			"InternalName"	"Melee"
+			"HelpText"		"L'abilita' del tuo personaggio di combattere a distanza ravvicinata con armi da taglio come coltelli e spade. Mischia incrementa l'impresa Lotta armata."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Sicurezza"
+			"InternalName"	"Security"
+			"HelpText"		"E' la conoscenza relativa al funzionamento delle serrature e dei sistemi di sicurezza. Sicurezza e' necessario per l'impresa Scassinare."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Furtivita'"
+			"InternalName"	"Stealth"
+			"HelpText"		"Misura l'abilita' del personaggio di muoversi silenziosamente ed evitare di essere scoperto. Furtivita' e' una componente cruciale per l'impresa Furtivita'."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Informatica"
+			"InternalName"	"Computer"
+			"HelpText"		"Indica l'abilita' del tuo personaggio di usare computer e altri oggetti elettronici. La Conoscenza Informatica e' richiesta per l'impresa Hacking."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Finanza"
+			"InternalName"	"Finance"
+			"HelpText"		"L'abilita' del tuo personaggio di valutare il valore di mercato degli oggetti. La Finanza e' richiesta per l'impresa Negoziazione."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Disabled"		"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Investigare"
+			"InternalName"	"Investigation"
+			"HelpText"		"Misura l'abilita' del tuo personaggio di notare dettagli minimi o completamente nascosti. Investigare incrementera' la tua impresa Indagare."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+		Stat
+		{
+			"Name"		"Accademiche"
+			"InternalName"	"Academics"
+			"HelpText"		"L'abilita' del tuo personaggio di raccogliere informazioni, discutere e apprendere nuove abilita'. La conoscenza Accademica incrementera' le tue imprese Ricerca e Convincimento ed e' necessaria per identificare e attivare rari artefatti."
+			"HelpText2"		""
+
+			"ShownInFeedback"	"1"
+
+			"Disabled"		"1"
+
+			"Min"			"0"
+			"Max"			"5"
+			"Default"		"0"
+			"NameMapping"	"AbilityLevel"
+		}
+
+//		Stat
+//		{
+//			"Name"		"Occulto"
+//			"InternalName"	"Occult"
+//			"HelpText"		"Abilita' di riconoscere e ricercare differenti oggetti magici."
+//			"HelpText2"		"La conoscenza Occulto e' richiesta per identificare e attivare rari artifatti."
+//			"Disabled"		"1"
+//
+//			"ShownInFeedback"	"1"
+//
+//			"Min"			"0"
+//			"Max"			"5"
+//			"Default"		"0"
+//			"NameMapping"	"AbilityLevel"
+//		}
+	}
+
+//	StatData
+	Disciplines
+	{
+		"Name"		"Discipline"
+		"InternalName"	"Disciplines"
+
+		Costs
+		{
+			"New"		"10"
+			"Raise"	"Current_Rating * 5"
+//			// Or:
+//				// "Cost" "0 10"
+//				// "Cost" "1+ 5"
+////"Raise_Clan_Discipline"	"Current_Rating * 5"
+////"Raise_Other_Discipline"	"Current_Rating * 7"
+		}
+
+//		StatCategory
+//		{
+//			"Name"		"Discipline"
+//			"InternalName"	"Disciplines"
+
+			Stat
+			{
+				"Name"		"Animalita'"
+				"InternalName"	"Animalism"
+				"HelpText"	"Abbracciando la Bestia Interna, il vampiro puo' contare sugli spiriti animali per realizzare la propria volonta'. Gli effetti dell'Animalita' sono ovviamente soprannaturali e comportano il rischio della violazione della Masquerade se usate in un'Area Sicura."
+				"HelpTextH1"	"Livello 1: Corvi della notte"
+				"HelpTextH2"	"Livello 2: Scarabeo Scavatore"
+				"HelpTextH3"	"Livello 3: Lupo Spettrale"
+				"HelpTextH4"	"Livello 4: Comunione dei Succhiasangue"	// changed by wesp
+				"HelpTextH5"	"Livello 5: Pestilenza"
+				"HelpTextL1"	"Costo Attivazione: 1 Punto Sangue. I Corvi rendono la vittima incapace per circa 10 secondi. Qualunque azione intrapresa contro la vittima disperdera' lo stormo e terminera' prematuramente l'effetto."	// changed by wesp
+				"HelpTextL2"	"Costo Attivazione: 1 Punto Sangue. Uno scarabeo vola fino alla vittima, e si infila nel suo corpo, danneggiandolo."
+				"HelpTextL3"	"Costo Attivazione: 2 Punti Sangue. Un lupo spettrale si materializza, attacca il bersaglio, e ritorna nell'etere."
+				"HelpTextL4"	"Costo Attivazione: 3 Punti Sangue. Pipistrelli spettrali attaccano il bersaglio, prosciugano il suo sangue, quindi consegnano il sangue al loro maestro."
+				"HelpTextL5"	"Costo Attivazione: 3 Punti Sangue. Sciami di insetti discendono sulle vittime presenti nell'area, divorando la loro carne e forse uccidendole."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Animalism_Sel"
+				"InfoModel"		"models/weapons/disciplines/Animalism/info/i_Animalism.mdl"
+
+// wesp				"Snd_ActivateUI"	"Disciplines/Animalism/Activate.wav"
+// wesp				"Snd_MaintainUI"	"Disciplines/Animalism/Maintain.wav"
+// wesp				"Snd_DeactivateUI"	"Disciplines/Animalism/Deactivate.wav"
+
+				"Is_Instant"	"0"
+				"Is_Aggressive"	"1"
+
+				Table
+				{
+					"Name"          "Animalism_Targeting"
+					"InternalName"  "Animalism_Targeting"
+
+					"Clamping"      "1"
+
+					"0"             "0"
+					"1"             "0"
+					"2"             "0"
+					"3"             "0"
+					"4"             "0"
+				}
+
+				Table
+				{
+					"Name"          "Animalism_Targeting_Level"
+					"InternalName"  "Animalism_Targeting_Level"
+
+					"Clamping"      "1"
+
+					"0"             "1"
+					"1"             "2"
+					"2"             "3"
+					"3"             "4"
+					"4"             "5"
+				}
+
+				Table
+				{
+					"Name"          "Animalism_Targeting_Cost"
+					"InternalName"  "Animalism_Targeting_Cost"
+
+					"Clamping"      "1"
+
+					"0"             "1"
+					"1"             "2"
+					"2"             "3"
+					"3"             "4"
+					"4"             "5"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Auspex"
+				"InternalName"	"Auspex"
+				"HelpText"	"Aumenta le facolta' mentali e ti permette di vedere l'aura di chi e' intorno a te. Ogni livello di Auspex costa 1 punto sangue per attivazione."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto in Prontezza. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 20 secondi dall'attivazione."
+				"HelpTextL2"	"Aggiunge 1 punto in Prontezza, e 1 punto in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 24 secondi dall'attivazione."
+				"HelpTextL3"	"Aggiunge 2 punti in Prontezza, e 1 punto in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 28 secondi dall'attivazione."
+				"HelpTextL4"	"Aggiunge 2 punti in Prontezza, e 2 punti in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 32 secondi dall'attivazione."
+				"HelpTextL5"	"Aggiunge 3 punti in Prontezza, e 3 punti in Percezione. Rileva le auree dei viventi e non morti in un piccolo raggio. Dura 36 secondi dall'attivazione."
+
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Auspex_Sel"
+				"InfoModel"		"models/weapons/disciplines/Auspex/info/i_Auspex.mdl"
+
+				"Snd_ActivateUI"	"Disciplines/Auspex/Activate.wav"
+				"Snd_MaintainUI"	"Disciplines/Auspex/Maintain.wav"
+				"Snd_DeactivateUI"	"Disciplines/Auspex/Deactivate.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"0"
+
+				Table
+				{
+					"Name"          "Auspex Radius"
+					"InternalName"  "Auspex_Radius"
+
+					"Clamping"      "1"
+
+					"0"             "0"     // Not Valid
+					"1"             "200"	//"120"
+					"2"             "324"
+					"3"             "578"
+					"4"             "872"
+					"5"             "1200"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Guarigione Spirituale"	// changed by wesp
+				"InternalName"	"Blood_Healing"
+				"HelpText"	"Facendo appello alla loro fede, i cacciatori possono guarire le ferite e in una certa misura riparare il proprio corpo spezzato."	// changed by wesp, hunter
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Livello1"
+				"HelpTextL2"	"Livello2"
+				"HelpTextL3"	"Livello3"
+				"HelpTextL4"	"Livello4"
+				"HelpTextL5"	"Livello5"
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"1"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Sel"
+				"InfoModel"		"models/weapons/disciplines/BloodHeal/info/i_BloodHeal.mdl"
+
+				"Snd_ActivateUI"	"Interface/Error.wav"	// changed by wesp
+				"Snd_MaintainUI"	""
+				"Snd_DeactivateUI"	""
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Aggressive"	"0"
+				"Is_Renewable"	"0"	// added by wesp
+				"Force_Ordering"	"1"	// changed by wesp
+			}
+
+//			Stat
+//			{
+//				"Name"		"Destrezza vampirica"
+//				"InternalName"	"Blood_Buff_Dexterity"
+//				"HelpText"		"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. La Destrezza rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
+//				"HelpTextL1"	"Livello1"
+//				"HelpTextL2"	"Livello2"
+//				"HelpTextL3"	"Livello3"
+//				"HelpTextL4"	"Livello4"
+//				"HelpTextL5"	"Livello5"
+//
+//				"Min"			"-1"
+//				"Max"			"5"
+//				"Default"		"-1"
+//				"NameMapping"	"DisciplineLevel"
+//
+//				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Sel"
+//				"InfoModel"		"models/weapons/disciplines/BloodHeal/info/i_BloodHeal.mdl"
+//
+//				"Snd_ActivateUI"	"Disciplines/BloodHealing_Activate.wav"
+//				"Snd_MaintainUI"	""
+//				"Snd_DeactivateUI"	""
+//
+//				"Is_Instant"	"1"
+//				"Is_Passive"	"1"
+//
+//				"Force_Ordering"	"14"
+//			}
+
+//			Stat
+//			{
+//				"Name"		"Costituzione vampirica"
+//				"InternalName"	"Blood_Buff_Stamina"
+//				"HelpText"		"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. La Costituzione rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
+//				"HelpTextL1"	"Level1"
+//				"HelpTextL2"	"Level2"
+//				"HelpTextL3"	"Level3"
+//				"HelpTextL4"	"Level4"
+//				"HelpTextL5"	"Level5"
+//
+//				"Min"			"-1"
+//				"Max"			"5"
+//				"Default"		"-1"
+//				"NameMapping"	"DisciplineLevel"
+//
+//				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Sel"
+//				"InfoModel"		"models/weapons/disciplines/BloodHeal/info/i_BloodHeal.mdl"
+//
+//				"Snd_ActivateUI"	"Disciplines/BloodHealing_Activate.wav"
+//				"Snd_MaintainUI"	""
+//				"Snd_DeactivateUI"	""
+//
+//				"Is_Instant"	"1"
+//				"Is_Passive"	"1"
+//
+//				"Force_Ordering"	"15"
+//			}
+
+//			Stat
+//			{
+//				"Name"		"Forza vampirica"
+//				"InternalName"	"Blood_Buff_Strength"
+//				"HelpText"		"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. La Forza rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
+//				"HelpTextL1"	"Level1"
+//				"HelpTextL2"	"Level2"
+//				"HelpTextL3"	"Level3"
+//				"HelpTextL4"	"Level4"
+//				"HelpTextL5"	"Level5"
+//
+//				"Min"			"-1"
+//				"Max"			"5"
+//				"Default"		"-1"
+//				"NameMapping"	"DisciplineLevel"
+//
+//				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Sel"
+//				"InfoModel"		"models/weapons/disciplines/BloodHeal/info/i_BloodHeal.mdl"
+//
+//				"Snd_ActivateUI"	"Disciplines/BloodHealing_Activate.wav"
+//				"Snd_MaintainUI"	""
+//				"Snd_DeactivateUI"	""
+//
+//				"Is_Instant"	"1"
+//				"Is_Passive"	"1"
+//
+//				"Force_Ordering"	"13"
+//			}
+
+			Stat
+			{
+				"Name"		"Velocita'"
+				"InternalName"	"Celerity"
+				"HelpText"	"Velocita' soprannaturale vampirica. Il mondo sembrera' lento mentre tu non subirai alcuna influenza. Tutti, tranne il primo livello di Velocita', sono ovviamente atti soprannaturali, e usarli in Aree Sicure e' considerata una violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Il personaggio si muove con un aumento di velocita' di livello 1. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL2"	"Il personaggio si muove con un aumento di velocita' di livello 2. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL3"	"Il personaggio si muove con un aumento di velocita' di livello 3. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL4"	"Il personaggio si muove con un aumento di velocita' di livello 4. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+				"HelpTextL5"	"Il personaggio si muove con un aumento di velocita' di livello 5. Costa 1 punto sangue per attivazione. Dura 14 secondi dall'attivazione."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Celerity_Sel"
+				"InfoModel"		"models/weapons/disciplines/Celerity/info/i_Celerity.mdl"
+
+				"Snd_ActivateUI"	"Disciplines/Celerity/Activate.wav"
+				"Snd_MaintainUI"	"Disciplines/Celerity/Maintain.wav"
+				"Snd_DeactivateUI"	"Disciplines/Celerity/Deactivate.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"1"
+			}
+
+			Stat
+			{
+				"Name"		"Blood Buff"
+				"InternalName"	"Corpus_Vampirus"
+				"HelpText"	"Per ottenere sangue, il vampiro puo' spingere il suo corpo all'apice delle abilita' umane per un breve periodo. Il Blood Buff rappresenta l'innata abilita' del vampiro di aumentare questo attributo fisico."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Livello1"
+				"HelpTextL2"	"Livello2"
+				"HelpTextL3"	"Livello3"
+				"HelpTextL4"	"Livello4"
+				"HelpTextL5"	"Livello5"
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+//				"Max"			"5"
+				"Max"			"1"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Sel"
+				"InfoModel"		"models/weapons/disciplines/BloodHeal/info/i_BloodHeal.mdl"
+
+				"Snd_ActivateUI"	"Disciplines/BloodHealing_Activate.wav"
+				"Snd_MaintainUI"	""
+				"Snd_DeactivateUI"	""
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"0"
+
+//				"Force_Ordering"	"-1"
+				"Force_Ordering"	"2"	// changed by wesp
+			}
+
+			Stat
+			{
+				"Name"		"Demenza"
+				"InternalName"	"Dementation"
+				"HelpText"	"L'unica eredita' del clan Malkavian, la Demenza trasmette la pazzia e la riversa nelle menti di coloro che ti circondano. Gli effetti della Demenza sono nascosti; non possono essere ricondotti a te e non comportano il rischio di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Velo della Follia"	// changed by EntenSchreck
+				"HelpTextH2"	"Livello 2: Allucinazione di massa"
+				"HelpTextH3"	"Livello 3: Visione di Morte"
+				"HelpTextH4"	"Livello 4: Furia Folle"	// changed by wesp
+				"HelpTextH5"	"Livello 5: Voce di Bedlam"	// changed by wesp
+				"HelpTextL1"	"Costo Attivazione: 1 punto sangue. Le emozioni della vittima si intensificano fino a renderla temporaneamente incapace, tra risate isteriche o pianto incontrollabile, per circa 15 secondi. Intraprendere qualunque azione contro la vittima potrebbe far cessare prematuramente l'effetto."	// changed by EntenSchreck and wesp
+				"HelpTextL2"	"Costo Attivazione: 2 punti sangue. Chiunque sia vicino a te soffre di lievi allucinazioni e subisce una penalita' di -2 in Arma da Fuoco, Mischia, Rissa, Difesa e Difesa contro Nutrimento per circa 20 secondi."	// changed by wesp
+				"HelpTextL3"	"Costo Attivazione: 2 punti sangue. Alla vittima vengono mostrati i suoi peggiori incubi a occhi aperti, fino a causarle un arresto cardiaco. Potrebbe avere un effetto minore sugli esseri soprannaturali."	// changed by wesp
+				"HelpTextL4"	"Costo Attivazione: 3 punti sangue. La vittima impazzisce, attacca a casaccio per circa 30 secondi e poi cade morta. Potrebbe avere un effetto minore sugli esseri soprannaturali."	// changed by wesp
+				"HelpTextL5"	"Costo Attivazione: 4 punti sangue. Il bersaglio e chiunque sia vicino a te soffrira' di uno dei primi quattro livelli di Demenza a caso."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Dementation_Sel"
+				"InfoModel"		"models/weapons/disciplines/Dementation/info/i_Dementation.mdl"
+
+				"Snd_ActivateUI"	"Disciplines/Dementation/activate.wav"		// changed by EntenSchreck
+				"Snd_MaintainUI"	"Disciplines/Dementation/maintain.wav"		// added by EntenSchreck
+				"Snd_DeactivateUI"	"Disciplines/Dementation/deactivate.wav"	// added by EntenSchreck
+
+				"Is_Instant"	"0"
+				"Is_Aggressive"	"1"
+
+				Table
+				{
+					"Name"          "Dem_Targeting"
+					"InternalName"  "Dem_Targeting"
+
+					"Clamping"      "1"
+
+					"0"             "0"
+					"1"             "0"
+					"2"             "0"
+					"3"             "0"
+					"4"             "0"
+				}
+
+				Table
+				{
+					"Name"          "Dem_Targeting_Level"
+					"InternalName"  "Dem_Targeting_Level"
+
+					"Clamping"      "1"
+
+					"0"             "1"
+					"1"             "2"
+					"2"             "3"
+					"3"             "4"
+					"4"             "5"
+				}
+
+				Table
+				{
+					"Name"          "Dem_Targeting_Cost"
+					"InternalName"  "Dem_Targeting_Cost"
+
+					"Clamping"      "1"
+
+					"0"             "1"
+					"1"             "2"
+					"2"             "3"
+					"3"             "4"
+					"4"             "5"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Dominazione"
+				"InternalName"	"Dominate"
+				"HelpText"	"Forza superiore della mente vampirica, permette al tuo personaggio di controllare le menti dell'umano piu' debole e anche di alcuni Fratelli. Gli effetti della Dominazione sono nascosti; non possono essere ricondotti a te e non comportano il rischio di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Comando"	// changed by wesp
+				"HelpTextH2"	"Livello 2: Vuoto Mentale"
+				"HelpTextH3"	"Livello 3: Sonno"	// changed by wesp
+				"HelpTextH4"	"Livello 4: Possessione"
+				"HelpTextH5"	"Livello 5: Suicidio di Massa"
+				"HelpTextL1"	"Costo Attivazione: 1 punto sangue. Il bersaglio sprofonda in una trance ipnotica, inizia a ballare, se ne va o fugge per circa 10 secondi."	// changed by wesp
+				"HelpTextL2"	"Costo Attivazione: 2 punti sangue. Tutti i nemici in un piccolo raggio penseranno che tu sia scomparso. Questo effetto svanisce dopo circa 15 secondi."	// changed by wesp
+				"HelpTextL3"	"Costo Attivazione: 2 punti sangue. Il bersaglio si addormentera' per circa 20 secondi o piu', diventando completamente incapace."	// changed by EntenSchreck and wesp
+				"HelpTextL4"	"Costo Attivazione: 3 punti sangue. La vittima attacchera' disperatamente chiunque intenda farti del male per circa 30 secondi, finche' non morira' di arresto cardiaco. Potrebbe avere un effetto minore sugli esseri soprannaturali."	// changed by wesp
+				"HelpTextL5"	"Costo Attivazione: 4 punti sangue. Il bersaglio e chiunque altro nelle vicinanze subiranno un episodio fatale. Potrebbe avere un effetto minore sugli esseri soprannaturali."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Dominate_Sel"
+				"InfoModel"		"models/weapons/disciplines/Dominate/info/i_Dominate.mdl"
+
+				"Snd_ActivateUI"	"Disciplines/Dominate/dominate_command_default.wav"
+				"Snd_MaintainUI"	""
+				"Snd_DeactivateUI"	""
+
+				"Is_Instant"	"0"
+				"Is_Aggressive"	"1"
+
+				Table
+				{
+					"Name"          "Dom_Targeting"
+					"InternalName"  "Dom_Targeting"
+
+					"Clamping"      "1"
+
+
+					"0"             "0"
+					"1"             "0"
+					"2"             "0"
+					"3"             "0"
+					"4"             "0"
+
+
+// OLD, Removed ones
+//					"0"             "1"	// Command the Wearied Mind 1a
+//					"1"             "2"	// Command the Wearied Mind 1b
+//					"2"             "4"	// Command the Wearied Mind 1c
+//					"3"             "8"	// Command the Wearied Mind 1d
+//					"4"             "16"	// Command the Wearied Mind 1e
+//					"5"             "32"	// Command the Wearied Mind 1f
+//					"6"             "0"	//
+//					"7"             "0"	//
+//					"8"             "0"	//
+//					"9"             "0"	//
+				}
+
+				Table
+				{
+					"Name"          "Dom_Targeting_Level"
+					"InternalName"  "Dom_Targeting_Level"
+
+					"Clamping"      "1"
+
+
+					"0"             "1"
+					"1"             "2"
+					"2"             "3"
+					"3"             "4"
+					"4"             "5"
+
+
+// OLD, Removed ones
+//					"0"             "1"
+//					"1"             "1"
+//					"2"             "1"
+//					"3"             "1"
+//					"4"             "1"
+//					"5"             "1"
+//					"6"             "2"
+//					"7"             "3"
+//					"8"             "4"
+//					"9"             "5"
+				}
+
+				Table
+				{
+					"Name"          "Dom_Targeting_Cost"
+					"InternalName"  "Dom_Targeting_Cost"
+
+					"Clamping"      "1"
+
+
+					"0"             "1"
+					"1"             "2"
+					"2"             "3"
+					"3"             "4"
+					"4"             "5"
+
+
+// OLD, Removed ones
+//					"0"             "1"
+//					"1"             "1"
+//					"2"             "1"
+//					"3"             "1"
+//					"4"             "1"
+//					"5"             "1"
+//					"6"             "2"
+//					"7"             "3"
+//					"8"             "4"
+//					"9"             "5"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Robustezza"
+				"InternalName"	"Fortitude"
+				"HelpText"	"La Robustezza permettte l'esibizione di un'indole soprannaturale eccezionale. Subirai un danno ridotto da qualsiasi attacco che riceverai. L'uso della Robustezza non e' considerata una violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL2"	"Aggiunge 2 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL3"	"Aggiunge 3 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL4"	"Aggiunge 4 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+				"HelpTextL5"	"Aggiunge 5 punti in tutte le imprese Assorbimento. Costa 1 punto sangue per attivazione. Dura 25 secondi dall'attivazione."
+
+				"ShownInFeedback"	"1"
+
+				"Min"		"-1"
+				"Max"		"5"
+				"Default"	"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Fortitude_Sel"
+				"InfoModel"		"models/weapons/disciplines/Fortitude/info/i_Fortitude.mdl"
+
+				"Snd_ActivateUI"	"Disciplines/Fortitude/Activate.wav"
+				"Snd_MaintainUI"	"Disciplines/Fortitude/Maintain.wav"
+				"Snd_DeactivateUI"	"Disciplines/Fortitude/Deactivate.wav"
+				"Snd_Extra1UI"	"Disciplines/Fortitude/Soak_1.wav"
+				"Snd_Extra2UI"	"Disciplines/Fortitude/Soak_2.wav"
+				"Snd_Extra3UI"	"Disciplines/Fortitude/Soak_3.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"1"
+			}
+
+			Stat
+			{
+				"Name"		"Oscurazione"
+				"InternalName"	"Obfuscate"
+				"HelpText"	"Invisibilita' vampirica. Puoi attivare l'Oscurazione solo se nessuno puo' vederti. Se rimani immobile, il timer non scorrera' e l'Oscurazione potra' essere mantenuta indefinitamente. Tutti i livelli di Oscurazione includono i benefici dei livelli inferiori e non comportano rischi di violazione della Masquerade. Durante la frenesia i limiti di livello vengono ignorati."	// changed by wesp
+				"HelpTextH1"	"Livello 1: Invisibilita' semplice "
+				"HelpTextH2"	"Livello 2: Invisibilita' Limitata"
+				"HelpTextH3"	"Livello 3: Assassino Nascosto"
+				"HelpTextH4"	"Livello 4: Invisibilita' Avanzata"
+				"HelpTextH5"	"Livello 5: Forza Invisibile"
+				"HelpTextL1"	"L'Invisibilita' dura finche' rimani immobile. Se ti muovi o fai qualunque azione, diventerai visibile e il timer riprendera' a scorrere. Costa 1 punto sangue per attivazione. Dura 18 secondi."
+				"HelpTextL2"	"Puoi muoverti invisibile mentre sei accucciato. Verrai scoperto se tocchi qualcuno o dei contenitori, o se interagisci con l'ambiente o esegui uccisioni furtive. Costa 1 punto sangue per attivazione. Dura 20 secondi per attivazione."	// changed by wesp
+				"HelpTextL3"	"Puoi eseguire uccisioni furtive restando invisibile usando il tasto di attacco. Fai attenzione a non toccare la tua vittima o dei contenitori, o verrai scoperto. Inoltre, ogni attacco di mischia o disarmato che interrompe l'Oscurazione 3 ottiene un bonus del 50% al danno. Costa 1 punto sangue per attivazione. Dura 22 secondi per attivazione."	// changed by wesp
+				"HelpTextL4"	"Puoi muoverti liberamente mentre sei invisibile. Verrai scoperto se interagisci con l'ambiente, o se tocchi qualcuno o dei contenitori. Inoltre, ogni attacco di mischia o disarmato che interrompe l'Oscurazione 4 infligge il doppio del danno. Costa 1 punto sangue per attivazione. Dura 24 secondi per attivazione."	// changed by wesp
+				"HelpTextL5"	"Puoi muoverti liberamente e interagire con l'ambiente. Verrai scoperto se tocchi qualcuno o dei contenitori. Inoltre, ogni attacco di mischia o disarmato che interrompe l'Oscurazione 5 infligge il triplo del danno. Costa 1 punto sangue per attivazione. Dura 26 secondi per attivazione."	// changed by wesp
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Obfuscate_Sel"
+				"InfoModel"		"models/weapons/disciplines/Obfuscate/info/i_Obfuscate.mdl"
+
+				"ShownInFeedback"	"1"
+
+				"Snd_ActivateUI"	"Disciplines/Obfuscate/Activate.wav"
+				"Snd_MaintainUI"	"Disciplines/Obfuscate/Maintain.wav"
+//				"Snd_MaintainUI"	"Disciplines/Obfuscate_Hid_Maintain.wav"
+				"Snd_DeactivateUI"	"Disciplines/Obfuscate/Deactivate.wav"
+				"Snd_Extra1UI"	"Disciplines/Obfuscate/reactivate.wav"	// changed by EntenSchreck
+				"Snd_Extra2UI"	"Disciplines/Obfuscate/interrupt.wav"	// changed by EntenSchreck
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"1"
+			}
+
+			Stat
+			{
+				"Name"		"Potenza"
+				"InternalName"	"Potence"
+				"HelpText"	"I tuoi attacchi Rissa e Mischia saranno dotati di una forza soprannaturale da cui i tuoi nemici non potranno difendersi. Tutti i livelli di Potenza costano 1 punto sangue per attivazione. Potenza non comporta rischi di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL2"	"Aggiunge 2 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL3"	"Aggiunge 3 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL4"	"Aggiunge 4 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+				"HelpTextL5"	"Aggiunge 5 punti di forza soprannaturale a tutti gli attacchi Rissa e Mischia. I tuoi nemici non potranno difendersi dal Danno extra causato da questa forza soprannaturale. Dura 25 secondi."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Potence_Sel"
+				"InfoModel"		"models/weapons/disciplines/Potence/info/i_Potence.mdl"
+
+				"Snd_ActivateUI"	"Disciplines/Potence/Activate.wav"
+				"Snd_MaintainUI"	"Disciplines/Potence/Maintain.wav"
+				"Snd_DeactivateUI"	"Disciplines/Potence/Deactivate.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"1"
+			}
+
+			Stat
+			{
+				"Name"		"Ascendente"
+				"InternalName"	"Presence"
+				"HelpText"	"La capacita' di intimidazione dei vampiri puo' pietrificare dal terrore il cuore del nemico. Riduce l'efficacia del nemico in combattimento. Tutti i livelli di Ascendente costano 1 punto sangue per attivazione. L'Ascendente non comporta rischi di violazione della Masquerade."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Quelli molto vicini a te subiranno una penalita' di -1 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL2"	"Raggio piu' grande, le vittime subiranno il 10% di possibilita' di restare Ipnotizzate, una penalita' di -2 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL3"	"Raggio piu' grande, le vittime subiranno il 20% di possibilita' di diventare Ipnotizzate, una penalita' di -3 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL4"	"Raggio piu' grande, le vittime subiranno il 20% di possibilita' di diventare Ipnotizzate, una penalita' di -4 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+				"HelpTextL5"	"Raggio piu' grande, le vittime subiranno il 25% di possibilita' di diventare Ipnotizzate, una penalita' di -5 in Forza, Prontezza & Percezione, e una ridotta capacita' di attacco. Dura 16 secondi."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Presence_Sel"
+				"InfoModel"		"models/weapons/disciplines/Presence/info/i_Presence.mdl"
+				"Snd_ActivateUI"	"disciplines/presence/activate.wav"
+				"Snd_MaintainUI"	"disciplines/presence/maintain.wav"
+				"Snd_DeactivateUI"	"disciplines/presence/deactivate.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"1"
+
+				Table
+				{
+					"Name"          "Raggio d'Effetto"
+					"InternalName"  "Presence_Effect_Radius"
+
+					"Clamping"      "1"
+
+					"0"             "0"     // Not Valid
+					"1"             "512"
+					"2"             "640"
+					"3"             "768"
+					"4"             "896"
+					"5"             "1024"
+				}
+
+				Table
+				{
+					"Name"          "Raggi di Combattimento"
+					"InternalName"  "Presence_Combat_Ranges"
+
+					"Clamping"      "1"
+
+					// How many discreet ranges there are for the friendly combat benefit.
+					"0"             "10"
+				}
+
+				Table
+				{
+					"Name"          "Beneficio Combattimento"
+					"InternalName"  "Presence_Combat_Benefit"
+
+					"Clamping"      "1"
+
+					"0"             "0"     // Not Valid
+					"1"             "3"
+					"2"             "3"
+					"3"             "3"
+					"4"             "2"
+					"5"             "2"
+					"6"             "2"
+					"7"             "2"
+					"8"             "1"
+					"9"             "1"
+					"10"            "1"
+				}
+
+				// To tune the following 3, I suggest the following:
+				//		Set the maximum scalar and speed to 0.
+				//		That way you can tune the hand shake independent of the screen shake.
+				//		Test that number out firing shots and running around.
+				//		Once you have an acceptable value, you can tune the other two to get a good screen shake too.
+				Table
+				{
+					"Name"          "Mano Nervosa"
+					"InternalName"  "Presence_Jitter_Hand"
+
+					"Clamping"      "1"
+
+					// This determines the maximum amount the hand can shake, which is independent of screen shake.
+					"0"             "10.0"
+				}
+
+				Table
+				{
+					"Name"          "Tensione"
+					"InternalName"  "Presence_Jitter_Scalar"
+
+					"Clamping"      "1"
+
+					// This determines the maximum amplitude of the screen shake
+					"0"             "1.25" //"16.0"
+				}
+
+				Table
+				{
+					"Name"          "Agitazione"
+					"InternalName"  "Presence_Jitter_Speed"
+
+					"Clamping"      "1"
+
+					// This determines the maximum frequency of the screen shake
+					"0"             "0.75" //"4.0"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Proteide"
+				"InternalName"	"Protean"
+				"HelpText"	"Abbracciando la Bestia interiore, il vampiro guadagna forme e abilita' bestiali. Questi effetti sono soprannaturali e immediatamente visibili. Proteide dovrebbe tuttavia essere usato con discrezione in Aree Sicure, in modo da evitare la violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Occhi scintillanti"
+				"HelpTextH2"	"Livello 2: Artigli Selvaggi"
+				"HelpTextH3"	"Livello 3: Volonta' del Lupo"
+				"HelpTextH4"	"Livello 4: Cacciatore della Notte"
+				"HelpTextH5"	"Livello 5: Forma da Guerra"
+				"HelpTextL1"	"Ottieni una visione a raggi-x, con un bonus +1 in Prontezza. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL2"	"Le tue mani cambiano in artigli mortali che sferrano danni aggravati. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL3"	"Ottieni la piu' grande abilita' bestiale. +2 in Costituzione. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL4"	"Ottieni artigli letali e un bonus +2 in Forza. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+				"HelpTextL5"	"Assumi una forma di guerra, con danno artiglio incrementato. Costa 1 punto sangue per attivazione. Dura 25 secondi."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Protean_Sel"
+				"InfoModel"		"models/weapons/disciplines/Protean/info/i_Protean.mdl"
+				"Snd_ActivateUI"		"Disciplines/protean/Activate.wav"
+				"Snd_MaintainUI"		"Disciplines/protean/Maintain.wav"
+				"Snd_DeactivateUI"		"Disciplines/protean/Deactivate.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"
+				"Is_Aggressive"	"1"
+			}
+
+			Stat
+			{
+				"Name"		"Taumaturgia"
+				"InternalName"	"Thaumaturgy"
+				"HelpText"	"Sangue magico. I Vampiri professionisti della Taumaturgia possono legare il sangue a potenti e terribili scopi. Gli effetti sono spettacolari e ovviamente soprannaturali. La taumaturgia non dovrebbe essere usata in Aree Sicure, in modo da evitare la violazione della Masquerade."
+				"HelpTextH1"	"Livello 1: Palla di Sangue"
+				"HelpTextH2"	"Livello 2: Purga di Sangue"	// changed by wesp
+				"HelpTextH3"	"Livello 3: Scudo di Sangue"
+				"HelpTextH4"	"Livello 4: Furto di Sangue"	// changed by wesp
+				"HelpTextH5"	"Livello 5: Bomba di Sangue"
+				"HelpTextL1"	"Costo Attivazione: 1 punto sangue. Un proiettile colpira' la tua vittima. Se la vittima sopravvive, il colpo di sangue tornera' indietro con il sangue rubato dalla tua vittima."	// changed by wesp
+				"HelpTextL2"	"Costo Attivazione: 2 punti sangue. I nemici vicino ai tuoi personaggi si ammaleranno, vomitando sangue. Danneggia sia nemici normali che soprannaturali."
+				"HelpTextL3"	"Costo Attivazione: 3 punti sangue. Uno scudo di sangue avvolge il Tremere, assorbendo una porzione di tutti i danni ricevuti. Lo scudo di sangue si dissipera' solo dopo aver assorbito abbastanza danno."
+				"HelpTextL4"	"Costo Attivazione: 3 punti sangue. Il sangue del bersaglio viene prosciugato e inviato a te. Poi la vittima muore."	// changed by wesp
+				"HelpTextL5"	"Costo Attivazione: 4 punti sangue. Il bersaglio della bomba viene istantaneamente colpito, causando una violenta esplosione. Altri nelle vicinanze possono ricevere danno esplosivo."
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Thaumaturgy_Sel"
+				"InfoModel"		"models/weapons/disciplines/Thaumaturgy/info/i_Thaumaturgy.mdl"
+				"Snd_ActivateUI"		"player/UI/Disciplines/thaumaturgy.wav"
+				"Snd_MaintainUI"		""
+				"Snd_DeactivateUI"	""
+				"Is_Instant"	"0"
+				"Is_Aggressive"	"1"
+
+				Table
+				{
+					"Name"          "Thaum_Targeting"
+					"InternalName"  "Thaum_Targeting"
+
+					"Clamping"      "1"
+
+					"0"             "0"
+					"1"             "0"
+					"2"             "0"
+					"3"             "0"
+					"4"             "0"
+				}
+
+				Table
+				{
+					"Name"          "Thaum_Targeting_Level"
+					"InternalName"  "Thaum_Targeting_Level"
+
+					"Clamping"      "1"
+
+					"0"             "1"
+					"1"             "2"
+					"2"             "3"
+					"3"             "4"
+					"4"             "5"
+				}
+
+				Table
+				{
+					"Name"          "Thaum_Targeting_Cost"
+					"InternalName"  "Thaum_Targeting_Cost"
+
+					"Clamping"      "1"
+
+					"0"             "1"	//"1"
+					"1"             "2"	//"1"
+					"2"             "3"	//"0"
+					"3"             "4"	//"3"
+					"4"             "5"	//"5"
+				}
+			}
+
+
+			// These are the human ones
+			Stat
+			{
+				"Name"		"Scudo di Fede"	// changed by wesp
+				"InternalName"	"Shield_of_Faith"
+				"HelpText"	"Lo scudo spirituale protegge il fedele da ogni danno fisico inflitto da creature non-morte e malvagie, e aumenta anche la possibilita' di resistere ai loro ripugnanti attacchi mentali."	// added by wesp
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Aggiunge 1 punto a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL2"	"Aggiunge 2 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL3"	"Aggiunge 3 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL4"	"Aggiunge 4 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"HelpTextL5"	"Aggiunge 5 punti a tutte le abilita' di assorbimento e resistenza ai poteri vampirici. Costa 1 punto fede per attivazione. Dura 25 secondi per attivazione."	// added by wesp
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/ShieldOfFaith_Sel"
+				"InfoModel"		"models/weapons/disciplines/Shield_of_Faith/info/i_Shield_of_Faith.mdl"
+	// sounds added by wesp
+				"Snd_ActivateUI"	"Disciplines/Fortitude/Activate.wav"
+				"Snd_MaintainUI"	"Disciplines/Fortitude/Maintain.wav"
+				"Snd_DeactivateUI"	"Disciplines/Fortitude/Deactivate.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Aggressive"	"0"		// changed by wesp
+				"Is_Renewable"	"0"		// added by wesp
+				"Force_Ordering"	"0"	// changed by wesp
+			}
+
+
+			Stat
+			{
+				"Name"		"Visione Divina"
+				"InternalName"	"Divine_Vision"
+				"HelpText"	"La Visione Divina permette al crociato di vedere meglio nelle tenebre e di percepire le auree dei vivi e dei non morti. Le aure dei vivi appariranno bianche, e quelle dei non morti saranno rosse. Tutti i livelli della Visione Divina costano una fede per ogni attivazione."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Rivela le aure dei vivi e dei non morti a breve distanza. Dura 20 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL2"	"Rivela le aure di tutti i viventi e non morti entro una modesta distanza. Dura 24 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL3"	"Rivela l'aura di tutti i viventi e non morti a grande distanza. Dura 28 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL4"	"Rivela le aure di tutti i viventi e non morti a grandissima distanza. Dura 32 secondi per ogni attivazione."	// added by wesp
+				"HelpTextL5"	"Rivela l'aura di tutti i viventi e non morti in un'enorme distanza. Dura 36 secondi per ogni attivazione."	// added by wesp
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/HolySight_Sel"
+				"InfoModel"		"models/weapons/disciplines/Divine_Vision/info/i_Divine_Vision.mdl"
+	// sounds added by wesp
+				"Snd_ActivateUI"	"Disciplines/Auspex/Activate.wav"
+				"Snd_MaintainUI"	"Disciplines/Auspex/Maintain.wav"
+				"Snd_DeactivateUI"	"Disciplines/Auspex/Deactivate.wav"
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"	// added by wesp
+				"Is_Aggressive"	"0"	// changed by wesp
+			}
+
+			Stat
+			{
+				"Name"		"Luce Santa"
+				"InternalName"	"Holy_Light"
+				"HelpText"	"Evoca la Luce Santa per portare la gloria di Dio tra i pagani non morti, rendendoli temporaneamente ciechi e facili prede."
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"I nemici colpiti avranno difficolta' a trovarti per circa 10 secondi. Costa 1 punto fede per attivazione."	// changed by wesp, hunter
+				"HelpTextL2"	"I nemici colpiti avranno difficolta' a trovarti per circa 14 secondi. Costa 1 punto fede per attivazione."	// changed by wesp, hunter
+				"HelpTextL3"	"I nemici colpiti avranno difficolta' a trovarti per circa 18 secondi. Costa 1 punto fede per attivazione."	// changed by wesp, hunter
+				"HelpTextL4"	"I nemici colpiti avranno difficolta' a trovarti per circa 22 secondi. Costa 1 punto fede per attivazione."	// changed by wesp, hunter
+				"HelpTextL5"	"I nemici colpiti avranno difficolta' a trovarti per circa 26 secondi. Costa 1 punto fede per attivazione."	// changed by wesp, hunter
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/DivineLight_Sel"
+				"InfoModel"		"models/weapons/disciplines/Holy_Light/info/i_Holy_Light.mdl"
+	// sounds added by wesp
+				"Snd_ActivateUI"	"disciplines/presence/activate.wav"
+				"Snd_MaintainUI"	"disciplines/presence/maintain.wav"
+				"Snd_DeactivateUI"	"disciplines/presence/deactivate.wav"
+
+				"Is_Instant"	"1"	// changed by wesp
+				"Is_Passive"	"1"	// added by wesp
+				"Is_Renewable"	"0"	// added by wesp
+				"Is_Aggressive"	"1"
+			}
+
+			Stat	// not selectable
+			{
+				"Name"		"Scudo Mentale"
+				"InternalName"	"Mind_Shield"
+				"HelpText"	""
+				"HelpTextH1"	"Livello 1:"
+				"HelpTextH2"	"Livello 2:"
+				"HelpTextH3"	"Livello 3:"
+				"HelpTextH4"	"Livello 4:"
+				"HelpTextH5"	"Livello 5:"
+				"HelpTextL1"	"Livello1"
+				"HelpTextL2"	"Livello2"
+				"HelpTextL3"	"Livello3"
+				"HelpTextL4"	"Livello4"
+				"HelpTextL5"	"Livello5"
+
+				"ShownInFeedback"	"1"
+
+				"Min"			"-1"
+				"Max"			"5"
+				"Default"		"-1"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/MindShield_Sel"
+				"InfoModel"		"models/weapons/disciplines/Mind_Shield/info/i_Mind_Shield.mdl"
+				"Snd_ActivateUI"		""
+				"Snd_MaintainUI"		""
+				"Snd_DeactivateUI"	""
+
+				"Is_Instant"	"1"
+				"Is_Passive"	"1"
+				"Is_Renewable"	"1"	// added by wesp
+				"Is_Aggressive"	"0"	// changed by wesp
+			}
+//		}
+	}
+
+//	StatData
+	ActiveDisciplines
+	{
+		"Name"		"Discipline Attive"
+		"InternalName"	"Active_Disciplines"
+
+//		StatCategory
+//		{
+//			"Name"		"Discipline Attive"
+//			"InternalName"	"Active_Disciplines"
+
+			//  "Action" is the Trait Effect to automatically add when activating this level of the Discipline (automatically removed when the Discipline de-activates).
+
+			Stat
+			{
+				"Name"		"Animalismo Attivo"
+				"InternalName"	"Active_Animalism"
+				"Min"			"0"
+				"Max"			"Animalism"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Animalism_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Animalism_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"40"
+					"Add_1"		"0"
+
+					"Initial_2"		"40"
+					"Add_2"		"0"
+
+					"Initial_3"		"40"
+					"Add_3"		"0"
+
+					"Initial_4"		"40"
+					"Add_4"		"0"
+
+					"Initial_5"		"40"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Auspex Attivo"
+				"InternalName"	"Active_Auspex"
+				"Min"			"0"
+				"Max"			"Auspex"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Auspex_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Auspex_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"20"
+					"Add_1"		"20"
+
+					"Initial_2"		"24"
+					"Add_2"		"24"
+
+					"Initial_3"		"28"
+					"Add_3"		"28"
+
+					"Initial_4"		"32"
+					"Add_4"		"32"
+
+					"Initial_5"		"36"
+					"Add_5"		"36"
+				}
+
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+				Action
+				{
+					"Value"	"1"	// changed by wesp
+					"Effect"	"Discipline (Auspex1)"
+				}
+
+				Action
+				{
+					"Value"	"2"	// changed by wesp
+					"Effect"	"Discipline (Auspex2)"
+				}
+
+				Action
+				{
+					"Value"	"3"	// changed by wesp
+					"Effect"	"Discipline (Auspex3)"
+				}
+
+				Action
+				{
+					"Value"	"4"	// changed by wesp
+					"Effect"	"Discipline (Auspex4)"
+				}
+
+				Action
+				{
+					"Value"	"5"	// changed by wesp
+					"Effect"	"Discipline (Auspex5)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Cura del Sangue"
+				"InternalName"	"Active_Blood_Healing"
+				"Min"			"0"
+				"Max"			"7"  // Currently allowing as much as you have health...
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Base"
+				"Gfx_Hud2"		"hud/Disciplines/BloodHeal_FullBright"
+
+				Durations	// changed by wesp
+				{
+					"Initial_1"		"5"
+					"Add_1"		"0"
+
+					"Initial_2"		"5"
+					"Add_2"		"0"
+
+					"Initial_3"		"5"
+					"Add_3"		"0"
+
+					"Initial_4"		"5"
+					"Add_4"		"0"
+
+					"Initial_5"		"5"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"FaithPoints > 0"		// changed by wesp, hunter
+				"IncPredependency"	"Health < Max_Health"
+
+// Not Implemented Yet
+//				// OR:
+//				IncPredependency
+//				{
+//					"Value"		">0"
+//					"Predependency"	"Health > 0"
+//				}
+
+				Action
+				{
+					"Triggers"	"Inc"
+//					"Predependency"	"Health > 0"
+					"Value"	">0"
+					"Function"	"BloodHealFunc"
+					"Stat"	"FaithPoints -1"	// added by wesp, hunter
+				}
+
+				Action	// added by wesp, hunter
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"n_faithhealing_emitter"
+						Bone		"Bip01 Spine2"
+						AttachType	"bone"
+					}
+				}
+
+				Action	// added by wesp, hunter
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"n_faithhealing_view_emitter"
+						Bone		""
+						AttachType	"ScreenCenter"
+						Viewmodel	"1"
+					}
+				}
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Effect"	"Discipline (Blood_Heal)"
+				}
+
+// Note: To do this "correctly", probably going to need to use "StatEvent" to trigger lowering it after ~0.1secs.  OR, can we just lower it immediately?
+			}
+
+//			Stat
+//			{
+//				"Name"		"Attiva Destrezza Blood Buff"
+//				"InternalName"	"Active_Blood_Buff_Dexterity"
+//				"Min"			"0"
+///////				"Max"			"Blood_Buff_Dexterity"
+//				"Max"			"5"
+//				"Default"		"0"
+//				"NameMapping"	"DisciplineLevel"
+//
+//				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Base"
+//				"Gfx_Hud2"		"hud/Disciplines/BloodHeal_FullBright"
+//
+//				Durations
+//				{
+//					"Initial_1"		"40"
+//					"Add_1"		"0"
+//
+//					"Initial_2"		"40"
+//					"Add_2"		"0"
+//
+//					"Initial_3"		"40"
+//					"Add_3"		"0"
+//
+//					"Initial_4"		"40"
+//					"Add_4"		"0"
+//
+//					"Initial_5"		"40"
+//					"Add_5"		"0"
+//				}
+//
+//				"IncPredependency"	"BloodPool > 0"
+//				"IncPredependency"	"Health < Max_Health"
+//				"IncPredependency"	"Dexterity < 5"
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">0"
+//					"Stat"	"BloodPool -1"
+//				}
+//				Action
+//				{
+//					"Value"	">0"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">0"
+//					"Effect"	"Discipline (Blood_Buff_Dexterity)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">1"
+//					"Effect"	"Discipline (Blood_Buff_Dexterity)"
+//				}
+//				Action
+//				{
+//					"Value"	">1"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">2"
+//					"Effect"	"Discipline (Blood_Buff_Dexterity)"
+//				}
+//				Action
+//				{
+//					"Value"	">2"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">3"
+//					"Effect"	"Discipline (Blood_Buff_Dexterity)"
+//				}
+//				Action
+//				{
+//					"Value"	">3"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">4"
+//					"Effect"	"Discipline (Blood_Buff_Dexterity)"
+//				}
+//				Action
+//				{
+//					"Value"	">4"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//			}
+
+//		Stat
+//			{
+//				"Name"		"Attiva Costituzione Blood Buff"
+//				"InternalName"	"Active_Blood_Buff_Stamina"
+//				"Min"			"0"
+//				"Max"			"Blood_Buff_Stamina"
+//				"Max"			"5"
+//				"Default"		"0"
+//				"NameMapping"	"DisciplineLevel"
+//
+//				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Base"
+//				"Gfx_Hud2"		"hud/Disciplines/BloodHeal_FullBrigh"
+//
+//				Durations
+//			{
+//					"Initial_1"		"40"
+//					"Add_1"		"0"
+//
+//					"Initial_2"		"40"
+//					"Add_2"		"0"
+//
+//					"Initial_3"		"40"
+//					"Add_3"		"0"
+//
+//					"Initial_4"		"40"
+//					"Add_4"		"0"
+//
+//					"Initial_5"		"40"
+//					"Add_5"		"0"
+//				}
+//
+//				"IncPredependency"	"BloodPool > 0"
+//				"IncPredependency"	"Health < Max_Health"
+//				"IncPredependency"	"Stamina < 5"
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">0"
+//					"Stat"	"BloodPool -1"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">0"
+//					"Effect"	"Discipline (Blood_Buff_Stamina)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">1"
+//					"Effect"	"Discipline (Blood_Buff_Stamina)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">2"
+//					"Effect"	"Discipline (Blood_Buff_Stamina)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">3"
+//					"Effect"	"Discipline (Blood_Buff_Stamina)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">4"
+//					"Effect"	"Discipline (Blood_Buff_Stamina)"
+//				}
+//				Action
+//				{
+//					"Value"	">0"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}		
+//				Action
+//				{
+//					"Value"	">1"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Value"	">2"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Value"	">3"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Value"	">4"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//			}
+
+//			Stat
+//			{
+//				"Name"		"Attiva Forza Blood Buff"
+//				"InternalName"	"Active_Blood_Buff_Strength"
+//				"Min"			"0"
+///////				"Max"			"Blood_Buff_Strength"
+//				"Max"			"5"
+//				"Default"		"0"
+//				"NameMapping"	"DisciplineLevel"
+//
+//				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Base"
+//				"Gfx_Hud2"		"hud/Disciplines/BloodHeal_FullBright"
+//
+//				Durations
+//				{
+//					"Initial_1"		"40"
+//					"Add_1"		"0"
+//
+//					"Initial_2"		"40"
+//					"Add_2"		"0"
+//
+//					"Initial_3"		"40"
+//					"Add_3"		"0"
+//
+//					"Initial_4"		"40"
+//					"Add_4"		"0"
+//
+//					"Initial_5"		"40"
+//					"Add_5"		"0"
+//				}
+//
+//				"IncPredependency"	"BloodPool > 0"
+//				"IncPredependency"	"Health < Max_Health"
+//				"IncPredependency"	"Strength < 5"
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">0"
+//					"Stat"	"BloodPool -1"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">0"
+//					"Effect"	"Discipline (Blood_Buff_Strength)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">1"
+//					"Effect"	"Discipline (Blood_Buff_Strength)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">2"
+//					"Effect"	"Discipline (Blood_Buff_Strength)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">3"
+//					"Effect"	"Discipline (Blood_Buff_Strength)"
+//				}
+//
+//				Action
+//				{
+//					"Triggers"	"Inc"
+//					"Value"	">4"
+//					"Effect"	"Discipline (Blood_Buff_Strength)"
+//				}
+//				Action
+//				{
+//					"Value"	">0"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}		
+//				Action
+//				{
+//					"Value"	">1"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Value"	">2"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Value"	">3"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//				Action
+//				{
+//					"Value"	">4"
+//					Particle
+//					{
+//						Definition 	"D_BloodBuff_Generic"
+//						Bone		"Bip01 Spine2"
+//						AttachType	"bone"
+//					}
+//				}
+//			}
+
+			Stat
+			{
+				"Name"		"Attiva Velocita'"
+				"InternalName"	"Active_Celerity"
+				"Min"			"0"
+				"Max"			"Celerity"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Celerity_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Celerity_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"14"
+					"Add_1"		"14"
+
+					"Initial_2"		"14"
+					"Add_2"		"14"
+
+					"Initial_3"		"14"
+					"Add_3"		"14"
+
+					"Initial_4"		"14"
+					"Add_4"		"14"
+
+					"Initial_5"		"14"
+					"Add_5"		"14"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"d_celerity_view_emitter"
+						Bone		""
+						AttachType	"ScreenBorder"
+						Viewmodel	"1"
+					}
+				}
+
+				Action
+				{
+					"Value"	"1"
+					"Effect"	"Discipline (Celerity1)"
+				}
+
+				Action
+				{
+					"Value"	"2"
+					"Effect"	"Discipline (Celerity2)"
+				}
+
+				Action
+				{
+					"Value"	"3"
+					"Effect"	"Discipline (Celerity3)"
+				}
+
+				Action
+				{
+					"Value"	"4"
+					"Effect"	"Discipline (Celerity4)"
+				}
+
+				Action
+				{
+					"Value"	"5"
+					"Effect"	"Discipline (Celerity5)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Blood Buff"
+				"InternalName"	"Active_Corpus_Vampirus"
+				"Min"			"0"
+				"Max"			"5"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/BloodHeal_Base"
+				"Gfx_Hud2"		"hud/Disciplines/BloodHeal_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"14"
+					"Add_1"		"14"
+
+					"Initial_2"		"14"
+					"Add_2"		"14"
+
+					"Initial_3"		"14"
+					"Add_3"		"14"
+
+					"Initial_4"		"14"
+					"Add_4"		"14"
+
+					"Initial_5"		"14"
+					"Add_5"		"14"
+				}
+
+				"IncPredependency"	"BloodPool > 2"
+				"IncPredependency"	"Health < Max_Health"
+//				"IncPredependency"	"Strength < 5"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	"1"	// changed by EntenSchreck
+					"Stat"	"BloodPool -3"
+				}
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	"1"	// changed by EntenSchreck
+					"Effect"	"Discipline (Corpus_Vampirus)"
+				}
+
+				Action	// added by EntenSchreck
+				{
+					"Triggers"	"Inc"
+					"Value"	"2"
+					"Effect"	"Frenzy (Kindred)"
+				}
+
+				Action	// added by EntenSchreck
+				{
+					"Triggers"	"Inc"
+					"Value"	"3"
+					"Effect"	"Frenzy (Gangrel)"
+				}
+
+				Action
+				{
+					"Value"	"1"	// changed by EntenSchreck
+					Particle
+					{
+						Definition 	"D_BloodBuff_Generic"
+						Bone		"Bip01 Spine2"
+						AttachType	"bone"
+					}
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"d_bloodbuff_view_emitter"
+						Bone		""
+						AttachType	"ScreenCenter"
+						Viewmodel	"1"
+					}
+				}
+		
+				Action
+				{
+					"Value"	">1"
+					Particle
+					{
+						Definition 	"D_BloodBuff_Generic"
+						Bone		"Bip01 Spine2"
+						AttachType	"bone"
+					}
+				}
+				Action
+				{
+					"Value"	">2"
+					Particle
+					{
+						Definition 	"D_BloodBuff_Generic"
+						Bone		"Bip01 Spine2"
+						AttachType	"bone"
+					}
+				}
+				Action
+				{
+					"Value"	">3"
+					Particle
+					{
+						Definition 	"D_BloodBuff_Generic"
+						Bone		"Bip01 Spine2"
+						AttachType	"bone"
+					}
+				}
+				Action
+				{
+					"Value"	">4"
+					Particle
+					{
+						Definition 	"D_BloodBuff_Generic"
+						Bone		"Bip01 Spine2"
+						AttachType	"bone"
+					}
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Demenza"
+				"InternalName"	"Active_Dementation"
+				"Min"			"0"
+				"Max"			"Dementation"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+//				"Gfx_Hud"		"hud/Disciplines/Fortitude_Base"
+//				"Gfx_Hud2"		"hud/Disciplines/Fortitude_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"40"
+					"Add_1"		"0"
+
+					"Initial_2"		"40"
+					"Add_2"		"0"
+
+					"Initial_3"		"40"
+					"Add_3"		"0"
+
+					"Initial_4"		"40"
+					"Add_4"		"0"
+
+					"Initial_5"		"40"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+//???
+					"Value"	">0"
+					"Effect"	"Discipline (Dementation-Passion)"
+				}
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Dominazione"
+				"InternalName"	"Active_Dominate"
+				"Min"			"0"
+				"Max"			"Dominate"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+//				"Gfx_Hud"		"hud/Disciplines/Fortitude_Base"
+//				"Gfx_Hud2"		"hud/Disciplines/Fortitude_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"40"
+					"Add_1"		"0"
+
+					"Initial_2"		"40"
+					"Add_2"		"0"
+
+					"Initial_3"		"40"
+					"Add_3"		"0"
+
+					"Initial_4"		"40"
+					"Add_4"		"0"
+
+					"Initial_5"		"40"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Robustezza"
+				"InternalName"	"Active_Fortitude"
+				"Min"			"0"
+				"Max"			"Fortitude"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Fortitude_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Fortitude_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"25"
+					"Add_1"		"25"
+
+					"Initial_2"		"25"
+					"Add_2"		"25"
+
+					"Initial_3"		"25"
+					"Add_3"		"25"
+
+					"Initial_4"		"25"
+					"Add_4"		"25"
+
+					"Initial_5"		"25"
+					"Add_5"		"25"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+//				Action
+//				{
+// wesp				"Value"	">0"
+//					"Effect"	"Discipline (FortitudeFX)"
+//				}
+
+				Action	// changed by EntenSchreck
+				{
+					"Value"	"1"
+					Particle
+					{
+						Definition 	"D_Fortitude_Aura_Emitter_1"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+				Action	// added by EntenSchreck
+				{
+					"Value"	"2"
+					Particle
+					{
+						Definition 	"D_Fortitude_Aura_Emitter_2"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+				Action	// added by EntenSchreck
+				{
+					"Value"	"3"
+					Particle
+					{
+						Definition 	"D_Fortitude_Aura_Emitter_3"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+				Action	// added by EntenSchreck
+				{
+					"Value"	"4"
+					Particle
+					{
+						Definition 	"D_Fortitude_Aura_Emitter_4"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+				Action	// added by EntenSchreck
+				{
+					"Value"	"5"
+					Particle
+					{
+						Definition 	"D_Fortitude_Aura_Emitter_5"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+
+				Action
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"D_FortitudeView_Emitter"
+						Bone		""
+						AttachType	"ScreenCenter"
+						Viewmodel	"1"
+					}
+				}
+
+				Action	// changed by wesp
+				{
+					"Value"	"1"
+					"Effect"	"Discipline (Fortitude1)"
+				}
+
+				Action	// changed by wesp
+				{
+					"Value"	"2"
+					"Effect"	"Discipline (Fortitude2)"
+				}
+
+				Action	// changed by wesp
+				{
+					"Value"	"3"
+					"Effect"	"Discipline (Fortitude3)"
+				}
+
+				Action	// changed by wesp
+				{
+					"Value"	"4"
+					"Effect"	"Discipline (Fortitude4)"
+				}
+
+				Action	// changed by wesp
+				{
+					"Value"	"5"
+					"Effect"	"Discipline (Fortitude5)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Oscurazione"
+				"InternalName"	"Active_Obfuscate"
+				"Min"			"0"
+				"Max"			"Obfuscate"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Obfuscate_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Obfuscate_FullBright"
+
+				Durations
+				{
+//					"Initial_1"		"-1"	// Infinite	// -- Old Method
+//					"Add_1"		"0"
+
+					"Initial_1"		"18"	// New Method (5/4/04 JLR)
+					"Add_1"		"18"
+
+					"Initial_2"		"20"	// "6"
+					"Add_2"		"20"
+
+					"Initial_3"		"22"
+					"Add_3"		"22"
+
+					"Initial_4"		"24"
+					"Add_4"		"24"
+
+					"Initial_5"		"26"
+					"Add_5"		"26"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+				"IncPredependency"	"ObfuscateCanInc == 1"
+				"IncPredependency"	"Active_Protean < 5" // added by wesp
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+				Action
+				{
+					"Value"	"1"
+					"Effect"	"Discipline (Obfuscate1)"
+				}
+
+				Action
+				{
+					"Value"	"2"
+					"Effect"	"Discipline (Obfuscate2)"
+				}
+
+				Action
+				{
+					"Value"	"3"
+					"Effect"	"Discipline (Obfuscate3)"
+				}
+
+				Action
+				{
+					"Value"	"4"
+					"Effect"	"Discipline (Obfuscate4)"
+				}
+
+				Action
+				{
+					"Value"	"5"
+					"Effect"	"Discipline (Obfuscate5)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Potenza"
+				"InternalName"	"Active_Potence"
+				"Min"			"0"
+				"Max"			"Potence"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Potence_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Potence_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"25"
+					"Add_1"		"25"
+
+					"Initial_2"		"25"
+					"Add_2"		"25"
+
+					"Initial_3"		"25"
+					"Add_3"		"25"
+
+					"Initial_4"		"25"
+					"Add_4"		"25"
+
+					"Initial_5"		"25"
+					"Add_5"		"25"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+			//////////////////////////
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+//				Action
+//				{
+// wesp				"Value"	">0"
+//					"Effect"	"Discipline (Potence)"
+//				}
+
+				Action
+				{
+					"Value"	"1"
+					Particle
+					{
+						Definition 	"D_Potence_1BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"1"
+					Particle
+					{
+						Definition 	"D_Potence_1BP_Emitter_FlashStart"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"1"
+					Particle
+					{
+						Definition 	"D_Potence_1BP_Emitter_Hand"
+						Bone		"Bip01 r Hand"
+						AttachType	"Bone"
+					}
+				}
+				Action
+				{
+					"Value"	"1"
+					Particle
+					{
+						Definition 	"D_Potence_1BP_Emitter_Hand"
+						Bone		"Bip01 l Hand"
+						AttachType	"Bone"
+					}
+				}
+
+// changed by EntenSchreck
+//				Action
+//				{
+// wesp				"Value"	">1"
+//					"Effect"	"Discipline (Potence)"
+//				}
+			
+				Action
+				{
+					"Value"	"2"
+					Particle
+					{
+						Definition 	"D_Potence_2BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"2"
+					Particle
+					{
+						Definition 	"D_Potence_2BP_Emitter_FlashStart"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"2"
+					Particle
+					{
+						Definition 	"D_Potence_2BP_Emitter_Hand"
+						Bone		"Bip01 r Hand"
+						AttachType	"Bone"
+					}
+				}
+				Action
+				{
+					"Value"	"2"
+					Particle
+					{
+						Definition 	"D_Potence_2BP_Emitter_Hand"
+						Bone		"Bip01 l Hand"
+						AttachType	"Bone"
+					}
+				}
+
+// changed by EntenSchreck
+//				Action
+//				{
+// wesp				"Value"	">2"
+//					"Effect"	"Discipline (Potence)"
+//				}
+
+				Action
+				{
+					"Value"	"3"
+					Particle
+					{
+						Definition 	"D_Potence_3BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"3"
+					Particle
+					{
+						Definition 	"D_Potence_3BP_Emitter_FlashStart"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"3"
+					Particle
+					{
+						Definition 	"D_Potence_3BP_Emitter_Hand"
+						Bone		"Bip01 r Hand"
+						AttachType	"Bone"
+					}
+				}
+				Action
+				{
+					"Value"	"3"
+					Particle
+					{
+						Definition 	"D_Potence_3BP_Emitter_Hand"
+						Bone		"Bip01 l Hand"
+						AttachType	"Bone"
+					}
+				}
+		
+// changed by EntenSchreck
+//				Action
+//				{
+// wesp				"Value"	">3"
+//					"Effect"	"Discipline (Potence)"
+//				}
+
+				Action
+				{
+					"Value"	"4"
+					Particle
+					{
+						Definition 	"D_Potence_4BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"4"
+					Particle
+					{
+						Definition 	"D_Potence_4BP_Emitter_FlashStart"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"4"
+					Particle
+					{
+						Definition 	"D_Potence_4BP_Emitter_Hand"
+						Bone		"Bip01 r Hand"
+						AttachType	"Bone"
+					}
+				}
+				Action
+				{
+					"Value"	"4"
+					Particle
+					{
+						Definition 	"D_Potence_4BP_Emitter_Hand"
+						Bone		"Bip01 l Hand"
+						AttachType	"Bone"
+					}
+				}
+
+// changed by EntenSchreck
+//				Action
+//				{
+// wesp				"Value"	">4"
+//					"Effect"	"Discipline (Potence)"
+//				}
+
+				Action
+				{
+					"Value"	"5"
+					Particle
+					{
+						Definition 	"D_Potence_5BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"5"
+					Particle
+					{
+						Definition 	"D_Potence_5BP_Emitter_FlashStart"
+						Bone		"Bip01 pelvis"
+						AttachType	"Tree"
+					}
+				}
+				Action
+				{
+					"Value"	"5"
+					Particle
+					{
+						Definition 	"D_Potence_5BP_Emitter_Hand"
+						Bone		"Bip01 r Hand"
+						AttachType	"Bone"
+					}
+				}
+				Action
+				{
+					"Value"	"5"
+					Particle
+					{
+						Definition 	"D_Potence_5BP_Emitter_Hand"
+						Bone		"Bip01 l Hand"
+						AttachType	"Bone"
+					}
+				}
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"d_potence_view_emitter"
+						Bone		""
+						AttachType	"ScreenCenter"
+						Viewmodel	"1"
+					}
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	"1"
+					"Effect"	"Discipline (Potence1)"
+				}
+				/// start
+				Action
+				{
+					"Value"	"2"
+					"Effect"	"Discipline (Potence2)"
+				}
+				Action
+				{
+					"Value"	"3"
+					"Effect"	"Discipline (Potence3)"
+				}
+				Action
+				{
+					"Value"	"4"
+					"Effect"	"Discipline (Potence4)"
+				}
+				Action
+				{
+					"Value"	"5"
+					"Effect"	"Discipline (Potence5)"
+				}
+
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Ascendente"
+				"InternalName"	"Active_Presence"
+				"Min"			"0"
+				"Max"			"Presence"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Presence_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Presence_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"16"
+					"Add_1"		"16"
+
+					"Initial_2"		"16"
+					"Add_2"		"16"
+
+					"Initial_3"		"16"
+					"Add_3"		"16"
+
+					"Initial_4"		"16"
+					"Add_4"		"16"
+
+					"Initial_5"		"16"
+					"Add_5"		"16"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+				Action
+				{
+					"Value"	">0"
+					"Effect"	"Discipline (Presence-Awe)"
+				}
+
+				Action
+				{
+					"Value"	">1"
+					"Effect"	"Discipline (Presence-General)"
+				}
+
+				Action
+				{
+					"Value"	">2"
+					"Effect"	"Discipline (Presence-General)"
+				}
+
+				Action
+				{
+					"Value"	">3"
+					"Effect"	"Discipline (Presence-General)"
+				}
+
+				Action
+				{
+					"Value"	">4"
+					"Effect"	"Discipline (Presence-General)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Proteide"
+				"InternalName"	"Active_Protean"
+				"Min"			"0"
+				"Max"			"Protean"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Protean_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Protean_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"25"
+					"Add_1"		"25"
+
+					"Initial_2"		"25"
+					"Add_2"		"25"
+
+					"Initial_3"		"25"
+					"Add_3"		"25"
+
+					"Initial_4"		"25"
+					"Add_4"		"25"
+
+					"Initial_5"		"25"
+					"Add_5"		"25"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+				"IncPredependency"	"Active_Obfuscate < 1" // added by wesp
+
+// added by wesp
+				Action
+				{
+					"Value"	"1"
+					"Effect"	"Discipline (Protean-Eyes_of_the_Beast)"
+				}
+				Action
+				{
+					"Predependency"	"Clan != Toreador"
+					"Value"	"2"
+					"Effect"	"Discipline (Protean-Feral_Claws)"
+				}
+				Action
+				{
+					"Predependency"	"Clan != Toreador"
+					"Value"	"3"
+					"Effect"	"Discipline (Protean-Will_of_the_Wolf)"
+				}
+				Action
+				{
+					"Predependency"	"Clan != Toreador"
+					"Value"	"4"
+					"Effect"	"Discipline (Protean-Hunter_of_Night)"
+				}
+				Action
+				{
+					"Predependency"	"Clan != Toreador"
+					"Value"	"5"
+					"Effect"	"Discipline (Protean-Wolf_Form)"
+				}
+				Action
+				{
+					"Predependency"	"Clan == Toreador"
+					"Value"	"2"
+					"Effect"	"Discipline (Protean-Feral_Claws-Toreador)"
+				}
+
+				Action
+				{
+					"Predependency"	"Clan == Toreador"
+					"Value"	"3"
+					"Effect"	"Discipline (Protean-Will_of_the_Wolf-Toreador)"
+				}
+				Action
+				{
+					"Predependency"	"Clan == Toreador"
+					"Value"	"4"
+					"Effect"	"Discipline (Protean-Hunter_of_Night-Toreador)"
+				}
+				Action
+				{
+					"Predependency"	"Clan == Toreador"
+					"Value"	"5"
+					"Effect"	"Discipline (Protean-Wolf_Form-Toreador)"
+				}
+
+// Not Implemented Yet
+//				// OR:
+//				IncPredependency
+//				{
+//					"Value"		">0"
+//					"Predependency"	"BloodPool > 0"
+//				}
+
+				Action
+				{
+// Not Implemented Yet
+//					"Triggers"	"Inc | Enter"
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+// Not Implemented Yet
+//				Action
+//				{
+//					"Triggers"	"Inc | Enter"
+//					"Value"	"1"
+//					"StatEvent"	"Active_Protean -1, 10.0"
+//				}
+
+// changed by wesp
+				Action
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"D_ProteanView_Emitter"
+						Bone		""
+						AttachType	"ScreenBorder"
+						ViewModel	"1"
+					}
+				}
+				Action
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"D_Protean_1BP_Emitter"
+						Bone		"Bip01 Footsteps"
+						AttachType	"HitBox"
+					}
+				}
+				Action
+				{
+					"Value"	">1"
+					Particle
+					{
+						Definition 	"D_Protean_2BP_Emitter"
+						Bone		"Bip01 Footsteps"
+						AttachType	"HitBox"
+					}
+				}
+				Action
+				{
+					"Value"	">1"
+					Particle
+					{
+						Definition 	"D_Protean_2BP_Emitter_LHand"
+						Bone		"Bip01 L Hand"
+						AttachType	"HitBox"
+					}
+				}
+				Action
+				{
+					"Value"	">1"
+					Particle
+					{
+						Definition 	"D_Protean_2BP_Emitter_RHand"
+						Bone		"Bip01 R Hand"
+						AttachType	"HitBox"
+					}
+				}
+				Action
+				{
+					"Value"	">2"
+					Particle
+					{
+						Definition 	"D_Protean_3BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"tree"
+					}
+				}
+				Action
+				{
+					"Value"	">2"
+					Particle
+					{
+						Definition 	"D_Protean_3BP_Emitter_Mouth"
+						Bone		"Bip01"
+						AttachType	"bone"
+					}
+				}
+				Action
+				{
+					"Value"	">3"
+					Particle
+					{
+						Definition 	"D_Protean_4BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"tree"
+					}
+				}
+				Action
+				{
+					"Value"	">3"
+					Particle
+					{
+						Definition 	"D_Protean_4BP_Emitter_Mouth"
+						Bone		"Bip01"
+						AttachType	"bone"
+					}
+				}
+				Action
+				{
+					"Value"	">4"
+					Particle
+					{
+						Definition 	"D_Protean_5BP_Emitter"
+						Bone		"Bip01 pelvis"
+						AttachType	"tree"
+					}
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Taumaturgia"
+				"InternalName"	"Active_Thaumaturgy"
+				"Min"			"0"
+				"Max"			"Thaumaturgy"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/Fortitude_Base"
+				"Gfx_Hud2"		"hud/Disciplines/Fortitude_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"40"
+					"Add_1"		"0"
+
+					"Initial_2"		"40"
+					"Add_2"		"0"
+
+					"Initial_3"		"40"
+					"Add_3"		"0"
+
+					"Initial_4"		"40"
+					"Add_4"		"0"
+
+					"Initial_5"		"40"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"BloodPool > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"BloodPool -1"
+				}
+
+				Action
+				{
+					"Value"	">0"
+					"Effect"	"Discipline (Thaumaturgy)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Scudo di Fede"
+				"InternalName"	"Active_Shield_of_Faith"
+				"Min"			"0"
+				"Max"			"Shield_of_Faith"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/ShieldOfFaith_Base"
+				"Gfx_Hud2"		"hud/Disciplines/ShieldOfFaith_FullBright"
+
+				Durations	// changed by wesp
+				{
+					"Initial_1"		"25"
+					"Add_1"		"0"
+
+					"Initial_2"		"25"
+					"Add_2"		"0"
+
+					"Initial_3"		"25"
+					"Add_3"		"0"
+
+					"Initial_4"		"25"
+					"Add_4"		"0"
+
+					"Initial_5"		"25"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"FaithPoints > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action	// changed by wesp
+				{
+					"Value"	"1"
+					Particle
+					{
+						Definition 	"n_shieldoffaith_emitter"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+				Action	// added by wesp
+				{
+					"Value"	"2"
+					Particle
+					{
+						Definition 	"n_shieldoffaith_emitter"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+				Action	// added by wesp
+				{
+					"Value"	"3"
+					Particle
+					{
+						Definition 	"n_shieldoffaith_emitter"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+				Action	// added by wesp
+				{
+					"Value"	"4"
+					Particle
+					{
+						Definition 	"n_shieldoffaith_emitter"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	"5"
+					Particle
+					{
+						Definition 	"n_shieldoffaith_emitter"
+						Bone		""
+						AttachType	"Tree"
+					}
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"n_shieldoffaith_view_emitter"
+						Bone		""
+						AttachType	"ScreenCenter"
+						Viewmodel	"1"
+					}
+				}
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"FaithPoints -1"
+				}
+
+				Action
+				{
+					"Value"	">0"
+					"Effect"	"Numina (Shield_of_Faith)"
+				}
+
+				Action
+				{
+					"Value"	">1"
+					"Effect"	"Numina (Shield_of_Faith)"
+				}
+
+				Action
+				{
+					"Value"	">2"
+					"Effect"	"Numina (Shield_of_Faith)"
+				}
+
+				Action
+				{
+					"Value"	">3"
+					"Effect"	"Numina (Shield_of_Faith)"
+				}
+
+				Action
+				{
+					"Value"	">4"
+					"Effect"	"Numina (Shield_of_Faith)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Visione Divina"
+				"InternalName"	"Active_Divine_Vision"
+				"Min"			"0"
+				"Max"			"Divine_Vision"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/HolySight_Base"
+				"Gfx_Hud2"		"hud/Disciplines/HolySight_FullBright"
+
+				Durations	// changed by wesp
+				{
+					"Initial_1"		"20"
+					"Add_1"		"0"
+
+					"Initial_2"		"24"
+					"Add_2"		"0"
+
+					"Initial_3"		"28"
+					"Add_3"		"0"
+
+					"Initial_4"		"32"
+					"Add_4"		"0"
+
+					"Initial_5"		"36"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"FaithPoints > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"FaithPoints -1"
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					"Effect"	"Numina (Divine_Vision)"
+				}
+
+				Action
+				{
+					"Value"	"1"
+					"Effect"	"Numina (Divine_Vision1)"
+				}
+
+				Action
+				{
+					"Value"	"2"
+					"Effect"	"Numina (Divine_Vision2)"
+				}
+
+				Action
+				{
+					"Value"	"3"
+					"Effect"	"Numina (Divine_Vision3)"
+				}
+
+				Action
+				{
+					"Value"	"4"
+					"Effect"	"Numina (Divine_Vision4)"
+				}
+
+				Action
+				{
+					"Value"	"5"
+					"Effect"	"Numina (Divine_Vision5)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Luce Santa"
+				"InternalName"	"Active_Holy_Light"
+				"Min"			"0"
+				"Max"			"Holy_Light"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/DivineLight_Base"
+				"Gfx_Hud2"		"hud/Disciplines/DivineLight_FullBright"
+
+				Durations	// changed by wesp
+				{
+					"Initial_1"		"10"
+					"Add_1"		"0"
+
+					"Initial_2"		"14"
+					"Add_2"		"0"
+
+					"Initial_3"		"18"
+					"Add_3"		"0"
+
+					"Initial_4"		"22"
+					"Add_4"		"0"
+
+					"Initial_5"		"26"
+					"Add_5"		"0"
+				}
+
+
+				"IncPredependency"	"FaithPoints > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"n_holylight_emitter"
+						Bone		"Bip01 Spine2"
+						AttachType	"bone"
+					}
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					Particle
+					{
+						Definition 	"n_holylight_view_emitter"
+						Bone		""
+						AttachType	"ScreenBorder"
+						Viewmodel	"1"
+					}
+				}
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"FaithPoints -1"
+				}
+
+				Action	// added by wesp
+				{
+					"Value"	">0"
+					"Effect"	"Numina (Holy_Light)"
+				}
+				Action
+				{
+					"Value"	"2"
+					"Effect"	"Numina (Holy_Light2)"
+				}
+				Action
+				{
+					"Value"	"3"
+					"Effect"	"Numina (Holy_Light3)"
+				}
+				Action
+				{
+					"Value"	"4"
+					"Effect"	"Numina (Holy_Light4)"
+				}
+				Action
+				{
+					"Value"	"5"
+					"Effect"	"Numina (Holy_Light5)"
+				}
+			}
+
+			Stat
+			{
+				"Name"		"Attiva Scudo Mentale"
+				"InternalName"	"Active_Mind_Shield"
+				"Min"			"0"
+				"Max"			"Mind_Shield"
+				"Default"		"0"
+				"NameMapping"	"DisciplineLevel"
+
+				"Gfx_Hud"		"hud/Disciplines/MindShield_Base"
+				"Gfx_Hud2"		"hud/Disciplines/MindShield_FullBright"
+
+				Durations
+				{
+					"Initial_1"		"40"
+					"Add_1"		"0"
+
+					"Initial_2"		"40"
+					"Add_2"		"0"
+
+					"Initial_3"		"40"
+					"Add_3"		"0"
+
+					"Initial_4"		"40"
+					"Add_4"		"0"
+
+					"Initial_5"		"40"
+					"Add_5"		"0"
+				}
+
+				"IncPredependency"	"FaithPoints > 0"
+				"IncPredependency"	"Health < Max_Health"
+
+				Action
+				{
+					"Triggers"	"Inc"
+					"Value"	">0"
+					"Stat"	"FaithPoints -1"
+				}
+			}
+//		}
+	}
+}

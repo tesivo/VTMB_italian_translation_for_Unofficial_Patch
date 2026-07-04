@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+It casts a crooked shadow.
+}
+WORDS
+{
+WORD blah 0.032 2.880
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 27 "Proietta un'ombra storta." 0.032 2.880
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

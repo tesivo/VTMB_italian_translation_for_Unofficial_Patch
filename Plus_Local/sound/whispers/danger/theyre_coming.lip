@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Hah hah hah hah... They're coming.
+}
+WORDS
+{
+WORD blah 0.256 5.732
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 34 "Ah ah ah ah... Stanno arrivando." 0.256 5.732
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

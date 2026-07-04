@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+I see daggers hang on his breath.
+}
+WORDS
+{
+WORD blah 0.048 3.424
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 37 "Vedo pugnali appesi al suo respiro." 0.048 3.424
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

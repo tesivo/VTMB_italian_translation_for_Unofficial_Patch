@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Can't see, can't see! Where have my eyes gone to?
+}
+WORDS
+{
+WORD blah 0.000 4.848
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 52 "Non vedo, non vedo! Dove sono finiti i miei occhi?" 0.000 4.848
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

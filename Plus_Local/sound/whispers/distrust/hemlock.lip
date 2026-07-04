@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Hemlock for the deceivers.
+}
+WORDS
+{
+WORD blah 0.000 2.791
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 29 "Cicuta per gli ingannatori." 0.000 2.791
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

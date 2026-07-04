@@ -1,0 +1,2653 @@
+LoadingTips
+{
+//
+//
+//	[Loading Tips]
+//
+//
+//		LOCALIZATION:	Localize/Translate the "Text" Fields ***ONLY***!!!
+//
+//
+//
+//
+//
+//	Tip Section Description:	Note that not all fields may be used for a given PopUp.
+//						PopUps may share the same Internal Name, the system will randomly pick one.
+//						PopUps inherit Default information from their group.
+//
+//
+//
+//	Tip
+//	{
+//		"Type"		The tip type (Game/World)
+//		"StoryState"	The Story State # this tip is available to
+//		"Size"		The tip size (Small/Large)
+//		"CharTemplate"	The internal name of a character template (Player_Brujah, etc.) to match
+//						If not specified, works for all characters.
+//
+//		// Translate this:
+//		"Text"		The text to be displayed (must be localized!)
+//	}
+//
+
+/////////////////////////
+/////////////////////////
+//before starting a new game(into character creation): G.Story_State = -6
+//after char creation (into embrace): G.Story_State = -5
+//after embrace (into the courtroom scene): G.Story_State = -4
+//after the courtroom scene (into the tutorial): G.Story_State = -3
+//after the tutorial (into the haven): G.Story_State = -2
+//beginning of the game (before Santa Monica): G.Story_State = -1
+//Once you are in Santa Monica: G.Story_State = 0
+	
+	// Screens before the game
+	Tips_Section
+	{
+		// StoryState -6, before character creation
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"-6"
+			"Size"		"Small"
+			"Text"		"Il Mondo di Tenebre e' un posto dove mostri immortali esercitano la propria autorita' sull'umanita'. Violenza e disperazione sono comuni qui. Il mondo e' squallido, ma scappare e' una comodita' sempre presente - forse troppo presente...."
+		}
+
+		// StoryState -5, before embrace cinematic
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"-5"
+			"Size"		"Small"
+			"Text"		"L'Abbraccio:
+			L'atto di trasformazione di un mortale in vampiro."
+		}
+
+		// StoryState -4, before the courtroom scene
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"-4"
+			"Size"		"Small"
+			"Text"		"I vampiri non si nascondono solo dai mortali, ma anche da loro stessi, fingendo di non essere l'orrore che sono diventati."
+		}
+
+		// StoryState -3, before the tutorial
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"-3"
+			"Size"		"Small"
+			"Text"		"Fratelli:
+			La razza dei vampiri come comunita' o un singolo vampiro."
+		}
+
+		// StoryState -2, before the haven
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"-2"
+			"Size"		"Small"
+			"Text"		"Il Tuo Rifugio:
+		Il Principe LaCroix ti ha fornito un rifugio della Camarilla in Santa Monica. Qui troverai alcuni elementi, come il tuo computer e una cassetta postale. Sara' la tua base operativa."
+		}
+
+		// StoryState -1, before SM proper
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"-1"
+			"Size"		"Small"
+			"Text"		"Violare la Masquerade rivelando gli aspetti della soprannaturale esistenza agli umani ti mette a rischio di imboscate di cacciatori di vampiri e fa crescere l'ira dei tuoi Fratelli. Ogni violazione della Masquerade costa un punto Masquerade. Se riduci a zero i punti, perderai la partita."
+		}
+
+		// StoryState 2, before first Elyisum
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"2"
+			"Size"		"Small"
+			"Text"		"Elysium:
+			Sei entrato nell'Elysium. Un'area Elysium e' il dominio di un potente vampiro. Qui non sarai in grado di attaccare o usare le tue Discipline. Occasionalmente avrai l'opportunita' di nutrirti, ma prosciugare umani comportera' sempre una perdita di Umanita'."
+		}
+
+		// StoryState 3, before first Combat
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"3"
+			"Size"		"Small"
+			"Text"		"Area di Combattimento:
+			Stai entrando in un'area di combattimento. Nelle aree di combattimento sei libero di usare tutta la forza delle tue Discipline vampiriche senza incorrere in violazioni della Masquerade. Allo stesso modo, spesso non ci sono \"innocenti\" in una zona di combattimento. Non potrai mai incorrere in una violazione della Masquerade, ma a volte potresti perdere Umanita' in un'area di combattimento."		
+		}	// changed by wesp
+////////////////
+	// HelpTips for StoryState 0
+////////////////
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"I vampiri devono muoversi agilmente ed essere consapevoli della Masquerade; la razza umana potrebbe rivolgere le sue attenzioni ai Fratelli, ai Figli di Caino. La superstizione e' l'arma migliore dei vampiri. Rafforzando l'incredulita' dei mortali, coltivando un compiaciuto credo nella ragione, respingendo la presenza dei vampiri come si fa con le fantasie dei bambini, i Fratelli difendono il loro sangue da quei pochi mortali che sanno dell'esistenza dei vampiri."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"La piu' grande setta dei vampiri in esistenza, la Camarilla, si occupa direttamente della Masquerade, sperando cosi' di mantenere il dominio dei Fratelli nelle notti moderne. La Camarilla e' una societa' aperta; comprende come membri tutti i vampiri (che vogliano appartenervi, oppure no), e qualunque vampiro puo' reclamare l'appartenenza, a prescindere dalla discendenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Si dice che le loro origini derivino dal culto della morte medievale, i Sabbat sono visti con gran timore dagli altri Fratelli. La setta e' mostruosa e violenta e non aderisce a nessuna filosofia o morale umana. I membri invece si divertono nelle loro non-vite vampiriche. Considerati a volte come la Mano Nera, i Sabbat cercano attivamente di abbattere le Tradizioni, di distruggere la Camarilla, e di sottomettere il genere umano."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Principe:
+			Il principe e', per farla breve, il vampiro che ha abbastanza potere da mantenere il dominio su una citta', codifica le leggi per quella citta' e mantiene la pace. Tale posizione e' tipicamente tenuta da un anziano, chi altri possiede il necessario carisma e potere da prendere e mantenere il dominio in una metropoli?"
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Clan:
+			Un gruppo di vampiri che condividono caratteristiche comuni trasmesse attraverso il Sangue. Ci sono 13 clan conosciuti, tutti presumibilmente fondati da membri della Terza Generazione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Umanita':
+			L'Umanita' e' un codice morale che permette ai Fratelli di impiegare la loro sensibilita' mortale prima della loro trasformazione in mostri parassiti. In sostanza, e' cio' che trattiene un vampiro dal diventare un animale senza cervello, schiavo della propria sete di sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Il Sangue e' indispensabile per i Fratelli, cruciale per la loro esistenza e per il loro potere. Cibo mortale, aria mortale, amore mortale - tutte queste cose sono senza senso per un vampiro. Il sangue e' l'unica passione dei Fratelli e senza, si indeboliranno velocemente fino ad addormentarsi per sempre."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"I vampiri sono stati a lungo visti come mostri rapaci della notte - terribili forme nere che sbucano fuori dall'oscurita' per rubare i bambini dalle loro culle e succhiare il sangue degli innocenti. I vampiri sono anche creature dalla bellezza mortale, immensa passione e predatori di sensualita'. La piu' importante caratteristica che tutti i vampiri condividono, tuttavia, e' la loro dannazione. Piu' importante di qualunque dinastia, clan, setta o causa e' il fatto che tutti i vampiri sono predatori non-morti. Fedelta' e doveri cadono di fronte all'inevitabile urgenza di sete."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"I vampiri sono essenzialmente creature della citta', tuttavia alcuni pretendono che questa sia una questione di decisione che va oltre la natura. I paesaggi urbani offrono tutto cio' che un Fratello vuole: una scorta quasi infinita di sangue, contatto sufficiente per soddisfare i vampiri piu' socievoli (e sufficiente isolamento per i piu' isolazionisti) e un rifugio dai lupi mannari che girano a vuoto nelle terre rurali dietro le luci delle citta'."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"I Fratelli in cerca di servitori potenti spesso allevano ghoul. Creati dando ad un mortale o animali un sorso di vitae vampirica senza prosciugare il loro sangue, i ghoul generalmente servono i loro vampiri maestri. Sebbene non cosi' potenti come i Fratelli, i ghoul possono usare la vitae assorbita per diventare eccezionalmente forti e resistenti."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Clan Malkavian:
+			Anche gli altri Dannati hanno paura dei Malkavian. La maledizione del sangue del loro clan ha inquinato le loro menti, con il risultato che ogni Malkavian in giro per il mondo e' incurabilmente pazzo. C'e' di peggio, la pazzia di un Malkavian puo' prendere quasi ogni forma, dalla superpotenza omicida alla quasi catalessi."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Clan Nosferatu:
+			Mentre altri vampiri sembrano ancora umani e possono adattarsi alla societa' mortale, i Nosferatu sono deformati a causa della maledizione del vampirismo. Come tali, i Nosferatu si trovano odiati e banditi dagli altri Figli di Caino, i quali li considerano disgustosi e interagiscono con loro solo quando necessario."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Qualunque Fratello che desidera unirsi alla societa' mortale deve obbedire alle sue leggi. Atti criminali - assalti, rapine, omicidi - vengono affrontati con forza brutale dalla legge umana."
+		}
+
+//		//Game tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"L'esperienza si guadagna completando le missioni. Esperienza extra puo' essere assegnata durante il corso di una missione, per il completamento individuale degli obiettivi, trovando piste speciali o soluzioni alternative."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Guarda il tuo Quest Log (Tasto di default: L) per sapere dove devi andare e con chi devi parlare."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Le imprese Difesa e Assorbimento si aggiungono entrambe alla tua difesa contro i proiettili. Inoltre, tutto il danno che ricevi dai proiettili viene automaticamente ridotto del 50%."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Usa il tasto Nutrimento (tasto di default: F) per nutrirti di una vittima inconsapevole. Se la vittima e' in combattimento con te, avra' la possibilita' di difendersi, altrimenti il tuo tentativo di nutrirti andra' a buon fine.
+Un'alta impresa in combattimento Disarmato rende piu' difficile per i combattenti nemici difendersi contro il tuo tentativo di nutrizione."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Appariranno nuove opzioni di dialogo se la tua impresa Convincimento e' sufficientemente alta. Queste opzioni saranno mostrate in colore blu. Selezionare queste frasi di COnvincimento ti mostrera' altre opzioni di dialogo, tutte adattate alla tua agenda."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Puoi usare l'impresa Seduzione nel dialogo per nutrirti oppure per ricevere cio' che vuoi dalla gente. Se seduci un umano puoi nutrirti senza paura di violare la Masquerade.
+Le linee di Seduzione appaiono in colore rosa."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Un'alta impresa Minaccia ti dara' nuove opzioni di dialogo. Queste saranno mostrate in verde. Alcuni personaggi si impauriscono piu' facilmente di altri."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"L'impresa Rissa incide direttamente su quanto danno puoi fare con le armi da mischia. Determina anche quanto facilmente un nemico puo' bloccare, schivare, o contrattaccare i tuoi colpi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"L'impresa combattimento A Distanza incide direttamente su quanto danno puoi fare con armi da fuoco. Determina anche quanto facilmente i vampiri o altre creature soprannaturali possono difendersi contro i tuoi attacchi a distanza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Per muoverti furtivamente, Accucciati (tasto di default: CTRL), resta nell'ombra e guarda la barra della luce. Piu' alta e' l'impresa Furtivita', piu' difficile sara' per i nemici sentirti e vederti.
+Devi accucciarti per guadagnare ogni beneficio dalla Furtivita'."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"La tua impresa Difesa si attiva automaticamente ogni volta che sei attaccato. Con la tua impresa Difesa, puoi difenderti contro attacchi di mischia, attacchi disarmati, e anche proiettili."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Molti fattori contribuiscono alla tua difesa in combattimento. Spendere esperienza per alzare Prontezza, Scrivare, Costituzione ridurra' il danno che puoi ricevere in combattimento. Abiti e armature aiutano a ridurre il danno."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Uccidere umani innocenti fara' perdere Umanita'. Una bassa Umanita' e' una pazzia imminente, inoltre, le tue opzioni di dialogo possono cambiare appena scendi nella tua natura mostruosa."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Gli umani sono la prima risorsa di sostentamento per i Fratelli. Puoi anche prendere una piccola quantita' di sangue dai topi, a meno che tu non sia un Ventrue. Possono essere usate anche le sacche di sangue, se le trovi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Una delle piu' grandi capacita' del vampiro e' l'abilita' di ricostituire il proprio corpo spezzato. Concentrando il sangue puo' richiudere ferite da arma da fuoco e far ricrescere arti perduti.
+Il corpo vampirico guarisce tutte le ferite col tempo. Nutrirsi o usare la Guarigione del sangue velocizzera' questo processo."	// changed by wesp
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Le aree Masquerade hanno mappe posizionate sulle fermate degli autobus. Usa le mappe per vedere una visuale dall'alta dell'area."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"La pazzia viene quando la Bestia Interna prende il controllo. Un vampiro impazzito e' una feroce macchina omicida. La pazzia ti dara' una tremenda potenza distruttrice, ma perderai il controllo delle tue azioni."
+		}
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Se le forze umane ti danno la caccia, nasconditi. La polizia sara' ti cerchera', ma se non riuscira' a trovarti, rinuncera'.
+Riceverai un messaggio quando la polizia smettera' di cercarti."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Le fognature offrono grande protezione e segretezza ai vampiri che lo desiderano."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Small"
+			"Text"		"Stai molto attento quando ti nutri tra i mortali. Nessuno deve vederti, in modo da non tradire la Masquerade."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Nell'Editor Personaggio (tasto di default: C) muovi il puntatore del mouse su un'impresa che desideri incrementare.  Gli Attributi e le Abilita' che contribuiscono a quell'impresa saranno illuminati. Incrementando questi Attributi e Abilita' incrementera' l'impresa."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Durante il gioco possono essere trovati libri di conoscenza. Usando questi manuali, una delle tue statistiche verra' incrementata in modo permanente.
+Ogni manuale ha dei requisiti di utilizzo. La tua impresa Ricerca, per essere incrementata, dovra' soddisfare le richieste del libro prima di poter usare il manuale."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"0"
+			"Size"		"Large"
+			"Text"		"Se fallisci nello scassinare un lucchetto, usa il Blood Buff. L'incremento temporaneo in Destrezza aumentera' la tua impresa in Scassinamento."
+		}
+	/////////////////////////
+/////////////////////////
+	// HelpTips for StoryState 5
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"5"
+			"Size"		"Large"
+			"Text"		"I Sabbat hanno di recente incrementato la loro attivita', rivaleggiando attivamente con Chicago, Atlanta, Washington DC e altre citta' controllate dagli anziani. Animaleschi e mostruosi, la setta e' sparpagliata in massa come locuste lungo la Costa Est e i confini a sud degli Stati Uniti. La loro influenza e' anche aumentata in Canada, e sembra che i Sabbat stiano realizzando una grande infilata, circondando gli Stati Uniti e tagliando fuori tutti gli accessi eccetto quelli che le servono."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"5"
+			"Size"		"Large"
+			"Text"		"A quanto pare, il \"padre di tutti i vampiri\", Caino e' piu' un mito che una realta' nelle notti moderne. Alcuni dei Matusalemme, cosi' come certi membri dei Sabbat, sostengono di aver incontrato un essere che si considerava Caino, ma la storia e' passata cosi' tante volte di generazione in generazione che nessuno puo' dire con precisione dove la verita' finisce e inizia la finzione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"5"
+			"Size"		"Large"
+			"Text"		"I mormorii nelle congregazioni dei Sabbat e nei saloni della Camarilla parlano del tumulto ad Est, delle armate di folle senza clan, di vampiri dal sangue cosi' debole da non poter compiere l'Abbraccio, di incontri con misteriosi anziani potentissimi dalla discendenza ignota, della crescente luna nera e della luna piena di colore rosso come il sangue. Tutti, dicono i sostenitori, sono presagi che le Notti Finali stanno arrivando e che la fine di tutte le cose e' vicina."
+		}
+
+//	//Game Tips
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"5"
+			"Size"		"Small"
+			"CharTemplate"	"Player_Brujah"
+			"Text"		"Usa un taxi per viaggiare tra le citta' e altri posti distanti.
+Appena nuove aree diventano disponibili, saranno aggiunte alla mappa del taxi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"5"
+			"Size"		"Small"
+			"CharTemplate"	"Player_Gangrel"
+			"Text"		"Usa un taxi per viaggiare tra le citta' e altri posti distanti.
+Appena nuove aree diventano disponibili, saranno aggiunte alla mappa del taxi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"5"
+			"Size"		"Small"
+			"CharTemplate"	"Player_Malkavian"
+			"Text"		"Usa un taxi per viaggiare tra le citta' e altri posti distanti.
+Appena nuove aree diventano disponibili, saranno aggiunte alla mappa del taxi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"5"
+			"Size"		"Small"
+			"CharTemplate"	"Player_Toreador"
+			"Text"		"Usa un taxi per viaggiare tra le citta' e altri posti distanti.
+Appena nuove aree diventano disponibili, saranno aggiunte alla mappa del taxi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"5"
+			"Size"		"Small"
+			"CharTemplate"	"Player_Tremere"
+			"Text"		"Usa un taxi per viaggiare tra le citta' e altri posti distanti.
+Appena nuove aree diventano disponibili, saranno aggiunte alla mappa del taxi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"5"
+			"Size"		"Small"
+			"CharTemplate"	"Player_Ventrue"
+			"Text"		"Usa un taxi per viaggiare tra le citta' e altri posti distanti.
+Appena nuove aree diventano disponibili, saranno aggiunte alla mappa del taxi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"5"
+			"Size"		"Small"
+			"CharTemplate"	"Player_Nosferatu"
+			"Text"		"Usa le mappe nelle fognature per viaggiare tra le citta' e altri posti distanti.
+Appena nuove aree diventano disponibili, saranno aggiunte alle mappe delle fognature."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 10
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"I Sabbat hanno di recente incrementato la loro attivita', rivaleggiando attivamente con Chicago, Atlanta, Washington DC e altre citta' controllate dagli anziani. Animaleschi e mostruosi, la setta e' sparpagliata in massa come locuste lungo la Costa Est e i confini a sud degli Stati Uniti. La loro influenza e' anche aumentata in Canada, e sembra che i Sabbat stiano realizzando una grande infilata, circondando gli Stati Uniti e tagliando fuori tutti gli accessi eccetto quelli che le servono."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"A quanto pare, il \"padre di tutti i vampiri\", Caino e' piu' un mito che una realta' nelle notti moderne. Alcuni dei Matusalemme, cosi' come certi membri dei Sabbat, sostengono di aver incontrato un essere che si considerava Caino, ma la storia e' passata cosi' tante volte di generazione in generazione che nessuno puo' dire con precisione dove la verita' finisce e inizia la finzione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"I mormorii nelle congregazioni dei Sabbat e nei saloni della Camarilla parlano del tumulto ad Est, delle armate di folle senza clan, di vampiri dal sangue cosi' debole da non poter compiere l'Abbraccio, di incontri con misteriosi anziani potentissimi dalla discendenza ignota, della crescente luna nera e della luna piena di colore rosso come il sangue. Tutti, dicono i sostenitori, sono presagi che le Notti Finali stanno arrivando e che la fine di tutte le cose e' vicina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Creature:
+			Un vampiro creato attraverso l'Abbraccio - la creatura e' la progenie del suo signore. Questo termine e' spesso usato in modo offensivo, per indicare inesperienza. Plurale: creature."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Novizio:
+			Un vampiro appena creato."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Antidiluviano:
+			Un membro della temuta Terza Generazione, uno dei piu' anziani Fratelli in esistenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Un principe non \"regna\" su una citta'. Il suo ruolo e' piu' come quello di un soprintendente o un magistrato che quello di un monarca. E' il giudice che sistema i problemi tra i Fratelli, la somma autorita' sulle Tradizioni collegate alla sua citta', e il custode della pace. Soprattutto, si occupa della Masquerade e che venga preservata."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Molti mortali, avvolti dalle superstizioni e dalla scienza, sono ciechi ai vampiri che sono tra loro - ma molti sanno della loro esistenza, e ne hanno paura. I mortali che danno la caccia ai Fratelli sono conosciuti come cacciatori-di-streghe, dopo gli Inquisitori degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Mentre la descrizione del lavoro puo' variare da citta' a citta', il primo lavoro dello sceriffo e' di essere \"colui che fa eseguire\" le leggi del principe, il vampiro che allontana i trasgressori dal regno, tiene ordine nelle strade e generalmente e' sempre pronto a collaborare con la \"forza\" del dominio."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"I ribelli, o anarchici, sono vampiri che rifiutano le Tradizioni di Caino e la dittatura degli anziani. Gli anziani concedono malvolentieri alcuni riconoscimenti ai ribelli, a causa dell'abilita' di questi ultimi ad ottenere potere nonostante l'opposizione degli anziani. I ribelli sono anche rispettati per la loro passione e guida, a cui pochi Fratelli anziani possono appellarsi, bloccati come sono dalla loro eta' e dall'insoddisfazione. Ultimamente, tuttavia, la maggior parte dei Fratelli vedono i ribelli come sciacalli, che si cibano di cio' che cade dal tavolo degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Primogen:
+			Il Primogen e' l'adunata degli anziani di ogni clan in una citta'. In teoria, il primogen rappresenta i loro clan nel corpo politico degli anziani, ma in pratica e' solo \"un club di vecchi vampiri\" e un incestuoso nido di tradimenti e favori."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Circolano voci tra i Fratelli riguardanti clan \"minori\" o \"linee di sangue\" che si sono divisi dai propri genitori tanto tempo fa."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Caitiff:
+			I Caitiff sono i vampiri senza clan, rifiutati dagli altri Fratelli e disprezzati da quelli che si accorgono di loro. I vampiri senza clan non hanno idea dell'identita' dei propri signori (e quindi non conoscono la loro dinastia) oppure sono la progenie di una generazione debole che non presenta caratteristiche specifiche di alcun clan. I Caitiff sono universalmente reputati creature bastarde e orfane, sebbene alcuni raggiungano posizioni di rilievo tra gli anarchici."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Alcuni Fratelli credono che il Giudizio Universale sia imminente, che le potenze del Paradiso si stiano preparando finalmente a giudicare i vampiri e cio' che hanno fatto del mondo. Altri parlano del Winnowing, o Gehenna - la notte in cui i piu' antichi vampiri risorgeranno per consumare la loro progenie, prendendo i piu' deboli per soddisfare la propria sete."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Una delle piu' meravigliose e terribili proprieta' dei Fratelli e' la loro abilita' di schiavizzare quasi tutti gli esseri che bevono da essi tre volte. Ogni sorso dona al Fratello una emozione piu' grande di quello che prova colui che beve. Se una vittima beve tre volte dallo stesso Fratello, cade in uno stato conosciuto come \"Vincolo di Sangue\". Per farla breve, il vincolo di sangue e' una delle piu' potenti sensazioni conosciute."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Clan Brujah:
+			Largamente composti da ribelli, con e senza ragioni. Individualisti, espliciti e turbolenti, i Brujah hanno a cuore i cambiamenti sociali, e nei ranghi del clan vi sono alcuni dei piu' violenti Fratelli della Camarilla. La maggior parte degli altri vampiri percepiscono i Brujah come nulla piu' che teppisti e miscredenti, ma la realta' dei fatti e' che dietro le loro polemiche c'e' una passione genuina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Clan Tremere:
+			Temuti, diffidati o ingiuriosi, i meschini vampiri del Clan Temere non vengono affatto ignorati. Quelli che conoscono i modi di fare del clan sono tipicamente sospettosi dei Tremere, e con buone ragioni. Attraverso la loro abilita', hanno imparato a padroneggiare una forma di magia vampirica, costituita da rituali e magie, piu' potente di qualunque altro potere del Sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Clan Ventrue:
+			Da tempo immemorabile, il Ventrue e' stato il clan al potere, rafforzando le antiche Tradizioni e cercando di foggiare il destino dei Fratelli. Nelle notti degli anziani, i Ventrue furono scelti da nobili, principi mercanti o altri personaggi potenti. In tempi moderni il clan recluta ricche famiglie \"ereditiere\", crudeli affaristi e politici. Qualunque sia l'origine, i vampiri Ventrue preservano stabilita' e mantengono l'ordine per la Camarilla."
+		}
+
+		//Game Tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"L'impresa Combattimento Disarmato determina quanto facilmente puoi nutrirti da chi non vuole. Un'alta impresa in Disarmato rendera' piu' facile nutrirsi durante la battaglia.
+L'impresa Disarmato interessa direttamente anche quanto danno puoi fare con i tuoi pugni o artigli, e quanto facilmente puoi bloccare, schivare o contrattacare un attacco nemico."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"L'impresa Negoziazione modifica tutti i prezzi di compravendita. I prezzi del venditore sono automaticamente corretti secondo la tua impresa Negoziazione. Con un'alta impresa Negoziazione sarai capace di vendere oggetti ad un prezzo piu' alto e comprare ad uno piu' basso.
+Quando vengono discussi argomenti finanziari, un'alta impresa Negoziazione ti permette speciali opzioni di dialogo."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"La sete puo' indurre pazzia, cosi' come la paura e la rabbia causata dal danno fisico.
+Il rischio di pazzia e' connesso direttamente alla tua Umanita'. Un vampiro in contatto con la propria umanita' puo' tenere a bada la Bestia; un killer vigliacco non-morto soccombera' molto piu' facilmente. Questo rischio e' portato dalla sete.
+Nutriti spesso e mantieni la tua Umanita' cosi' da prevenire la pazzia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Se il tempo di una Disciplina sta per finire, attivando di nuovo la Disciplina aggiungerai piu' tempo al timer."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Usa il tasto \"Fine Disciplina\" (tasto di default: F8) per disattivare una Disciplina in corso."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"La Resistenza si aggiunge all'impresa Assorbimento. Come vampiro, ogni punto di Assorbimento riduce il danno ricevuto da proiettili e armi da mischia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Le discipline di solito hanno un effetto minore su un vampiro o altri soprannaturali. L'effetto esatto varia da essere ad essere. Puoi richiedere piu' poteri soprannaturali per avere un piu' alto grado di resistenza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Mentre sei in un combattimento ravvicinato, puoi bloccare (tasto di default: Tab) per darti un bonus in Difesa. Questo bonus e' uguale alla tua Destrezza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"La Letalita' di un'arma puo' essere usata per misurare la sua efficacia contro i vampiri. Piu' alta e' la Letalita', piu' sara' difficile per un vampiro difendersi dall'arma."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Tenendo premuti i tasti direzionali di movimento mentre attacchi, eseguirai differenti attacchi di mischia. Ogni tasto direzionale ha una diversa combinazione di attacchi di mischia.
+Variando i tuoi attacchi metterai in difficolta' il nemico. Se usi lo stesso attacco ripetutamente, il nemico imparera' ad anticipare i tuoi attacchi, ed e' piu' facile che schivi i tuoi colpi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Puoi aumentare la tua Umanita' come ogni altra statistica del personaggio, usando punti esperienza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"Il Danno Potenziale di un'arma e' quanto danno puo' fare l'arma che hai in mano. Questo numero varia in base alle tue imprese combattimento A Distanza o Mischia. Piu' alta e' la tua impresa combattimento, piu' danno puoi causare."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"10"
+			"Size"		"Large"
+			"Text"		"I vampiri sono straordinariamente resistenti alle armi da fuoco. Usa armi da taglio e le tue Discipline vampiriche per combattere piu' efficacemente vampiri e altri esseri soprannaturali."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Controlla spesso il tuo Editor Personaggio (tasto di default: C) e usa l'esperienza che hai guadagnato per migliorare il tuo personaggio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Le Sacche di sangue forniscono una piccola quantita' di sangue e di cura. Sebbene piu' difficili da ottenere e meno potenti della carne fresca, le sacche di sangue possono salvarti quando non hai altro a disposizione."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"Le Armi bianche sono mortali sia per i vampiri che per gli umani. Le imprese Difesa e Assorbimento Letale si aggiungono alla tua difesa contro le armi da taglio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// added by wesp
+			"StoryState"	"10"
+			"Size"		"Small"
+			"Text"		"L'e-mail indirizzata a te viene inviata al computer del tuo rifugio. Ritorna spesso al tuo rifugio per controllare la tua email."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 15
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"I Sabbat hanno di recente incrementato la loro attivita', rivaleggiando attivamente con Chicago, Atlanta, Washington DC e altre citta' controllate dagli anziani. Animaleschi e mostruosi, la setta e' sparpagliata in massa come locuste lungo la Costa Est e i confini a sud degli Stati Uniti. La loro influenza e' anche aumentata in Canada, e sembra che i Sabbat stiano realizzando una grande infilata, circondando gli Stati Uniti e tagliando fuori tutti gli accessi eccetto quelli che le servono."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Si dice che il \"padre di tutti i vampiri\", Caino, sia piu' un mito che una realta' nelle notti moderne. Alcuni dei Matusalemme, cosi' come certi membri dei Sabbat, sostengono di aver incontrato un essere che proclama Caino, ma la storia e' passata cosi' tante volte di generazione in generazione che nessuno puo' dire con precisione dove la verita' finisce e la finzione inizia."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"I mormorii nelle congregazioni dei Sabbat e nei saloni della Camarilla parlano del tumulto ad Est, delle armate di folle senza clan, di vampiri dal sangue cosi' debole da non poter compiere l'Abbraccio, di incontri con misteriosi anziani potentissimi dalla discendenza ignota, della crescente luna nera e della luna piena di colore rosso come il sangue. Tutti, dicono i sostenitori, sono presagi che le Notti Finali stanno arrivando e che la fine di tutte le cose e' vicina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Creature:
+			Un vampiro creato attraverso l'Abbraccio - la creatura e' la progenie del suo signore. Questo termine e' spesso usato in modo offensivo, per indicare inesperienza. Plurale: creature."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Novizio:
+			Un vampiro appena creato."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Antidiluviano:
+			Un membro della temuta Terza Generazione, uno dei piu' anziani Fratelli in esistenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Un principe non \"regna\" su una citta'. Il suo ruolo e' piu' come quello di un soprintendente o un magistrato che quello di un monarca. E' il giudice che sistema i problemi tra i Fratelli, la somma autorita' sulle Tradizioni collegate alla sua citta', e il custode della pace. Soprattutto, si occupa della Masquerade e che venga preservata."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Molti mortali, avvolti dalle superstizioni e dalla scienza, sono ciechi ai vampiri che sono tra loro - ma molti sanno della loro esistenza, e ne hanno paura. I mortali che danno la caccia ai Fratelli sono conosciuti come cacciatori-di-streghe, dopo gli Inquisitori degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Mentre la descrizione del lavoro puo' variare da citta' a citta', il primo lavoro dello sceriffo e' di essere \"colui che fa eseguire\" le leggi del principe, il vampiro che allontana i trasgressori dal regno, tiene ordine nelle strade e generalmente e' sempre pronto a collaborare con la \"forza\" del dominio."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"I ribelli, o anarchici, sono vampiri che rifiutano le Tradizioni di Caino e la dittatura degli anziani. Gli anziani concedono malvolentieri alcuni riconoscimenti ai ribelli, a causa dell'abilita' di questi ultimi ad ottenere potere nonostante l'opposizione degli anziani. I ribelli sono anche rispettati per la loro passione e guida, a cui pochi Fratelli anziani possono appellarsi, bloccati come sono dalla loro eta' e dall'insoddisfazione. Ultimamente, tuttavia, la maggior parte dei Fratelli vedono i ribelli come sciacalli, che si cibano di cio' che cade dal tavolo degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Primogen:
+			Il Primogen e' l'adunata degli anziani di ogni clan in una citta'. In teoria, il primogen rappresenta i loro clan nel corpo politico degli anziani, ma in pratica il primogen e' spesso un \"un club di vecchi vampiri\" e un incestuoso nido di tradimento e favori."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Circolano voci tra i Fratelli riguardanti clan \"minori\" o \"linee di sangue\" che si sono divisi dai propri genitori tanto tempo fa."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Caitiff:
+			I Caitiff sono i vampiri senza clan, rifiutati dagli altri Fratelli e disprezzati da quelli che si accorgono di loro. I vampiri senza clan non hanno idea dell'identita' dei propri signori (e quindi non conoscono la loro dinastia) oppure sono la progenie di una generazione debole che non presenta caratteristiche specifiche di alcun clan. I Caitiff sono quasi universalmente reputati come creature bastarde e orfane, sebbene alcuni raggiungano posizioni di rilievo tra gli anarchici."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Alcuni Fratelli credono che il Giudizio Universale sia imminente, che le potenze del Paradiso si stiano preparando finalmente a giudicare i vampiri e cio' che hanno fatto del mondo. Altri parlano del Winnowing, o Gehenna - la notte in cui i piu' antichi vampiri risorgeranno per consumare la loro progenie, prendendo i piu' deboli per soddisfare la propria sete."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Una delle piu' meravigliose e terribili proprieta' dei Fratelli e' la loro abilita' di schiavizzare quasi tutti gli esseri che bevono da essi tre volte. Ogni sorso dona al Fratello una emozione piu' grande di quello che prova colui che beve. Se una vittima beve tre volte dallo stesso Fratello, cade in uno stato conosciuto come \"Vincolo di Sangue\". Per farla breve, il vincolo di sangue e' una delle piu' potenti sensazioni conosciute."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Clan Brujah:
+			Largamente composti da ribelli, con e senza ragioni. Individualisti, espliciti e turbolenti, i Brujah hanno a cuore i cambiamenti sociali, e nei ranghi del clan vi sono alcuni dei piu' violenti Fratelli della Camarilla. La maggior parte degli altri vampiri percepiscono i Brujah come nulla piu' che teppisti e miscredenti, ma la realta' dei fatti e' che dietro le loro polemiche c'e' una passione genuina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Clan Tremere:
+			Temuti, diffidati o ingiuriosi, i meschini vampiri del Clan Temere non vengono affatto ignorati. Quelli che conoscono i modi di fare del clan sono tipicamente sospettosi dei Tremere, e con buone ragioni. Attraverso la loro abilita', hanno imparato a padroneggiare una forma di magia vampirica, costituita da rituali e magie, piu' potente di qualunque altro potere del Sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Clan Ventrue:
+			Da tempo immemorabile, il Ventrue e' stato il clan al potere, rafforzando le antiche Tradizioni e cercando di foggiare il destino dei Fratelli. Nelle notti degli anziani, i Ventrue furono scelti da nobili, principi mercanti o altri personaggi potenti. In tempi moderni il clan recluta ricche famiglie \"ereditiere\", crudeli affaristi e politici. Qualunque sia l'origine, i vampiri Ventrue preservano stabilita' e mantengono l'ordine per la Camarilla."
+		}
+
+		//Game Tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"L'impresa Combattimento Disarmato determina quanto facilmente puoi nutrirti da chi non vuole. Un'alta impresa in Disarmato rendera' piu' facile nutrirsi durante la battaglia.
+L'impresa Disarmato interessa direttamente anche quanto danno puoi fare con i tuoi pugni o artigli, e quanto facilmente puoi bloccare, schivare o contrattacare un attacco nemico."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"L'impresa Negoziazione modifica tutti i prezzi di compravendita. I prezzi del venditore sono automaticamente corretti secondo la tua impresa Negoziazione. Con un'alta impresa Negoziazione sarai capace di vendere oggetti ad un prezzo piu' alto e comprare ad uno piu' basso.
+Quando vengono discussi argomenti finanziari, un'alta impresa Negoziazione ti permette speciali opzioni di dialogo."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"La sete puo' indurre pazzia, cosi' come la paura e la rabbia causata dal danno fisico.
+Il rischio di pazzia e' connesso direttamente alla tua Umanita'. Un vampiro in contatto con la propria umanita' puo' tenere a bada la Bestia; un killer vigliacco non-morto soccombera' molto piu' facilmente. Questo rischio e' portato dalla sete.
+Nutriti spesso e mantieni la tua Umanita' cosi' da prevenire la pazzia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Se il tempo di una Disciplina sta per finire, attivando di nuovo la Disciplina aggiungerai piu' tempo al timer."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Usa il tasto \"Fine Disciplina\" (tasto di default: F8) per disattivare una Disciplina in corso."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"La Resistenza si aggiunge all'impresa Assorbimento. Come vampiro, ogni punto di Assorbimento riduce il danno ricevuto da proiettili e armi da mischia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Le discipline di solito hanno un effetto minore su un vampiro o altri esseri soprannaturali. L'effetto esatto varia da essere ad essere. Puoi richiedere piu' poteri soprannaturali per avere un piu' alto grado di resistenza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Mentre sei in un combattimento ravvicinato, puoi bloccare (tasto di default: Tab) per darti un bonus in Difesa. Questo bonus e' uguale alla tua Destrezza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"La Letalita' di un'arma puo' essere usata per misurare la sua efficacia contro i vampiri. Piu' alta e' la Letalita', piu' sara' difficile per un vampiro difendersi dall'arma."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Tenendo premuti i tasti direzionali di movimento mentre attacchi, eseguirai differenti attacchi di mischia. Ogni tasto direzionale ha una diversa combinazione di attacchi di mischia.
+Variando i tuoi attacchi metterai in difficolta' il nemico. Se usi lo stesso attacco ripetutamente, il nemico imparera' ad anticipare i tuoi attacchi, ed e' piu' facile che schivi i tuoi colpi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Puoi aumentare la tua Umanita' come ogni altra statistica del personaggio, usando punti esperienza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"Il Danno Potenziale di un'arma e' quanto danno puo' fare l'arma che hai in mano. Questo numero varia in base alle tue imprese combattimento A Distanza o Mischia. Piu' alta e' la tua impresa combattimento, piu' danno puoi causare."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+
+			"StoryState"	"15"
+			"Size"		"Large"
+			"Text"		"I vampiri sono straordinariamente resistenti alle armi da fuoco. Usa armi da taglio e le tue Discipline vampiriche per combattere piu' efficacemente vampiri e altri esseri soprannaturali."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Controlla spesso il tuo Editor Personaggio (tasto di default: C) e usa l'esperienza che hai guadagnato per migliorare il tuo personaggio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Le Sacche di sangue forniscono una piccola quantita' di sangue e di cura. Sebbene piu' difficili da ottenere e meno potenti della carne fresca, le sacche di sangue possono salvarti quando non hai altro a disposizione."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Le Armi bianche sono mortali sia per i vampiri che per gli umani. Le imprese Difesa e Assorbimento Letale si aggiungono alla tua difesa contro le armi da taglio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"15"
+			"Size"		"Small"
+			"Text"		"Le email che ti invieranno saranno visibili sul computer al tuo rifugio. Ritorna frequentemente al tuo rifugio per controllare le email."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 20
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"I Sabbat hanno di recente incrementato la loro attivita', rivaleggiando attivamente con Chicago, Atlanta, Washington DC e altre citta' controllate dagli anziani. Animaleschi e mostruosi, la setta e' sparpagliata in massa come locuste lungo la Costa Est e i confini a sud degli Stati Uniti. La loro influenza e' anche aumentata in Canada, e sembra che i Sabbat stiano realizzando una grande infilata, circondando gli Stati Uniti e tagliando fuori tutti gli accessi eccetto quelli che le servono."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"A quanto pare, il \"padre di tutti i vampiri\", Caino e' piu' un mito che una realta' nelle notti moderne. Alcuni dei Matusalemme, cosi' come certi membri dei Sabbat, sostengono di aver incontrato un essere che si considerava Caino, ma la storia e' passata cosi' tante volte di generazione in generazione che nessuno puo' dire con precisione dove la verita' finisce e inizia la finzione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"I mormorii nelle congregazioni dei Sabbat e nei saloni della Camarilla parlano del tumulto ad Est, delle armate di folle senza clan, di vampiri dal sangue cosi' debole da non poter compiere l'Abbraccio, di incontri con misteriosi anziani potentissimi dalla discendenza ignota, della crescente luna nera e della luna piena di colore rosso come il sangue. Tutti, dicono i sostenitori, sono presagi che le Notti Finali stanno arrivando e che la fine di tutte le cose e' vicina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Antidiluviano:
+			Un membro della temuta Terza Generazione, uno dei piu' anziani Fratelli in esistenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Un principe non \"regna\" su una citta'. Il suo ruolo e' piu' come quello di un soprintendente o un magistrato che quello di un monarca. E' il giudice che sistema i problemi tra i Fratelli, la somma autorita' sulle Tradizioni collegate alla sua citta', e il custode della pace. Soprattutto, si occupa della Masquerade e che venga preservata."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Molti mortali, avvolti dalle superstizioni e dalla scienza, sono ciechi ai vampiri che sono tra loro - ma molti sanno della loro esistenza, e ne hanno paura. I mortali che danno la caccia ai Fratelli sono conosciuti come cacciatori-di-streghe, dopo gli Inquisitori degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Mentre la descrizione del lavoro puo' variare da citta' a citta', il primo lavoro dello sceriffo e' di essere \"colui che fa eseguire\" le leggi del principe, il vampiro che allontana i trasgressori dal regno, tiene ordine nelle strade e generalmente e' sempre pronto a collaborare con la \"forza\" del dominio."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"I ribelli, o anarchici, sono vampiri che rifiutano le Tradizioni di Caino e la dittatura degli anziani. Gli anziani concedono malvolentieri alcuni riconoscimenti ai ribelli, a causa dell'abilita' di questi ultimi ad ottenere potere nonostante l'opposizione degli anziani. I ribelli sono anche rispettati per la loro passione e guida, a cui pochi Fratelli anziani possono appellarsi, bloccati come sono dalla loro eta' e dall'insoddisfazione. Ultimamente, tuttavia, la maggior parte dei Fratelli vedono i ribelli come sciacalli, che si cibano di cio' che cade dal tavolo degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Primogen:
+			Il Primogen e' l'adunata degli anziani di ogni clan in una citta'. In teoria, il primogen rappresenta i loro clan nel corpo politico degli anziani, ma in pratica il primogen e' spesso un \"un club di vecchi vampiri\" e un incestuoso nido di tradimento e favori."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Circolano voci tra i Fratelli riguardanti clan \"minori\" o \"linee di sangue\" che si sono divisi dai propri genitori tanto tempo fa."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Caitiff:
+			I Caitiff sono i vampiri senza clan, rifiutati dagli altri Fratelli e disprezzati da quelli che si accorgono di loro. I vampiri senza clan non hanno idea dell'identita' dei propri signori (e quindi non conoscono la loro dinastia) oppure sono la progenie di una generazione debole che non presenta caratteristiche specifiche di alcun clan. I Caitiff sono quasi universalmente reputati come creature bastarde e orfane, sebbene alcuni raggiungano posizioni di rilievo tra gli anarchici."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Alcuni Fratelli credono che il Giudizio Universale sia imminente, che le potenze del Paradiso si stiano preparando finalmente a giudicare i vampiri e cio' che hanno fatto del mondo. Altri parlano del Winnowing, o Gehenna - la notte in cui i piu' antichi vampiri risorgeranno per consumare la loro progenie, prendendo i piu' deboli per soddisfare la propria sete."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Una delle piu' meravigliose e terribili proprieta' dei Fratelli e' la loro abilita' di schiavizzare quasi tutti gli esseri che bevono da essi tre volte. Ogni sorso dona al Fratello una emozione piu' grande di quello che prova colui che beve. Se una vittima beve tre volte dallo stesso Fratello, cade in uno stato conosciuto come \"Vincolo di Sangue\". Per farla breve, il vincolo di sangue e' una delle piu' potenti sensazioni conosciute."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Clan Brujah:
+			Largamente composti da ribelli, con e senza ragioni. Individualisti, espliciti e turbolenti, i Brujah hanno a cuore i cambiamenti sociali, e nei ranghi del clan vi sono alcuni dei piu' violenti Fratelli della Camarilla. La maggior parte degli altri vampiri percepiscono i Brujah come nulla piu' che teppisti e miscredenti, ma la realta' dei fatti e' che dietro le loro polemiche c'e' una passione genuina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Clan Tremere:
+			Temuti, diffidati o ingiuriosi, i meschini vampiri del Clan Temere non vengono affatto ignorati. Quelli che conoscono i modi di fare del clan sono tipicamente sospettosi dei Tremere, e con buone ragioni. Attraverso la loro abilita', hanno imparato a padroneggiare una forma di magia vampirica, costituita da rituali e magie, piu' potente di qualunque altro potere del Sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Clan Ventrue:
+			Da tempo immemorabile, il Ventrue e' stato il clan al potere, rafforzando le antiche Tradizioni e cercando di foggiare il destino dei Fratelli. Nelle notti degli anziani, i Ventrue furono scelti da nobili, principi mercanti o altri personaggi potenti. In tempi moderni il clan recluta ricche famiglie \"ereditiere\", crudeli affaristi e politici. Qualunque sia l'origine, i vampiri Ventrue preservano stabilita' e mantengono l'ordine per la Camarilla."
+		}
+
+		//Game Tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"L'impresa Combattimento Disarmato determina quanto facilmente puoi nutrirti da chi non vuole. Un'alta impresa in Disarmato rendera' piu' facile nutrirsi durante la battaglia.
+L'impresa Disarmato interessa direttamente anche quanto danno puoi fare con i tuoi pugni o artigli, e quanto facilmente puoi bloccare, schivare o contrattacare un attacco nemico."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"L'impresa Negoziazione modifica tutti i prezzi di compravendita. I prezzi del venditore sono automaticamente corretti secondo la tua impresa Negoziazione. Con un'alta impresa Negoziazione sarai capace di vendere oggetti ad un prezzo piu' alto e comprare ad uno piu' basso.
+Quando vengono discussi argomenti finanziari, un'alta impresa Negoziazione ti permette speciali opzioni di dialogo."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"La sete puo' indurre pazzia, cosi' come la paura e la rabbia causata dal danno fisico.
+Il rischio di pazzia e' connesso direttamente alla tua Umanita'. Un vampiro in contatto con la propria umanita' puo' tenere a bada la Bestia; un killer vigliacco non-morto soccombera' molto piu' facilmente. Questo rischio e' portato dalla sete.
+Nutriti spesso e mantieni la tua Umanita' cosi' da prevenire la pazzia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Se il tempo di una Disciplina sta per finire, attivando di nuovo la Disciplina aggiungerai piu' tempo al timer."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Usa il tasto \"Fine Disciplina\" (tasto di default: F8) per disattivare una Disciplina in corso."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"La Resistenza si aggiunge all'impresa Assorbimento. Come vampiro, ogni punto di Assorbimento riduce il danno ricevuto da proiettili e armi da mischia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Le discipline di solito hanno un effetto minore su un vampiro o altri esseri soprannaturali. L'effetto esatto varia da essere ad essere. Puoi richiedere piu' poteri soprannaturali per avere un piu' alto grado di resistenza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Mentre sei in un combattimento ravvicinato, puoi bloccare (tasto di default: Tab) per darti un bonus in Difesa. Questo bonus e' uguale alla tua Destrezza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"La Letalita' di un'arma puo' essere usata per misurare la sua efficacia contro i vampiri. Piu' alta e' la Letalita', piu' sara' difficile per un vampiro difendersi dall'arma."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Tenendo premuti i tasti direzionali di movimento mentre attacchi, eseguirai differenti attacchi di mischia. Ogni tasto direzionale ha una diversa combinazione di attacchi di mischia.
+Variando i tuoi attacchi metterai in difficolta' il nemico. Se usi lo stesso attacco ripetutamente, il nemico imparera' ad anticipare i tuoi attacchi, ed e' piu' facile che schivi i tuoi colpi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Puoi aumentare la tua Umanita' come ogni altra statistica del personaggio, usando punti esperienza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"Il Danno Potenziale di un'arma e' quanto danno puo' fare l'arma che hai in mano. Questo numero varia in base alle tue imprese combattimento A Distanza o Mischia. Piu' alta e' la tua impresa combattimento, piu' danno puoi causare."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"20"
+			"Size"		"Large"
+			"Text"		"I vampiri sono straordinariamente resistenti alle armi da fuoco. Usa armi da taglio e le tue Discipline vampiriche per combattere piu' efficacemente vampiri e altri esseri soprannaturali."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Controlla spesso il tuo Editor Personaggio (tasto di default: C) e usa l'esperienza che hai guadagnato per migliorare il tuo personaggio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Le Sacche di sangue forniscono una piccola quantita' di sangue e di cura. Sebbene piu' difficili da ottenere e meno potenti della carne fresca, le sacche di sangue possono salvarti quando non hai altro a disposizione."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Le Armi bianche sono mortali sia per i vampiri che per gli umani. Le imprese Difesa e Assorbimento Letale si aggiungono alla tua difesa contro le armi da taglio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"20"
+			"Size"		"Small"
+			"Text"		"Le email che ti invieranno saranno visibili sul computer al tuo rifugio. Ritorna frequentemente al tuo rifugio per controllare le email."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 25
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"A quanto pare, il \"padre di tutti i vampiri\", Caino e' piu' un mito che una realta' nelle notti moderne. Alcuni dei Matusalemme, cosi' come certi membri dei Sabbat, sostengono di aver incontrato un essere che si considerava Caino, ma la storia e' passata cosi' tante volte di generazione in generazione che nessuno puo' dire con precisione dove la verita' finisce e inizia la finzione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"I mormorii nelle congregazioni dei Sabbat e nei saloni della Camarilla parlano del tumulto ad Est, delle armate di folle senza clan, di vampiri dal sangue cosi' debole da non poter compiere l'Abbraccio, di incontri con misteriosi anziani potentissimi dalla discendenza ignota, della crescente luna nera e della luna piena di colore rosso come il sangue. Tutti, dicono i sostenitori, sono presagi che le Notti Finali stanno arrivando e che la fine di tutte le cose e' vicina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Antidiluviano:
+			Un membro della temuta Terza Generazione, uno dei piu' anziani Fratelli in esistenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Un principe non \"regna\" su una citta'. Il suo ruolo e' piu' come quello di un soprintendente o un magistrato che quello di un monarca. E' il giudice che sistema i problemi tra i Fratelli, la somma autorita' sulle Tradizioni collegate alla sua citta', e il custode della pace. Soprattutto, si occupa della Masquerade e che venga preservata."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Molti mortali, avvolti dalle superstizioni e dalla scienza, sono ciechi ai vampiri che sono tra loro - ma molti sanno della loro esistenza, e ne hanno paura. I mortali che danno la caccia ai Fratelli sono conosciuti come cacciatori-di-streghe, dopo gli Inquisitori degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Mentre la descrizione del lavoro puo' variare da citta' a citta', il primo lavoro dello sceriffo e' di essere \"colui che fa eseguire\" le leggi del principe, il vampiro che allontana i trasgressori dal regno, tiene ordine nelle strade e generalmente e' sempre pronto a collaborare con la \"forza\" del dominio."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"I ribelli, o anarchici, sono vampiri che rifiutano le Tradizioni di Caino e la dittatura degli anziani. Gli anziani concedono malvolentieri alcuni riconoscimenti ai ribelli, a causa dell'abilita' di questi ultimi ad ottenere potere nonostante l'opposizione degli anziani. I ribelli sono anche rispettati per la loro passione e guida, a cui pochi Fratelli anziani possono appellarsi, bloccati come sono dalla loro eta' e dall'insoddisfazione. Ultimamente, tuttavia, la maggior parte dei Fratelli vedono i ribelli come sciacalli, che si cibano di cio' che cade dal tavolo degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Primogen:
+			Il Primogen e' l'adunata degli anziani di ogni clan in una citta'. In teoria, il primogen rappresenta i loro clan nel corpo politico degli anziani, ma in pratica il primogen e' spesso un \"un club di vecchi vampiri\" e un incestuoso nido di tradimento e favori."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Circolano voci tra i Fratelli riguardanti clan \"minori\" o \"linee di sangue\" che si sono divisi dai propri genitori tanto tempo fa."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Caitiff:
+			I Caitiff sono i vampiri senza clan, rifiutati dagli altri Fratelli e disprezzati da quelli che si accorgono di loro. I vampiri senza clan non hanno idea dell'identita' dei propri signori (e quindi non conoscono la loro dinastia) oppure sono la progenie di una generazione debole che non presenta caratteristiche specifiche di alcun clan. I Caitiff sono quasi universalmente reputati come creature bastarde e orfane, sebbene alcuni raggiungano posizioni di rilievo tra gli anarchici."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Alcuni Fratelli credono che il Giudizio Universale sia imminente, che le potenze del Paradiso si stiano preparando finalmente a giudicare i vampiri e cio' che hanno fatto del mondo. Altri parlano del Winnowing, o Gehenna - la notte in cui i piu' antichi vampiri risorgeranno per consumare la loro progenie, prendendo i piu' deboli per soddisfare la propria sete."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Una delle piu' meravigliose e terribili proprieta' dei Fratelli e' la loro abilita' di schiavizzare quasi tutti gli esseri che bevono da essi tre volte. Ogni sorso dona al Fratello una emozione piu' grande di quello che prova colui che beve. Se una vittima beve tre volte dallo stesso Fratello, cade in uno stato conosciuto come \"Vincolo di Sangue\". Per farla breve, il vincolo di sangue e' una delle piu' potenti sensazioni conosciute."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Clan Brujah:
+			Largamente composti da ribelli, con e senza ragioni. Individualisti, espliciti e turbolenti, i Brujah hanno a cuore i cambiamenti sociali, e nei ranghi del clan vi sono alcuni dei piu' violenti Fratelli della Camarilla. La maggior parte degli altri vampiri percepiscono i Brujah come nulla piu' che teppisti e miscredenti, ma la realta' dei fatti e' che dietro le loro polemiche c'e' una passione genuina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Clan Tremere:
+			Temuti, diffidati o ingiuriosi, i meschini vampiri del Clan Temere non vengono affatto ignorati. Quelli che conoscono i modi di fare del clan sono tipicamente sospettosi dei Tremere, e con buone ragioni. Attraverso la loro abilita', hanno imparato a padroneggiare una forma di magia vampirica, costituita da rituali e magie, piu' potente di qualunque altro potere del Sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Clan Ventrue:
+			Da tempo immemorabile, il Ventrue e' stato il clan al potere, rafforzando le antiche Tradizioni e cercando di foggiare il destino dei Fratelli. Nelle notti degli anziani, i Ventrue furono scelti da nobili, principi mercanti o altri personaggi potenti. In tempi moderni il clan recluta ricche famiglie \"ereditiere\", crudeli affaristi e politici. Qualunque sia l'origine, i vampiri Ventrue preservano stabilita' e mantengono l'ordine per la Camarilla."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"I Culti della Gehenna:
+			I culti della Gehenna esistono per preparare, o prevenire, la fine del mondo. Nel timore della Jyhan e del ritorno degli Antidiluviani, i culti servono a preparare gli Antichi (per evitare la loro distruzione quando arrivera' la fine) o per scoprire i rifugi nascosti degli Antidiluviani (cosi' da colpirli preventivamente ed evitare del tutto la Gehenna)."
+		}
+
+		//Game Tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"L'impresa Combattimento Disarmato determina quanto facilmente puoi nutrirti da chi non vuole. Un'alta impresa in Disarmato rendera' piu' facile nutrirsi durante la battaglia.
+L'impresa Disarmato interessa direttamente anche quanto danno puoi fare con i tuoi pugni o artigli, e quanto facilmente puoi bloccare, schivare o contrattacare un attacco nemico."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"L'impresa Negoziazione modifica tutti i prezzi di compravendita. I prezzi del venditore sono automaticamente corretti secondo la tua impresa Negoziazione. Con un'alta impresa Negoziazione sarai capace di vendere oggetti ad un prezzo piu' alto e comprare ad uno piu' basso.
+Quando vengono discussi argomenti finanziari, un'alta impresa Negoziazione ti permette speciali opzioni di dialogo."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"La sete puo' indurre pazzia, cosi' come la paura e la rabbia causata dal danno fisico.
+Il rischio di pazzia e' connesso direttamente alla tua Umanita'. Un vampiro in contatto con la propria umanita' puo' tenere a bada la Bestia; un killer vigliacco non-morto soccombera' molto piu' facilmente. Questo rischio e' portato dalla sete.
+Nutriti spesso e mantieni la tua Umanita' cosi' da prevenire la pazzia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Se il tempo di una Disciplina sta per finire, attivando di nuovo la Disciplina aggiungerai piu' tempo al timer."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Usa il tasto \"Fine Disciplina\" (tasto di default: F8) per disattivare una Disciplina in corso."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"La Resistenza si aggiunge all'impresa Assorbimento. Come vampiro, ogni punto di Assorbimento riduce il danno ricevuto da proiettili e armi da mischia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Le discipline di solito hanno un effetto minore su un vampiro o altri esseri soprannaturali. L'effetto esatto varia da essere ad essere. Puoi richiedere piu' poteri soprannaturali per avere un piu' alto grado di resistenza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Mentre sei in un combattimento ravvicinato, puoi bloccare (tasto di default: Tab) per darti un bonus in Difesa. Questo bonus e' uguale alla tua Destrezza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"La Letalita' di un'arma puo' essere usata per misurare la sua efficacia contro i vampiri. Piu' alta e' la Letalita', piu' sara' difficile per un vampiro difendersi dall'arma."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Tenendo premuti i tasti direzionali di movimento mentre attacchi, eseguirai differenti attacchi di mischia. Ogni tasto direzionale ha una diversa combinazione di attacchi di mischia.
+Variando i tuoi attacchi metterai in difficolta' il nemico. Se usi lo stesso attacco ripetutamente, il nemico imparera' ad anticipare i tuoi attacchi, ed e' piu' facile che schivi i tuoi colpi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Puoi aumentare la tua Umanita' come ogni altra statistica del personaggio, usando punti esperienza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"Il Danno Potenziale di un'arma e' quanto danno puo' fare l'arma che hai in mano. Questo numero varia in base alle tue imprese combattimento A Distanza o Mischia. Piu' alta e' la tua impresa combattimento, piu' danno puoi causare."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"25"
+			"Size"		"Large"
+			"Text"		"I vampiri sono straordinariamente resistenti alle armi da fuoco. Usa armi da taglio e le tue Discipline vampiriche per combattere piu' efficacemente vampiri e altri esseri soprannaturali."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Controlla spesso il tuo Editor Personaggio (tasto di default: C) e usa l'esperienza che hai guadagnato per migliorare il tuo personaggio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Le Sacche di sangue forniscono una piccola quantita' di sangue e di cura. Sebbene piu' difficili da ottenere e meno potenti della carne fresca, le sacche di sangue possono salvarti quando non hai altro a disposizione."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Le Armi bianche sono mortali sia per i vampiri che per gli umani. Le imprese Difesa e Assorbimento Letale si aggiungono alla tua difesa contro le armi da taglio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"25"
+			"Size"		"Small"
+			"Text"		"Le email che ti invieranno saranno visibili sul computer al tuo rifugio. Ritorna frequentemente al tuo rifugio per controllare le email."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 30
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"I Sabbat hanno di recente incrementato la loro attivita', rivaleggiando attivamente con Chicago, Atlanta, Washington DC e altre citta' controllate dagli anziani. Animaleschi e mostruosi, la setta e' sparpagliata in massa come locuste lungo la Costa Est e i confini a sud degli Stati Uniti. La loro influenza e' anche aumentata in Canada, e sembra che i Sabbat stiano realizzando una grande infilata, circondando gli Stati Uniti e tagliando fuori tutti gli accessi eccetto quelli che le servono."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"A quanto pare, il \"padre di tutti i vampiri\", Caino e' piu' un mito che una realta' nelle notti moderne. Alcuni dei Matusalemme, cosi' come certi membri dei Sabbat, sostengono di aver incontrato un essere che si considerava Caino, ma la storia e' passata cosi' tante volte di generazione in generazione che nessuno puo' dire con precisione dove la verita' finisce e inizia la finzione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"I mormorii nelle congregazioni dei Sabbat e nei saloni della Camarilla parlano del tumulto ad Est, delle armate di folle senza clan, di vampiri dal sangue cosi' debole da non poter compiere l'Abbraccio, di incontri con misteriosi anziani potentissimi dalla discendenza ignota, della crescente luna nera e della luna piena di colore rosso come il sangue. Tutti, dicono i sostenitori, sono presagi che le Notti Finali stanno arrivando e che la fine di tutte le cose e' vicina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Antediluvian:
+			Un membro della temuta Terza Generazione, uno dei piu' anziani Fratelli in esistenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Un principe non \"regna\" su una citta'. Il suo ruolo e' piu' come quello di un soprintendente o un magistrato che quello di un monarca. E' il giudice che sistema i problemi tra i Fratelli, la somma autorita' sulle Tradizioni collegate alla sua citta', e il custode della pace. Soprattutto, si occupa della Masquerade e che venga preservata."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Molti mortali, avvolti dalle superstizioni e dalla scienza, sono ciechi ai vampiri che sono tra loro - ma molti sanno della loro esistenza, e ne hanno paura. I mortali che danno la caccia ai Fratelli sono conosciuti come cacciatori-di-streghe, dopo gli Inquisitori degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Mentre la descrizione del lavoro puo' variare da citta' a citta', il primo lavoro dello sceriffo e' di essere \"colui che fa eseguire\" le leggi del principe, il vampiro che allontana i trasgressori dal regno, tiene ordine nelle strade e generalmente e' sempre pronto a collaborare con la \"forza\" del dominio."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"I ribelli, o anarchici, sono vampiri che rifiutano le Tradizioni di Caino e la dittatura degli anziani. Gli anziani concedono malvolentieri alcuni riconoscimenti ai ribelli, a causa dell'abilita' di questi ultimi ad ottenere potere nonostante l'opposizione degli anziani. I ribelli sono anche rispettati per la loro passione e guida, a cui pochi Fratelli anziani possono appellarsi, bloccati come sono dalla loro eta' e dall'insoddisfazione. Ultimamente, tuttavia, la maggior parte dei Fratelli vedono i ribelli come sciacalli, che si cibano di cio' che cade dal tavolo degli anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Primogen:
+			Il Primogen e' l'adunata degli anziani di ogni clan in una citta'. In teoria, il primogen rappresenta i loro clan nel corpo politico degli anziani, ma in pratica il primogen e' spesso un \"un club di vecchi vampiri\" e un incestuoso nido di tradimento e favori."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Circolano voci tra i Fratelli riguardanti clan \"minori\" o \"linee di sangue\" che si sono divisi dai propri genitori tanto tempo fa."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Caitiff:
+			I Caitiff sono i vampiri senza clan, rifiutati dagli altri Fratelli e disprezzati da quelli che si accorgono di loro. I vampiri senza clan non hanno idea dell'identita' dei propri signori (e quindi non conoscono la loro dinastia) oppure sono la progenie di una generazione debole che non presenta caratteristiche specifiche di alcun clan. I Caitiff sono quasi universalmente reputati come creature bastarde e orfane, sebbene alcuni raggiungano posizioni di rilievo tra gli anarchici."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Alcuni Fratelli credono che il Giudizio Universale sia imminente, che le potenze del Paradiso si stiano preparando finalmente a giudicare i vampiri e cio' che hanno fatto del mondo. Altri parlano del Winnowing, o Gehenna - la notte in cui i piu' antichi vampiri risorgeranno per consumare la loro progenie, prendendo i piu' deboli per soddisfare la propria sete."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Una delle piu' meravigliose e terribili proprieta' dei Fratelli e' la loro abilita' di schiavizzare quasi tutti gli esseri che bevono da essi tre volte. Ogni sorso dona al Fratello una emozione piu' grande di quello che prova colui che beve. Se una vittima beve tre volte dallo stesso Fratello, cade in uno stato conosciuto come \"Vincolo di Sangue\". Per farla breve, il vincolo di sangue e' una delle piu' potenti sensazioni conosciute."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Clan Brujah:
+			Largamente composti da ribelli, con e senza ragioni. Individualisti, espliciti e turbolenti, i Brujah hanno a cuore i cambiamenti sociali, e nei ranghi del clan vi sono alcuni dei piu' violenti Fratelli della Camarilla. La maggior parte degli altri vampiri percepiscono i Brujah come nulla piu' che teppisti e miscredenti, ma la realta' dei fatti e' che dietro le loro polemiche c'e' una passione genuina."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Clan Tremere:
+			Temuti, diffidati o ingiuriosi, i meschini vampiri del Clan Temere non vengono affatto ignorati. Quelli che conoscono i modi di fare del clan sono tipicamente sospettosi dei Tremere, e con buone ragioni. Attraverso la loro abilita', hanno imparato a padroneggiare una forma di magia vampirica, costituita da rituali e magie, piu' potente di qualunque altro potere del Sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Clan Ventrue:
+			Da tempo immemorabile, il Ventrue e' stato il clan al potere, rafforzando le antiche Tradizioni e cercando di foggiare il destino dei Fratelli. Nelle notti degli anziani, i Ventrue furono scelti da nobili, principi mercanti o altri personaggi potenti. In tempi moderni il clan recluta ricche famiglie \"ereditiere\", crudeli affaristi e politici. Qualunque sia l'origine, i vampiri Ventrue preservano stabilita' e mantengono l'ordine per la Camarilla."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"I Culti della Gehenna:
+			I culti della Gehenna esistono per preparare, o prevenire, la fine del mondo. Nel timore della Jyhan e del ritorno degli Antidiluviani, i culti servono a preparare gli Antichi (per evitare la loro distruzione quando arrivera' la fine) o per scoprire i rifugi nascosti degli Antidiluviani (cosi' da colpirli preventivamente ed evitare del tutto la Gehenna)."
+		}
+
+		//Game Tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"L'impresa Combattimento Disarmato determina quanto facilmente puoi nutrirti da chi non vuole. Un'alta impresa in Disarmato rendera' piu' facile nutrirsi durante la battaglia.
+L'impresa Disarmato interessa direttamente anche quanto danno puoi fare con i tuoi pugni o artigli, e quanto facilmente puoi bloccare, schivare o contrattacare un attacco nemico."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"L'impresa Negoziazione modifica tutti i prezzi di compravendita. I prezzi del venditore sono automaticamente corretti secondo la tua impresa Negoziazione. Con un'alta impresa Negoziazione sarai capace di vendere oggetti ad un prezzo piu' alto e comprare ad uno piu' basso.
+Quando vengono discussi argomenti finanziari, un'alta impresa Negoziazione ti permette speciali opzioni di dialogo."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"La sete puo' indurre pazzia, cosi' come la paura e la rabbia causata dal danno fisico.
+Il rischio di pazzia e' connesso direttamente alla tua Umanita'. Un vampiro in contatto con la propria umanita' puo' tenere a bada la Bestia; un killer vigliacco non-morto soccombera' molto piu' facilmente. Questo rischio e' portato dalla sete.
+Nutriti spesso e mantieni la tua Umanita' cosi' da prevenire la pazzia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Se il tempo di una Disciplina sta per finire, attivando di nuovo la Disciplina aggiungerai piu' tempo al timer."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Usa il tasto \"Fine Disciplina\" (tasto di default: F8) per disattivare una Disciplina in corso."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"La Resistenza si aggiunge all'impresa Assorbimento. Come vampiro, ogni punto di Assorbimento riduce il danno ricevuto da proiettili e armi da mischia."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Le discipline di solito hanno un effetto minore su un vampiro o altri esseri soprannaturali. L'effetto esatto varia da essere ad essere. Puoi richiedere piu' poteri soprannaturali per avere un piu' alto grado di resistenza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Mentre sei in un combattimento ravvicinato, puoi bloccare (tasto di default: Tab) per darti un bonus in Difesa. Questo bonus e' uguale alla tua Destrezza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"La Letalita' di un'arma puo' essere usata per misurare la sua efficacia contro i vampiri. Piu' alta e' la Letalita', piu' sara' difficile per un vampiro difendersi dall'arma."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Tenendo premuti i tasti direzionali di movimento mentre attacchi, eseguirai differenti attacchi di mischia. Ogni tasto direzionale ha una diversa combinazione di attacchi di mischia.
+Variando i tuoi attacchi metterai in difficolta' il nemico. Se usi lo stesso attacco ripetutamente, il nemico imparera' ad anticipare i tuoi attacchi, ed e' piu' facile che schivi i tuoi colpi."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Puoi aumentare la tua Umanita' come ogni altra statistica del personaggio, usando punti esperienza."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"Il Danno Potenziale di un'arma e' quanto danno puo' fare l'arma che hai in mano. Questo numero varia in base alle tue imprese combattimento A Distanza o Mischia. Piu' alta e' la tua impresa combattimento, piu' danno puoi causare."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"30"
+			"Size"		"Large"
+			"Text"		"I vampiri sono straordinariamente resistenti alle armi da fuoco. Usa armi da taglio e le tue Discipline vampiriche per combattere piu' efficacemente vampiri e altri esseri soprannaturali."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Controlla spesso il tuo Editor Personaggio (tasto di default: C) e usa l'esperienza che hai guadagnato per migliorare il tuo personaggio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"	// changed by wesp
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Le Sacche di sangue forniscono una piccola quantita' di sangue e di cura. Sebbene piu' difficili da ottenere e meno potenti della carne fresca, le sacche di sangue possono salvarti quando non hai altro a disposizione."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Le Armi bianche sono mortali sia per i vampiri che per gli umani. Le imprese Difesa e Assorbimento Letale si aggiungono alla tua difesa contro le armi da taglio."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"30"
+			"Size"		"Small"
+			"Text"		"Le email che ti invieranno saranno visibili sul computer al tuo rifugio. Ritorna frequentemente al tuo rifugio per controllare le email."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 35
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Small"
+			"Text"		"Barone:
+			Un \"principe\" anarchico; un Fratello che reclama un dominio ma e' un membro del Movimento Anarchico."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"La civilizzazione dei non-morti e' una danza manipolatrice e velenosa, e solo pochi vampiri sono rimasti completamente integri. Sin dalle notti dell'antichita', i Fratelli hanno combattuto per la supremazia, in un'antica e lunga battaglia conosciuta come Jyhad. Capi, culture, nazioni ed eserciti hanno tutti preso parte alla guerra segreta, e le cospirazioni vampiriche hanno influenzato molto la storia umana."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Small"
+			"Text"		"Antidiluviani:
+			Questi antichi vampiri, se esistono, sono probabilmente le piu' potenti creature al mondo. Membri della Terza Generazione, gli Antidiluviani sono a soli due passi dal Primo Vampiro, Caino."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Secondo i pochi frammenti rinvenuti, gli Antidiluviani possiedono poteri divini. Secondo la leggenda dei Fratelli, c'erano 13 Antidiluviani originali, sebbene alcuni sono stati presumibilmente distrutti. La loro eterna lotta, la Jyhad, interessa tutti i Fratelli, e gli innumerevoli livelli di inganni e manipolazioni rendono impercettebili le macchinazioni di questi Anziani."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Clan Tzimisce:
+			Una peculiare nobilta' unita ad un male che trascende ogni mortale percezione, il clan Tzmisce guida i Sabbat nel loro rifiuto di tutte le cose umane. Piu' di ogni altro vampiro, gli Tzimisce si rivelano in tutta la loro mostruosita'. Essi praticano la Disciplina \"arte della carne\" che usano per sfigurare i nemici e scolpirli come esseri dalla tremenda bellezza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Clan Toreador:
+			Di tutti i clan, i Toreador sono i vampiri piu' vicini al mondo mortale. Mentre gli altri vampiri vedono l'uomo come pedina o semplice sostentamento, i Toreador scivolano graziosamente e senza sforzi nella societa' dei mortali, saggiando le delizie di ogni eta' come un raro cibo dal sapore afrodisiaco."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Una volta c'erano pochi Caitiff, ma il secondo dopoguerra ha visto un notevole incremento del loro numero. Alcuni anziani dicono che il \"Tempo dei Sangue Debole\" significa imminente arrivo della Gehenna."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Qualcuno afferma di aver incontrato demoni, mummie immortali, morti viventi che camminano come zombi, spiriti mistici, animali mutaforma, gargoyle sensibili, angeli ed entita' non ben definite. L'unica certezza che emerge da queste informazioni, tuttavia, e' che il Mondo dell'Oscurita' e' terrificante come quello civile."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Small"
+			"Text"		"La Gehenna, come dicono i Fratelli, sara' il presagio della fine del mondo, e vampiri e mortali si consumeranno in un'evitabile pioggia di sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Small"
+			"Text"		"Ufficialmente, la Camarilla non riconosce l'esistenza degli Antidiluviani o di Caino. Sostiene che questi vampiri, se mai esistiti, hanno sofferto la Morte Finale, e quelli che alludono a loro sono pubblicamente derisi."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Diversamente dalla Camarilla, i Sabbat riconoscono l'esistenza degli Antidiluviani, sebbene si oppongano con forza ad essi. Secondo la propaganda dei Sabbat, gli Antidiluviani esercitano di nascosto la propria autorita'in tutto il mondo, ed e' a questo controllo malefico che loro si oppongono. Essi vedono la Camarilla come pedine degli Antichi, e si oppongono ai loro membri politicamente e fisicamente."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Clan Nosferatu:
+			I Nosferatu sono sopravvissuti per eccellenza. Poche creature, mortali o vampire, conoscono i vicoli e gli angoli bui come un Nosferatu. In aggiunta, i Nosferatu hanno imparato l'abilita' della furtivita' e di ascoltare in silenzio; considerano importante conoscere gossip e affari, non semplicemente per piacere, ma per sopravvivere. La loro conoscenza e le loro informazioni possono costare un occhio della testa."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Clan Gangrel:
+			I Gangrel sono feroci guerrieri. La ferocita' dei Gangrel non scaturisce dalla rabbia anarchica, ma dall'istinto animalista. Sono i piu' predatori tra i Fratelli, e amano perdersi nel brivido della caccia. I Gangrel hanno un'acuta comprensione della Bestia nelle loro anime, e preferiscono trascorrere le loro notti in comunione con gli animali cosi' da poterli emulare."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Per millenni gli Tzimisce hanno esplorato e raffinato la loro comprensione della condizione dei vampiri, piegando i loro corpi e le loro menti a nuovi modelli atipici. Come se fosse necessario, istruttivo o semplicemente divertente, gli Tzimisce non esitano a piegare le vittime in maniera simile. Mentre i piu' giovani possono essere descritti come demoni spietati o sadici, i piu' anziani semplicemente falliscono nel comprendere la pieta' o la sofferenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Poche cose sono come sembrano nel mondo notturno dei vampiri; un colpo di stato, un crack economico, o una moda sociale possono essere soltanto la manifestazione superficiale di una lotta millenaria nascosta. I vampiri piu' vecchi comandano nell'oscurita', manipolando gli umani e altri vampiri - e i piu' vecchi sono spesso manipolati a loro volta. Spesso non e' nemmeno cosi' semplice capire per chi si sta combattendo, o perche'."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"35"
+			"Size"		"Small"
+			"Text"		"La maggior parte dei Sabbat esprime disprezzo per i vampiri della Camarilla; essi li vedono come disgraziati codardi incapaci di accettare la loro natura predatoria."
+		}
+
+		//Game Tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"35"
+			"Size"		"Large"
+			"Text"		"Puoi cambiare le modalita' di fuoco attivando la Modalita' attacco (tasto di default: TAB). Alcune armi da fuoco con mirino hanno diversi livelli di zoom che possono essere eseguiti usando alt-fuoco.
+Non tutte le armi da fuoco hanno modalita' di fuoco alternativo."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"35"
+			"Size"		"Small"
+			"Text"		"L'impresa Correzione e' la differenza tra la tua abilita' (punteggio impresa) e i requisiti di un'arma. Questa correzione viene applicata alla Letalita' dell'arma."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 40
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Small"
+			"Text"		"Barone:
+			Un \"principe\" anarchico; un Fratello che reclama un dominio ma e' un membro del Movimento Anarchico."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"La civilizzazione dei non-morti e' una danza manipolatrice e velenosa, e solo pochi vampiri sono rimasti completamente integri. Sin dalle notti dell'antichita', i Fratelli hanno combattuto per la supremazia, in un'antica e lunga battaglia conosciuta come Jyhad. Capi, culture, nazioni ed eserciti hanno tutti preso parte alla guerra segreta, e le cospirazioni vampiriche hanno influenzato molto la storia umana."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Small"
+			"Text"		"Antidiluviani:
+			Questi antichi vampiri, se esistono, sono probabilmente le piu' potenti creature al mondo. Membri della Terza Generazione, gli Antidiluviani sono a soli due passi dal Primo Vampiro, Caino."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Secondo i pochi frammenti rinvenuti, gli Antidiluviani possiedono poteri divini. Secondo la leggenda dei Fratelli, c'erano 13 Antidiluviani originali, sebbene alcuni sono stati presumibilmente distrutti. La loro eterna lotta, la Jyhad, interessa tutti i Fratelli, e gli innumerevoli livelli di inganni e manipolazioni rendono impercettebili le macchinazioni di questi Anziani"
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Clan Tzimisce:
+			Una peculiare nobilta' unita ad un male che trascende ogni mortale percezione, il clan Tzmisce guida i Sabbat nel loro rifiuto di tutte le cose umane. Piu' di ogni altro vampiro, gli Tzimisce si rivelano in tutta la loro mostruosita'. Essi praticano la Disciplina \"arte della carne\" che usano per sfigurare i nemici e scolpirli come esseri dalla tremenda bellezza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Clan Toreador:
+			Di tutti i clan, i Toreador sono i vampiri piu' vicini al mondo mortale. Mentre gli altri vampiri vedono l'uomo come pedina o semplice sostentamento, i Toreador scivolano graziosamente e senza sforzi nella societa' dei mortali, saggiando le delizie di ogni eta' come un raro cibo dal sapore afrodisiaco."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Una volta c'erano pochi Caitiff, ma il secondo dopoguerra ha visto un notevole incremento del loro numero. Alcuni anziani dicono che il \"Tempo dei Sangue Debole\" significa imminente arrivo della Gehenna."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Qualcuno afferma di aver incontrato demoni, mummie immortali, morti viventi che camminano come zombi, spiriti mistici, animali mutaforma, gargoyle sensibili, angeli ed entita' non ben definite. L'unica certezza che emerge da queste informazioni, tuttavia, e' che il Mondo dell'Oscurita' e' terrificante come quello civile."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Small"
+			"Text"		"La Gehenna, come dicono i Fratelli, sara' il presagio della fine del mondo, e vampiri e mortali si consumeranno in un'evitabile pioggia di sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Small"
+			"Text"		"Ufficialmente, la Camarilla non riconosce l'esistenza degli Antidiluviani o di Caino. Sostiene che questi vampiri, se mai esistiti, hanno sofferto la Morte Finale, e quelli che alludo a loro sono pubblicamente derisi."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Diversamente dalla Camarilla, i Sabbat riconoscono l'esistenza degli Antidiluviani, sebbene si oppongano con forza ad essi. Secondo la propaganda dei Sabbat, gli Antidiluviani esercitano di nascosto la propria autorita'in tutto il mondo, ed e' a questo controllo malefico che loro si oppongono. Essi vedono la Camarilla come pedine degli Antichi, e si oppongono ai loro membri politicamente e fisicamente."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Clan Nosferatu:
+			I Nosferatu sono sopravvissuti per eccellenza. Poche creature, mortali o vampire, conoscono i vicoli e gli angoli bui come un Nosferatu. In aggiunta, i Nosferatu hanno imparato l'abilita' della furtivita' e di ascoltare in silenzio; considerano importante conoscere gossip e affari, non semplicemente per piacere, ma per sopravvivere. La loro conoscenza e le loro informazioni possono costare un occhio della testa."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Clan Gangrel:
+			I Gangrel sono feroci guerrieri. La ferocita' dei Gangrel non scaturisce dalla rabbia anarchica, ma dall'istinto animalista. Sono i piu' predatori tra i Fratelli, e amano perdersi nel brivido della caccia. I Gangrel hanno un'acuta comprensione della Bestia nelle loro anime, e preferiscono trascorrere le loro notti in comunione con gli animali cosi' da poterli emulare."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Per millenni gli Tzimisce hanno esplorato e raffinato la loro comprensione della condizione dei vampiri, piegando i loro corpi e le loro menti a nuovi modelli atipici. Come se fosse necessario, istruttivo o semplicemente divertente, gli Tzimisce non esitano a piegare le vittime in maniera simile. Mentre i piu' giovani possono essere descritti come demoni spietati o sadici, i piu' anziani semplicemente falliscono nel comprendere la pieta' o la sofferenza."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Poche cose sono come sembrano nel mondo notturno dei vampiri; un colpo di stato, un crack economico, o una moda sociale possono essere soltanto la manifestazione superficiale di una lotta millenaria nascosta. I vampiri piu' vecchi comandano nell'oscurita', manipolando gli umani e altri vampiri - e i piu' vecchi sono spesso manipolati a loro volta. Spesso non e' nemmeno cosi' semplice capire per chi si sta combattendo, o perche'."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"40"
+			"Size"		"Small"
+			"Text"		"La maggior parte dei Sabbat esprime disprezzo per i vampiri della Camarilla; essi li vedono come disgraziati codardi incapaci di accettare la loro natura predatoria."
+		}
+
+		//Game Tips
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"40"
+			"Size"		"Large"
+			"Text"		"Puoi cambiare le modalita' di fuoco attivando la Modalita' attacco (tasto di default: TAB). Alcune armi da fuoco con mirino hanno diversi livelli di zoom che possono essere eseguiti usando alt-fuoco.
+Non tutte le armi da fuoco hanno modalita' di fuoco alternativo."
+		}
+
+		Tip
+		{
+			"Type"		"Game"
+			"StoryState"	"40"
+			"Size"		"Small"
+			"Text"		"L'impresa Correzione e' la differenza tra la tua abilita' (punteggio impresa) e i requisiti di un'arma. Questa correzione viene applicata alla Letalita' dell'arma."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 45
+/////////////////////////
+	//World Tips
+
+		Tip	// added by wesp
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Large"
+			"Text"		"Clan Lasombra:
+			Firm believers in the worthy ruling and the unworthy serving, the Clan Lasombra have maintained their ancient traditions even as they direct the Sabbat to their own purposes. Due to their penchant for darkness and control of shadows, the Lasombra cast no reflections. Their careless atrocities lend credence to the idea that it's easier to live with your actions when you don't have to face yourself in the mirror."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Small"
+			"Text"		"La Jyhad:
+			La guerra segreta intrapresa dalle dinastie. I vampiri piu' vecchi manipolano i loro servi, usandoli come pedine in un terribile gioco in cui governa la provocazione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Small"
+			"Text"		"Kuei-jin:
+			Le Creature di Caino si sono diffuse in tutto il mondo, ma in Estremo Oriente sono ostacolate dai misteriosi Kuei-jin, vampiri non-Fratelli nativi dell'Oriente."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Small"
+			"Text"		"I Kuei-jin sembrano avere poco in comune con i fratelli dell'Ovest. Girano voci di poteri demoniaci intorno a questi visitatori Asiatici, e il loro enigmatico comportamento turba molti Fratelli Occidentali."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Large"
+			"Text"		"Il Libro di Nod:
+			Una collezione di leggende e storie dei Fratelli. Il Libro di Nod racconta le origini dei Fratelli, sebbene non sia mai stato pubblicato per intero. I frammenti del documento e la sua trascrizione, soprattutto parziale, circola in certe societa' dei Fratelli."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Large"
+			"Text"		"La tradizione orale dei Fratelli - sebbene alcuni insistono che sia piu' leggenda che storia - occupa una posizione di grande rilevanza nella societa' vampirica. Il mito piu' popolare e largamente accettato e' quello di Caino, il Primo Vampiro e assassino di suo fratello. Un testo molto vago, conosciuto come Il Libro di Nod, racconta l'esule Caino e il suo successivo viaggio verso est."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Large"
+			"Text"		"I vampiri temono i lupi mannari perche' sono spietati, abili assassini, e piu' di un vampiro sostiene di aver visto un sololupo mannaro arrabbiato uccidere un intero gruppo di Fratelli. Meschini e zenofobici, i lupi mannari disprezzano i Fratelli, la ragione precisa dietro questa ripugnanza e' sconosciuta, ma un vampiro catturato da un lupo mannaro e' senza dubbio in pericolo."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Large"
+			"Text"		"I Fratelli dal sangue debole sono apparsi in tempi recenti, forse una triste evoluzione moderna. Il sangue di Caino e' cosi' debole in loro che molti sono capaci di vivere alla luce del sole e condividere il cibo mortale. Molti Fratelli eruditi guardano la confluenza di questi vampiri con paura, ricordando i passaggi del Libro di Nod che fanno riferimento al \"Tempo dei Sangue Debole\". Questo tempo e' detto presagio dell'avvento Gehenna."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Large"
+			"Text"		"Caccia del Sangue:
+			Il precetto e' semplice: Quelli che violano la legge vengono uccisi. Un vampiro che viola le Tradizioni e attira la collera dei piu' vecchi sulla sua testa viene cacciato e distrutto. Tutti quelli che ascoltano la chiamata sono tenuti a partecipare e assistere. Il nome piu' comune per questa azione e' la caccia del sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"45"
+			"Size"		"Large"
+			"Text"		"Fanatici fino alla fine, i Sabbat si butterebbero volentieri nel fuoco per la loro setta, divorando i loro nemici, distruggendoli come un branco di lupi uccide la loro preda."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 50
+/////////////////////////
+	//World Tips
+
+		Tip	// added by wesp
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Large"
+			"Text"		"Clan Lasombra:
+			Firm believers in the worthy ruling and the unworthy serving, the Clan Lasombra have maintained their ancient traditions even as they direct the Sabbat to their own purposes. Due to their penchant for darkness and control of shadows, the Lasombra cast no reflections. Their careless atrocities lend credence to the idea that it's easier to live with your actions when you don't have to face yourself in the mirror."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Small"
+			"Text"		"La Jyhad:
+			La guerra segreta intrapresa dalle dinastie. I vampiri piu' vecchi manipolano i loro servi, usandoli come pedine in un terribile gioco in cui governa la provocazione."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Small"
+			"Text"		"Kuei-jin:
+			Le Creature di Caino si sono diffuse in tutto il mondo, ma in Estremo Oriente sono ostacolate dai misteriosi Kuei-jin, vampiri non-Fratelli nativi dell'Oriente."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Small"
+			"Text"		"I Kuei-jin sembrano avere poco in comune con i fratelli dell'Ovest. Girano voci di poteri demoniaci intorno a questi visitatori Asiatici, e il loro enigmatico comportamento turba molti Fratelli Occidentali."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Large"
+			"Text"		"Il Libro di Nod:
+			Una collezione di leggende e storie dei Fratelli. Il Libro di Nod racconta le origini dei Fratelli, sebbene non sia mai stato pubblicato per intero. I frammenti del documento e la sua trascrizione, soprattutto parziale, circola in certe societa' dei Fratelli."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Large"
+			"Text"		"La tradizione orale dei Fratelli - sebbene alcuni insistono che sia piu' leggenda che storia - occupa una posizione di grande rilevanza nella societa' vampirica. Il mito piu' popolare e largamente accettato e' quello di Caino, il Primo Vampiro e assassino di suo fratello. Un testo molto vago, conosciuto come Il Libro di Nod, racconta l'esule Caino e il suo successivo viaggio verso est."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Large"
+			"Text"		"I vampiri temono i lupi mannari perche' sono spietati, abili assassini, e piu' di un vampiro sostiene di aver visto un sololupo mannaro arrabbiato uccidere un intero gruppo di Fratelli. Meschini e zenofobici, i lupi mannari disprezzano i Fratelli, la ragione precisa dietro questa ripugnanza e' sconosciuta, ma un vampiro catturato da un lupo mannaro e' senza dubbio in pericolo."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Large"
+			"Text"		"I Fratelli dal sangue debole sono apparsi in tempi recenti, forse una triste evoluzione moderna. Il sangue di Caino e' cosi' debole in loro che molti sono capaci di vivere alla luce del sole e condividere il cibo mortale. Molti Fratelli eruditi guardano la confluenza di questi vampiri con paura, ricordando i passaggi del Libro di Nod che fanno riferimento al \"Tempo dei Sangue Debole\". Questo tempo e' detto presagio dell'avvento Gehenna."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Large"
+			"Text"		"Caccia del Sangue:
+			Il precetto e' semplice: Quelli che violano la legge vengono uccisi. Un vampiro che viola le Tradizioni e attira la collera dei piu' vecchi sulla sua testa viene cacciato e distrutto. Tutti quelli che ascoltano la chiamata sono tenuti a partecipare e assistere. Il nome piu' comune per questa azione e' la caccia del sangue."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"50"
+			"Size"		"Large"
+			"Text"		"Fanatici fino alla fine, i Sabbat si butterebbero volentieri nel fuoco per la loro setta, divorando i loro nemici, distruggendoli come un branco di lupi uccide la loro preda."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 55
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"55"
+			"Size"		"Large"
+			"Text"		"Clan Giovanni:
+			I Giovanni sono piu' una famiglia che un clan; la gran parte dei loro neonati e' Abbracciata da discendenti mortali. Questi meschini Negromanti inseguono avidamente due obiettivi: accumulare ricchezza e apprendere i segreti della Morte."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"55"
+			"Size"		"Large"
+			"Text"		"I Giovanni sono rispettosi, gentili e di buone maniere. Ricchi oltre l'immaginazione, le origini del clan Giovanni risalgono ad una famiglia di principi mercanti, ancor prima del Rinascimento. Nessun altro clan e' uno spettacolo di umilta' e decoro comei Giovanni. E nessun altro clan nasconde cosi' tanti blasfemi segreti, dopotutto."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"55"
+			"Size"		"Small"
+			"Text"		"Stando alle voci, i soldi dei Giovanni hanno danneggiato la famiglia, e hanno portato i Negromanti fuori dalla perversa noia."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"55"
+			"Size"		"Small"
+			"Text"		"La maggior parte dei Giovanni proviene dalla famiglia Veneziana e ha trascorso molto tempo della sua vita mortale come ghoul al servizio di altri membri della famiglia."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"55"
+			"Size"		"Small"
+			"Text"		"Incesto, necrofilia, adoratori degli antenati e oculatamente istruiti ai misteri della famiglia; da tempo la maggior parte dei Fratelli Giovanni e' Abbracciata, essa ha visto piu' che abbastanza per abituare tutta la famiglia alle stravaganti idee sull'esistenza dei non-morti."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 60
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"60"
+			"Size"		"Large"
+			"Text"		"Clan Giovanni:
+			I Giovanni sono piu' una famiglia che un clan; la gran parte dei loro neonati e' Abbracciata da discendenti mortali. Questi meschini Negromanti inseguono avidamente due obiettivi: accumulare ricchezza e apprendere i segreti della Morte."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"60"
+			"Size"		"Large"
+			"Text"		"I Giovanni sono rispettosi, gentili e di buone maniere. Ricchi oltre l'immaginazione, le origini del clan Giovanni risalgono ad una famiglia di principi mercanti, ancor prima del Rinascimento. Nessun altro clan e' uno spettacolo di umilta' e decoro come i Giovanni. E nessun altro clan nasconde cosi' tanti blasfemi segreti, dopotutto."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"60"
+			"Size"		"Small"
+			"Text"		"Stando alle voci, i soldi dei Giovanni hanno danneggiato la famiglia, e hanno portato i Negromanti fuori dalla perversa noia."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"60"	// changed by wesp
+			"Size"		"Small"
+			"Text"		"La maggior parte dei Giovanni proviene dalla famiglia Veneziana e ha trascorso molto tempo della sua vita mortale come ghoul al servizio di altri membri della famiglia."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"60"
+			"Size"		"Small"
+			"Text"		"Incesto, necrofilia, adoratori degli antenati e oculatamente istruiti ai misteri della famiglia; da tempo la maggior parte dei Fratelli Giovanni e' Abbracciata, essa ha visto piu' che abbastanza per abituare tutta la famiglia alle stravaganti idee sull'esistenza dei non-morti."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 65
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"65"
+			"Size"		"Large"
+			"Text"		"La Societa' di Leopold:
+			Oggi l'Inquisizione esiste, sebbene la Chiesa non ne parli ufficialmente. L'Inquisizione del mondo moderno e' conosciuta come la Societa' di Leopold. Molti dei suoi membri sono ricercatori e occultisti, ma alcuni sono fanatici cacciatori di vampiri che, in autentico stile Torquemada, senza pieta' estirpano e distruggono la \"stirpe di Satana\"."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"65"
+			"Size"		"Large"
+			"Text"		"Molti Inquisitori sono fanatici ma raramente rappresentano un vero pericolo. In piu', la maggior parte degli Inquisitori sono semplici mortali, senza alcun potere soprannaturale attribuito ai santi. Cio' nonostante, pochi Inquisitori attualmente manifestano sufficiente Fede da respingere o ferire il Dannato con le loro auree mistiche."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"65"
+			"Size"		"Large"
+			"Text"		"Nel Medio Evo, una popolazione allertata della depredazione dei vampiri, sotto la guida dell'Inquisizione quasi spazzo' via i Fratelli dall'antica societa'. Il Circolo Interno si domanda tremando, potrebbero sei miliardi di esseri umani, armati di napalm, armi nucleari e al fosforo, eliminare i parassiti fra loro?"
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 70
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"70"
+			"Size"		"Large"
+			"Text"		"Alcuni Sabbat sono coinvolti apertamenti nel Satanismo, paganesimo, o altre fedi devianti per fronteggiare i loro nemici. Perversione e brutalita' sono gli strumenti dei Sabbat, e la setta li usa senza pieta'."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"70"
+			"Size"		"Large"
+			"Text"		"Composti da diversi vampiri Sabbat, i gruppi assicurano fedelta' ai loro membri attraverso un requisito che ogni vampiro beva regolamente un misto di sangue di tutti gli altri membri. I gruppi dei Sabbat sono tra i piu' solidi e maligni vampiri in esistenza."
+		}
+
+/////////////////////////
+	// HelpTips for StoryState 75
+/////////////////////////
+	//World Tips
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"75"
+			"Size"		"Large"
+			"Text"		"Alcuni vampiri Sabbat sono involti apertamenti nel Satanismo, paganesimo, o altre fedi devianti per fare dispetto alla properita' di quelli che sono contro di loro. Pervesione e brutalita' sono gli strumenti dei Sabbat, e la setta li usa senza pieta'."
+		}
+
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"75"
+			"Size"		"Large"
+			"Text"		"Composti da diversi vampiri Sabbat, le bande assicurano la fedelta' dei loro membri attraverso l'obbligo che ogni vampiro beva regolamente una miscela di sangue di tutti gli altri membri. Nelle bande dei Sabbat confluiscono tra i piu' forti e malvagi vampiri in esistenza."
+		}
+
+////////////////
+	// Special Tip for when you've lost all 5 masquerade points
+////////////////
+		Tip
+		{
+			"Type"		"World"
+			"StoryState"	"666"
+			"Size"		"Large"
+			"Text"		"Sei considerato un pericoloso violatore della Masquerade, una minaccia per tutti i Fratelli. Devi pagare il conto delle tue trasgressioni."
+		}
+	}
+}

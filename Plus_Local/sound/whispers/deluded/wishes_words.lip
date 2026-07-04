@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Wishes and words sprout from the same seed.
+}
+WORDS
+{
+WORD blah 0.000 3.936
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 50 "Desideri e parole germogliano dallo stesso seme." 0.000 3.936
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

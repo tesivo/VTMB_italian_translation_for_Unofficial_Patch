@@ -1,0 +1,167 @@
+VERSION 1.2
+PLAINTEXT
+{
+Radio Loop 2
+}
+WORDS
+{
+WORD talk-a 000 021
+{
+}
+WORD talk-b 022 069
+{
+}
+WORD talk-c 070 104
+{
+}
+WORD talk-d 105 135
+{
+}
+WORD comm-a 135 159
+{
+}
+WORD comm-a 160 165
+{
+}
+WORD comm-b 165 186
+{
+}
+WORD comm-b 187 196
+{
+}
+WORD comm-c 196 226
+{
+}
+WORD comm-c 227 249
+{
+}
+WORD comm-d 251 308
+{
+}
+WORD comm-e 308 326
+{
+}
+WORD comm-e 326 358
+{
+}
+WORD comm-f 359 392
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 380 "
+Vi sono mancata? A giudicare da come si e' acceso il centralino, direi che non potete vivere senza di me. Mi fate sentire cosi' desiderabile, LA. Tanti ascoltatori, cosi' poco tempo. Se stanotte non riuscite a raggiungermi, non fatevi spezzare il cuore... sono qui ogni singola notte. Continuate a comporre quei numeri magici, e forse sarete fortunati come questo ascoltatore.
+" 0 21
+
+PHRASE char 682 "
+- Come ti chiami, nottambulo?
+- Ciao Deb, sono Greg.
+- Ciao Greg, sveglio fino a tardi, eh?
+- Beh, Deb, faccio il turno di notte qui alla centrale elettrica, praticamente da solo... l'unica cosa che mi fa reggere il turno e' la tua bella vocina.
+- Grazie, Greg.
+- Beh, immagino che se fossi carina la meta' di quanto lo e' la tua voce, allora... saresti la donna piu' carina di questa citta'.
+- Ma guarda che gentiluomo.
+- Ahh, ti immagino spesso, Deb... come dicevo, sono tutto solo, e ci si sente soli. A volte un uomo non riesce a trattenersi, specialmente quando ti sento... e' come se fossi qui, a cavalcioni sul mio...
+- Greg, esiste una cosa chiamata troppa informazione.
+" 22 69
+
+PHRASE char 446 "
+Ascoltatore, stai passando la serata con Deb della Notte.
+- Buonasera, Deb.
+- Si', credo lo si intuisca gia' dal titolo dello show.
+- Hmm, hm hm hm hm hm hm. Ti preoccupa mai, Deb... che il mondo stia per finire?
+- Non provavo questa sensazione da quando Brad Pitt si e' sposato.
+- Hmm, hm hm hm hm hm hm. Hai idea di quanto tu sia insignificante? Quando cominceranno a divorare il mondo... sarai solo una macchia di sangue sui loro mantelli.
+" 70 104
+
+PHRASE char 452 "
+- Scommetto che lo dici a tutte le ragazze.
+- C'e' una stella rossa nel cielo notturno. Il sangue dei mortali e il sangue dei secoli... saranno tutti consumati. Stanno arrivando. Queste sono le notti finali.
+- Okay! Beh, in bocca al lupo per le prossime elezioni, Senatore!
+Mi scuso con tutti voi nottambuli, ma questa ragazza ha una cosetta di cui occuparsi per i prossimi minuti. Ecco un po' di musica per tenervi... su... se capite cosa intendo.
+" 105 135
+
+PHRASE char 478 "
+[Pubblicita' #1]
+- E' arrivato Phil. Devo scappare. Ottima colazione, tesoro.
+- Buona giornata, caro. Sono contenta che ti siano piaciuti i muffin.
+- Ehi, cos'e' quello sul bancone? Quella non e' la mia margarina, e' burro!
+- E'...
+- Stronza! Sai che devo controllare i miei livelli di LDL!
+- Ah ah, pe-pensavo fosse un bel cambiamento! Non te ne saresti nemmeno accorto!
+- Non vuoi il divorzio! Stai cercando di uccidermi! Meno male che sono andato a letto con tua sorella!
+" 135 159
+
+PHRASE char 128 "
+«Pensavo Fosse Margarina» Burro di Categoria B: tutto il sapore rancido della margarina con tutti i grassi saturi del burro.
+" 160 165
+
+PHRASE char 454 "
+[Pubblicita' #2]
+- Sei una furia, Bill!
+- Ho finalmente seguito il tuo consiglio, e avevi ragione! Mi sento piu' sicuro di me che mai.
+- Sei un grande. Non e' fantastico?
+- Non ci potevo credere. Siamo usciti a cena, e dopo abbiamo iniziato a darci da fare. Sono andato in bagno a prenderlo. L'ho sentito subito! Diamine, si vedeva l'alta marea nella tazza del water!
+Vivisitrek: per quando una normale erezione potenziata dai farmaci non basta piu'.
+" 165 186
+
+PHRASE char 288 "
+Gli effetti collaterali comuni includono svenimento, formicolio alle estremita', cecita' temporanea, pallore cadaverico, distorsioni della percezione del tempo, sindrome della vescica aggravata, incesto emotivo, incontinenza marcata, manie di grandezza e aumento del rischio di ictus.
+" 187 196
+
+PHRASE char 561 "
+[Pubblicita' #3]
+- Nonno, mi porti a Space Burger?
+- Space Burger, eh? Sai, alla tua eta' lo spazio era per lo piu' un mistero. Non sapevamo cosa ci fosse lassu'. Pensavo persino che ci fossero dei bambini alieni su Marte che magari mi stavano guardando. Si', gli facevo dei cartelli con scritto «Ciao Marziani» oppure «Portatemi a fare un giro sul vostro razzo». Certo, ero giovane e ingenuo a pensare che i Marziani sapessero leggere l'italiano. Tutti sapevano che i Marziani comunicavano telepaticamente tramite operatori spaziali sulla loro base lunare!
+" 196 226
+
+PHRASE char 431 "
+- Billy, cosa ti avevo detto sul parlare con il nonno?
+- Ma voglio andare a Space Burger!
+- Space Burger! Questo sembra un lavoro per il Comandante Mamma! Tutti al furgone spaziale.
+- Evviva!
+- Possiamo lasciare il nonno all'ospizio lungo la strada.
+- Ma certo che non si vedono Marziani nelle sonde spaziali. Tutti sanno che i Marziani vivono in cupole invisibili!
+Space Burger: cibo per l'era spaziale, non per la terza eta'.
+" 227 249
+
+PHRASE char 1364 "
+[Pubblicita' #4]
+L'anno scorso il candidato democratico Michael Redmonds ha comprato un SUV. Tre mesi dopo ci sono stati due distinti episodi di pirateria stradale da parte di un SUV non identificato nella sua zona. E' colpa del candidato democratico Michael Redmonds? Potete permettervi di correre questo rischio? Se lo possono permettere i vostri figli? Votate il senatore repubblicano Robert Thorne, un candidato che non ha mai commesso un omicidio stradale. Il candidato democratico Michael Redmonds non ha mai dichiarato pubblicamente la sua opinione sulla pedopornografia. E' perche' nasconde qualcosa? Vorreste un pedopornografo che vota le leggi di questa nazione? Affidereste il futuro dei vostri figli a qualcuno cosi'? Votate il senatore repubblicano Robert Thorne, il candidato impegnato a sbattere in prigione i pedopornografi. Il candidato democratico Michael Redmonds ha recentemente denunciato il senatore Robert Thorne per averlo accusato di essere un pedopornografo assassino. Ma Redmonds aveva in precedenza dichiarato di essere contrario a intasare i tribunali con cause pretestuose. Questo non lo renderebbe un ipocrita? Vorreste un ipocrita come vostro prossimo parlamentare? Vorreste che i vostri figli diventassero ipocriti? Votate il senatore repubblicano Robert Thorne, un candidato non accusato di essere un pedopornografo assassino.
+" 251 308
+
+PHRASE char 526 "
+[Pubblicita' #5]
+Problemi di soldi? Vi serve contante alla svelta? Perche' non provate a rapinare qualcuno? Sono esattamente le domande che si stanno facendo i criminali in questo momento. Sapevate che il governo vi obbliga ad aspettare dieci giorni per comprare una pistola? Ma in quel lasso di tempo un criminale potrebbe uccidere la vostra famiglia cinquanta volte! Allora come fa un cittadino rispettoso della legge come voi a mettere le mani su un sistema anti-furto entro la prossima ora? Venite da Lenny il Cavillo!
+" 308 326
+
+PHRASE char 736 "
+Abbiamo armi militari d'epoca, dagli archibugi alle bombe a mano della Prima Guerra Mondiale. I rapinatori moderni saranno pure piu' forti e veloci di una volta, ma questo non significa che incassino meglio un proiettile sparato da una pistola dell'epoca della Guerra Civile. E se siete il tipo di persona che non riesce a dormire la notte sapendo che ci potrebbero essere stupratori seriali in giardino, abbiamo fucili da cecchino tedeschi approvati dal Kaiser in persona che vi permetteranno di eliminarli uno a uno comodamente dal tetto di casa vostra. Comprate un'arma questo mese e vi regaliamo una cartucciera con stampata sopra la Costituzione, gratis. Lenny il Cavillo: difendiamo il vostro domani con le armi di ieri, oggi!
+" 326 358
+
+PHRASE char 515 "
+[Pubblicita' #6]
+- Ahh, ma guarda un po' qua?
+- Cosa?
+- «Piaga di locuste si abbatte su piccola citta' indiana».
+- Accidenti, non riesco neanche a immaginare come dev'essere.
+- E guarda qui: «Guerra civile infuria ancora tra fazioni etniche nell'Europa dell'Est».
+- Si', ne ho sentito parlare.
+- E in Zimbabwe usano i carri trainati da buoi come ambulanze.
+- Che tragedia. Ehi, meno male che viviamo negli USA.
+- Altroche', amico. Ehi, barista. Altre due USAle?
+USAle: benvenuti negli Stati Uniti dell'ebbrezza.
+" 359 392
+}
+}
+OPTIONS
+{
+voice_duck 0
+speaker_name Radio
+}

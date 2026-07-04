@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Evil crouches...
+}
+WORDS
+{
+WORD blah 0.080 2.998
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 24 "Il male si acquatta..." 0.080 2.998
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}

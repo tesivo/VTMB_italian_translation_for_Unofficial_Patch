@@ -1,0 +1,26 @@
+VERSION 1.2
+PLAINTEXT
+{
+Rat tails, cat tails, coat tails, all tales.
+}
+WORDS
+{
+WORD blah 0.080 4.160
+{
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE char 65 "Codini di topo, codini di gatto, falde di frac, tutte fandonie." 0.080 4.160
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Whisper
+}
