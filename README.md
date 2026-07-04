@@ -20,7 +20,7 @@
 ---
 ## Installazione:
 - Installate l'unofficial patch 11.5, per esempio, da qui: 
-[LINK DA AGGIORNARE]
+https://www.patches-scrolls.de/patch/4647/7/75432/download
 - Copiate e sovrascrivete i file dell'archivio nel link qui sotto in Vampire The Masquerade - Bloodlines\Unofficial_Patch:
 https://github.com/tesivo/VTMB_italian_translation_for_Unofficial_Patch/archive/master.zip
 
