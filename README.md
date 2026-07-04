@@ -1,15 +1,13 @@
 ## Traduzione compatibile con l'unofficial patch versione: 11.5. 
 
-### Stato traduzione: quasi completa. Le seguenti problematiche non influiscono sulla giocabilità.
-#### Problematiche di cui siamo a conoscenza:
-- Traduzioni mancanti: qualche NPC minore e qualche frase sfuggita. Segnalatele e verranno corrette.
-- Audio nei dialoghi mancante se si impersona un personaggio femminile: si conosce già la soluzione al problema, serve solo del tempo per applicarla. In ogni caso il dialogo funziona comunque.
+### Stato traduzione: completa. Plus Patch inclusa.
+
 ---
 ### La traduzione di Vampire The Masquerade esisteva già, ma è compatibile con la versione 9.5 della unofficial patch e non con le successive visto che comporta le seguenti problematiche:
 #### Quest mancanti | Condizioni per le quest mancanti o sbagliate | Menù disordinati
 
-### Per questo ho deciso di intraprendere un progetto di revisione della traduzione italiana, che non viene più aggiornata da anni, per portarla ad essere compatibile con la versione 10.7.
-### Non è un progetto di ritraduzione completa, per ora una buona parte della vecchia traduzione è stata mantenuta, completata e corretta.
+### Per questo ho deciso di intraprendere un progetto di revisione della traduzione italiana, che non viene più aggiornata da anni, per portarla ad essere compatibile con la versione 10.7, prima, ora 11.5. Aggiungendo anche la Plus Patch.
+### Una buona parte della vecchia traduzione è stata mantenuta, completata e corretta.
 ---
 ### Collaboratori: Katerine73(Root78), crazyLillo e NarakuITA
 
