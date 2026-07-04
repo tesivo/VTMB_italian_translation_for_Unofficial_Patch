@@ -21,10 +21,10 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"1"
-	"Overt"		"1"
+	"Overt"			"1"
 	"TriggerAISound"	"1"
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"	"0.2"
+	"RecoveryTime"		"0.2"
 
 	AoE
 	{
@@ -174,7 +174,8 @@ DisciplineTgt
 			{
 				"HitTable"	"Hit_Strata_2"
 			}
-		}		
+		}
+
 		Affects_Table
 		{
 			Affects_Filters
@@ -658,10 +659,10 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"2"
-	"Overt"		"1"
+	"Overt"			"1"
 	"TriggerAISound"	"1"	// added by wesp
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"	"6.0"
+	"RecoveryTime"		"6.0"
 
 	AoE
 	{
@@ -737,6 +738,19 @@ DisciplineTgt
 			}
 		}
 
+		Affects_Table	// added by wesp
+		{
+			Affects_Filters
+			{
+				"CharTemplate"	"Zombie"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
            Affects_Table	// added by wesp
 		{
 			Affects_Filters
@@ -789,7 +803,7 @@ DisciplineTgt
 				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
 		}
-
+	
             Affects_Table	// added by Populism
 		{
 			Affects_Filters
@@ -894,7 +908,7 @@ DisciplineTgt
 			}
 		}
 
-		Affects_Table
+            Affects_Table
 		{
 			Affects_Filters
 			{
@@ -1199,28 +1213,28 @@ DisciplineTgt
 	{
 		"InheritFrom"		"Hit_Human"
 // Populism		"Duration"		"3" //"2-3"
-			"Dmg_Health"	"20-35%"
+		"Dmg_Health"	"20-35%"
 	}
 
 	Hit_Strata_2
 	{
 		"InheritFrom"		"Hit_Human"
 // Populism		"Duration"		"1-2" //"2-3"
-			"Dmg_Health"	"20-25%"
+		"Dmg_Health"	"20-25%"
 	}
 
 	Hit_Strata_3
 	{
 		"InheritFrom"		"Hit_Human"
 // Populism		"Duration"		"3" //"2-3"
-			"Dmg_Health"	"20-35%"
+		"Dmg_Health"	"20-35%"
 	}
 
 	Hit_Strata_4
 	{
 		"InheritFrom"		"Hit_Human"
 // Populism		"Duration"		"1-2" //"2-3"
-			"Dmg_Health"	"20-25%"
+		"Dmg_Health"	"20-25%"
 	}
 
 	Hit_Strata_5
@@ -1285,10 +1299,10 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"3"
-	"Overt"		"1"
+	"Overt"			"1"
 	"TriggerAISound"	"1"	// added by wesp
 	"SupernaturalLvl"	"4"
-	"RecoveryTime"	"12.0"
+	"RecoveryTime"		"12.0"
 
 	AoE
 	{
@@ -1508,10 +1522,10 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"3"
-	"Overt"		"1"
+	"Overt"			"1"
 	"TriggerAISound"	"1"
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"	"1.25" //"0.5"
+	"RecoveryTime"		"1.25" //"0.5"
 
 	AoE
 	{
@@ -2025,10 +2039,10 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"4"
-	"Overt"		"1"
+	"Overt"			"1"
 	"TriggerAISound"	"1"
 	"SupernaturalLvl"	"2"
-	"RecoveryTime"	"4.5"
+	"RecoveryTime"		"4.5"
 
 	AoE
 	{
@@ -2101,10 +2115,11 @@ DisciplineTgt
 			}
 		}
 
-		Affects_Table
+            Affects_Table
 		{
-			Affects_Filters
-			{
+		
+                  Affects_Filters
+	            {
 				"Supernatural"	"1"
 				"CharTemplate"	"TzimisceCreation1"
 			}
@@ -2113,7 +2128,7 @@ DisciplineTgt
 			{
 				"HitTable"	"Hit_Boss"	// changed by wesp
 			}
-			}
+		}
 
 		Affects_Table
 		{
@@ -2125,7 +2140,7 @@ DisciplineTgt
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Human"
-		}
+			}
 		}
 
 
@@ -2350,7 +2365,7 @@ DisciplineTgt
 
 		TraitEffect
 		{
-			"Effect"		"Discipline (Thaumaturgy-Bloodboil)"	// Visual FX
+			"Effect"		"Discipline (Thaumaturgie-Chaudron de sang)"	// Visual FX
 		}
 
 		Effect_Tgt_Hit
@@ -2385,7 +2400,7 @@ DisciplineTgt
 
 		TraitEffect
 		{
-			"Effect"		"Discipline (Thaumaturgy-Bloodboil)"	// Visual FX
+			"Effect"		"Discipline (Thaumaturgie-Chaudron de sang)"	// Visual FX
 		}
 
 		Effect_Tgt_Hit
@@ -2466,8 +2481,8 @@ DisciplineTgt
 	}
 
 	Hit_Supernatural_Partial
-	{
-
+	{       
+                
             "AI_Schedule"		"SCHED_TROIKA_D_BLOODSHOT_KNOCKBACK"	// added by Populism
 		"Duration"			"3"	// In order to play particles/etc.
 		"Dmg_Health"		"4%"	// Resisted, but still pricks them
@@ -2580,7 +2595,6 @@ DisciplineTgt
 		"InheritFrom"		"Hit_Supernatural"
 	}
 
-
 	Hit_Strata_3
 	{
 		"InheritFrom"		"Hit_Supernatural"
@@ -2675,9 +2689,9 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"0"
-	"Overt"		"0"
+	"Overt"			"0"
 	"SupernaturalLvl"	"0"
-	"RecoveryTime"	"0"
+	"RecoveryTime"		"0"
 
 	AoE
 	{
@@ -3036,9 +3050,9 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"0"
-	"Overt"		"0"
+	"Overt"			"0"
 	"SupernaturalLvl"	"0"
-	"RecoveryTime"	"0"
+	"RecoveryTime"		"0"
 
 	AoE
 	{
@@ -3215,9 +3229,9 @@ DisciplineTgt
 
 	"ViewModel"		"models/weapons/thaumaturgy/view/v_thaumaturgy.mdl"
 	"BloodCost"		"0"
-	"Overt"		"0"
+	"Overt"			"0"
 	"SupernaturalLvl"	"0"
-	"RecoveryTime"	"0"
+	"RecoveryTime"		"0"
 
 	AoE
 	{

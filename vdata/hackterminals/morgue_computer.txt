@@ -35,7 +35,7 @@ Le ferite fanno pensare che questo individuo sia stato picchiato con una mazza d
 			"description"	"Armadietto 3A -- 19/10/04"
 			"runtext"	"Armadietto 3A -- 19/10/04
 Il soggetto e' morto a causa di un infarto. Gli oggetti personali sono nel magazzino B."
-			"dependency"	"G.Knox_Quest == 5"	//changed by wesp
+			"dependency"	"G.VirgilCrumbKnowledge == 1"	//changed by wesp
 		}
 
 		Function
@@ -68,8 +68,18 @@ Il soggetto e' apparentemente morto per strozzamento causato da prosciutto e/o f
 			"description"	"Armadietto 3B -- 24/10/04"
 			"runtext"	"Armadietto 3B -- 24/10/04
 Il soggetto e' morto per emorragie interne. Dolce ragazza dai capelli rossi, e' un vero peccato."
-			"dependency"	"G.Heather_Drank == 0 and G.Story_State > 9"
+			"dependency"	"G.Heather_Drank == 0 and G.Story_State > 9 and G.PP == 1"
 			"runscript"	"heatherQuest3()"
+		}
+
+		Function	// added by wesp
+		{
+			"name"		"Wales, D"
+			"description"	"Armadietto 1B -- 24/10/04"
+			"runtext"	"Armadietto 1B -- 24/10/04
+Il soggetto e' morto per un attacco cardiaco.
+Nota: anziana signora, sembra essere letteralmente morta di paura."
+			"dependency"	"G.Doris_Scare == 4 and G.PP == 1"
 		}
 	}
 }

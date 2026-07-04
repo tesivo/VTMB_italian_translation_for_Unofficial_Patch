@@ -1,363 +1,363 @@
 {	1	}{	Heyla', capo. Piccolo il mondo, eh? Si, dopo quella faccenda della galleria, non credevo che sarei riuscito a trovare ancora un lavoro come sorvegliante, ma dopo ho ricevuto una chiamata che mi offriva questo turno di notte e sono tornato nel giro della sicurezza.	}{	Heyla', signorina. Piccolo il mondo, eh? Si, dopo quella faccenda della galleria, non credevo che sarei riuscito a trovare ancora un lavoro come sorvegliante, ma dopo ho ricevuto una chiamata che mi offriva questo turno di notte e sono tornato nel giro della sicurezza.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	2	}{	(Auto-Link)	}{	(Auto-Link)	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	3	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	4	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	5	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	6	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	7	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	8	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	9	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	10	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	11	}{	Hai... qualcosa di familiare, capo. Non ci siamo mai incontrati prima, vero? Oh, ma certo, a Santa Monica, giusto? Non so cosa mi sia successo la' ma... ora ho questo nuovo posto come sorvegliante di notte, e... sono piu' felice di quando ho incontrato Sipowicz.	}{	Hai... qualcosa di familiare, signorina. Non ci siamo mai incontrati prima, vero? Oh, ma certo, a Santa Monica, giusto? Non so cosa mi sia successo la' ma... ora ho questo nuovo posto come sorvegliante di notte, e... sono piu' felice di quando ho incontrato Sipowicz.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	12	}{	(Auto-Link)	}{	(Auto-Link)	}{	41	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	13	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	14	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	15	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	16	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	17	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	18	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	19	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	20	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	21	}{	Che ci fai qui? Voglio dire, se mi stessi seguendo mi farebbe piacere ma, uh... ad ogni modo, uh, vedi quanta strada ha fatto la tua piccola dolce guardia di sicurezza? Sergente del turno di notte di una lobby...Hehe? E non e' finita, arrivero' dritto in cima, baby.	}{	Che ci fai qui? Voglio dire, se mi stessi seguendo mi farebbe piacere ma, uh... ad ogni modo, uh, vedi quanta strada ha fatto la tua piccola dolce guardia di sicurezza? Sergente del turno di notte di una lobby...Hehe? E non e' finita, arrivero' dritto in cima, baby.	}{	#	}{	pc.SetCamera("Chunk2"); npc.SetDisposition("PrinceSitting", 1)	}{	G.Chunk_Seduce = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	22	}{	Ti dispiace farmi un favore? Mi faresti salire?	}{	Ti dispiace farmi un favore? Mi faresti salire?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Permettimi di salire sulla torre.	}
 {	23	}{	Certo... credi di potermi far passare?	}{	Certo... credi di potermi far passare?	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Come te, anch'io devo arrivare in cima.	}
 {	24	}{	Uh, senti... tra noi c'e' stato qualcosa di uh, speciale la', ma ora e' finita.	}{	Uh, senti... tra noi c'e' stato qualcosa di uh, speciale la', ma ora e' finita.	}{	111	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tuo cuore si e' scontrato col mio a Santa Monica. Ma il mio cuore e' morto.	}
-{	25	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	26	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	27	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	28	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	29	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	30	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	31	}{	Oh, scusa, uh... non ti avevo visto. Io, uh... c'e' di nuovo che mio fratello e' stato ucciso mentre era in servizio. Tutto cio' che voleva fare nella sua vita era far rispettare la legge e conoscere TJ Hooker. E qualche piccolo delinquente gliel'ha impedito.	}{	Oh, scusa, uh... non ti avevo vista. Io, uh... c'e' di nuovo che mio fratello e' stato ucciso mentre era in servizio. Tutto cio' che voleva fare nella sua vita era far rispettare la legge e conoscere TJ Hooker. E qualche piccolo delinquente gliel'ha impedito.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	32	}{	Mi dispiace non conoscevo... tuo fratello. Condoglianze.	}{	Mi dispiace non conoscevo... tuo fratello. Condoglianze.	}{	131	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sapevo che fossi.... a lutto. Che tragedia.	}
 {	33	}{	Ho bisogno di salire per vedere qualcuno.	}{	Ho bisogno di salire per vedere qualcuno.	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo scalare la torre.	}
 {	34	}{	Come se mi importasse. Perche' non fai il tuo lavoro e mi fai salire?	}{	Come se mi importasse. Perche' non fai il tuo lavoro e mi fai salire?	}{	121	}{		}{		}{		}{		}{		}{		}{		}{		}{	Parole sprecate. Apri le porte del cielo per me.	}
-{	35	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	36	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	37	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	38	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	39	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	40	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	41	}{	Ah, beh, grazie alla mia fortuna sfacciata. Sei, uh... sei qui per vedere qualche pezzo grosso, capo?	}{	Ah, beh, grazie alla mia fortuna sfacciata. Sei, uh... sei qui per vedere qualche pezzo grosso, signorina?	}{	#	}{	npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	42	}{	Si'. Sono qui per vedere LaCroix.	}{	Si'. Sono qui per vedere LaCroix.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Pezzi grossi? No, devo vedere LaCroix.	}
 {	43	}{	E fammi salire.	}{	E fammi salire.	}{	51	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fammi salire in cima alla torre, muoviti.	}
-{	44	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	45	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	46	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	47	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	48	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	49	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	50	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	51	}{	Oh, mi piacerebbe farti salire, ma secondo il codice di protocollo 916 della sicurezza degli edifici, dovro' verificare la ragione che ti porta qui prima che possa aprire l'ascensore. Detesto essere pedante, ma sono nuovo qui e, beh, non capita tutti i giorni di ottenere una seconda chance come questa.	}{	Oh, mi piacerebbe farti salire, ma secondo il codice di protocollo 916 della sicurezza degli edifici, dovro' verificare la ragione che ti porta qui prima che possa aprire l'ascensore. Detesto essere pedante, ma sono nuovo qui e, beh, non capita tutti i giorni di ottenere una seconda chance come questa.	}{	#	}{	npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	52	}{	Sono qui per vedere LaCroix.	}{	Sono qui per vedere LaCroix.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il nome che devo vedere e' LaCroix.	}
 {	53	}{	Apri l'ascensore.	}{	Apri l'ascensore.	}{	71	}{	Dominate 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	54	}{	Apri il traghetto del cielo per me.	}{	Apri il traghetto del cielo per me.	}{	71	}{	Dementation 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	55	}{	Apri l'ascensore.	}{	Apri l'ascensore.	}{	71	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	56	}{	Fammi alzare, per favore.	}{	Fammi alzare, per favore.	}{	71	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	57	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	58	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	59	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	60	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	55	}{	Apri l'ascensore.	}{	Apri l'ascensore.	}{	71	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
+{	56	}{	Fammi alzare, per favore.	}{	Fammi alzare, per favore.	}{	71	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
+{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	61	}{	Sarebbe...Sebastian LaCroix della Fondazione LaCroix, oppure Dwayne LaCroix della Compagnia di latte in polvere per bambini?	}{	Sarebbe...Sebastian LaCroix della Fondazione LaCroix, oppure Dwayne LaCroix della Compagnia di latte in polvere per bambini?	}{	#	}{	npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	62	}{	Sebastian LaCroix.	}{	Sebastian LaCroix.	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sebastian LaCroix.	}
 {	63	}{	Tu che dici, genio?	}{	Tu che dici, genio?	}{	71	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non ho poppanti.	}
-{	64	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	65	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	66	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	67	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	68	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	69	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	70	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	71	}{	Uh, va bene. Mr. LaCroix mi ha detto di aspettare qualcuno che corrisponde alla tua descrizione. Vai, puoi salire.	}{	Uh, va bene. Mr. LaCroix mi ha detto di aspettare qualcuno che corrisponde alla tua descrizione. Vai, puoi salire.	}{	#	}{	npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	72	}{	Grazie.	}{	Grazie.	}{	81	}{	not IsDead("Chunk")	}{	G.Chunk_Open = 1	}{		}{		}{		}{		}{		}{		}{	Molte grazie.	}
 {	73	}{	Stammi bene.	}{	Stammi bene.	}{	81	}{	not IsDead("Chunk")	}{	G.Chunk_Open = 1	}{		}{		}{		}{		}{		}{		}{	Possa la mia grassa delle creature riempirti la pancia.	}
 {	74	}{	Meglio per te.	}{	Meglio per te.	}{	81	}{	not IsDead("Chunk")	}{	G.Chunk_Open = 1	}{		}{		}{		}{		}{		}{		}{	Saggio.	}
-{	75	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	76	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	77	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	78	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	79	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	80	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	81	}{	Si', uh, se c'e' uno potente che ti aspetta o, uh, qualunque cosa sia puoi salire. Se hai bisogno della sicurezza, chiama qui e chiedi dell'ufficiale Chunk. Sarei io, nel caso non l'avessi capito.	}{	Si', uh, se c'e' uno potente che ti aspetta o, uh, qualunque cosa sia puoi salire. Se hai bisogno della sicurezza, chiama qui e chiedi dell'ufficiale Chunk. Sarei io, nel caso non l'avessi capito.	}{	#	}{	npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	82	}{	Hai detto "Chunk"?	}{	Hai detto "Chunk"?	}{	101	}{		}{		}{		}{		}{		}{		}{		}{		}{	Si scrive C I A N K?	}
-{	83	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	84	}{	Grazie, Chunk, me lo ricordero'. Ciao.	}{	Grazie, Chunk, me lo ricordero'. Ciao.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi cuciro' il tuo nome nel cervello. Arrivederci.	}
 {	85	}{	Bene! Arrivederci.	}{	Bene! Arrivederci.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ora vado.	}
-{	86	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	87	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	88	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	89	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	90	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	91	}{	... Ti sta aspettando. Sali....	}{	... Ti sta aspettando. Sali....	}{	#	}{	npc.SetDisposition("PrinceSitting", 1)	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	G.Chunk_Open = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	93	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	94	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	95	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	96	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	97	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	98	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	99	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	100	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	101	}{	Oh, si', ce l'ho da una vita. Mi ricorda quando giocavo a football. Cioe', quando fantasticavo di giocare... quando ero... ero di guardia - di solito tenevo d'occhio il parcheggio di scarico delle merci di un grande magazzino. Ehi, mocciosi, non pattinate nella zona parcheggio! Bei tempi...	}{	Oh, si', ce l'ho da una vita. Mi ricorda quando giocavo a football. Cioe', quando fantasticavo di giocare... quando ero... ero di guardia - di solito tenevo d'occhio il parcheggio di scarico delle merci di un grande magazzino. Ehi, mocciosi, non pattinate nella zona parcheggio! Bei tempi...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	102	}{	Va bene. Ci si vede, Chunk.	}{	Va bene. Ci si vede, Chunk.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi imprimero' il tuo nome a fuoco nel cervello. Ci vediamo.	}
 {	103	}{	Certo... bye.	}{	Certo... bye.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non sono piu' qui.	}
-{	104	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	105	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	106	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	107	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	108	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	109	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	110	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Zuccherino... che pensiero gentile...? Ah heh heh, ho capito... he he, ti piace scherzare - proprio come la mia mammina. Ehi, sei uh, qui per vedere anche qualcun altro, detective, o sei venuto solo per me?	}{	Zuccherino... che pensiero gentile...? Ah heh heh, ho capito... he he, ti piace scherzare - proprio come la mia mammina. Ehi, sei uh, qui per vedere anche qualcun altro, detective, o sei venuta solo per me?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	112	}{	Devo vedere LaCroix.	}{	Devo vedere LaCroix.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hah hah hah... LaCroix.	}
 {	113	}{	... LaCroix.	}{	... LaCroix.	}{	61	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho gia' visto la delusione, ora devo vedere LaCroix.	}
-{	114	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	115	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	116	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	117	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	118	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	119	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	120	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	121	}{	Chi devi vedere?	}{	Chi devi vedere?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	122	}{	LaCroix.	}{	LaCroix.	}{	91	}{		}{		}{		}{		}{		}{		}{		}{		}{	LaCroix.	}
-{	123	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	124	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	125	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	126	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	127	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	128	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	129	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	130	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	123	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	131	}{	Beh... conosceva i rischi - e' un lavoro pericoloso, ma, sai, non avrei mai immaginato che sarebbe successo... in una galleria d'arte cosi' piccola. Viviamo in un mondo malato. Ma alcun persone ascoltano la chiamata alle armi della giustizia e sentono il dovere di rispondere.	}{	Beh... conosceva i rischi - e' un lavoro pericoloso, ma, sai, non avrei mai immaginato che sarebbe successo... in una galleria d'arte cosi' piccola. Viviamo in un mondo malato. Ma alcun persone ascoltano la chiamata alle armi della giustizia e sentono il dovere di rispondere.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	132	}{	Devo vedere LaCroix.	}{	Devo vedere LaCroix.	}{	91	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il nome che cerco corrisponde a LaCroix.	}
-{	133	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	134	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	135	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	136	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	137	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	138	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	139	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	140	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	141	}{	Certo, sali e troverai Mr. LaCroix.	}{	Certo, sali e troverai Mr. LaCroix.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	142	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	143	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	144	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	145	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	146	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	147	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	148	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	149	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	150	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	142	}{	(Auto-Link)	}{	(Auto-Link)	}{	551	}{	G.Idle == 0	}{	G.Idle = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	143	}{	(Auto-Link)	}{	(Auto-Link)	}{	561	}{	G.Idle == 1	}{	G.Idle = 2	}{		}{		}{		}{		}{		}{		}{		}
+{	144	}{	(Auto-Link)	}{	(Auto-Link)	}{	571	}{	G.Idle == 2	}{	G.Idle = 3	}{		}{		}{		}{		}{		}{		}{		}
+{	145	}{	(Auto-Link)	}{	(Auto-Link)	}{	581	}{	G.Idle == 3	}{	G.Idle = 4	}{		}{		}{		}{		}{		}{		}{		}
+{	146	}{	(Auto-Link)	}{	(Auto-Link)	}{	591	}{	G.Idle == 4	}{	G.Idle = 5	}{		}{		}{		}{		}{		}{		}{		}
+{	147	}{	(Auto-Link)	}{	(Auto-Link)	}{	601	}{	G.Idle == 5	}{	G.Idle = 6	}{		}{		}{		}{		}{		}{		}{		}
+{	148	}{	(Auto-Link)	}{	(Auto-Link)	}{	611	}{	G.Idle == 6	}{	G.Idle = 7	}{		}{		}{		}{		}{		}{		}{		}
+{	149	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	G.Idle >= 7	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	151	}{	'sera capo. Sei tornato per vedere ancora Mr. LaCroix?	}{	Buona sera signorina. Sei tornata per vedere ancora Mr. LaCroix?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	152	}{	Si', proprio cosi'.	}{	Si', proprio cosi'.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi attende con impazienza.	}
 {	153	}{	Puoi dirlo forte.	}{	Puoi dirlo forte.	}{	161	}{		}{		}{		}{		}{		}{		}{		}{		}{	Perche' no....	}
-{	154	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	155	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	156	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	157	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	158	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	159	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	160	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	161	}{	Gia', mi ha detto di mandarti di sopra non appena ti vedevo. Sono venute molte persone per Mr. LaCroix. Tipi a posto. Sembravano solo un po'... strani. Mi chiedevo se... ah, affari suoi.	}{	Gia', mi ha detto di mandarti di sopra non appena ti vedevo. Sono venute molte persone per Mr. LaCroix. Tipi a posto. Sembravano solo un po'... strani. Mi chiedevo se... ah, affari suoi.	}{	#	}{		}{	G.Chunk_Open = 2	}{		}{		}{		}{		}{		}{		}{		}
 {	162	}{	Come va, Chunk?	}{	Come va, Chunk?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Credi di fare la differenza... heh.	}
-{	163	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	164	}{	Grazie, Chunk.	}{	Grazie, Chunk.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ti rigrazio, spaventapasseri.	}
 {	165	}{	Si', come no, ci vediamo.	}{	Si', come no, ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mmm... Vado.	}
-{	166	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	167	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	168	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	169	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	170	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	171	}{	Ah, ascolta, devo tenere lontani gli indesiderati, e al sicuro gli innocenti. Sono la sottile linea blu che separa i matti dalla gente che lavora sodo. Quindi, finche' ci sono io, Mr. LaCroix non avra' nulla di cui preoccuparsi.	}{	Ah, ascolta, devo tenere lontani gli indesiderati, e al sicuro gli innocenti. Sono la sottile linea blu che separa i matti dalla gente che lavora sodo. Quindi, finche' ci sono io, Mr. LaCroix non avra' nulla di cui preoccuparsi.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	172	}{	Sono certo che lui apprezzi molto il fatto che tu sia qui per proteggerlo. Ci vediamo.	}{	Sono certa che lui apprezzi molto il fatto che tu sia qui per proteggerlo. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Finche' non ci sono cornacchie nei paraggi, lo spaventapassera svolge il suo lavoro in maniera ammirabile. A dopo.	}
 {	173	}{	Il modo in cui illudi te stesso e' ammirabile. Arrivederci.	}{	Il modo in cui illudi te stesso e' ammirabile. Arrivederci.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non lasci proprio alcuna possibilit�. Vado	}
-{	174	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	175	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	176	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	177	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	178	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	179	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	180	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	174	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	181	}{	Mr. LaCroix mi ha detto che aspettava te, pasticcino. Mi ha detto di mandarti di sopra. Ah, senti, fra un'ora faro' la pausa e ho giusto una scatola di ciambelle alla crema...? Che ne pensi se quando te ne vai noi eh-eh...?	}{	Mr. LaCroix mi ha detto che aspettava te, pasticcino. Mi ha detto di mandarti di sopra. Ah, senti, fra un'ora faro' la pausa e ho giusto una scatola di ciambelle alla crema...? Che ne pensi se quando te ne vai noi eh-eh...?	}{	#	}{		}{	G.Chunk_Open = 2	}{		}{		}{		}{		}{		}{		}{		}
 {	182	}{	Come va il lavoro?	}{	Come va il lavoro?	}{	171	}{		}{		}{		}{		}{		}{		}{		}{		}{	Come ti butta qui, mio caro amico?	}
 {	183	}{	Oh... ho una faccenda urgente da sbrigare con LaCroix. Mi dispiace, Chunk.	}{	Oh... ho una faccenda urgente da sbrigare con LaCroix. Mi dispiace, Chunk.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo scappare in cima alla torre. Spiacente.	}
 {	184	}{	Urg... no. Mi dispiace.	}{	Urg... no. Mi dispiace.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Si', volentieri, quando voleranno gli asini.	}
-{	185	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	186	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	187	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	188	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	189	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	190	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	185	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	191	}{	Buona sera. ... Qualcosa va a fuoco? Oh, no, pare che qualcuno abbia fatto bruciare gli hamburger.	}{	Buona sera. ... Qualcosa va a fuoco? Oh, no, pare che qualcuno abbia fatto bruciare gli hamburger.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	192	}{	Non sento niente. Ho un appuntamento con LaCroix.	}{	Non sento niente. Ho un appuntamento con LaCroix.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il naso non riconosce tali odori. Mandami da LaCroix.	}
 {	193	}{	Lascia perdere. Devo vedere LaCroix.	}{	Lascia perdere. Devo vedere LaCroix.	}{	201	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non ci pensare, dovrei gia' essere di sopra.	}
-{	194	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	195	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	196	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	197	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	198	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	199	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	200	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	194	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	195	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	196	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	197	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	201	}{	Ah, certo, ti apro. ...Aw cavolo, cosa non farei per un Doppio Hamburger... con la cipolla e il formaggio, e anche un po' di bacon e quella guacamole....	}{	Ah, certo, ti apro. ...Aw cavolo, cosa non farei per un Doppio Hamburger... con la cipolla e il formaggio, e anche un po' di bacon e quella guacamole....	}{	#	}{		}{	G.Chunk_Open = 3	}{		}{		}{		}{		}{		}{		}{		}
 {	202	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	203	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	204	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	205	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	206	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	207	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	208	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	209	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	210	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	203	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	204	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	210	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	211	}{	Ah, scusami, eh, mi ero appena appisolato. Uhh, avrei bisogno di un animale da guardia o qualcosa del genere che mi avvisa quando entra qualcuno. Magari uno di quegli scimpanze' tipo Scimpanze' in Divisa Show. Ha hehe he, c'e' una scimmia che acchiappa sempre quel tipo!	}{	Ah, scusami, eh, mi ero appena appisolato. Uhh, avrei bisogno di un animale da guardia o qualcosa del genere che mi avvisa quando entra qualcuno. Magari uno di quegli scimpanze' tipo Scimpanze' in Divisa Show. Ha hehe he, c'e' una scimmia che acchiappa sempre quel tipo!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	212	}{	LaCroix mi sta aspettando.	}{	LaCroix mi sta aspettando.	}{	221	}{	G.Chunk_Seduce == 0	}{		}{		}{		}{		}{		}{		}{		}{	LaCroix mormora il mio nome un po' turbato.	}
 {	213	}{	Apri quel dannato ascensore.	}{	Apri quel dannato ascensore.	}{	221	}{	G.Chunk_Seduce == 0	}{		}{		}{		}{		}{		}{		}{		}{	Mandami tra le nuvole piu' velocemente possibile.	}
 {	214	}{	LaCroix mi sta aspettando.	}{	LaCroix mi sta aspettando.	}{	231	}{	G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{	LaCroix mormora il mio nome un po' turbato.	}
 {	215	}{	Apri quel dannato ascensore.	}{	Apri quel dannato ascensore.	}{	231	}{	G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{	Mandami tra le nuvole piu' velocemente possibile.	}
-{	216	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	217	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	218	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	219	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	220	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	216	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	217	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	218	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	219	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	220	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	221	}{	Chi sei? Oh, tu, Mr. LaCroix ti sta aspettando. Per un giovanotto come te, e' disposto a lavorare anche fino a tardi. Io, invece, ho speso gran parte della mia giovinezza nel settore dell'intrattenimento. Ho fatto la guardia ai set di sei grandi spettacoli!	}{	Chi sei? Oh, tu, Mr. LaCroix ti sta aspettando. Per una ragazza giovane come te, e' disposto a lavorare anche fino a tardi. Io, invece, ho speso gran parte della mia giovinezza nel settore dell'intrattenimento. Ho fatto la guardia ai set di sei grandi spettacoli!	}{	#	}{		}{	G.Chunk_Open = 4	}{		}{		}{		}{		}{		}{		}{		}
 {	222	}{	Parleremo dopo, Chunk. Ora scusami.	}{	Parleremo dopo, Chunk. Ora scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Faremo conversazione quando la luna sprizzera' i suoi ultimi raggi. A presto.	}
 {	223	}{	Nonostante non mi importi niente, continui a parlare.	}{	Nonostante non mi importi niente, continui a parlare.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Stai parlando da solo. Non restero' ancora a lungo.	}
-{	224	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	225	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	226	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	227	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	228	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	229	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	230	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	224	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	227	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	229	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	230	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	231	}{	Uh senti pasticcino alla frutta... se sei ancora in piedi tra un paio d'ore, perche' non ti fermi per la fine del mio turno... facciamo colazione insieme?...con una montagna di frittelle..? inzuppate di sciroppo d'acero...? tu ed io, il tuo orsetto da guardia...?	}{	Uh senti pasticcino alla frutta... se sei ancora in piedi tra un paio d'ore, perche' non ti fermi per la fine del mio turno... facciamo colazione insieme?...con una montagna di frittelle..? inzuppate di sciroppo d'acero...? tu ed io, il tuo orsetto da guardia...?	}{	#	}{		}{	G.Chunk_Open = 4	}{		}{		}{		}{		}{		}{		}{		}
 {	232	}{	Mi piacerebbe, ma ho degli affari da sbrigare, mi dispaice. Ci vediamo dopo.	}{	Mi piacerebbe, ma ho degli affari da sbrigare, mi dispaice. Ci vediamo dopo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Se la mia notte fosse senza fine, avrei costruito una Torre di Babele di frittele sciroppate, ma devo andare.	}
 {	233	}{	Spiacente, non sono un tipo mattiniero. Ora scusami.	}{	Spiacente, non sono una persona mattiniera. Ora scusami.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Io e il sole abbiamo una relazione conflittuale. Mi dispiace.	}
 {	234	}{	Sei il mio raggio di sole. Ugh....	}{	Sei il mio raggio di sole. Ugh....	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sei un figlio del sole? Se si', mi farai lo stesso effetto...	}
-{	235	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	236	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	237	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	238	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	239	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	240	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	235	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	236	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	237	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	241	}{	Ah, scusa, ma Mr. LaCroix mi ha detto di non far salire nessuno per ora. Mi sembrava un po' sfatto. Sara' per via di tutte queste notti passate al lavoro. Ad ogni modo, al momento non posso fartelo incontrare - mi dispiace.	}{	Ah, scusa, ma Mr. LaCroix mi ha detto di non far salire nessuno per ora. Mi sembrava un po' sfatto. Sara' per via di tutte queste notti passate al lavoro. Ad ogni modo, al momento non posso fartelo incontrare - mi dispiace.	}{	#	}{		}{	G.Chunk_Sorry = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	242	}{	Ma ho davvero bisogno di parlargli.	}{	Ma ho davvero bisogno di parlargli.	}{	251	}{		}{		}{		}{		}{		}{		}{		}{		}{	Devo scambiare due parole con lui.	}
 {	243	}{	E' di importanza cruciale che io porti personalmente alla sua attenzione una certa questione.	}{	E' di importanza cruciale che io porti personalmente alla sua attenzione una certa questione.	}{	251	}{	Persuasion 5	}{		}{		}{		}{		}{		}{		}{		}{	Ho alcune cose da dirgli prima che la notte muoia.	}
 {	244	}{	Sono sicuro che per me puoi fare un'eccezione... vero?	}{	Sono sicuro che per me puoi fare un'eccezione... vero?	}{	261	}{	G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{	Sono entrato nel tuo cuore, e non puoi farmi entrare nell'edificio, ciambellina glassata?	}
 {	245	}{	Fammi entrare o entrero' da solo.	}{	Fammi entrare o entrero' da solo.	}{	271	}{	Intimidate 6	}{		}{		}{		}{		}{		}{		}{		}{	Infrangi i tuoi ordini, o dovro' infrangere la tua testa da qualche parte.	}
-{	246	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	247	}{	Credo che tornero' piu' tardi. Ciao.	}{	Credo che tornero' piu' tardi. Ciao.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi ritroverai di nuovo qui. Ci vediamo.	}
 {	248	}{	Va bene. Ci vediamo.	}{	Va bene. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Hmm... Vado	}
-{	249	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	250	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	251	}{	Mr. LaCroix e' stato molto preciso. Magari se torni piu' tardi si sara' calmato. Sembra assorbito dalla faccenda di quel sarcofago rubato dal museo. Hmm, dev'essere un vero appassionato di storia.	}{	Mr. LaCroix e' stato molto preciso. Magari se torni piu' tardi si sara' calmato. Sembra assorbito dalla faccenda di quel sarcofago rubato dal museo. Hmm, dev'essere un vero appassionato di storia.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	252	}{	Va bene. Ci vediamo, Chunk.	}{	Va bene. Ci vediamo, Chunk.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vedrai ancora questa faccia.	}
-{	253	}{	Va bene. Tornero' piu' tardi.	}{	Va bene. Tornero' piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado, ma non staro' via per sempre.	}
-{	254	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	255	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	256	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	257	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	258	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	259	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	260	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	252	}{	Va bene. Ci vediamo, Chunk.	}{	Va bene. Ci vediamo, Chunk.	}{	491	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vedrai ancora questa faccia.	}
+{	253	}{	Va bene. Tornero' piu' tardi.	}{	Va bene. Tornero' piu' tardi.	}{	491	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado, ma non staro' via per sempre.	}
+{	254	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	255	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	261	}{	Niente di personale, budino alla crema, ma LaCroix mi ha detto di non far passare nessuno da lui.	}{	Niente di personale, budino alla crema, ma LaCroix mi ha detto di non far passare nessuno da lui.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	262	}{	Va bene. Ci vediamo, Chunk.	}{	Va bene. Ci vediamo, Chunk.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vedrai ancora questa faccia.	}
-{	263	}{	Va bene. Tornero' piu' tardi.	}{	Va bene. Tornero' piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado, ma non staro' via per sempre.	}
-{	264	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	265	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	266	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	267	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	268	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	269	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	270	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	262	}{	Va bene. Ci vediamo, Chunk.	}{	Va bene. Ci vediamo, Chunk.	}{	501	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vedrai ancora questa faccia.	}
+{	263	}{	Va bene. Tornero' piu' tardi.	}{	Va bene. Tornero' piu' tardi.	}{	501	}{		}{		}{		}{		}{		}{		}{		}{		}{	Vado, ma non staro' via per sempre.	}
+{	264	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	265	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	270	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	271	}{	Frena amico. Minacciare una guardia di sicurezza e' una violazione del codice di conmportamento di questo edificio, capitolo cinque, paragrafo secondo. Ti sto solo riferendo cio' che Mr. LaCroix mi ha detto. Ora non vorrai minacciare anche lui, spero, o si'?	}{	Frena signorinella. Minacciare una guardia di sicurezza e' una violazione del codice di conmportamento di questo edificio, capitolo cinque, paragrafo secondo. Ti sto solo riferendo cio' che Mr. LaCroix mi ha detto. Ora non vorrai minacciare anche lui, spero, o si'?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	272	}{	No, immagino di no. Tornero' piu' tardi.	}{	No, immagino di no. Tornero' piu' tardi.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non gli getterei dell'acido addosso. Vedrai la mia faccia di nuovo.	}
-{	273	}{	Hmm... e' un pensiero che mi ha sfiorato. Digli che sono passato. Ci vediamo.	}{	Hmm... e' un pensiero che mi ha sfiorato. Digli che sono passata. Ci vediamo.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' una cosa che sto sognando spesso. Tornero' ancora.	}
-{	274	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	275	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	276	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	277	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	278	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	279	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	280	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	272	}{	No, immagino di no. Tornero' piu' tardi.	}{	No, immagino di no. Tornero' piu' tardi.	}{	481	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non gli getterei dell'acido addosso. Vedrai la mia faccia di nuovo.	}
+{	273	}{	Hmm... e' un pensiero che mi ha sfiorato. Digli che sono passato. Ci vediamo.	}{	Hmm... e' un pensiero che mi ha sfiorato. Digli che sono passata. Ci vediamo.	}{	481	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' una cosa che sto sognando spesso. Tornero' ancora.	}
+{	274	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	275	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	281	}{	Ehi!L'altra notte non sai cos'e' successo... Non sono potuto venire a lavorare perche' ho comprato del cibo avariato da un venditore ambulante e ho scampato il finimondo che e' successo qui. E' stata una fortuna, quel cibo avvelenato mi ha salvato la vita.	}{	Ehi!L'altra notte non sai cos'e' successo... Non sono potuto venire a lavorare perche' ho comprato del cibo avariato da un venditore ambulante e ho scampato il finimondo che e' successo qui. E' stata una fortuna, quel cibo avvelenato mi ha salvato la vita.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	282	}{	E' stato un colpo di fortuna.	}{	E' stato un colpo di fortuna.	}{	291	}{		}{		}{		}{		}{		}{		}{		}{		}{	Il tuo appetito malsano ti ha salvato la pelle.	}
 {	283	}{	Mi fa piacere. Avrei un appuntamento con LaCroix.	}{	Mi fa piacere. Avrei un appuntamento con LaCroix.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' un piacere sapere che non ti trovi nell'aldila'. Ho un appuntamento.	}
 {	284	}{	Non succedera' piu'. Devo vedere LaCroix.	}{	Non succedera' piu'. Devo vedere LaCroix.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi reclamano ai piani alti.	}
-{	285	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	286	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	287	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	288	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	289	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	290	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	285	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	286	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	289	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	290	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	291	}{	L'hai detto. Ma se fossi stato qui, quei teppisti non avrebbero certo superato l'ingresso. Ci sono due cose che non riesco a tollerare, i terroristi e il cibo guasto.	}{	L'hai detto. Ma se fossi stato qui, quei teppisti non avrebbero certo superato l'ingresso. Ci sono due cose che non riesco a tollerare, i terroristi e il cibo guasto.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	292	}{	Ho capito. Devo vedere LaCroix.	}{	Ho capito. Devo vedere LaCroix.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' un piacere sapere che non ti trovi nell'aldila'. Ho un appuntamento.	}
 {	293	}{	Avrei un appuntamento con LaCroix.	}{	Avrei un appuntamento con LaCroix.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Mi reclamano ai piani alti.	}
-{	294	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	295	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	296	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	297	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	298	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	299	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	300	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	294	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	295	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	296	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	297	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	298	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	299	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	301	}{	Si', puoi andare. Non ti stava aspettando, ma va bene comunque.	}{	Si', puoi andare. Non ti stava aspettando, ma va bene comunque.	}{	#	}{		}{	G.Chunk_Open = 5	}{		}{		}{		}{		}{		}{		}{		}
 {	302	}{	Grazie.	}{	Grazie.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Sicuro.	}
-{	303	}{	Ahem....	}{	Ahem....	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	...	}
-{	304	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	305	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	306	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	307	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	308	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	309	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	310	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	303	}{	Ahem....	}{	Ahem....	}{	0	}{	G.Patch_Plus == 0	}{		}{		}{		}{		}{		}{		}{		}{	...	}
+{	303	}{	Nessuno si aspetta l'Inquisizione dei Malkavian.	}{	Nessuno si aspetta l'Inquisizione dei Malkavian.	}{	0	}{	G.Patch_Plus == 1	}{		}{		}{		}{		}{		}{		}{		}{	Nessuno si aspetta l'Inquisizione dei Malkavian.	}
+{	305	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	307	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	308	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	309	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	310	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	311	}{	Oh, non sono mai stato cosi' contento di saperti sano e salvo, focaccina alla cannella. Ero... malato quando ho saputo dell'attacco. Temevo che tu...beh, comunque, il tuo fedele destriero ora e' qui per proteggerti, non ti preoccupare.	}{	Oh, non sono mai stato cosi' contento di saperti sana e salva, focaccina alla cannella. Ero... malato quando ho saputo dell'attacco. Temevo che tu...beh, comunque, il tuo fedele destriero ora e' qui per proteggerti, non ti preoccupare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	312	}{	Ho bisogno di vedere LaCroix, mio fedele destriero.	}{	Ho bisogno di vedere LaCroix, mio fedele destriero.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho un appuntamento, fedele destriero.	}
 {	313	}{	So badare a me stesso. LaCroix mi sta aspettando.	}{	So badare a me stessa. LaCroix mi sta aspettando.	}{	301	}{		}{		}{		}{		}{		}{		}{		}{		}{	La tua ansia nei mie confronti e' fuori luogo. Sono atteso.	}
 {	314	}{	ORA BASTA! SENTI UN PO'! TI TROVO ASSOLUTAMENTE RIPUGNANTE!	}{	ORA BASTA! SENTI UN PO'! TI TROVO ASSOLUTAMENTE RIPUGNANTE!	}{	321	}{		}{		}{		}{		}{		}{		}{		}{		}{	TU SEI LA REPULSIVITA' IN PERSONA.	}
-{	315	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	316	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	317	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	318	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	319	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	320	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	315	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	316	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	317	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	318	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	319	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	320	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	321	}{	Ma pasticcino...	}{	Ma pasticcino...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	322	}{	SE FOSSIMO GLI ULTIMI ABITANTI DEL PIANETA, TI MANGEREI!	}{	SE FOSSIMO BLOCCATI SU UN'ISOLA, TI DAREI LA CACCIA PER SPORT!	}{	331	}{		}{		}{		}{		}{		}{		}{		}{		}{	UN MILIONE DI CORVI PUTREFATTI SONO MEGLIO DI TE!	}
 {	323	}{	LA TUA CICCIA E' QUASI PARI ALLA TUA BRUTTEZZA!	}{	LA TUA CICCIA E' QUASI PARI ALLA TUA BRUTTEZZA!	}{	331	}{		}{		}{		}{		}{		}{		}{		}{		}{	HAI LO STESSO SANGUE DEI MAIALI!	}
 {	324	}{	UN CANE ADDESTRATO FAREBBE CENTO VOLTE MEGLIO IL TUO LAVORO!	}{	UN CANE ADDESTRATO FAREBBE CENTO VOLTE MEGLIO IL TUO LAVORO!	}{	331	}{		}{		}{		}{		}{		}{		}{		}{		}{	LA TUA STUPIDITA' NON RIESCE A COPRIRE LA TUA NULLITA'.	}
-{	325	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	326	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	327	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	328	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	329	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	330	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	325	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	326	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	327	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	328	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	329	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	330	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	331	}{	Ma-ma...	}{	Ma-ma...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	332	}{	CREDI DAVVERO CHE UNO COME ME POSSA VOLERE UNO COME TE?!?	}{	CREDI DAVVERO CHE UNA COME ME POSSA VOLERE UNO COME TE?!?	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	SEI UNA LUMACA RANCIDA E IO UNA SPLENDIDA FARFALLA.	}
 {	333	}{	STUPIDO POLIZIOTTO IN AFFITTO, SENZA CAPELLI E DAL CULO LARDOSO!	}{	STUPIDO POLIZIOTTO IN AFFITTO, SENZA CAPELLI E DAL CULO LARDOSO!	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	LA TUA VITA E' VUOTA COME LA TUA ZUCCA.	}
 {	334	}{	SEI ALLA FRUTTA, CICCIONE, TE NE DEVI RENDERE CONTO!	}{	SEI ALLA FRUTTA, CICCIONE, TE NE DEVI RENDERE CONTO!	}{	341	}{		}{		}{		}{		}{		}{		}{		}{		}{	LA TUA OBESITA' E' DOVUTA ALL'ECCESSO DELLE TUE MINCHIATE.	}
-{	335	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	336	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	337	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	338	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	339	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	340	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	335	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	336	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	337	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	338	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	339	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	340	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	341	}{	Oh...caspita.	}{	Oh...caspita.	}{	#	}{		}{	G.Chunk_Seduce = 0	}{		}{		}{		}{		}{		}{		}{		}
 {	342	}{	Ora, fammi andare di sopra, uomo scimmia!	}{	Ora, fammi andare di sopra, uomo scimmia!	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ho un appuntamento. Pensa a fare il tuo patetico lavoro.	}
 {	343	}{	Apri la fottuta porta!	}{	Apri la fottuta porta!	}{	351	}{		}{		}{		}{		}{		}{		}{		}{		}{	Apri. La porta. Lumaca.	}
-{	344	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	345	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	346	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	347	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	348	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	349	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	350	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	344	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	345	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	346	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	347	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	348	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	349	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	350	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	351	}{	Si', signore.	}{	Si', signora.	}{	#	}{		}{	G.Chunk_Open = 5	}{		}{		}{		}{		}{		}{		}{		}
 {	352	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	353	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	354	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	355	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	356	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	357	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	358	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	359	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	360	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	353	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	354	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	355	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	356	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	357	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	358	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	359	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	360	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	361	}{	Uh, senti... Non so cosa sia successo ma... LaCroix mi ha detto che non devo lasciarti salire per NESSUN motivo. Mi ha detto che devo scortarti fuori dall'edificio. Quindi... beh, temo che dovrai andartene.	}{	Uh, senti... Non so cosa sia successo ma... LaCroix mi ha detto che non devo lasciarti salire per NESSUN motivo. Mi ha detto che devo scortarti fuori dall'edificio. Quindi... beh, temo che dovrai andartene.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	362	}{	E se io dicessi di no?	}{	E se io dicessi di no?	}{	381	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia risposta sara' "no".	}
 {	363	}{	Spiacente, non posso.	}{	Spiacente, non posso.	}{	381	}{	Humanity 5	}{		}{		}{		}{		}{		}{		}{		}{	Prima di andarmene devo salire.	}
@@ -366,317 +366,319 @@
 {	366	}{	Fossi in te, mi chiederei: Cos'e' piu' importante, la mia vita o il mio misero lavoro?	}{	Fossi in te, mi chiederei: Cos'e' piu' importante, la mia vita o il mio misero lavoro?	}{	0	}{	Persuasion 9	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Se la morte ti desse una seconda chance, fuggiresti o combatteresti?	}
 {	367	}{	Sparisci.	}{	Sparisci.	}{	0	}{	Dominate 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	368	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	0	}{	Dementation 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}
-{	369	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	381	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fa' pure la parte del muro, ma ti avviso io sono uno spacca muri da demolizione.	}
-{	370	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	369	}{	Fuggi, mortale!	}{	Fuggi, mortale!	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	370	}{	Fuggi.	}{	Fuggi.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	371	}{	Mi dispiace, crostatina. N-Non c'e' niente di personale, cerca di capire, ma... Mr. LaCroix, mi ha detto che non posso lasciarti piu' passare, e beh, credo che dovro' scortarti all'uscita. Spero che tu possa capire.	}{	Mi dispiace, crostatina. N-Non c'e' niente di personale, cerca di capire, ma... Mr. LaCroix, mi ha detto che non posso lasciarti piu' passare, e beh, credo che dovro' scortarti all'uscita. Spero che tu possa capire.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	372	}{	Non voglio farti male. Quindi...ora vattene.	}{	Non voglio farti male. Quindi...ora vattene.	}{	381	}{		}{		}{		}{		}{		}{		}{		}{		}{	Non vorrei versare la tua crema, ciambella zuccherosa.	}
-{	373	}{	Vattene, e sapro' come ricompensarti. Ti prego, fallo per me.	}{	Vattene, e sapro' come ricompensarti. Ti prego, fallo per me.	}{	0	}{	Seduction 9 and G.Chunk_Seduce == 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Vattene, e lascia sempre un posto per me fra le tue braccia. Tornero' da te, ciambella.	}
+{	373	}{	Vattene, e sapro' come ricompensarti. Ti prego, fallo per me.	}{	Vattene, e sapro' come ricompensarti. Ti prego, fallo per me.	}{	0	}{	Seduction 9 & G.Chunk_Seduce == 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Vattene, e lascia sempre un posto per me fra le tue braccia. Tornero' da te, ciambella.	}
 {	374	}{	Sparisci.	}{	Sparisci.	}{	0	}{	Dominate 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	375	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	0	}{	Dementation 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}
-{	376	}{	E' finita. La tua vita, intendo.	}{	E' finita. La tua vita, intendo.	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Quando ti sei svegliato, oggi, sapevi che saresti morto?	}
-{	377	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	381	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fa' pure la parte del muro, ma ti avviso io sono uno spacca muri da demolizione.	}
-{	378	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	379	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	380	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	376	}{	Fuggi.	}{	Fuggi.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	377	}{	Fuggi, mortale!	}{	Fuggi, mortale!	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	378	}{	E' finita. La tua vita, intendo.	}{	E' finita. La tua vita, intendo.	}{	0	}{	Humanity -5	}{		}{		}{		}{		}{		}{		}{		}{	Quando ti sei svegliato, oggi, sapevi che saresti morto?	}
+{	379	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	381	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fa' pure la parte del muro, ma ti avviso io sono uno spacca muri da demolizione.	}
+{	380	}{	E se andassi a vedere solo il tetto e non LaCroix?	}{	E se andassi a vedere solo il tetto e non LaCroix?	}{	421	}{	Persuasion 10 & G.Patch_Plus == 1	}{	G.Chunk_Skip = 1	}{		}{		}{		}{		}{		}{		}{	Ma se il mio spirito desiderasse una vista dal tetto invece?	}
 {	381	}{	Aaah, andiamo, vattene e basta okay? Non costringermi ad usare la forza, ma sappi che sono autorizzato a farlo. Non farmi questo, tesoro.	}{	Aaah, andiamo, vattene e basta okay? Non costringermi ad usare la forza, ma sappi che sono autorizzato a farlo. Non farmi questo, tesoro.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	382	}{	Io andro' di sopra. Tu puoi provare a fermarmi, o puoi andartene.	}{	Io andro' di sopra. Tu puoi provare a fermarmi, o puoi andartene.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	La mia strada non ha uscite. Puoi infrangerti, o puoi deviare dove ti pare.	}
 {	383	}{	Ti do dieci secondi per lasciare l'edificio.	}{	Ti do dieci secondi per lasciare l'edificio.	}{	0	}{	Intimidate 8	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Ti do solo tre secondi. 1...	}
 {	384	}{	Fossi in te, mi chiederei: Cos'e' piu' importante, la mia vita o il mio misero lavoro?	}{	Fossi in te, mi chiederei: Cos'e' piu' importante, la mia vita o il mio misero lavoro?	}{	0	}{	Persuasion 9	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Se la morte ti desse una seconda chance, fuggiresti o combatteresti?	}
 {	385	}{	Sparisci.	}{	Sparisci.	}{	0	}{	Dominate 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	386	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}{	0	}{	Dementation 1	}{	G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{	Ehi, porco, non sai che danno un barbecue? Presto fara' caldo qui.	}
-{	387	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	388	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	389	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	387	}{	Fuggi.	}{	Fuggi.	}{	0	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles(); G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	388	}{	Fuggi, mortale!	}{	Fuggi, mortale!	}{	0	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles(); G.Chunk_Run = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	389	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	Hai possibilita' di dimostrare che sei un eroe. Prova a fermarmi.	}{	401	}{		}{		}{		}{		}{		}{		}{		}{		}{	Fa' pure la parte del muro, ma ti avviso io sono uno spacca muri da demolizione.	}
 {	390	}{	Sarai uno spuntino perfetto prima della portata principale.	}{	Sarai uno spuntino perfetto prima della portata principale.	}{	391	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	391	}{	Cosa?	}{	Cosa?	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	392	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	G.Chunk_Attack = 1	}{		}{		}{		}{		}{		}{		}{		}
-{	393	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	394	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	395	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	396	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	397	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	398	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	399	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	400	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	393	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	394	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	395	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	396	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	397	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	398	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	399	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	400	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	401	}{	Se non te ne andrai, allora non... non ho altra scelta.	}{	Se non te ne andrai, allora non... non ho altra scelta.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	402	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{		}
-{	403	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	404	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	405	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	406	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	407	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	408	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	409	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	410	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	402	}{	Si', hai scelto di morire.	}{	Si', hai scelto di morire.	}{	0	}{		}{	G.Chunk_Attack = 1	}{		}{		}{		}{		}{		}{		}{	Morire o morire, questo e' il problema.	}
+{	403	}{	E se andassi a vedere solo il tetto e non LaCroix?	}{	E se andassi a vedere solo il tetto e non LaCroix?	}{	421	}{	Persuasion 10 & G.Patch_Plus == 1	}{	G.Chunk_Skip = 1	}{		}{		}{		}{		}{		}{		}{	Ma se il mio spirito desiderasse una vista dal tetto invece?	}
+{	404	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	405	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	406	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	407	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	408	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	409	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	410	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	411	}{	Uh... Non credo che Mr. LaCroix ti stia aspettando. Infatti, mi ha detto di trattenerti se avessi tentato di entrare.	}{	Uh... Non credo che Mr. LaCroix ti stia aspettando. Infatti, mi ha detto di trattenerti se avessi tentato di entrare.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	412	}{	Devo dirgli qualcosa che gli fara' piacere.	}{	Devo dirgli qualcosa che gli fara' piacere.	}{	421	}{		}{		}{		}{		}{		}{		}{		}{		}{	E' goloso delle mie parole come tu lo sei delle ciambelle di zucchero.	}
 {	413	}{	Fammi entrare.	}{	Fammi entrare.	}{	421	}{	Dominate 1	}{		}{		}{		}{		}{		}{		}{		}{		}
 {	414	}{	Apri l'ascensore.	}{	Apri l'ascensore.	}{	421	}{	Dementation 1	}{		}{		}{		}{		}{		}{		}{		}{	Apri l'ascensore.	}
-{	415	}{	Davvero? Stai cercando di restare da solo con me per qualche minuto, non e' vero?	}{	Davvero? Stai cercando di restare da solo con me per qualche minuto, non e' vero?	}{	421	}{	Seduction 8 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{	Trattenermi, hmm? Vuoi ammanettarmi e sbattermi a terra, orsetto peloso?	}
-{	416	}{	Sappiamo entrambi che a volte Mr. LaCroix fa un po' di scene. E' preso dagli affari.	}{	Sappiamo entrambi che a volte Mr. LaCroix fa un po' di scene. E' preso dagli affari.	}{	421	}{	Persuasion 8	}{		}{		}{		}{		}{		}{		}{		}{	La sua lagna rimbombera' nelle tue orecchie per molte notti se non mi lasci entrare.	}
-{	417	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	418	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	419	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	420	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	415	}{	Lasciami entrare.	}{	Lasciami entrare.	}{	421	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
+{	416	}{	Ha bisogno di me.	}{	Ha bisogno di me.	}{	421	}{	Presence 1 & G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{		}{		}{		}{		}{		}{		}{		}
+{	417	}{	Davvero? Stai cercando di restare da solo con me per qualche minuto, non e' vero?	}{	Davvero? Stai cercando di restare da solo con me per qualche minuto, non e' vero?	}{	421	}{	Seduction 8 & G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{	Trattenermi, hmm? Vuoi ammanettarmi e sbattermi a terra, orsetto peloso?	}
+{	418	}{	Sappiamo entrambi che a volte Mr. LaCroix fa un po' di scene. E' preso dagli affari.	}{	Sappiamo entrambi che a volte Mr. LaCroix fa un po' di scene. E' preso dagli affari.	}{	421	}{	Persuasion 8	}{		}{		}{		}{		}{		}{		}{		}{	La sua lagna rimbombera' nelle tue orecchie per molte notti se non mi lasci entrare.	}
+{	419	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	420	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	421	}{	Beh, uh... va bene. Eh... va' pure. Oh, spero di non perdere il privilegio di possedere una torcia tascabile per questo.	}{	Beh, uh... va bene. Eh... va' pure. Oh, spero di non perdere il privilegio di possedere una torcia tascabile per questo.	}{	#	}{		}{	G.Chunk_Open = 6	}{		}{		}{		}{		}{		}{		}{		}
-{	422	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	423	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	424	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	425	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	426	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	427	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	428	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	429	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	430	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	422	}{	Grazie!	}{	Grazie!	}{	0	}{	G.Chunk_Skip == 0	}{		}{		}{		}{		}{		}{		}{		}{	Grazie, grazie, grazie.	}
+{	423	}{	Grazie!	}{	Grazie!	}{	0	}{	G.Chunk_Skip > 0	}{	G.Chunk_Skip = 2	}{		}{		}{		}{		}{		}{		}{	Grazie, grazie, grazie.	}
+{	424	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	425	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	426	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	427	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	428	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	429	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	430	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	431	}{	Tu...stammi lontano! Non so cosa tu sia ma... f-f-faresti meglio a tornartene da dove sei venuto fuori, ah! Ora faccio proprio sul serio!	}{	Tu...stammi lontano! Non so cosa tu sia ma... f-f-faresti meglio a tornartene da dove sei venuta fuori, ah! Ora faccio proprio sul serio!	}{	#	}{		}{	G.Chunk_Spooked = 1	}{		}{		}{		}{		}{		}{		}{		}
 {	432	}{	Scusa, me ne vado.	}{	Scusa, me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	433	}{	Devo vedere LaCroix.	}{	Devo vedere LaCroix.	}{	441	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	434	}{	Provaci, ciccione.	}{	Provaci, ciccione.	}{	451	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	435	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	436	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	437	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	438	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	439	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	440	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	435	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	436	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	437	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	438	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	439	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	440	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	441	}{	Mr. LaCroix non ha in programma alcun appuntamento con alcun gargoyle. Eh, ti conviene andartene, prima che chiami la sicurezza, o qualche giornalista d'assalto.	}{	Mr. LaCroix non ha in programma alcun appuntamento con alcun gargoyle. Eh, ti conviene andartene, prima che chiami la sicurezza, o qualche giornalista d'assalto.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	442	}{	Va bene, me ne vado.	}{	Va bene, me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	443	}{	Perche' non cerchi di farmi schiodare?	}{	Perche' non cerchi di farmi schiodare?	}{	451	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	444	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	445	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	446	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	447	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	448	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	449	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	450	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	444	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	445	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	446	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	447	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	448	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	449	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	450	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	451	}{	Ti ho gia' avvertito. Abbiamo telecamere ovunque. Se fai qualcosa la tua faccia sara' quella che rovinera' la cena di tutta la gente per bene che guardera' i notiziari di domani.	}{	Ti ho gia' avvertita. Abbiamo telecamere ovunque. Se fai qualcosa la tua faccia sara' quella che rovinera' la cena di tutta la gente per bene che guardera' i notiziari di domani.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	452	}{	Me ne vado.	}{	Me ne vado.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	453	}{	A proposito di cena, non ho ancora mangiato. Tu sembri appetitoso.	}{	A proposito di cena, non ho ancora mangiato. Tu sembri appetitoso.	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{		}
-{	454	}{	E la tua, di faccia, sta per spalmarsi sull'intera scrivania.	}{	E la tua, di faccia, sta per spalmarsi sull'intera scrivania.	}{	0	}{		}{	npc.SetRelationship("player D_HT 5")	}{		}{		}{		}{		}{		}{		}{		}
-{	455	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	456	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	457	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	458	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	459	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	460	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	453	}{	A proposito di cena, non ho ancora mangiato. Tu sembri appetitoso.	}{	A proposito di cena, non ho ancora mangiato. Tu sembri appetitoso.	}{	0	}{		}{	G.Chunk_Attack = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	454	}{	E la tua, di faccia, sta per spalmarsi sull'intera scrivania.	}{	E la tua, di faccia, sta per spalmarsi sull'intera scrivania.	}{	0	}{		}{	G.Chunk_Attack = 1	}{		}{		}{		}{		}{		}{		}{		}
+{	455	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	456	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	457	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	458	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	459	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	460	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	461	}{	Vattene, ti sto avvisando!	}{	Vattene, ti sto avvisando!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	462	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	463	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	464	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	465	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	466	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	467	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	468	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	469	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	470	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	463	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	464	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	465	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	466	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	467	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	468	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	469	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	470	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	471	}{	Spiacente, per ora nessuno puo' andare di sopra.	}{	Spiacente, per ora nessuno puo' andare di sopra.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	472	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	473	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	474	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	475	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	476	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	477	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	478	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	479	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	480	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	473	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	474	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	475	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	476	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	477	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	478	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	479	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	480	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	481	}{	Al momento non posso lasciarti andare di sopra.	}{	Al momento non posso lasciarti andare di sopra.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	482	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	483	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	484	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	485	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	486	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	487	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	488	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	489	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	490	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	483	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	484	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	485	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	486	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	487	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	488	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	489	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	490	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	491	}{	Ho l'ordine di non aprire le porte a nessuno. Mi dispiace, capo.	}{	Ho l'ordine di non aprire le porte a nessuno. Mi dispiace, signorina.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	492	}{	(Auto-Link)	}{	(Auto-Link)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	(Auto-End)	}
-{	493	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	494	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	495	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	496	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	497	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	498	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	499	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	500	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	493	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	494	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	495	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	496	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	497	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	498	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	499	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	500	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	501	}{	Temo di non poterti far entrare, per ora.	}{	Temo di non poterti far entrare, per ora.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	502	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	503	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	504	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	505	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	506	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	507	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	508	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	509	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	510	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	503	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	504	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	505	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	506	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	507	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	508	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	509	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	510	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	511	}{	Hmm? Oh, sali pure.	}{	Hmm? Oh, sali pure.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	512	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	513	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	514	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	515	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	516	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	517	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	518	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	519	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	520	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	513	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	514	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	515	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	516	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	517	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	518	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	519	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	520	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	521	}{	Puoi salire!	}{	Puoi salire!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	522	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	523	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	524	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	525	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	526	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	527	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	528	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	529	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	530	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	523	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	524	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	525	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	526	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	527	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	528	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	529	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	530	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	531	}{	Ti sta aspettando.	}{	Ti sta aspettando.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	532	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	533	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	534	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	535	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	536	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	537	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	538	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	539	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	540	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	533	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	534	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	535	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	536	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	537	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	538	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	539	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	540	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	541	}{	Hmm? Oh, sei tu.	}{	Hmm? Oh, sei tu.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	542	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	543	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	544	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	545	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	546	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	547	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	548	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	549	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	550	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	542	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{	G.Camera_Pressed = 0	}{		}{		}{		}{		}{		}{		}{		}
+{	543	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	544	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	545	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	546	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	547	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	548	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	549	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	550	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	551	}{	Ah, vediamo un po' cos'abbiamo sulla fedele telecamera tre! Ho ho, bene, ehila'! Stavo pensando a te, oh si'. Vorrei leccarti dappertutto... e farmi strada fino al tuo cuore cremoso e - che diav...? Argh! Giu' le mani dai miei pasticcini bavaresi!	}{	Ah, vediamo un po' cos'abbiamo sulla fedele telecamera tre! Ho ho, bene, ehila'! Stavo pensando a te, oh si'. Vorrei leccarti dappertutto... e farmi strada fino al tuo cuore cremoso e - che diav...? Argh! Giu' le mani dai miei pasticcini bavaresi!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	552	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	553	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	554	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	555	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	556	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	557	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	558	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	559	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	560	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	553	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	554	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	555	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	556	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	557	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	558	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	559	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	560	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	561	}{	Huh...mamma! Coprimi! Huh, che..? Ah, ooh, devo essermi appisolato...	}{	Huh...mamma! Coprimi! Huh, che..? Ah, ooh, devo essermi appisolato...	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	562	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	563	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	564	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	565	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	566	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	567	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	568	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	569	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	570	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	563	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	564	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	565	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	566	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	567	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	568	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	569	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	570	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	571	}{	Hmmm! L'olio di ermellino che ho usato per il nuovo distintivo, l'ha reso proprio brillante..!	}{	Hmmm! L'olio di ermellino che ho usato per il nuovo distintivo, l'ha reso proprio brillante..!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	572	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	573	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	574	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	575	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	576	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	577	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	578	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	579	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	580	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	573	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	574	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	575	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	576	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	577	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	578	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	579	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	580	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	581	}{	Telecamera trentuno... niente. Telecamera trentadue... niente. Telecamera trentatre'... scopata d'ufficio. Telecamera trentaquattro...niente.	}{	Telecamera trentuno... niente. Telecamera trentadue... niente. Telecamera trentatre'... scopata d'ufficio. Telecamera trentaquattro...niente.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	582	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	583	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	584	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	585	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	586	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	587	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	588	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	589	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	590	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	583	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	584	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	585	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	586	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	587	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	588	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	589	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	590	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	591	}{	Huh! Tutti questi monitor e neanche una fica, eh!	}{	Huh! Tutti questi monitor e neanche una fica, eh!	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	592	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	593	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	594	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	595	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	596	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	597	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	598	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	599	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	600	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	593	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	594	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	595	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	596	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	597	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	598	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	599	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	600	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	601	}{	Telecamera settantotto... niente. Telecamera settantanove... niente. Telecamera ottanta... niente. Telecamera ottantuno... hey, he-e-e-y, hey - quello sono io! Ehila', Chunk! Buon lavoro! Lavora sodo.	}{	Telecamera settantotto... niente. Telecamera settantanove... niente. Telecamera ottanta... niente. Telecamera ottantuno... hey, he-e-e-y, hey - quello sono io! Ehila', Chunk! Buon lavoro! Lavora sodo.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	602	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	603	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	604	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	605	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	606	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	607	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	608	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	609	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	610	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
+{	603	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	604	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	605	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	606	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	607	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	608	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	609	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	610	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	611	}{	Telecamera tredici... niente. Telecamera quattordici... niente. Telecamera quindici... ooh, ehi, ehi amico, dov'e' il fuoco, eh!?! Telecamera sedici... oh, oh eccolo.	}{	Telecamera tredici... niente. Telecamera quattordici... niente. Telecamera quindici... ooh, ehi, ehi amico, dov'e' il fuoco, eh!?! Telecamera sedici... oh, oh eccolo.	}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
 {	612	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	613	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	614	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	615	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	616	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	617	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	618	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	619	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	620	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	621	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	622	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	623	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	624	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	625	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	626	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	627	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	628	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	629	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	630	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	631	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	632	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	633	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	634	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	635	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	636	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	637	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	638	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	639	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	640	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	641	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	642	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	643	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	644	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	645	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	646	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	647	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	648	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	649	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	650	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	651	}{		}{		}{	#	}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	652	}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}{		}
-{	653	}{	(Starting Condition)	}{		}{	461	}{	G.Chunk_Spooked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	654	}{	(Starting Condition)	}{		}{	431	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	655	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 125 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	656	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 125	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	657	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 120 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	658	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 120	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	659	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 115 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	660	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 115	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	661	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 6	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	662	}{	(Starting Condition)	}{		}{	411	}{	G.Story_State == 110	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	663	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 100 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	664	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 100	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	665	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 5	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	666	}{	(Starting Condition)	}{		}{	311	}{	G.Story_State == 80 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	667	}{	(Starting Condition)	}{		}{	281	}{	G.Story_State == 80	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	668	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 60	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	669	}{	(Starting Condition)	}{		}{	241	}{	G.Story_State >= 35 and G.Story_State < 70	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	670	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 30 and G.Chunk_Open == 4	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	671	}{	(Starting Condition)	}{		}{	211	}{	G.Story_State == 30	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	672	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 3	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	673	}{	(Starting Condition)	}{		}{	191	}{	G.Story_State == 20	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	674	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 15 and G.Chunk_Open == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	675	}{	(Starting Condition)	}{		}{	181	}{	G.Story_State == 15 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	676	}{	(Starting Condition)	}{		}{	151	}{	G.Story_State == 15	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	677	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	678	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 10 and G.Chunk_Open == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	679	}{	(Starting Condition)	}{		}{	21	}{	G.Story_State == 10 and G.Chunk_Feed == 1 and not IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	680	}{	(Starting Condition)	}{		}{	1	}{	G.Story_State == 10 and G.Chunk_Befriend > 1 and not IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	681	}{	(Starting Condition)	}{		}{	11	}{	G.Story_State == 10 and G.Chunk_Befriend == 0 and not IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}
-{	682	}{	(Starting Condition)	}{		}{	31	}{	G.Story_State == 10 and IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	613	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	614	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	615	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	616	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	617	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	618	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	619	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	620	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	621	}{	Ehi! Lascia stare.	}{	Ehi! Lascia stare.	}{	#	}{		}{	G.Chunk_Reset = 0	}{		}{		}{		}{		}{		}{		}{		}
+{	622	}{	Scusa.	}{	Scusa.	}{	0	}{		}{		}{		}{		}{		}{		}{		}{		}{	Ops.	}
+{	623	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	624	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	625	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	626	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	627	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	628	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	629	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	630	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	631	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	632	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	633	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	634	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	635	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	636	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	637	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	638	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	639	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	640	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	641	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	642	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	643	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	644	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	645	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	646	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	647	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	648	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	649	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	650	}{		}{		}{	421	}{	G.Chunk_Skip == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	651	}{		}{		}{	621	}{	G.Chunk_Reset == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	652	}{	(Starting Condition)	}{		}{	461	}{	G.Chunk_Spooked == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	653	}{	(Starting Condition)	}{		}{	431	}{	IsClan(pc,"Nosferatu")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	654	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 125 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	655	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 125	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	656	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 120 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	657	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 120	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	658	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 115 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	659	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 115	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	660	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 6	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	661	}{	(Starting Condition)	}{		}{	411	}{	G.Story_State == 110	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	662	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 105 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	663	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 105	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	664	}{	(Starting Condition)	}{		}{	371	}{	G.Story_State == 100 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	665	}{	(Starting Condition)	}{		}{	361	}{	G.Story_State == 100	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	666	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 5	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	667	}{	(Starting Condition)	}{		}{	311	}{	G.Story_State == 80 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	668	}{	(Starting Condition)	}{		}{	281	}{	G.Story_State == 80	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	669	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 60	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	670	}{	(Starting Condition)	}{		}{	471	}{	G.Story_State >= 35 and G.Story_State < 70 and G.Chunk_Sorry == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	671	}{	(Starting Condition)	}{		}{	241	}{	G.Story_State >= 35 and G.Story_State < 70	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	672	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 30 and G.Chunk_Open == 4	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	673	}{	(Starting Condition)	}{		}{	211	}{	G.Story_State == 30	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	674	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 3	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	675	}{	(Starting Condition)	}{		}{	191	}{	G.Story_State == 20	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	676	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 15 and G.Chunk_Open == 2	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	677	}{	(Starting Condition)	}{		}{	181	}{	G.Story_State == 15 and G.Chunk_Seduce == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	678	}{	(Starting Condition)	}{		}{	151	}{	G.Story_State == 15	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	679	}{	(Starting Condition)	}{		}{	141	}{	G.Chunk_Open == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	680	}{	(Starting Condition)	}{		}{	141	}{	G.Story_State == 10 and G.Chunk_Open == 1	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	681	}{	(Starting Condition)	}{		}{	21	}{	G.Story_State == 10 and G.Chunk_Feed == 1 and not IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	682	}{	(Starting Condition)	}{		}{	1	}{	G.Story_State == 10 and G.Chunk_Befriend > 1 and not IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	683	}{	(Starting Condition)	}{		}{	11	}{	G.Story_State == 10 and G.Chunk_Befriend == 0 and not IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}
+{	684	}{	(Starting Condition)	}{		}{	31	}{	G.Story_State == 10 and IsDead("Chunk")	}{		}{		}{		}{		}{		}{		}{		}{		}

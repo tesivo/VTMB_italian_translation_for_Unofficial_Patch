@@ -136,26 +136,8 @@ Rimosso dal database su richiesta della Chiesa della Sollecitologia."   // chang
 			"name"		"Rivers, Ash"
 			"description"	"Ash Rivers"
 			"runtext"	"Ash Rivers
-Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers trascorre molto tempo ad amministrare il suo club, l'Asp Hole, che si trova qui nel cuore di Hollywood."
-		"dependency"	"G.Story_State < 65"	// added by wesp
-		}
-
-				Function
-		{
-			"name"		"Rivers, Ash"
-			"description"	"Ash Rivers"
-			"runtext"	"Ash Rivers
-Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers ha passato la maggior parte del suo tempo a gestire il suo club, l'Asp Hole, fino a quando non e' stato pugnalato a morte proprio li' da un pazzo."	// changed by wesp
-		"dependency"	"G.Ash_Leave == 0 and G.Story_State >= 65"	// added by wesp
-		}
-
-				Function
-		{
-			"name"		"Rivers, Ash"
-			"description"	"Ash Rivers"
-			"runtext"	"Ash Rivers
-Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers ha passato la maggior parte del suo tempo a gestire il suo club, l'Asp Hole, fino a quando non e' stato pugnalato a morte proprio li' da un pazzo."	// changed by wesp
-		"dependency"	"G.Ash_Switch == 2 and G.Story_State >= 65"	// added by wesp
+Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers trascorre molto tempo ad amministrare il suo club, l'Asp Hole, che si trova qui nel cuore di Hollywood."	// changed by wesp
+		"dependency"	"G.Ashlookalike_Dead == 0 or G.PP == 0"		// added by wesp
 		}
 
 		Function
@@ -163,8 +145,8 @@ Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama cr
 			"name"		"Rivers, Ash"
 			"description"	"Ash Rivers"
 			"runtext"	"Ash Rivers
-Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers ha passato la maggior parte del suo tempo a gestire il suo club, l'Asp Hole, fino a quando e' misteriosamente scomparso poco tempo fa."	// changed by wesp
-		"dependency"	"G.Ash_Leave == 1 and G.Story_State >= 65"	// added by wesp
+Dopo la sua performance nel film \"Negative Zero\", Rivers ha guadagnato fama critica e commerciale in tre film, prima di annunciare il ritiro improvviso dalle scene. Rivers ha passato la maggior parte del suo tempo a gestire il suo club, l'Asp Hole, fino a quando non e' stato pugnalato a morte proprio li' da un pazzo."	// changed by wesp
+		"dependency"	"G.Ashlookalike_Dead == 1 and G.PP == 1"	// added by wesp
 		}
 
 	}

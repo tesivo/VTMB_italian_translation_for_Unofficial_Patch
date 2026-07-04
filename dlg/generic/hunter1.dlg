@@ -1,0 +1,200 @@
+{	1	}{	Benvenuto, fratello, nelle terre pagane del nuovo mondo. La Santa Sede ti ha mandato qui per ricostruire questa base per la guerra contro le forze demoniache che tormentano ancora la città di Los Angeles.	}{	Benvenuta, sorella, nelle terre pagane del nuovo mondo. La Santa Sede ti ha mandato qui per ricostruire questa base per la guerra contro le forze demoniache che tormentano ancora la città di Los Angeles.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Ricostruire? In nome del Signore, cos'è successo?	}{	Ricostruire? In nome del Signore, cos'è successo?	}{	11	}{	}{	G.Hunter1_Talked = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Poco tempo fa, un potente servitore di Satana ha attaccato questo monastero e di conseguenza l'intera sezione sotterranea è crollata. Ora la occupiamo di nuovo per tenere d'occhio questa fogna di dannati.	}{	Poco tempo fa, un potente servitore di Satana ha attaccato questo monastero e di conseguenza l'intera sezione sotterranea è crollata. Ora la occupiamo di nuovo per tenere d'occhio questa fogna di dannati.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Capisco. Allora cosa posso fare per la Gloria del nostro Signore?	}{	Capisco. Allora cosa posso fare per la Gloria del nostro Signore?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Molto. I fantasmi sono tornati al tempio di Chinatown, così come le forze del male all'hotel Hallowbrook. Abbiamo anche sentito parlare di una villa italiana che ospita zombie e vampiri sanguinari che scatenano il caos per le strade di Santa Monica.	}{	Molto. I fantasmi sono tornati al tempio di Chinatown, così come le forze del male all'hotel Hallowbrook. Abbiamo anche sentito parlare di una villa italiana che ospita zombie e vampiri sanguinari che scatenano il caos per le strade di Santa Monica.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Ripulire il tempio di Chinatown dovrebbe essere facile.	}{	Ripulire il tempio di Chinatown dovrebbe essere facile.	}{	31	}{	}{	pc.SetQuest("Hunter Temple",1); G.Hunter_Temple = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	L'hotel Hallowbrook è la mia prima destinazione.	}{	L'hotel Hallowbrook è la mia prima destinazione.	}{	31	}{	}{	pc.SetQuest("Hunter Hallowbrook",1); G.Hunter_Hallowbrook = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Ho sempre voluto visitare una villa italiana.	}{	Ho sempre voluto visitare una villa italiana.	}{	31	}{	}{	pc.SetQuest("Hunter Giovanni",1); G.Hunter_Giovanni = 1; G.GioBotchedInside = 1; G.GioBotchedOutside = 1; G.Bruno_Killed = 1; G.Dodge_Book = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	Mettere ordine a Santa Monica è la cosa più importante.	}{	Mettere ordine a Santa Monica è la cosa più importante.	}{	31	}{	}{	pc.SetQuest("Hunter Bloodhunt",1); G.Hunter_Bloodhunt = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Allora vai avanti con la Sua benedizione.	}{	Allora vai avanti con la Sua benedizione.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Amen.	}{	Amen.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Sono meravigliose notizie, sia lodato il Signore. Ecco, prendi questo come ricompensa.	}{	Sono meravigliose notizie, sia lodato il Signore. Ecco, prendi questo come ricompensa.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	I fantasmi del tempio sono i prossimi.	}{	I fantasmi del tempio sono i prossimi.	}{	0	}{	G.Hunter_Temple == 0	}{	pc.SetQuest("Hunter Temple",1); G.Hunter_Temple = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	Ora scaccerò le forze del male dall'hotel.	}{	Ora scaccerò le forze del male dall'hotel.	}{	0	}{	G.Hunter_Hallowbrook == 0 }{	pc.SetQuest("Hunter Hallowbrook",1); G.Hunter_Hallowbrook = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	La villa con gli zombie è il mio obiettivo.	}{	La villa con gli zombie è il mio obiettivo.	}{	0	}{	G.Hunter_Giovanni == 0	}{	pc.SetQuest("Hunter Giovanni",1); G.Hunter_Giovanni = 1; G.GioBotchedInside = 1; G.GioBotchedOutside = 1; G.Bruno_Killed = 1; G.Dodge_Book = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	La Morte Suprema si abbatterà sui vampiri di Santa Monica.	}{	La Morte Suprema si abbatterà sui vampiri di Santa Monica.	}{	0	}{	G.Hunter_Bloodhunt == 0	}{	pc.SetQuest("Hunter Bloodhunt",1); G.Hunter_Bloodhunt = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	50	}{	C'è qualcos'altro da fare per la Sua gloria?	}{	C'è qualcos'altro da fare per la Sua gloria?	}{	51	}{	G.Hunter_Temple == 3 and G.Hunter_Hallowbrook == 3 and G.Hunter_Giovanni == 3 and G.Hunter_Bloodhunt == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Infatti. Abbiamo appena ricevuto una chiamata da una sentinella vicino alla strada principale che conduce alla nostra base. Sostiene di aver visto un camion pieno di vampiri dirigersi verso di noi.	}{	Infatti. Abbiamo appena ricevuto una chiamata da una sentinella vicino alla strada principale che conduce alla nostra base. Sostiene di aver visto un camion pieno di vampiri dirigersi verso di noi.	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Cosa dovremmo fare?	}{	Cosa dovremmo fare?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Fratello, hai esorcizzato i fantasmi del tempio?	}{	Sorella, hai esorcizzato i fantasmi del tempio?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Certamente. I loro cadaveri sono tutto ciò che resta della loro oscura presenza.	}{	Certamente. I loro cadaveri sono tutto ciò che resta della loro oscura presenza.	}{	41	}{	}{	G.Hunter_Temple = 3; pc.SetQuest("Hunter Temple",2); pc.MoneyAdd(100)	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	L'hotel Hallowbrook è stato ripulito da tutte le forze del male, fratello?	}{	L'hotel Hallowbrook è stato ripulito da tutte le forze del male, sorella?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Sì, esatto. Le loro ceneri e i loro corpi ora si mescolano alla sporcizia.	}{	Sì, esatto. Le loro ceneri e i loro corpi ora si mescolano alla sporcizia.	}{	41	}{	}{	pc.SetQuest("Hunter Hallowbrook",2); G.Hunter_Hallowbrook = 3; pc.MoneyAdd(100)	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Quindi avete davvero trovato degli zombie nella villa italiana?	}{	Quindi avete davvero trovato degli zombie nella villa italiana?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Infatti, e mi sono assicurato che restassero morti per sempre.	}{	Infatti, e mi sono assicurato che restassero morti per sempre.	}{	41	}{	}{	pc.SetQuest("Hunter Giovanni",2); G.Hunter_Giovanni = 3; pc.MoneyAdd(100)	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Le strade di Santa Monica sono di nuovo sicure per i figli di Dio?	}{	Le strade di Santa Monica sono di nuovo sicure per i figli di Dio?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Sì, e molte creature demoniache ora bruciano all'inferno.	}{	Sì, e molte creature demoniache ora bruciano all'inferno.	}{	41	}{	}{	pc.SetQuest("Hunter Bloodhunt",2); G.Hunter_Bloodhunt = 3; pc.MoneyAdd(100)	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	Abbiamo già bloccato il tunnel delle fogne, quindi la strada dalla via principale è il loro unico modo per entrare. Di recente hanno testato le nostre difese mandando dei ghoul, quindi la trappola esplosiva è ancora impostata su umano. Il tuo sotto-obiettivo è cambiarla su vampiro, la password è soc.	}{	Abbiamo già bloccato il tunnel delle fogne, quindi la strada dalla via principale è il loro unico modo per entrare. Di recente hanno testato le nostre difese mandando dei ghoul, quindi la trappola esplosiva è ancora impostata su umano. Il tuo sotto-obiettivo è cambiarla su vampiro, la password è soc.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Considerala fatta. E qual è il mio obiettivo principale?	}{	Considerala fatta. E qual è il mio obiettivo principale?	}{	121	}{	}{	pc.SetQuest("Hunter Society",1); G.Hunter_Society = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Difendere il monastero, ovviamente. Abbiamo sbarrato le porte sul retro, ma non devono penetrare dall'ingresso principale. Lo chiuderemo non appena inizierà l'attacco, ma siamo comunque a corto di uomini e non saremmo in grado di difendere l'interno a lungo.	}{	Difendere il monastero, ovviamente. Abbiamo sbarrato le porte sul retro, ma non devono penetrare dall'ingresso principale. Lo chiuderemo non appena inizierà l'attacco, ma siamo comunque a corto di uomini e non saremmo in grado di difendere l'interno a lungo.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Non sarà necessario, perché il Signore combatte al mio fianco.	}{	Non sarà necessario, perché il Signore combatte al mio fianco.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	123	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	138	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	139	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	140	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	Allora, hai piazzato la trappola esplosiva?	}{	Allora, hai piazzato la trappola esplosiva?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Non ancora, lo farò subito.	}{	Non ancora, lo farò subito.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	143	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	144	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	145	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	146	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	147	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	155	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	156	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Sia lodato il Signore, abbiamo sventato l'attacco dei profani! Ora è tempo per te di riposare e recuperare le forze. Ti chiamerò se ci sarà altro da fare.	}{	Sia lodato il Signore, abbiamo sventato l'attacco dei profani! Ora è tempo per te di riposare e recuperare le forze. Ti chiamerò se ci sarà altro da fare.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Attenderò umilmente finché Dio non avrà di nuovo bisogno di me.	}{	Attenderò umilmente finché Dio non avrà di nuovo bisogno di me.	}{	0	}{	}{	pc.SetQuest("Hunter Society",3); G.Hunter_Finished = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	163	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	164	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	165	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	166	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	167	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	168	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	169	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	170	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	171	}{	Mi dispiace, ma non ho nuovi incarichi per te.	}{	Mi dispiace, ma non ho nuovi incarichi per te.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Amen.	}{	Amen.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	173	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	174	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	175	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	176	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	177	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	178	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	Sei pronto a combattere per il nostro Signore ora?	}{	Sei pronto a combattere per il nostro Signore ora?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Andrò con la Sua benedizione.	}{	Andrò con la Sua benedizione.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	183	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	184	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	185	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	186	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	188	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	189	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	190	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	(Starting Condition)	}{	}{	171	}{	G.Hunter_Finished == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	193	}{	(Starting Condition)	}{	}{	161	}{	G.Hunter_Society == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	194	}{	(Starting Condition)	}{	}{	141	}{	G.Hunter_Society == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	195	}{	(Starting Condition)	}{	}{	91	}{	G.Hunter_Bloodhunt == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	196	}{	(Starting Condition)	}{	}{	81	}{	G.Hunter_Giovanni == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	197	}{	(Starting Condition)	}{	}{	71	}{	G.Hunter_Hallowbrook == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	198	}{	(Starting Condition)	}{	}{	61	}{	G.Hunter_Temple == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	199	}{	(Starting Condition)	}{	}{	181	}{	G.Hunter1_Talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	200	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -22,7 +22,7 @@ DisciplineTgt
 	"BloodCost"		"1"
 	"Overt"		"0"
 	"SupernaturalLvl"	"0"
-	"RecoveryTime"	"7.0"	// changed by wesp
+	"RecoveryTime"	"4.0" 
 	"ShouldRemove_OnTakeDamage"	"1"
 	"ShouldRemove_OnWasBumped"	"1"
 
@@ -83,19 +83,6 @@ DisciplineTgt
 //
 // ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
 //
-
-		Affects_Table	// added by wesp
-		{
-			Affects_Filters
-			{
-				"CharTemplate"		"Doggie"
-			}
-
-			Mapping
-			{
-				"HitTable"	"Hit_Invulnerable"
-			}
-		}
 
 		Affects_Table	// added by Populism
 		{
@@ -189,8 +176,8 @@ DisciplineTgt
 				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
 		}
-
-		Affects_Table
+	
+            Affects_Table
 		{
 			Affects_Filters
 			{
@@ -489,8 +476,8 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
-		"Duration"			"3"	// In order to play particles/etc.
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism	
+                "Duration"			"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
@@ -517,7 +504,7 @@ DisciplineTgt
 			}
 		}
 	}
-
+        
 	Hit_Strata_1
 	{
 		"InheritFrom"		"Hit_Human"
@@ -533,7 +520,7 @@ DisciplineTgt
 	Hit_Strata_3
 	{
 		"InheritFrom"		"Hit_Supernatural_NoEffect"
-	}
+       	}
 
 	Hit_Strata_4
 	{
@@ -644,22 +631,9 @@ DisciplineTgt
 // ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
 //
 
-		Affects_Table	// added by wesp
-		{
-			Affects_Filters
-			{
-				"CharTemplate"		"Doggie"
-			}
-
-			Mapping
-			{
-				"HitTable"	"Hit_Invulnerable"
-			}
-		}
-
             Affects_Table	// added by Populism
 		{
-
+		
                   Affects_Filters
 	            {
 				"CharTemplate"	"TzimisceCreation1"
@@ -669,7 +643,7 @@ DisciplineTgt
 			{
 				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
-		}
+		}		
 
 		Affects_Table	// added by Populism
 		{
@@ -686,7 +660,7 @@ DisciplineTgt
 			}
 		}
 
-		Affects_Table
+            Affects_Table
 		{
 			Affects_Filters
 			{
@@ -940,8 +914,8 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-	        "AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
-		"Duration"			"3"	// In order to play particles/etc.
+	        "AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism		
+                "Duration"			"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
@@ -969,7 +943,7 @@ DisciplineTgt
 		}
 	}
 
-
+        
 	Hit_Strata_1 // TJP needs to update once JLR completes revision
 	{
 		"InheritFrom"		"Hit_Human"
@@ -984,8 +958,8 @@ DisciplineTgt
 	Hit_Strata_3
 	{
 		"InheritFrom"		"Hit_Human"
-		"Duration"			"3"
-	}
+	      "Duration"              "3"
+      }
 
 	Hit_Strata_4
 	{
@@ -1101,7 +1075,7 @@ DisciplineTgt
 
 			Mapping
 			{
-				"HitTable"	"Hit_Invulnerable"
+				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
 		}
 
@@ -1185,52 +1159,10 @@ DisciplineTgt
 			}
 		}
 
-            Affects_Table	// added by Populism
-		{
-
+            Affects_Table
+		{		
                   Affects_Filters
 	            {
-				"CharTemplate"	"TzimisceCreation1"
-			}
-
-			Default_Mapping
-			{
-				"HitTable"	"Hit_Supernatural_PartialEffect"	// changed by wesp
-			}
-		}
-
-            Affects_Table	// added by Populism
-		{
-
-                  Affects_Filters
-	            {
-				"CharTemplate"	"TzimisceCreation2"
-			}
-
-			Default_Mapping
-			{
-				"HitTable"	"Hit_Supernatural_PartialEffect"	// changed by wesp
-			}
-		}
-
-            Affects_Table	// added by Populism
-		{
-
-                  Affects_Filters
-	            {
-				"CharTemplate"	"TzimisceCreation3"
-			}
-
-			Default_Mapping
-			{
-				"HitTable"	"Hit_Supernatural_PartialEffect"	// changed by wesp
-			}
-		}
-
-		Affects_Table
-		{
-			Affects_Filters
-			{
 				"DisciplineStrata"	"0"
 			}
 
@@ -1461,7 +1393,7 @@ DisciplineTgt
 	Hit_Human
 	{
 		"AI_Schedule"		"SCHED_TROIKA_D_SUICIDE"	// This schedule picks appropriate animation/etc.
-		"AddToComfort"		"0"	// changed by wesp
+		"AddToComfort"		"1"
 		"Duration"		"-1"	// Infinite
 
 		Effect_Tgt_Hit
@@ -1580,8 +1512,8 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
-		"Duration"			"3"	// In order to play particles/etc.
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism	
+            "Duration"			"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
@@ -1752,7 +1684,7 @@ DisciplineTgt
 
 			Mapping
 			{
-				"HitTable"	"Hit_Invulnerable"
+				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
 		}
 
@@ -1868,11 +1800,11 @@ DisciplineTgt
 				"HitTable"	"Hit_Strata_Partial"
 			}
 
-//			Mapping
-//			{
-//	Populism			"Chance"	"20%"
-//				"HitTable"	"Hit_Strata_Kill"
-//			}
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
 
 			Default_Mapping
 			{
@@ -1899,11 +1831,11 @@ DisciplineTgt
 				"HitTable"	"Hit_Strata_Partial"
 			}
 
-//			Mapping
-//			{
-//	Populism			"Chance"	"20%"
-//				"HitTable"	"Hit_Strata_Kill"
-//			}
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
 
 			Default_Mapping
 			{
@@ -1930,11 +1862,11 @@ DisciplineTgt
 				"HitTable"	"Hit_Strata_Partial"
 			}
 
-//			Mapping
-//			{
-//	Populism			"Chance"	"20%"
-//				"HitTable"	"Hit_Strata_Kill"
-//			}
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
 
 			Default_Mapping
 			{
@@ -1961,11 +1893,11 @@ DisciplineTgt
 				"HitTable"	"Hit_Strata_Partial"
 			}
 
-//			Mapping
-//			{
-//	Populism			"Chance"	"20%"
-//				"HitTable"	"Hit_Strata_Kill"
-//			}
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
 
 			Default_Mapping
 			{
@@ -2124,7 +2056,7 @@ DisciplineTgt
 
 		TraitEffect
 		{
-			"Effect"		"Discipline (Dominate-Possession)"
+			"Effect"		"Discipline (Domination-Possession)"
 		}
 
 		Effect_Tgt_Hit
@@ -2155,7 +2087,7 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-		"Duration"			"3"	// In order to play particles/etc.
+           "Duration"			"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
@@ -2186,7 +2118,7 @@ DisciplineTgt
 	Hit_Supernatural_ChangBrosClaw	// changed by wesp
 	{
 		"InheritFrom"		"Hit_Supernatural_NoEffect"
-
+		
 //		"InheritFrom"		"Hit_Human"
 //		"Duration"		"13-15"
 //		OnEnd
@@ -2201,11 +2133,11 @@ DisciplineTgt
 		"Duration"		"10-15"
 	}
 	
-//	Hit_Strata_Kill
-//	{
-//		"InheritFrom"		"Hit_Human"
-// Populism	"Duration"		"1-2"
-//	}
+	Hit_Strata_Kill
+	{
+		"InheritFrom"		"Hit_Human"
+		"Duration"		"1-2"
+	}
 
 	Hit_Strata_1
 	{
@@ -2373,7 +2305,7 @@ DisciplineTgt
 
 			Mapping
 			{
-				"HitTable"	"Hit_Invulnerable"
+				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
 		}
 
@@ -2385,48 +2317,6 @@ DisciplineTgt
 			}
 
 			Mapping
-			{
-				"HitTable"	"Hit_Supernatural_NoEffect"
-			}
-		}
-
-            Affects_Table	// added by Populism
-		{
-
-                  Affects_Filters
-	            {
-				"CharTemplate"	"TzimisceCreation1"
-			}
-
-			Default_Mapping
-			{
-				"HitTable"	"Hit_Supernatural_NoEffect"
-			}
-		}
-
-            Affects_Table	// added by Populism
-		{
-
-                  Affects_Filters
-	            {
-				"CharTemplate"	"TzimisceCreation2"
-			}
-
-			Default_Mapping
-			{
-				"HitTable"	"Hit_Supernatural_NoEffect"
-			}
-		}
-
-            Affects_Table	// added by Populism
-		{
-
-                  Affects_Filters
-	            {
-				"CharTemplate"	"TzimisceCreation3"
-			}
-
-			Default_Mapping
 			{
 				"HitTable"	"Hit_Supernatural_NoEffect"
 			}
@@ -2445,11 +2335,18 @@ DisciplineTgt
 				"Chance"	"60%"
 				"HitTable"	"Hit_Supernatural_Primary"
 			}
+			
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
 
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Strata_1_Partial_Resist"
 			}
+			
 		}
 
 		Affects_Table
@@ -2463,6 +2360,12 @@ DisciplineTgt
 			{
 				"Chance"	"60%"
 				"HitTable"	"Hit_Supernatural"
+			}
+			
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
 			}
 
 			Default_Mapping
@@ -2485,6 +2388,12 @@ DisciplineTgt
 				"HitTable"	"Hit_Supernatural_Primary"
 			}
 
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
+			
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Strata_2_Partial_Resist"
@@ -2502,6 +2411,12 @@ DisciplineTgt
 			{
 				"Chance"	"40%"
 				"HitTable"	"Hit_Supernatural"
+			}
+			
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
 			}
 
 			Default_Mapping
@@ -2524,6 +2439,12 @@ DisciplineTgt
 				"HitTable"	"Hit_Supernatural_Primary"
 			}
 
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
+			
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Strata_3_Partial_Resist"
@@ -2543,6 +2464,12 @@ DisciplineTgt
 				"HitTable"	"Hit_Supernatural"
 			}
 
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
+			
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Strata_3_Partial_Resist"
@@ -2562,7 +2489,13 @@ DisciplineTgt
 				"Chance"	"40%"
 				"HitTable"	"Hit_Supernatural_Primary"
 			}
-
+			
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
+			
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Strata_4_Partial_Resist"
@@ -2582,6 +2515,12 @@ DisciplineTgt
 				"HitTable"	"Hit_Supernatural"
 			}
 
+			Mapping	// added by wesp
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Strata_Kill"
+			}
+			
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Strata_4_Partial_Resist"
@@ -2952,10 +2891,10 @@ DisciplineTgt
 //		}
 //	}
 
-	Hit_Supernatural_NoEffect
+      Hit_Supernatural_NoEffect
 	{
 	       "AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
-		"Duration"			"3"	// In order to play particles/etc.
+               "Duration"		"3"	// In order to play particles/etc.
 
 		Effect_Tgt_Hit
 		{
