@@ -1,0 +1,2872 @@
+// Primary Clan Docs
+
+ClanDataTables
+{
+	ClanData
+	{
+		// "No" Clan Doc (i.e., Human/Kine Base)
+
+		// Warning: Don't modify this template! It needs to match Stats.txt defaults!
+		//	Instead, modify individual templates (or make a central one that they all share).
+
+		Text
+		{
+			"TemplateName"		"Clear"
+			"Name"			"None"
+			"Description"		"None"
+		}
+
+		General
+		{
+			"Clan"			"None"
+			"M_Body"		"models/character/npc/unique/society_of_leopold/average_vampire_hunter/average_vampire_hunter.mdl"	// changed by wesp
+			"Gender"		"Male, Female"
+			"Kindred"		"0"
+			"Supernatural"	"0"
+			"Boss"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+			"DeathGib"		"models/gibs/hgibs.mdl"
+		}
+
+		Attributes
+		{
+//			"Attrib_Order"				"Physical_Mental_Social"
+			"Strength"				"1"
+			"Dexterity"				"1"
+			"Stamina"				"1"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"1"
+			"Intelligence"				"1"
+			"Wits"					"1"
+// Warning: Don't modify this template! It needs to match Stats.txt defaults!
+//	Instead, modify individual templates (or make a central one that they all share).
+//			"Max_Health"				"10"
+
+			"BloodPool"				"10"
+			"FaithPoints"				"15"
+			"Starting_Equipment"			"Default"
+			"Excluded_Equipment"			"Default"
+
+		}
+
+		Abilities
+		{
+//			"Ability_Order"				"Skills_Knowledges_Talents"
+//			"Athletics"				"0"
+			"Brawl"					"0"
+			"Dodge"					"0"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+//			"Animal_Ken"				"0"
+			"Firearms"				"0"
+			"Melee"					"0"
+			"Security"				"0"
+			"Stealth"				"0"
+			"Computer"				"0"
+			"Finance"				"0"
+			"Investigation"				"0"
+//			"Occult"				"0"
+		}
+
+		//	Disciplines
+
+		//	Numina
+		Numina
+		{
+		}
+
+		//	Resistances
+		Resistances
+		{
+			// Possibilities are: "None", "Partial", "Full"
+			// Ones that support damages can have their damages overridden via "Partial DMG: 3" for example
+
+			// Dementation:
+			"Veil of Madness"		""
+			"The Haunting"		""
+			"Voice of Madness"	""
+			"Waking Nightmare"	""
+			"Total Insanity"		""
+
+			// Dominate:
+			"Calm"			""
+			"Dance"			""
+			"Follow"			""
+			"Hide"			""
+			"Jump"			""
+			"Leave"			""
+			"Mesmerize"			""
+			"Sleep"			""
+			"Impose Will"		""	// DMG
+			"Possession"		""
+
+			// Thaumaturgy:
+			"Blood Malady"		""
+			"Bloody Eye"		""
+			"Theft of Vitae"		""
+			"Blood Purge"		""	// changed by wesp
+			"Blood Boil"		""	// DMG
+		}
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+
+			// Note: This would be used for clans added later (via user mods/etc.), to extend the original clans...
+			From
+			{
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		// "No" Clan Doc (i.e., Human/Kine Base)
+
+		Text
+		{
+			"TemplateName"		"Human"
+			"Name"			"Nessuno"
+			"Description"		"Un normale umano."
+		}
+
+		General
+		{
+			"Clan"			"None"
+///			"Body"			"Human"
+			"M_Body"		"models/character/npc/unique/society_of_leopold/average_vampire_hunter/average_vampire_hunter.mdl"	// changed by wesp
+			"Gender"		"Male, Female"
+//			"History"		"None, Raised by Snake Handlers, Charmed Life, Ex-Cop"
+//			"ClanEffect"		""
+//			"FrenzyEffect"		""
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+//			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"	"15"
+			"Starting_Equipment"	"Default"
+			"Excluded_Equipment"	"Default"
+//			"Experience"		"40"
+		}
+
+		Abilities
+		{
+//			"Ability_Order"	"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+//			"Occult"		"0"
+		}
+
+		//	Disciplines
+
+		//	Numina
+		Numina
+		{
+//			"Shield_of_Faith"	"1"
+//			"Divine_Vision"		"1"
+//			"Holy_Light"		"1"
+//			"Mind_Shield"		"1"
+		}
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+
+			// Note: This would be used for clans added later (via user mods/etc.), to extend the original clans...
+			From
+			{
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Brujah"
+			"Name"				"Brujah"
+			"Description"			"I Brujah sono idealisti e ribelli, impiegano il loro tempo a lottare per i loro diritti oltre che a scrivere canzoni di protesta. Nella vita, molti Brujah vanno alla ricerca di un cambiamento sociale e, nella loro non morte, molti membri del clan cercano tutti insieme la creazione di un'Utopia Vampirica. Come militaristi radicali, sono rinomati per le loro capacita' combattive, ma sono anche piu' pazzi a causa del loro sangue caldo. Ricevono +1 in rissa ma sono penalizzati di -2 quando impazziscono a causa della loro zelante natura."
+			"ShortDescription"		"
+Vantaggi: +1 in Rissa. Puo' usare Presenza nei dialoghi."
+		}
+
+		General
+		{
+			"Clan"			"Brujah"
+			"M_Body0"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/brujah/armor1/brujah_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/brujah/armor2/brujah_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/brujah/armor1/brujah_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/brujah/armor2/brujah_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"M_Hands"		"models/hands/male/brujah/v_brujah_male_hands.mdl"	// restored by wesp
+//			"F_Hands"		"models/hands/female/brujah/v_brujah_fem_hands.mdl"
+//	wesp		"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Brujah)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_brujah"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"1"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+//"Max_Health"				"10"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Brujah_CharGen"
+			"Default_AutoLevel_Template"	"Brujah_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Skills_Knowledges"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Celerity"		"1"
+			"Potence"		"1"
+			"Presence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+20"
+				"Gangrel"		"+10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"+40"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Gangrel"
+			"Name"				"Gangrel"
+			"Description"			"I Gangrel sono barbari solitari i quali sono per la maggior parte in comunicazione stretta con la loro Bestia Interna, permettendogli di mutare in diverse forme animalesche. Nomadi di natura, i Gangrel si curano poco della politica dei vampiri e preferiscono risiedere e cacciare nelle periferie della societa'. A causa della loro natura animale, ricevono +5 in Forza, Prontezza e Costituzione durante la pazzia ma, a causa della loro inerente natura selvaggia, i Gangrel ricevono -1 su tutti i controlli della Pazzia."
+			"ShortDescription"		"
+Vantaggi: +5 in Forza, Prontezza e Costituzione durante la pazzia."
+			"ShortPenaltyDescription"	"Svantaggi: -1 sul controllo delle pazzie."
+		}
+
+		General
+		{
+			"Clan"			"Gangrel"
+			"M_Body0"		"models/character/pc/male/gangrel/armor_0/Gangrel_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/gangrel/armor_1/Gangrel_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/gangrel/armor_2/Gangrel_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/gangrel/armor0/Gangrel_female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/gangrel/armor1/Gangrel_female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/gangrel/armor2/Gangrel_female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/gangrel/v_gangrel_male_hands.mdl"		// restored by wesp
+			"F_Hands"		"models/hands/female/gangrel/v_gangrel_female_hands.mdl"		// restored by wesp
+//	wesp		"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//	wesp		"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Close to the Beast, Black-Hearted, Avid RPG Fan, Eco-Terrorist Hacker, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Gangrel)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+//			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_gangrel"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"2"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Gangrel_CharGen"
+			"Default_AutoLevel_Template"	"Gangrel_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Talents_Knowledges"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Animalism"		"1"
+			"Fortitude"		"1"
+			"Protean"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+15"
+				"Gangrel"		"+20"
+				"Malkavian"		"+5"
+				"Nosferatu"		"+30"
+				"Toreador"		"-10"
+				"Tremere"		"-15"
+				"Ventrue"		"-10"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Malkavian"
+			"Name"				"Malkavian"
+			"Description"			"I Malkavian sono considerati lunatici per la loro abilita' di sentire le voci della \"coscienza\" e soggiogare gli altri alla loro pazzia attraverso la Disciplina che li caratterizza, la Demenza. Il mondo appare molto differente ai Malkavian da come appare ai clan \"sani\" sebbene l'estensione della pazzia dei Malkavian dipende dall'individuo. Una benedizione e una maledizione, l'insanita' di un Malkavian puo' aiutarlo o ingannarlo, dipende da quanto combattono contro la loro natura. I Malkavian partono con un bonus di +2 in Investigare."
+			"ShortDescription"		"
+Vantaggi: Perspicacia, +2 in Investigare."
+			"ShortPenaltyDescription"	"Svantaggi: Pazzia."
+		}
+
+		General
+		{
+			"Clan"			"Malkavian"
+			"M_Body0"		"models/character/pc/male/malkavian/armor0/Malkavian_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/malkavian/armor1/Malkavian_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/malkavian/armor2/Malkavian_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/malkavian/armor0/Malkavian_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/malkavian/armor1/Malk_girl_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/malkavian/armor2/Malk_girl_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/malkavian/v_malkavian_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/malkavian/v_malkavian_fem_hands.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Subtly Insane, Well Educated, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head"
+			"ClanEffect"		"Clan (Malkavian)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_malkavian"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"3"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Mental_Social_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Malkavian_CharGen"
+			"Default_AutoLevel_Template"	"Malkavian_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Knowledges_Skills_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dementation"		"1"
+			"Obfuscate"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"+20"
+				"Malkavian"		"+20"
+				"Nosferatu"		"+28"
+				"Toreador"		"0"
+				"Tremere"		"+5"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Nosferatu"
+			"Name"				"Nosferatu"
+			"Description"			"Orribili, scheletrici e potenti. Anche in un mondo di mostri si mettono in risalto i Nosferatu. L'Abbraccio piega e deforma, forzandoli a cercare il santuario sotterraneo. I Nosferatu sono maestri dell'ombra. A causa della loro maledizione, i Nosferatu hanno una Seduzione pari a 0 e non possono incrementarla e nascondono la loro esistenza ai comuni umani. Avendo condiviso l'oscurita' con i parassiti per lungo tempo, i vampiri del Clan Nosferatu sono capaci di ricevere sangue extra dai topi."
+			"ShortDescription"		"
+Vantaggi: Sangue Extra quando ti nutri di ratti. I ratti non scappano."	// changed by wesp
+			"ShortPenaltyDescription"	"Svantaggi: Seduzione massima 0. Un viso mostruoso puo' causare una violazione della Masquerade."
+		}
+
+		General
+		{
+			"Clan"			"Nosferatu"
+			"M_Body0"		"models/character/pc/male/nosferatu/armor0/Nosferatu.mdl"
+			"M_Body1"		"models/character/pc/male/nosferatu/armor1/Nosferatu_Male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/nosferatu/armor2/Nosferatu_Male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/nosferatu/armor0/nosferatu_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/nosferatu/armor1/nosferatu_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/nosferatu/armor2/nosferatu_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/nosferatu/v_nosferatu_male_hands.mdl"
+			"F_Hands"		"models/hands/female/nosferatu/v_nosferatu_fem_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Well Educated, Presentable, Black-Hearted, Avid RPG Fan, Ex-cop, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Nosferatu)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_nosferatu"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"4"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"0"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Nosferatu_CharGen"
+			"Default_AutoLevel_Template"	"Nosferatu_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Animalism"		"1"
+			"Obfuscate"		"1"
+			"Potence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+8"
+				"Gangrel"		"+27"
+				"Malkavian"		"+10"
+				"Nosferatu"		"+35"
+				"Toreador"		"-27"
+				"Tremere"		"-10"
+				"Ventrue"		"-8"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Toreador"
+			"Name"				"Toreador"
+			"Description"			"I Toreador si considerano artisti e visionari, e apprezzano la mentalita' d'alta societa' che la Camarilla rafforza. Di tutti i clan, i Toreador sono i piu' legati al mondo mortale attraverso l'arte e l'intrattenimento. I Toreador sono creature bellissime, snelle e seducenti, che si muovono quasi senza sforzo nella societa' dei viventi. L'empatia dei Toreador e' sia un dono che un peso. Tutte le variazioni di Umanita' sono raddoppiate."	// changed by wesp
+			"ShortDescription"		"
+Vantaggi: I guadagni di Umanita' sono raddoppiati. Aumentare l'Umanita' costa meno esperienza. Presenza completa nei dialoghi."	// changed by wesp
+			"ShortPenaltyDescription"	"Svantaggi: Le perdite di Umanita' sono raddoppiate."	// changed by wesp
+		}
+
+		General
+		{
+			"Clan"			"Toreador"
+			"M_Body0"		"models/character/pc/male/toreador/armor0/toreador_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/toreador/armor1/toreador_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/toreador/armor2/toreador_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/toreador/armor0/toreador_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/toreador/armor1/toreador_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/toreador/armor2/toreador_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/toreador/v_toreador_male_hands.mdl"
+			"F_Hands"		"models/hands/female/toreador/v_toreador_fem_hands.mdl"	// restored by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//	wesp		"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Starving Artist, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Toreador)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_toreador"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"5"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Social_Mental_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Toreador_CharGen"
+			"Default_AutoLevel_Template"	"Toreador_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Knowledges_Skills"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Celerity"		"1"
+			"Presence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"+5"
+				"Malkavian"		"+20"
+				"Nosferatu"		"-15"
+				"Toreador"		"+20"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Tremere"
+			"Name"				"Tremere"
+			"Description"			"Stregoni del sangue nati dai rituali mistici e da diavolerie varie, i Tremere sono gli ultimi nella graduatoria dei clan fidati della Camarilla. I rituali trasformano i maghi viventi in mostri, ma in compenso, i vampiri del Clan Tremere hanno sviluppato la Taumaturgia, una potente Disciplina della magia del sangue. Il clan custodisce gelosamente i propri segreti e sono i soli Fratelli a saperla usare. I Tremere non possono incrementare gli Attributi Fisici oltre i 4 punti."
+			"ShortDescription"		"
+Vantaggi: Taumaturgia. Puo' usare Dominazione nei dialoghi."
+		}
+
+		General
+		{
+			"Clan"			"Tremere"
+			"M_Body0"		"models/character/pc/male/tremere/armor0/tremere_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/tremere/armor1/tremere_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/tremere/armor2/tremere_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/tremere/armor0/tremere_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/tremere/armor1/tremere_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/tremere/armor2/tremere_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/tremere/v_tremere_male_hands.mdl"
+			"F_Hands"		"models/hands/female/tremere/v_tremere_fem_hands.mdl"	// restored by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//	wesp		"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Affinity for Magic, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Tremere)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_tremere"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"6"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Tremere_CharGen"
+			"Default_AutoLevel_Template"	"Tremere_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dominate"		"1"
+			"Thaumaturgy"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"-10"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"-10"
+				"Tremere"		"+20"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Ventrue"
+			"Name"				"Ventrue"
+			"Description"			"Giustamente nei piani alti della societa', i Ventrue sono visti come onorabili e virtuosi leader della Camarilla. Il loro sincero supporto alla Masquerade influenza il mondo dei mortali e dei non morti per aiutarli a mantenere segreta la Masquerade cosi' come il supporto per se' stessi. Il Clan Ventrue e' un esclusivo e potente raduno di immortali, anche gli umili iniziati del Clan Ventrue possono aspettarsi speciali trattamenti nella societa' dei Fratelli. Questo regale sangue ha un punto bonus iniziale in Carisma, comunque, non guadagna nutrimento dai barboni e da chi ha poco sangue. I Ventrue non guadagnano punti sangue dagli animali. Nutrirsi su umani spregevoli - prostitute e senza casa - puo' causare il rigurgito."
+			"ShortDescription"		"
+Vantaggi: Dominazione completa nei dialoghi. Puo' usare Presenza nei dialoghi."	// changed by wesp
+		}
+
+		General
+		{
+			"Clan"			"Ventrue"
+			"M_Body0"		"models/character/pc/male/ventrue/armor0/ventrue_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/ventrue/armor1/ventrue_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/ventrue/armor2/ventrue_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/ventrue/armor0/ventrue_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/ventrue/armor1/ventrue_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/ventrue/armor2/ventrue_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/ventrue/v_ventrue_male_hands.mdl"
+			"F_Hands"		"models/hands/female/ventrue/v_ventrue_fem_hands.mdl"	// restored by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//	wesp		"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Black-Hearted, Avid RPG Fan, Generalissimo, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Ventrue)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_ventrue"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"7"
+			"Is_BlueBlood"	"1"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Social_Mental_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred_Ventrue"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Ventrue_CharGen"
+			"Default_AutoLevel_Template"	"Ventrue_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Dominate"		"1"
+			"Fortitude"		"1"
+			"Presence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"-28"
+				"Gangrel"		"-10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"-10"
+				"Toreador"		"+15"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+
+// all clans added with stats and equipment for multiplayer by wesp
+
+ 
+        ClanData
+	{
+		// "No" Clan Doc (i.e., Human/Kine Base)
+
+		Text
+		{
+			"TemplateName"		"mp-condotierre"	// changed by wesp
+			"Name"			"Condotierre"
+			"Description"		"Fondato nel 15esimo secolo, i Condotierri sono un ordine quasi militare creato per il solo scopo di salvaguardare la Societa' di Leopold e i suoi Inquisitori. I Condotierri tendono ad essere reclutati direttamente dall'esercito o dalle agenzie dell'autorita' giudiziaria e sono ben addestrati nelle attuali tecniche di armi da fuoco, misure di sicurezza e combattimento disarmato. Sfortunatamente, i loro secolari sfondi spesso li ostacolano nel capire e accettare la vera fede. Come risultato, la loro Numina tende ad essere significativamente sottosviluppata."
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Condotierre"	// changed by wesp
+			"M_Body"		"models/character/npc/unique/Society_of_Leopold/Average_vampire_hunter/Average_vampire_hunter.mdl"
+			"M_Hands"		"models/hands/male/hunter/v_hunter_male_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/hunter/v_hunter_fem_hands.mdl"	// changed by wesp
+//			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male"
+//			"ClanEffect"		""
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_Condontierre"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"8"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes 	// changed by wesp
+		{
+//			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Condotierre"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+		}
+
+		Abilities	// changed by wesp
+		{
+//			"Ability_Order"		"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+//			"Occult"		"0"
+		}
+
+		//	Disciplines
+
+		//	Numina
+		Numina
+		{
+			"Shield_of_Faith"	"1"	// changed by wesp
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Blood_Healing"		"1"	// changed by wesp
+		}
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		// "No" Clan Doc (i.e., Human/Kine Base)
+
+		Text
+		{
+			"TemplateName"		"mp-inquisitor"	// changed by wesp
+			"Name"			"Inquisitore"
+			"Description"		"Piu' di semplici cacciatori di vampiri, gli Inquisitori sono devoti alla crociata per la sradicazione dei soprannaturali sulla terra. Posseggono lo zelo religioso cosi' come una salda fedelta' alla Societa' di Leopold, gli Inquisitori sono pericolosi predatori timorosi del Diavolo piu' che degli umani. La loro fede gli permette livelli alti di Numina e tendono ad essere particolarmente abili nel maneggiare armi da mischia."
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Inquisitor"	// changed by wesp
+			"M_Body"		"models/character/npc/unique/Society_of_Leopold/elite_hunter/elite_hunter.mdl"
+			"M_Hands"		"models/hands/male/hunter/v_hunter_male_hands.mdl"	// changed by wesp
+//			"F_Hands"		"models/hands/female/hunter/v_hunter_fem_hands.mdl"
+//			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"	// changed by wesp
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male"
+//			"ClanEffect"		""
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_GladiusDei"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"9"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes	// changed by wesp
+		{
+//			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Inquisitor"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+		}
+
+		Abilities	// changed by wesp
+		{
+//			"Ability_Order"		"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+//			"Occult"		"0"
+		}
+
+		//	Disciplines
+
+		//	Numina
+		Numina
+		{
+			"Shield_of_Faith"	"1"	// changed by wesp
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Blood_Healing"		"1"	// changed by wesp
+		}
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		// "No" Clan Doc (i.e., Human/Kine Base)
+
+		Text
+		{
+			"TemplateName"		"mp-mercenary"	// changed by wesp
+			"Name"			"Mercenario"	// changed by wesp
+			"Description"		"Per inseguire i non morti in zone dove i loro fratelli non possono entrare, la Societa' di Leopoldo impiega donne mercenarie. Queste donne dure sono normalmente di formazione ex-militare o delle forze dell'ordine e sono abbastanza abituate alle moderne armi da fuoco, alla tecnologia di sicurezza e ai combattimenti corpo a corpo. A causa della loro natura avida, sono solitamente lontane dal comprendere il profondo fondamento religioso della Societa', il che significa che la loro Numina non e' all'altezza dei poteri dei veri credenti."	// added by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Mercenary"	// changed by wesp
+			"F_Body"		"models/character/npc/unique/Society_of_Leopold/Female_Hunter/Vampire_Hunter_Chick.mdl"	// changed by wesp
+//			"M_Hands"		"models/hands/male/hunter/v_hunter_male_hands.mdl"
+			"F_Hands"		"models/hands/female/hunter/v_hunter_fem_hands.mdl"	// changed by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"	// changed by wesp
+			"Gender"		"Female"
+//			"ClanEffect"		""
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"10"
+			"special_health_gfx"	"1"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes	// changed by wesp
+		{
+//			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Mercenary"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+		}
+
+		Abilities	// changed by wesp
+		{
+//			"Ability_Order"		"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+//			"Occult"		"0"
+		}
+
+		//	Disciplines
+
+		//	Numina
+		Numina
+		{
+			"Shield_of_Faith"	"1"	// changed by wesp
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Blood_Healing"		"1"	// changed by wesp
+		}
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-brujah"	// changed by wesp
+			"Name"				"Brujah"
+			"Description"			"Bruja sono idealisti appassionati e ribelli, piu' propensi a combattere per i loro diritti che a scrivere canzoni di protesta. Nella vita, la maggior parte dei Bruja cercava il cambiamento sociale, e nei non-morti la maggior parte dei membri del clan cercava comunemente la creazione di un'utopia vampirica. Come radicali militanti, sono rinomati per le loro capacita' di combattimento, ma sono anche piu' inclini alla frenesia a causa del loro sangue caldo, per cosi' dire. Ricevono un +1 alla loro impresa disarmata, ma sono penalizzati con un -2 a tutti i controlli di frenesia, a causa della loro natura zelante."
+			"ShortDescription"		"
+Vantaggio: Guadagna +1 a Disarmato. Puo' usare Presenza nei dialoghi."	// changed by wesp
+		}
+
+		General
+		{
+			"Clan"			"Brujah"
+			"M_Body0"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/brujah/armor1/brujah_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/brujah/armor2/brujah_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/brujah/armor1/brujah_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/brujah/armor2/brujah_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"M_Hands"		"models/hands/male/brujah/v_brujah_male_hands.mdl"	// restored by wesp
+//			"F_Hands"		"models/hands/female/brujah/v_brujah_fem_hands.mdl"
+//	wesp		"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Brujah)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_brujah"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"1"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+//"Max_Health"				"10"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Brujah"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Brujah_CharGen"
+			"Default_AutoLevel_Template"	"Brujah_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Skills_Knowledges"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Celerity"		"1"
+			"Potence"		"1"
+			"Presence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+20"
+				"Gangrel"		"+10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"+40"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-gangrel"	// changed by wesp
+			"Name"				"Gangrel"
+			"Description"			"I Gangrel sono dei solitari selvaggi che sono i piu' in sintonia con la Bestia Interiore, permettendo loro di trasformarsi in forme piu' bestiali. Di natura nomade, i Gangrel si preoccupano poco della politica vampiresca e preferiscono abitare e cacciare ai margini della societa'. A causa della loro natura animalesca, ricevono un +5 alla Forza, alla Resistenza e all'Intelligenza durante la frenesia. Tuttavia, a causa della loro natura selvaggia, i Gangrel ricevono un -1 su tutti i controlli della frenesia."
+			"ShortDescription"		"
+Vantaggi: +5 alla forza, all'ingegno e alla resistenza durante la frenesia."
+			"ShortPenaltyDescription"	"Svantaggi: -1 su tutti i controlli di frenesia."
+		}
+
+		General
+		{
+			"Clan"			"Gangrel"
+			"M_Body0"		"models/character/pc/male/gangrel/armor_0/Gangrel_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/gangrel/armor_1/Gangrel_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/gangrel/armor_2/Gangrel_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/gangrel/armor0/Gangrel_female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/gangrel/armor1/Gangrel_female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/gangrel/armor2/Gangrel_female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/gangrel/v_gangrel_male_hands.mdl"	// restored by wesp
+			"F_Hands"		"models/hands/female/gangrel/v_gangrel_fem_hands.mdl"	// restored by wesp
+//	wesp		"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//	wesp		"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Close to the Beast, Black-Hearted, Avid RPG Fan, Eco-Terrorist Hacker, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Gangrel)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+//			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_gangrel"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"2"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Gangrel"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Gangrel_CharGen"
+			"Default_AutoLevel_Template"	"Gangrel_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Talents_Knowledges"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Animalism"		"1"
+			"Fortitude"		"1"
+			"Protean"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+15"
+				"Gangrel"		"+20"
+				"Malkavian"		"+5"
+				"Nosferatu"		"+30"
+				"Toreador"		"-10"
+				"Tremere"		"-15"
+				"Ventrue"		"-10"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-malkavian"	// changed by wesp
+			"Name"				"Malkavian"
+			"Description"			"I Malkaviani sono conosciuti come Lunatici per la loro capacita' di sentire voci di \"intuizione\" e di sottoporre gli altri alla loro pazzia attraverso la loro Disciplina, la Dementazione. Il mondo appare molto diverso dai Malkavian rispetto ai clan \"sani\", anche se l'entita' della follia di un Malkavian dipende dall'individuo. Una benedizione e una maledizione, la pazzia di un malkaviano li aiutera' o li ostacolera', a seconda di quanto lottano contro la loro natura. I malkaviani iniziano con un bonus di +2 all'ispezione."
+			"ShortDescription"		"
+Vantaggi: Approfondimento, +2 all'ispezione."
+			"ShortPenaltyDescription"	"Penalita': Follia."
+		}
+
+		General
+		{
+			"Clan"			"Malkavian"
+			"M_Body0"		"models/character/pc/male/malkavian/armor0/Malkavian_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/malkavian/armor1/Malkavian_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/malkavian/armor2/Malkavian_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/malkavian/armor0/Malkavian_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/malkavian/armor1/Malk_girl_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/malkavian/armor2/Malk_girl_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/malkavian/v_malkavian_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/malkavian/v_malkavian_fem_hands.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Subtly Insane, Well Educated, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head"
+			"ClanEffect"		"Clan (Malkavian)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_malkavian"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"3"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Mental_Social_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Malkavian"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Malkavian_CharGen"
+			"Default_AutoLevel_Template"	"Malkavian_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Knowledges_Skills_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dementation"		"1"
+			"Obfuscate"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"+20"
+				"Malkavian"		"+20"
+				"Nosferatu"		"+28"
+				"Toreador"		"0"
+				"Tremere"		"+5"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-nosferatu"	// changed by wesp
+			"Name"				"Nosferatu"
+			"Description"			"Orribile, furtivo e potente. Anche in un mondo di mostri i Nosferatu si distinguono. L'Abbraccio torce e deforma i loro tratti fisici, costringendoli a cercare rifugio nel sottosuolo. I Nosferatu sono padroni delle ombre. A causa della loro maledizione, i Nosferatu hanno una Seduzione di 0 e non possono mai elevarla piu' in alto, e nascondono la loro esistenza agli umani comuni. Avendo condiviso l'oscurita' con i parassiti per cosi' tanto tempo, i vampiri del Clan Nosferatu sono in grado di attingere nutrimento extra dai ratti."
+			"ShortDescription"		"
+Vantaggio: I ratti non fuggono da Nosferatu, e Nosferatu guadagna sangue extra quando si nutre di ratti."
+			"ShortPenaltyDescription"	"Penalita': Seduzione massima di 0. Il viso mostruoso puo' causare una violazione del Mascheramento."
+		}
+
+		General
+		{
+			"Clan"			"Nosferatu"
+			"M_Body0"		"models/character/pc/male/nosferatu/armor0/Nosferatu.mdl"
+			"M_Body1"		"models/character/pc/male/nosferatu/armor1/Nosferatu_Male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/nosferatu/armor2/Nosferatu_Male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/nosferatu/armor0/nosferatu_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/nosferatu/armor1/nosferatu_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/nosferatu/armor2/nosferatu_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/nosferatu/v_nosferatu_male_hands.mdl"
+			"F_Hands"		"models/hands/female/nosferatu/v_nosferatu_fem_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Well Educated, Presentable, Black-Hearted, Avid RPG Fan, Ex-cop, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Nosferatu)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_nosferatu"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"4"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"0"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Nosferatu"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Nosferatu_CharGen"
+			"Default_AutoLevel_Template"	"Nosferatu_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Animalism"		"1"
+			"Obfuscate"		"1"
+			"Potence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+8"
+				"Gangrel"		"+27"
+				"Malkavian"		"+10"
+				"Nosferatu"		"+35"
+				"Toreador"		"-27"
+				"Tremere"		"-10"
+				"Ventrue"		"-8"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		// "No" Clan Doc (i.e., Human/Kine Base)
+
+		Text
+		{
+			"TemplateName"		"unused1"	// changed by wesp
+			"Name"			"Mercenary"	// changed by wesp
+			"Description"		"To pursuit the undead in areas where their brothers are not allowed to enter, the Society of Leopold employs female mercenaries. These tough women are normally of ex-military or law enforcement background and quite used to modern firearms, security technology, and unarmed fighting. Due to their greedy nature they are usually far from understanding the deep religious foundation of the Society, which as a consequence means that their Numina isn't up to the powers of the real believers."	// added by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Mercenary"	// changed by wesp
+			"F_Body"		"models/character/npc/unique/Society_of_Leopold/Female_Hunter/Vampire_Hunter_Chick.mdl"	// changed by wesp
+//			"M_Hands"		"models/hands/male/hunter/v_hunter_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/hunter/v_hunter_fem_hands.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Female"
+//			"ClanEffect"		""
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"10"
+			"special_health_gfx"	"1"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes	// changed by wesp
+		{
+//			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Mercenary"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+		}
+
+		Abilities	// changed by wesp
+		{
+//			"Ability_Order"		"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+//			"Occult"		"0"
+		}
+
+		//	Disciplines
+
+		//	Numina
+		Numina
+		{
+			"Shield_of_Faith"		"1"	// changed by wesp
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+// changed by wesp 	"Mind_Shield"		"1"
+		}
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		// "No" Clan Doc (i.e., Human/Kine Base)
+
+		Text
+		{
+			"TemplateName"		"unused2"	// changed by wesp
+			"Name"			"Mercenary"	// changed by wesp
+			"Description"		"To pursuit the undead in areas where their brothers are not allowed to enter, the Society of Leopold employs female mercenaries. These tough women are normally of ex-military or law enforcement background and quite used to modern firearms, security technology, and unarmed fighting. Due to their greedy nature they are usually far from understanding the deep religious foundation of the Society, which as a consequence means that their Numina isn't up to the powers of the real believers."	// added by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Mercenary"	// changed by wesp
+			"F_Body"		"models/character/npc/unique/Society_of_Leopold/Female_Hunter/Vampire_Hunter_Chick.mdl"	// changed by wesp
+//			"M_Hands"		"models/hands/male/hunter/v_hunter_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/hunter/v_hunter_fem_hands.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Female"
+//			"ClanEffect"		""
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"10"
+			"special_health_gfx"	"1"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes	// changed by wesp
+		{
+//			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Mercenary"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+		}
+
+		Abilities	// changed by wesp
+		{
+//			"Ability_Order"		"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+//			"Occult"		"0"
+		}
+
+		//	Disciplines
+
+		//	Numina
+		Numina
+		{
+			"Shield_of_Faith"		"1"	// changed by wesp
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+// changed by wesp 	"Mind_Shield"		"1"
+		}
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"unused3"	// changed by wesp
+			"Name"				"Brujah"
+			"Description"			"Brujah are passionate idealists and rebels, more likely to fight for their rights than write protest songs. In life, most Brujah sought social change, and in undeath, most clan members commonly seek the creation of a vampiric Utopia. As militant radicals, they are renowned for their combat skills, but are also more likely to frenzy due to their hot-bloodedness, so to speak. They receive a +1 to their Unarmed feat but are penalized with a -2 to all frenzy checks, due to their zealous natures."
+			"ShortDescription"		"
+Advantage: +1 to Unarmed. Level 1 Presence in dialogue."	// changed by wesp
+			"ShortPenaltyDescription"	"Penalty: -2 on all frenzy checks."
+		}
+
+		General
+		{
+			"Clan"			"Brujah"
+			"M_Body0"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/brujah/armor1/brujah_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/brujah/armor2/brujah_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/brujah/armor1/brujah_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/brujah/armor2/brujah_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+//			"M_Hands"		"models/hands/male/brujah/v_brujah_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/brujah/v_brujah_fem_hands.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Brujah)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_brujah"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"1"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+//"Max_Health"				"10"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Brujah"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Brujah_CharGen"
+			"Default_AutoLevel_Template"	"Brujah_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Skills_Knowledges"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Celerity"		"1"
+			"Potence"		"1"
+			"Presence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+20"
+				"Gangrel"		"+10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"+40"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"unused4"	// changed by wesp
+			"Name"				"Gangrel"
+			"Description"			"Gangrel are wild loners that are the most in tune with the Beast Within, allowing them to shapeshift into more beastly forms. Nomadic in nature, Gangrel care little about vampire politics and prefer to dwell and hunt in the outskirts of society. Because of their animalistic nature, they receive a +5 to Strength, Stamina, and Wits during frenzy. However, because of their inherent feral nature, Gangrel receive a -1 on all frenzy checks."
+			"ShortDescription"		"
+Advantage: +5 to Strength, Wits, and Stamina in frenzy."	// changed by wesp
+			"ShortPenaltyDescription"	"Penalty: -1 on all frenzy checks."
+		}
+
+		General
+		{
+			"Clan"			"Gangrel"
+			"M_Body0"		"models/character/pc/male/gangrel/armor_0/Gangrel_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/gangrel/armor_1/Gangrel_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/gangrel/armor_2/Gangrel_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/gangrel/armor0/Gangrel_female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/gangrel/armor1/Gangrel_female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/gangrel/armor2/Gangrel_female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/gangrel/v_gangrel_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/gangrel/v_gangrel_fem_hands.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Close to the Beast, Black-Hearted, Avid RPG Fan, Eco-Terrorist Hacker, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Gangrel)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+//			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_gangrel"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"2"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Gangrel"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Gangrel_CharGen"
+			"Default_AutoLevel_Template"	"Gangrel_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Talents_Knowledges"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Animalism"		"1"
+			"Fortitude"		"1"
+			"Protean"		"1"
+}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+15"
+				"Gangrel"		"+20"
+				"Malkavian"		"+5"
+				"Nosferatu"		"+30"
+				"Toreador"		"-10"
+				"Tremere"		"-15"
+				"Ventrue"		"-10"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"unused5"	// changed by wesp
+			"Name"				"Malkavian"
+			"Description"			"Malkavians are known as Lunatics because of their ability to hear voices of \"insight\" and subject others to their insanity through their Discipline, Dementation. The world appears much different to the Malkavian than it does to the \"sane\" clans, though the extent of a Malkavian's madness depends on the individual. A blessing and a curse, a Malkavian's insanity will help or hinder them, depending on how much they struggle against their nature. Malkavians start with a +2 bonus to Inspection."
+			"ShortDescription"		"
+Advantage: Insight, +2 to Inspection."
+			"ShortPenaltyDescription"	"Penalty: Madness."
+		}
+
+		General
+		{
+			"Clan"			"Malkavian"
+			"M_Body0"		"models/character/pc/male/malkavian/armor0/Malkavian_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/malkavian/armor1/Malkavian_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/malkavian/armor2/Malkavian_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/malkavian/armor0/Malkavian_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/malkavian/armor1/Malk_girl_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/malkavian/armor2/Malk_girl_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/malkavian/v_malkavian_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/malkavian/v_malkavian_fem_hands.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Subtly Insane, Well Educated, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head"
+			"ClanEffect"		"Clan (Malkavian)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_malkavian"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"3"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Mental_Social_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Malkavian"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Malkavian_CharGen"
+			"Default_AutoLevel_Template"	"Malkavian_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Knowledges_Skills_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dementation"		"1"
+			"Obfuscate"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"+20"
+				"Malkavian"		"+20"
+				"Nosferatu"		"+28"
+				"Toreador"		"0"
+				"Tremere"		"+5"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"unused6"	// changed by wesp
+			"Name"				"Nosferatu"
+			"Description"			"Hideous, skulking, and powerful. Even in a world of monsters the Nosferatu stand out. The Embrace twists and deforms their physical features, forcing them to seek sanctuary underground. Nosferatu are masters of the shadows. Due to their curse, Nosferatu have a Seduction of 0 and can never raise it higher, and they hide their existence from common humans. Having shared the darkness with vermin for so long, vampires of Clan Nosferatu are able to draw extra nourishment from rats."
+			"ShortDescription"		"
+Advantage: Extra blood from rats. Rats do not flee."	// changed by wesp
+			"ShortPenaltyDescription"	"Penalty: Seduction maximum of 0. Monstrous visage can cause a Masquerade violation."
+		}
+
+		General
+		{
+			"Clan"			"Nosferatu"
+			"M_Body0"		"models/character/pc/male/nosferatu/armor0/Nosferatu.mdl"
+			"M_Body1"		"models/character/pc/male/nosferatu/armor1/Nosferatu_Male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/nosferatu/armor2/Nosferatu_Male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/nosferatu/armor0/nosferatu_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/nosferatu/armor1/nosferatu_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/nosferatu/armor2/nosferatu_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/nosferatu/v_nosferatu_male_hands.mdl"
+			"F_Hands"		"models/hands/female/nosferatu/v_nosferatu_fem_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Well Educated, Presentable, Black-Hearted, Avid RPG Fan, Ex-cop, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Nosferatu)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_nosferatu"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"4"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"0"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Nosferatu"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Nosferatu_CharGen"
+			"Default_AutoLevel_Template"	"Nosferatu_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Knowledges_Talents"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Animalism"		"1"
+			"Obfuscate"		"1"
+			"Potence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+8"
+				"Gangrel"		"+27"
+				"Malkavian"		"+10"
+				"Nosferatu"		"+35"
+				"Toreador"		"-27"
+				"Tremere"		"-10"
+				"Ventrue"		"-8"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-toreador"	// changed by wesp
+			"Name"				"Toreador"
+			"Description"			"Toreador si immaginano come artisti e visionari, e apprezzano la mentalita' di alta societa' che la Camarilla rafforza. Tra tutti i clan, i Toreador sono i piu' legati al mondo mortale attraverso l'arte e lo spettacolo. I Toreador sono creature bellissime, snelle e seducenti, e si muovono quasi senza sforzo nella societa' dei vivi. L'empatia dei Toreador e' sia un dono che un peso. Tutti i turni dell'Umanita' sono raddoppiati, ma il Toreador inizia con un bonus di Aspetto di uno."	// changed by wesp
+			"ShortDescription"		"
+Vantaggio: Tutti i guadagni di Umanita' sono raddoppiati. Aumentare l'Umanita' costa meno esperienza. Presenza completa nei dialoghi."
+		}
+
+		General
+		{
+			"Clan"			"Toreador"
+			"M_Body0"		"models/character/pc/male/toreador/armor0/toreador_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/toreador/armor1/toreador_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/toreador/armor2/toreador_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/toreador/armor0/toreador_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/toreador/armor1/toreador_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/toreador/armor2/toreador_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/toreador/v_toreador_male_hands.mdl"
+			"F_Hands"		"models/hands/female/toreador/v_toreador_fem_hands.mdl"	// restored by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//	wesp		"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Starving Artist, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Toreador)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_toreador"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"5"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Social_Mental_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Toreador"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Toreador_CharGen"
+			"Default_AutoLevel_Template"	"Toreador_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Knowledges_Skills"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Celerity"		"1"
+			"Presence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"+5"
+				"Malkavian"		"+20"
+				"Nosferatu"		"-15"
+				"Toreador"		"+20"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-tremere"	// changed by wesp
+			"Name"				"Tremere"
+			"Description"			"Stregoni del sangue nati da rituali mistici e diablerie, i Tremere sono i meno fidati dei clan Camarilla. Il rituale che i Tremere usavano per trasformarsi da maghi viventi in mostri immortali li spogliava delle loro arti magiche. Per compensare, i vampiri del Clan Tremere svilupparono la Taumaturgia, la potente Disciplina della magia del sangue. Il clan ne custodisce gelosamente i segreti e sono gli unici a esercitare questa potente Disciplina. La ricerca della conoscenza arcana viene prima di tutto, e la dipendenza da essa ha indebolito la linea di sangue. Il tremito non puo' innalzare l'Attributo Fisico oltre i quattro punti."	// changed by wesp
+			"ShortDescription"		"
+Vantaggio: Taumaturgia. Puo' usare Dominazione nei dialoghi."
+		}
+
+		General
+		{
+			"Clan"			"Tremere"
+			"M_Body0"		"models/character/pc/male/tremere/armor0/tremere_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/tremere/armor1/tremere_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/tremere/armor2/tremere_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/tremere/armor0/tremere_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/tremere/armor1/tremere_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/tremere/armor2/tremere_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/tremere/v_tremere_male_hands.mdl"
+			"F_Hands"		"models/hands/female/tremere/v_tremere_fem_hands.mdl"	// restored by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Affinity for Magic, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Tremere)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_tremere"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"6"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Tremere"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Tremere_CharGen"
+			"Default_AutoLevel_Template"	"Tremere_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dominate"		"1"
+			"Thaumaturgy"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"-10"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"-10"
+				"Tremere"		"+20"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-ventrue"	// changed by wesp
+			"Name"				"Ventrue"
+			"Description"			"Vere e proprie alte sfere della societa', i Ventrue sono visti come i leader onorevoli e virtuosi dei Camarilla. Essi sostengono con tutto il cuore la Mascherata, influenzando il mondo dei mortali e dei non morti per aiutarli a mantenere la Mascherata e a ottenere il loro sostegno. Il Clan Ventrue e' un raduno esclusivo e potente di immortali, e anche il piu' basso iniziato del Clan Ventrue puo' aspettarsi un trattamento speciale nella societa' dei Kindred. Questa linea di sangue regale inizia con un bonus di Carisma di uno, tuttavia, non riceve alcun nutrimento da chi e' di bassa statura e dal sangue magro. I Ventrue non guadagnano sangue nutrendosi degli animali. Nutrirsi di esseri umani di bassa statura - prostitute e senzatetto - puo' causare il vomito della Ventrue."	// changed by wesp
+			"ShortDescription"		"
+Vantaggio: Dominazione completa nei dialoghi. Puo' usare Presenza nei dialoghi."
+		}
+
+		General
+		{
+			"Clan"			"Ventrue"
+			"M_Body0"		"models/character/pc/male/ventrue/armor0/ventrue_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/ventrue/armor1/ventrue_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/ventrue/armor2/ventrue_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/ventrue/armor0/ventrue_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/ventrue/armor1/ventrue_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/ventrue/armor2/ventrue_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+//			"M_Hands"		"models/hands/male/ventrue/v_ventrue_male_hands.mdl"
+			"F_Hands"		"models/hands/female/ventrue/v_ventrue_fem_hands.mdl"	// restored by wesp
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+//	wesp		"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Black-Hearted, Avid RPG Fan, Generalissimo, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Ventrue)"
+			"FrenzyEffect"		"Frenzy (Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_ventrue"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"7"
+			"Is_BlueBlood"	"1"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Social_Mental_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Ventrue"	// changed by wesp
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	// changed by wesp
+
+			"CharGen_AutoLevel_Template"	"Ventrue_CharGen"
+			"Default_AutoLevel_Template"	"Ventrue_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+//			"Athletics"		"0"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+//			"Animal_Ken"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+//			"Occult"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	// changed by wesp
+///			"Blood_Buff_Dexterity"	"1"
+///			"Blood_Buff_Stamina"	"1"
+///			"Blood_Buff_Strength"	"1"
+			"Corpus_Vampirus"	"1"
+			"Dominate"		"1"
+			"Fortitude"		"1"
+			"Presence"		"1"
+		}
+
+		//	Numina
+
+		//	Reactions
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"-28"
+				"Gangrel"		"-10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"-10"
+				"Toreador"		"+15"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+// multiplayer changes by wesp end
+
+}
+
+// WIP! JLR! Need the other templates (Sabbat, monsters, etc.)!!! (If for nothing other than their reaction tables & starting equipment, etc.)
